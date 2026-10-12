@@ -9,14 +9,14 @@ export const RATINGS = {
   EASY: 4
 };
 
-// 19 Parámetros estándar optimizados de FSRS v4.5
+// 19 Parámetros estándar optimizados de FSRS-5 (open-spaced-repetition)
 export const DEFAULT_FSRS_WEIGHTS = [
-  0.4072, 1.1834, 3.1262, 15.4722, // w0-w3: Estabilidad inicial por calificación (Again, Hard, Good, Easy)
-  7.2102, 0.5316, 1.0651, 0.0234,  // w4-w7: Ajuste y actualización de dificultad
-  1.616, 0.1544, 1.0824,           // w8-w10: Estabilidad en recuerdo exitoso
-  1.9813, 0.0953, 0.2975,          // w11-w13: Estabilidad en olvido (lapse/again)
-  2.2042, 0.2407, 2.9466,          // w14-w16: Parámetros de intervalo y decaimiento
-  0.5034, 0.6567                   // w17-w18: Suavizado y retención
+  0.40255, 1.18385, 3.173, 15.69105, // w0-w3: Estabilidad inicial por calificación (Again, Hard, Good, Easy)
+  7.1949, 0.5345, 1.4604, 0.0046,    // w4-w7: Ajuste y regresión a la media de dificultad
+  1.54575, 0.1192, 1.01925,          // w8-w10: Estabilidad en recuerdo exitoso
+  1.9395, 0.11, 0.29605,             // w11-w13: Estabilidad en olvido (lapse/again)
+  2.2698, 0.2315, 2.9898,            // w14-w16: Ponderaciones de Hard y Easy bonus
+  0.51655, 0.6621                    // w17-w18: Heurística de repasos en el mismo día (Short-term review FSRS-5)
 ];
 
 export const TARGET_RETENTION = 0.90; // 90% de probabilidad de recuerdo deseada para el ENARM
