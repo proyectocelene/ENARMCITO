@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* MODO OFICIAL EXAMEN CIFRHS: Fondo blanco puro, texto negro nítido, máximo contraste */
+  --bg-app: #ffffff;
+  --bg-surface: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f8fafc;
+  --bg-card-hover: #f1f5f9;
+  --text-primary: #000000;
+  --text-secondary: #1e293b;
+  --text-muted: #475569;
+  --border-main: #cbd5e1;
+  --border-subtle: #e2e8f0;
+}
+
+.theme-light {
+  --bg-app: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f1f5f9;
+  --bg-card-hover: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --border-main: #cbd5e1;
+  --border-subtle: #e2e8f0;
+}
+
+.theme-dark {
+  --bg-app: #090d16;
+  --bg-surface: #0f172a;
+  --bg-card: #1e293b;
+  --bg-card-subtle: #0f172a;
+  --bg-card-hover: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --border-main: #334155;
+  --border-subtle: #1e293b;
+}
+
+.theme-enarm-cifrhs {
+  --bg-app: #ffffff;
+  --bg-surface: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f8fafc;
+  --bg-card-hover: #f1f5f9;
+  --text-primary: #000000;
+  --text-secondary: #0f172a;
+  --text-muted: #334155;
+  --border-main: #94a3b8;
+  --border-subtle: #cbd5e1;
+}
+
+/* Tipografía de examen */
+.clinical-text,
+.theme-enarm-cifrhs {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* Transición de colores y fondos en Modo Examen CIFRHS y Modo Claro */
+.theme-enarm-cifrhs,
+.theme-light {
+  background-color: var(--bg-app) !important;
+  color: var(--text-primary) !important;
+}
+
+.theme-enarm-cifrhs .bg-slate-900,
+.theme-light .bg-slate-900 {
+  background-color: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-main) !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+.theme-enarm-cifrhs .bg-slate-950,
+.theme-enarm-cifrhs .bg-slate-950\/60,
+.theme-enarm-cifrhs .bg-slate-950\/70,
+.theme-enarm-cifrhs .bg-slate-950\/80,
+.theme-enarm-cifrhs .bg-slate-950\/90,
+.theme-light .bg-slate-950,
+.theme-light .bg-slate-950\/60,
+.theme-light .bg-slate-950\/70,
+.theme-light .bg-slate-950\/80,
+.theme-light .bg-slate-950\/90 {
+  background-color: var(--bg-card-subtle) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-subtle) !important;
+}
+
+.theme-enarm-cifrhs .bg-slate-800,
+.theme-enarm-cifrhs .bg-slate-800\/20,
+.theme-enarm-cifrhs .bg-slate-800\/30,
+.theme-enarm-cifrhs .bg-slate-800\/40,
+.theme-enarm-cifrhs .bg-slate-800\/50,
+.theme-enarm-cifrhs .bg-slate-800\/60,
+.theme-light .bg-slate-800,
+.theme-light .bg-slate-800\/20,
+.theme-light .bg-slate-800\/30,
+.theme-light .bg-slate-800\/40,
+.theme-light .bg-slate-800\/50,
+.theme-light .bg-slate-800\/60 {
+  background-color: var(--bg-card-hover) !important;
+  color: var(--text-secondary) !important;
+  border-color: var(--border-main) !important;
+}
+
+.theme-enarm-cifrhs .text-white,
+.theme-light .text-white {
+  color: var(--text-primary) !important;
+}
+
+.theme-enarm-cifrhs .text-slate-100,
+.theme-enarm-cifrhs .text-slate-200,
+.theme-enarm-cifrhs .text-slate-300,
+.theme-light .text-slate-100,
+.theme-light .text-slate-200,
+.theme-light .text-slate-300 {
+  color: var(--text-secondary) !important;
+}
+
+.theme-enarm-cifrhs .text-slate-400,
+.theme-enarm-cifrhs .text-slate-500,
+.theme-light .text-slate-400,
+.theme-light .text-slate-500 {
+  color: var(--text-muted) !important;
+}
+
+.theme-enarm-cifrhs .border-slate-800,
+.theme-enarm-cifrhs .border-slate-700,
+.theme-light .border-slate-800,
+.theme-light .border-slate-700 {
+  border-color: var(--border-main) !important;
+}
+
+/* Viñeta clínica en Modo Examen CIFRHS: fondo blanco, marco definido, texto negro nítido */
+.theme-enarm-cifrhs .clinical-text {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  color: #000000 !important;
+}
+
+/* Strikethrough style for crossed-out distractors */
+.option-struck {
+  position: relative;
+  opacity: 0.45;
+  filter: grayscale(0.8);
+}
+
+.option-struck .option-text {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #ef4444;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-card-subtle);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-main);
+  border-radius: 9999px;
+}
