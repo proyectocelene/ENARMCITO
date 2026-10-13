@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -20,7 +21,7 @@ export default {
         }
       },
       fontFamily: {
-        clinical: ["Arial", "system-ui", "sans-serif"],
+        clinical: ["var(--font-clinical)", "Arial", "system-ui", "sans-serif"],
         display: ["Inter", "system-ui", "sans-serif"],
         mono: ["ui-monospace", "SFMono-Regular", "Menlo", "monospace"]
       }

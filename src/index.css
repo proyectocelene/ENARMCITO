@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 :root {
+  /* Variables de Tipografía por Dispositivo */
+  --font-clinical: Arial, sans-serif;
+  --font-size-clinical: 16px;
+  --font-size-options: 15px;
+
   /* MODO OFICIAL EXAMEN CIFRHS: Fondo blanco puro, texto negro nítido, máximo contraste */
   --bg-app: #ffffff;
   --bg-surface: #ffffff;
@@ -10,10 +15,10 @@
   --bg-card-subtle: #f8fafc;
   --bg-card-hover: #f1f5f9;
   --text-primary: #000000;
-  --text-secondary: #1e293b;
-  --text-muted: #475569;
-  --border-main: #cbd5e1;
-  --border-subtle: #e2e8f0;
+  --text-secondary: #0f172a;
+  --text-muted: #334155;
+  --border-main: #94a3b8;
+  --border-subtle: #cbd5e1;
 }
 
 .theme-light {
@@ -49,102 +54,66 @@
   --bg-card-subtle: #f8fafc;
   --bg-card-hover: #f1f5f9;
   --text-primary: #000000;
-  --text-secondary: #0f172a;
-  --text-muted: #334155;
-  --border-main: #94a3b8;
-  --border-subtle: #cbd5e1;
+  --text-secondary: #000000;
+  --text-muted: #1e293b;
+  --border-main: #000000;
+  --border-subtle: #475569;
 }
 
-/* Tipografía de examen */
-.clinical-text,
-.theme-enarm-cifrhs {
-  font-family: Arial, Helvetica, sans-serif !important;
+/* Forzar delimitación nítida de bordes y alto contraste en modo CIFRHS */
+.theme-enarm-cifrhs .border,
+.theme-enarm-cifrhs .border-slate-200,
+.theme-enarm-cifrhs .border-slate-300 {
+  border-color: #334155 !important;
+  border-width: 1.5px !important;
 }
 
-/* Transición de colores y fondos en Modo Examen CIFRHS y Modo Claro */
-.theme-enarm-cifrhs,
-.theme-light {
-  background-color: var(--bg-app) !important;
-  color: var(--text-primary) !important;
+.theme-enarm-cifrhs button,
+.theme-enarm-cifrhs input,
+.theme-enarm-cifrhs select,
+.theme-enarm-cifrhs textarea {
+  border-color: #0f172a !important;
 }
 
-.theme-enarm-cifrhs .bg-slate-900,
-.theme-light .bg-slate-900 {
-  background-color: var(--bg-card) !important;
-  color: var(--text-primary) !important;
-  border-color: var(--border-main) !important;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05) !important;
-}
-
-.theme-enarm-cifrhs .bg-slate-950,
-.theme-enarm-cifrhs .bg-slate-950\/60,
-.theme-enarm-cifrhs .bg-slate-950\/70,
-.theme-enarm-cifrhs .bg-slate-950\/80,
-.theme-enarm-cifrhs .bg-slate-950\/90,
-.theme-light .bg-slate-950,
-.theme-light .bg-slate-950\/60,
-.theme-light .bg-slate-950\/70,
-.theme-light .bg-slate-950\/80,
-.theme-light .bg-slate-950\/90 {
-  background-color: var(--bg-card-subtle) !important;
-  color: var(--text-primary) !important;
-  border-color: var(--border-subtle) !important;
-}
-
-.theme-enarm-cifrhs .bg-slate-800,
-.theme-enarm-cifrhs .bg-slate-800\/20,
-.theme-enarm-cifrhs .bg-slate-800\/30,
-.theme-enarm-cifrhs .bg-slate-800\/40,
-.theme-enarm-cifrhs .bg-slate-800\/50,
-.theme-enarm-cifrhs .bg-slate-800\/60,
-.theme-light .bg-slate-800,
-.theme-light .bg-slate-800\/20,
-.theme-light .bg-slate-800\/30,
-.theme-light .bg-slate-800\/40,
-.theme-light .bg-slate-800\/50,
-.theme-light .bg-slate-800\/60 {
-  background-color: var(--bg-card-hover) !important;
-  color: var(--text-secondary) !important;
-  border-color: var(--border-main) !important;
-}
-
-.theme-enarm-cifrhs .text-white,
-.theme-light .text-white {
-  color: var(--text-primary) !important;
-}
-
-.theme-enarm-cifrhs .text-slate-100,
-.theme-enarm-cifrhs .text-slate-200,
-.theme-enarm-cifrhs .text-slate-300,
-.theme-light .text-slate-100,
-.theme-light .text-slate-200,
-.theme-light .text-slate-300 {
-  color: var(--text-secondary) !important;
-}
-
-.theme-enarm-cifrhs .text-slate-400,
-.theme-enarm-cifrhs .text-slate-500,
-.theme-light .text-slate-400,
-.theme-light .text-slate-500 {
-  color: var(--text-muted) !important;
-}
-
-.theme-enarm-cifrhs .border-slate-800,
-.theme-enarm-cifrhs .border-slate-700,
-.theme-light .border-slate-800,
-.theme-light .border-slate-700 {
-  border-color: var(--border-main) !important;
-}
-
-/* Viñeta clínica en Modo Examen CIFRHS: fondo blanco, marco definido, texto negro nítido */
-.theme-enarm-cifrhs .clinical-text {
-  font-family: Arial, Helvetica, sans-serif !important;
-  font-size: 16px !important;
-  line-height: 1.6 !important;
+.theme-enarm-cifrhs .bg-slate-50,
+.theme-enarm-cifrhs .bg-slate-100 {
+  background-color: #f1f5f9 !important;
   color: #000000 !important;
 }
 
-/* Strikethrough style for crossed-out distractors */
+html,
+body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Aplicación global e inmediata de la tipografía seleccionada */
+html,
+body,
+#root,
+.clinical-text,
+.font-clinical,
+.clinical-case-text,
+.clinical-option-text {
+  font-family: var(--font-clinical) !important;
+}
+
+.clinical-case-text {
+  font-size: var(--font-size-clinical) !important;
+  line-height: 1.6;
+}
+
+.clinical-option-text {
+  font-size: var(--font-size-options) !important;
+  line-height: 1.5;
+}
+
+/* Tachado de distractores con línea roja nítida */
 .option-struck {
   position: relative;
   opacity: 0.45;
@@ -157,15 +126,86 @@
   text-decoration-color: #ef4444;
 }
 
-/* Custom scrollbar */
+/* Scrollbar estilizada */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--bg-card-subtle);
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--border-main);
+  background: #94a3b8;
   border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+
+/* Ocultar barra de desplazamiento en ribbons horizontales móviles manteniendo scroll suave */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* FÓRMULAS LATEX (KATEX): Garantizar que permanezcan en un solo renglón sin romperse */
+.katex-display {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  padding: 0.35rem 0.5rem !important;
+  margin: 0.5rem 0 !important;
+  white-space: nowrap !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+.katex {
+  white-space: nowrap !important;
+  font-size: 1.05em !important;
+}
+
+.katex .base {
+  white-space: nowrap !important;
+}
+
+/* ESTÉTICA PAPER OVER PAPER / SKEUOMORPHIC CLÍNICA CON ALTO CONTRASTE */
+.paper-card {
+  background-color: var(--bg-card);
+  border: 2px solid var(--border-main);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+  border-radius: 1rem;
+}
+
+.paper-sheet {
+  box-shadow: 
+    0 1px 1px rgba(0, 0, 0, 0.05),
+    0 2px 2px rgba(0, 0, 0, 0.05),
+    0 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Prevención estricta de desborde horizontal global en celulares */
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden !important;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Soporte seguro para curvas y notch de pantallas móviles */
+@supports (padding: max(0px)) {
+  body {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
 }
