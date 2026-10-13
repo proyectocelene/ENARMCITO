@@ -16,6 +16,7 @@ import {
   parseAndValidateSimulatorJson,
   generateSimulatorAuditReport
 } from "../../services/telemetryEngine";
+import { getBundledSimulator } from "../../data/simulators/index.js";
 import { MarkdownRenderer } from "../Common/MarkdownRenderer";
 import { 
   Timer, 
@@ -46,7 +47,10 @@ export function SimulatorRunner({ topic, onBackToHub }) {
   const { showToast } = useToast();
   const isDark = theme === "dark";
 
-  const simData = topic.simulation || { questions: [], duration_minutes: 30, seconds_per_question: 72 };
+  const bundledSim = getBundledSimulator(topic.code || topic.id);
+  const simData = (topic.simulation?.questions?.length > 0)
+    ? topic.simulation
+    : (bundledSim || topic.simulation || { questions: [], duration_minutes: 30, seconds_per_question: 72 });
   const questions = simData.questions || [];
 
   // Modo JSON Studio / Creador
@@ -548,6 +552,22 @@ export function SimulatorRunner({ topic, onBackToHub }) {
                     </span>
                   </div>
 
+                  {!isCorrect && (
+                    <div className="text-[11px] text-rose-700 dark:text-rose-400 font-semibold pt-1">
+                      🎯 <strong>Diagnóstico de Falla:</strong>{" "}
+                      {(() => {
+                        const trapText = typeof q.distractor_trap === "object" ? q.distractor_trap.trap_type : String(q.distractor_trap || "");
+                        const lower = trapText.toLowerCase();
+                        if (lower.includes("paciente incorrecto") || lower.includes("comorbilidad") || lower.includes("contraindicaci")) {
+                          return "Condición Facilitadora (Antecedentes / Comorbilidades / Alergia / TFG)";
+                        } else if (lower.includes("cierre prematuro") || lower.includes("anclaje") || lower.includes("espectro")) {
+                          return "Fallo (Mecanismo Fisiopatológico / Sesgo de Anclaje Prematuro)";
+                        }
+                        return "Consecuencia (Clínica / Laboratorios / Escalonamiento GPC)";
+                      })()}
+                    </div>
+                  )}
+
                   {q.distractor_trap && (
                     <div className="text-[11px] text-amber-800 dark:text-amber-300 pt-1">
                       ⚠️ <strong>Trampa del Distractor:</strong> {typeof q.distractor_trap === "object" ? `${q.distractor_trap.trap_type}: ${q.distractor_trap.explanation}` : q.distractor_trap}
@@ -555,8 +575,16 @@ export function SimulatorRunner({ topic, onBackToHub }) {
                   )}
 
                   {q.gpc_algorithm_step && (
-                    <div className="text-[11px] text-slate-600 dark:text-slate-400 pt-1 border-t border-slate-200 dark:border-slate-800">
+                    <div className="text-[11px] text-slate-700 dark:text-slate-300 pt-1 border-t border-slate-200 dark:border-slate-800">
                       📜 <strong>Ruta Algoritmo GPC:</strong> {q.gpc_algorithm_step}
+                    </div>
+                  )}
+
+                  {q.anki_flashcard && !isCorrect && (
+                    <div className="text-[11px] text-purple-700 dark:text-purple-300 pt-1 border-t border-slate-200 dark:border-slate-800 bg-purple-500/5 p-2 rounded-lg">
+                      🎴 <strong>Micro-Viñeta Anki (3 líneas):</strong>
+                      <div className="font-medium mt-0.5">• <em>Pregunta:</em> {q.anki_flashcard.front}</div>
+                      <div className="font-bold text-purple-900 dark:text-purple-200">• <em>Perla GPC:</em> {q.anki_flashcard.back}</div>
                     </div>
                   )}
                 </div>

@@ -1,0 +1,291 @@
+{
+  "topic_code": "D01",
+  "code": "D01",
+  "topic_id": "D01_MI_Diabetes_Mellitus_CAD_EHH",
+  "topic": "Diabetes Mellitus Tipo 2, CAD y EHH",
+  "specialty": "MI",
+  "normativa": "GPC-IMSS-718-18 / NOM-015-SSA2-2010",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "q1",
+      "index": 1,
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Femenina de 52 años, con IMC de 32 kg/m², acude a consulta de medicina familiar por astenia y poliuria de 2 meses de evolución. En la exploración física se observa acantosis nigricans en cuello, TA 130/80 mmHg, FC 74 lpm. La paciente se encuentra asintomática para urgencia metabólica y refiere ayuno de 9 horas.",
+      "question_text": "¿Cuál es la prueba inicial de elección recomendada por la GPC mexicana para el abordaje diagnóstico de esta paciente?",
+      "options": {
+        "A": "Curva de tolerancia a la glucosa oral con carga de 75 gramos",
+        "B": "Glucosa plasmática en ayuno",
+        "C": "Hemoglobina glucosilada (HbA1c) por método estandarizado",
+        "D": "Glucosa capilar casual con glucómetro de tira reactiva"
+      },
+      "correctAnswer": "B",
+      "distractor_types": {
+        "A": "Distractor de Escalón (Prueba confirmatoria en caso de glucosa en ayuno alterada 100-125 mg/dL)",
+        "B": "Respuesta Correcta (Estudio inicial más accesible, costo-efectivo y recomendado en primer nivel)",
+        "C": "Distractor de Condición (Válido pero no de primera elección en tamizaje poblacional abierto por costo/estandarización)",
+        "D": "Distractor de Espectro Cercano (Útil en detección rápida, pero no diagnóstica según GPC)"
+      },
+      "dato_pivote_oculto": "Paciente ambulatoria con ayuno adecuado sin criterio de urgencia: la glucosa plasmática en ayuno en laboratorio es el estudio inicial.",
+      "justificacion_gpc": "La GPC IMSS-718-18 establece que la determinación de glucosa plasmática en ayuno (con al menos 8 horas de ayuno) es la prueba inicial de elección para el diagnóstico de DM2 en el primer nivel de atención.",
+      "distractor_autopsies": {
+        "A": "La CTGO se reserva como segundo paso ante valores de glucosa en ayuno entre 100 y 125 mg/dL (glucosa alterada en ayuno).",
+        "C": "La HbA1c requiere metodología certificada NGSP/DCCT no siempre accesible en centros de salud; la glucosa en ayuno sigue siendo el estudio inicial de elección.",
+        "D": "El dextrostix o tira reactiva capilar solo tiene valor de tamizaje rápido o monitoreo, nunca criterio diagnóstico formal."
+      }
+    },
+    {
+      "id": "q2",
+      "index": 2,
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "1_Memoria_Directa",
+      "vignette": "Masculino de 48 años con sospecha de DM2 presenta glucosa plasmática en ayuno de 118 mg/dL en dos ocasiones consecutivas. No tiene síntomas cardinales de diabetes. El médico decide realizar la prueba estándar de oro para reclasificar su estado metabólico de acuerdo a la normativa nacional.",
+      "question_text": "¿Cuál es el estándar de oro diagnóstico para confirmar o descartar intolerancia a los carbohidratos o diabetes franca?",
+      "options": {
+        "A": "Curva de tolerancia oral a la glucosa con 75 g de glucosa anhidra a las 2 horas",
+        "B": "Péptido C en suero y anticuerpos anti-GAD65",
+        "C": "Índice HOMA-IR en ayuno",
+        "D": "Hemoglobina glucosilada seriada trimestral"
+      },
+      "correctAnswer": "A",
+      "distractor_types": {
+        "A": "Respuesta Correcta (Gold Standard para diagnóstico de tolerancia a la glucosa)",
+        "B": "Distractor por Condición (Útil para diferenciar DM1 vs DM2/LADA, no para definir DM2 estándar)",
+        "C": "Distractor de Espectro Cercano (Mide resistencia a la insulina, no diagnostica diabetes)",
+        "D": "Distractor de Escalón (Monitoreo de control, no el estándar de oro diagnóstico)"
+      },
+      "dato_pivote_oculto": "Valores en zona gris (100-125 mg/dL): la CTGO de 2 horas con 75g es el estándar definitivo.",
+      "justificacion_gpc": "De acuerdo con la GPC y ADA/OMS, la prueba de tolerancia a la glucosa oral de 75 gramos a las 2 horas (≥200 mg/dL para DM2, 140-199 mg/dL para intolerancia) constituye el estándar de oro en casos dudosos.",
+      "distractor_autopsies": {
+        "B": "Péptido C se usa ante sospecha de falla de célula beta o DM1/LADA, no en tamizaje.",
+        "C": "HOMA-IR es parámetro de investigación o síndrome metabólico, no define DM2.",
+        "D": "HbA1c puede verse afectada por hemoglobinopatías, anemia y uremia; no sustituye a la CTGO como estándar de oro funcional."
+      }
+    },
+    {
+      "id": "q3",
+      "index": 3,
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Femenina de 45 años, recién diagnosticada con DM2. Presenta HbA1c de 7.8%, IMC de 29 kg/m², creatinina sérica de 0.8 mg/dL (TFG calculada por CKD-EPI: 92 mL/min/1.73m²), sin antecedentes de enfermedad cardiovascular ni insuficiencia hepática. Niega síntomas de descompensación aguda.",
+      "question_text": "¿Cuál es el fármaco de primera línea que debe indicarse de forma conjunta con cambios en el estilo de vida?",
+      "options": {
+        "A": "Glibenclamida 5 mg cada 24 horas",
+        "B": "Metformina 850 mg vía oral con titulación progresiva",
+        "C": "Empagliflozina 10 mg cada 24 horas",
+        "D": "Insulina NPH 10 UI subcutánea al acostarse"
+      },
+      "correctAnswer": "B",
+      "distractor_types": {
+        "A": "Distractor de Escalón (Sulfonilurea de rescate o segunda línea, alto riesgo de hipoglucemia)",
+        "B": "Respuesta Correcta (Primera línea absoluta en monoterapia inicial con TFG conservada)",
+        "C": "Distractor por Condición (Primera línea si tuviera falla cardíaca o ERC con proteinuria, no en este caso sin comorbilidad)",
+        "D": "Distractor de Espectro Cercano (Indicada si HbA1c >9.0-10% con catabolismo, no en HbA1c 7.8%)"
+      },
+      "dato_pivote_oculto": "TFG normal (>60), sin falla cardíaca y HbA1c < 9%: Metformina es la reina indiscutible.",
+      "justificacion_gpc": "La GPC IMSS-718-18 establece que la Metformina es el fármaco de primera elección en todo paciente con DM2 recién diagnosticada, salvo contraindicación formal (TFG < 30 mL/min).",
+      "distractor_autopsies": {
+        "A": "Las sulfonilureas causan hipoglucemia y ganancia ponderal; ya no son primera elección de inicio.",
+        "C": "Los iSGLT2 son excelentes en falla cardíaca o ERC, pero en monoterapia inicial de bajo riesgo la metformina es la opción institucional costo-efectiva.",
+        "D": "La insulina de inicio se reserva para pacientes con pérdida de peso no explicada, cetonuria o HbA1c ≥ 9% sintomáticos."
+      }
+    },
+    {
+      "id": "q4",
+      "index": 4,
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Masculino de 67 años con DM2 de 12 años de evolución y antecedente de cardiopatía isquémica. En sus paraclínicos actuales se documenta creatinina sérica de 2.6 mg/dL, con una Tasa de Filtración Glomerular (TFG) estimada en 22 mL/min/1.73m². Su HbA1c es de 8.8%. Actualmente toma metformina 850 mg cada 12 h y glibenclamida 5 mg cada 12 h.",
+      "question_text": "¿Cuál es la conducta terapéutica prioritaria respecto al manejo farmacológico hipoglucemiante de acuerdo a su función renal?",
+      "options": {
+        "A": "Reducir la dosis de metformina al 50% y continuar glibenclamida a dosis habitual",
+        "B": "Suspender de inmediato metformina y glibenclamida; transicionar a insulina o inhibidor de DPP-4 ajustado",
+        "C": "Iniciar empagliflozina 25 mg para protección renal y suspender glibenclamida",
+        "D": "Continuar metformina pero solicitar niveles plasmáticos de ácido láctico cada 4 semanas"
+      },
+      "correctAnswer": "B",
+      "distractor_types": {
+        "A": "Distractor por Condición (Metformina está absolutamente contraindicada con TFG < 30 mL/min por acidosis láctica)",
+        "B": "Respuesta Correcta (Suspensión obligatoria por TFG 22 mL/min y riesgo de hipoglucemia severa)",
+        "C": "Distractor de Escalón (iSGLT2 no tiene potencia hipoglucemiante con TFG < 30, aunque preserve riñón)",
+        "D": "Distractor de Espectro Cercano (Conducta negligente; no se monitoriza lactato esperando acidosis)"
+      },
+      "dato_pivote_oculto": "TFG = 22 mL/min: Punto de corte absoluto de la GPC donde metformina (<30) y sulfonilureas están proscritas.",
+      "justificacion_gpc": "GPC IMSS-718-18: La metformina debe suspenderse si la TFG es menor a 30 mL/min/1.73m² debido al riesgo letal de acidosis láctica. La glibenclamida tiene depuración renal y causa hipoglucemias prolongadas graves en ERC avanzada.",
+      "distractor_autopsies": {
+        "A": "El ajuste al 50% de metformina aplica entre 30 y 44 mL/min; por debajo de 30 mL/min se suspende por completo.",
+        "C": "Los iSGLT2 pierden eficacia glucémica por debajo de 30-45 mL/min de TFG.",
+        "D": "No se vigila lactato; la contraindicación es formal e inapelable."
+      }
+    },
+    {
+      "id": "q5",
+      "index": 5,
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A 24-year-old female with a history of Type 1 Diabetes Mellitus is brought to the emergency department with abdominal pain, nausea, vomiting, and tachypnea (Kussmaul breathing). Vital signs: BP 90/60 mmHg, HR 118 bpm, RR 28 rpm, SpO2 96%. Arterial blood gas analysis reveals: pH 7.12, HCO3 9 mEq/L, pCO2 24 mmHg. Serum glucose is 380 mg/dL, with positive serum ketones and an anion gap of 18 mEq/L.",
+      "question_text": "According to clinical guidelines, how should this patient's acute diabetic ketoacidosis (DKA) be classified regarding severity?",
+      "options": {
+        "A": "Mild DKA",
+        "B": "Moderate DKA",
+        "C": "Severe DKA",
+        "D": "Hyperosmolar Hyperglycemic State"
+      },
+      "correctAnswer": "B",
+      "distractor_types": {
+        "A": "Distractor de Escalón (Mild DKA requiere pH 7.25-7.30 y HCO3 15-18)",
+        "B": "Respuesta Correcta (Moderate DKA se define por pH 7.00-7.24 y HCO3 10-15 o <10 con sensorio alerta/somnoliento)",
+        "C": "Distractor de Espectro Cercano (Severe DKA requiere pH < 7.00 o HCO3 < 10 con estupor/coma)",
+        "D": "Distractor por Condición (EHH requiere osmolaridad >320 mOsm/kg y glucosa >600 sin acidosis severa)"
+      },
+      "dato_pivote_oculto": "pH de 7.12 y HCO3 de 9 mEq/L en paciente orientada/taquipneica: Criterio ADA/GPC de Cetoacidosis Moderada.",
+      "justificacion_gpc": "Criterios diagnósticos de CAD: Leve (pH 7.25-7.30, HCO3 15-18), Moderada (pH 7.00-7.24, HCO3 10 a <15), Severa (pH <7.00, HCO3 <10, estupor/coma).",
+      "distractor_autopsies": {
+        "A": "El pH de 7.12 y bicarbonato de 9 descartan cuadro leve.",
+        "C": "Aunque el bicarbonato es 9, el pH es 7.12; la severa requiere pH <7.00 o alteración franca del estado de despierto (estupor/coma).",
+        "D": "La glucosa es <600 y hay acidosis marcada con cetonemia, lo que descarta estado hiperosmolar puro."
+      }
+    },
+    {
+      "id": "q6",
+      "index": 6,
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Femenino de 28 años en manejo por Cetoacidosis Diabética moderada. Se inició reanimación hídrica con solución salina al 0.9% a razón de 1,000 mL/hora. El residente de guardia se dispone a indicar una infusión de insulina rápida a 0.1 UI/kg/h. Los laboratorios de ingreso reportan: potasio sérico de 3.1 mEq/L, sodio de 136 mEq/L, glucosa 420 mg/dL.",
+      "question_text": "¿Cuál es la conducta médica prioritaria e inmediata antes de la administración de la insulina?",
+      "options": {
+        "A": "Iniciar la infusión de insulina inmediatamente para frenar la cetogénesis hepática",
+        "B": "Diferir la insulina e infundir cloruro de potasio intravenoso hasta que el potasio sérico sea > 3.3 mEq/L",
+        "C": "Administrar bicarbonato de sodio 50 mEq en bolo por el riesgo de arritmias",
+        "D": "Cambiar la solución salina al 0.9% por solución glucosada al 5% con potasio"
+      },
+      "correctAnswer": "B",
+      "distractor_types": {
+        "A": "Distractor de Trampa Mortal (Poner insulina con K < 3.3 causa paro cardíaco por hipocalemia)",
+        "B": "Respuesta Correcta (Regla de oro: No insulina si K+ < 3.3 mEq/L)",
+        "C": "Distractor de Condición (Bicarbonato solo se indica si pH < 6.90)",
+        "D": "Distractor de Escalón (Glucosa al 5% se añade cuando la glucemia baja de 200-250 mg/dL)"
+      },
+      "dato_pivote_oculto": "Potasio de 3.1 mEq/L: La insulina introduce potasio a la célula; administrarla precipita arritmias letales.",
+      "justificacion_gpc": "GPC IMSS-718-18 / ADA: Si el potasio sérico inicial es menor a 3.3 mEq/L, NO debe iniciarse insulina hasta reponer potasio (20-30 mEq/h) y documentar K+ > 3.3 mEq/L, para prevenir arritmias y paro cardiorrespiratorio.",
+      "distractor_autopsies": {
+        "A": "Error crítico del ENARM: La hiperglucemia no mata en minutos; la hipocalemia severa por insulina sí.",
+        "C": "El bicarbonato agrava la hipocalemia al forzar el intercambio H+/K+ intracelular.",
+        "D": "La solución glucosada solo entra cuando la glucemia desciende a ≤ 250 mg/dL."
+      }
+    },
+    {
+      "id": "q7",
+      "index": 7,
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "1_Memoria_Directa",
+      "vignette": "Femenina de 56 años con DM2 de 4 años de evolución sin daño a órgano blanco ni antecedentes de hipoglucemias. En su cita de control trimestral se encuentra asintomática, con apego a cambios en estilo de vida y metformina. El médico analiza las metas terapéuticas de control glucémico para prevenir complicaciones microvasculares a largo plazo.",
+      "question_text": "De acuerdo a la GPC mexicana y NOM-015, ¿cuál es la meta de Hemoglobina Glucosilada (HbA1c) recomendada para un adulto no gestante sin comorbilidad limitante?",
+      "options": {
+        "A": "< 6.0%",
+        "B": "< 7.0%",
+        "C": "< 8.0%",
+        "D": "< 6.5% estricta en todos los grupos de edad"
+      },
+      "correctAnswer": "B",
+      "distractor_types": {
+        "A": "Distractor por Condición (Meta cuasinormal solo aplicable en gestantes)",
+        "B": "Respuesta Correcta (Meta estándar recomendada para reducir riesgo microvascular sin hipoglucemias)",
+        "C": "Distractor de Escalón (Meta laxa para ancianos frágiles o esperanza de vida < 5 años)",
+        "D": "Distractor de Espectro Cercano (Meta estricta aceptable en jóvenes seleccionados, pero no general)"
+      },
+      "dato_pivote_oculto": "Adulto estándar sin fragilidad: la meta universal de la GPC es HbA1c < 7.0%.",
+      "justificacion_gpc": "La GPC mexicana establece una meta general de HbA1c < 7.0% (glucosa preprandial 80-130 mg/dL y postprandial < 180 mg/dL) para balancear la reducción de daño microvascular con la seguridad del paciente.",
+      "distractor_autopsies": {
+        "A": "Metas < 6% aumentan la mortalidad por hipoglucemias severas (evidencia del estudio ACCORD).",
+        "C": "Meta de < 8% se reserva para adultos mayores frágiles, demencia o antecedente de hipoglucemias graves desapercibidas.",
+        "D": "No se recomienda <6.5% de forma generalizada por riesgo farmacológico."
+      }
+    },
+    {
+      "id": "q8",
+      "index": 8,
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Masculino de 73 años con antecedente de DM2 es llevado a urgencias por somnolencia profunda y deshidratación extrema tras 5 días de neumonía. Signos vitales: TA 85/50 mmHg, FC 122 lpm, afebril, mucosas secas, signo del pliegue positivo. Laboratorio: Glucosa 890 mg/dL, Sodio sérico 152 mEq/L, Potasio 4.2 mEq/L, Creatinina 2.8 mg/dL, pH 7.36, Bicarbonato 22 mEq/L, Cetonas en orina negativas.",
+      "question_text": "¿Cuál es la osmolaridad sérica efectiva calculada y qué diagnóstico metabólico agudo confirma?",
+      "options": {
+        "A": "Osmolaridad 295 mOsm/kg; Cetoacidosis Diabética Leve",
+        "B": "Osmolaridad 353 mOsm/kg; Estado Hiperosmolar Hiperglucémico",
+        "C": "Osmolaridad 308 mOsm/kg; Acidosis Láctica secundaria a sepsis",
+        "D": "Osmolaridad 320 mOsm/kg; Cetoacidosis Diabética Severa"
+      },
+      "correctAnswer": "B",
+      "distractor_types": {
+        "A": "Distractor por Condición (No hay acidosis ni cetonuria; osmolaridad normal es absurda con sodio 152 y glucosa 890)",
+        "B": "Respuesta Correcta (Fórmula efectiva: 2*Na + Glucosa/18 = 2*152 + 890/18 = 304 + 49.4 = 353.4 mOsm/kg)",
+        "C": "Distractor de Espectro Cercano (El pH es 7.36 y bicarbonato 22; no hay acidosis láctica)",
+        "D": "Distractor de Escalón (Glucosa >600, pH >7.30, HCO3 >18 y osmolaridad >320 definen EHH, no CAD)"
+      },
+      "dato_pivote_oculto": "Glucosa 890, pH 7.36 normal y osmolaridad > 320 mOsm/kg: Definición clásica de Estado Hiperosmolar.",
+      "justificacion_gpc": "El Estado Hiperosmolar Hiperglucémico (EHH) se define por glucemia >600 mg/dL, osmolaridad sérica efectiva >320 mOsm/kg, pH arterial >7.30, bicarbonato >18 mEq/L y alteración del sensorio profunda.",
+      "distractor_autopsies": {
+        "A": "La osmolaridad efectiva es > 350 mOsm/kg; valores < 300 son incompatibles con estos paraclínicos.",
+        "C": "El bicarbonato es 22 y el pH 7.36, por lo que la causa del choque no es acidosis primaria sino deshidratación severa (déficit de 8-10 L).",
+        "D": "La ausencia de cetonemia y acidosis descarta CAD."
+      }
+    },
+    {
+      "id": "q9",
+      "index": 9,
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Femenina de 62 años con DM2 de 8 años de evolución, tratada con metformina 1,000 mg cada 12 horas. Se presenta a revisión con HbA1c de 8.4%. Tiene antecedente de infarto agudo de miocardio hace 2 años con fracción de eyección del ventrículo izquierdo (FEVI) de 38% e insuficiencia cardíaca clase funcional II de la NYHA. Su TFG es de 52 mL/min/1.73m².",
+      "question_text": "De acuerdo a las guías de práctica clínica mexicanas e internacionales vigentes, ¿cuál es el segundo fármaco prioritario a intensificar en esta paciente?",
+      "options": {
+        "A": "Glibenclamida 5 mg cada 24 horas",
+        "B": "Inhibidor del cotransportador sodio-glucosa 2 (iSGLT2 como Dapagliflozina o Empagliflozina)",
+        "C": "Pioglitazona 30 mg cada 24 horas",
+        "D": "Acarbosa 50 mg con cada comida"
+      },
+      "correctAnswer": "B",
+      "distractor_types": {
+        "A": "Distractor de Escalón (Sulfonilurea no reduce eventos cardiovasculares ni mortalidad en falla cardíaca)",
+        "B": "Respuesta Correcta (iSGLT2 indicado obligatoriamente en insuficiencia cardíaca con FEVI reducida independientemente de HbA1c)",
+        "C": "Distractor por Condición (Pioglitazona causa retención hidrosalina y está formalmente contraindicada en falla cardíaca NYHA II-IV)",
+        "D": "Distractor de Espectro Cercano (Fármaco de bajo impacto sin beneficio en cardiopatía)"
+      },
+      "dato_pivote_oculto": "Antecedente de Insuficiencia Cardíaca con FEVI 38%: Los iSGLT2 tienen indicación obligatoria de primera línea para reducir hospitalización y mortalidad.",
+      "justificacion_gpc": "En pacientes con DM2 y falla cardíaca (FEVI reducida o preservada), los iSGLT2 han demostrado disminución estadísticamente significativa en hospitalizaciones y muerte cardiovascular, siendo el fármaco prioritario tras metformina.",
+      "distractor_autopsies": {
+        "A": "Glibenclamida no ofrece cardioprotección.",
+        "C": "Pregunta trampa clásica: Las tiazolidinedionas (pioglitazona) están absolutamente contraindicadas en insuficiencia cardíaca por riesgo de descompensación hidrópica.",
+        "D": "Acarbosa tiene eficacia hipoglucemiante marginal y no impacta la sobrevida."
+      }
+    },
+    {
+      "id": "q10",
+      "index": 10,
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A 19-year-old male with newly diagnosed Diabetic Ketoacidosis has been receiving intravenous hydration and insulin infusion for 8 hours. Current laboratory values: Blood glucose 195 mg/dL, venous pH 7.34, serum bicarbonate 18 mEq/L, anion gap 10 mEq/L. The patient is alert, hungry, and tolerating oral fluids.",
+      "question_text": "Which of the following clinical criteria confirms resolution of diabetic ketoacidosis and allows transitioning to subcutaneous insulin?",
+      "options": {
+        "A": "Blood glucose < 150 mg/dL and urine ketones completely negative",
+        "B": "Blood glucose < 200 mg/dL with at least two of: serum bicarbonate ≥ 15 mEq/L, venous pH > 7.30, and normal anion gap (≤ 12 mEq/L)",
+        "C": "Normalization of serum sodium and serum potassium > 5.0 mEq/L",
+        "D": "Discontinuation of IV insulin for at least 2 hours before administering subcutaneous insulin"
+      },
+      "correctAnswer": "B",
+      "distractor_types": {
+        "A": "Distractor por Condición (La cetonuria tarda días en desaparecer por depuración de acetoacetato; no es criterio de resolución)",
+        "B": "Respuesta Correcta (Criterios oficiales de resolución de CAD según ADA y GPC)",
+        "C": "Distractor de Escalón (Electrólitos se corrigen pero no definen resolución de la cetoacidosis)",
+        "D": "Distractor de Trampa Mortal (La insulina SC debe ponerse 1-2 horas ANTES de apagar la IV para evitar hiperglucemia de rebote)"
+      },
+      "dato_pivote_oculto": "Glucosa <200, pH >7.30, HCO3 ≥15 y Anion Gap normal: Criterios inequívocos de resolución de CAD.",
+      "justificacion_gpc": "La resolución de la CAD se define por: Glucemia < 200 mg/dL, HCO3 sérico ≥ 15 mEq/L, pH venoso > 7.30 y Anion Gap ≤ 12 mEq/L. La transición a insulina SC debe solaparse 1-2 horas antes de suspender la infusión IV.",
+      "distractor_autopsies": {
+        "A": "Error común: Esperar cetonuria negativa prolonga innecesariamente el ayuno y estancia hospitalaria.",
+        "C": "El potasio > 5.0 mEq/L no define resolución de la acidosis metabólica.",
+        "D": "Si suspendes la infusión IV 2 horas antes de la dosis SC, el paciente recaerá en cetoacidosis en menos de 60 minutos debido a la vida media ultracorta de la insulina IV."
+      }
+    }
+  ]
+}

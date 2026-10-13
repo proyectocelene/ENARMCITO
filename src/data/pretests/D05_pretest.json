@@ -1,0 +1,392 @@
+{
+  "topic_code": "D05",
+  "title": "Pre-Test Psicométrico: Enfermedad Renal Crónica (KDIGO) y EVC",
+  "normativa_origen": "GPC IMSS-335-19 / IMSS-152",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d05_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-335-19",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 63 años con antecedente de diabetes mellitus tipo 2 de 16 años de evolución e hipertensión arterial sistémica en tratamiento irregular con metformina y losartán. Acude a consulta externa por astenia progresiva, edema bimaleolar bilateral de miembros inferiores y orina espumosa desde hace 4 meses. A la exploración física: TA 152/94 mmHg, FC 74 lpm, FR 18 rpm, peso 78 kg, talla 1.68 m (IMC 27.6 kg/m2); cardiopulmonar sin compromiso, pulsos periféricos presentes y simétricos, extremidades inferiores con edema pretibial fóvea bilateral (++). Trae exámenes de laboratorio: glucosa sérica 148 mg/dL, creatinina sérica 2.4 mg/dL (creatinina reportada hace 3 meses en su expediente: 2.3 mg/dL), BUN 38 mg/dL, urea 81 mg/dL; Tasa de Filtración Glomerular estimada (TFGe por ecuación CKD-EPI) de 26 mL/min/1.73m2. Examen de orina: cociente albúmina/creatinina en muestra aislada de 420 mg/g.",
+      "question_text": "¿De acuerdo con la clasificación KDIGO adoptada por la Guía de Práctica Clínica mexicana, en qué categoría pronóstica de TFG y albuminuria se encuentra este paciente?",
+      "options": {
+        "A": "Estadio G3b y categoría A2",
+        "B": "Estadio G4 y categoría A3",
+        "C": "Estadio G5 y categoría A3",
+        "D": "Estadio G4 y categoría A2"
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "TFGe de 26 mL/min/1.73m2 confirmada por más de 3 meses (rango G4: 15-29 mL/min/1.73m2) y cociente albúmina/creatinina de 420 mg/g (rango A3: > 300 mg/g).",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-335-19 y la clasificación KDIGO, la Enfermedad Renal Crónica se estadifica según la TFGe en: G1 (≥90), G2 (60-89), G3a (45-59), G3b (30-44), G4 (15-29) y G5 (<15 mL/min/1.73m2), y según la albuminuria en: A1 (<30 mg/g), A2 (30-300 mg/g) y A3 (>300 mg/g). Con una TFGe de 26 mL/min/1.73m2 y un cociente de 420 mg/g, el paciente se clasifica de forma exacta e inequívoca en estadio G4A3 (riesgo muy alto de progresión y eventos cardiovasculares).",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón]: El estadio G3b corresponde a una TFGe de 30 a 44 mL/min/1.73m2 y la categoría A2 a una albuminuria de 30 a 300 mg/g; clasificarlo aquí subestima la severidad del daño renal.",
+        "C": "[Distractor de Espectro]: El estadio G5 (falla renal terminal) requiere una TFGe < 15 mL/min/1.73m2 o requerimiento de diálisis, lo cual aún no presenta el paciente.",
+        "D": "[Distractor de Asignación Parcial]: Aunque asigna correctamente el estadio G4 de filtrado glomerular, sitúa erróneamente el cociente en A2, ignorando que cifras superiores a 300 mg/g corresponden estrictamente a la categoría A3."
+      }
+    },
+    {
+      "id": "d05_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-335-19",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "El mismo paciente de 63 años con ERC estadio G4A3 es evaluado en consulta de seguimiento de medicina interna. Su biometría hemática completa reporta: hemoglobina 8.6 g/dL, hematocrito 26.2%, VCM 88 fL, HCM 29 pg, leucocitos 6,400/mm3, plaquetas 210,000/mm3. Su perfil cinético de hierro muestra: ferritina sérica de 65 ng/mL y saturación de transferrina (IST) del 14%. El paciente se encuentra hemodinámicamente estable, con astenia leve pero sin dolor torácico, disnea de reposo ni evidencia de sangrado digestivo activo.",
+      "question_text": "¿Cuál es la conducta terapéutica inicial prioritaria para el abordaje de la anemia en este paciente según la GPC mexicana?",
+      "options": {
+        "A": "Iniciar de inmediato eritropoyetina alfa recombinante a dosis de 50 UI/kg subcutánea tres veces por semana",
+        "B": "Administrar terapia de reposición con hierro intravenoso hasta alcanzar saturación de transferrina > 20% y ferritina > 100 ng/mL",
+        "C": "Transfundir dos paquetes de concentrado eritrocitario para elevar la hemoglobina por encima de 12 g/dL",
+        "D": "Prescribir sulfato ferroso por vía oral a dosis de 200 mg tres veces al día con alimentos"
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Índice de saturación de transferrina del 14% (< 20%) y ferritina sérica de 65 ng/mL (< 100 ng/mL) que demuestran ferropenia absoluta en ERC no dialítica.",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-335-19, antes de prescribir agentes estimulantes de la eritropoyesis (AEE) como la eritropoyetina, es indispensable corregir los depósitos de hierro para garantizar una respuesta eritropoyética eficaz y evitar la resistencia al fármaco. La meta previa es lograr un IST > 20% y ferritina sérica > 100 ng/mL (en pacientes no diálisis). En estadios avanzados (G4), la vía intravenosa es de elección sobre la oral por la mala absorción intestinal secundaria al estado inflamatorio y niveles elevados de hepcidina.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón Temporal]: Iniciar eritropoyetina sin corregir previamente la ferropenia (IST < 20% y ferritina < 100 ng/mL) está contraindicado porque genera refractariedad y acelera el agotamiento de reservas férricas.",
+        "C": "[Distractor de Comorbilidad / Riesgo Iatrogénico]: La transfusión está contraindicada en pacientes estables por riesgo de sobrecarga de volumen, aloinmunización (que limita trasplante renal futuro) y porque la meta de Hb en ERC es 10 a 11.5 g/dL (nunca > 12 g/dL por riesgo trombótico).",
+        "D": "[Distractor de Eficacia Reducida]: El hierro oral presenta pésima absorción en ERC avanzada (estadio G4) debido a la sobreexpresión de hepcidina e intolerancia gastrointestinal, siendo el hierro intravenoso la vía recomendada para repleción rápida y eficaz."
+      }
+    },
+    {
+      "id": "d05_q3",
+      "index": 3,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-335-19",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 56 años con antecedente de diabetes mellitus tipo 2 diagnosticada hace 7 años, en tratamiento farmacológico regular con metformina 850 mg cada 12 horas. Acude a su cita de control preventivo en su Unidad de Medicina Familiar (UMF). Se encuentra totalmente asintomático. En su exploración física: TA 128/82 mmHg, FC 72 lpm, IMC 28.2 kg/m2, sin edema periférico ni alteraciones en pulsos arteriales. Los exámenes de laboratorio de rutina muestran: glucosa en ayuno 126 mg/dL, HbA1c 7.1%, creatinina sérica 0.85 mg/dL y examen general de orina (EGO) con tira reactiva que reporta densidad 1.018, pH 6.0 y ausencia de proteínas (negativa).",
+      "question_text": "¿Cuál es el estudio inicial de elección para el tamizaje anual de nefropatía diabética en este paciente según la GPC mexicana?",
+      "options": {
+        "A": "Determinación del cociente albúmina/creatinina en una muestra aislada de orina matutina",
+        "B": "Recolección de orina de 24 horas para medición de depuración de creatinina y proteinuria total",
+        "C": "Ultrasonido renal bilateral en modo Doppler para calcular índices de resistencia intraparenquimatosa",
+        "D": "Repetir el examen general de orina con tira reactiva en 6 meses al no haber proteinuria detectada"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Tira reactiva convencional del EGO negativa para proteínas en un paciente diabético con creatinina sérica normal (no detecta microalbuminuria de 30 a 300 mg/g).",
+      "justificacion_gpc": "La GPC IMSS-335-19 y la NOM-015 dictaminan que el estudio inicial de tamizaje de elección para detectar daño renal temprano (nefropatía diabética) es la cuantificación del cociente albúmina/creatinina en una muestra aislada de orina (preferentemente la primera matutina o al azar). La tira reactiva del EGO estándar solo vira con concentraciones de proteínas superiores a 300 mg/L (macroproteinuria), dejando sin diagnosticar al 80% de los pacientes con albuminuria moderadamente incrementada (A2: 30-300 mg/g).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón / Método Desfasado]: La orina de 24 horas es engorrosa, propensa a errores graves de recolección y ya no es el método de tamizaje de primera línea de acuerdo con las guías nacionales e internacionales.",
+        "C": "[Distractor de Espectro]: El ultrasonido Doppler renal no tiene utilidad para el tamizaje bioquímico de nefropatía diabética incipiente; se reserva para sospecha de estenosis de arteria renal o causas obstructivas.",
+        "D": "[Distractor de Inercia Diagnóstica]: Asumir que la tira reactiva negativa descarta nefropatía diabética es un error clínico común; el umbral de detección de la tira reactiva es ciego ante la microalbuminuria temprana."
+      }
+    },
+    {
+      "id": "d05_q4",
+      "index": 4,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-335-19",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 58 años con antecedente de hipertensión arterial sistémica y diabetes mellitus tipo 2 de 10 años de evolución. En sus análisis de laboratorio confirmados por duplicado en un intervalo de 3 meses se documenta una TFGe de 52 mL/min/1.73m2 (estadio G3a) y un cociente albúmina/creatinina en orina de 190 mg/g (categoría A2). Su esquema de tratamiento actual consiste únicamente en hidroclorotiazida 25 mg cada 24 horas y metformina 850 mg cada 12 horas. En la consulta: TA 144/88 mmHg, FC 76 lpm, potasio sérico 4.3 mEq/L, creatinina sérica 1.3 mg/dL.",
+      "question_text": "¿Cuál es la intervención terapéutica farmacológica de primera línea indicada para conferir nefroprotección y retrasar la progresión renal según la GPC mexicana?",
+      "options": {
+        "A": "Iniciar un inhibidor de la ECA o un ARA-II a dosis tituladas y añadir un inhibidor de SGLT2",
+        "B": "Incrementar la dosis de hidroclorotiazida a 50 mg al día y asociar amlodipino 5 mg cada 24 horas",
+        "C": "Indicar terapia combinada simultánea con un IECA más un ARA-II para bloqueo dual del sistema renina",
+        "D": "Suspender metformina e iniciar monoterapia con sulfonilurea de liberación prolongada"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Presencia de albuminuria persistente categoría A2 (190 mg/g) con potasio sérico normal (4.3 mEq/L) y TFGe > 20 mL/min/1.73m2.",
+      "justificacion_gpc": "La GPC IMSS-335-19 y las actualizaciones normativas para el ENARM establecen que los fármacos de primera línea indiscutibles con beneficio nefroprotector comprobado en pacientes con ERC, diabetes e hipertensión con albuminuria (A2 o A3) son los bloqueadores del sistema renina-angiotensina (IECA o ARA-II) combinados con inhibidores de SGLT2 (con TFGe ≥ 20 mL/min/1.73m2). Estos agentes reducen la presión intraglomerular, disminuyen la hiperfiltración y retardan sustancialmente la progresión a diálisis.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Espectro Antihipertensivo]: Aunque controla la tensión arterial, los diuréticos tiazídicos y calcioantagonistas dihidropiridínicos solos no proporcionan el efecto nefroprotector específico intraglomerular del bloqueo del SRAA en presencia de albuminuria.",
+        "C": "[Distractor de Contraindicación Absoluta]: El bloqueo dual simultáneo (IECA + ARA-II) está formalmente contraindicado por ensayos clínicos (ONTARGET, NEPHRON-D) y la GPC debido a un incremento exponencial de insuficiencia renal aguda, hipercaliemia grave e hipotensión sin beneficio en mortalidad.",
+        "D": "[Distractor Peligroso]: La metformina es segura con TFGe de 52 mL/min/1.73m2 (solo se ajusta si TFGe < 45 y se suspende con < 30) y las sulfonilureas no confieren beneficio nefroprotector, incrementando el riesgo de hipoglucemias severas."
+      }
+    },
+    {
+      "id": "d05_q5",
+      "index": 5,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-335-19",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Hombre de 66 años con ERC estadio G4 secundaria a nefropatía hipertensiva. Es trasladado al servicio de urgencias por debilidad muscular generalizada, astenia extrema y parestesias progresivas en extremidades. A su ingreso: TA 112/68 mmHg, FC 42 lpm (bradicardia rítmica), FR 18 rpm, SpO2 96% al aire ambiente. Los paraclínicos urgentes reportan: potasio sérico 7.3 mEq/L, sodio 137 mEq/L, glucosa 106 mg/dL, creatinina 3.5 mg/dL. El electrocardiograma de 12 derivaciones muestra ondas T acuminadas y simétricas, prolongación notable del intervalo PR y ensanchamiento del complejo QRS con duración de 142 ms.",
+      "question_text": "¿Cuál es la primera intervención terapéutica intravenosa que debe administrarse de inmediato para estabilizar al paciente?",
+      "options": {
+        "A": "Infundir 10 mL de gluconato de calcio al 10% IV en 2 a 5 minutos bajo monitorización continua",
+        "B": "Administrar 10 UI de insulina rápida en 50 mL de solución glucosada al 50% IV en infusión corta",
+        "C": "Administrar 40 mg de furosemida intravenosa en bolo directo para forzar la kaliuresis",
+        "D": "Prescribir sulfonato de poliestireno cálcico por vía oral diluido en sorbitol"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Potasio sérico de 7.3 mEq/L con cambios electrocardiográficos avanzados (QRS ensanchado a 142 ms y bradicardia), indicando inestabilidad eléctrica miocárdica crítica.",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-335-19 y protocolos de urgencias nefrológicas, ante una hipercaliemia grave con alteraciones electrocardiográficas (ondas T picudas, ensanchamiento del QRS o bradiarritmias), la medida prioritaria e INMEDIATA es la estabilización de la membrana miocárdica con gluconato de calcio al 10% IV (10 mL en 2 a 5 minutos). Este fármaco no reduce la concentración plasmática de potasio, pero antagoniza su toxicidad sobre el potencial de reposo celular en 1 a 3 minutos, previniendo la degeneración a fibrilación ventricular o asistolia.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Temporal]: Las soluciones polarizantes (insulina + glucosa) son la piedra angular para introducir potasio al compartimento intracelular, pero su efecto tarda de 15 a 30 minutos; administrarlas antes del gluconato de calcio deja al paciente expuesto a arritmias letales inminentes.",
+        "C": "[Distractor Ineficaz en Falla Renal]: En un paciente con ERC estadio G4 avanzada (TFGe < 30 mL/min/1.73m2), la respuesta diurética a la furosemida es insuficiente y lenta, siendo inútil para la estabilización aguda de la membrana.",
+        "D": "[Distractor de Acción Retardada]: Las resinas de intercambio iónico orales tardan de 2 a 6 horas en comenzar su efecto eliminador gastrointestinal; utilizarlas como paso inicial en presencia de alteraciones en el ECG constituye negligencia terapéutica."
+      }
+    },
+    {
+      "id": "d05_q6",
+      "index": 6,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-152",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 67 años con antecedente de fibrilación auricular no valvular y tabaquismo activo. Es traído en ambulancia al servicio de urgencias tras presentar de forma súbita debilidad del hemicuerpo derecho y dificultad para emitir lenguaje hace 70 minutos mientras desayunaba con su familia. A su ingreso al área de reanimación: TA 194/112 mmHg, FC 94 lpm (arritmia por FA), FR 16 rpm, Temp 36.5 °C, glucosa capilar 128 mg/dL. A la exploración neurológica: afasia motora expresiva, hemiparesia derecha facio-braquio-crural con fuerza 1/5 y hemianopsia homónima derecha. Escala NIHSS calculada en 16 puntos.",
+      "question_text": "¿Cuál es el estudio de imagen inicial que debe realizarse de forma inmediata y obligatoria según la GPC mexicana?",
+      "options": {
+        "A": "Tomografía computarizada simple de cráneo sin medio de contraste",
+        "B": "Angiotomografía computarizada de cráneo y vasos de cuello con medio de contraste",
+        "C": "Resonancia magnética de encéfalo con secuencias de difusión y perfusión",
+        "D": "Radiografía simple de cráneo en proyecciones anteroposterior y lateral"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Sospecha fundada de EVC agudo en ventana de reperfusión (< 4.5 horas) donde el primer objetivo insustituible es descartar hemorragia intracraneal activa.",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-152 y el Código Cerebro, ante la sospecha clínica de un evento vascular cerebral agudo, el estudio de neuroimagen inicial y obligatorio es la Tomografía Computarizada (TC) de cráneo simple sin medio de contraste. Su objetivo primordial no es observar el infarto isquémico (el cual suele ser imperceptible en los primeros minutos), sino descartar de manera rápida y certera una hemorragia intracraneal, la cual contraindica de forma absoluta cualquier terapia de reperfusión fibrinolítica.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón]: La angiotomografía con contraste es indispensable para identificar oclusión de gran vaso candidato a trombectomía mecánica, pero NUNCA sustituye a la TC simple inicial ni debe demorar la evaluación del tejido cerebral y la toma de decisiones para trombolisis IV.",
+        "C": "[Distractor de Disponibilidad y Tiempo]: Aunque la resonancia con difusión es más sensible para isquemia hiperaguda, tarda significativamente más tiempo en realizarse, tiene menor disponibilidad en salas de choque mexicanas y retrasa el tiempo puerta-aguja.",
+        "D": "[Distractor Obsoleto]: La radiografía simple de cráneo carece totalmente de resolución para visualizar parénquima encefálico o patología cerebrovascular, constituyendo un desperdicio crítico de tiempo."
+      }
+    },
+    {
+      "id": "d05_q7",
+      "index": 7,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-152",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "La tomografía simple de cráneo del paciente de 67 años con déficit neurológico agudo descarta hemorragia intracraneal y no muestra hipodensidades extensas (puntuación ASPECTS de 9). El tiempo transcurrido desde el inicio de los síntomas es de 105 minutos. Sin embargo, tomas repetidas y estandarizadas de la presión arterial confirman cifras de 194/112 mmHg y 192/110 mmHg. Los laboratorios urgentes reportan plaquetas de 225,000/mm3, INR de 1.1 y glucosa plasmática de 124 mg/dL.",
+      "question_text": "¿Cuál es la meta de presión arterial obligatoria que debe alcanzarse antes de poder iniciar la infusión de alteplasa intravenosa y mantenerse durante las primeras 24 horas según la GPC mexicana?",
+      "options": {
+        "A": "Reducir la presión arterial a < 185/110 mmHg previo a la infusión y mantenerla < 180/105 mmHg durante las siguientes 24 horas",
+        "B": "Mantener una hipertensión permisiva con cifras de hasta 220/120 mmHg sin tratamiento antihipertensivo para proteger la penumbra",
+        "C": "Descender agresivamente la presión arterial a < 130/80 mmHg en los primeros 30 minutos mediante infusión de nitroprusiato de sodio",
+        "D": "Iniciar alteplasa de inmediato sin modificar la presión arterial, ya que el trombolítico tiene prioridad biológica absoluta sobre la hemodinamia"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Cifras de presión arterial de 194/112 mmHg en paciente en ventana de trombolisis que exceden el límite de seguridad de 185/110 mmHg.",
+      "justificacion_gpc": "La GPC IMSS-152 y las guías de reperfusión neurológica establecen con rigor que para administrar alteplasa intravenosa, la presión arterial sistólica debe ser < 185 mmHg y la diastólica < 110 mmHg. Si se superan estas cifras, se debe administrar medicación antihipertensiva intravenosa titulable (labetalol, nicardipino o hidralazina/metoprolol según disponibilidad). Si la PA no desciende por debajo de 185/110 mmHg, la trombolisis queda CONTRAINDICADA por el riesgo exponencial de transformación hemorrágica cerebral fatal. Tras la infusión, la meta estricta durante 24 horas es < 180/105 mmHg.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Clínico]: La hipertensión permisiva de hasta 220/120 mmHg solo es válida para pacientes con EVC isquémico que NO son candidatos a terapia de reperfusión (trombolisis o trombectomía); en candidatos a alteplasa, administrarla con PA > 185/110 mmHg es letal.",
+        "C": "[Distractor Iatrogénico]: Bajar la presión arterial bruscamente a < 130/80 mmHg colapsa la presión de perfusión cerebral en la zona de penumbra isquémica, transformando tejido viable en necrosis irreversible.",
+        "D": "[Distractor Peligroso]: Omitir el control tensional y pasar alteplasa con cifras ≥ 185/110 mmHg viola un criterio de exclusión mayor de la GPC y desencadena hemorragias intracerebrales masivas."
+      }
+    },
+    {
+      "id": "d05_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-152",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 71 años, sin antecedentes crónicos conocidos, traída a urgencias por disartria súbita y hemiparesia izquierda de 2 horas de evolución. A su ingreso: TA 154/86 mmHg, FC 78 lpm, peso estimado 60 kg, glucosa plasmática 112 mg/dL, plaquetas 240,000/mm3, INR 1.0. La tomografía simple de cráneo no evidencia hemorragia ni signos tempranos de infarto extenso. La paciente cumple todos los criterios de inclusión y ninguna contraindicación para fibrinólisis intravenosa.",
+      "question_text": "¿Cuál es el fármaco de primera línea y su esquema de administración indicado para la reperfusión según la GPC mexicana?",
+      "options": {
+        "A": "Alteplasa (rt-PA) a dosis de 0.9 mg/kg (máximo 90 mg), con 10% en bolo en 1 minuto y el 90% restante en infusión para 60 minutos",
+        "B": "Tenecteplasa a dosis fija de 50 mg en bolo intravenoso rápido sin considerar el peso ni la monitorización",
+        "C": "Estreptoquinasa a dosis de 1,500,000 UI en infusión intravenosa para 60 minutos",
+        "D": "Ácido acetilsalicílico a dosis de 300 mg masticado de inmediato asociado a heparina no fraccionada en bolo"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Tiempo de evolución de 2 horas (ventana terapéutica estándar ≤ 4.5 horas) en paciente apta para terapia trombolítica sistémica con alteplasa.",
+      "justificacion_gpc": "La GPC IMSS-152 establece a la alteplasa intravenosa (activador tisular del plasminógeno recombinante, rt-PA) como el tratamiento fibrinolítico de primera línea en el EVC isquémico dentro de la ventana de 4.5 horas desde el inicio de los síntomas. La dosificación estandarizada es de 0.9 mg/kg de peso corporal (con una dosis máxima absoluta de 90 mg), administrándose el 10% de la dosis total calculada en bolo intravenoso durante 1 minuto y el 90% restante en infusión continua durante 60 minutos.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Guía Extranjera / Dosis Incorrecta]: Aunque la tenecteplasa se estudia en guías internacionales recientes, en la GPC IMSS-152 rectora la alteplasa es la primera línea oficial, y una dosis fija de 50 mg de tenecteplasa es una dosis cardíaca tóxica en EVC (la dosis neurológica es 0.25 mg/kg, máx 25 mg).",
+        "C": "[Distractor de Contraindicación Histórica]: La estreptoquinasa fue descartada de forma categórica y está formalmente contraindicada en el EVC agudo debido a tasas inaceptables de hemorragia cerebral fatal en los ensayos MAST.",
+        "D": "[Distractor de Escalón Temporal]: El ácido acetilsalicílico y la anticoagulación deben posponerse obligatoriamente durante 24 horas después de la administración de alteplasa (hasta corroborar ausencia de sangrado en la TC de control)."
+      }
+    },
+    {
+      "id": "d05_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-152",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Hombre de 64 años que despierta a las 06:30 horas con hemiparesia facio-braquial izquierda y disartria. Su esposa manifiesta que el paciente se acostó a dormir a las 22:30 horas de la noche previa asintomático (ictus del despertar / tiempo de evolución indeterminado de hasta 8 horas). A su ingreso al hospital a las 07:15 horas, la TC simple de cráneo no evidencia sangrado ni hipodensidad establecida.",
+      "question_text": "¿Cuál es el estudio de neuroimagen estándar de oro que permite determinar la viabilidad del tejido cerebral mediante el desajuste difusión-FLAIR (DWI/FLAIR mismatch) para definir la terapia de reperfusión?",
+      "options": {
+        "A": "Resonancia magnética de encéfalo con secuencias de Difusión (DWI) y FLAIR",
+        "B": "Tomografía por emisión de positrones (PET) con fluorodesoxiglucosa",
+        "C": "Electroencefalograma continuo de 24 horas con análisis espectral",
+        "D": "Punción lumbar diagnóstica con medición de presión de apertura y eritrocitos"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Ictus del despertar (wake-up stroke) con hora de inicio incierta que requiere comprobar tejido en penumbra menor a 4.5 horas biológicas mediante resonancia.",
+      "justificacion_gpc": "Tanto en el protocolo WAKE-UP como en las recomendaciones adoptadas en la normativa de EVC, cuando el tiempo de inicio es indeterminado o del despertar, la Resonancia Magnética (RM) con secuencias de Difusión (DWI) y FLAIR es el Estándar de Oro. El hallazgo de una lesión hiperintensa en DWI (isquemia aguda establecida) con ausencia de hiperintensidad en la secuencia FLAIR (desajuste o mismatch DWI/FLAIR) demuestra que el infarto tiene menos de 4.5 horas de evolución biológica, permitiendo realizar trombólisis intravenosa con alteplasa de forma segura y eficaz.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Espectro Experimental]: El PET cerebral mide metabolismo de glucosa pero es impracticable en la urgencia aguda, costoso y no está validado en los algoritmos de reperfusión en tiempo real.",
+        "C": "[Distractor Inadecuado]: El EEG evalúa actividad bioeléctrica pero carece de capacidad anatómica o tisular para delimitar penumbra isquémica o guiar terapias trombolíticas.",
+        "D": "[Distractor de Otra Patología]: La punción lumbar se reserva para hemorragia subaracnoidea con TC negativa o sospecha de neuroinfección; en EVC isquémico agudo con indicación potencial de trombolisis es un procedimiento invasivo contraproducente."
+      }
+    },
+    {
+      "id": "d05_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-335-19",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 62 años evaluada en su Unidad de Medicina Familiar (primer nivel de atención). Tiene antecedente de hipertensión arterial sistémica de 12 años de evolución en tratamiento con enalapril. En sus análisis de laboratorio de control bimestral presenta creatinina sérica de 2.2 mg/dL con una TFG estimada por CKD-EPI de 27 mL/min/1.73m2 y un cociente albúmina/creatinina en orina de 450 mg/g. Su presión arterial en consulta es de 134/82 mmHg y su potasio sérico es de 4.8 mEq/L.",
+      "question_text": "¿Cuál de las siguientes condiciones en esta paciente constituye un criterio absoluto para su envío inmediato al servicio de Nefrología en segundo o tercer nivel según la GPC mexicana?",
+      "options": {
+        "A": "Tasa de filtración glomerular < 30 mL/min/1.73m2 (estadio G4 o G5) o albuminuria severa persistente > 300 mg/g",
+        "B": "Presión arterial sistólica en rango entre 130 y 139 mmHg a pesar de recibir tratamiento farmacológico",
+        "C": "Diferir la referencia hasta que la paciente presente síndrome urémico franco o requiera inicio urgente de hemodiálisis",
+        "D": "Presencia de albuminuria categoría A2 (30 a 300 mg/g) con TFG mayor de 60 mL/min/1.73m2"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "TFGe calculada de 27 mL/min/1.73m2 (estadio G4) asociada a cociente albúmina/creatinina de 450 mg/g (categoría A3).",
+      "justificacion_gpc": "La GPC IMSS-335-19 dictamina criterios formales y de cumplimiento estricto para la referencia oportuna de primer nivel de atención hacia la consulta externa de Nefrología: 1) TFG estimada < 30 mL/min/1.73m2 (estadios G4 y G5); 2) Albuminuria severamente incrementada (categoría A3: cociente albúmina/creatinina > 300 mg/g o proteinuria > 300 mg/24h); 3) Deterioro acelerado de la función renal (> 5 mL/min/1.73m2 en un año); 4) Hipertensión resistente; o 5) Alteraciones hidroelectrolíticas persistentes. Referir con TFG < 30 permite preparar el acceso vascular y educar para terapia sustitutiva sin caer en urgencias dialíticas.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Comorbilidad",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Meta]: Una PA de 134/82 mmHg cumple las metas tensionales recomendadas en ERC (< 130-140/80-90 mmHg según comorbilidad) y por sí sola no es el detonante de referencia especializada.",
+        "C": "[Distractor de Referencia Tardía]: Esperar a la uremia clínica sintomática es la causa principal de morbimortalidad y diálisis de urgencia con catéter no tunelizado, conducta fuertemente censurada por la GPC.",
+        "D": "[Distractor de Manejo en Primer Nivel]: La albuminuria A2 con TFG conservada (> 60 mL/min/1.73m2) es de manejo y seguimiento prioritario en el primer nivel de atención mediante estilo de vida y nefroprotección con IECA/ARA-II."
+      }
+    },
+    {
+      "id": "d05_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-152",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 65-year-old male is brought to the emergency department 2.5 hours after the sudden onset of left-sided hemiplegia and forced rightward eye deviation while at work. Vital signs: blood pressure 162/92 mmHg, heart rate 84 bpm, respiratory rate 16 bpm, oxygen saturation 98%, blood glucose 114 mg/dL. Neurological examination reveals right conjugated gaze preference, left homonymous hemianopia, dense left flaccid hemiplegia (muscle strength 0/5 in upper and lower extremities), and severe hemispatial neglect. His calculated National Institutes of Health Stroke Scale (NIHSS) score is 18 points. Cranial non-contrast CT reveals a hyperdense middle cerebral artery sign on the right side without established early hypodensity (ASPECTS score 9). CT angiography confirms an acute proximal occlusion of the M1 segment of the right middle cerebral artery.",
+      "question_text": "According to acute stroke clinical guidelines, which of the following best describes the severity categorization and the definitive reperfusion strategy indicated for this patient?",
+      "options": {
+        "A": "Severe stroke (NIHSS ≥ 6) with large vessel occlusion: immediate IV alteplase bridging therapy followed by emergent mechanical thrombectomy",
+        "B": "Mild stroke: conservative management with oral aspirin monotherapy and deferred outpatient neurorehabilitation",
+        "C": "Moderate stroke: emergent surgical carotid endarterectomy without intravenous thrombolytic administration",
+        "D": "Severe stroke: mechanical thrombectomy is strictly contraindicated due to high futile recanalization rates in patients with NIHSS > 15"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Puntaje NIHSS de 18 puntos (ictus grave, umbral ≥ 6) con oclusión de gran vaso en circulación anterior (segmento M1) en ventana de 2.5 horas y ASPECTS de 9.",
+      "justificacion_gpc": "According to GPC IMSS-152 and international stroke reperfusion protocols, anterior circulation large vessel occlusion (LVO) presenting within the initial 6-hour window (or selected patients up to 24 hours), with an NIHSS score ≥ 6 and ASPECTS score ≥ 6, has an absolute indication for combined bridging therapy: intravenous thrombolysis with alteplase (0.9 mg/kg) followed without delay by emergent endovascular mechanical thrombectomy with a stent retriever or aspiration catheter.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Subestimación de Severidad]: Un NIHSS de 18 puntos jamás se considera leve; diferir la reperfusión a monoterapia con aspirina condena al paciente a secuelas graves permanentes o muerte.",
+        "C": "[Distractor Anatómico y Quirúrgico]: La endarterectomía carotídea es un procedimiento quirúrgico para estenosis carotídea extracraneal subaguda/crónica, no para la oclusión intracraneal aguda del segmento M1.",
+        "D": "[Distractor de Falso Criterio de Exclusión]: Un NIHSS > 15 no contraindica la trombectomía mecánica; de hecho, los pacientes con NIHSS elevado (≥ 6) y oclusión de gran vaso con tejido salvable son los que obtienen el mayor beneficio absoluto de la recanalización endovascular."
+      }
+    },
+    {
+      "id": "d05_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-152",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 62-year-old woman arrives at the emergency department 90 minutes after the sudden onset of right facial droop and right arm weakness. Her medical history includes well-controlled hypertension and a confirmed history of an unprovoked spontaneous lobar intracranial hemorrhage 2 years ago. On admission: blood pressure is 154/88 mmHg, heart rate 76 bpm, respiratory rate 14 bpm, blood glucose 108 mg/dL. Her baseline non-contrast head CT scan shows no evidence of acute hemorrhage or early ischemic changes. However, urgent laboratory tests reveal a platelet count of 68,000/mm3 and an INR of 1.1.",
+      "question_text": "Which of the following is the most appropriate management regarding reperfusion therapy according to Mexican clinical practice guidelines?",
+      "options": {
+        "A": "Intravenous alteplase is strictly contraindicated; provide stroke unit supportive care, antiplatelet therapy after 24h risk assessment, and neurocritical monitoring",
+        "B": "Administer half-dose intravenous alteplase (0.45 mg/kg) because her symptom onset is under 3 hours",
+        "C": "Transfuse a single unit of apheresis platelets immediately to administer full-dose alteplase without delay",
+        "D": "Initiate full-dose unfractionated heparin infusion as a safe alternative to thrombolytic therapy"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Antecedente de hemorragia intracraneal previa y trombocitopenia de 68,000/mm3 (< 100,000/mm3), ambos criterios de exclusión absolutos para trombolisis IV.",
+      "justificacion_gpc": "According to GPC IMSS-152, any prior history of intracranial hemorrhage and a platelet count < 100,000/mm3 constitute major absolute contraindications to intravenous thrombolytic therapy with alteplase due to an unacceptable risk of catastrophic intracerebral hemorrhage. In this clinical scenario, alteplase cannot be administered under any dosage scheme; the patient must be admitted to the stroke unit for supportive hemodynamic care and neurocritical surveillance.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Esquema No Autorizado]: Reducir la dosis a la mitad no elimina el riesgo letal de sangrado y está totalmente contraindicado ante la presencia de antecedentes de hemorragia intracraneal y plaquetopenia severa.",
+        "C": "[Distractor Peligroso]: La transfusión profiláctica rápida de plaquetas no anula la contraindicación absoluta del antecedente de hemorragia cerebral previa, exponiendo al paciente a un desenlace fatal.",
+        "D": "[Distractor de Falsa Alternativa]: La anticoagulación terapéutica plena con heparina en la fase aguda del ictus isquémico no ha demostrado mejoría en desenlaces y aumenta sustancialmente el riesgo de transformación hemorrágica, estando contraindicada."
+      }
+    }
+  ]
+}

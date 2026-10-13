@@ -1,0 +1,392 @@
+{
+  "topic_code": "D02",
+  "title": "Pre-Test Psicométrico: Hipertensión Arterial Sistémica y Crisis HTA",
+  "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d02_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 48 años, oficinista, sin antecedentes crónicos conocidos, que acude a la Unidad de Medicina Familiar a chequeo preventivo PREVENIMSS. Se encuentra completamente asintomático. A la exploración física: peso 78 kg, talla 1.70 m (IMC 26.9 kg/m2), FC 74 lpm, FR 16 rpm, SpO2 98%, afebril. Se realiza toma protocolizada de presión arterial con esfigmomanómetro aneroide calibrado tras 5 minutos de reposo sentado, registrándose 144/92 mmHg en el brazo derecho y 142/90 mmHg en el brazo izquierdo. Laboratorios de rutina de ese día: glucosa en ayuno 94 mg/dL, creatinina 0.85 mg/dL, colesterol total 190 mg/dL, examen general de orina normal sin proteinuria.",
+      "question_text": "¿Cuál es la conducta diagnóstica inicial indicada según la NOM-030-SSA2-2009 y la GPC mexicana para confirmar o descartar hipertensión arterial sistémica en este paciente?",
+      "options": {
+        "A": "Iniciar inmediatamente monoterapia con enalapril 10 mg cada 12 horas desde esta primera consulta.",
+        "B": "Indicar bitácora de automonitoreo de la presión arterial (AMPA) domiciliaria o programar al menos 2 mediciones adicionales en días distintos dentro de las siguientes semanas.",
+        "C": "Realizar ecocardiograma transtorácico Doppler para documentar hipertrofia ventricular izquierda antes de volver a medir la presión.",
+        "D": "Instalar de inmediato monitoreo ambulatorio de presión arterial (MAPA) de 24 horas como único estudio inicial obligatorio en el primer nivel de atención."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Paciente asintomático con cifras de HAS Grado 1 (144/92 mmHg) en su primera visita médica, sin daño agudo a órgano blanco ni comorbilidad de alto riesgo que obligue a inicio farmacológico inmediato; la norma mexicana exige confirmación en al menos 2 consultas posteriores o bitácora de automonitoreo (AMPA).",
+      "justificacion_gpc": "De acuerdo con la NOM-030-SSA2-2009 y la GPC IMSS-076-08, el diagnóstico de HAS en un paciente con cifras de Grado 1 (140-159 / 90-99 mmHg) sin daño a órgano blanco no debe establecerse en una sola visita. Se requiere corroborar el promedio de al menos dos tomas por visita en dos o más consultas posteriores separadas por intervalos de 1 a 4 semanas, o mediante automonitoreo domiciliario (AMPA) estructurado, antes de etiquetar al paciente y prescribir tratamiento farmacológico vitalicio.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Prescripción Prematura]: En un paciente asintomático con cifras en rango de Grado 1 sin diabetes ni daño a órgano blanco, prescribir fármacos desde el primer contacto sin confirmación seriada viola la NOM-030 y genera sobrediagnóstico por efecto de bata blanca.",
+        "C": "[Distractor de Espectro Cercano]: El ecocardiograma evalúa daño crónico a órgano blanco (hipertrofia ventricular izquierda), pero no es una herramienta para el tamizaje o diagnóstico inicial de cifras tensionales en el primer nivel.",
+        "D": "[Distractor de Escalón]: El MAPA de 24 horas es el estándar de oro confirmatorio de segundo escalón ante discordancia diagnóstica, pero no es el estudio inicial obligatorio ni accesible rutinariamente en el primer nivel frente al AMPA o las tomas seriadas en consultorio."
+      }
+    },
+    {
+      "id": "d02_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "El mismo paciente de 48 años regresa 3 semanas después con su bitácora domiciliaria (AMPA), en la cual promedia 122/78 mmHg en reposo en su casa. Sin embargo, en el consultorio médico sus tomas vuelven a registrar 148/94 mmHg y 146/92 mmHg con taquicardia situacional leve (FC 88 lpm). No presenta signos de daño a órgano blanco y el fondo de ojo es normal. Ante la marcada discordancia entre las cifras de consultorio y las domiciliarias, el médico sospecha hipertensión de bata blanca y decide solicitar la prueba diagnóstica de máxima exactitud.",
+      "question_text": "¿Cuál es el estudio estándar de oro (Gold Standard) para dilucidar esta discordancia diagnóstica y caracterizar el patrón circadiano de la presión arterial según la GPC?",
+      "options": {
+        "A": "Prueba de esfuerzo electrocardiográfica en banda sin fin mediante protocolo de Bruce.",
+        "B": "Biometría hemática completa, perfil tiroideo y cortisol libre urinario de 24 horas.",
+        "C": "Monitoreo ambulatorio de presión arterial (MAPA) oscilométrico durante 24 horas.",
+        "D": "Repetir la bitácora de automonitoreo domiciliario (AMPA) por 3 meses consecutivos sin otra intervención."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Discordancia clínica evidente entre tomas elevadas en consultorio (≥140/90) y cifras normales en casa (<135/85), definiendo sospecha de hipertensión de bata blanca donde el MAPA de 24 horas es el estándar de oro confirmatorio con corte diagnóstico de promedio 24 horas ≥130/80 mmHg.",
+      "justificacion_gpc": "La GPC IMSS-076-08 y la normativa de CENETEC establecen que el Monitoreo Ambulatorio de Presión Arterial (MAPA) de 24 horas es el estándar de oro para confirmar o descartar el diagnóstico de hipertensión ante sospecha de hipertensión de bata blanca o hipertensión enmascarada. Además, permite evaluar el ritmo circadiano (patrón dipper: descenso nocturno fisiológico del 10 al 20%; vs non-dipper: factor de alto riesgo cardiovascular).",
+      "distractor_roles": {
+        "A": "Distractor_Espectro",
+        "B": "Distractor_Comorbilidad",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Espectro Cercano]: La prueba de esfuerzo valora la reserva coronaria y la respuesta hemodinámica al ejercicio físico, pero no define el diagnóstico de hipertensión de bata blanca ni el ritmo dipper.",
+        "B": "[Distractor de Comorbilidad / Etiología]: El perfil hormonal (tiroides, cortisol) se solicita en sospecha de hipertensión secundaria endocrina (ej. Cushing, feocromocitoma), no ante sospecha aislada de fenómeno de bata blanca.",
+        "D": "[Distractor de Escalón]: Prolongar el automonitoreo domiciliario por 3 meses posterga el diagnóstico definitivo cuando la discordancia ya amerita el estándar de oro (MAPA)."
+      }
+    },
+    {
+      "id": "d02_q3",
+      "index": 3,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 54 años con diagnóstico confirmado de Hipertensión Arterial Sistémica Grado 2 tras protocolo clínico riguroso, presentando cifras tensionales basales sostenidas de 168/104 mmHg. Sin antecedentes de diabetes, tabaquismo ni nefropatía. Exploración física: ruidos cardíacos rítmicos sin soplos, ruidos respiratorios normales, pulsos periféricos simétricos. Laboratorios: glucosa 89 mg/dL, creatinina 0.8 mg/dL (TFG calculada 86 mL/min), potasio 4.3 mEq/L, sodio 140 mEq/L, ácido úrico 4.5 mg/dL, examen general de orina sin proteinuria.",
+      "question_text": "Con base en la GPC IMSS-076-08 y la NOM-030, al encontrarse la paciente con cifras tensionales en Grado 2 (≥20/10 mmHg por arriba de la meta), ¿cuál es la conducta terapéutica farmacológica de primera línea recomendada?",
+      "options": {
+        "A": "Iniciar monoterapia con hidroclorotiazida a dosis de 12.5 mg al día y revalorar respuesta terapéutica en 3 meses.",
+        "B": "Iniciar tratamiento combinado desde el diagnóstico con dos fármacos de primera línea a dosis bajas (ej. IECA o ARA-II más Calcioantagonista o Tiazida).",
+        "C": "Prescribir betabloqueador no cardioselectivo (propranolol 40 mg cada 12 horas) en monoterapia como fármaco de elección.",
+        "D": "Iniciar terapia combinada dual mediante la administración simultánea de un IECA (enalapril) más un ARA-II (losartán)."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Presión arterial de 168/104 mmHg correspondiente a Hipertensión Grado 2 (o >20/10 mmHg sobre la meta <140/90). La normativa mexicana y guías internacionales recomiendan biterapia fija inicial a dosis bajas para lograr metas de control y adherencia.",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-076-08 y las actualizaciones normativas, en pacientes con HAS Grado 2 (PAS ≥160 mmHg o PAD ≥100 mmHg) o con cifras basales de más de 20/10 mmHg por encima de su meta terapéutica, la recomendación de primera línea es iniciar terapia combinada con dos fármacos de familias distintas a dosis bajas (IECA/ARA-II + Calcioantagonista dihidropiridínico o Tiazida). La combinación simultánea de IECA con ARA-II está explícitamente contraindicada (ensayos ONTARGET/VA NEPHRON-D).",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón]: La monoterapia con tiazida a dosis bajas se reserva para el escalón 1 de HAS Grado 1 (cercana a la meta); en Grado 2 la tasa de falla a monoterapia supera el 75% y retrasa el control.",
+        "C": "[Distractor de Espectro Cercano]: Los betabloqueadores no son fármacos de primera línea en monoterapia para hipertensión no complicada en la GPC mexicana por su menor eficacia en la prevención de evento vascular cerebral.",
+        "D": "[Distractor de Comorbilidad / Contraindicación]: La combinación simultánea de IECA con ARA-II está formalmente contraindicada por incrementar drásticamente el riesgo de hiperpotasemia, hipotensión severa y falla renal aguda sin aportar beneficio cardiovascular."
+      }
+    },
+    {
+      "id": "d02_q4",
+      "index": 4,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 31 años, primigesta con embarazo de 15 semanas de gestación por fecha de última regla confiable, que acude a su primer control prenatal en la Unidad de Medicina Familiar. Refiere sentirse bien, asintomática, niega cefalea, fosfenos, acúfenos o epigastralgia. A la exploración física: TA 154/98 mmHg, confirmada en el brazo contralateral a los 15 minutos en 152/96 mmHg; fondo de útero apenas palpable sobre sínfisis del pubis, frecuencia cardíaca fetal audible por Doppler a 148 lpm. Laboratorios: hemoglobina 12.1 g/dL, plaquetas 210,000/mm3, creatinina 0.6 mg/dL, transaminasas normales; examen general de orina con tira reactiva sin proteínas, relación proteína/creatinina urinaria de 0.10 mg/mg.",
+      "question_text": "¿Cuál es el tratamiento antihipertensivo de primera elección indicado en esta paciente según la GPC de Trastornos Hipertensivos en el Embarazo?",
+      "options": {
+        "A": "Alfametildopa por vía oral (o Labetalol oral).",
+        "B": "Losartán oral a dosis de 50 mg cada 24 horas.",
+        "C": "Espironolactona oral 50 mg al día asociada a restricción hídrica.",
+        "D": "Nitroprusiato de sodio en infusión intravenosa continua."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Edad gestacional de 15 semanas (<20 semanas sin proteinuria = Hipertensión Crónica en el embarazo). Fármacos permitidos: Alfametildopa, Labetalol, Hidralazina, Nifedipino VO de liberación prolongada. Los IECA y ARA-II tienen contraindicación absoluta por fetopatía letal.",
+      "justificacion_gpc": "Conforme a la GPC CENETEC y Guías IMSS de Trastornos Hipertensivos del Embarazo, en hipertensión crónica detectada antes de las 20 semanas de gestación, el fármaco de primera línea con mayor margen de seguridad histórica materno-fetal es la Alfametildopa (agonista alfa-2 adrenérgico central), siendo también alternativas válidas Labetalol o Nifedipino oral. Los IECA y ARA-II están terminantemente prohibidos en cualquier trimestre de la gestación debido a fetopatía por hipoperfusión renal fetal, oligohidramnios, hipoplasia pulmonar y muerte intrauterina.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Comorbilidad",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor por Contraindicación Teratogénica]: Los ARA-II (losartán) y los IECA son categoría D/X en el embarazo; provocan disgenesia renal fetal, anuria, oligohidramnios grave, hipoplasia pulmonar y deformidades esqueléticas.",
+        "C": "[Distractor de Espectro Cercano]: Los antagonistas de la aldosterona (espironolactona) pueden alterar la diferenciación genital fetal masculina (antiandrogénicos) y reducen el volumen plasmático uteroplacentario fisiológico.",
+        "D": "[Distractor de Escalón]: El nitroprusiato de sodio se restringe a emergencias hipertensivas extremas y refractarias en UCI por riesgo de toxicidad fetal por cianuro y tiocianato, no en hipertensión crónica ambulatoria."
+      }
+    },
+    {
+      "id": "d02_q5",
+      "index": 5,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Hombre de 55 años con diabetes mellitus tipo 2 de 7 años de evolución en manejo con metformina 850 mg cada 12 horas. Acude a consulta externa donde se registran cifras tensionales de 142/90 mmHg y 144/88 mmHg en visitas separadas. No refiere disnea ni dolor precordial. A la exploración física: IMC 29.5 kg/m2, pulsos conservados, reflejos normales. Laboratorios: glucosa 132 mg/dL, HbA1c 7.3%, creatinina 1.0 mg/dL, tasa de filtrado glomerular estimada (CKD-EPI) de 82 mL/min/1.73m2, potasio sérico 4.3 mEq/L. En dos muestras consecutivas de orina matutina se reporta una relación albúmina/creatinina de 195 mg/g y 210 mg/g (albuminuria moderadamente incrementada / microalbuminuria persistente).",
+      "question_text": "¿Cuál es el fármaco antihipertensivo de elección recomendado por la GPC mexicana y la NOM-030 debido a su efecto nefroprotector intrínseco en este paciente?",
+      "options": {
+        "A": "Atenolol a dosis de 50 mg cada 24 horas.",
+        "B": "Furosemida a dosis de 40 mg cada 12 horas.",
+        "C": "Amlodipino a dosis de 5 mg al día en monoterapia exclusiva.",
+        "D": "Enalapril (o un ARA-II como Losartán) a dosis tituladas."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Paciente con DM2, hipertensión y albuminuria persistente (195-210 mg/g). Los IECA o ARA-II son mandatorios de primera línea por vasodilatar la arteriola eferente y reducir la presión intraglomerular, frenando la progresión de nefropatía diabética.",
+      "justificacion_gpc": "La GPC IMSS-076-08, la GPC de Diabetes Mellitus y la NOM-030 señalan de manera unánime que en el paciente hipertenso con diabetes mellitus y albuminuria persistente (>30 mg/g), los IECA (o ARA-II ante intolerancia a tos) son los fármacos de primera elección indiscutible. Su mecanismo exclusivo reduce el tono de la arteriola eferente glomerular, disminuyendo la presión intraglomerular de ultrafiltración y brindando protección renal e inhibición del remodelado cardiovascular a largo plazo.",
+      "distractor_roles": {
+        "A": "Distractor_Espectro",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Espectro Cercano]: Los betabloqueadores como atenolol no brindan nefroprotección específica, pueden enmascarar síntomas de hipoglucemia y deterioran la sensibilidad periférica a la insulina.",
+        "B": "[Distractor de Escalón]: Los diuréticos de asa (furosemida) se indican ante sobrecarga hídrica o cuando la TFG cae por debajo de 30 mL/min, pero no tienen efecto antiproteinúrico directo ni son primera línea con TFG conservada.",
+        "C": "[Distractor por Ausencia de Nefroprotección]: Los calcioantagonistas dihidropiridínicos en monoterapia dilatan predominantemente la arteriola aferente, lo que puede aumentar la presión capilar intraglomerular si no se asocian a un bloqueador del SRAA."
+      }
+    },
+    {
+      "id": "d02_q6",
+      "index": 6,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Hombre de 67 años con hipertensión arterial sistémica severa y enfermedad arterial periférica oclusiva con claudicación intermitente bilateral. Ante cifras persistentes de 165/95 mmHg, su médico decide prescribir lisinopril 20 mg/día. Quince días después el paciente acude a urgencias por astenia intensa, náuseas y oliguria. Signos vitales: TA 130/80 mmHg, FC 62 lpm. Laboratorios de control: creatinina sérica se elevó drásticamente de 1.1 mg/dL (basal) a 2.8 mg/dL, con potasio sérico de 6.3 mEq/L (hiperpotasemia severa). El ultrasonido Doppler renal confirma estenosis hemodinámicamente significativa bilateral de ambas arterias renales (>75%).",
+      "question_text": "¿Cuál es el mecanismo fisiopatológico directo que explica el colapso agudo del filtrado glomerular inducido por el IECA en este paciente?",
+      "options": {
+        "A": "Inhibición de la vasoconstricción mediada por angiotensina II en la arteriola eferente, colapsando la presión hidrostática intraglomerular de filtración.",
+        "B": "Espasmo sostenido y vasoconstricción directa de la arteriola aferente desencadenada por la acumulación intrarrenal de bradicinina.",
+        "C": "Necrosis tubular aguda tóxica inducida por la precipitación intratubular de sales insolubles del medicamento.",
+        "D": "Aumento descontrolado en la producción de aldosterona secundaria al bloqueo competitivo de receptores de angiotensina."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Estenosis bilateral de la arteria renal con incremento >30-50% de la creatinina e hiperpotasemia tras iniciar IECA. En la estenosis de arteria renal la perfusión aferente está severamente disminuida; la filtración glomerular depende exclusivamente del tono vasoconstrictor de la angiotensina II sobre la arteriola eferente. Al retirarlo con el IECA, cae abruptamente la tasa de filtrado glomerular.",
+      "justificacion_gpc": "De acuerdo con la GPC mexicana y la fisiopatología cardiovascular rectora en el ENARM, la estenosis bilateral de la arteria renal (o unilateral en riñón único funcionante) es una contraindicación absoluta para el uso de IECA y ARA-II. Al existir estenosis, la presión de perfusión en la arteriola aferente es baja y el glomérulo mantiene la filtración mediante vasoconstricción de la arteriola eferente por angiotensina II; el bloqueo farmacológico genera vasodilatación eferente, caída inmediata de la presión hidrostática capilar glomerular y fallo renal agudo prerrenal/hemodinámico con hiperpotasemia.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Espectro Erróneo]: La bradicinina produce vasodilatación sistémica y permeabilidad vascular (responsable de tos seca y angioedema), no espasmo ni vasoconstricción de la arteriola aferente.",
+        "C": "[Distractor por Confusión Lesional]: La elevación de azoados por IECA en estenosis bilateral es un fenómeno hemodinámico funcional intraglomerular reversible al retirar el fármaco, no una necrosis tubular aguda por toxicidad química.",
+        "D": "[Distractor Fisiopatológico Inverso]: Los IECA inhiben la síntesis de angiotensina II y consecuentemente disminuyen la producción de aldosterona en la corteza suprarrenal, lo que genera retención de potasio (hiperpotasemia), no un aumento de aldosterona."
+      }
+    },
+    {
+      "id": "d02_q7",
+      "index": 7,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 59 años acude al servicio de urgencias alarmada porque en un chequeo en la farmacia le detectaron una presión arterial de 205/115 mmHg tras haber presentado cefalea holocraneal de intensidad leve a moderada de 12 horas de evolución. Tiene antecedente de hipertensión arterial de 8 años de evolución, pero suspendió sus medicamentos (losartán y amlodipino) hace una semana por desabasto. A la exploración física: orientada en tiempo, espacio y persona, alerta, sin déficit motor ni sensitivo; fondo de ojo sin hemorragias ni edema de papila; ruidos cardíacos rítmicos, sin soplos ni galope, campos pulmonares limpios sin estertores; abdomen blando, extremidades sin edema. ECG: ritmo sinusal sin alteraciones isquémicas del segmento ST ni ondas T. Creatinina 0.9 mg/dL, examen de orina normal, troponina I ultrasensible normal.",
+      "question_text": "¿Cómo se clasifica esta entidad clínica según la GPC mexicana de Crisis Hipertensivas y cuál es el abordaje inicial prioritario?",
+      "options": {
+        "A": "Emergencia Hipertensiva; requiere ingreso inmediato a la Unidad de Cuidados Intensivos e infusión continua de nitroprusiato de sodio.",
+        "B": "Urgencia Hipertensiva (sin daño agudo a órgano blanco); requiere ajuste o reinicio de tratamiento antihipertensivo por vía oral y vigilancia en observación ambulatoria.",
+        "C": "Seudocrisis hipertensiva por somatización; requiere únicamente administración de ansiolíticos por vía intramuscular y egreso inmediato sin medicación antihipertensiva.",
+        "D": "Crisis hipertensiva no clasificada; amerita administración urgente de nifedipino en cápsula sublingual de acción corta para reducir la tensión arterial en 15 minutos."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Presión arterial severamente elevada (>180/120 mmHg) en ausencia de daño agudo a órgano blanco (exploración neurológica normal, fondo de ojo normal, ECG sin isquemia, pulmones limpios, función renal normal). Define Urgencia Hipertensiva, manejable por vía oral en 24-48 horas.",
+      "justificacion_gpc": "La GPC IMSS-076-08 define la Crisis Hipertensiva como la elevación de la TA ≥180/110-120 mmHg, dividiéndose en Urgencia Hipertensiva (sin daño agudo a órgano blanco) y Emergencia Hipertensiva (con daño agudo a órgano blanco). Al no existir datos clínicos, electrocardiográficos ni bioquímicos de lesión aguda en cerebro, corazón, riñón o retina, se cataloga como Urgencia Hipertensiva, cuyo manejo es exclusivamente por vía oral (reinstalando o ajustando dosis de fármacos orales como captopril oral, amlodipino o clonidina) en observación clínica ambulatoria, evitando reducciones bruscas.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón de Severidad]: Para catalogar Emergencia Hipertensiva es indispensable demostrar daño agudo a órgano blanco en curso (encefalopatía, EVC, SCA, edema agudo pulmonar, disección aórtica). Hospitalizar en UCI y usar nitroprusiato IV en una urgencia es mala praxis.",
+        "C": "[Distractor de Espectro]: Aunque el estrés puede elevar la TA, una cifra de 205/115 mmHg en una paciente hipertensa conocida tras abandono de medicación no es una simple seudocrisis por somatización; darla de alta sin reinstalar su esquema antihipertensivo la expone a complicaciones.",
+        "D": "[Distractor por Fármaco Proscrito]: El nifedipino sublingual de acción rápida está absolutamente proscrito por la GPC y la FDA por causar descensos tensionales incontrolados con taquicardia refleja, provocando isquemia miocárdica, infartos cerebrales y muerte."
+      }
+    },
+    {
+      "id": "d02_q8",
+      "index": 2,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "En la misma paciente de 59 años clasificada con Urgencia Hipertensiva (TA 205/115 mmHg, asintomática sin daño agudo a órgano blanco), el médico pasante propone administrar fármacos de acción rápida para llevarla a valores normales ideales (<120/80 mmHg) durante la primera hora de estancia hospitalaria para poder darla de alta rápidamente.",
+      "question_text": "Conforme a la GPC mexicana, ¿cuál es la meta y el tiempo de reducción tensional correcto para prevenir complicaciones isquémicas por hipoperfusión cerebral o coronaria en una urgencia hipertensiva?",
+      "options": {
+        "A": "Normalización de la presión arterial a cifras <120/80 mmHg en un tiempo no mayor a 60 minutos mediante medicamentos parenterales.",
+        "B": "Disminución inmediata de la presión arterial media en al menos un 50% en las primeras 2 horas mediante diuréticos de asa intravenosos.",
+        "C": "Reducción gradual y controlada de la presión arterial por vía oral a lo largo de 24 a 48 horas hacia valores seguros (alrededor de 160/100 mmHg).",
+        "D": "Mantener a la paciente en ayuno absoluto y sin medicación durante 72 horas hasta que las cifras tensionales desciendan espontáneamente."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "En Urgencia Hipertensiva el paciente tiene una curva de autorregulación vascular cerebral desplazada hacia la derecha por la cronicidad de su hipertensión. Una reducción precipitada en minutos provoca isquemia cerebral o infarto de miocardio. La meta es descenso gradual en 24-48 horas por vía oral.",
+      "justificacion_gpc": "La GPC IMSS-076-08 advierte enfáticamente que en la Urgencia Hipertensiva la presión arterial NO debe descenderse de forma brusca ni a valores normales inmediatos. El objetivo es una reducción paulatina y segura (reduciendo un 20 a 25% o alcanzando valores cercanos a 160/100 mmHg) a lo largo de 24 a 48 horas por vía oral. Descenso abruptos o el uso de nifedipino sublingual desplazan la curva de autorregulación del flujo sanguíneo cerebral y provocan hipoperfusión tisular, síncope, infartos cerebrales en zonas limítrofes o eventos coronarios agudos.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Comorbilidad",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón Temporal]: Normalizar la presión a <120/80 mmHg en 60 minutos es un error crítico; rompe el gradiente de perfusión tisular y puede transformar a un paciente asintomático en un paciente con infarto cerebral limítrofe (watershed).",
+        "B": "[Distractor por Caída Excesiva de PAM]: Disminuir el 50% de la PAM de forma aguda es letal; la autorregulación cerebral tolera descensos máximos del 20-25% para no colapsar la presión de perfusión cerebral (PPC).",
+        "D": "[Distractor de Espectro / Omisión]: Dejar a la paciente 72 horas sin medicación en ayuno es negligencia terapéutica; la urgencia hipertensiva debe tratarse activamente mediante reinstalación gradual de fármacos orales."
+      }
+    },
+    {
+      "id": "d02_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Hombre de 61 años es llevado al servicio de urgencias por familiares debido a cefalea intensa incapacitante, náuseas, vómito en proyectil y deterioro del estado de alerta caracterizado por somnolencia profunda y confusión fluctuante de 4 horas de evolución. Signos vitales: TA 230/135 mmHg, FC 92 lpm, FR 18 rpm, SpO2 96%, temperatura 36.6 °C. A la exploración física: paciente estuporoso, responde con lenguaje incoherente a estímulos vigorosos; no hay asimetría facial ni déficit motor focalizado en extremidades; reflejos osteotendinosos simétricos. En la oftalmoscopia se observa borramiento de los bordes del disco óptico, ingurgitación venosa y hemorragias retinianas peripapilares en llama (papiledema bilateral, Grado IV de Keith-Wagener). La TC simple de cráneo descarta hemorragia intracraneal y no muestra infarto isquémico agudo territorial, evidenciando edema cerebral difuso.",
+      "question_text": "¿Cuál es el diagnóstico clínico preciso y la conducta terapéutica inicial indicada de acuerdo con la GPC mexicana?",
+      "options": {
+        "A": "Urgencia hipertensiva; administrar captopril 25 mg por vía sublingual cada 30 minutos hasta obtener una TA <140/90 mmHg.",
+        "B": "EVC isquémico en ventana terapéutica; administrar trombólisis con alteplasa intravenosa antes de controlar la tensión arterial.",
+        "C": "Hipertensión endocraneal idiopática; realizar punción lumbar descompresiva de urgencia antes de iniciar cualquier fármaco hipotensor.",
+        "D": "Encefalopatía hipertensiva (Emergencia Hipertensiva); ingresar a UCI e iniciar antihipertensivo parenteral titulable (ej. Labetalol o Nitroprusiato) reduciendo la PAM no más del 20-25% en la primera hora."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Cifras tensionales extremas asociadas a encefalopatía difusa sin focalización motora más papiledema bilateral en el fondo de ojo (Grado IV de Keith-Wagener) = Encefalopatía Hipertensiva, prototipo de Emergencia Hipertensiva. Requiere fármacos intravenosos titulables (Labetalol / Nitroprusiato) y meta estricta de PAM (reducción no mayor al 20-25% en la primera hora).",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-076-08 y CENETEC, la presencia de cifras tensionales severamente elevadas acompañadas de papiledema bilateral y disfunción del sistema nervioso central sin focalización motora confirma el diagnóstico de Encefalopatía Hipertensiva (Emergencia Hipertensiva). Su manejo exige ingreso inmediato a terapia intensiva o choque con fármacos intravenosos de acción corta y titulable (Labetalol, Nitroprusiato de sodio o Nicardipino). La meta fundamental en la primera hora es reducir la Presión Arterial Media (PAM) entre un 20% y máximo 25% (o estabilizar la TA en 160/100-110 mmHg en las siguientes 2 a 6 horas) para evitar la hipoperfusión cerebral catastrófica por pérdida de la autorregulación vascular.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Escalon",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Subestimación de Severidad]: Catalogarlo como urgencia y dar captopril sublingual ante un paciente con papiledema y estupor es un error diagnóstico fatal; la encefalopatía es una emergencia que requiere monitorización invasiva y vía parenteral.",
+        "B": "[Distractor de Espectro Cercano]: No hay focalización neurológica de territorio vascular (hemiparesia, afasia) y la TC no muestra isquemia focal; además, trombolisar con TA >185/110 mmHg sin control previo provocaría transformación hemorrágica letal.",
+        "C": "[Distractor de Procedimiento Contraindicado]: Realizar punción lumbar en presencia de papiledema y edema cerebral difuso con hipertensión severa conlleva un riesgo inminente de herniación de amígdalas cerebelosas y muerte."
+      }
+    },
+    {
+      "id": "d02_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "1_Memoria_Directa",
+      "vignette": "Hombre de 63 años con antecedente de hipertensión arterial sistémica de 12 años de diagnóstico e infarto agudo de miocardio con elevación del ST hace 18 meses tratado exitosamente con angioplastia coronaria y colocación de stent liberador de fármaco. Se encuentra en tratamiento con ácido acetilsalicílico, atorvastatina, metoprolol y telmisartán. Acude a su consulta médica mensual en el segundo nivel de atención. Se encuentra clínicamente asintomático, en clase funcional I de la NYHA. A la toma de signos vitales con técnica estandarizada presenta TA 136/84 mmHg y FC 64 lpm. Laboratorios: glucosa 92 mg/dL, creatinina 0.9 mg/dL, potasio 4.4 mEq/L.",
+      "question_text": "Con base en la NOM-030-SSA2-2009 y la GPC mexicana, ¿cuál es la meta estricta de control de la presión arterial sistólica y diastólica establecida para este paciente clasificado en muy alto riesgo cardiovascular?",
+      "options": {
+        "A": "Presión arterial menor a 130/80 mmHg.",
+        "B": "Presión arterial menor a 140/90 mmHg como único objetivo sin importar antecedentes coronarios.",
+        "C": "Presión arterial menor a 150/95 mmHg para prevenir hipotensión coronaria en pacientes mayores de 60 años.",
+        "D": "Presión arterial sistólica menor a 100 mmHg manteniendo la diastólica sin control."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Paciente con antecedente de cardiopatía isquémica establecida (infarto previo con stent). La NOM-030 y las guías mexicanas estratifican que el paciente de muy alto riesgo cardiovascular (cardiopatía isquémica, nefropatía o diabetes) tiene una meta estricta <130/80 mmHg (a diferencia de la población general cuya meta es <140/90 mmHg).",
+      "justificacion_gpc": "La NOM-030-SSA2-2009 (Apartado 8.4) y la GPC IMSS-076-08 establecen que la meta terapéutica general de control para el paciente hipertenso es lograr cifras <140/90 mmHg; sin embargo, en pacientes con comorbilidades de alto o muy alto riesgo cardiovascular, como aquellos con diabetes mellitus, enfermedad renal crónica o antecedentes de enfermedad cardiovascular aterosclerótica/cardiopatía isquémica comprobada, la meta estricta de control es mantener cifras menores a 130/80 mmHg para reducir la recurrencia de eventos coronarios y mortalidad.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Poblacional]: La meta <140/90 mmHg aplica para la población general hipertensa sin daño a órgano blanco ni cardiopatía asociada; conformarse con esa cifra en un paciente con cardiopatía isquémica aumenta la tasa de reinfarto.",
+        "C": "[Distractor de Guía Extranjera Desfasada]: Cifras <150/95 mmHg corresponden a criterios muy laxos desaconsejados o a poblaciones geriátricas frágiles con expectativa de vida muy limitada, no a un adulto de 63 años funcional en NYHA I.",
+        "D": "[Distractor por Hipoperfusión Coronaria]: Descender la PAS <100 mmHg compromete la presión de perfusión coronaria diastólica (fenómeno de curva en J), incrementando paradójicamente la isquemia miocárdica."
+      }
+    },
+    {
+      "id": "d02_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A 46-year-old male bus driver visits the occupational health clinic for his annual periodic evaluation. He is asymptomatic and denies headaches, chest tightness, palpitations, or visual disturbances. He has no personal history of diabetes, asthma, or kidney disease, and takes no regular medications. On physical examination: BMI is 27.4 kg/m2, heart rate is 76 bpm, respiratory rate is 15 bpm, SpO2 is 98%. Blood pressure measured according to standardized protocol (seated, 5-minute rest, validated cuff) is 148/92 mmHg in the right arm and 146/90 mmHg in the left arm. Follow-up office visit 2 weeks later reveals a blood pressure of 146/92 mmHg. Fasting glucose is 88 mg/dL, serum creatinine is 0.85 mg/dL, serum potassium is 4.3 mEq/L, and urinalysis is negative for albuminuria. A diagnosis of Stage 1 Systemic Arterial Hypertension is established.",
+      "question_text": "According to the Mexican Clinical Practice Guideline (GPC IMSS-076-08 / NOM-030), what is the recommended first-line pharmacological monotherapy to prescribe alongside therapeutic lifestyle modifications?",
+      "options": {
+        "A": "Immediate initiation of a non-cardioselective beta-blocker such as propranolol 40 mg twice daily.",
+        "B": "Dual combination therapy with an ACE inhibitor plus an ARB at maximal doses.",
+        "C": "A low-dose thiazide diuretic (e.g., chlorthalidone or hydrochlorothiazide) or an ACE inhibitor / ARB / DHP-calcium channel blocker.",
+        "D": "Short-acting sublingual nifedipine capsules prescribed on a PRN basis whenever systolic BP exceeds 140 mmHg."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Uncomplicated Stage 1 hypertension (140-159/90-99 mmHg) in a young adult without comorbidities. Under Mexican GPC and NOM-030, initial monotherapy consists of low-dose thiazide diuretic, ACE inhibitor, ARB, or DHP-calcium channel blocker. Beta-blockers are not first-line unless there is a specific compelling indication (e.g., angina, post-MI).",
+      "justificacion_gpc": "According to Mexican Clinical Practice Guideline GPC IMSS-076-08 and NOM-030, first-line pharmacological monotherapy for uncomplicated Stage 1 hypertension consists of four major classes: thiazide diuretics (hydrochlorothiazide 12.5-25 mg or chlorthalidone 12.5-25 mg), ACE inhibitors, ARBs, or dihydropyridine calcium channel blockers. Beta-blockers are excluded from first-line therapy in uncomplicated hypertension due to higher rates of cardiovascular events (especially stroke) and adverse metabolic profiles. Short-acting sublingual nifedipine is explicitly prohibited.",
+      "distractor_roles": {
+        "A": "Distractor_Espectro",
+        "B": "Distractor_Comorbilidad",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Espectro Cercano]: Beta-blockers are no longer considered first-line agents for uncomplicated hypertension in Mexican guidelines because they demonstrate inferior stroke prevention and worsen metabolic profiles (insulin resistance and dyslipidemia).",
+        "B": "[Distractor de Comorbilidad / Contraindicación]: Concomitant dual blockade of the renin-angiotensin system (ACEi plus ARB) is strictly contraindicated due to a high risk of hyperkalemia, profound hypotension, and acute renal failure without clinical benefit.",
+        "D": "[Distractor de Escalón / Prohibido]: Short-acting sublingual nifedipine is explicitly proscribed in clinical guidelines because it induces uncontrolled, precipitous blood pressure drops with reflex sympathetic activation, causing ischemic cerebral and myocardial infarction."
+      }
+    },
+    {
+      "id": "d02_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 52-year-old male with an 8-year history of poorly controlled hypertension and heavy smoking presents to the emergency room with sudden-onset, tearing chest pain radiating to the back between the scapulae that started 45 minutes ago. Physical examination reveals an anxious, diaphoretic patient; blood pressure is 210/118 mmHg in the right arm and 168/92 mmHg in the left arm (a 42 mmHg systolic discrepancy between extremities); heart rate is 108 bpm; regular rhythm, with a new soft early diastolic decrescendo murmur heard best along the right sternal border. Peripheral pulses are diminished in the left radial and femoral arteries. Contrast-enhanced chest computed tomography angiography (CTA) confirms an Acute Stanford Type A Aortic Dissection originating in the ascending aorta.",
+      "question_text": "In this specific catastrophic hypertensive emergency, what is the immediate target for heart rate and systolic blood pressure reduction within the first 15 to 20 minutes according to clinical management guidelines?",
+      "options": {
+        "A": "Gradual reduction of mean arterial pressure by no more than 10% over the next 24 to 48 hours to prevent renal hypoperfusion.",
+        "B": "Rapid reduction of systolic blood pressure to <120 mmHg and heart rate to <60 bpm using intravenous beta-blockade (e.g., labetalol or esmolol) prior to vasodilators.",
+        "C": "Immediate administration of intravenous hydralazine or nitroprusside monotherapy as initial treatment before addressing heart rate.",
+        "D": "Maintaining systolic blood pressure above 180 mmHg to preserve retrograde perfusion to the false aortic lumen."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Acute Stanford Type A aortic dissection represents the critical exception to the 'slow 20-25% MAP reduction rule' of hypertensive emergencies. In aortic dissection, systolic blood pressure must be rapidly brought to <120 mmHg and heart rate to <60 bpm within 15-20 minutes using IV beta-blockers (to decrease aortic wall shear stress dP/dt) before vasodilators.",
+      "justificacion_gpc": "In acute aortic dissection (a life-threatening hypertensive emergency), international guidelines and the Mexican GPC establish an exception to the conservative reduction rule: systolic blood pressure must be reduced immediately to <120 mmHg and heart rate to <60 bpm within 15-20 minutes. Intravenous beta-blockers (labetalol or esmolol) must always be started first to decrease the velocity of left ventricular ejection and shear stress (dP/dt). Pure vasodilators (such as nitroprusside or hydralazine) without prior beta-blockade cause reflex sympathetic stimulation and tachycardia, drastically increasing aortic wall tearing and precipitating fatal rupture.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón Temporal Inadecuado]: A gradual 10-25% MAP reduction over 24-48 hours is standard for urgencies, but applying it to aortic dissection causes fatal aortic rupture; dissection requires emergency reduction within 15-20 minutes.",
+        "C": "[Distractor de Comorbilidad / Efecto Paradójico]: Administering pure vasodilators (nitroprusside or hydralazine) without prior beta-blockade triggers reflex tachycardia and increases dP/dt (ventricular ejection velocity), which accelerates dissection flap propagation and fatal rupture.",
+        "D": "[Distractor de Espectro Inverso]: Maintaining systolic BP above 180 mmHg dramatically accelerates transmural aortic rupture, cardiac tamponade, and catastrophic death."
+      }
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "topic_code": "D08",
+  "title": "Pre-Test Psicométrico: Infección de Vías Urinarias en Pediatría y Bronquiolitis Aguda",
+  "normativa_origen": "GPC IMSS-045 / GPC IMSS-032",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d08_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-045",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Lactante masculino de 5 meses de edad, sin antecedentes perinatales de importancia, con esquema de vacunación completo para la edad. Es llevado a consulta de urgencias pediátricas por presentar fiebre de hasta 38.8 °C de 48 horas de evolución, irritabilidad, disminución en la ingesta de tomas al pecho materno y llanto inconsolable al orinar. A la exploración física: peso 7.2 kg, FC 142 lpm, FR 32 rpm, temperatura 38.6 °C, SatO2 98% al aire ambiente. Fontanela normotensa, faringe sin hiperemia, campos pulmonares limpios, ruidos cardíacos rítmicos sin soplos, abdomen blando, depresible, sin visceromegalias, con llanto y quejido a la palpación hipogástrica leve. El médico de guardia sospecha infección de vías urinarias (ITU) febril en lactante no continente.",
+      "question_text": "De acuerdo con la GPC IMSS-045, ¿cuál es el método de recolección de muestra urinaria de primera elección para el estudio inicial (examen general de orina y urocultivo) en este paciente, y la prueba rápida inicial más recomendada?",
+      "options": {
+        "A": "Colocación de bolsa recolectora perineal adhesiva para cultivo definitivo; si resulta positiva para cualquier germen, confirma el diagnóstico.",
+        "B": "Cateterismo vesical transuretral estéril para examen general de orina y urocultivo simultáneo, complementado con tira reactiva (esterasa leucocitaria y nitritos).",
+        "C": "Esperar la micción espontánea al aire libre sosteniendo el frasco estéril (chorro medio limpio) sin importar la demora ni la contaminación de la piel.",
+        "D": "Punción suprapúbica guiada por laparoscopía como procedimiento rutinario de primer escalón antes de intentar cualquier otra maniobra."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Lactante masculino no continente de 5 meses con sospecha de ITU febril. En niños que no controlan esfínteres, el cateterismo vesical es el método de elección inicial seguro y rápido con baja tasa de contaminación; la bolsa adhesiva tiene >50-80% de falsos positivos y la tira reactiva combinada (esterasa leucocitaria + nitritos) es la prueba rápida de cribado inicial.",
+      "justificacion_gpc": "La GPC IMSS-045 establece que en lactantes no continentes con sospecha de ITU, el método de recolección de elección para confirmación diagnóstica es el cateterismo vesical (o punción suprapúbica si hay experiencia o falla del primero). La bolsa recolectora NO debe usarse para confirmar ITU ni para iniciar tratamiento debido a su tasa inaceptable de contaminación (>50%); solo sirve para descartar si resulta estrictamente negativa. El estudio inicial rápido es el examen de orina con tira reactiva evaluando esterasa leucocitaria y nitritos.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón / Falso Positivo]: La bolsa recolectora tiene una tasa de contaminación del 50% al 88%; un cultivo positivo obtenido por bolsa adhesiva nunca debe considerarse confirmatorio ni justificar diagnóstico definitivo de ITU.",
+        "C": "[Distractor de Espectro / Técnica Inadecuada]: El chorro medio en lactantes no continentes es impráctico, retrasa la atención y conlleva alto riesgo de contaminación perineal, reservándose para niños mayores que controlan esfínteres.",
+        "D": "[Distractor por Invasividad Extrema]: La punción suprapúbica no requiere laparoscopía y, aunque es el método con menor contaminación, la técnica de elección rutinaria en urgencias es el cateterismo vesical estéril."
+      }
+    },
+    {
+      "id": "d08_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-045",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "En el mismo lactante de 5 meses de edad, se realiza cateterismo vesical estéril conforme a la normativa. El examen general de orina muestra: leucocitos 45 por campo, bacterias abundantes, esterasa leucocitaria positiva (+++) y nitritos positivos. Se envía la alícuota a urocultivo cuantitativo y se inicia manejo empírico. A las 48 horas se recibe el reporte del laboratorio de microbiología: desarrollo de Escherichia coli con recuento de colonias de 50,000 unidades formadoras de colonias por mililitro (UFC/mL).",
+      "question_text": "Con base en la GPC IMSS-045 y los criterios microbiológicos estandarizados, ¿cómo se interpreta este resultado del estándar de oro (urocultivo)?",
+      "options": {
+        "A": "Contaminación bacteriana de la muestra; se requiere repetir la toma por bolsa adhesiva para confirmar con más de 100,000 UFC/mL.",
+        "B": "Colonización asintomática transitoria que no amerita continuar antibiótico al no alcanzar el umbral de 1,000,000 UFC/mL.",
+        "C": "Falso positivo secundario a bacteriuria fisiológica del lactante varón circuncidado que debe descartarse con punción suprapúbica obligatoria.",
+        "D": "Diagnóstico microbiológico confirmatorio de Infección de Vías Urinarias por haberse obtenido mediante cateterismo vesical con recuento ≥ 10,000 a 50,000 UFC/mL de un uropatógeno único."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Muestra obtenida por cateterismo vesical con 50,000 UFC/mL de monoaislado (E. coli) más piuria activa. En muestras por sondaje vesical, el punto de corte diagnóstico según la GPC y consensos pediátricos es de ≥ 10,000 a 50,000 UFC/mL (a diferencia del chorro medio donde el corte clásico es ≥ 100,000 UFC/mL).",
+      "justificacion_gpc": "La GPC IMSS-045 define que en muestras obtenidas por cateterismo vesical, un recuento bacteriano de ≥ 10,000 a 50,000 UFC/mL de un único uropatógeno (asociado a piuria o síntomas clínicos) confirma el diagnóstico definitivo de ITU. El criterio tradicional de Kass de ≥ 100,000 UFC/mL aplica exclusivamente para micción espontánea (chorro medio).",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón / Error de Umbral]: Pretender exigir ≥ 100,000 UFC/mL en una muestra tomada por catéter o sugerir validar con bolsa es un error grave de concepto; 50,000 UFC/mL en cateterismo es plenamente patológico y diagnóstico.",
+        "B": "[Distractor de Espectro]: El umbral de 1,000,000 UFC/mL no existe en la normativa y el paciente presentaba fiebre y dolor miccional, descartando bacteriuria asintomática.",
+        "C": "[Distractor por Conducta Innecesaria]: La punción suprapúbica no está indicada para reconfirmar un urocultivo categóricamente positivo por cateterismo vesical con piuria demostrada."
+      }
+    },
+    {
+      "id": "d08_q3",
+      "index": 3,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-045",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "El lactante de 5 meses completó exitosamente su tratamiento antibiótico parenteral inicial y cambio a vía oral con excelente respuesta clínica, encontrándose ya afebril y reactivo. Como parte del protocolo de abordaje de su primer episodio de ITU febril, se le realiza Ultrasonido Renal y Vesical a los 5 días de evolución, el cual reporta dilatación de la pelvis renal izquierda de 11 mm y uréter izquierdo visible en todo su trayecto (hidroureteronefrosis izquierda), con parénquima renal conservado.",
+      "question_text": "Conforme a la GPC IMSS-045, ¿cuál es el siguiente estudio de imagen indicado para evaluar la causa de esta alteración y estadificar la severidad de un probable reflujo vesicoureteral?",
+      "options": {
+        "A": "Gammagrafía renal con ácido dimercaptosuccínico (99mTc-DMSA) inmediata en fase aguda para descartar obstrucción ureteral intrínseca.",
+        "B": "Urografía excretora intravenosa con medio de contraste hiperosmolar y radiografías seriadas cada 15 minutos.",
+        "C": "Cistouretrografía miccional seriada (CUGM) una vez resuelta la infección activa para identificar y graduar el reflujo vesicoureteral (grados I a V).",
+        "D": "Tomografía computarizada helicoidal contrastada de abdomen y pelvis en fase de eliminación como primer escalón obligado."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Lactante con primer episodio de ITU febril que presenta Ultrasonido renal anormal con hidroureteronefrosis. Ante un USG anormal, la indicación formal de la GPC es la Cistouretrografía miccional (CUGM) para valorar anatomía del tracto urinario inferior y graduar el reflujo vesicoureteral de acuerdo a la escala internacional (Grados I al V).",
+      "justificacion_gpc": "La GPC IMSS-045 indica que todo paciente con ITU febril y ultrasonido renal/vesical patológico (dilatación pielocalicial, hidronefrosis o uréter visible) debe someterse a una Cistouretrografía Miccional (CUGM) una vez erradicada la infección activa y con urocultivo negativo de control, para confirmar o descartar Reflujo Vesicoureteral (RVU) y clasificarlo del Grado I al V según el sistema internacional.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Comorbilidad",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón / Temporalidad]: El DMSA evalúa daño cortical y cicatrices (habitualmente a los 4-6 meses post-episodio) o pielonefritis aguda, pero no diagnostica ni estadifica el reflujo vesicoureteral anatómico.",
+        "B": "[Distractor por Técnica Obsoleta/Tóxica]: La urografía excretora ha caído en desuso pediátrico debido a la alta carga de radiación y el riesgo de nefrotoxicidad por contraste en lactantes.",
+        "D": "[Distractor de Espectro Inadecuado]: La TC implica radiación ionizante desproporcionada y no es la técnica estándar para evaluar reflujo vesicoureteral en pediatría."
+      }
+    },
+    {
+      "id": "d08_q4",
+      "index": 4,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-032",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Lactante femenino de 3 meses de edad, previamente sana, sin antecedentes de atopia, acude al servicio de urgencias pediátricas durante el mes de enero. La madre refiere que inició hace 3 días con rinorrea hialina, estornudos y febrícula (38.0 °C). Desde hace 24 horas presenta tos en accesos, dificultad para respirar y rechazo parcial de las tomas de leche materna. A la exploración física: peso 5.5 kg, FC 162 lpm, FR 64 rpm, temperatura 37.8 °C, SpO2 89% al aire ambiente. Se observa aleteo nasal moderado, tiraje intercostal y subcostal evidente, y retracción xifoidea. A la auscultación pulmonar: espiración marcadamente prolongada con sibilancias espiratorias e inspiratorias bilaterales audibles a distancia, asociadas a estertores crepitantes finos bilaterales difusos.",
+      "question_text": "De acuerdo con la GPC IMSS-032 (Bronquiolitis Aguda), ¿cuál es la herramienta clínica validada de primera elección para estratificar la gravedad de esta paciente y qué grado de severidad presenta?",
+      "options": {
+        "A": "Escala de Wood-Downes modificada por Ferrés, clasificándola en bronquiolitis moderada a grave.",
+        "B": "Escala de Silverman-Andersen para dificultad respiratoria del recién nacido a término.",
+        "C": "Criterios de Westley para laringotraqueítis aguda con estridor en reposo.",
+        "D": "Puntaje de Bierman y Pierson exclusivo para crisis asmática del adolescente."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Lactante de 3 meses con primer episodio de sibilancias y taquipnea precedido de coriza catarral en temporada invernal. La escala estandarizada por la GPC IMSS-032 para estadificar bronquiolitis aguda en menores de 2 años es la Escala de Wood-Downes modificada por Ferrés; con FR 64 rpm, tiraje marcado, sibilancias audibles y SpO2 89%, corresponde a moderada-grave (puntuación ≥ 4-8).",
+      "justificacion_gpc": "La GPC IMSS-032 recomienda utilizar la Escala de Wood-Downes modificada por Ferrés para cuantificar la gravedad clínica de la bronquiolitis aguda. Evalúa 6 parámetros: sibilancias, tiraje, frecuencia respiratoria, frecuencia cardíaca, ventilación y cianosis. Una puntuación de 1 a 3 es leve, de 4 a 7 moderada, y de 8 a 14 grave.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Espectro Neonatal]: La escala de Silverman-Andersen evalúa dificultad respiratoria en el recién nacido durante el periodo neonatal inmediato, no en el lactante con bronquiolitis.",
+        "C": "[Distractor de Patología Laríngea]: La escala de Westley evalúa crup / laringotraqueítis aguda (vía aérea superior con estridor), patología distinta a la afección de vía aérea pequeña.",
+        "D": "[Distractor de Escalón / Asma]: El score de Bierman y Pierson o Pulmonary Index Score se aplican en asma bronquial de niños mayores, no en el primer episodio de bronquiolitis del lactante."
+      }
+    },
+    {
+      "id": "d08_q5",
+      "index": 5,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-032",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "En la misma lactante de 3 meses con diagnóstico de bronquiolitis aguda moderada (SpO2 89% al aire ambiente a nivel del mar, taquipnea de 64 rpm, tiraje intercostal y rechazo parcial del alimento), el médico interno de pregrado propone nebulizar de inmediato con salbutamol en solución, administrar una dosis de dexametasona intravenosa y prescribir amoxicilina profiláctica por vía oral.",
+      "question_text": "Con base en las recomendaciones con mayor grado de evidencia de la GPC IMSS-032 y la Academia Americana de Pediatría (AAP), ¿cuál es la conducta terapéutica correcta que debe indicar el médico especialista?",
+      "options": {
+        "A": "Respaldar la propuesta: administrar dexametasona IV, salbutamol nebulizado cada 20 minutos y amoxicilina por 7 días para prevenir sobreinfección.",
+        "B": "Administrar de inmediato solución salina hipertónica al 7% en nebulización continua como monoterapia ambulatoria sin administrar oxígeno.",
+        "C": "Indicar intubación orotraqueal inmediata y ventilación mecánica invasiva sin intentar oxígeno suplementario de bajo flujo.",
+        "D": "Instalar oxígeno suplementario humidificado para mantener SpO2 ≥ 90%, asegurar aporte hídrico (enteral fraccionado o IV), aseo nasal suave y evitar el uso rutinario de broncodilatadores, esteroides y antibióticos."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Lactante con bronquiolitis moderada y SpO2 < 90%. El pilar del tratamiento según la GPC IMSS-032 es el soporte estricto (O2 suplementario para mantener meta SpO2 ≥ 90%, hidratación y permeabilidad de vía aérea superior). Broncodilatadores, esteroides sistémicos/inhalados y antibióticos están PROSCRITOS de forma rutinaria.",
+      "justificacion_gpc": "La GPC IMSS-032 y consensos internacionales enfatizan que el tratamiento de la bronquiolitis es fundamentalmente de soporte: oxigenoterapia con cánula nasal si la SpO2 es < 90% (a nivel del mar), soporte hidroelectrolítico y desobstrucción nasal mediante aspiración suave. NO se recomienda el uso rutinario de broncodilatadores (salbutamol), glucocorticoides sistémicos ni antibióticos, ya que no disminuyen la tasa de hospitalización ni acortan los días de estancia.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Polifarmacia Proscrita]: El uso de salbutamol, esteroides sistémicos y antibióticos en bronquiolitis no complicada está formalmente contraindicado de rutina por falta de eficacia y riesgo de efectos adversos (taquicardia, inmunosupresión local, resistencia bacteriana).",
+        "B": "[Distractor de Escalón]: La solución salina al 7% no se usa (la concentración estudiada es al 3% exclusivamente en pacientes hospitalizados) y omitir el oxígeno con SpO2 de 89% pone en riesgo hipóxico al lactante.",
+        "C": "[Distractor de Espectro Invasivo Prematuro]: La paciente no presenta apnea recurrente ni falla respiratoria inminente que justifique intubación orotraqueal sin antes haber probado oxígeno por cánula nasal."
+      }
+    },
+    {
+      "id": "d08_q6",
+      "index": 6,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-032",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "La lactante de 3 meses es ingresada al área de observación y hospitalización pediátrica de un hospital ubicado a nivel del mar (Veracruz, México). Se le coloca oxígeno por puntas nasales a 1 L/min. Tras 4 horas de estancia, la madre pregunta cuándo podrá egresar su hija a casa y qué parámetros de saturación y alimentación determinarán el alta hospitalaria según la normativa mexicana.",
+      "question_text": "De acuerdo con los criterios de hospitalización y referencia de la GPC IMSS-032, ¿cuál de los siguientes enunciados representa la meta de oxigenación y un criterio absoluto para mantener a la paciente hospitalizada?",
+      "options": {
+        "A": "Meta de SatO2 ≥ 98%; debe egresar de inmediato aunque no tolere alimentos si no tiene fiebre.",
+        "B": "Meta de SatO2 ≥ 90% a nivel del mar (> 88% a > 2,200 msnm); la ingesta oral menor al 50% del volumen habitual y la persistencia de taquipnea > 60 rpm obligan a mantener la hospitalización.",
+        "C": "Meta de SatO2 ≥ 85% a cualquier altitud; la presencia de rinorrea hialina por más de 7 días es el único criterio de ingreso a terapia intensiva.",
+        "D": "Meta de PaO2 > 120 mmHg por gasometría arterial horaria obligatoria en todo paciente antes de contemplar el egreso."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Metas de oxigenación en bronquiolitis: SpO2 ≥ 90% a nivel del mar (y ≥ 88% a altitudes elevadas como CDMX > 2,200 m). Criterios de hospitalización en GPC: edad < 3 meses, SpO2 < 90% al aire ambiente, rechazo o ingesta oral < 50%, taquipnea > 60-70 rpm, apneas o deshidratación.",
+      "justificacion_gpc": "La GPC IMSS-032 define que la meta de oxigenoterapia es mantener una SpO2 ≥ 90% a nivel del mar (o ≥ 88% a altitudes mayores a 2,200 metros). Los criterios formales de ingreso y permanencia hospitalaria incluyen: SatO2 < 90% al aire ambiente, dificultad respiratoria moderada-grave (taquipnea > 60 rpm, tiraje), ingesta de líquidos deficiente (< 50% de lo habitual) con riesgo de deshidratación o broncoaspiración, edad menor a 3 meses y antecedente de prematurez o apneas.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón Erróneo]: Exigir SpO2 ≥ 98% prolonga hospitalizaciones innecesariamente, pero mandar a casa a un lactante de 3 meses que no tolera la vía oral es una negligencia con alto riesgo de deshidratación aguda.",
+        "C": "[Distractor de Espectro Inseguro]: Una SatO2 de 85% representa hipoxemia grave no permisible en el lactante, y la rinorrea es un síntoma banal esperado.",
+        "D": "[Distractor por Iatrogenia]: La gasometría arterial rutinaria está desaconsejada en bronquiolitis por ser dolorosa y generar llanto que empeora la ventilación; la pulsioximetría continua es el estándar de monitoreo."
+      }
+    },
+    {
+      "id": "d08_q7",
+      "index": 7,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-045",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Lactante masculino de 45 días de vida (1.5 meses), sin antecedentes patológicos perinatales, es traído al servicio de urgencias pediátricas por presentar fiebre de 38.9 °C de 24 horas de evolución, pobre succión, vómitos en 3 ocasiones y marcada hipoactividad. A la exploración física: peso 4.4 kg, FC 168 lpm, FR 46 rpm, temperatura 38.7 °C, llenado capilar 3 segundos, fontanela anterior normotensa, llanto débil. El examen general de orina obtenido por cateterismo estéril confirma piuria masiva con nitritos positivos y bacterias abundantes.",
+      "question_text": "Con base en la GPC IMSS-045 y la edad del paciente (menor de 3 meses con afectación del estado general), ¿cuál es el esquema antimicrobiano de primera línea y la vía de administración recomendada?",
+      "options": {
+        "A": "Ciprofloxacino oral a dosis de 20 mg/kg/día dividido en dos tomas con vigilancia ambulatoria en su domicilio.",
+        "B": "Nitrofurantoína oral en suspensión por 5 días previa alta con cita a consulta externa en 72 horas.",
+        "C": "Hospitalización inmediata y administración parenteral de una cefalosporina de 3ra generación (Cefotaxima o Ceftriaxona) o Ampicilina más Aminoglucósido.",
+        "D": "Amoxicilina oral en monoterapia a dosis estándar de 40 mg/kg/día por vía oral durante 14 días."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Lactante menor de 3 meses (45 días de vida) con ITU febril, vómito e hipoactividad (datos de riesgo de bacteriemia/sepsis urinaria). En menores de 3 meses o con intolerancia oral/sepsis, la GPC exige hospitalización y tratamiento intravenoso inmediato con cefalosporinas de 3ra generación (Cefotaxima/Ceftriaxona) o Ampicilina + Aminoglucósido. Las quinolonas están proscritas y la nitrofurantoína no alcanza niveles tisulares en sospecha de pielonefritis/bacteriemia.",
+      "justificacion_gpc": "La GPC IMSS-045 y las guías de infectología pediátrica dictan que todo lactante menor de 3 meses de edad con ITU febril debe hospitalizarse para recibir tratamiento antimicrobiano intravenoso (parenteral) debido al alto riesgo de urosepsis, cicatriz renal y bacteriemia oculta. Los fármacos de elección son cefalosporinas de 3ra generación parenterales (cefotaxima o ceftriaxona) o ampicilina asociada a aminoglucósido (amikacina/gentamicina). Las quinolonas están contraindicadas en pediatría por toxicidad sobre el cartílago articular.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Distractor_Escalon",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Contraindicación Absoluta]: Las fluoroquinolonas están proscritas como primera línea en pediatría por riesgo de artropatía/daño cartilaginoso y el manejo ambulatorio en un lactante de 45 días séptico es potencialmente mortal.",
+        "B": "[Distractor de Escalón / Farmacocinética Inadecuada]: La nitrofurantoína no alcanza concentraciones terapéuticas en el parénquima renal ni en sangre, por lo que está formalmente contraindicada en pielonefritis o ITU febril.",
+        "D": "[Distractor de Espectro / Resistencia]: La amoxicilina sola presenta tasas de resistencia bacteriana de E. coli superiores al 60-80% en México y la vía oral está contraindicada por vómitos y edad menor a 3 meses."
+      }
+    },
+    {
+      "id": "d08_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-045",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Niña de 2 años de edad que ha presentado tres episodios documentados de infección de vías urinarias febriles (pielonefritis aguda) en el último año, asociadas a reflujo vesicoureteral grado III confirmado por cistouretrografía miccional. Actualmente se encuentra completamente asintomática y con urocultivos negativos bajo profilaxis antimicrobiana. El nefrólogo pediatra desea evaluar si los episodios infecciosos previos han provocado secuelas anatómicas y daño parenquimatoso renal irreversible (cicatrices renales).",
+      "question_text": "Conforme a la GPC IMSS-045, ¿cuál es el estudio de imagen estándar de oro (Gold Standard) para la detección y cuantificación de cicatrices corticales renales y función renal diferencial en esta paciente?",
+      "options": {
+        "A": "Gammagrafía renal cortical con ácido dimercaptosuccínico marcado con Tecnecio-99m (99mTc-DMSA) realizada al menos 4 a 6 meses después de la última infección.",
+        "B": "Ultrasonido renal estructural en escala de grises con modo Doppler color para descartar nefrocalcinosis.",
+        "C": "Resonancia magnética nuclear urológica con gadolinio en fase de perfusión dinámica inmediata.",
+        "D": "Radiografía simple de abdomen (placa simple de vías urinarias) buscando calcificaciones de la sombra renal."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Evaluación de daño parenquimatoso irreversible (cicatrices renales) tras ITU febriles recurrentes. El estándar de oro absoluto según la GPC es la Gammagrafía con 99mTc-DMSA, la cual debe realizarse entre 4 a 6 meses después del último episodio agudo para diferenciar inflamación transitoria de cicatriz permanente.",
+      "justificacion_gpc": "La GPC IMSS-045 establece que la gammagrafía renal con ácido dimercaptosuccínico marcado con 99mTc (DMSA) es el estándar de oro para el diagnóstico de cicatrices renales y para evaluar la función renal diferencial relativa entre ambos riñones. Para confirmar que el defecto de captación corresponde a una cicatriz renal permanente y no a un foco de hipoperfusión inflamatoria aguda transitoria, el estudio debe realizarse al menos 4 a 6 meses después del cuadro de pielonefritis.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón]: El ultrasonido renal es el estudio de cribado anatómico inicial indispensable, pero tiene baja sensibilidad y especificidad para detectar cicatrices corticales pequeñas o cuantificar la función renal diferencial en comparación con el DMSA.",
+        "C": "[Distractor de Espectro / Alto Costo]: La uro-resonancia magnética no es el estándar de oro de primera línea en la normativa mexicana y requiere sedación profunda en niños pequeños.",
+        "D": "[Distractor por Utilidad Nula]: La radiografía simple de abdomen no visualiza parénquima renal ni defectos corticales; solo sirve para litiasis radiopacas."
+      }
+    },
+    {
+      "id": "d08_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-032",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Lactante masculino de 4 meses de edad cronológica, con antecedente de nacimiento prematuro a las 28 semanas de gestación por preeclampsia materna severa, que requirió ventilación mecánica prolongada durante su estancia en la UCIN y actualmente tiene diagnóstico de displasia broncopulmonar en tratamiento con oxígeno domiciliario nocturno a bajo flujo. La familia reside en una zona urbana y se encuentra en el mes de octubre, previo al inicio del pico estacional epidémico de infecciones por Virus Sincitial Respiratorio (VSR).",
+      "question_text": "Con base en la GPC IMSS-032 y la NOM, ¿cuál es la medida farmacológica de inmunoprofilaxis pasiva específica indicada para reducir el riesgo de hospitalización por infección grave por VSR en este paciente?",
+      "options": {
+        "A": "Ribavirina en aerosol continuo diario durante todo el periodo invernal en el domicilio del paciente.",
+        "B": "Vacuna de virus vivos atenuados contra VSR administrada por vía intradérmica en dosis única.",
+        "C": "Amantadina oral combinada con oseltamivir en suspensión como profilaxis antiviral de amplio espectro.",
+        "D": "Administración de Palivizumab intramuscular a dosis de 15 mg/kg cada mes durante la temporada epidémica (hasta un máximo de 5 dosis)."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Prematuro extremo (< 29-32 SDG) con displasia broncopulmonar (enfermedad pulmonar crónica de la prematurez). El fármaco de elección para inmunoprofilaxis pasiva frente a VSR en esta población diana según la GPC es el anticuerpo monoclonal Palivizumab (15 mg/kg IM mensual, máximo 5 dosis durante la temporada invernal).",
+      "justificacion_gpc": "La GPC IMSS-032 y las guías de la AAP recomiendan la profilaxis con Palivizumab (anticuerpo monoclonal IgG1 humanizado dirigido contra la glicoproteína F del VSR) en lactantes de alto riesgo: nacidos con < 29 semanas de gestación (o < 32 semanas según lineamientos específicos), menores de 1 año con displasia broncopulmonar que requirieron tratamiento en los últimos 6 meses, o con cardiopatía congénita hemodinámicamente significativa. Se prescribe a dosis de 15 mg/kg intramuscular mensual durante el periodo de circulación del virus (hasta un máximo de 5 dosis).",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón / Toxicidad]: La ribavirina en aerosol es un antiviral reservado históricamente para casos de inmunodeficiencia extrema con infección activa grave, no como profilaxis domiciliaria por su alta toxicidad y teratogenicidad ambiental.",
+        "B": "[Distractor de Espectro / Inexistente]: No existe una vacuna de virus vivos atenuados autorizada para lactantes prematuros de 4 meses en el esquema nacional; la protección en este grupo de riesgo se logra con inmunización pasiva con anticuerpo monoclonal.",
+        "C": "[Distractor de Comorbilidad / Ineficacia]: Los inhibidores de la neuraminidasa (oseltamivir) y amantadina son específicos para el virus de la influenza y no tienen ninguna actividad farmacológica sobre el Virus Sincitial Respiratorio."
+      }
+    },
+    {
+      "id": "d08_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-045",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "En un hospital pediátrico de segundo nivel se revisa el protocolo de bacteriología urinaria en pacientes menores de 2 años sin control de esfínteres. El residente de pediatría solicita clarificar los umbrales diagnósticos cuantitativos de unidades formadoras de colonias (UFC/mL) en urocultivo según el método de recolección utilizado, para evitar tanto el sobrediagnóstico por contaminación como el infradiagnóstico en lactantes sintomáticos.",
+      "question_text": "De acuerdo con los criterios estandarizados de la GPC IMSS-045, ¿cuál es la correlación correcta entre la técnica de recolección y el punto de corte diagnóstico microbiológico positivo en urocultivo para un uropatógeno gramnegativo?",
+      "options": {
+        "A": "Bolsa recolectora: ≥ 1,000 UFC/mL confirma diagnóstico categórico; Punción suprapúbica: exige ≥ 100,000 UFC/mL para descartar flora residente dérmica.",
+        "B": "Cateterismo vesical: requiere obligatoriamente ≥ 100,000 UFC/mL en al menos dos muestras tomadas con 24 horas de diferencia para poder considerarse positivo.",
+        "C": "Punción suprapúbica: cualquier recuento bacteriano (> 0 UFC/mL o ≥ 1,000 UFC/mL de bacilos gramnegativos); Cateterismo vesical: ≥ 10,000 a 50,000 UFC/mL; Bolsa recolectora: no confirma diagnóstico si es positiva (solo descarta si es negativa).",
+        "D": "Punción suprapúbica: solo es válida si se aíslan al menos tres especies bacterianas diferentes con recuentos superiores a 500,000 UFC/mL."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Puntos de corte según técnica: Punción suprapúbica = cualquier crecimiento (>0 o ≥1,000 UFC/mL gramnegativos); Cateterismo vesical = ≥10,000-50,000 UFC/mL; Bolsa adhesiva = solo valor predictivo negativo (si es positiva, no confirma por contaminación >50%).",
+      "justificacion_gpc": "La GPC IMSS-045 precisa los umbrales de urocultivo según la técnica: 1) Punción suprapúbica: cualquier recuento de bacilos gramnegativos o ≥ 1,000 UFC/mL de cocos grampositivos confirma infección debido a que la vejiga es estéril. 2) Cateterismo vesical transuretral: ≥ 10,000 a 50,000 UFC/mL de un solo uropatógeno es diagnóstico en presencia de piuria/síntomas. 3) Bolsa perineal: no tiene valor confirmatorio debido a su tasa de falsos positivos superior al 50%; un resultado positivo siempre requiere confirmación por cateterismo o punción.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Espectro",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón Invertido]: Atribuir valor confirmatorio a la bolsa con 1,000 UFC y exigir 100,000 UFC en punción suprapúbica es diametralmente opuesto a la bacteriología clínica (la punción no tiene flora comensal).",
+        "B": "[Distractor de Espectro]: El criterio de 100,000 UFC en dos tomas corresponde a bacteriuria asintomática en adultos o micción espontánea en niñas mayores, no al cateterismo vesical en lactantes.",
+        "D": "[Distractor de Contaminación Polimicrobiana]: El aislamiento de tres especies bacterianas distintas indica contaminación de la muestra, no infección verdadera."
+      }
+    },
+    {
+      "id": "d08_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-045",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 4-year-old girl is brought to the pediatric emergency department with a 3-day history of dysuria, urinary frequency, urgency, and low-grade fever (38.1 °C). She is continent and fully toilet-trained. Physical examination reveals stable vital signs, mild suprapubic tenderness, and no costovertebral angle tenderness. A clean-catch midstream urine sample is collected. Urinalysis reveals positive leukocyte esterase, positive nitrites, and > 30 white blood cells per high-power field, confirming an acute lower urinary tract infection (cystitis). Her medical record documents a severe, life-threatening anaphylactic reaction (angioedema, bronchospasm, and circulatory collapse) following amoxicillin administration one year ago.",
+      "question_text": "According to Mexican Clinical Practice Guidelines (GPC IMSS-045) and pediatric infectious disease protocols, which of the following is the most appropriate first-line oral antibiotic regimen for acute uncomplicated cystitis in this patient with a documented severe beta-lactam anaphylaxis?",
+      "options": {
+        "A": "Cefixime oral suspension at 8 mg/kg/day once daily for 5 to 7 days.",
+        "B": "Nitrofurantoin (macrocrystals) orally at 5 to 7 mg/kg/day divided into 4 doses for 5 to 7 days, or Trimethoprim/Sulfamethoxazole if local resistance is known to be low (< 20%).",
+        "C": "Ciprofloxacin oral suspension at 30 mg/kg/day divided into 2 doses for 14 days.",
+        "D": "Ceftriaxone 50 mg/kg intramuscular single dose followed by oral cephalexin for 10 days."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Niña continente de 4 años con cistitis no complicada (afección baja sin fiebre alta ni dolor lumbar) pero con ANTECEDENTE DE ANAFILAXIA SEVERA A BETALACTÁMICOS (penicilinas). Esto contraindica formalmente todas las penicilinas y cefalosporinas (riesgo de reactividad cruzada mediada por IgE). En cistitis no complicada, la alternativa de elección vía oral no betalactámica es Nitrofurantoína (o TMP/SMX si la resistencia local es baja). Las quinolonas están contraindicadas en niños.",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-045, ante el antecedente de anafilaxia grave confirmada a penicilinas (reacción mediada por IgE), deben evitarse los betalactámicos, incluidas las cefalosporinas. En cistitis aguda afebril o no complicada en mayores de 2 años continentes, la Nitrofurantoína por vía oral (5-7 mg/kg/día dividida en 4 tomas durante 5 a 7 días) es el tratamiento alternativo de elección debido a que alcanza excelentes concentraciones en la vejiga con mínima resistencia bacteriana. Trimetoprim/Sulfametoxazol es otra alternativa si la tasa de resistencia local no supera el 20%. Las fluoroquinolonas están proscritas de rutina en pediatría.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor by Severe Comorbidity/Allergy]: Administering cefixime (a beta-lactam) to a child with documented anaphylactic shock to penicillin carries a dangerous risk of cross-reactivity and is contraindicated.",
+        "C": "[Distractor by Contraindicated Class]: Fluoroquinolones (ciprofloxacin) are strictly restricted in pediatric patients due to the risk of chondrotoxicity and cartilage damage, and are not indicated for uncomplicated cystitis.",
+        "D": "[Distractor by Severe Allergy Violation]: Ceftriaxone and cephalexin are beta-lactams and are strictly contraindicated in IgE-mediated anaphylaxis."
+      }
+    },
+    {
+      "id": "d08_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-032",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A previously healthy 5-month-old infant is brought to the pediatric outpatient clinic in December due to a 2-day history of clear rhinorrhea, low-grade fever, and mild dry cough. Over the last 12 hours, the parents noticed faster breathing and noisy chest sounds during feeding. Physical examination demonstrates an active, well-hydrated infant; HR 135 bpm, RR 48 bpm, temperature 37.6 °C, and SpO2 96% on room air at sea level. Chest auscultation reveals scattered end-expiratory wheezing and mild bilateral crackles, without intercostal retractions or grunting. The diagnosis of mild acute viral bronchiolitis is suspected.",
+      "question_text": "In accordance with the Mexican Clinical Practice Guideline (GPC IMSS-032) and the American Academy of Pediatrics (AAP) guidelines, what is the recommended diagnostic approach and routine testing strategy for this patient?",
+      "options": {
+        "A": "The diagnosis of acute bronchiolitis is strictly clinical based on patient history and physical examination; routine chest radiographs, laboratory blood tests, and viral swab panels are not recommended in typical mild presentations.",
+        "B": "Routine chest radiography, complete blood count, and viral panel antigen testing must be performed on all infants presenting with a first episode of bronchiolitis before establishing the diagnosis.",
+        "C": "Perform an urgent computed tomography (CT) scan of the thorax and arterial blood gas analysis to assess small airway obstruction.",
+        "D": "Prescribe an empiric 7-day course of oral azithromycin while awaiting the results of an induced sputum culture."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Lactante de 5 meses con cuadro clínico clásico de bronquiolitis aguda leve (pródromo catarral, sibilancias bilaterales, FR 48 rpm, SpO2 96%). La GPC IMSS-032 y la AAP establecen categóricamente que el diagnóstico de la bronquiolitis es ESTRÍCTAMENTE CLÍNICO. La radiografía de tórax de rutina, biometría hemática y paneles virales NO están recomendados en presentaciones típicas no complicadas porque aumentan el uso innecesario de antibióticos y costos sin modificar la conducta clínica.",
+      "justificacion_gpc": "La GPC IMSS-032 y la guía de la AAP señalan que el diagnóstico de bronquiolitis es fundamentalmente clínico (edad menor de 2 años, pródromo de vía aérea superior de 2-3 días seguido de taquipnea, sibilancias o estertores crepitantes). NO se deben solicitar de rutina estudios paraclínicos como radiografía de tórax, biometría hemática ni pruebas rápidas de antígeno viral en cuadros típicos y leves, ya que no cambian el manejo, aumentan la radiación innecesaria e inducen el uso injustificado de antibióticos por confusión de atelectasias laminares con consolidaciones bacterianas.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor by Routine Paraclinical Overuse]: Requesting routine chest X-rays and viral panels in mild, typical bronchiolitis is explicitly discouraged by GPC IMSS-032 because atelectasias are frequently misread as bacterial pneumonia, prompting inappropriate antibiotic prescribing.",
+        "C": "[Distractor by Extreme Invasiveness]: CT scans and arterial blood gas sampling are invasive, unnecessary, and expose the infant to high radiation and distress in a mild case with SpO2 96%.",
+        "D": "[Distractor by Inappropriate Antibiotic Therapy]: Macrolides (azithromycin) and sputum cultures have no role in acute viral bronchiolitis and violate stewardship guidelines."
+      }
+    }
+  ],
+  "code": "D08",
+  "topic_id": "D08_PED_Infecciones_Respiratorias_Pediatricas",
+  "topic": "OMA, Faringitis, Crup, Bronquiolitis e ITU"
+}

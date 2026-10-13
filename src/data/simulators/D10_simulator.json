@@ -1,0 +1,709 @@
+{
+  "topic_code": "D10",
+  "title": "Simulador Post-Estudio: Hitos del Desarrollo, Tanner y Tamiz",
+  "normativa_origen": "NOM-031-SSA2 / NOM-034-SSA2 / GPC IMSS-028 / GPC IMSS-570 / GPC IMSS-572",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d10_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Tamiz Metabólico Neonatal e Hipotiroidismo Congénito",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Recién nacido masculino a término (39.2 semanas de gestación por escala de Ballard), obtenido por parto eutócico institucional sin complicaciones, peso al nacer 3,350 g, talla 50 cm, Apgar 8/9. Egresó a las 24 horas de vida en alojamiento conjunto con seno materno exclusivo. A los 4 días de vida extrauterina, la madre acude puntualmente a su Centro de Salud para la toma reglamentaria del tamiz metabólico neonatal mediante punción de talón sobre papel filtro específico de Guthrie. A los 12 días de vida, el laboratorio estatal notifica un resultado de TSH en talón de 28 mUI/L (valor de referencia de corte institucional: sospechoso o dudoso si > 10 mUI/L). Al acudir a la notificación, el neonato se encuentra activo y reactivo, sin ictericia conjuntival visible, pero a la exploración física minuciosa el médico detecta una fontanela posterior amplia de 1.8 cm de diámetro y frialdad acral distal discreta. La madre se encuentra muy angustiada y pregunta si debe iniciar de inmediato pastillas de hormona tiroidea.",
+      "question_text": "De acuerdo con la NOM-034-SSA2 para la prevención y control de los defectos al nacer y la GPC de Hipotiroidismo Congénito, ¿cuál es la conducta diagnóstica y terapéutica inmediata que debe ejecutarse?",
+      "options": {
+        "A": "Iniciar inmediatamente Levotiroxina sódica a 15 mcg/kg/día sin necesidad de pruebas adicionales, ya que cualquier TSH en talón mayor a 10 mUI/L confirma hipotiroidismo primario severo irreversible.",
+        "B": "Citar en 4 semanas para repetir una segunda muestra de tamiz en papel filtro de talón, difiriendo cualquier tratamiento farmacológico hasta demostrar persistencia de la elevación en el segundo tamizaje.",
+        "C": "Tomar de inmediato una muestra sérica venosa para cuantificar perfil tiroideo confirmatorio (TSH sérica y T4 libre sérica); si la TSH sérica venosa es > 20 mUI/L o la T4 libre está disminuida, iniciar Levotiroxina oral inmediatamente sin demora.",
+        "D": "Solicitar gammagrama tiroideo con Yodo-131 en ayuno estricto y ultrasonido de cuello urgente, suspendiendo la lactancia materna durante 48 horas previo a la toma de imagen."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Confirmacion_Diagnostica_Tamiz",
+      "gpc_algorithm_step": "Algoritmo de Tamiz Metabólico NOM-034-SSA2 / GPC Hipotiroidismo Congénito: Ante un valor de TSH en talón entre 10 y 39 mUI/L en un neonato asintomático o con signos sutiles, se debe tomar muestra venosa urgente para perfil tiroideo confirmatorio (TSH y T4 libre). Con TSH venosa > 20 mUI/L (o > 10 con T4L baja), se confirma hipotiroidismo congénito primario e inicia Levotiroxina sódica oral de inmediato. Si la TSH de talón inicial fuese > 40 mUI/L, la GPC autoriza iniciar tratamiento de inmediato al tomar la muestra confirmatoria sin esperar el resultado.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Asumir que el resultado del papel filtro de talón es diagnóstico definitivo e iniciar tratamiento de por vida sin confirmación sérica venosa (opción A), o por el contrario posponer la confirmación repitiendo papel filtro a las 4 semanas perdiendo la ventana crítica de neuroprotección (opción B)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta inmediata ante un tamiz metabólico de talón con TSH de 10 a 39 mUI/L según la NOM-034 y GPC?",
+        "back": "Tomar muestra venosa urgente para cuantificar TSH sérica y T4 libre. Si TSH venosa > 20 mUI/L (o T4L baja), iniciar Levotiroxina sódica oral de inmediato (meta: antes de los 15 días de vida).",
+        "tags": "D10 Hipotiroidismo_Congénito Tamiz_Metabólico NOM-034 GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Tamiz Metabólico Neonatal e Hipotiroidismo Congénito",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A las 24 horas de la toma venosa urgente (día 13 de vida extrauterina), se reportan los resultados laboratoriales confirmatorios del mismo neonato: TSH sérica venosa de 88 mUI/L (referencia: 0.5 a 5.0 mUI/L) y T4 libre sérica de 0.28 ng/dL (referencia neonatal: 0.9 a 2.3 ng/dL). El peso actual del paciente es de 3,400 g. A la revaloración clínica, se documenta llanto ronco, piel seca y áspera con tinte ictérico tenue en tronco (Kramer II), macroglosia leve reductible y hernia umbilical de 1.2 cm de diámetro. La madre refiere que el niño no ha presentado evacuaciones en las últimas 48 horas.",
+      "question_text": "De acuerdo con la GPC mexicana y las directrices normativas del ENARM, ¿cuál es el fármaco de elección, la dosis ponderal inicial recomendada y la ventana cronológica crítica para prevenir secuelas neurológicas irreversibles (cretinismo/retraso mental) en este paciente?",
+      "options": {
+        "A": "Levotiroxina sódica oral a dosis de 10 a 15 mcg/kg/día (35 a 50 mcg/día), iniciada idealmente antes de los 15 días de vida extrauterina (y nunca más allá de los 30 días de vida).",
+        "B": "Liotironina sódica (T3) oral a dosis de 5 mcg/kg/día combinada con Levotiroxina a 1.6 mcg/kg/día, iniciada antes de los 60 días de vida.",
+        "C": "Levotiroxina sódica oral a dosis de sustitución de adulto de 1.6 a 1.8 mcg/kg/día en toma matutina, ajustando cada 6 meses según ganancia ponderal.",
+        "D": "Dexametasona intravenosa a 0.5 mg/kg/día en bolo para estimular la conversión periférica de T4 a T3, difiriendo la hormona tiroidea hasta los 3 meses de vida."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx_Dosis_Ventana",
+      "gpc_algorithm_step": "GPC CENETEC Hipotiroidismo Congénito: El tratamiento de elección es monoterapia con Levotiroxina sódica (L-T4) oral a dosis de 10 a 15 mcg/kg/día (habitualmente 37.5 a 50 mcg/día). Debe iniciarse de inmediato y de ser posible antes de los 15 días de vida (y no más allá de los 30 días); iniciar después del mes de vida incrementa drásticamente el riesgo de retraso psicomotor y déficit cognitivo irreversible. La dosis de 1.6 mcg/kg/día es la dosis de mantenimiento del adulto, totalmente insuficiente para el neurodesarrollo del neonato.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La opción C ofrece levotiroxina pero a dosis de adulto (1.6 mcg/kg/día), la cual es catastróficamente subterapéutica en un recién nacido cuya demanda metabólica cerebral exige 10-15 mcg/kg/día. La opción B usa T3 combinada (desaconsejada por la GPC por riesgo de tirotoxicosis y fluctuaciones rápidas)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el fármaco, dosis ponderal y ventana cronológica crítica de inicio para hipotiroidismo congénito según la GPC?",
+        "back": "Levotiroxina sódica oral a 10-15 mcg/kg/día, iniciada antes de los 15 días de vida (máximo antes del día 30) para evitar retraso mental irreversible.",
+        "tags": "D10 Hipotiroidismo_Congénito Levotiroxina GPC Neurodesarrollo"
+      }
+    },
+    {
+      "id": "d10_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Tamiz Metabólico Neonatal e Hipotiroidismo Congénito",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Se inicia de forma inmediata la administración de levotiroxina sódica oral a 12.5 mcg/kg/día. El médico tratante le explica a los padres que se debe realizar un protocolo de gabinete para precisar el origen anatómico y fisiopatológico del hipotiroidismo congénito primario, aclarando que ningún estudio de imagen debe condicionar, retrasar ni suspender el tratamiento hormonal ya instaurado.",
+      "question_text": "De acuerdo con la epidemiología rectora y la GPC CENETEC, ¿cuál es la causa etiológica más frecuente de hipotiroidismo congénito primario y cuál es el estudio de gabinete de primera línea para caracterizarla morfológicamente sin suspender el tratamiento?",
+      "options": {
+        "A": "Dishormonogénesis tiroidea familiar por mutación en tioperoxidasa (85% de los casos); el estudio de elección es la biopsia por aspiración con aguja fina (BAAF) guiada por ultrasonido.",
+        "B": "Disgenesia tiroidea (85 a 90% de los casos, predominantemente ectopia tiroidea en el 50-60%); el estudio de elección inicial es el ultrasonido tiroideo y/o gammagrama con Tecnecio-99m / Yodo-123.",
+        "C": "Tiroiditis autoinmune neonatal transitoria por anticuerpos maternos anti-TPO (90% de los casos); el estudio de elección es la resonancia magnética cervical contrastada.",
+        "D": "Hipotiroidismo central secundario a aplasia hipofisaria (80% de los casos); el estudio de elección es la tomografía axial computarizada de silla turca."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Etiologia_Y_Gabinete",
+      "gpc_algorithm_step": "GPC CENETEC / NOM-034-SSA2: La disgenesia tiroidea representa el 85-90% de los casos de hipotiroidismo congénito primario (ectopia 50-60%, aplasia/hipoplasia 35%). La dishormonogénesis ocupa el 10-15% restante. El estudio morfológico de elección es el ultrasonido de cuello combinado con gammagrama tiroideo con Tc-99m o I-123 (preferido Tc-99m en neonatos por menor radiación). El estudio gammagráfico debe realizarse dentro de los primeros días tras iniciar la levotiroxina o diferirse hasta los 3 años de edad en la prueba de suspensión, sin suspender el fármaco agudamente.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Confundir la etiología neonatal con la del niño mayor/adulto (tiroiditis autoinmune/Hashimoto) o sobreestimar la dishormonogénesis (que solo representa el 10-15% y cursa habitualmente con bocio)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la causa más común de hipotiroidismo congénito y su distribución porcentual según la GPC?",
+        "back": "Disgenesia tiroidea (85-90%), siendo la ectopia tiroidea la más frecuente (50-60%), seguida de hipoplasia/aplasia (35%). Dishormonogénesis representa 10-15%.",
+        "tags": "D10 Hipotiroidismo_Congénito Ectopia Disgenesia GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Tamiz Metabólico Neonatal e Hipotiroidismo Congénito",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El paciente cumple 2 meses de vida y acude a control clínico y laboratorial en la consulta de endocrinología pediátrica. Se encuentra eutrófico, fontanela posterior cerrada, hernia umbilical prácticamente resuelta y desarrollo psicomotor acorde a su edad. La madre comenta que para que el bebé no escupa la tableta de levotiroxina, la tritura y la mezcla dentro del biberón matutino que contiene fórmula infantil a base de proteína de soya, y que simultáneamente le administra las gotas de sulfato ferroso profiláctico prescritas en su unidad de medicina familiar.",
+      "question_text": "De acuerdo con la farmacología clínica y las recomendaciones de la GPC de Hipotiroidismo Congénito, ¿cuál es la instrucción precisa sobre la administración del fármaco y las metas laboratoriales de control?",
+      "options": {
+        "A": "Administrar la tableta triturada en ayuno matutino disuelta en una cucharadita de agua hervida o leche materna, separada al menos 4 horas del sulfato ferroso y de la fórmula con soya; con meta de TSH entre 0.5 y 2.0 mUI/L y T4 libre en la mitad superior del rango de referencia.",
+        "B": "Mantener la administración disuelta en el biberón de soya con sulfato ferroso para garantizar adherencia, duplicando la dosis de levotiroxina a 25 mcg/kg/día para compensar la quelación entérica.",
+        "C": "Recomendar administrar la tableta antes de dormir junto con alimentos sólidos blandos, manteniendo como meta de TSH un valor suprimido < 0.05 mUI/L para asegurar aceleración del neurodesarrollo.",
+        "D": "Cambiar inmediatamente a solución inyectable intramuscular semanal, ya que la vía oral está formalmente proscrita en menores de 6 meses que reciben preparados de hierro."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Farmacocinetica_Interacciones_Metas",
+      "gpc_algorithm_step": "GPC CENETEC Hipotiroidismo Congénito: La levotiroxina sódica se debe administrar triturada en una cucharadita con agua simple o leche materna, en ayuno (30-60 min antes del primer alimento). Las fórmulas de soya, el sulfato ferroso, el carbonato de calcio y los antiácidos disminuyen drásticamente su absorción entérica (quelación), por lo que deben espaciarse al menos 4 horas. Metas de control: mantener la T4 libre en la mitad/tercio superior del rango normal para la edad y la TSH entre 0.5 y 2.0 mUI/L durante los primeros 3 años de vida.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La fórmula con soya y el hierro quelan la levotiroxina en la luz intestinal impidiendo su biodisponibilidad. La opción B pretende corregirlo duplicando empíricamente la dosis, lo cual genera absorción errática y riesgo de toxicidad. La meta de supresión < 0.05 mUI/L (opción C) provoca craneosinostosis prematura y osteoporosis."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo debe administrarse la levotiroxina en lactantes y qué sustancias interfieren con su absorción según la GPC?",
+        "back": "Triturada en cucharilla con agua/leche materna en ayuno. Separar mínimo 4 horas de hierro, calcio y fórmulas de soya. Meta: TSH 0.5-2 mUI/L y T4L en tercio superior.",
+        "tags": "D10 Hipotiroidismo_Congénito Levotiroxina Quelación Interacciones GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Tamiz Auditivo, Oftalmológico y Cardíaco en el Neonato de Alto Riesgo",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Recién nacido masculino de 35.4 semanas de gestación por Ballard, con peso al nacer de 2,050 g, producto de embarazo normoevolutivo hasta el tercer trimestre, en que se presentó ruptura prematura de membranas de 26 horas. Al nacimiento presentó depresión respiratoria moderada que requirió ventilación con presión positiva (VPP) durante 90 segundos. Permaneció hospitalizado en la Unidad de Cuidados Intensivos Neonatales (UCIN) durante 7 días debido a sepsis neonatal temprana confirmada por hemocultivo (recibió ampicilina + amikacina) e ictericia neonatal multifactorial tratada con fototerapia continua por niveles de bilirrubina sérica total de 18.2 mg/dL. Actualmente a los 8 días de vida, clínicamente asintomático, afebril, con tolerancia a la vía oral y programándose su egreso hospitalario.",
+      "question_text": "De acuerdo con la NOM-034-SSA2 y la GPC para la Detección Temprana de Hipoacusia en el Recién Nacido (IMSS-570), ¿cuál es la modalidad de tamiz auditivo indicada de primera línea en este paciente específico antes de su alta médica?",
+      "options": {
+        "A": "Emisiones Otoacústicas Evocadas Transitorias (EOAT) exclusivamente, ya que tienen mayor especificidad que cualquier otra prueba en menores de 2,500 g.",
+        "B": "Potenciales Evocados Auditivos de Tallo Cerebral Automatizados (PEATC-A), debido a la estancia en UCIN mayor a 5 días, uso de aminoglucósidos e hiperbilirrubinemia con riesgo de neuropatía auditiva retrococlear.",
+        "C": "Timpanometría de alta frecuencia combinada con audiometría conductual por observación refleja del parpadeo (reflejo cócleo-palpebral).",
+        "D": "Diferir cualquier evaluación auditiva hasta los 12 meses de edad, ya que la mielinización de la vía auditiva del prematuro tardío impide interpretar trazados electrofisiológicos antes del año."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Tamiz_Auditivo_Alto_Riesgo",
+      "gpc_algorithm_step": "GPC IMSS-570 / NOM-034-SSA2: En recién nacidos sanos de bajo riesgo en cunero fisiológico, el tamiz auditivo se realiza con Emisiones Otoacústicas (EOA). Sin embargo, en neonatos con factores de riesgo de hipoacusia o estancia en UCIN > 5 días (como uso de ototóxicos, hiperbilirrubinemia severa, sepsis o asfixia), el estudio de tamizaje MANDATORIO es Potenciales Evocados Auditivos de Tallo Cerebral Automatizados (PEATC-A). Las EOA solo evalúan la función coclear (células ciliadas externas) y pasarían por alto neuropatías auditivas y lesiones retrococleares inducidas por bilirrubina o hipoxia.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Asumir que las Emisiones Otoacústicas (EOA) son la prueba universal para absolutamente todos los recién nacidos, ignorando que en neonatos con estancia en UCIN > 5 días o factores de riesgo neurosensorial la GPC exige PEATC-A para no dejar escapar neuropatías retrococleares."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el método de tamiz auditivo de elección en neonatos con estancia en UCIN > 5 días o factores de riesgo según la GPC IMSS-570?",
+        "back": "Potenciales Evocados Auditivos de Tallo Cerebral Automatizados (PEATC-A), ya que detectan neuropatía auditiva y daño retrococlear (las EOA no los detectan).",
+        "tags": "D10 Tamiz_Auditivo UCIN PEATC Hipoacusia GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Tamiz Auditivo, Oftalmológico y Cardíaco en el Neonato de Alto Riesgo",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Se realizan los Potenciales Evocados Auditivos de Tallo Cerebral Automatizados (PEATC-A) al paciente del caso anterior previo a su egreso de la UCIN. El resultado en el oído derecho reporta 'PASA' (Pass), pero en el oído izquierdo reporta 'NO PASA / REFIERE' (Refer). El conducto auditivo externo se encuentra permeable y libre de vernix caseosa. La madre se muestra angustiada y pregunta si el niño es sordo y si deben colocarle un implante coclear de inmediato.",
+      "question_text": "De acuerdo con el algoritmo cronológico rector del Tamiz Auditivo Neonatal en México (regla 1-3-6 de la GPC y NOM-034), ¿cuál es la conducta diagnóstica y terapéutica secuencial correcta?",
+      "options": {
+        "A": "Realizar un segundo tamizaje con PEATC-A antes de las 4 a 6 semanas de vida (o máximo antes de los 3 meses); de persistir 'no pasa', realizar PEATC diagnósticos extendidos antes de los 3 meses e iniciar intervención/auxiliares antes de los 6 meses de vida.",
+        "B": "Solicitar tomografía axial computarizada de peñascos de alta resolución en las próximas 48 horas e ingresar a lista quirúrgica para implante coclear bilateral a los 2 meses de vida.",
+        "C": "Informar a la madre que el resultado es concluyente de hipoacusia unilateral neurosensorial profunda irreversible y citar a los 3 años de vida para valoración de lenguaje.",
+        "D": "Dar de alta definitiva del programa de tamizaje auditivo, ya que al haber pasado el oído derecho el desarrollo neurolingüístico se encuentra garantizado sin secuelas."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Algoritmo_Tamiz_Auditivo_1_3_6",
+      "gpc_algorithm_step": "GPC IMSS-570 / NOM-034-SSA2 (Algoritmo 1-3-6): 1) Tamiz inicial antes del primer mes de vida. Si 'no pasa', se repite una segunda prueba de tamizaje entre las 2 y 6 semanas (o antes de los 3 meses). 2) Diagnóstico confirmatorio audiológico integral con PEATC clínicos/umbrales antes de los 3 meses de edad. 3) Intervención médica, protésica (auxiliares auditivos) y rehabilitación antes de los 6 meses de edad para evitar retraso irreversible en el neurodesarrollo del lenguaje.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Brincar de un tamiz inicial 'no pasa' directamente a intervenciones quirúrgicas invasivas (TAC, implante coclear precoz) o considerar que la audición unilateral no requiere estudio ni seguimiento protocolizado."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la regla cronológica (1-3-6) del Tamiz Auditivo Neonatal según la GPC IMSS-570 y NOM-034?",
+        "back": "1 mes: Tamiz auditivo inicial. 3 meses: Diagnóstico confirmatorio audiológico (PEATC clínicos). 6 meses: Intervención/tratamiento y adaptación de auxiliares auditivos.",
+        "tags": "D10 Tamiz_Auditivo Regla_1_3_6 Hipoacusia GPC NOM-034"
+      }
+    },
+    {
+      "id": "d10_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Tamiz Auditivo, Oftalmológico y Cardíaco en el Neonato de Alto Riesgo",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "El mismo paciente prematuro tardío (35.4 SDG, peso 2,050 g) requirió durante su estancia en UCIN oxigenoterapia suplementaria en puntas nasales durante 4 días debido a fluctuaciones respiratorias asociadas a sepsis neonatal. El médico interno de pregrado pregunta si este paciente amerita ser incluido formalmente en el programa de tamizaje oftalmológico para Retinopatía del Prematuro (ROP).",
+      "question_text": "Con base en los criterios de tamizaje de la NOM-034-SSA2 y la GPC CENETEC para Detección y Tratamiento de la Retinopatía del Prematuro, ¿cuál es la indicación correcta respecto a este paciente y la ventana temporal recomendada para el primer examen de fondo de ojo bajo midriasis?",
+      "options": {
+        "A": "No amerita tamizaje de ROP porque los criterios normativos son estrictos para menores de 32 SDG o peso menor de 1,500 g, quedando excluidos todos los neonatos de más de 34 SDG.",
+        "B": "Sí amerita tamizaje de ROP porque la normativa mexicana incluye a neonatos > 34 SDG o > 1,750 g que recibieron oxígeno suplementario y tuvieron factores de riesgo graves; el examen debe realizarse entre la 4ª y 6ª semana de vida extrauterina (o semana 31-32 postmenstrual).",
+        "C": "Amerita valoración urgente con examen de fondo de ojo en las primeras 24 horas del nacimiento con oftalmoscopio directo en cunero sin dilatar pupila.",
+        "D": "El tamizaje oftalmológico sólo debe realizarse si a los 6 meses de vida el lactante presenta estrabismo o leucocoria clínica evidente."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Tamiz_Oftalmologico_ROP_Criterios",
+      "gpc_algorithm_step": "GPC CENETEC / NOM-034-SSA2: Los criterios de tamizaje para Retinopatía del Prematuro (ROP) en México incluyen: 1) Todo neonato <= 34 semanas de gestación o peso al nacer <= 1,750 gramos. 2) Neonatos de más de 34 semanas o más de 1,750 gramos que recibieron oxígeno suplementario y presentaron factores de riesgo asociados (sepsis, inestabilidad hemodinámica, aminas, transfusiones). El examen debe realizarlo un oftalmólogo con oftalmoscopio binocular indirecto bajo midriasis entre la 4ª y 6ª semana de vida extrauterina o a la semana 31-32 corregida.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Las guías estadounidenses (AAP/AAO) suelen cortar en <= 30 semanas o <= 1,500 g. La normativa mexicana y la GPC amplían el criterio a <= 34 semanas / <= 1,750 g, y explícitamente incluyen a prematuros mayores expuestos a oxígeno con factores de riesgo clínicos debido a la mayor incidencia regional."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios de tamiz para Retinopatía del Prematuro (ROP) según la GPC y NOM-034?",
+        "back": "EG <= 34 semanas O peso <= 1,750 g; O neonatos > 34 semanas / > 1,750 g con oxígeno suplementario y factores de riesgo. Realizar entre la 4ª y 6ª semana de vida.",
+        "tags": "D10 Tamiz_ROP Prematuro Oftalmología NOM-034 GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Tamiz Auditivo, Oftalmológico y Cardíaco en el Neonato de Alto Riesgo",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Como parte de la evaluación antes de conceder el alta hospitalaria en el día 8 de vida (o en cualquier neonato > 24 horas de vida clínicamente estable), el equipo médico realiza el Tamiz Cardíaco Neonatal mediante pulsioximetría, de acuerdo con el protocolo obligatorio de la NOM-034-SSA2. Se coloca el sensor de pulso en la mano derecha (sitio preductal) y en el pie derecho (sitio postductal). Los registros simultáneos muestran: Saturación de Oxígeno (SatO2) mano derecha: 96%; SatO2 pie derecho: 91% (diferencia de 5% entre ambas mediciones). El neonato no presenta cianosis perioral, frecuencia respiratoria de 44 rpm, pulsos femorales palpables y no se auscultan soplos cardíacos.",
+      "question_text": "Conforme al algoritmo normativo de Tamiz de Cardiopatías Congénitas Críticas (NOM-034-SSA2 y CENETEC), ¿cuál es la interpretación estandarizada de este resultado y la conducta médica inmediata a seguir?",
+      "options": {
+        "A": "Resultado Negativo (Normal); al tener la mano derecha SatO2 >= 95%, se descarta cardiopatía dependiente de conducto y el paciente puede egresar sin citas adicionales.",
+        "B": "Resultado Positivo Inmediato; se debe canalizar vía venosa central, iniciar infusión de prostaglandina E1 (Alprostadil) a 0.05 mcg/kg/min y trasladar a quirófano cardiovascular de urgencia.",
+        "C": "Resultado Dudoso / No Concluyente; se debe mantener al paciente en observación y repetir la oximetría en 1 hora; si en un total de 3 evaluaciones horarias persiste la diferencia > 3% o saturación entre 90-94%, se considerará Positivo y requerirá ecocardiograma antes del alta.",
+        "D": "Resultado Invalorable por hipoperfusión periférica; se debe suspender la oximetría y solicitar una radiografía de tórax como sustituto obligatorio del tamiz cardíaco."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Tamiz_Cardiaco_Oximetria_Criterios",
+      "gpc_algorithm_step": "NOM-034-SSA2 / Algoritmo de Tamiz Cardíaco Neonatal Crítico: Realizado a partir de las 24-48 horas de vida en mano derecha (preductal) y cualquier pie (postductal). 1) POSITIVO INMEDIATO: SatO2 < 90% en mano o pie. 2) NEGATIVO: SatO2 >= 95% en ambas extremidades Y diferencia <= 3%. 3) DUDOSO: SatO2 entre 90-94% en mano o pie, O diferencia > 3% entre mano y pie. Conducta ante dudoso: Repetir en 1 hora hasta un máximo de 3 evaluaciones. Si tras 3 tomas persiste la saturación 90-94% o diferencia > 3%, se clasifica como POSITIVO y requiere ecocardiograma transtorácico urgente y valoración por cardiología pediátrica antes del egreso.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Asumir que como la mano tiene 96% ya es normal (falso negativo peligroso: la coartación aórtica o interrupción del arco mantiene saturación preductal normal y postductal baja) o catalogar como positivo fulminante para cirugía sin cumplir el protocolo de las 3 mediciones horarias cuando la saturación está entre 90-94% o hay diferencia > 3%."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios de Tamiz Cardíaco Neonatal por pulsioximetría según la NOM-034?",
+        "back": "Negativo: SatO2 >= 95% en mano y pie con diferencia <= 3%. Dudoso: 90-94% o diferencia > 3% (repetir cada hora hasta 3 veces). Positivo: < 90% en cualquier sitio o persistencia dudosa.",
+        "tags": "D10 Tamiz_Cardiaco Oximetría NOM-034 Cardiopatías GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Vigilancia del Neurodesarrollo y Prueba EDI (NOM-031-SSA2)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Lactante masculino de 9 meses cumplidos es llevado a consulta de control del niño sano en una Unidad de Medicina Familiar. Madre de 22 años, primigesta, sin complicaciones perinatales; peso al nacer 3,200 g a las 39 SDG. Durante el interrogatorio, la madre refiere: 'Mi bebé es muy bueno, casi no llora y se queda quieto donde lo pongo'. A la exploración física y aplicación de la herramienta de Evaluación del Desarrollo Infantil (Prueba EDI - Grupo etario 8: 7 a 9 meses de edad):\n- Motor grueso: Se mantiene sentado solo sin apoyo de manera estable por más de 1 minuto; no gatea ni adopta posición de cuatro puntos.\n- Motor fino: Pasa una sonaja de una mano a otra con éxito. Al colocar un objeto pequeño frente a él, golpea con la mano abierta pero no realiza prensión en pinza (ni radial ni fina).\n- Reflejos: Al estimular la palma de la mano con el dedo del examinador, se desencadena un reflejo de prensión palmar intenso y sostenido con cierre tónico de los dedos.\n- Lenguaje y social: No responde al escuchar su nombre volteando la cabeza; no emite balbuceo combinatorio (no pronuncia bisílabos tipo 'ma-ma', 'pa-pa', 'ta-ta'); no busca una pelota que se esconde frente a sus ojos bajo una manta (permanencia del objeto ausente).",
+      "question_text": "De acuerdo con la NOM-031-SSA2 para la atención a la salud de la infancia y el manual de la Prueba EDI, ¿cuál es la semaforización diagnóstica correspondiente al estado del neurodesarrollo de este lactante?",
+      "options": {
+        "A": "Semáforo Verde (Desarrollo normal), dado que cumple con el hito motor grueso capital de los 9 meses al sostenerse sentado sin apoyo y transferir objetos.",
+        "B": "Semáforo Amarillo (Rezago en el desarrollo), ya que el gateo no es un hito indispensable para la deambulación y sólo presenta retraso en un área aislada.",
+        "C": "Semáforo Rojo (Riesgo de retraso en el desarrollo), fundamentado en la persistencia patológica de un reflejo primitivo arcaico (prensión palmar) después de los 6 meses y falla en hitos clave de lenguaje y social/cognitivo para su edad.",
+        "D": "Parálisis Cerebral Infantil Atáxica Confirmada; amerita inicio de toxina botulínica en miembros torácicos y sedación profiláctica."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Prueba_EDI_Semaforizacion_NOM031",
+      "gpc_algorithm_step": "NOM-031-SSA2 / Manual Prueba EDI (CENSIA): La Prueba EDI clasifica en: 1) Verde (Desarrollo normal). 2) Amarillo (Rezago: no cumple hitos para su grupo pero sí para el anterior, sin banderas rojas). 3) Rojo (Riesgo de retraso en el desarrollo: presencia de señales de alarma, signos neurológicos o persistencia de reflejos arcaicos más allá de la edad límite, o no cumplir hitos del grupo de edad previo). La persistencia del reflejo de prensión palmar a los 9 meses (debe desaparecer a los 4-6 meses) es un signo neurológico de alteración del neurodesarrollo que coloca al paciente en Semáforo Rojo de manera automática.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Anclarse exclusivamente al área motora gruesa (sedestación lograda a los 9 meses = 'está bien') pasando por alto la persistencia de reflejos primitivos (prensión palmar) y la ausencia de balbuceo bisilábico y respuesta al nombre, lo cual convierte el cuadro en Semáforo Rojo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo se clasifica a un lactante en Semáforo Rojo de la Prueba EDI según la NOM-031-SSA2?",
+        "back": "Ante presencia de señales de alarma, alteración fenotípica, persistencia de reflejos primitivos fuera de edad límite, o falta de hitos del grupo de edad previo.",
+        "tags": "D10 Neurodesarrollo Prueba_EDI NOM-031 Semáforo_Rojo"
+      }
+    },
+    {
+      "id": "d10_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Vigilancia del Neurodesarrollo y Prueba EDI (NOM-031-SSA2)",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Al confirmar la clasificación del paciente de 9 meses en Semáforo Rojo (Riesgo de retraso en el desarrollo) en la Prueba EDI, el médico familiar revisa el algoritmo de seguimiento normativo establecido en el programa federal de salud infantil.",
+      "question_text": "De acuerdo con la NOM-031-SSA2, ¿cuál es la conducta institucional y ruta de derivación que debe implementarse sin demora?",
+      "options": {
+        "A": "Indicar a la madre ejercicios de estimulación temprana en casa mediante un folleto ilustrado y programar una nueva prueba EDI en la UMF en 3 meses para reclasificar.",
+        "B": "Referencia inmediata a segundo o tercer nivel de atención pediátrica (Servicio de Pediatría / Neurología Pediátrica / Rehabilitación) para evaluación diagnóstica integral, e incorporación prioritaria y simultánea a un programa formal de estimulación temprana/neurohabilitación.",
+        "C": "Iniciar inmediatamente piracetam y complejo B oral en la UMF, restringir la interacción social y solicitar resonancia magnética cerebral antes de enviar a interconsulta.",
+        "D": "Dar de alta del control del niño sano y reclasificar en semáforo verde si la madre certifica que en su hogar el niño 'sí balbucea cuando está solo'."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Ruta_Referencia_NOM031_EDI_Rojo",
+      "gpc_algorithm_step": "NOM-031-SSA2 / Lineamientos Prueba EDI: Todo niño calificado en Semáforo Rojo debe ser referido de inmediato a un hospital de segundo o tercer nivel para valoración por Pediatría Médica, Neurología Pediátrica o Medicina de Rehabilitación, con el fin de realizar diagnóstico etiológico. De forma paralela e inmediata, se le debe inscribir en un módulo/taller institucional de estimulación temprana y neurohabilitación. El re-testeo en 3 meses en la UMF es exclusivo para el Semáforo Amarillo (rezago), no para el Rojo.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "La opción A describe la conducta reglamentaria del Semáforo Amarillo (consejería en estimulación en el hogar y reevaluación a los 3 meses). En Semáforo Rojo, esperar 3 meses constituye negligencia institucional y retraso diagnóstico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta ante un Semáforo Rojo vs Semáforo Amarillo en la prueba EDI (NOM-031)?",
+        "back": "Rojo: Referencia inmediata a 2º/3er nivel (Pediatría/Neurología/Rehabilitación) + estimulación temprana. Amarillo: Capacitación a la madre + reevaluar en 3 meses.",
+        "tags": "D10 Neurodesarrollo NOM-031 Prueba_EDI Referencia"
+      }
+    },
+    {
+      "id": "d10_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Vigilancia del Neurodesarrollo y Prueba EDI (NOM-031-SSA2)",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Durante la sesión clínica en el servicio de Pediatría, el médico adscrito interroga al equipo médico sobre la cronología fisiológica de aparición y desaparición de los reflejos arcaicos primitivos, enfatizando que su persistencia es el indicador más precoz de disfunción del tracto corticoespinal y lesión de motoneurona superior.",
+      "question_text": "Conforme a la literatura rectora del ENARM y las GPC pediátricas, ¿cuál de las siguientes opciones describe correctamente las edades fisiológicas en que deben haber desaparecido de forma definitiva los reflejos de Moro, prensión palmar y prensión plantar en un lactante sano?",
+      "options": {
+        "A": "Moro a los 4-6 meses; prensión palmar a los 4-6 meses; prensión plantar a los 9-12 meses.",
+        "B": "Moro al 1er mes de vida; prensión palmar a los 2 meses; prensión plantar a los 4 meses.",
+        "C": "Moro a los 12 meses; prensión palmar a los 18 meses; prensión plantar a los 24 meses.",
+        "D": "Moro a los 4-6 meses; prensión palmar a los 12 meses; prensión plantar a los 18 meses."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Reflejos_Arcaicos_Cronologia",
+      "gpc_algorithm_step": "GPC Control del Niño Sano / Manual Dr. Re / Dr. Prieto: Reflejos arcaicos fundamentales: 1) Reflejo de Moro: desaparece entre los 4 y 6 meses (su ausencia al nacer sugiere asfixia/trauma obstétrico; su persistencia > 6 meses sugiere parálisis cerebral). 2) Prensión palmar: desaparece entre los 4 y 6 meses para dar paso a la prensión voluntaria. 3) Prensión plantar: desaparece entre los 9 y 12 meses (previo al inicio de la marcha bípeda independiente). 4) Reflejo tónico asimétrico del cuello (esgrimista): desaparece a los 4-6 meses.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir la desaparición de la prensión palmar (4-6 meses) con la prensión plantar (9-12 meses), o pensar que el reflejo de Moro persiste hasta el año de vida."
+      },
+      "anki_flashcard": {
+        "front": "¿A qué edades deben desaparecer los reflejos de Moro, prensión palmar y prensión plantar?",
+        "back": "Moro: 4 a 6 meses. Prensión palmar: 4 a 6 meses. Prensión plantar: 9 a 12 meses.",
+        "tags": "D10 Neurodesarrollo Reflejos_Arcaicos Moro Prensión GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Vigilancia del Neurodesarrollo y Prueba EDI (NOM-031-SSA2)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Para la capacitación continua del personal de salud de primer contacto en la vigilancia del desarrollo infantil, el pediatra presenta un cuadro sinóptico de banderas rojas absolutas ('Signos de alarma') del neurodesarrollo que exigen envío urgente a neuropediatría sin importar la aparente normalidad en otras áreas.",
+      "question_text": "Conforme a la NOM-031-SSA2 y las directrices de la Academia Mexicana de Pediatría, ¿cuál de las siguientes opciones describe con exactitud una bandera roja absoluta del neurodesarrollo motor que obliga a referencia inmediata?",
+      "options": {
+        "A": "Incapacidad para correr coordinadamente y no pedalear un triciclo a los 18 meses de vida.",
+        "B": "Incapacidad para lograr sostén cefálico a los 2 meses o no alcanzar la bipedestación con apoyo a los 6 meses.",
+        "C": "Incapacidad para lograr sostén cefálico a los 4 meses, ausencia de sedestación independiente a los 9 meses, ausencia de marcha autónoma a los 18 meses, o pérdida de cualquier hito previamente adquirido a cualquier edad.",
+        "D": "No lograr la marcha independiente a los 12 meses de edad en un lactante que gatea y se pone de pie con apoyo."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Banderas_Rojas_Neurodesarrollo",
+      "gpc_algorithm_step": "NOM-031-SSA2 / GPC IMSS-028: Banderas rojas capitales del neurodesarrollo motor: 1) Sostén cefálico ausente a los 4 meses. 2) Sedestación sin apoyo ausente a los 9 meses. 3) Marcha autónoma independiente ausente a los 18 meses. 4) Regresión del desarrollo (pérdida de cualquier habilidad motora, de lenguaje o social previamente adquirida a cualquier edad). El gateo NO es un hito obligado. Caminar a los 12 meses es el promedio, pero el límite superior normal es hasta los 15-18 meses.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "La opción D pone 'no caminar a los 12 meses' como signo de alarma, lo cual es falso (la marcha es normal hasta los 15-18 meses). La opción A pide habilidades de niños de 3 años para un lactante de 18 meses."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las edades límite de alarma (banderas rojas) para sostén cefálico, sedestación y marcha independiente?",
+        "back": "Sostén cefálico: 4 meses. Sedestación independiente: 9 meses. Marcha autónoma: 18 meses. Pérdida de hitos adquiridos: alarma a cualquier edad.",
+        "tags": "D10 Neurodesarrollo Banderas_Rojas Hitos_Motores NOM-031 GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Maduración Puberal de Tanner y Pubertad Precoz",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Niña de 7 años y 3 meses de edad es llevada por su madre a la consulta externa de Pediatría. La madre refiere haber notado desde hace aproximadamente 5 meses un aumento de volumen palpable y doloroso por debajo de ambas areolas, así como la aparición reciente de vello oscuro y rizado sobre los labios mayores. No refiere antecedentes perinatales de importancia; su desarrollo psicomotor previo fue normal. Somatometría: Talla actual de 128 cm, ubicándose en el percentil 97 para su edad cronológica (hace 1 año se encontraba en el percentil 50 con 116 cm, documentando una velocidad de crecimiento acelerada de 12 cm/año). A la exploración física:\n- Desarrollo mamario: Glándula mamaria y pezón elevados por encima del plano torácico formando un montículo definido, con discreto crecimiento y pigmentación del diámetro areolar de manera bilateral (Tanner mamario 2).\n- Vello pubiano: Vello escaso, largo, ligeramente rizado y pigmentado, distribuido sobre el borde interno de los labios mayores (Tanner púbico 2).\n- Genitales: Mucosa vaginal húmeda y discretamente rosada. Sin clitoromegalia ni acné quístico facial.",
+      "question_text": "De acuerdo con la Escala de Tanner y la GPC mexicana de Diagnóstico y Tratamiento de la Pubertad Precoz (IMSS-572), ¿cuál es la definición diagnóstica y el signo inicial característico en este paciente?",
+      "options": {
+        "A": "Telarquia aislada variante de la normalidad; la edad de 7 años es el límite inferior fisiológico aceptado en población hispana.",
+        "B": "Pubertad precoz femenina, definida por la aparición de caracteres sexuales secundarios antes de los 8 años de edad, siendo la telarquia (Tanner M2) el primer signo de maduración puberal en niñas.",
+        "C": "Pseudopubertad puberal incompleta benigna; sólo se considera pubertad precoz patológica si se presenta sangrado menstrual (menarquia) antes de los 9 años.",
+        "D": "Adrenarquia precoz aislada; la telarquia a los 7 años no se considera caracter sexual secundario verdadero en ausencia de vello axilar."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Definicion_Pubertad_Precoz_Tanner",
+      "gpc_algorithm_step": "GPC IMSS-572: Pubertad precoz se define como la aparición de cualquier signo clínico de desarrollo sexual secundario antes de los 8 años en niñas y antes de los 9 años en niños. En las niñas, el primer signo clínico de inicio puberal fisiológico o precoz es la TELARQUIA (Tanner M2, botón mamario). La adrenarquia aislada cursa solo con vello púbico/axilar sin telarquia. Al presentar telarquia + pubarquia + estirón puberal acelerado antes de los 8 años, el diagnóstico es Pubertad Precoz formal.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Considerarlo una 'variante normal' o confundir la edad límite de niñas (8 años) con la de niños (9 años). También es trampa asumir que se necesita menarquia para diagnosticar pubertad precoz (la menarquia es un evento tardío, Tanner M4, que ocurre 2-2.5 años después de la telarquia)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se define pubertad precoz en niñas vs niños y cuál es el primer signo en niñas según la GPC IMSS-572?",
+        "back": "Niñas: < 8 años (primer signo: telarquia, Tanner 2). Niños: < 9 años (primer signo: volumen testicular >= 4 mL, Tanner 2).",
+        "tags": "D10 Tanner Pubertad_Precoz Telarquia GPC IMSS-572"
+      }
+    },
+    {
+      "id": "d10_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Maduración Puberal de Tanner y Pubertad Precoz",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Para iniciar el abordaje de la niña de 7 años y 3 meses, se realiza radiografía anteroposterior de mano y muñeca no dominante (izquierda) para estimación de edad ósea mediante el método de Greulich y Pyle, la cual reporta una edad ósea de 10 años (adelanto de 2 años y 9 meses respecto a la edad cronológica). El ultrasonido pélvico demuestra útero con longitud de 4.8 cm, relación cuerpo/cuello de 2:1 y línea endometrial visible, con ambos ovarios con volumen > 2 mL y microfolículos.",
+      "question_text": "De acuerdo con el algoritmo diagnóstico de la GPC IMSS-572, ¿cuál es el estudio de laboratorio estándar de oro para diferenciar entre Pubertad Precoz Central (dependiente de GnRH) y Pubertad Precoz Periférica (independiente de GnRH), y qué resultado confirma la forma Central?",
+      "options": {
+        "A": "Cuantificación basal única de estradiol sérico matutino; un valor > 5 pg/mL confirma el origen central.",
+        "B": "Determinación de sulfato de dehidroepiandrosterona (DHEA-S) y 17-hidroxiprogesterona; concentraciones elevadas confirman la activación del eje hipotálamo-hipófisis-gonadal.",
+        "C": "Prueba de supresión con dexametasona a dosis bajas; una supresión del cortisol < 1.8 mcg/dL descarta origen periférico adrenal.",
+        "D": "Prueba de estimulación con análogo de GnRH (o LH basal ultrasensible); un pico de LH pos-estímulo > 5.0 UI/L (o relación LH/FSH > 1) confirma Pubertad Precoz Central."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Diferenciacion_PPC_vs_PPP_GnRH",
+      "gpc_algorithm_step": "GPC IMSS-572: El estándar de oro para confirmar la activación del eje hipotálamo-hipófiso-gonadal (Pubertad Precoz Central o Dependiente de GnRH) es la prueba de estimulación con GnRH (o análogos como acetato de leuprolide): un pico de LH > 5 UI/L (en ensayos ultrasensibles > 3.3 - 5 UI/L) y una relación LH/FSH > 1 confirma Pubertad Precoz Central. Si la LH no se eleva pero el estradiol o andrógenos están altos con FSH/LH suprimidas, se trata de Pubertad Precoz Periférica (quistes foliculares, tumores secretores, síndrome de McCune-Albright).",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio",
+        "explanation": "Ofrecer pruebas hormonales adrenales (DHEA-S, 17-OHP, dexametasona) o un estradiol aislado. El estradiol basal no distingue central de periférica porque en ambas formas puede estar elevado."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estándar de oro para diagnosticar Pubertad Precoz Central y su valor de corte según la GPC?",
+        "back": "Prueba de estimulación con GnRH (o análogos). Pico de LH > 5.0 UI/L (o LH/FSH > 1) confirma Pubertad Precoz Central (dependiente de GnRH).",
+        "tags": "D10 Pubertad_Precoz GnRH LH Tanner GPC IMSS-572"
+      }
+    },
+    {
+      "id": "d10_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Maduración Puberal de Tanner y Pubertad Precoz",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La prueba de estimulación con GnRH reporta una LH basal de 1.2 UI/L con un pico a los 30 minutos de 14.5 UI/L y relación LH/FSH de 1.8, confirmando el diagnóstico de Pubertad Precoz Central (PPC). El médico residente comenta que en las niñas la inmensa mayoría de los casos son benignos/idiopáticos, por lo que propone obviar estudios de neuroimagen y pasar directamente al tratamiento farmacológico para evitar costos institucionales.",
+      "question_text": "Con base en la GPC IMSS-572 y la epidemiología pediátrica, ¿cuál es la conducta diagnóstica de gabinete mandatoria y cómo se compara la etiología de la Pubertad Precoz Central entre niñas y niños?",
+      "options": {
+        "A": "Aceptar la sugerencia del residente, ya que en niñas la PPC es idiopática en más del 99% de los casos y la neuroimagen está formalmente contraindicada si no hay cefalea o vómito en proyectil.",
+        "B": "Tomografía axial computarizada simple de cráneo para descartar craneofaringioma, la cual constituye la causa número uno de PPC en ambos sexos (> 80%).",
+        "C": "Realizar Resonancia Magnética (RMN) de cráneo con contraste dirigida a región selar e hipotalámica de forma obligatoria; en niñas la etiología idiopática representa el 80-90% (orgánica 10-20%), mientras que en niños la causa orgánica del SNC representa entre el 50 y 75% (siendo el hamartoma hipotalámico la lesión más frecuente).",
+        "D": "Realizar radiografía simple de cráneo en proyección lateral para medir la profundidad de la silla turca como único estudio normativo."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Neuroimagen_Etiologia_PPC_Sexo",
+      "gpc_algorithm_step": "GPC IMSS-572: Toda niña y niño con diagnóstico confirmado de Pubertad Precoz Central DEBE someterse a Resonancia Magnética de encéfalo con cortes finos en región hipotálamo-hipofisaria. Aunque en las niñas el 80-90% de los casos son idiopáticos, hasta un 10-20% oculta una neoplasia o malformación del SNC. En los varones, el 50-75% de los casos de PPC tienen una etiología orgánica del SNC, donde el hamartoma hipotalámico es la causa estructural más frecuente en ambos sexos.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Brincar al tratamiento sin realizar la neuroimagen obligatoria. El error clásico es asumir que como en niñas la mayoría es idiopática, la RMN es opcional; la GPC establece que la RMN es mandatoria en todos los pacientes con PPC."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la causa más común de Pubertad Precoz Central en niñas vs niños y qué estudio de gabinete es obligado?",
+        "back": "Niñas: Idiopática (80-90%). Niños: Orgánica del SNC (50-75%, hamartoma hipotalámico principal). RMN cerebral selar con contraste es obligatoria en ambos.",
+        "tags": "D10 Pubertad_Precoz RMN Hamartoma Idiopática GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Maduración Puberal de Tanner y Pubertad Precoz",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "La resonancia magnética cerebral no revela lesiones expansivas ni alteraciones morfológicas (PPC idiopática). La edad ósea acelerada amenaza con provocar un cierre epifisiario prematuro que comprometerá severamente la talla adulta final pronosticada (reduciéndola de una talla diana genética familiar de 162 cm a una talla proyectada menor de 146 cm).",
+      "question_text": "De acuerdo con la GPC IMSS-572, ¿cuál es el tratamiento farmacológico de primera línea y el objetivo clínico primordial de la terapia?",
+      "options": {
+        "A": "Acetato de medroxiprogesterona oral continuo; su objetivo es frenar el sangrado uterino aunque no modifique la edad ósea ni la talla adulta final.",
+        "B": "Inhibidores de la aromatasa (Anastrozol) combinados con tamoxifeno; para inducir apoptosis prematura de las células de la granulosa ovárica.",
+        "C": "Cirugía ablativa ovárica bilateral por laparoscopia; para eliminar la producción gonadal de esteroides de forma definitiva.",
+        "D": "Análogos de GnRH de depósito (como Acetato de Leuprolide o Triptorelina) por vía intramuscular o subcutánea; con el objetivo de desacelerar la maduración ósea, frenar el avance de caracteres sexuales y preservar el potencial genético de talla adulta final."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Tratamiento_Primera_Linea_PPC_GnRHa",
+      "gpc_algorithm_step": "GPC IMSS-572: El tratamiento de elección para la Pubertad Precoz Central son los análogos de GnRH de depósito (agonistas de GnRH como Acetato de Leuprolide 3.75 - 7.5 mg IM mensual o preparados trimestrales, o Triptorelina). Mecanismo: la estimulación continua desensibiliza y reduce la densidad de receptores de GnRH en la hipófisis (down-regulation), suprimiendo la secreción de LH y FSH. Objetivos: frenar la progresión puberal, regresar o estabilizar caracteres sexuales secundarios, frenar la velocidad de maduración ósea y maximizar la talla adulta final.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "La medroxiprogesterona (opción A) se utilizaba históricamente antes del advenimiento de los análogos de GnRH; frena las manifestaciones periféricas pero no detiene la fusión epifisiaria ni mejora la talla adulta, por lo que está contraindicada como monoterapia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de primera línea de la Pubertad Precoz Central y cuál es su objetivo principal?",
+        "back": "Análogos de GnRH de depósito (Acetato de Leuprolide / Triptorelina). Objetivo: desensibilizar receptores hipofisarios, frenar la edad ósea y preservar la talla final.",
+        "tags": "D10 Pubertad_Precoz Leuprolide Análogos_GnRH Talla_Final GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Escolar masculino de 11 años de edad acude a consulta externa llevado por sus padres debido a que 'es el más bajito de su grupo escolar'. Antecedentes perinatales normales, peso y talla al nacer adecuados para edad gestacional. Exploración física: Talla en percentil 2 (-2.2 Desviaciones Estándar para su edad), velocidad de crecimiento constante en los últimos 3 años de 5.2 cm/año (percentil 50 para la velocidad de crecimiento). Sin datos dismórficos corporales, segmentos corporales armónicos (relación segmento superior/segmento inferior adecuada). Tanner genital y vello púbico: estadio 1 (prepuberal). Datos familiares: Talla de la madre: 151 cm; Talla del padre: 162 cm. La radiografía de muñeca y mano izquierda para edad ósea reporta 11 años de edad ósea (completamente concordante con su edad cronológica).",
+      "question_text": "De acuerdo con los criterios diagnósticos de la GPC de Diagnóstico y Referencia del Paciente con Talla Baja en Pediatría, ¿cuál es el diagnóstico más probable de este paciente?",
+      "options": {
+        "A": "Retraso Constitucional del Crecimiento y la Pubertad (RCCP).",
+        "B": "Talla Baja Familiar (Variante normal del crecimiento).",
+        "C": "Deficiencia aislada de Hormona de Crecimiento (Somatotropina).",
+        "D": "Hipotiroidismo subclínico adquirido descompensado."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Talla_Baja_Familiar_vs_RCCP",
+      "gpc_algorithm_step": "GPC CENETEC Talla Baja Pediátrica: Diagnóstico diferencial de variantes normales de talla baja: 1) Talla Baja Familiar: Talla de los padres baja (talla diana baja), velocidad de crecimiento NORMAL (>= 4-5 cm/año), edad ósea ACORDE a la edad cronológica, pronóstico de talla final concordante con la talla diana baja. 2) Retraso Constitucional del Crecimiento (RCCP): Padres con talla normal (talla diana normal), antecedente familiar de pubertad tardía en padres, velocidad de crecimiento normal o límite, pero EDAD ÓSEA RETRASADA (> 2 años respecto a la cronológica) y pronóstico de talla adulta normal acorde al potencial genético. El paciente tiene padres bajos, velocidad normal y edad ósea idéntica a la cronológica: Talla Baja Familiar.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir Talla Baja Familiar con Retraso Constitucional. El pivote absoluto es la EDAD ÓSEA: en Talla Baja Familiar es igual a la cronológica; en Retraso Constitucional está retrasada > 2 años."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se diferencia la Talla Baja Familiar del Retraso Constitucional del Crecimiento (RCCP)?",
+        "back": "Talla Baja Familiar: padres bajos, edad ósea = edad cronológica. RCCP: padres con talla normal, antecedentes de pubertad tardía, edad ósea retrasada > 2 años.",
+        "tags": "D10 Talla_Baja Talla_Familiar RCCP Edad_Ósea GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Niña de 9 años y 6 meses de edad es evaluada en la consulta externa por talla baja crónica de etiología desconocida. Su talla actual se sitúa en -2.8 DE por debajo del promedio poblacional, con una velocidad de crecimiento desacelerada de 3.5 cm/año. Los padres tienen estaturas promedio (madre 160 cm, padre 174 cm). A la exploración física no presenta caracteres sexuales secundarios (Tanner M1, P1). A la inspección minuciosa se detecta cuello discretamente corto con implantación baja de cabello en la nuca, cúbito valgo bilateral leve, paladar ojival estrecho y múltiples nevos pigmentados en tórax. A la auscultación torácica no se escuchan soplos y los pulsos femorales son de buena amplitud y simétricos. No hay retraso en el rendimiento escolar.",
+      "question_text": "De acuerdo con la GPC mexicana y la NOM-034 para defectos congénitos, ¿cuál es el estudio de confirmación diagnóstica de primera línea que debe solicitarse obligatoriamente en esta paciente antes de cualquier otra intervención?",
+      "options": {
+        "A": "Cariotipo convencional en sangre periférica con conteo de al menos 30 metafases para descartar Síndrome de Turner (monosomía X o mosaicismo).",
+        "B": "Prueba de estimulación con clonidina o insulina para cuantificar niveles de hormona de crecimiento (GH).",
+        "C": "Biopsia duodenal por endoscopia para descartar enfermedad celíaca atípica.",
+        "D": "Tomografía computarizada contrastada de tórax para descartar coartación aórtica subclínica."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Sindrome_Turner_Cariotipo_Talla_Baja",
+      "gpc_algorithm_step": "GPC CENETEC Síndrome de Turner / Talla Baja: Toda niña con talla baja inexplicable (< -2.0 a -2.5 DE) o desaceleración inexplicable del crecimiento, con o sin estigmas de Turner (cuello alado, cúbito valgo, paladar ojival, implantación baja de cabello/orejas), DEBE someterse obligatoriamente a cariotipo en sangre periférica (con análisis de mínimo 30 metafases para pesquisar mosaicismos como 45,X / 46,XX). El diagnóstico oportuno permite iniciar hormona de crecimiento recombinante a dosis de 0.05 mg/kg/día para optimizar la talla adulta.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Solicitar pruebas farmacológicas invasivas de secreción de hormona de crecimiento (clonidina/insulina) sin haber realizado cariotipo. La GPC prohíbe evaluar GH en niñas con talla baja sin antes descartar Síndrome de Turner con cariotipo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estudio obligatorio de primera línea en toda niña con talla baja inexplicable según la GPC?",
+        "back": "Cariotipo convencional en sangre periférica (mínimo 30 metafases) para descartar Síndrome de Turner (45,X o mosaicismo).",
+        "tags": "D10 Síndrome_Turner Cariotipo Talla_Baja GPC NOM-034"
+      }
+    },
+    {
+      "id": "d10_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Padres acuden a consulta con su hijo varón de 4 años para valoración integral del crecimiento y somatometría. El menor tiene una talla actual en el percentil 50. Los padres desean conocer cuál es la estatura definitiva que genéticamente se espera que su hijo alcance al término de la adolescencia. El médico mide con estadiómetro de pared calibrado al padre, registrando una talla de 176 cm, y a la madre, registrando una talla de 160 cm.",
+      "question_text": "Con base en la fórmula de Tanner (Potencial Genético o Talla Blanco Familiar) recomendada por la GPC mexicana y los manuales rectores del ENARM, ¿cuál es la talla diana esperada para este varón y su rango de variabilidad biológica aceptable?",
+      "options": {
+        "A": "161.5 cm ± 5.0 cm (calculada como [Talla del padre + Talla de la madre - 13 cm] / 2).",
+        "B": "168.0 cm ± 2.5 cm (calculada como el promedio aritmético simple entre la talla paterna y materna sin factor de corrección sexual).",
+        "C": "174.5 cm ± 5.0 cm (calculada como [Talla del padre + Talla de la madre + 13 cm] / 2).",
+        "D": "181.0 cm ± 8.0 cm (calculada como [Talla del padre + 13 cm] sin considerar la influencia poligénica materna)."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Formula_Talla_Blanco_Familiar_Tanner",
+      "gpc_algorithm_step": "GPC CENETEC Talla Baja Pediátrica: La Talla Blanco Familiar (Talla Diana / Potencial Genético) se calcula con la fórmula de Tanner: 1) Para varones: [Talla materna + 13 cm + Talla paterna] / 2 = [160 + 13 + 176] / 2 = [173 + 176] / 2 = 349 / 2 = 174.5 cm. 2) Para niñas: [Talla paterna - 13 cm + Talla materna] / 2. El margen de dispersión estándar o intervalo diana es de ± 5.0 cm (o percentil 10 a 90 de la talla genética).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "La opción A utilizó la fórmula correspondiente al sexo femenino (restando 13 cm en vez de sumarlo), obteniendo una talla errónea de 161.5 cm. La opción B omite el factor de 13 cm del dimorfismo sexual."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la fórmula para calcular la Talla Blanco Familiar (Talla Diana) en niños y en niñas?",
+        "back": "Niños: (Talla padre + Talla madre + 13 cm) / 2 ± 5 cm. Niñas: (Talla padre + Talla madre - 13 cm) / 2 ± 5 cm.",
+        "tags": "D10 Somatometría Talla_Diana Tanner Crecimiento GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Adolescente masculino de 13 años y 10 meses de edad acude a consulta de medicina preventiva escolar para valoración de desarrollo físico. Durante la exploración física de los genitales, el médico palpa ambos testículos y utiliza el orquidómetro de Prader (serie de elipsoides calibrados de madera o plástico numerados de 1 a 25 mL) para medir el volumen gonadal.",
+      "question_text": "De acuerdo con la Escala de Tanner genital masculina y la GPC mexicana de Pubertad y Adolescencia, ¿cuál es el volumen testicular mínimo que define con certeza clínica el inicio de la pubertad (Tanner G2) y a qué edad cronológica la ausencia de este signo define retraso puberal en el varón?",
+      "options": {
+        "A": "Volumen testicular de 1 a 2 mL; ausencia a los 12 años.",
+        "B": "Volumen testicular de 8 a 10 mL; ausencia a los 16 años.",
+        "C": "Volumen testicular de 15 mL con eyaculación espontánea nocturna obligatoria; ausencia a los 13 años.",
+        "D": "Volumen testicular de 4 mL (o longitud mayor de 2.5 cm); su ausencia a los 14 años de edad define retraso puberal en el varón."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Tanner_Masculino_Orquidometro_Prader",
+      "gpc_algorithm_step": "GPC Diagnóstico y Manejo de Trastornos Puberales / Manual Dr. Re: En los varones, el primer signo clínico de inicio puberal (Tanner genital 2) es el incremento del volumen testicular a >= 4 mL (o longitud testicular >= 2.5 cm) medido con el orquidómetro de Prader. Los estadios prepuberales (Tanner G1) tienen un volumen de 1 a 3 mL. El retraso puberal en el varón se define como la ausencia de crecimiento testicular (volumen < 4 mL) a los 14 años de edad cumplidos (en contraste con las niñas, donde el retraso puberal se define como ausencia de telarquia a los 13 años).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Asumir que el vello púbico es el primer signo en varones (falso: el primer signo es el crecimiento testicular >= 4 mL) o confundir la edad límite de retraso puberal entre niñas (13 años) y niños (14 años)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el primer signo de pubertad en varones, su volumen testicular en el orquidómetro de Prader y la edad de corte para retraso puberal?",
+        "back": "Primer signo: aumento testicular >= 4 mL (Tanner G2). Ausencia de este aumento a los 14 años define retraso puberal.",
+        "tags": "D10 Tanner_Masculino Orquidómetro Prader Pubertad Retraso GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Neonato de 11 días de vida extrauterina es llevado al servicio de urgencias pediátricas por letargia profunda, vómitos de contenido gastroalimentario y pobre succión. Al nacer, fenotípicamente se apreció pigmentación morena marcada de los genitales externos y escroto, pero sin testículos palpables en bolsas escrotales, observándose hipertrofia clitorídea con meato urogenital único (estadio III de Prader). El reporte de tamiz metabólico neonatal ampliado tomado al 4º día de vida arroja una concentración de 17-hidroxiprogesterona (17-OHP) de 180 nmol/L (punto de corte normal < 30 nmol/L). Signos vitales: FC 185 lpm, FR 58 rpm, TA 52/30 mmHg, llenado capilar de 4 segundos. Gasometría y química sanguínea: pH 7.21, HCO3 11 mEq/L, Sodio 116 mEq/L, Potasio 7.4 mEq/L, Glucosa 48 mg/dL.",
+      "question_text": "De acuerdo con la NOM-034-SSA2 y la GPC de Hiperplasia Suprarrenal Congénita (HSC), ¿cuál es el defecto enzimático responsable en más del 90% de los casos, la forma clínica de presentación y el manejo médico de reanimación inmediata?",
+      "options": {
+        "A": "Deficiencia de 21-hidroxilasa; forma clásica perdedora de sal (crisis suprarrenal aguda); requiere reanimación hídrica urgente con solución salina al 0.9% más solución glucosada al 5% o 10% e Hidrocortisona intravenosa en dosis de estrés.",
+        "B": "Deficiencia de 11-beta-hidroxilasa; forma hipertensiva con alcalosis hipopotasémica; requiere Furosemida intravenosa y restricción hídrica estricta.",
+        "C": "Deficiencia de 17-alfa-hidroxilasa; forma virilizante simple sin desequilibrio electrolítico; requiere espironolactona oral y fenobarbital.",
+        "D": "Insensibilidad androgénica periférica completa (Síndrome de Morris); requiere laparotomía de urgencia para gonadectomía y reposición de potasio intravenoso."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Hiperplasia_Suprarrenal_Congenita_21_OH",
+      "gpc_algorithm_step": "NOM-034-SSA2 / GPC IMSS-571 Hiperplasia Suprarrenal Congénita: La deficiencia de 21-hidroxilasa representa > 90-95% de los casos de HSC. La forma clásica perdedora de sal se manifiesta típicamente entre el día 7 y 14 de vida con choque hipovolémico, hiponatremia severa, hiperpotasemia, hipoglucemia y acidosis metabólica (crisis suprarrenal). En recién nacidos con cariotipo 46,XX produce virilización de genitales externos. Manejo urgente de crisis suprarrenal: expansión con solución salina al 0.9% (20 mL/kg) con aporte de glucosa + Hidrocortisona IV en dosis de estrés (50-100 mg/m2/día o 25 mg en bolo IV). Posteriormente mantenimiento con hidrocortisona oral y fludrocortisona.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Confundir la deficiencia de 21-hidroxilasa (perdedora de sal con hipotensión e hiperpotasemia) con la de 11-beta-hidroxilasa (que produce acúmulo de 11-desoxicorticosterona, cursando con hipertensión arterial e hipopotasemia). Dar espironolactona o diuréticos ahorradores de potasio en crisis suprarrenal causaría paro cardíaco fulminante por hiperpotasemia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la deficiencia enzimática más común en Hiperplasia Suprarrenal Congénita, su clínica clásica y manejo agudo?",
+        "back": "Deficiencia de 21-hidroxilasa (> 90%). Crisis perdedora de sal (días 7-14): hiponatremia, hiperpotasemia, hipoglucemia, choque. Tx: Sol. salina 0.9% + glucosa + Hidrocortisona IV.",
+        "tags": "D10 HSC 21-hidroxilasa Crisis_Suprarrenal Tamiz GPC NOM-034"
+      }
+    },
+    {
+      "id": "d10_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: 18-Month-Old Toddler with Social Communication and Milestones Regression",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "An 18-month-old male toddler is brought to the outpatient pediatric clinic by his parents for a routine health maintenance supervision visit. The mother is deeply concerned because over the past four months, the child has demonstrated an alarming behavioral shift. At 12 months, he had an active vocabulary of approximately 5 functional words ('mamá', 'papá', 'leche', 'agua', 'no') and actively waved goodbye. Currently, he no longer utters any intelligible words, avoids reciprocal eye contact, does not turn his head when his name is called loudly, and stopped pointing to objects of interest (declarative pointing is completely absent). When excited or distressed, he exhibits rhythmic, repetitive bilateral hand flapping and gazes fixatedly at spinning wheels of toy cars. Perinatal history: 38 weeks, birth weight 3,150 g, neonatal course uneventful. Universal hearing screening with otoacoustic emissions at birth was reported as 'pass' in both ears.",
+      "question_text": "According to Mexican Clinical Practice Guidelines for Child Health Surveillance (NOM-031-SSA2 / GPC IMSS-028) and developmental behavioral pediatrics, what is the mandatory immediate clinical interpretation and classification of these findings?",
+      "options": {
+        "A": "Benign transient expressive language delay commonly seen in boys; reassure parents, recommend eliminating screen time, and schedule a routine follow-up visit at 3 years of age.",
+        "B": "Severe developmental regression (loss of previously established speech and social communication milestones), which constitutes an absolute red flag requiring urgent formal diagnostic evaluation for Autism Spectrum Disorder (ASD) and specialized referral.",
+        "C": "Receptive and expressive delay secondary to otitis media with effusion; prescribe a 14-day course of high-dose amoxicillin-clavulanate and perform bilateral tympanometry before further testing.",
+        "D": "Selective mutism triggered by maternal separation anxiety; refer parents to child psychotherapy while maintaining expectant observation of motor development."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Regresion_Neurodesarrollo_Banderas_Rojas",
+      "gpc_algorithm_step": "GPC IMSS-028 / NOM-031-SSA2: Any loss of previously acquired speech, language, or social interaction skills at any age (developmental regression) is a definitive RED FLAG (Signo de Alarma) and never a normal developmental variant. In toddlers between 15 and 24 months presenting with loss of words, lack of joint attention, absence of response to name, and stereotyped motor movements, formal assessment for Autism Spectrum Disorder (ASD) and referral to neuropediatrics/child psychiatry is mandatory without delay.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Falling into the trap of reassuring parents with the common folklore that 'boys speak later' (Option A), which tragically delays diagnosis of autism and neurodevelopmental intervention during the period of maximum neuroplasticity."
+      },
+      "anki_flashcard": {
+        "front": "What is the clinical significance of developmental regression (loss of words/eye contact) at 18 months per GPC?",
+        "back": "Absolute RED FLAG. Never a benign variant. Mandates urgent referral for Autism Spectrum Disorder (ASD) and developmental evaluation.",
+        "tags": "D10 Neurodevelopment Autism Red_Flags Regression GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: 18-Month-Old Toddler with Social Communication and Milestones Regression",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Following the identification of social communication concerns in the 18-month-old toddler, the pediatrician applies the Modified Checklist for Autism in Toddlers, Revised with Follow-Up (M-CHAT-R/F), which is the standardized screening instrument validated in primary care settings and endorsed by Mexican pediatric protocols for surveillance at 18 and 24 months. The questionnaire is scored based on maternal responses: the child scores 9 points out of 20 (high risk category: 8 to 20 points).",
+      "question_text": "According to the clinical algorithm of the M-CHAT-R/F and Mexican referral guidelines for child development, what is the next mandatory algorithmic step?",
+      "options": {
+        "A": "Administer the follow-up phone interview (M-CHAT-R/F stage 2) and if score remains high, repeat the test in 6 months before initiating any clinical referral.",
+        "B": "Reclassify as low risk because validated screening cannot be performed before 36 months of age in Spanish-speaking toddlers.",
+        "C": "Bypass the follow-up interview and immediately refer the patient for comprehensive multidisciplinary developmental diagnostic evaluation (Pediatric Neurology / Child Psychiatry) and prompt enrollment in early intervention therapy.",
+        "D": "Order an electroencephalogram (EEG) during wakefulness and sleep in primary care, withholding referral until subclinical epileptiform activity is documented."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "MCHAT_Algoritmo_Puntaje_Alto",
+      "gpc_algorithm_step": "GPC Diagnóstico y Manejo de Trastornos del Espectro Autista / NOM-031: Interpretation of M-CHAT-R/F: 1) Low Risk (0-2): Re-screen at 24 months if child is < 24 months. 2) Medium Risk (3-7): Administer the Follow-Up interview. 3) High Risk (8-20): OMIT the follow-up interview and refer IMMEDIATELY for comprehensive diagnostic evaluation by a developmental specialist (neuropediatrics/child psychiatry) and direct enrollment into early intervention services. Waiting 6 months or demanding preliminary EEGs in primary care violates the algorithmic timeline.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Option A confuses the Medium Risk workflow (scores 3-7, which require the follow-up interview) with High Risk (8-20, which bypasses the interview for direct specialized referral). Demanding pre-referral EEGs (Option D) causes unnecessary bureaucratic delay."
+      },
+      "anki_flashcard": {
+        "front": "What is the algorithmic action for a child scoring 8-20 (High Risk) on M-CHAT-R/F?",
+        "back": "Bypass the follow-up interview. Immediately refer for comprehensive multidisciplinary developmental evaluation and early intervention.",
+        "tags": "D10 M-CHAT Autism Screening High_Risk GPC"
+      }
+    },
+    {
+      "id": "d10_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: 18-Month-Old Toddler with Social Communication and Milestones Regression",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "As part of the multidisciplinary differential diagnostic workup of neurodevelopmental regression and acquired microcephaly in the same 18-month-old toddler, the pediatric neurologist meticulously reviews the neonatal records. The child was delivered at a remote rural birth post without basic neonatal screening infrastructure; subsequent review reveals that newborn metabolic screening (Tamiz Metabólico) was NEVER performed. On comprehensive physical examination, the child has fair, markedly hypopigmented skin and blonde hair with blue eyes, despite both parents and older siblings having dark brown skin, coarse black hair, and dark brown irises. He has microcephaly (head circumference < 3rd percentile), mild eczematous rash on flexural creases, and a pronounced, distinctive musty or mousy body odor ('olor a ratón mojado' / barny odor).",
+      "question_text": "According to the NOM-034-SSA2 for congenital inborn errors of metabolism and the GPC, which primary enzymatic defect causes this metabolic disorder, what is the confirmatory diagnostic test, and what is the cornerstone of lifelong management?",
+      "options": {
+        "A": "Fumarylacetoacetate hydrolase deficiency causing Tyrosinemia Type 1; confirmed by elevated urine succinylacetone; treated with Nitisinone (NTBC).",
+        "B": "Branched-chain alpha-ketoacid dehydrogenase deficiency causing Maple Syrup Urine Disease (MSUD); confirmed by elevated leucine, isoleucine, and valine; treated with thiamine megadoses.",
+        "C": "Homogentisate 1,2-dioxygenase deficiency causing Alkaptonuria; confirmed by dark urine on standing; treated with high-dose vitamin C.",
+        "D": "Phenylalanine hydroxylase (PAH) deficiency causing Classic Phenylketonuria (PKU); confirmed by elevated plasma phenylalanine (> 1,200 umol/L) with normal or low tyrosine; treated with lifelong dietary phenylalanine restriction and tyrosine supplementation."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Fenilcetonuria_Tamiz_Metabolico_PAH",
+      "gpc_algorithm_step": "NOM-034-SSA2 / GPC CENETEC Errores Innatos del Metabolismo: Classic Phenylketonuria (PKU) is an autosomal recessive disorder caused by deficiency of phenylalanine hydroxylase (PAH), impairing the conversion of phenylalanine to tyrosine. Clinical hallmark if untreated: severe neurodevelopmental regression, profound intellectual disability, acquired microcephaly, seizures, hypopigmentation (blonde hair, fair skin, blue eyes due to decreased melanin synthesis), eczema, and a classic musty/mousy odor. Confirmatory testing: quantitative plasma amino acid analysis demonstrating phenylalanine > 1,200 umol/L (> 20 mg/dL) with low/normal tyrosine. Management: immediate lifelong restriction of dietary phenylalanine (special amino acid formula) + tyrosine supplementation.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio",
+        "explanation": "Listing other classic inborn errors of metabolism with distinct odors (MSUD has a sweet maple syrup odor; Tyrosinemia has a cabbage-like odor). The combination of hypopigmentation, mousy odor, microcephaly, and missed newborn screening is pathognomonic for Phenylketonuria."
+      },
+      "anki_flashcard": {
+        "front": "What enzyme is deficient in classic Phenylketonuria (PKU), and what are its clinical hallmarks?",
+        "back": "Phenylalanine hydroxylase (PAH). Hallmarks: developmental regression, fair skin/blonde hair (low melanin), microcephaly, mousy odor. Tx: low phenylalanine diet.",
+        "tags": "D10 PKU Phenylketonuria Tamiz NOM-034 Metabolic_Screening"
+      }
+    },
+    {
+      "id": "d10_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: 18-Month-Old Toddler with Social Communication and Milestones Regression",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "During the clinical evaluation at 18 months, the resident in pediatrics presents a review of gross and fine motor developmental milestones to define the upper physiological age limits beyond which the absence of a specific motor milestone constitutes an indisputable motor red flag ('signo de alarma motriz').",
+      "question_text": "According to Mexican Child Development guidelines (NOM-031-SSA2) and Denver II developmental surveillance standards, which of the following clinical findings at 18 months of age constitutes a definitive motor red flag requiring immediate neurodevelopmental referral?",
+      "options": {
+        "A": "Inability to achieve independent, unsupported walking (deambulación autónoma); or the presence of a strict hand dominance (preferencia manual obligada) before 18 months.",
+        "B": "Inability to hop on one foot and inability to copy a square.",
+        "C": "Inability to ride a tricycle and inability to dress oneself completely without assistance.",
+        "D": "Inability to alternate feet when climbing upstairs and inability to catch a bounced ball."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Banderas_Rojas_Motoras_18_Meses",
+      "gpc_algorithm_step": "NOM-031-SSA2 / GPC IMSS-028 / Denver II: Motor red flags at 18 months of age: 1) Inability to walk independently without support (the absolute upper limit of normal for independent walking is 18 months; if not achieved by 18 months, evaluation for muscular dystrophy, cerebral palsy, or spinal muscular atrophy is mandatory). 2) Strict hand dominance (handedness) established before 18-24 months of age is always PATHOLOGICAL and strongly indicates contralateral hemiparesis or asymmetric neuromuscular deficit. Hopping on one foot and copying a square (Option B) are expected at 4 years. Riding a tricycle (Option C) is expected at 3 years.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Options B, C, and D list motor skills expected in 3- to 5-year-old children (riding a tricycle, hopping, alternating stairs). The only true 18-month red flags are failure to walk independently and established handedness before 18 months."
+      },
+      "anki_flashcard": {
+        "front": "What are the definitive motor red flags at 18 months of age according to NOM-031 and GPC?",
+        "back": "1) Inability to walk independently without support. 2) Strict hand dominance before 18 months (indicates contralateral hemiparesis).",
+        "tags": "D10 Neurodevelopment Red_Flags Motor_Milestones NOM-031 GPC"
+      }
+    }
+  ]
+}

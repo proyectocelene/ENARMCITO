@@ -1,0 +1,709 @@
+{
+  "topic_code": "D04",
+  "title": "Simulador Post-Estudio: EPOC, Asma Adulto/Pedia y NAC (CURB-65)",
+  "normativa_origen": "GPC IMSS-037 / IMSS-234 / GPC Asma IMSS-009",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d04_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Exacerbación Aguda de EPOC y Falla Ventilatoria",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 67 años con diagnóstico de EPOC desde hace 6 años y tabaquismo activo con índice tabáquico de 42 paquetes-año. Acude a urgencias por cuadro de 3 días de evolución caracterizado por aumento progresivo de la disnea habitual (de mMRC 2 a mMRC 4, disnea al vestirse), incremento notable del volumen del esputo y cambio de aspecto de hialino a francamente mucopurulento verdoso. A la exploración física: consciente, taquipneico con respiración con labios fruncidos y uso de músculos escalenos; TA 145/88 mmHg, FC 102 lpm, FR 28 rpm, temperatura 37.8 °C, SatO2 84% al aire ambiente. A la auscultación pulmonar: ruidos respiratorios disminuidos globalmente, espiración muy prolongada y sibilancias diseminadas bilaterales. Gasometría arterial al aire ambiente: pH 7.33, PaCO2 52 mmHg, PaO2 51 mmHg, HCO3 27 mEq/L, SatO2 84%.",
+      "question_text": "¿Cuál es la clasificación de gravedad de la exacerbación según los criterios de Anthonisen y la indicación terapéutica farmacológica inicial de acuerdo con la GPC IMSS-037?",
+      "options": {
+        "A": "Tipo 1 (Grave); requiere broncodilatadores de acción corta (SABA + SAMA), corticoide sistémico oral por 5 días y cobertura antimicrobiana empírica",
+        "B": "Tipo 2 (Moderada); requiere únicamente duplicar la dosis de broncodilatadores inhalados y añadir teofilina intravenosa, difiriendo antibióticos",
+        "C": "Tipo 3 (Leve); amerita manejo ambulatorio con oxígeno a alto flujo (FiO2 50%) y prednisona oral por 21 días con desescalamiento gradual",
+        "D": "Tipo 1 (Grave); amerita iniciar de inmediato claritromicina oral en monoterapia y suspender temporalmente los broncodilatadores beta-agonistas por riesgo de taquiarritmia"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "Criterios de Anthonisen: Tipo 1 (los 3 criterios cardinales: ↑ disnea, ↑ volumen y ↑ purulencia de esputo). En Tipo 1 está formalmente indicada la triple terapia de exacerbación: 1) Broncodilatadores de acción corta en combinación (Salbutamol + Bromuro de ipratropio en nebulización o IDM con espaciador); 2) Corticoide sistémico (Prednisona 40 mg VO al día por 5 días según REDUCE trial / GPC); 3) Antimicrobiano empírico oral (Amoxicilina/clavulanato, macrólido o doxiciclina por 5-7 días). La teofilina está contraindicada por toxicidad arritmogénica y estrecho margen terapéutico.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El opositor confunde los esquemas antiguos de corticoides orales prolongados (21 días con reducción gradual) o el uso de teofilina; la GPC establece tajantemente 5 días de prednisona 40 mg y contraindica las metilxantinas de rutina."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los 3 criterios de Anthonisen en EPOC y cuándo se prescriben antibióticos según la GPC?",
+        "back": "1. Incremento de disnea.\n2. Incremento de volumen del esputo.\n3. Esputo purulento.\nSe indican antibióticos en Tipo 1 (los 3 criterios), Tipo 2 si uno de los 2 es purulencia, o en pacientes que requieren ventilación mecánica.",
+        "tags": "D04 EPOC Anthonisen Exacerbacion GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Exacerbación Aguda de EPOC y Falla Ventilatoria",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El mismo paciente de 67 años recibe salbutamol más bromuro de ipratropio nebulizados y metilprednisolona IV, junto con oxígeno suplementario por puntas nasales a 4 L/min. Dos horas después, el personal de enfermería reporta que el paciente se encuentra marcadamente somnoliento, responde lentamente al llamado verbal pero sin focalización neurológica (Glasgow 13 puntos). Signos vitales: TA 150/92 mmHg, FC 110 lpm, FR 14 rpm superficial, SatO2 96%. Su nueva gasometría arterial muestra: pH 7.24, PaCO2 68 mmHg, PaO2 78 mmHg, HCO3 28 mEq/L, lactato 1.4 mmol/L.",
+      "question_text": "¿Cuál es la causa del deterioro clínico, la meta adecuada de oxigenación y la intervención ventilatoria prioritaria según la GPC IMSS-037?",
+      "options": {
+        "A": "Narcosis hipercápnica por exceso de oxígeno (pérdida del estímulo hipóxico); meta de SatO2 88-92% e inicio inmediato de Ventilación Mecánica No Invasiva (VMNI/BiPAP)",
+        "B": "Encefalopatía hipóxica refractaria; requiere intubación orotraqueal emergente inmediata sin intentar métodos no invasivos debido a somnolencia",
+        "C": "Efecto sedante paradójico del bromuro de ipratropio; suspender anticolinérgicos y administrar flumazenil intravenoso",
+        "D": "Acidosis metabólica descompensada; iniciar infusión de bicarbonato de sodio al 8.4% y mantener SatO2 al 99-100% con mascarilla con reservorio"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "En EPOC la administración no controlada de O2 anula el estímulo ventilatorio hipóxico y genera desequilibrio V/Q con vasoconstricción hipóxica abolida y efecto Haldane, disparando la PaCO2 (narcosis hipercápnica). Meta estricta de SatO2: 88-92%. Con acidosis respiratoria aguda (pH 7.24-7.35 y PaCO2 > 45 mmHg) en un paciente cooperador que no tiene paro inminente ni inestabilidad hemodinámica, la indicación de ORO de primera línea es la Ventilación Mecánica No Invasiva (BiPAP). VMNI disminuye la necesidad de intubación, los días de estancia y la mortalidad hospitalaria.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "Saltarse la VMNI para intubación orotraqueal directa por simple somnolencia cuando el paciente aún mantiene vía aérea permeable y Glasgow > 10; la VMNI es el estándar de primera línea si no hay contraindicaciones absolutas."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las indicaciones y meta de SatO2 para iniciar VMNI (BiPAP) en exacerbación de EPOC?",
+        "back": "Indicaciones: Acidosis respiratoria (pH < 7.35 y PaCO2 > 45 mmHg) y fatiga muscular / disnea grave persistente pese a tratamiento médico.\nMeta de oxigenoterapia: SatO2 88-92% (PaO2 60 mmHg).",
+        "tags": "D04 EPOC VMNI Gasometria GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Exacerbación Aguda de EPOC y Falla Ventilatoria",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El paciente responde con éxito a 48 horas de VMNI, normalizando el pH a 7.37 y PaCO2 a 48 mmHg. Es egresado a piso y completó su esquema de 5 días de prednisona y antibiótico. Se analiza su historial: en el último año previo a este evento cursó con 2 exacerbaciones que ameritaron visitas a urgencias y antibióticos orales. Su espirometría basal posbroncodilatador muestra una relación FEV1/FVC de 0.54 y un FEV1 del 44% del predicho. Refiere disnea basal mMRC de 3 puntos. Su biometría hemática de control en fase estable reporta: hemoglobina 15.2 g/dL, leucocitos 6,800/mm³ con recuento absoluto de eosinófilos de 380 células/µL.",
+      "question_text": "¿Cuál es la clasificación del paciente según la actualización de la taxonomía GOLD/GPC y el régimen broncodilatador de mantenimiento ambulatorio de primera línea?",
+      "options": {
+        "A": "GOLD 3 Grupo E (antiguo D); terapia triple fija inhalada (LAMA + LABA + Corticoide inhalado)",
+        "B": "GOLD 2 Grupo B; monoterapia con SABA inhalado a demanda y teofilina oral cada 12 horas",
+        "C": "GOLD 4 Grupo A; monoterapia con LAMA (tiotropio) y contraindicación absoluta de corticoides inhalados",
+        "D": "GOLD 3 Grupo E; monoterapia con roflumilast oral y esteroide sistémico continuo por vía oral"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "FEV1 44% = Obstrucción grave (GOLD 3, rango 30-49%). Historial de ≥ 2 exacerbaciones ambulatorias o ≥ 1 que requirió hospitalización en el año clasifica al paciente en Grupo E (Exacerbador). En el paciente exacerbador frecuente (Grupo E) con eosinófilos en sangre periférica ≥ 300 células/µL (el paciente tiene 380/µL), la indicación formal de inicio según la GPC y consensos es la terapia combinada triple: LAMA + LABA + Corticoide Inhalado (ICS), debido a que los eosinófilos altos predicen una respuesta protectora contundente del ICS contra nuevas exacerbaciones.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El distractor propone LAMA monoterapia argumentando el riesgo de neumonía por corticoides inhalados, pero ignora que con > 300 eosinófilos y hospitalización previa el beneficio del ICS sobrepasa ampliamente el riesgo y está formalmente indicado."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo está formalmente indicado agregar un corticoide inhalado (ICS) en el mantenimiento del EPOC?",
+        "back": "En pacientes con historial de exacerbaciones frecuentes (Grupo E / D) y eosinófilos en sangre periférica ≥ 300 células/µL (o ≥ 100 células/µL si tienen ≥ 2 exacerbaciones moderadas o 1 grave previa).",
+        "tags": "D04 EPOC GOLD Eosinofilos ICS GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Exacerbación Aguda de EPOC y Falla Ventilatoria",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Previo al alta médica, el paciente y su familia solicitan asesoría integral. El paciente afirma que no desea seguir tomando medicamentos que 'solo le quiten los síntomas momentáneamente' y pregunta cuáles medidas médicas han demostrado de manera contundente cambiar la historia natural de la enfermedad, frenar la caída acelerada de la función pulmonar y disminuir la mortalidad.",
+      "question_text": "¿Cuáles son las dos únicas intervenciones no farmacológicas/terapéuticas que han demostrado reducir la mortalidad a largo plazo en pacientes con EPOC según la GPC IMSS-037?",
+      "options": {
+        "A": "Cese absoluto del tabaquismo y oxigenoterapia domiciliaria continua (mínimo 15 horas al día en hipoxemia crónica)",
+        "B": "Rehabilitación pulmonar ambulatoria y vacunación anual contra neumococo y virus sincicial respiratorio",
+        "C": "Lavados bronquiales terapéuticos mensuales y uso de mucolíticos orales a altas dosis (N-acetilcisteína)",
+        "D": "Suplementación con vitamina D3 a dosis altas y uso profiláctico continuo de azitromicina diaria"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Meta_Referencia",
+      "gpc_algorithm_step": "En la historia natural del EPOC, únicamente dos intervenciones han demostrado disminuir la mortalidad: 1) La cesación tabáquica (disminuye la tasa acelerada de pérdida del FEV1 y prolonga la supervivencia); 2) La oxigenoterapia domiciliaria continua (≥ 15-18 horas/día) en pacientes con hipoxemia crónica en reposo (PaO2 ≤ 55 mmHg o SatO2 ≤ 88%, o PaO2 56-59 mmHg con cor pulmonale o hematocrito > 55%). La vacunación y la rehabilitación pulmonar reducen síntomas y exacerbaciones, pero no demostraron impacto independiente en supervivencia comparable.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El alumno recuerda que la rehabilitación pulmonar y las vacunas son muy importantes en la calidad de vida, pero confunde mejoría de la capacidad de ejercicio con 'reducción de la mortalidad probada en ensayos clínicos'."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las únicas dos medidas que disminuyen la mortalidad a largo plazo en pacientes con EPOC?",
+        "back": "1. Cesación del tabaquismo.\n2. Oxigenoterapia domiciliaria continua (≥ 15 horas al día en hipoxemia crónica documentada).",
+        "tags": "D04 EPOC Mortalidad Oxigenoterapia Tabaquismo GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Crisis Asmática de Riesgo Vital y Comorbilidades",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 26 años con antecedente de asma diagnosticada desde los 11 años, con uso irregular de salbutamol inhalado y sin control preventivo. Es llevada a urgencias por su esposo por disnea severa de inicio súbito tras una infección respiratoria alta. A la exploración física: paciente sentada inclinada hacia adelante (posición en trípode), habla entrecortada con palabras sueltas, diaforética y ansiosa. Signos vitales: TA 138/85 mmHg, FC 124 lpm, FR 34 rpm, SatO2 89% al aire ambiente. A la auscultación torácica: sibilancias inspiratorias y espiratorias audibles sin estetoscopio, tiraje intercostal y supraclavicular intenso. El flujo espiratorio máximo (PEF) realizado en triaje resulta en 35% de su mejor valor predicho. Gasometría arterial inicial: pH 7.47, PaCO2 30 mmHg, PaO2 56 mmHg, HCO3 22 mEq/L.",
+      "question_text": "¿Cuál es la estratificación de severidad de la crisis asmática y el tratamiento médico de rescate inmediato en la primera hora según la GPC IMSS-009?",
+      "options": {
+        "A": "Crisis asmática grave (severa); administrar oxígeno para meta de SatO2 93-95%, Salbutamol + Bromuro de ipratropio nebulizados cada 20 minutos por 3 dosis, y Corticoide sistémico temprano",
+        "B": "Crisis asmática leve-moderada; administrar Salbutamol en monoterapia 2 disparos cada 4 horas y egreso con cita a consulta externa",
+        "C": "Paro respiratorio inminente; intubación orotraqueal inmediata antes de administrar cualquier broncodilatador inhalado",
+        "D": "Crisis asmática moderada; administrar sulfato de magnesio oral y ketorolaco intravenoso para el dolor pleurítico asociado"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "Criterios de crisis asmática grave: habla en palabras cortadas, FR > 30 rpm, FC > 120 lpm, uso de músculos accesorios, SatO2 < 90%, PEF < 50% del predicho. Manejo inicial enérgico en urgencias (primera hora): 1) Oxigenoterapia con meta SatO2 93-95% (94-98% en embarazadas); 2) SABA (Salbutamol) combinado con SAMA (Bromuro de ipratropio) cada 20 min en la primera hora (la combinación SABA+SAMA en crisis severa reduce hospitalizaciones); 3) Corticoide sistémico temprano (Metilprednisolona o Hidrocortisona IV o Prednisona oral 50 mg), ya que tarda 4-6 horas en surtir efecto genómico.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El aspirante ve que la paciente camina y está alerta e infravalora la severidad como 'moderada', omitiendo el bromuro de ipratropio o retrasando los corticoides sistémicos."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios de crisis asmática grave en adultos y el esquema de la primera hora?",
+        "back": "Criterios: Habla en palabras, FC > 120, FR > 30, uso de músculos accesorios, SatO2 < 90%, PEF < 50%.\nManejo 1ra hora: O2 (meta 93-95%) + SABA + Bromuro de ipratropio cada 20 min (3 dosis) + Corticoide sistémico oral/IV.",
+        "tags": "D04 Asma CrisisGrave ManejoUrgencias GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Crisis Asmática de Riesgo Vital y Comorbilidades",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A los 60 minutos de haber completado las 3 micronebulizaciones de salbutamol con ipratropio y la dosis de corticoide sistémico, el médico revalúa a la paciente de 26 años. Encuentra que ha cesado la agitación psicomotriz y ahora se encuentra letárgica y con bradipsiquia; la frecuencia respiratoria ha descendido bruscamente a 12 rpm con respiración paradójica abdominal, FC 134 lpm, SatO2 82% con mascarilla simple. Al auscultar el tórax se constata una disminución dramática de los ruidos respiratorios con desaparición completa de las sibilancias ('tórax silente'). Su gasometría arterial de control reporta: pH 7.31, PaCO2 45 mmHg, PaO2 48 mmHg, HCO3 22 mEq/L.",
+      "question_text": "¿Cuál es la interpretación fisiopatológica del valor de PaCO2 de 45 mmHg en este contexto y la conducta inmediata según la GPC?",
+      "options": {
+        "A": "Pseudonormalización patológica de la PaCO2 por fatiga diafragmática extrema y fallo respiratorio inminente; requiere intubación orotraqueal e ingreso a UCI",
+        "B": "Mejoría franca de la broncoconstricción al normalizarse el pH y la PaCO2; reducir el oxígeno suplementario y enviar a piso de medicina interna",
+        "C": "Efecto anticolinérgico colateral esperado; administrar atropina intravenosa y nebulizaciones con solución salina hipertónica",
+        "D": "Sobreinfección bacteriana fulminante por neumococo; iniciar ceftriaxona en bolo e indicar kinesioterapia torácica vigorosa"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Escala_Severidad",
+      "gpc_algorithm_step": "En un asmático con crisis severa hiperventilando, la PaCO2 debe ser baja (< 35 mmHg). Si la PaCO2 se 'normaliza' (≥ 42-45 mmHg) o se acidifica (pH < 7.35) junto con letargia, bradipnea y tórax silente, NO representa mejoría, sino fatiga diafragmática terminal con claudicación de la bomba respiratoria y paro cardiorrespiratorio inminente. La conducta mandatoria es la preparación inmediata para Intubación Orotraqueal (secuencia rápida adaptada a broncoespasmo: ej. ketamina + succinilcolina/rocuronio) y traslado a UCI, pudiendo administrarse Sulfato de Magnesio 2 g IV en infusión como coadyuvante mientras se alista el equipo.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "El distractor confunde la PaCO2 de 45 mmHg con un gasométrico 'normal' de libro; en crisis asmática una PaCO2 normal es un signo de alarma de máxima gravedad (paro inminente)."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué significa una PaCO2 'normal' (40-45 mmHg) en un paciente con crisis asmática severa?",
+        "back": "Signo de ALARMA VITAL: fatiga muscular extrema, fallo respiratorio agudo y paro inminente (pseudonormalización patológica). Indicación inminente de intubación orotraqueal.",
+        "tags": "D04 Asma PaCO2 ToraxSilente Intubacion GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Crisis Asmática de Riesgo Vital y Comorbilidades",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente es intubada exitosamente, ventilada con parámetros de bajo volumen corriente y tiempo espiratorio prolongado para evitar auto-PEEP, y recibe sulfato de magnesio IV. Tras 72 horas evoluciona hacia la resolución del broncoespasmo y es extubada sin incidentes. Al interrogarla en sala general, refiere que el cuadro actual inició 45 minutos después de haberse tomado una tableta de ketorolaco sublingual por una cefalea intensa. Agrega antecedente de rinosinusitis crónica con poliposis nasal recurrente y rinorrea hialina persistente.",
+      "question_text": "¿Cuál es el diagnóstico clínico sindromático específico y el fármaco modificador de la respuesta biológica oral indicado según la GPC?",
+      "options": {
+        "A": "Enfermedad respiratoria exacerbada por aspirina (Tríada de Samter / EREA); antagonista de receptores de leucotrienos (Montelukast)",
+        "B": "Asma alérgica mediada por IgE pura; antihistamínicos de primera generación (clorfenamina) continuos",
+        "C": "Aspergilosis broncopulmonar alérgica (ABPA); antifúngico azólico oral (itraconazol) en monoterapia",
+        "D": "Disfunción de cuerdas vocales asociada a reflujo; inhibidor de bomba de protones a dosis cuádruple"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tx_Alergicos_Especial",
+      "gpc_algorithm_step": "La Tríada de Widal o Samter (Enfermedad Respiratoria Exacerbada por Aspirina - EREA) se define por: 1) Asma bronquial grave; 2) Rinosinusitis crónica con poliposis nasal; 3) Intolerancia/broncoespasmo severo inducido por AAS y AINEs inhibidores de COX-1. La patogenia involucra sobreproducción masiva de cisteinil-leucotrienos (LTC4, LTD4, LTE4). Además de la estricta contraindicación de AINEs y la terapia inhalada con ICS/LABA, los Antagonistas de Receptores de Leucotrienos (Montelukast 10 mg/día) ofrecen una mejoría fisiopatológica sustancial en este subgrupo.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El opositor suele clasificar toda crisis tras fármaco como 'anafilaxia alérgica mediada por IgE' y prescribir antihistamínicos, cuando en la tríada de Samter se trata de una reacción no alérgica (idiosincrásica / pseudoalérgica) por inhibición de la ciclooxigenasa 1 y desviación a la vía de la 5-lipoxigenasa."
+      },
+      "anki_flashcard": {
+        "front": "¿En qué consiste la Tríada de Samter (EREA) y qué diana terapéutica farmacológica oral tiene beneficio específico?",
+        "back": "1. Asma bronquial.\n2. Poliposis nasal / rinosinusitis crónica.\n3. Intolerancia a aspirina/AINEs (inhibidores COX-1).\nTratamiento coadyuvante específico: Antagonistas de leucotrienos (Montelukast).",
+        "tags": "D04 Asma Samter Leucotrienos Montelukast GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Crisis Asmática de Riesgo Vital y Comorbilidades",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Durante la consulta preconcepcional y de seguimiento a las 4 semanas del egreso, la paciente acude emocionada informando que tiene una prueba de embarazo positiva en orina, confirmándose por ultrasonido pélvico una gestación intrauterina de 8 semanas. Ella comenta que su suegra le aconsejó suspender de inmediato todos los inhaladores y esteroides porque 'provocan malformaciones congénitas al feto y retraso mental'. Actualmente se encuentra asintomática con budesonida/formoterol.",
+      "question_text": "¿Cuál es la indicación médica correcta respecto al manejo del asma durante el embarazo de acuerdo con la GPC y la evidencia de seguridad perinatal?",
+      "options": {
+        "A": "Mantener sin cambios el tratamiento de mantenimiento con budesonida/formoterol; el asma no controlada y la hipoxia materna confieren mayor riesgo teratogénico y perinatal que los fármacos inhalados",
+        "B": "Suspender inmediatamente los corticoides inhalados y sustituirlos por teofilina oral por ser categoría A de la FDA en el primer trimestre",
+        "C": "Retirar todo medicamento preventivo inhalado y manejar a la paciente exclusivamente con nebulizaciones de solución fisiológica hasta la semana 24",
+        "D": "Cambiar la budesonida inhalada por ciclos continuos de dexametasona intramuscular profiláctica cada mes para maduración pulmonar precoz"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tx_Alergicos_Especial",
+      "gpc_algorithm_step": "Regla de oro de la GPC y consensos internacionales: Durante el embarazo, el riesgo del asma mal controlada (hipoxia fetal, restricción de crecimiento intrauterino, preeclampsia, parto pretérmino y muerte perinatal) supera ampliamente cualquier riesgo potencial de la medicación antiasmática inhalada habitual. La Budesonida es el corticoide inhalado de elección por tener la mayor cantidad de estudios de seguridad humana (Categoría B en embarazo). No debe suspenderse el tratamiento de mantenimiento.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El médico inexperto cede al miedo a la teratogénesis y suspende los corticoides inhalados, lo cual precipita exacerbaciones graves potencialmente letales para la madre y el feto."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la recomendación de la GPC respecto a los corticoides inhalados en el embarazo y cuál es el de elección?",
+        "back": "NUNCA suspender el tratamiento de control; la hipoxia por asma descontrolada es letal para el feto. Corticoide inhalado de elección: Budesonida (amplio perfil de seguridad, Categoría B).",
+        "tags": "D04 Asma Embarazo Budesonida Seguridad GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Sibilancias Pediátricas: Crisis Asmática vs Cuerpo Extraño",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Niño de 4 años, con antecedente de eccema atópico y rinitis alérgica estacional. Es traído por su madre a urgencias pediátricas por cuadro de 18 horas caracterizado por tos seca y dificultad respiratoria progresiva tras presentar catarro común. A la exploración física: irritable, con aleteo nasal moderado, FR 52 rpm, FC 142 lpm, SatO2 90% al aire ambiente. Presenta tiraje intercostal y subcostal moderado. A la auscultación torácica: sibilancias espiratorias e inspiratorias bilaterales difusas con adecuada entrada de aire en ambos hemitórax. Al aplicar la escala de Wood-Downes modificada por Ferrés se calcula una puntuación de 5 puntos.",
+      "question_text": "¿Cuál es la clasificación de gravedad de la crisis según la escala de Wood-Downes modificada por Ferrés y la conducta de rescate farmacológico en la primera hora según la GPC CENETEC?",
+      "options": {
+        "A": "Crisis moderada (4-7 puntos); administrar salbutamol en aerosol presurizado con inhalocámara espaciadora (4 a 6 disparos) cada 20 minutos por 3 dosis más corticoide sistémico oral temprano",
+        "B": "Crisis leve (1-3 puntos); administrar únicamente vaporizaciones tibias domiciliarias y loratadina jarabe",
+        "C": "Crisis grave (8-14 puntos); iniciar de inmediato intubación endotraqueal y kanamicina intramuscular",
+        "D": "Crisis moderada; nebulizar adrenalina racémica al 1:1000 en monoterapia y contraindicar esteroides por supresión del crecimiento"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Escala_Severidad",
+      "gpc_algorithm_step": "Escala de Wood-Downes modificada por Ferrés evalúa: sibilancias, tiraje, FR, FC, ventilación y cianosis. Puntaje: 1-3 leve, 4-7 moderada, 8-14 grave. En crisis moderada (5 puntos), la GPC pediátrica indica: 1) Salbutamol con IDM y cámara espaciadora con mascarilla (4-8 pulsaciones cada 20 minutos en la primera hora), tan o más eficaz que la nebulización con menos efectos adversos; 2) Corticoide sistémico vía oral desde la primera hora (Prednisolona oral 1-2 mg/kg), que reduce drásticamente las admisiones hospitalarias.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "El distractor promueve nebulizaciones continuas o adrenalina como si fuera laringotraqueítis/crup o bronquiolitis, olvidando que en el asma pediátrica el IDM con aerocámara y salbutamol es el pilar de oro recomendado por CENETEC."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo estratifica la gravedad la escala de Wood-Downes modificada por Ferrés en crisis asmática pediátrica?",
+        "back": "• Leve: 1 a 3 puntos.\n• Moderada: 4 a 7 puntos.\n• Grave: 8 a 14 puntos.\nCrisis moderada: Salbutamol con aerocámara (4-8 puffs cada 20 min x 3) + Prednisolona oral (1-2 mg/kg).",
+        "tags": "D04 AsmaPediatria WoodDownes Ferres Rescate GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Sibilancias Pediátricas: Crisis Asmática vs Cuerpo Extraño",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la misma sala de urgencias, ingresa un niño de 2 años y 6 meses traído por su madre. La madre refiere que hace 3 horas el niño se encontraba jugando en el suelo comiendo cacahuates confitados, cuando de manera súbita comenzó con un acceso severo de tos cianotizante y sensación de asfixia que duró 2 minutos y luego cedió parcialmente. A la exploración física: afebril (36.6 °C), sin rinorrea ni pródromos catarrales, FR 38 rpm, FC 115 lpm, SatO2 93%. Auscultación torácica: sibilancias monofónicas localizadas exclusivamente en hemitórax derecho con franca hipoventilación ipsilateral; hemitórax izquierdo completamente limpio con ruidos respiratorios normales. Radiografía de tórax en espiración: hiperclaridad y atrapamiento aéreo en el pulmón derecho con desplazamiento mediastínico contralateral a la izquierda.",
+      "question_text": "¿Cuál es la sospecha diagnóstica prioritaria y el estándar de oro tanto para confirmación como para resolución definitiva según la GPC?",
+      "options": {
+        "A": "Aspiración de cuerpo extraño en vía aérea baja; Broncoscopia rígida bajo anestesia general",
+        "B": "Crisis asmática atípica; prueba terapéutica con 6 disparos de salbutamol y egreso a domicilio",
+        "C": "Bronquiolitis obliterante postinfecciosa; Tomografía computarizada de alta resolución con contraste",
+        "D": "Reflujo gastroesofágico con microaspiración; pH-metría con impedanciometría esofágica de 24 horas"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Gold_Standard",
+      "gpc_algorithm_step": "El antecedente de acceso súbito de tos/ahogamiento mientras comía frutos secos (síndrome de penetración), sumado a sibilancias monomorfas unilaterales, hipoventilación focalizada e hiperinsuflación unilateral con desviación mediastínica (mecanismo valvular) en un lactante/preescolar sin fiebre, es el cuadro clásico de Aspiración de Cuerpo Extraño. El estándar de oro diagnóstico y terapéutico es la Broncoscopia Rígida en quirófano (permite ventilación adecuada y extracción segura con pinzas ópticas). Los broncodilatadores inhalados están contraindicados porque no resuelven la causa y pueden retrasar la endoscopia.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El evaluado ancla las sibilancias a 'asma pediátrica' e inicia salbutamol sin notar la asimetría clínica radical, el inicio hiperagudo comiendo y el silencio unilateral."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la tríada de sospecha y el estudio de elección para aspiración de cuerpo extraño en pediatría?",
+        "back": "Tríada: 1) Episodio súbito de tos/ahogamiento (síndrome de penetración); 2) Sibilancias/hipoventilación UNILATERAL; 3) Atrapamiento aéreo en Rx.\nEstándar de Oro Dx y Tx: Broncoscopia rígida.",
+        "tags": "D04 Pediatria CuerpoExtrano BroncoscopiaRigida GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Sibilancias Pediátricas: Crisis Asmática vs Cuerpo Extraño",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Regresando al niño de 4 años del reactivo 9 con crisis asmática moderada: tras recibir 3 ciclos de salbutamol con aerocámara y una dosis de 1.5 mg/kg de prednisolona oral, se revalúa a los 60 minutos. El paciente se encuentra tranquilo, jugando en la camilla, sin aleteo ni tiraje; FR 24 rpm, FC 98 lpm, SatO2 97% al aire ambiente. A la auscultación ya no se aprecian sibilancias y la entrada de aire es simétrica y bilateral. Su escala de Wood-Downes actual es de 1 punto.",
+      "question_text": "¿Cuál es la pauta correcta de corticoterapia sistémica para completar el manejo ambulatorio del evento agudo según la GPC de Asma en Pediatría?",
+      "options": {
+        "A": "Prednisolona oral 1 a 2 mg/kg/día por un total de 3 a 5 días, sin necesidad de reducción paulatina de dosis al suspender",
+        "B": "Dexametasona oral diaria por 21 días consecutivos con disminución progresiva de 0.5 mg cada semana",
+        "C": "Hidrocortisona intravenosa en hospitalización durante 7 días y egreso con ketotifeno en jarabe",
+        "D": "Suspender inmediatamente los esteroides hoy mismo al remitir los síntomas, ya que un solo día es suficiente para evitar recaídas"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "En la crisis de asma pediátrica que responde favorablemente, la GPC CENETEC estipula continuar corticoide sistémico oral (Prednisolona o Prednisona a 1-2 mg/kg/día, dosis máxima 40 mg/día) durante 3 a 5 días en total para prevenir recaídas tempranas. Los ciclos cortos de ≤ 7 días NO requieren descenso gradual ni desescalamiento progresivo, ya que no inducen supresión clínicamente significativa del eje hipotálamo-hipófisis-suprarrenal.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "El distractor inventa esquemas de desescalamiento de 21 días (innecesarios y dañinos) o la suspensión abrupta en < 24 horas que condiciona alta tasa de rebote."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la duración recomendada y esquema de corticoide oral tras una crisis asmática pediátrica?",
+        "back": "Prednisolona oral a 1-2 mg/kg/día (máx 40 mg) por 3 a 5 días en total. NO requiere reducción gradual de la dosis al suspender.",
+        "tags": "D04 AsmaPediatria CorticoideOral Prednisolona GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Sibilancias Pediátricas: Crisis Asmática vs Cuerpo Extraño",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A los 4 meses del egreso, el niño de 4 años acude a control con pediatría. La madre refiere que el niño presenta tos y sibilancias diurnas 3 veces por semana, despierta por las noches con accesos de tos al menos 2 veces al mes, y se cansa más rápido que sus compañeros en el preescolar requiriendo salbutamol 3 o 4 veces a la semana. Actualmente no utiliza ningún medicamento de control a largo plazo.",
+      "question_text": "¿Cuál es el nivel de control clínico del asma y el escalón terapéutico de mantenimiento indicado para este preescolar según la GPC CENETEC / GINA?",
+      "options": {
+        "A": "Asma no controlada; indicar tratamiento de control con corticoide inhalado a dosis bajas diarias (ej. Budesonida con aerocámara) más SABA a demanda",
+        "B": "Asma bien controlada; continuar únicamente con SABA a demanda cuando presente crisis",
+        "C": "Asma parcialmente controlada; indicar corticoide inhalado a dosis altas más teofilina oral y omalizumab subcutáneo",
+        "D": "Asma no controlada; prescribir antibiótico profiláctico continuo con amoxicilina y jarabe antitusígeno de dextrometorfano"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "En niños ≤ 5 años, tener síntomas diurnos > 2 veces/semana, despertares nocturnos y necesidad de rescate > 2 veces/semana clasifica al paciente como Asma NO Controlada. La intervención de mantenimiento de primera línea (Escalón 2 para preescolares) es el Corticoide Inhalado (ICS) diario a dosis bajas (ej. Budesonida 200 mcg/día o Fluticasona 100 mcg/día) administrado con espaciador valvulado y mascarilla facial, acompañado de SABA solo para rescate sintomático. Como alternativa secundaria se consideran los antileucotrienos (Montelukast).",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El distractor propone escalón 4 o biológicos (omalizumab) que no corresponden a un paciente virgen de tratamiento de mantenimiento de 4 años."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de mantenimiento de primera línea en un preescolar (≤ 5 años) con asma no controlada?",
+        "back": "Corticoide inhalado (ICS) a dosis bajas diarias (ej. Budesonida con aerocámara espaciadora) más SABA a demanda para rescate.",
+        "tags": "D04 AsmaPediatria Mantenimiento CorticoideInhalado GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Neumonía Adquirida en la Comunidad: Estratificación y Patógenos",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 71 años con antecedente de diabetes mellitus tipo 2 e hipertensión arterial sistémica bien controladas. Es valorado en la consulta de atención primaria por un cuadro de 4 días caracterizado por fiebre no cuantificada, escalofríos, malestar general, dolor pleurítico en hemitórax derecho y tos con expectoración herrumbrosa. A la exploración física: alerta, orientado en tiempo, espacio y persona (Mini-Mental 30/30), ruidos cardíacos rítmicos sin soplos; signos vitales: TA 128/76 mmHg, FC 88 lpm, FR 22 rpm, temperatura 38.3 °C, SatO2 94% al aire ambiente. A la auscultación torácica: estertores crepitantes y broncofonía en tercio inferior de hemitórax derecho. Laboratorios básicos de urgencias: leucocitos 13,200/mm³ (78% neutrófilos), hemoglobina 14.1 g/dL, plaquetas 220,000/mm³, glucosa 134 mg/dL, nitrógeno ureico en sangre (BUN) 14 mg/dL (urea calculada 29.9 mg/dL), creatinina 0.9 mg/dL. Radiografía de tórax: consolidación alveolar lobar única en lóbulo inferior derecho con broncograma aéreo.",
+      "question_text": "¿Cuál es el puntaje obtenido en la escala CURB-65 y la conducta de ubicación y manejo indicada según la GPC IMSS-234?",
+      "options": {
+        "A": "CURB-65 de 1 punto (únicamente por edad ≥ 65 años); riesgo bajo de mortalidad (< 3%), candidato a tratamiento ambulatorio con vigilancia estrecha",
+        "B": "CURB-65 de 3 puntos (edad, diabetes y leucocitosis); indicación mandatoria de ingreso a Unidad de Cuidados Intensivos",
+        "C": "CURB-65 de 0 puntos; no requiere antibióticos y se da de alta con paracetamol y reposo",
+        "D": "CURB-65 de 2 puntos; ingreso obligatorio a sala de hospitalización general de medicina interna por 10 días"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Escala_Severidad",
+      "gpc_algorithm_step": "Criterios CURB-65: Confusión (0, está orientado), Urea > 19 mg/dL / BUN > 19 mg/dL (0, BUN 14 mg/dL), Frecuencia respiratoria ≥ 30 rpm (0, tiene 22 rpm), Presión arterial < 90/60 mmHg (0, tiene 128/76 mmHg), Edad ≥ 65 años (1 punto, tiene 71 años). Total = 1 punto. CURB-65 0-1 punto corresponde a Grupo 1 (Bajo riesgo, mortalidad < 1.5-3%), lo que faculta para manejo ambulatorio supervisado con antibióticos orales, siempre que no existan comorbilidades descompensadas o factores psicosociales adversos.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El opositor incluye leucocitosis o comorbilidades como 'criterios CURB-65', o asume erróneamente que tener > 65 años obliga a hospitalizar de manera universal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los componentes exactos de la escala CURB-65 y el puntaje para manejo ambulatorio?",
+        "back": "C: Confusión (1)\nU: Urea > 19 mg/dL (BUN > 19 mg/dL o > 7 mmol/L) (1)\nR: Respiraciones ≥ 30 rpm (1)\nB: Blood pressure TAS < 90 o TAD ≤ 60 mmHg (1)\n65: Edad ≥ 65 años (1)\nPuntaje 0-1: Manejo ambulatorio.",
+        "tags": "D04 NAC CURB65 EscalaSeveridad GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Neumonía Adquirida en la Comunidad: Estratificación y Patógenos",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Para el mismo paciente masculino de 71 años con NAC (CURB-65 de 1 punto), se ratifica la decisión de tratamiento ambulatorio. Se revisan sus antecedentes: diabetes mellitus tipo 2 de 8 años de evolución con HbA1c 7.6% e hipertensión arterial con losartán. Niega alergias medicamentosas. No ha recibido antibióticos en los últimos 90 días.",
+      "question_text": "¿Cuál es el esquema antimicrobiano oral de primera línea recomendado por la GPC IMSS-234 para este paciente ambulatorio con comorbilidades?",
+      "options": {
+        "A": "Amoxicilina con ácido clavulánico (875/125 mg cada 12 h) más un macrólido oral (Azitromicina o Claritromicina), o Fluoroquinolona respiratoria (Levofloxacino) en monoterapia",
+        "B": "Amoxicilina simple a dosis baja (500 mg cada 8 horas) en monoterapia estricta",
+        "C": "Ciprofloxacino oral 500 mg cada 12 horas en monoterapia",
+        "D": "Vancomicina oral 125 mg cada 6 horas más gentamicina intramuscular"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "En pacientes ambulatorios con comorbilidades (DM2, cardiopatía, nefropatía, etc.) o edad avanzada, la monoterapia con amoxicilina simple no es suficiente por el riesgo de cepas productoras de betalactamasas (H. influenzae, M. catarrhalis) y atípicos. La GPC IMSS-234 e IDSA recomiendan: 1) Betalactámico con inhibidor (Amoxicilina/ácido clavulánico o Cefuroxima) MÁS un Macrólido (Azitromicina 500 mg día 1 luego 250 mg/día o Claritromicina 500 mg c/12h); o como alternativa 2) Fluoroquinolona respiratoria en monoterapia (Levofloxacino 750 mg/día o Moxifloxacino 400 mg/día). Ciprofloxacino NO es fluoroquinolona respiratoria por baja cobertura antineumocócica.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "El distractor propone Ciprofloxacino: un clásico error del ENARM. Ciprofloxacino tiene mala actividad contra Streptococcus pneumoniae y jamás debe usarse como monoterapia en NAC."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el esquema de primera línea en NAC ambulatoria CON comorbilidades según la GPC?",
+        "back": "Amoxicilina/ácido clavulánico (875/125 mg c/12h) MÁS Macrólido (Azitromicina/Claritromicina), O Fluoroquinolona respiratoria (Levofloxacino/Moxifloxacino) en monoterapia.",
+        "tags": "D04 NAC TratamientoAmbulatorio Comorbilidades GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Neumonía Adquirida en la Comunidad: Estratificación y Patógenos",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El nieto del paciente anterior, un joven de 19 años estudiante universitario sin antecedentes patológicos, convive en la misma casa. Acude a consulta 5 días después refiriendo que desde hace una semana presenta cefalea holocraneana moderada, odinofagia, astenia, febrícula de 37.6 °C y una tos seca persistente muy molesta y espasmódica. A la exploración física: faringe ligeramente hiperémica, TA 118/72 mmHg, FC 74 lpm, FR 16 rpm, SatO2 97% al aire ambiente. A la auscultación torácica el murmullo vesicular es normal, con escasos sibilantes y subcrepitantes aislados en bases. Se realiza radiografía de tórax de control que sorprende al mostrar infiltrados intersticiales reticulonodulares bilaterales y parchados desproporcionados a la escasa sintomatología auscultatoria ('disociación clínico-radiológica').",
+      "question_text": "¿Cuál es el agente etiológico más probable de esta presentación de neumonía atípica y el tratamiento antimicrobiano de elección según la GPC?",
+      "options": {
+        "A": "Mycoplasma pneumoniae; Macrólido oral (Azitromicina 500 mg día 1, seguido de 250 mg/día por 4 días)",
+        "B": "Streptococcus pneumoniae; Penicilina procaínica intramuscular cada 12 horas",
+        "C": "Pneumocystis jirovecii; Trimetoprim con sulfametoxazol a dosis altas más esteroides",
+        "D": "Klebsiella pneumoniae; Cefalotina intravenosa cada 6 horas"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "El cuadro de neumonía 'atípica' en pacientes jóvenes/escolares/militares, con pródromos de vías aéreas superiores (faringitis, cefalea, traqueobronquitis), tos seca paroxística persistente y 'disociación clínico-radiológica' (gran afección radiológica con auscultación casi normal), es característico de Mycoplasma pneumoniae (o Chlamydia pneumoniae). La primera línea de tratamiento según la GPC IMSS-234 son los Macrólidos (Azitromicina o Claritromicina) o tetraciclinas (Doxiciclina). Los betalactámicos carecen de diana terapéutica debido a que M. pneumoniae carece de pared celular de peptidoglicano.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio",
+        "explanation": "El examinado intenta buscar bacterias piógenas típicas (S. pneumoniae) o neumonías oportunistas (Pneumocystis), ignorando la epidemiología del joven universitario y la clásica disociación clínico-radiológica de M. pneumoniae."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la causa clásica de neumonía atípica con disociación clínico-radiológica en jóvenes y su tratamiento?",
+        "back": "Agente: Mycoplasma pneumoniae.\nTratamiento de elección: Macrólidos (Azitromicina 500 mg dosis inicial, luego 250 mg/día por 4 días) o Doxiciclina.",
+        "tags": "D04 NAC Atipica Mycoplasma Azitromicina GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Neumonía Adquirida en la Comunidad: Estratificación y Patógenos",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "El paciente masculino de 71 años (del reactivo 14) acude a revisión obligatoria a las 48 horas de haber iniciado amoxicilina/clavulanato con azitromicina. Su hija refiere que el paciente sigue sintiéndose fatigado y con tos, pero la fiebre ya no ha sobrepasado los 37.4 °C, su apetito ha mejorado y la frecuencia respiratoria es de 18 rpm con SatO2 95%. La hija exige que se le cambie inmediatamente el antibiótico por uno intravenoso más fuerte y se le repita la radiografía de tórax hoy mismo para 'ver si ya se le quitó la mancha del pulmón'.",
+      "question_text": "¿Cuál es el tiempo de evaluación de la respuesta clínica inicial y el comportamiento radiológico esperado de la NAC según la GPC IMSS-234?",
+      "options": {
+        "A": "La respuesta clínica debe valorarse entre 48 y 72 horas; la resolución radiológica es mucho más lenta y puede tardar de 4 a 12 semanas, por lo que NO se recomienda radiografía rutinaria de control en pacientes con mejoría clínica",
+        "B": "La respuesta bacteriana debe evidenciarse a las 12 horas; la persistencia de la imagen radiológica a las 48 horas demuestra fracaso terapéutico obligatorio",
+        "C": "Se debe cambiar de inmediato a vancomicina parenteral e indicar tomografía de tórax de alta resolución diaria",
+        "D": "El tratamiento antibiótico debe suspenderse a las 48 horas si ya no tiene fiebre mayor a 38 °C"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Meta_Referencia",
+      "gpc_algorithm_step": "La GPC IMSS-234 establece que la respuesta terapéutica se evalúa a las 48-72 horas mediante parámetros clínicos (defervescencia de la fiebre, disminución de disnea, estabilidad de signos vitales y mejoría del estado general). La resolución radiológica es tardía: los infiltrados radiológicos tardan de 4 a 8 semanas (e incluso hasta 12 semanas en ancianos o fumadores) en desaparecer por completo. No está justificada la repetición de radiografías de control si existe estabilidad y respuesta clínica favorable.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "El alumno cambia innecesariamente de antibiótico guiado por la persistencia de la consolidación radiológica a las 48 horas, desconociendo el retraso temporal biológico de la depuración radiológica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo se evalúa la respuesta terapéutica en NAC y cuánto tarda en normalizarse la radiografía de tórax?",
+        "back": "Evaluación clínica: a las 48-72 horas de inicio antimicrobiano.\nResolución radiológica: tarda de 4 a 12 semanas. NO se requiere Rx de control rutinaria si hay mejoría clínica.",
+        "tags": "D04 NAC ResolucionRadiologica Seguimiento GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q17",
+      "index": 17,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Derrame Paraneumónico Complicado y Empiema",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 54 años, hospitalizado hace 5 días por neumonía comunitaria lobar izquierda y tratado con ceftriaxona IV. A pesar del tratamiento, al quinto día presenta recurrencia de la fiebre (38.9 °C), taquipnea y dolor torácico en punta de costado izquierdo. La exploración revela abolición de vibraciones vocales y matidez franca a la percusión en base pulmonar izquierda. La radiografía de tórax en decúbito lateral izquierdo y el ultrasonido torácico demuestran un derrame pleural libre de 25 mm de espesor. Se realiza toracocentesis diagnóstica obteniendo líquido amarillo citrino ligeramente opalescente. Laboratorio comparativo: proteínas en líquido pleural 4.1 g/dL (proteínas séricas 6.4 g/dL); DHL en líquido pleural 980 UI/L (DHL sérica 290 UI/L, con límite superior normal sérico de 200 UI/L).",
+      "question_text": "¿Cuál es la clasificación del líquido pleural según los Criterios de Light y la justificación metodológica correspondiente?",
+      "options": {
+        "A": "Exudado; cumple criterios al tener relación de proteínas pleural/suero > 0.5 (0.64) y relación de DHL pleural/suero > 0.6 (3.37)",
+        "B": "Trasudado; las proteínas son menores a 5 g/dL y el aspecto no es purulento francamente",
+        "C": "Quilotórax; la opalescencia demuestra presencia masiva de quilomicrones y triglicéridos",
+        "D": "Hemotórax; el valor de DHL elevado refleja hemólisis intrapleural activa obligatoria"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Estudio_Inicial",
+      "gpc_algorithm_step": "Criterios de Light para Exudado (basta con CUMPLIR AL MENOS UNO de los 3): 1) Relación proteínas pleura/suero > 0.5 (4.1 / 6.4 = 0.64); 2) Relación DHL pleura/suero > 0.6 (980 / 290 = 3.37); 3) DHL en líquido pleural > 2/3 del límite superior normal sérico (> 133 UI/L en este laboratorio). El líquido cumple los 3 criterios de forma contundente, clasificándose como Exudado.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio",
+        "explanation": "El distractor confunde los puntos de corte absolutos con las relaciones relativas de los criterios de Light, o clasifica como trasudado por no ser pus franco."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los 3 Criterios de Light para definir un derrame pleural como Exudado?",
+        "back": "1. Relación Proteínas pleural/suero > 0.5\n2. Relación DHL pleural/suero > 0.6\n3. DHL pleural > 2/3 del límite superior normal sérico.\n(Basta 1 criterio positivo para definir Exudado).",
+        "tags": "D04 DerramePleural CriteriosLight Exudado GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q18",
+      "index": 18,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Derrame Paraneumónico Complicado y Empiema",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El estudio citoquímico y microbiológico ampliado del líquido pleural obtenido en el paciente de 54 años revela: pH 7.05 (determinado por gasómetro), glucosa 28 mg/dL (glucosa sérica 110 mg/dL), leucocitos 38,000/mm³ con 92% de polimorfonucleares. La tinción de Gram del líquido pleural demuestra abundantes cocos grampositivos agrupados en pares y cadenas. El paciente persiste con dolor pleurítico, taquipnea de 28 rpm y fiebre de 38.8 °C.",
+      "question_text": "¿Cuál es el diagnóstico específico y la conducta terapéutica intervencionista inmediata de acuerdo con la GPC?",
+      "options": {
+        "A": "Derrame paraneumónico complicado; colocación inmediata de tubo de toracostomía (sonda endopleural con sello de agua)",
+        "B": "Derrame paraneumónico simple; continuar con la misma dosis de ceftriaxona IV y repetir la toracocentesis en 7 días",
+        "C": "Empiema tuberculoso cerrado; iniciar antifímicos orales (Rifampicina, Isoniazida, Pirazinamida, Etambutol) sin requerir drenaje",
+        "D": "Pleuritis reactiva química; indicar reposo absoluto y analgesia con indometacina oral"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "Criterios de Derrame Paraneumónico Complicado / Empiema que obligan a la colocación inmediata de Sonda Endopleural (Tubo de toracostomía con sello de agua): 1) pH pleural < 7.20; 2) Glucosa pleural < 60 mg/dL (o < 3.3 mmol/L); 3) DHL > 1000 UI/L; 4) Tinción de Gram o cultivo positivo en líquido pleural; 5) Presencia de pus macroscópico. Con pH 7.05, glucosa 28 y Gram positivo, los antibióticos solos NO resolverán el cuadro y existirá tabicación rápida con paquipleuritis si no se drena inmediatamente.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El médico decide dar 'más tiempo' al antibiótico o hacer toracocentesis evacuadoras repetidas; la GPC establece con firmeza que ante pH < 7.20 o bacterias en Gram el drenaje con sonda endopleural es MANDATORIO y no diferible."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios en líquido pleural para colocar sonda endopleural en derrame paraneumónico?",
+        "back": "• pH < 7.20\n• Glucosa < 60 mg/dL\n• DHL > 1,000 UI/L\n• Gram o cultivo positivo en líquido pleural\n• Presencia de pus macroscópico franco (Empiema).",
+        "tags": "D04 DerrameParaneumonico SondaEndopleural CriteriosDrenaje GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q19",
+      "index": 19,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Derrame Paraneumónico Complicado y Empiema",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A las 96 horas de la colocación de la sonda endopleural, el gasto por el tubo se ha reducido a solo 20 mL de material serofibrinoso al día; sin embargo, el paciente no mejora: persiste con picos febriles de 38.6 °C, leucocitosis de 18,200/mm³ y disnea. La tomografía axial computarizada (TAC) de tórax contrastada revela múltiples loculaciones con tabiques fibrosos gruesos, derrame pleural loculado residual multiquístico y engrosamiento marcado de la pleura visceral que impide la reexpansión del pulmón izquierdo ('pulmón atrapado').",
+      "question_text": "¿Cuál es la conducta quirúrgica indicada ante la falla del drenaje cerrado en esta fase fibrinopurulenta/organizada según la GPC?",
+      "options": {
+        "A": "Cirugía toracoscópica videoasistida (VATS) temprana o toracotomía para decorticación pleural y desbridamiento",
+        "B": "Retirar la sonda endopleural y dar egreso con analgésicos opioides a domicilio",
+        "C": "Colocar una segunda sonda endopleural de calibre menor en el mismo orificio sin visión directa",
+        "D": "Administrar bleomicina intrapleural para provocar sínfisis pleural química inmediata"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "Cuando un empiema o derrame complicado fracasa al drenaje cerrado con tubo torácico (drenaje incompleto, persistencia de sepsis, múltiples loculaciones/tabiques densos y pulmón atrapado por corteza pleural organizada), la indicación de elección según la GPC es el desbridamiento y decorticación pleural mediante Cirugía Toracoscópica Videoasistida (VATS temprana) o toracotomía abierta si la corteza es madura e impenetrable por VATS. La pleurodesis con bleomicina está formalmente contraindicada en infección activa.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "El distractor propone pleurodesis (indicada en derrames neoplásicos malignos, letal en empiema no resuelto) o esperar pasivamente con la sonda bloqueada."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo está indicada la decorticación quirúrgica por VATS en un empiema pleural?",
+        "back": "Ante fracaso del drenaje con sonda endopleural: persistencia de sepsis, múltiples loculaciones densas, tabicaciones complejas y pulmón atrapado que impide la reexpansión.",
+        "tags": "D04 Empiema VATS Decorticacion GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q20",
+      "index": 20,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Derrame Paraneumónico Complicado y Empiema",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El paciente es intervenido mediante VATS realizándose lisis de adherencias, evacuación de 400 mL de material purulento espeso y decorticación pleural con reexpansión completa del pulmón. El cultivo del líquido aislado reporta Streptococcus pneumoniae serotipo 19A sensible a penicilina y anaerobios orales (Peptostreptococcus spp.).",
+      "question_text": "¿Cuál es el esquema y duración recomendada de antibioticoterapia parenteral/oral para la resolución completa de este empiema según la GPC?",
+      "options": {
+        "A": "Ceftriaxona IV más Clindamicina o Metronidazol (o Ampicilina/sulbactam IV), completando un esquema total de 2 a 4 semanas según evolución clínica y radiológica",
+        "B": "Monoterapia con Amikacina intravenosa por 5 días exclusivamente",
+        "C": "Ciprofloxacino oral por 3 días únicamente",
+        "D": "Penicilina benzatínica intramuscular en dosis única semanal por 6 meses"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "En empiema pleural comunitario, la etiología combina neumococo con flora anaerobia facultativa de cavidad oral. El tratamiento antimicrobiano debe cubrir patógenos comunitarios típicos y anaerobios: Cefalosporina de 3ra generación (Ceftriaxona) MÁS cobertura anaerobia con Clindamicina o Metronidazol; o Ampicilina/Sulbactam en monoterapia. La duración del tratamiento antibiótico en empiema pleural es prolongada: habitualmente de 2 a 4 semanas (mínimo 2 semanas tras la resolución del drenaje y fiebre) para prevenir recaídas de absceso pleural.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El opositor extrapola la duración corta de la neumonía comunitaria no complicada (5-7 días) al empiema pleural; el empiema requiere un mínimo de 2 a 4 semanas de cobertura antibiótica combinada."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la cobertura antibiótica y duración estándar del tratamiento en empiema pleural comunitario?",
+        "back": "Ceftriaxona + Clindamicina (o Ampicilina/Sulbactam) para cubrir neumococo y anaerobios orales.\nDuración: 2 a 4 semanas (tratamiento prolongado).",
+        "tags": "D04 Empiema TratamientoAntibiotico Anaerobios GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 34 años, no fumador, profesor de secundaria sin antecedentes de exposición a humo de leña, asbesto ni solventes industriales. Acude a consulta de medicina interna por disnea de esfuerzo progresiva (mMRC 2) de 10 meses de evolución y tos seca intermitente. Refiere antecedentes familiares de un padre que falleció a los 42 años por cirrosis hepática criptogénica y enfisema pulmonar severo, y una hermana de 38 años con bronquiectasias. A la exploración física: índice de masa corporal 21.4 kg/m², murmullo vesicular disminuido de forma bilateral, sibilancias espiratorias escasas en bases. Espirometría posbroncodilatador: FEV1/FVC 0.52, FEV1 46% del predicho (obstrucción moderada a severa que no revierte con salbutamol). Tomografía computarizada de alta resolución (TCAR) de tórax: enfisema panacinar grave con franco predominio en los lóbulos inferiores bilaterales y bullas basales.",
+      "question_text": "¿Cuál es el diagnóstico de sospecha primario, la prueba de confirmación de laboratorio y la terapia específica indicada según la GPC?",
+      "options": {
+        "A": "Deficiencia de alfa-1 antitripsina (AAT); cuantificación sérica de AAT y genotipificación Pi; terapia de infusión semanal con concentrado de alfa-1 antitripsina humana",
+        "B": "Fibrosis quística del adulto; determinación de cloruro en sudor (iontoforesis con pilocarpina); dornasa alfa inhalada",
+        "C": "Histiocitosis de células de Langerhans; lavado broncoalveolar con células CD1a > 5%; trasplante pulmonar urgente",
+        "D": "Asma de difícil control; prueba de provocación bronquial con metacolina; corticoterapia sistémica parenteral continua"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Gold_Standard",
+      "gpc_algorithm_step": "Enfisema pulmonar en paciente joven (< 45 años), no fumador, con historia familiar de hepatopatía/enfisema temprano y patrón radiológico de enfisema panacinar con predominio en bases pulmonares (a diferencia del enfisema centroacinar apical del tabaquismo) es la presentación patognomónica de Deficiencia de Alfa-1 Antitripsina (AAT, fenotipo Pi*ZZ). Confirmación: determinación de niveles séricos de AAT (< 11 µmol/L o < 50-80 mg/dL) y fenotipificación/genotipificación. Tratamiento específico modificador de enfermedad: Infusión intravenosa semanal de concentrado purificado de AAT humana (alfa-1 proteinasa inhibidor).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "El aspirante sospecha fibrosis quística por el antecedente familiar, pero la fibrosis quística predomina en lóbulos superiores con bronquiectasias cilíndricas y colonización por Pseudomonas, no con enfisema panacinar basal puro en no fumador."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la presentación clásica del déficit de alfa-1 antitripsina y su localización tomográfica?",
+        "back": "Adulto joven (< 45 años), no fumador, historia familiar de enfisema/hepatopatía precoz.\nTomografía: Enfisema panacinar con predominio en BASES pulmonares (lóbulos inferiores).\nTratamiento específico: Reemplazo con alfa-1 antitripsina humana IV.",
+        "tags": "D04 EPOC Alfa1Antitripsina EnfisemaPanacinar GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-6",
+      "case_title": "Serial Clinical Case 6: Severe Community-Acquired Pneumonia and Septic Shock",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A 68-year-old male with a 15-year history of COPD (GOLD stage 3) and ischemic heart disease is brought to the emergency department by his family due to acute confusion, lethargy, high-grade fever, and severe shortness of breath over the past 3 days. On physical examination: obtunded, responding only to noxious stimuli (Glasgow Coma Scale 10); blood pressure 82/48 mmHg (mean arterial pressure 59 mmHg) that does not improve after 2 liters of IV crystalloids; heart rate 126 bpm, respiratory rate 36 bpm, temperature 39.4 °C, and oxygen saturation 82% on ambient air. Chest auscultation reveals dense bronchial breath sounds, egophony, and inspiratory crackles over the right middle and lower lung fields. Laboratory workup: WBC 24,500/mm³ with 18% band forms, platelets 92,000/mm³, blood urea nitrogen (BUN) 36 mg/dL, serum creatinine 2.3 mg/dL, total bilirubin 2.1 mg/dL, and arterial blood lactate 4.5 mmol/L. Portable chest radiograph demonstrates bilateral multilobar consolidation.",
+      "question_text": "According to the CURB-65 scoring system and the ATS/IDSA severity criteria adopted by the Mexican GPC IMSS-234, what is the patient's severity stratification and mandatory admission location?",
+      "options": {
+        "A": "CURB-65 score of 5 points and presence of septic shock (major criteria); immediate admission to the Intensive Care Unit (ICU)",
+        "B": "CURB-65 score of 2 points; temporary observation unit for 12 hours followed by discharge with oral azithromycin",
+        "C": "CURB-65 score of 3 points; admission to a general internal medicine ward without monitoring",
+        "D": "CURB-65 score of 1 point; outpatient treatment with high-dose amoxicillin and home oxygen concentrator"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Escala_Severidad",
+      "gpc_algorithm_step": "Calculation of CURB-65: Confusion (+1, GCS 10), Urea/BUN > 19 mg/dL (+1, BUN 36 mg/dL), Respiratory rate ≥ 30 bpm (+1, RR 36 bpm), Blood pressure < 90/60 mmHg (+1, BP 82/48 mmHg), Age ≥ 65 (+1, age 68 years) = 5 out of 5 points (maximum severity, estimated mortality > 30%). Furthermore, the patient meets 1 MAJOR criterion of the ATS/IDSA/GPC guidelines (septic shock requiring vasopressors despite fluid resuscitation) and multiple MINOR criteria (RR ≥ 30, PaO2/FiO2 < 250, multilobar infiltrates, confusion, uremia, thrombocytopenia). Immediate transfer and admission to the Intensive Care Unit (ICU) is mandatory.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "The examinee miscalculates the score by forgetting confusion or blood pressure, or delays ICU admission relying on general floor care, which significantly increases in-hospital mortality."
+      },
+      "anki_flashcard": {
+        "front": "What are the major criteria for direct ICU admission in severe CAP according to ATS/IDSA and GPC?",
+        "back": "1. Septic shock requiring vasopressor therapy.\n2. Acute respiratory failure requiring invasive mechanical ventilation.\n(Presence of either 1 major criterion OR ≥ 3 minor criteria mandates ICU admission).",
+        "tags": "D04 CAP CURB65 ICUcriteria SepticShock GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-6",
+      "case_title": "Serial Clinical Case 6: Severe Community-Acquired Pneumonia and Septic Shock",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The 68-year-old male with severe CAP and septic shock is transferred to the ICU, intubated with lung-protective ventilation settings, and initiated on norepinephrine infusion to restore a MAP ≥ 65 mmHg. Two sets of blood cultures and an endotracheal aspirate for Gram stain and culture are collected before initiating antimicrobials. The medical team considers rapid microbiological diagnostic tests to pinpoint the causative pathogen and guide early targeted de-escalation.",
+      "question_text": "According to the GPC IMSS-234 guidelines and international consensus, which rapid urinary diagnostic tests are strongly indicated in severe CAP requiring ICU admission?",
+      "options": {
+        "A": "Urinary antigen testing for Streptococcus pneumoniae and Legionella pneumophila serogroup 1",
+        "B": "Urinary screen for Mycoplasma pneumoniae and Pseudomonas aeruginosa endotoxin",
+        "C": "Urinary strip for cytomegalovirus and acid-fast bacilli",
+        "D": "Urinary dipstick for Klebsiella pneumoniae capsular antigen only"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Estudio_Inicial",
+      "gpc_algorithm_step": "In severe Community-Acquired Pneumonia admitted to the ICU, Mexican GPC IMSS-234 and IDSA/ATS guidelines explicitly recommend performing: 1) Blood cultures (prior to antibiotics); 2) Deep respiratory secretion Gram stain and culture; and 3) Urinary Antigen Tests for Streptococcus pneumoniae and Legionella pneumophila serogroup 1. Both urinary antigen tests provide high specificity, rapid turnaround time (< 15-30 minutes), and remain positive even after antibiotic administration has started.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "The test taker chooses non-existent or irrelevant urinary tests (such as urinary Mycoplasma or Pseudomonas antigen, which do not exist in clinical practice) instead of the validated pneumococcal and Legionella urinary antigens."
+      },
+      "anki_flashcard": {
+        "front": "Which urinary antigen tests are recommended for severe Community-Acquired Pneumonia in the ICU?",
+        "back": "1. Streptococcus pneumoniae urinary antigen.\n2. Legionella pneumophila (serogroup 1) urinary antigen.\nBoth have high specificity and are not affected by early antibiotic dosing.",
+        "tags": "D04 CAP UrinaryAntigen Legionella Pneumococcus GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-6",
+      "case_title": "Serial Clinical Case 6: Severe Community-Acquired Pneumonia and Septic Shock",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "When reviewing the medical records of the 68-year-old intubated male, the resident discovers that the patient has severe underlying COPD with frequent exacerbations, including 3 hospitalizations in the preceding 6 months where he received repeated courses of broad-spectrum antibiotics (piperacillin/tazobactam and ciprofloxacin). Furthermore, he had a documented sputum colonization by Pseudomonas aeruginosa during his last pulmonary rehabilitation evaluation 4 months ago. He has no known drug allergies.",
+      "question_text": "What is the recommended empirical intravenous antimicrobial regimen for this patient with severe CAP in the ICU and validated risk factors for Pseudomonas aeruginosa according to GPC IMSS-234?",
+      "options": {
+        "A": "An antipseudomonal beta-lactam (e.g., Piperacillin/Tazobactam 4.5 g IV q6h or Cefepime 2 g IV q8h) PLUS an antipseudomonal fluoroquinolone (e.g., Ciprofloxacin 400 mg IV q8h or high-dose Levofloxacin 750 mg IV q24h)",
+        "B": "Ceftriaxone 1 g IV every 24 hours in monotherapy",
+        "C": "Ampicillin 1 g IV every 6 hours plus oral Erythromycin 250 mg every 6 hours",
+        "D": "Oral Clindamycin 300 mg every 8 hours plus Gentamicin inhaled in monotherapy"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tx_Alergicos_Especial",
+      "gpc_algorithm_step": "While standard severe CAP without risk factors is managed with Ceftriaxone + Azithromycin, the presence of severe COPD with frequent antibiotic exposure, prior hospitalizations, and documented previous isolation of Pseudomonas aeruginosa constitutes a high-risk profile for P. aeruginosa. According to GPC IMSS-234 and IDSA guidelines, treatment MUST include dual coverage: an antipseudomonal beta-lactam (Piperacillin/tazobactam, Cefepime, Meropenem) COMBINED with an antipseudomonal fluoroquinolone (Ciprofloxacin or Levofloxacin) OR an aminoglycoside plus an IV macrolide/respiratory fluoroquinolone.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Ceftriaxone + macrolide is the standard choice for typical severe CAP, but in this specific patient with structural lung disease and documented Pseudomonas colonization, Ceftriaxone fails to cover P. aeruginosa, leading to treatment failure and death."
+      },
+      "anki_flashcard": {
+        "front": "What is the empiric antibiotic regimen for severe CAP in the ICU with risk factors for Pseudomonas aeruginosa?",
+        "back": "Antipseudomonal beta-lactam (Piperacillin/tazobactam, Cefepime, or Meropenem) PLUS an antipseudomonal fluoroquinolone (Ciprofloxacin or high-dose Levofloxacin) or Aminoglycoside + Azithromycin.",
+        "tags": "D04 CAP Pseudomonas Regimen ICU GPC"
+      }
+    },
+    {
+      "id": "d04_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-6",
+      "case_title": "Serial Clinical Case 6: Severe Community-Acquired Pneumonia and Septic Shock",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "By ICU day 5, the patient has improved remarkably: norepinephrine was successfully weaned off 48 hours ago, mechanical ventilation was discontinued, and he was extubated to low-flow nasal cannula (SatO2 93%). Temperature has been between 36.5 °C and 37.0 °C for the past 48 hours, respiratory rate is 18 bpm, heart rate 76 bpm, and blood pressure 124/76 mmHg. Endotracheal aspirate and blood cultures grew Streptococcus pneumoniae sensitive to penicillin (MIC < 0.06 µg/mL) with no growth of Pseudomonas or other Gram-negative bacilli. The patient is now conscious, oriented, and tolerating oral nutrition without nausea.",
+      "question_text": "According to Mexican GPC IMSS-234 guidelines and clinical stability criteria, what is the appropriate strategy for antibiotic de-escalation, switch to oral route, and total therapy duration?",
+      "options": {
+        "A": "De-escalate and switch to oral therapy (e.g., Amoxicillin/clavulanic acid or high-dose Amoxicillin) to complete a total course of 7 to 10 days, provided the patient remains afebrile and clinically stable for at least 48 hours",
+        "B": "Maintain full-dose intravenous dual antipseudomonal therapy for 28 consecutive days regardless of culture results",
+        "C": "Immediately discontinue all antibiotics today because 5 days of parenteral therapy is the absolute lifelong maximum",
+        "D": "Switch to intravenous vancomycin for 14 additional days to prevent late nosocomial colonization"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Meta_Referencia",
+      "gpc_algorithm_step": "Criteria for switching from IV to oral antibiotics in CAP: 1) Hemodynamic stability (no vasopressors, normal BP/HR); 2) Resolution of fever for at least 48 hours; 3) Improvement in respiratory symptoms and respiratory rate < 24 bpm; 4) Intact gastrointestinal tract with preserved oral intake; 5) Normal mental status. When targeted cultures demonstrate penicillin-sensitive S. pneumoniae without Pseudomonas, broad-spectrum coverage should be de-escalated to an oral aminopenicillin (Amoxicillin or Amoxicillin/clavulanate) to complete a total duration of 7-10 days (or 5-7 days if rapid stability was reached). Unnecessary prolonged broad-spectrum coverage promotes antimicrobial resistance and C. difficile colitis.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "The examinee continues 28 days of parenteral antipseudomonal therapy 'just in case' despite microbiological identification of isolated penicillin-sensitive pneumococcus, violating stewardship principles."
+      },
+      "anki_flashcard": {
+        "front": "What are the clinical stability criteria to switch from IV to oral antibiotics in severe CAP?",
+        "back": "1. Afebrile for ≥ 48 hours.\n2. Hemodynamically stable (no vasopressors).\n3. HR < 100, RR < 24, SatO2 ≥ 90%.\n4. Preserved mental status and oral intake tolerance.\nTotal course: 7 to 10 days for bacteremic pneumococcal CAP.",
+        "tags": "D04 CAP SwitchOral StabilityCriteria De-escalation GPC"
+      }
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "topic_code": "D13",
+  "title": "Simulador Post-Estudio: Tamizaje CaCu (VPH), Vaginitis y EPI",
+  "normativa_origen": "NOM-014-SSA2-1994 / GPC IMSS-081 (Vaginitis) / GPC IMSS-072 (EPI)",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d13_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Infecciones Vaginales Recurrentes y Manejo en Poblaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Primigesta de 26 años, cursando embarazo de 10.2 semanas por amenorrea confiable. Acude a la consulta externa de medicina familiar por cuadro de 6 días de evolución caracterizado por flujo vaginal anormal y olor fétido desagradable ('a pescado en descomposición'), el cual se intensifica notablemente posterior a las relaciones sexuales. Niega prurito vulvar intenso, disuria o dolor pélvico. A la exploración física: signos vitales normales (TA 110/70 mmHg, FC 74 lpm, Temp 36.6 °C). A la especuloscopia: mucosa vaginal sin datos de eritema ni edema severo, con presencia de secreción homogénea, blanco-grisácea, de baja viscosidad, que recubre de manera uniforme las paredes vaginales y el fondo de saco posterior. Cérvix cerrado, sin sangrado ni friabilidad. Pruebas de consultorio: pH vaginal de 5.4. Prueba de liberación de aminas con hidróxido de potasio al 10% (Whiff test): francamente positiva. Examen microscópico en fresco: visualización de más del 25% de células guía/clave ('clue cells'), marcada reducción de bacilos de Döderlein y escasos leucocitos polimorfonucleares. La paciente refiere antecedentes de hiperémesis gravídica reciente con intolerancia gástrica a fármacos orales.",
+      "question_text": "Con base en la GPC IMSS-081 (Diagnóstico y Tratamiento de la Vaginitis Infecciosa) y la evidencia clínica institucional para el manejo de la vaginosis bacteriana en el primer trimestre de la gestación, ¿cuál es el esquema terapéutico normado de primera línea y la conducta con respecto a la pareja sexual?",
+      "options": {
+        "A": "Metronidazol en gel vaginal al 0.75% (un aplicador de 5 g una vez al día por 5 días) o Metronidazol óvulos de 500 mg vía vaginal cada 24 horas por 7 días, sin tratamiento a la pareja sexual asintomática.",
+        "B": "Fluconazol 150 mg vía oral en dosis única a la paciente y prescripción profiláctica obligatoria de Metronidazol 2 g vía oral en dosis única a la pareja sexual masculina.",
+        "C": "Clindamicina en crema vaginal al 2% durante 3 días, indicando tratamiento empírico simultáneo a la pareja sexual con Azitromicina 1 g vía oral.",
+        "D": "Conducta expectante sin tratamiento farmacológico hasta superar las 14 semanas de gestación, por riesgo teratogénico absoluto de los nitroimidazoles en el primer trimestre."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Vaginosis_Bacteriana_Primer_Trimestre",
+      "gpc_algorithm_step": "Diagnóstico de Vaginosis Bacteriana por criterios de Amsel (3/4 presentes: flujo homogéneo, pH >4.5, Whiff +, clue cells >20%). En primer trimestre y ante intolerancia gástrica, la vía vaginal con Metronidazol gel al 0.75% por 5 días u óvulos por 7 días (o vía oral si tolerara) es segura y previene parto pretérmino/RPM. No se trata a la pareja de rutina.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El fluconazol oral está formalmente contraindicado en el embarazo por teratogenicidad (defectos craneofaciales y cardíacos), y la pareja no requiere tratamiento en vaginosis de rutina. Postergar el tratamiento hasta el 2do trimestre incrementa el riesgo de aborto tardío, corioamnionitis y parto pretérmino."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de 1ra línea y conducta con la pareja en Vaginosis Bacteriana durante el embarazo según GPC?",
+        "back": "Metronidazol tópico vaginal (gel 0.75% x 5 días u óvulos 500 mg x 7 días) o VO (500 mg c/12h x 7 días). NO se trata a la pareja sexual asintomática de rutina.",
+        "tags": "D13 GYO Vaginitis Vaginosis_Bacteriana Embarazo GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Infecciones Vaginales Recurrentes y Manejo en Poblaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente del caso previo acude 10 meses después a consulta externa. Se encuentra en su puerperio tardío, amamantando a su hijo de forma exclusiva al seno materno. Consulta por un cuadro de 4 días de prurito vulvar intolerable, ardor vulvovaginal que se incrementa con la micción y dispareunia superficial. A la exploración ginecológica: vulva intensamente eritematosa con edema de labios menores, excoriaciones por rascado y pequeñas fisuras interlabiales. A la especuloscopia: mucosa vaginal congestiva con secreción espesa, blanca, grumosa, adherente a las paredes en placas, semejante a 'leche cortada' o 'requesón', sin fetidez. Pruebas de consultorio: pH vaginal de 4.1; prueba de aminas (KOH al 10%) negativa. El examen microscópico con solución salina y KOH al 10% evidencia abundantes hifas, seudohifas y esporas gemantes compatibles con Candida spp., sin clue cells ni trofozoítos. Al revisar el expediente clínico, se corrobora que este constituye el cuarto episodio documentado y tratado de candidiasis vulvovaginal sintomática en los últimos 12 meses.",
+      "question_text": "Ante la integración de Candidiasis Vulvovaginal Recurrente (CVVR) en una paciente en periodo de lactancia materna exclusiva, ¿cuál es el régimen farmacológico de inducción y mantenimiento normado por la GPC IMSS-081 para lograr la remisión clínica y microbiológica?",
+      "options": {
+        "A": "Inducción con Fluconazol 150 mg vía oral cada 72 horas por 3 dosis (días 1, 4 y 7), seguido de una fase de mantenimiento con Fluconazol 150 mg vía oral una vez a la semana durante 6 meses.",
+        "B": "Ketoconazol 400 mg vía oral cada 12 horas por 14 días en fase de inducción y mantenimiento diario por 1 año, suspendiendo de forma obligatoria la lactancia materna.",
+        "C": "Monoterapia con Fluconazol 150 mg vía oral en dosis única cada mes por 3 meses, sin fase de inducción previa.",
+        "D": "Metronidazol 500 mg vía oral cada 12 horas por 14 días asociado a óvulos vaginales de clindamicina por 21 días consecutivos."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Candidiasis_Vulvovaginal_Recurrente_Tx",
+      "gpc_algorithm_step": "Candidiasis Vulvovaginal Recurrente (≥4 episodios documentados al año). El esquema normado por GPC es: Inducción con Fluconazol 150 mg VO cada 72 horas por 3 dosis (días 1, 4 y 7), seguido de mantenimiento con Fluconazol 150 mg VO semanal por 6 meses. La excreción en leche materna de dosis semanales es insignificante y compatible con lactancia.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "El ketoconazol oral está contraindicado y en desuso por hepatotoxicidad letal e insuficiencia suprarrenal. Una sola dosis de fluconazol fracasa invariablemente en CVVR porque no erradica el reservorio fúngico tisular persistente."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el esquema de inducción y mantenimiento para Candidiasis Vulvovaginal Recurrente (≥4 episodios/año) según GPC?",
+        "back": "Inducción: Fluconazol 150 mg VO cada 72 h por 3 dosis (días 1, 4, 7). Mantenimiento: Fluconazol 150 mg VO una vez a la semana durante 6 meses.",
+        "tags": "D13 GYO Vaginitis Candidiasis_Recurrente GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Infecciones Vaginales Recurrentes y Manejo en Poblaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Ocho meses después de concluir exitosamente el esquema para candidiasis, la paciente ha destetado y acude acompañada de su cónyuge. Refiere un cuadro agudo de 3 días de evolución caracterizado por leucorrea profusa, amarillenta-verdosa, de consistencia espumosa y olor marcadamente fétido, asociada a disuria, ardor vulvar y dispareunia. A la especuloscopia se observa abundante secreción purulenta espumosa acumulada en fondo de saco y una mucosa cervical intensamente hiperémica con microhemorragias petequiales difusas que otorgan la clásica apariencia de 'cérvix en fresa' (colpitis macular). El pH vaginal es de 6.2. El frotis directo en fresco con solución salina revela numerosos leucocitos polimorfonucleares y microorganismos unicelulares flagelados ovoides con movimiento activo, oscilatorio y giratorio.",
+      "question_text": "De acuerdo con la GPC IMSS-081 para el abordaje de la Tricomoniasis Urogenital, ¿cuál es el tratamiento farmacológico de elección y la directriz obligatoria con respecto a la pareja sexual?",
+      "options": {
+        "A": "Metronidazol en óvulos vaginales al 0.75% por 10 días exclusivamente a la paciente, difiriendo el tratamiento de la pareja hasta que presente síntomas uretrales.",
+        "B": "Metronidazol 500 mg vía oral cada 12 horas por 7 días a la paciente, con tratamiento simultáneo y obligatorio a la pareja sexual (mismo esquema o Metronidazol 2 g VO dosis única) y abstinencia sexual estricta.",
+        "C": "Clotrimazol óvulos vaginales de 100 mg por 7 días a la paciente y Doxiciclina 100 mg vía oral cada 12 horas por 7 días a la pareja.",
+        "D": "Ceftriaxona 500 mg intramuscular en dosis única a ambos miembros de la pareja, sin necesidad de nitroimidazoles."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Tricomoniasis_Tx_Pareja",
+      "gpc_algorithm_step": "Diagnóstico de Tricomoniasis por frotis en fresco (Trichomonas vaginalis flageladas móviles, colpitis macular, pH >5.0). Tratamiento de 1ra línea: Metronidazol 500 mg VO cada 12 h por 7 días (o 2 g VO DU). Es MANDATORIO el tratamiento simultáneo de todas las parejas sexuales y abstinencia durante el tratamiento.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El tratamiento tópico vaginal con metronidazol en óvulos o gel es ineficaz para tricomoniasis (falla terapéutica >50%) porque no alcanza concentraciones terapéuticas en las glándulas de Skene, Bartholin ni uretra. Además, no tratar a la pareja garantiza la reinfección inmediata."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué está contraindicado el tratamiento exclusivamente tópico en Tricomoniasis según GPC?",
+        "back": "Porque Trichomonas coloniza glándulas parauretrales de Skene, Bartholin y uretra. Requiere tratamiento sistémico oral (Metronidazol 500 mg c/12h x 7d) y tratamiento simultáneo de la pareja.",
+        "tags": "D13 GYO Vaginitis Tricomoniasis GPC Pareja"
+      }
+    },
+    {
+      "id": "d13_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Infecciones Vaginales Recurrentes y Manejo en Poblaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A las 3 semanas de la consulta, la paciente regresa por persistencia de la leucorrea amarillo-verdosa y prurito. Refiere haber completado rigurosamente los 7 días de metronidazol. Sin embargo, su cónyuge admite que al segundo día de tomar el medicamento asistió a un evento social donde ingirió tres cervezas; presentó de manera súbita bochornos intensos, taquicardia, vómito incontrolable, diaforesis y cefalea pulsátil, por lo cual suspendió el metronidazol definitivamente y continuaron teniendo relaciones sexuales sin preservativo. El examen en fresco confirma nuevamente trofozoítos móviles de Trichomonas vaginalis.",
+      "question_text": "¿Cuál es la causa subyacente del cuadro adverso que motivó la suspensión en el cónyuge y cuál es la conducta médica normada inmediata para erradicar la infección en la pareja?",
+      "options": {
+        "A": "Alergia anafilactoide mediada por IgE a los nitroimidazoles; cambiar el esquema de ambos a Ciprofloxacino 500 mg cada 12 horas por 10 días.",
+        "B": "Hepatotoxicidad fulminante inducida por metronidazol; hospitalizar a la pareja para biopsia hepática y contraindicar de por vida cualquier imidazol.",
+        "C": "Fallo terapéutico primario por resistencia genética irreversible de Trichomonas; indicar duchas vaginales diarias con ácido acético y descartar VIH en ambos.",
+        "D": "Reacción tipo disulfiram (efecto antabus) por inhibición de la aldehído deshidrogenasa; re-tratar a ambos con Metronidazol 500 mg VO c/12h por 7 días (o Tinidazol 2 g VO dosis única), advirtiendo abstinencia estricta de alcohol hasta 48-72 horas postratamiento."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Efecto_Disulfiram_Metronidazol_Retratamiento",
+      "gpc_algorithm_step": "El metronidazol interactúa con el etanol inhibiendo la aldehído deshidrogenasa, acumulando acetaldehído (efecto disulfiram). Ante abandono terapéutico de la pareja y reinfección, se indica retratamiento con Metronidazol 500 mg c/12h x 7 días o Tinidazol 2 g DU a ambos, con abstinencia alcohólica absoluta durante y hasta 48-72h posteriores.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir el efecto antabus con una alergia anafiláctica conduce a suspender erróneamente el único grupo farmacológico eficaz contra tricomoniasis. Las quinolonas carecen de espectro contra parásitos flagelados."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué mecanismo el alcohol interactúa con metronidazol y cuál es la indicación de abstinencia?",
+        "back": "Inhibe la aldehído deshidrogenasa (efecto antabus / disulfiram: náuseas, vómito, taquicardia, rubor). Se debe evitar alcohol durante y hasta 48-72 h posteriores a la última dosis.",
+        "tags": "D13 GYO Farmacologia Metronidazol Disulfiram GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Algoritmo de Tamizaje y Lesiones Precursoras de Cáncer Cervicouterino (NOM-014 / GPC)",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mujer de 33 años, G2P2, asintomática, que acude a su Unidad de Medicina Familiar para control ginecológico preventivo. Su última citología cervical se realizó hace 4 años y fue reportada como negativa para malignidad. Cuenta con vida sexual activa con una pareja estable y no utiliza método anticonceptivo hormonal. Se realiza citología cervical convencional (tinción de Papanicolaou). A las 3 semanas se recibe el informe citopatológico oficial, clasificado según el Sistema Bethesda: 'Lesión Intraepitelial Escamosa de Bajo Grado (LIEBG / L-SIL), compatible con cambios por Virus del Papiloma Humano / Neoplasia Intraepitelial Cervical Grado 1 (NIC 1)'. La paciente se encuentra sumamente ansiosa por temor a padecer cáncer invasor avanzado.",
+      "question_text": "De acuerdo con el algoritmo oficial de la Norma Oficial Mexicana NOM-014-SSA2-1994 y la GPC para la prevención y detección del cáncer cervicouterino, ¿cuál es la conducta inmediata que debe realizar el médico familiar de primer contacto?",
+      "options": {
+        "A": "Realizar conización cervical con asa diatérmica (LEEP) de forma inmediata en el consultorio de medicina familiar para fines terapéuticos.",
+        "B": "Solicitar citología cervical de control en 3 años, explicando que las lesiones de bajo grado tienen una tasa de regresión espontánea mayor al 80%.",
+        "C": "Referir a la paciente de manera oportuna a la Clínica de Colposcopia de segundo nivel para evaluación colposcópica diagnóstica.",
+        "D": "Indicar crioterapia ablativa ambulatoria a ciegas sin necesidad de visualizar el cuello uterino mediante colposcopia."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Algoritmo_NOM014_LIEBG_Colposcopia",
+      "gpc_algorithm_step": "Según la NOM-014-SSA2-1994 y la GPC CENETEC, todo resultado citológico que reporte Lesión Intraepitelial Escamosa de Bajo Grado (LIEBG) o de Alto Grado (LIEAG), ASC-H o ASC-US persistente/VPH+ debe ser enviado directamente a la Clínica de Colposcopia para estudio colposcópico.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "En guías estadounidenses (ASCCP) en ciertas edades se puede realizar seguimiento con citología o prueba de VPH a 12 meses antes de colposcopia; sin embargo, en México la NOM-014 mandata el envío inmediato a Colposcopia ante cualquier reporte citológico de LIEBG."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta obligatoria ante un reporte de citología cervical con LIEBG según NOM-014-SSA2-1994?",
+        "back": "Referencia inmediata a la Clínica de Colposcopia para evaluación colposcópica diagnóstica.",
+        "tags": "D13 GYO CaCu Tamizaje NOM-014 LIEBG Colposcopia"
+      }
+    },
+    {
+      "id": "d13_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Algoritmo de Tamizaje y Lesiones Precursoras de Cáncer Cervicouterino (NOM-014 / GPC)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente es valorada en la Clínica de Colposcopia. Al realizar el procedimiento colposcópico, el especialista visualiza el exocérvix y aplica solución salina y ácido acético al 5%. En la descripción del reporte colposcópico se anota: 'Unión escamocolumnar (UEC) no visible en su totalidad debido a retracción profunda hacia el interior del orificio cervical externo (Zona de Transformación Tipo 3). Se observa borde inferior de epitelio acetoblanco denso que penetra hacia el canal endocervical sin que sea posible delimitar su extensión ni su límite superior. Prueba de Schiller con solución de Lugol muestra zona yodonegativa no delimitada en canal. Colposcopia no satisfactoria / inadecuada'.",
+      "question_text": "Con base en la NOM-014-SSA2-1994 y la GPC del Cáncer Cervicouterino, ante una colposcopia no satisfactoria con lesión que se introduce al canal endocervical, ¿cuál es el procedimiento diagnóstico complementario que debe realizarse de manera obligatoria?",
+      "options": {
+        "A": "Crioterapia cervical con óxido nitroso en toda la superficie ectocervical visible.",
+        "B": "Histerectomía total abdominal inmediata por alta probabilidad de adenocarcinoma.",
+        "C": "Legrado endocervical (curetaje endocervical - LEC) o cepillado endocervical para estudio histopatológico del canal.",
+        "D": "Egreso a su unidad de medicina familiar con indicación de nueva citología cervical en 1 año."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Colposcopia_No_Satisfactoria_LEC",
+      "gpc_algorithm_step": "Cuando la colposcopia es NO satisfactoria (UEC no visible completamente, ZT tipo 3 o lesión que penetra al canal endocervical), la NOM-014 y la GPC establecen como paso obligatorio la toma de legrado endocervical (LEC) para evaluar histológicamente el epitelio del canal y descartar neoplasia invasora.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La crioterapia o electrofulguración está formalmente PROHIBIDA si la colposcopia es no satisfactoria o si hay sospecha de patología endocervical, ya que la ablación a ciegas oculta y retrasa el diagnóstico de un cáncer invasor endocervical."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué conducta diagnóstica es mandatoria si la colposcopia es NO satisfactoria o la lesión penetra al endocérvix?",
+        "back": "Legrado o curetaje endocervical (LEC) / cepillado endocervical para evaluación histopatológica del canal.",
+        "tags": "D13 GYO Colposcopia LEC NOM-014 GPC CaCu"
+      }
+    },
+    {
+      "id": "d13_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Algoritmo de Tamizaje y Lesiones Precursoras de Cáncer Cervicouterino (NOM-014 / GPC)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El estudio histopatológico de la biopsia dirigida exocervical y del legrado endocervical (LEC) reporta: 'Neoplasia Intraepitelial Cervical Grado 3 / Carcinoma in situ (LIEAG / NIC 3) con afección de criptas endocervicales y fragmentos de epitelio displásico en el legrado endocervical'. La paciente tiene 34 años, refiere paridad satisfecha (2 hijos por cesárea previa) y cuenta con oclusión tubárica bilateral documentada. Pregunta si se le debe extirpar la matriz de forma inmediata para resolver el problema de raíz.",
+      "question_text": "¿Cuál es la conducta diagnóstica y terapéutica normada de elección según la GPC CENETEC y la NOM-014 para esta paciente en este momento?",
+      "options": {
+        "A": "Histerectomía total abdominal simple extrafascial inmediata, ya que la paciente tiene paridad satisfecha.",
+        "B": "Conización cervical diagnóstica y terapéutica (con asa diatérmica LEEP o con bisturí frío) con evaluación histológica de los márgenes y del cono endocervical.",
+        "C": "Vigilancia con colposcopia y citología seriada cada 6 meses durante 2 años por tratarse de una paciente joven.",
+        "D": "Quimioterapia neoadyuvante basada en cisplatino seguida de braquiterapia intracavitaria de alta tasa."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "LIEAG_NIC3_Conizacion_Diagnostico_Terapeutica",
+      "gpc_algorithm_step": "En LIEAG / NIC 3 con colposcopia no satisfactoria o LEC positivo, el estándar es la CONIZACIÓN CERVICAL diagnóstica-terapéutica. NUNCA se procede directamente a histerectomía de entrada, ya que el cono es indispensable para descartar microinvasión o carcinoma francamente invasor (que requeriría cirugía radical tipo Wertheim-Meigs).",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "El anclaje en 'paridad satisfecha' lleva al error común de proponer histerectomía de entrada. Si existiera cáncer invasor oculto en el canal, una histerectomía simple violaría los planos oncológicos dejando enfermedad residual con pronóstico letal."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué NUNCA se realiza histerectomía de entrada en NIC 3 / LIEAG aunque la paciente tenga paridad satisfecha?",
+        "back": "Porque primero se debe realizar conización diagnóstica para descartar microinvasión o cáncer invasor oculto que exigiría histerectomía radical y linfadenectomía.",
+        "tags": "D13 GYO CaCu Conizacion NIC3 NOM-014 GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Algoritmo de Tamizaje y Lesiones Precursoras de Cáncer Cervicouterino (NOM-014 / GPC)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A la paciente se le practica una conización cervical con bisturí frío sin incidentes. El espécimen quirúrgico es procesado en cortes seriados milimétricos por patología oncológica. El informe patológico definitivo concluye: 'Carcinoma epidermoide de cérvix, microinvasor. Profundidad máxima de invasión en el estroma cervical: 2.1 mm a partir de la membrana basal. Extensión horizontal máxima: 4.2 mm. No se identifica invasión al espacio linfovascular (LVSI negativo). Margen quirúrgico ectocervical libre a 5 mm; margen quirúrgico endocervical libre a 4 mm; margen de profundidad libre a 6 mm. No hay invasión parametrial ni ganglionar'. Clasificación FIGO: Estadio IA1.",
+      "question_text": "Tomando en cuenta que la paciente tiene 34 años, paridad plenamente satisfecha y que el cono reporta un Carcinoma Cervicouterino Estadio IA1 sin invasión vascular y con bordes libres, ¿cuál es la conducta terapéutica definitiva normada según la GPC CENETEC?",
+      "options": {
+        "A": "Histerectomía radical modificada tipo Wertheim-Meigs con linfadenectomía pélvica bilateral sistemática.",
+        "B": "Quimiorradioterapia concomitante con cisplatino semanal y radioterapia externa a pelvis completa.",
+        "C": "Histerectomía total simple (extrafascial / Piver tipo I) preservando anexos (o vigilancia estrecha si la paciente deseara evitar cirugía adicional).",
+        "D": "Exenteración pélvica total anterior y posterior con derivación urinaria continente."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "CaCu_Estadio_IA1_Manejo_GPC",
+      "gpc_algorithm_step": "En CaCu Estadio IA1 (invasión estromal ≤3 mm, extensión ≤7 mm, LVSI negativo): si bordes de cono están libres, el cono es curativo en deseo de fertilidad; en pacientes con paridad satisfecha, la GPC recomienda histerectomía total simple extrafascial (Piver I) para eliminar el riesgo residual de recurrencia.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "La histerectomía radical con linfadenectomía (Wertheim-Meigs) es sobretratamiento en IA1 sin LVSI, ya que el riesgo de afección ganglionar es <1%. Solo se indica radicalidad a partir de estadios IA2 o en IA1 con invasión linfovascular franca."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento normado para CaCu Estadio IA1 (sin LVSI, bordes libres de cono) en mujer con paridad satisfecha?",
+        "back": "Histerectomía total simple extrafascial (Piver Tipo I) con conservación de anexos.",
+        "tags": "D13 GYO CaCu FIGO IA1 Histerectomia GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Enfermedad Pélvica Inflamatoria Severa y Absceso Tuboovárico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 23 años, nuligesta, con vida sexual activa (pareja sexual reciente hace 1 mes, uso irregular de preservativo). Portadora de DIU de cobre T380A colocado hace 14 meses. Acude al servicio de urgencias de un hospital de segundo nivel por cuadro de 5 días de evolución caracterizado por dolor pélvico sordo bilateral que se ha intensificado en las últimas 24 horas hasta volverse incapacitante (EVA 8/10), acompañado de fiebre cuantificada en 38.6 °C, escalofríos y sangrado intermenstrual escaso. A la exploración física: TA 110/68 mmHg, FC 98 lpm, FR 19 rpm, Temp 38.5 °C. Abdomen plano, con dolor intenso a la palpación profunda en ambas fosas ilíacas e hipogastrio, sin resistencia involuntaria ni rebote franco. Al tacto bimanual y especuloscopia: exudado endocervical mucopurulento con hilos de DIU visibles; dolor exquisito a la lateralización y tracción cervical (signo de Frenkel / Chandelier positivo); anexos dolorosos, engrosados, sin masa francamente palpable. Labs: Hb 12.8 g/dL, Leucocitos 14,200/mm³ (neutrófilos 84%, bandas 4%), Plaquetas 280,000/mm³, PCR 38 mg/L, EGO normal. Prueba de embarazo en orina negativa.",
+      "question_text": "Con base en los Criterios de Hager y la clasificación de Monif de la GPC IMSS-072 (Diagnóstico y Tratamiento de la EPI), ¿cuál es el diagnóstico, la severidad del cuadro y la conducta normada respecto al DIU?",
+      "options": {
+        "A": "EPI Grado IV (choque séptico); retiro inmediato y forzado del DIU en el triaje sin antibióticos e indicación de laparotomía exploradora de urgencia.",
+        "B": "Cervicitis inespecífica; retirar el DIU de forma definitiva y egresar a la paciente con analgésicos orales sin cobertura para gérmenes de transmisión sexual.",
+        "C": "EPI Grado I; mantener el DIU de forma indefinida durante todo el tratamiento y contraindicar su retiro para no traumatizar el cérvix inflamado.",
+        "D": "EPI Grado I-II (moderada); iniciar antibioticoterapia empírica parenteral/oral de inmediato y retirar el DIU únicamente después de haber instaurado la cobertura antibiótica (tras 2 a 3 dosis de antibiótico)."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "EPI_Criterios_Hager_Retiro_DIU",
+      "gpc_algorithm_step": "Criterios de Hager cumplidos (dolor hipogástrico + Frenkel + dolor anexial + fiebre + leucocitosis + leucorrea purulenta). En usuarias de DIU con EPI, la GPC IMSS-072 establece que el DIU debe retirarse, pero NO antes de haber iniciado la cobertura antibiótica (tras administrar al menos 2-3 dosis de antibiótico) para evitar bacteriemia y sepsis pélvica.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Retirar el DIU inmediatamente en frío antes de impregnar a la paciente con antibióticos desata una bacteriemia masiva por diseminación endocervical, complicando la infección a peritonitis o choque."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo y cómo debe retirarse el DIU en una paciente con Enfermedad Pélvica Inflamatoria según GPC?",
+        "back": "Se retira DESPUÉS de haber instaurado y administrado al menos 2 a 3 dosis de antibioticoterapia efectiva (no en frío ni antes de impregnar antibióticos).",
+        "tags": "D13 GYO EPI DIU Criterios_Hager GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Enfermedad Pélvica Inflamatoria Severa y Absceso Tuboovárico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente es hospitalizada. Tras recibir 3 dosis de antibioticoterapia parenteral, se le retira el DIU sin complicaciones. El esquema antimicrobiano parenteral incluye: Ceftriaxona 1 g IV cada 24 h + Doxiciclina 100 mg VO cada 12 h + Metronidazol 500 mg IV cada 8 h. A las 48 horas de estancia intrahospitalaria, persiste con picos febriles de 38.8 °C y dolor pélvico persistente que se localiza predominantemente en fosa ilíaca derecha. A la exploración física: abdomen tenso con resistencia voluntaria; al tacto ginecológico bimanual se delimita una masa anexial derecha fluctuante, sumamente dolorosa, de aproximadamente 7.5 x 6.0 cm. Signos vitales: TA 118/72 mmHg, FC 88 lpm, FR 18 rpm, Temp 38.7 °C. El ultrasonido transvaginal reporta: colección quística compleja multiloculada en anexo derecho con paredes engrosadas (>5 mm), ecos internos celulares y flujo periférico aumentado al Doppler, sugestivo de Absceso Tuboovárico (ATO) derecho de 7.8 cm, sin líquido libre en correderas ni datos de ruptura.",
+      "question_text": "Con base en la clasificación de Monif de la GPC IMSS-072 y las pautas institucionales, ¿cuál es la reclasificación clínica y la conducta terapéutica indicada?",
+      "options": {
+        "A": "EPI Grado III; enviar de manera inmediata a quirófano para salpingooforectomía bilateral e histerectomía total abdominal de urgencia.",
+        "B": "EPI Grado III (Severa con Absceso Tuboovárico no roto); mantener la antibioticoterapia parenteral de amplio espectro bajo estrecha monitorización durante una ventana de observación de 48 a 72 horas adicionales, reservando la cirugía para falla al tratamiento o ruptura.",
+        "C": "EPI Grado II; reclasificar a manejo ambulatorio cambiando a Ciprofloxacino oral y dar de alta a su domicilio.",
+        "D": "EPI Grado IV; indicar punción aspirativa transvaginal inmediata en la cama de la paciente sin control ecográfico."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "EPI_Monif_Grado_III_ATO_Tx_Medico",
+      "gpc_algorithm_step": "Presencia de ATO no roto clasifica como Monif Grado III. La GPC IMSS-072 establece que del 70% al 80% de los abscesos tuboováricos no rotos en pacientes hemodinámicamente estables responden favorablemente al tratamiento médico parenteral exclusivo durante una ventana inicial de 48-72 h.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "El hallazgo de una masa anexial purulenta induce el impulso de operar de inmediato. Sin embargo, la cirugía de entrada en tejido pélvico agudamente inflamado y friable conlleva alto riesgo de perforación intestinal, fístulas y pérdida innecesaria de ovarios en mujeres jóvenes."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta inicial ante un Absceso Tuboovárico (ATO) no roto hemodinámicamente estable según GPC?",
+        "back": "Manejo médico hospitalario con antibioticoterapia parenteral de amplio espectro por 48-72 h; 70-80% responden sin necesidad de cirugía inmediata.",
+        "tags": "D13 GYO EPI ATO Monif_III Tx_Medico GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Enfermedad Pélvica Inflamatoria Severa y Absceso Tuboovárico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A las 72 horas de tratamiento médico parenteral óptimo, la paciente presenta súbitamente deterioro clínico agudo: pico febril de 39.4 °C, taquicardia de 128 lpm, palidez, diaforesis profusa y caída tensional a 85/50 mmHg. A la exploración física: abdomen en madera, con resistencia muscular involuntaria generalizada y signo de Blumberg (rebote peritoneal) francamente positivo en los cuatro cuadrantes abdominales. La biometría hemática de control reporta leucocitosis de 22,400/mm³ con 18% de bandas. Un ultrasonido pélvico urgente a la cabecera del paciente revela pérdida de la integridad de la pared de la masa anexial derecha con abundante líquido libre particulado en el fondo de saco de Douglas y en espacio hepatorrenal (Morison).",
+      "question_text": "Ante la integración de ruptura de Absceso Tuboovárico con peritonitis generalizada y choque séptico (Monif Grado IV), ¿cuál es la conducta quirúrgica normada de elección preservando la fertilidad en esta paciente de 23 años?",
+      "options": {
+        "A": "Histerectomía total abdominal con salpingooforectomía bilateral y omentectomía reglada independientemente de la edad.",
+        "B": "Incrementar la dosis de metronidazol intravenoso a 1 g cada 6 horas y colocar sonda nasogástrica sin intervención quirúrgica.",
+        "C": "Drenaje postural en posición de Trendelenburg y punción suprapúbica con aguja fina en el piso de hospitalización.",
+        "D": "Reanimación hídrica agresiva y laparotomía exploradora de urgencia para control de foco séptico, lavado peritoneal copioso y salpingectomía unilateral derecha con conservación ovárica si es viable."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Ruptura_ATO_Choque_Septico_Cirugia_Urgente",
+      "gpc_algorithm_step": "Ruptura de ATO = Emergencia quirúrgica absoluta (Monif IV). Requiere reanimación hemodinámica inmediata y cirugía de urgencia (laparotomía/laparoscopia) para lavado y control de foco infeccioso. En pacientes jóvenes con paridad no satisfecha se realiza cirugía conservadora (salpingectomía unilateral y drenaje, preservando el ovario contralateral).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La histerectomía abdominal con salpingooforectomía bilateral mutilante solo se reserva para sepsis incontrolable fulminante o mujeres perimenopáusicas con paridad satisfecha; en una mujer de 23 años nuligesta, la preservación ovárica y uterina es mandatoria."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta inmediata obligatoria ante la ruptura de un Absceso Tuboovárico (ATO)?",
+        "back": "Reanimación hemodinámica urgente y laparotomía/laparoscopia inmediata para lavado peritoneal, drenaje y salpingectomía unilateral conservadora.",
+        "tags": "D13 GYO EPI ATO_Roto Monif_IV Urgencia_Qx GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Enfermedad Pélvica Inflamatoria Severa y Absceso Tuboovárico",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Durante la laparotomía exploradora, al explorar la cavidad peritoneal superior, el cirujano ginecólogo observa la presencia de múltiples adherencias finas, densas y fibrosas en banda o 'cuerdas de violín' que comunican la cápsula anterior del lóbulo hepático derecho con el peritoneo diafragmático y parietal anterior, sin evidencia de absceso hepático subyacente. Las pruebas de función hepática muestran transaminasas normales (AST 26 U/L, ALT 24 U/L) y bilirrubinas normales. El cultivo microbiológico intraoperatorio y la prueba de amplificación de ácidos nucleicos (NAAT) confirman coinfección por Chlamydia trachomatis y Neisseria gonorrhoeae.",
+      "question_text": "¿Cuál es la entidad sindrómica epónima diagnosticada en la cavidad superior y cuál es la principal secuela reproductiva a largo plazo que debe advertirse a la paciente?",
+      "options": {
+        "A": "Síndrome de Budd-Chiari; advertir desarrollo inminente de cirrosis hepática micronodular en menos de 6 meses.",
+        "B": "Síndrome de Fitz-Hugh-Curtis (perihepatitis gonocócica/clamidial); advertir riesgo incrementado de infertilidad de causa tubárica (12-50%) y embarazo ectópico futuro.",
+        "C": "Síndrome de Asherman; advertir amenorrea secundaria irreversible por sinéquias endometriales.",
+        "D": "Síndrome de Meigs; advertir necesidad de quimioterapia por riesgo de fibroma ovárico recurrente."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Fitz_Hugh_Curtis_Secuelas_Reproductivas",
+      "gpc_algorithm_step": "El síndrome de Fitz-Hugh-Curtis consiste en una perihepatitis asociada a salpingitis por Chlamydia trachomatis (más común) o Neisseria gonorrhoeae, con adherencias en 'cuerdas de violín' entre la cápsula hepática y la pared abdominal. La principal secuela tardía de la EPI grave es la oclusión tuboperitoneal con infertilidad y embarazo ectópico.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Los datos hepáticos simulan patología biliar o hepática parenquimatosa; sin embargo, en el Fitz-Hugh-Curtis las enzimas hepáticas suelen ser normales o discretamente alteradas porque la afección es capsular/peritoneal y no parenquimatosa."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué es el Síndrome de Fitz-Hugh-Curtis y cuál es su secuela reproductiva principal?",
+        "back": "Perihepatitis por C. trachomatis / N. gonorrhoeae con adherencias en 'cuerdas de violín'. Secuela principal: infertilidad tubárica y embarazo ectópico.",
+        "tags": "D13 GYO EPI Fitz_Hugh_Curtis Chlamydia Secuelas"
+      }
+    },
+    {
+      "id": "d13_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Tamizaje y Patología Cervical en el Embarazo y Poblaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Primigesta de 25 años con embarazo normoevolutivo de 14 semanas por ultrasonido de primer trimestre. Acude a su primera consulta de control prenatal en medicina familiar. La paciente refiere no haberse realizado ninguna citología cervical en los últimos 4 años. Como parte del protocolo de atención prenatal integral y tamizaje, se le realiza toma de citología cervical convencional. El reporte citopatológico recibido a las 2 semanas informa: 'Lesión Intraepitelial Escamosa de Alto Grado (LIEAG / H-SIL), no pudiéndose descartar proceso microinvasor'. La paciente acude deshecha en llanto, manifestando que le recomendaron en un consultorio particular interrumpir el embarazo mediante legrado uterino instrumental para poder tratar su problema.",
+      "question_text": "De acuerdo con la NOM-014-SSA2-1994 y la GPC para el diagnóstico y tratamiento de lesiones premalignas del cuello uterino en el embarazo, ¿cuál es la conducta normativa obligatoria e inmediata?",
+      "options": {
+        "A": "Diferir la colposcopia hasta 6 a 12 semanas posteriores al parto, ya que los cambios hormonales gravídicos invalidan la colposcopia.",
+        "B": "Referir de inmediato a la Clínica de Colposcopia para evaluación colposcópica especializada durante el embarazo, desestimando la interrupción de la gestación.",
+        "C": "Indicar aborto terapéutico inmediato mediante dilatación y curetaje para proceder a histerectomía radical.",
+        "D": "Programar conización cervical con bisturí frío de urgencia en el primer nivel de atención sin colposcopia previa."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Tamizaje_Embarazo_LIEAG_Colposcopia",
+      "gpc_algorithm_step": "El hallazgo de LIEAG en una paciente embarazada requiere evaluación colposcópica inmediata por un colposcopista calificado. El objetivo principal es descartar la presencia de cáncer invasor. El embarazo no debe interrumpirse por un LIEAG.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Diferir la colposcopia hasta el puerperio ante un LIEAG es un error negligente fatal: si existiera un carcinoma francamente invasor subyacente, el retraso de 6 meses comprometería la supervivencia materna."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta obligatoria ante un reporte citológico de LIEAG durante el embarazo según NOM-014?",
+        "back": "Referencia inmediata a la Clínica de Colposcopia para colposcopia por experto; NUNCA retrasar hasta el posparto ni interrumpir el embarazo.",
+        "tags": "D13 GYO CaCu Embarazo LIEAG Colposcopia NOM-014"
+      }
+    },
+    {
+      "id": "d13_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Tamizaje y Patología Cervical en el Embarazo y Poblaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente es recibida en la Clínica de Colposcopia cursando la semana 16 de gestación. A la colposcopia se identifica un cuello uterino de aspecto gravídico (edematoso, hipertrófico y con eversión fisiológica pronunciada del epitelio cilíndrico). Tras aplicar solución de ácido acético al 5%, se delimita completamente la zona de transformación (Tipo 1) y se evidencia una zona de epitelio acetoblanco denso, con bordes elevados y patrón de mosaico grueso a las 11 y 12 del reloj en el labio anterior, altamente sugestiva de lesión de alto grado, sin vasos atípicos bizarros.",
+      "question_text": "De acuerdo con la NOM-014-SSA2-1994 y la GPC, ¿cuál de las siguientes maniobras diagnósticas se encuentra FORMALMENTE PROHIBIDA durante la evaluación colposcópica en esta paciente gestante?",
+      "options": {
+        "A": "Biopsia exocervical dirigida con pinza de sacabocados de la lesión más sospechosa.",
+        "B": "Aplicación de ácido acético al 5% en la mucosa cervical.",
+        "C": "Legrado endocervical (curetaje endocervical - LEC).",
+        "D": "Aplicación de solución yodoyodurada de Lugol (prueba de Schiller) en el fondo de saco vaginal."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Contraindicacion_LEC_Embarazo",
+      "gpc_algorithm_step": "El legrado endocervical (LEC) está ABSOLUTAMENTE CONTRAINDICADO durante el embarazo debido al riesgo crítico de perforación o rotura de membranas corioamnióticas, sangrado catastrófico, corioamnionitis y aborto/muerte fetal. La biopsia exocervical dirigida sí está permitida si se sospecha LIEAG o invasión.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El legrado endocervical es un procedimiento estándar en mujeres no gestantes con colposcopia no satisfactoria; sin embargo, en el embarazo está estrictamente proscrito por sus complicaciones obstétricas letales."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué procedimiento diagnóstico de colposcopia está FORMALMENTE PROHIBIDO en el embarazo según NOM-014?",
+        "back": "Legrado o curetaje endocervical (LEC), por riesgo de sangrado grave, rotura de membranas corioamnióticas y pérdida gestacional.",
+        "tags": "D13 GYO Colposcopia LEC Contraindicacion Embarazo NOM-014"
+      }
+    },
+    {
+      "id": "d13_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Tamizaje y Patología Cervical en el Embarazo y Poblaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El colposcopista toma una biopsia exocervical dirigida de la zona más acetoblanca a las 12 horas, logrando hemostasia local con percloruro férrico (solución de Monsel) sin complicaciones. El informe histopatológico de la biopsia cervical confirma: 'Neoplasia Intraepitelial Cervical Grado 2 (NIC 2 / LIEAG); membrana basal íntegra, sin evidencia de microinvasión estromal ni invasión vascular'.",
+      "question_text": "De acuerdo con la NOM-014-SSA2-1994 y la GPC del Cáncer Cervicouterino, ¿cuál es la conducta terapéutica y el seguimiento normado para esta paciente durante el resto de su embarazo?",
+      "options": {
+        "A": "Conización cervical con bisturí frío reglada a la semana 20 de gestación como tratamiento escisional profiláctico.",
+        "B": "Crioterapia cervical inmediata de la lesión para evitar la progresión rápida a carcinoma invasor inducida por hormonas.",
+        "C": "Vigilancia conservadora con colposcopia y citología cervical cada 12 a 14 semanas durante el embarazo, difiriendo cualquier tratamiento ablativo o escisional hasta 6 a 12 semanas posteriores al parto.",
+        "D": "Programación mandatoria de operación cesárea electiva a las 37 semanas para evitar la diseminación del VPH en el canal del parto."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Manejo_Conservador_NIC2_Embarazo",
+      "gpc_algorithm_step": "En gestantes con NIC 2 o NIC 3 (LIEAG) confirmados sin invasión, la conducta es CONSERVADORA con vigilancia colposcópica cada 12-14 semanas para descartar invasión. El tratamiento definitivo (cono o ablación) se difiere hasta 6 a 12 semanas posparto. El parto vaginal no está contraindicado.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "El cono terapéutico profiláctico en el embarazo conlleva tasas inaceptables de hemorragia grave (hasta 15%), incompetencia itsmocervical y parto pretérmino. Solo se realiza cono durante el embarazo si existe sospecha diagnóstica ineludible de cáncer invasor."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta en una paciente embarazada con biopsia de cérvix que reporta NIC 2 / NIC 3 sin invasión?",
+        "back": "Manejo conservador: vigilancia citológica/colposcópica cada 12-14 semanas durante el embarazo y diferir tratamiento escisional hasta 6-12 semanas posparto.",
+        "tags": "D13 GYO CaCu Embarazo NIC2 NIC3 Vigilancia GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Tamizaje y Patología Cervical en el Embarazo y Poblaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "La paciente completa su gestación de manera fisiológica y tiene un parto eutócico vaginal sin desgarros ni complicaciones a las 39.2 semanas de gestación. Acude a las 8 semanas del puerperio a la Clínica de Colposcopia para su reevaluación integral reglamentaria. La colposcopia revela persistencia de epitelio acetoblanco denso y la nueva biopsia dirigida confirma: Neoplasia Intraepitelial Cervical Grado 3 (NIC 3 / LIEAG persistente). La paciente no desea futuros embarazos y solicita una solución definitiva.",
+      "question_text": "¿Cuál es el procedimiento normado de elección que debe realizarse como paso inicial en esta etapa puerperal según la GPC y NOM-014?",
+      "options": {
+        "A": "Histerectomía obstétrica posparto inmediata sin estudio histológico previo.",
+        "B": "Conización cervical con asa diatérmica (LEEP) o con bisturí frío para confirmación diagnóstica con estudio histopatológico de los márgenes quirúrgicos.",
+        "C": "Cauterización química con ácido tricloroacético al 85% semanal por 6 semanas.",
+        "D": "Aplicación de vacuna profiláctica tetravalente contra VPH para inducir la regresión de la lesión de alto grado ya establecida."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Posparto_LIEAG_Conizacion_Eleccion",
+      "gpc_algorithm_step": "A las 6-12 semanas posparto, si persiste LIEAG (NIC 3), el tratamiento de elección es la CONIZACIÓN cervical (LEEP o cono con bisturí frío). Esto permite corroborar la integridad de los márgenes y descartar invasión estromal oculta antes de considerar cualquier otra opción quirúrgica.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "La vacuna contra el VPH es estrictamente profiláctica, carece por completo de actividad terapéutica sobre lesiones intraepiteliales ya existentes y nunca debe ofrecerse como tratamiento de un NIC 3."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de elección ante la persistencia de NIC 3 evaluado a las 8 semanas posparto?",
+        "back": "Conización cervical (LEEP o bisturí frío) diagnóstica y terapéutica para evaluar márgenes y descartar invasión estromal.",
+        "tags": "D13 GYO CaCu Posparto NIC3 Conizacion GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 62 años, con menopausia desde los 49 años sin terapia de reemplazo hormonal, con diagnóstico de diabetes mellitus tipo 2 de 12 años de evolución con desapego farmacológico (HbA1c 9.8%, glucemia en ayuno 215 mg/dL). Acude a la consulta externa de medicina familiar por cuadro de 7 meses de ardor vulvovaginal severo, dispareunia que impide la vida sexual y prurito continuo, acompañado de escasa secreción amarillenta no fétida. Refiere que dos médicos previos le indicaron cuatro ciclos repetidos de fluconazol oral, óvulos de miconazol y metronidazol sin obtener mejoría alguna. A la exploración física: atrofia marcada de genitales externos con introito estrecho; mucosa vaginal marcadamente pálida, adelgazada, brillante, con pérdida de la rugosidad fisiológica y múltiples petequias difusas. A la especuloscopia: secreción acuosa no espesa. Pruebas de consultorio: pH vaginal de 6.5; Whiff test negativo. Examen microscópico en fresco con solución salina: marcada escasez de lactobacilos, ausencia total de hifas o levaduras, ausencia de clue cells y más de 85% de células epiteliales parabasales e intermedias con abundantes leucocitos.",
+      "question_text": "Integrando la hipoestrogenemia, el pH marcadamente alcalino y el frotis con predominio de células parabasales, ¿cuál es el diagnóstico definitivo y la terapéutica fisiopatológica de primera línea normada por la GPC?",
+      "options": {
+        "A": "Candidiasis vulvovaginal refractaria por Candida glabrata; prescribir Voriconazol 200 mg vía oral cada 12 horas por 21 días.",
+        "B": "Vaginosis bacteriana atípica; indicar Clindamicina 300 mg vía oral cada 12 horas por 14 días y lavados antisépticos con clorhexidina.",
+        "C": "Vaginitis atrófica (Síndrome Genitourinario de la Menopausia / Vaginitis inflamatoria atrófica); prescribir estrógenos locales tópicos (estriol o estradiol vaginal) en crema u óvulos, junto con control metabólico glucémico.",
+        "D": "Tricomoniasis urogenital crónica oculta; indicar Metronidazol 2 g vía oral cada semana durante 8 semanas consecutivas."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Vaginitis_Atrofica_Hipoestrogenismo_Tx",
+      "gpc_algorithm_step": "En la posmenopausia, la deficiencia estrogénica produce adelgazamiento epitelial, pérdida de glucógeno, desaparición de lactobacilos y elevación del pH (>5.5-6.5). El frotis revela células parabasales (células inmaduras profundas). El tratamiento de elección son los estrógenos locales vaginales (estriol/estradiol).",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "El antecedente de diabetes descontrolada condiciona un anclaje diagnóstico automático hacia 'candidiasis', pero en candidiasis el pH es ácido (≤4.5) y se observan levaduras o seudohifas. La presencia de pH 6.5 y células parabasales sella el diagnóstico de vaginitis atrófica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los hallazgos al microscopio y pH en Vaginitis Atrófica y cuál es su tratamiento de 1ra línea?",
+        "back": "pH elevado (>5.5 - 6.5), frotis con >80% de células parabasales/intermedias y escasez de lactobacilos. Tratamiento: estrógenos locales tópicos (estriol/estradiol vaginal).",
+        "tags": "D13 GYO Vaginitis Vaginitis_Atrofica Menopausia GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 46 años, G3P3, con ciclos menstruales regulares, asintomática. Acude a su clínica de medicina familiar para recoger el resultado de su citología cervical de tamizaje. El reporte citológico oficial describe: 'Células Glandulares Atípicas de significado indeterminado (AGC / AGUS), de probable origen endocervical, sin evidencia de células escamosas atípicas'. La paciente niega sangrado intermenstrual, dolor pélvico o leucorrea. No cuenta con antecedentes de histeroscopia ni enfermedades crónicas.",
+      "question_text": "De acuerdo con el algoritmo normativo de la NOM-014-SSA2-1994 y la GPC para el abordaje de anomalías glandulares citológicas, ¿cuál es la conducta diagnóstica integral que debe solicitarse de forma obligatoria?",
+      "options": {
+        "A": "Repetir la citología cervical en 6 meses con técnica de base líquida y esperar el resultado antes de cualquier intervención invasiva.",
+        "B": "Realizar únicamente colposcopia exocervical, y si el exocérvix es sano, dar el alta a medicina preventiva por 3 años.",
+        "C": "Histerectomía abdominal total con salpingooforectomía bilateral directa sin toma previa de biopsias.",
+        "D": "Envío a Clínica de Colposcopia para colposcopia diagnóstica con cepillado/legrado endocervical (LEC) MÁS biopsia de endometrio simultánea, por ser mayor de 35 años."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "AGC_AGUS_Colposcopia_LEC_Biopsia_Endometrio",
+      "gpc_algorithm_step": "El reporte citológico de AGC (células glandulares atípicas) tiene alto riesgo de patología premaligna o maligna subyacente (adenocarcinoma in situ, CaCu o cáncer de endometrio). La GPC y la NOM-014 establecen: colposcopia con evaluación/legrado endocervical MÁS biopsia endometrial obligatoria en mujeres ≥35 años o con factores de riesgo para neoplasia endometrial.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Diferir o simplemente repetir citología en 6 meses en AGC es una mala práctica con alta morbilidad, dado que hasta un 30-40% de las pacientes con AGC albergan una neoplasia maligna significativa de cérvix o endometrio."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el algoritmo diagnóstico completo obligatorio ante un reporte citológico de Células Glandulares Atípicas (AGC) en mujer ≥35 años?",
+        "back": "Colposcopia con legrado endocervical (LEC) MÁS biopsia endometrial ambulatoria obligatoria.",
+        "tags": "D13 GYO CaCu AGC AGUS Biopsia_Endometrio NOM-014"
+      }
+    },
+    {
+      "id": "d13_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 31 años, usuaria de un dispositivo intrauterino (DIU) de cobre T380A colocado hace 5 años. Acude a la consulta de medicina preventiva para retiro programado por caducidad técnica y deseo de cambio de método anticonceptivo. La paciente se encuentra totalmente asintomática: niega dolor pélvico, fiebre, dismenorrea, dispareunia o leucorrea. A la exploración ginecológica: abdomen plano, blando e indoloro; especuloscopia con cérvix eutrófico, hilos de DIU visibles a 2 cm del orificio cervical externo, sin secreción mucopurulenta; tacto bimanual estrictamente indoloro, sin masas anexiales ni signo de Frenkel. Se revisa el reporte de la citología cervical tomada hace 3 semanas, el cual describe: 'Negativo para lesión intraepitelial o malignidad. Presencia de conglomerados bacterianos filamentosos ramificados compatibles con Actinomyces-like organisms'.",
+      "question_text": "De acuerdo con los consensos internacionales y la GPC institucional respecto al hallazgo incidental citológico de Actinomyces en usuarias de DIU completamente asintomáticas, ¿cuál es la conducta correcta a seguir?",
+      "options": {
+        "A": "Proceder al retiro del DIU según lo programado y mantener en vigilancia clínica estrecha sin indicar antibioticoterapia empírica, dado que la paciente está totalmente asintomática.",
+        "B": "Prescribir Penicilina G procaínica o Amoxicilina oral durante 6 semanas antes de intentar retirar el DIU para prevenir la diseminación bacteriana.",
+        "C": "Contraindicar el retiro del DIU y solicitar laparotomía exploradora diagnóstica para descartar actinomicosis pélvica profunda.",
+        "D": "Indicar hospitalización urgente para triple esquema parenteral con clindamicina y gentamicina durante 14 días."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Actinomyces_DIU_Asintomatica_Conducta",
+      "gpc_algorithm_step": "La presencia de Actinomyces en la citología cervical de usuarias de DIU asintomáticas representa colonización comensal y no enfermedad invasora. La GPC y la ACOG establecen que en mujeres asintomáticas NO se requieren antibióticos; se puede retirar o cambiar el DIU según lo planeado y vigilar clínicamente.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La antibioticoterapia prolongada con penicilina (4-6 semanas) es el tratamiento de la actinomicosis pélvica sintomática confirmada (con plastrón o absceso pélvico), pero prescribirla en colonización citológica asintomática es sobretratamiento dañino."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta ante el hallazgo citológico de Actinomyces-like organisms en una usuaria de DIU asintomática?",
+        "back": "Retiro o cambio de DIU según lo planeado y vigilancia clínica; NO requiere antibioticoterapia si está totalmente asintomática.",
+        "tags": "D13 GYO DIU Actinomyces Citologia Conducta GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 28 años con cuadro clínico clásico y confirmación microscópica de Tricomoniasis urogenital (trofozoítos móviles y leucocitosis en frotis fresco). Al momento de elaborar la receta, el médico interroga antecedentes alérgicos: la paciente refiere que hace un año, tras la toma de una tableta de metronidazol por una infección dental, presentó angioedema labial y facial severo, broncoespasmo con estridor laríngeo, urticaria generalizada y colapso cardiovascular con choque anafiláctico que requirió intubación orotraqueal y epinefrina intramuscular en urgencias. Hace 6 meses presentó una reacción urticariana similar tras ingerir tinidazol.",
+      "question_text": "De acuerdo con las guías especializadas de infectología y manejo de infecciones de transmisión sexual, ante una anafilaxia documentada mediada por IgE a la clase farmacológica de los 5-nitroimidazoles, ¿cuál es la conducta terapéutica indicada para erradicar la infección?",
+      "options": {
+        "A": "Prescribir Metronidazol en gel vaginal al 0.75%, asumiendo que la vía tópica no desencadena anafilaxia.",
+        "B": "Protocolo de desensibilización oral rápida a Metronidazol en un entorno hospitalario de cuidados intensivos o monitorizados.",
+        "C": "Administrar Doxiciclina 100 mg vía oral cada 12 horas por 14 días en sustitución de los nitroimidazoles.",
+        "D": "Indicar lavados vaginales con solución salina hiperatónica y aceite de árbol de té como terapia curativa definitiva."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Tricomoniasis_Alergia_Nitroimidazoles_Desensibilizacion",
+      "gpc_algorithm_step": "Los 5-nitroimidazoles (metronidazol y tinidazol) son la ÚNICA clase de antimicrobianos con eficacia curativa sistémica comprobada contra Trichomonas vaginalis. En pacientes con hipersensibilidad o anafilaxia comprobada a nitroimidazoles, la única opción curativa avalada por el CDC y guías de ITS es la DESENSIBILIZACIÓN oral a metronidazol en medio hospitalario.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El metronidazol tópico sigue absorbiéndose sistémicamente (hasta 20-50%) y desencadenará anafilaxia grave en pacientes sensibilizados; además, es ineficaz para curar tricomoniasis urogenital."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la única alternativa curativa en pacientes con Tricomoniasis y anafilaxia documentada a 5-nitroimidazoles?",
+        "back": "Protocolo de desensibilización oral rápida a Metronidazol en medio hospitalario monitorizado (no existen sustitutos antimicrobianos equivalentes).",
+        "tags": "D13 GYO ITS Tricomoniasis Alergia Desensibilizacion"
+      }
+    },
+    {
+      "id": "d13_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "A la consulta de medicina preventiva de la Unidad de Medicina Familiar acude una madre con su hija de 11 años cumplidos (estudiante de 5° grado de primaria). Solicita información sobre la aplicación de la vacuna contra el Virus del Papiloma Humano (VPH) dentro de las campañas del Programa de Vacunación Universal en México. Asimismo, pregunta si su hermana de 26 años, quien vive con infección por el Virus de Inmunodeficiencia Humana (VIH) con carga viral indetectable y CD4 en 450 cél/mm³, también es candidata a recibir la vacuna y bajo qué dosificación.",
+      "question_text": "Con base en los lineamientos técnicos oficiales vigentes del Centro Nacional para la Salud de la Infancia y la Adolescencia (CENSIA) y la NOM-014 en México, ¿cuál es el esquema normado para la menor escolar y para la paciente que vive con VIH?",
+      "options": {
+        "A": "Esquema de 3 dosis (0, 1 y 6 meses) para ambas pacientes de manera obligatoria e indistinta.",
+        "B": "Esquema de 2 dosis (0 y 6 meses) para la menor; y contraindicación absoluta de vacunación para la paciente que vive con VIH por ser vacuna de virus vivos.",
+        "C": "Dosis única intramuscular tanto para la niña de 11 años como para la mujer con VIH.",
+        "D": "Dosis única intramuscular para la niña de 11 años / 5° de primaria; y esquema de 3 dosis (0, 2 y 6 meses) para la mujer de 26 años que vive con VIH."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Vacunacion_VPH_Mexico_Esquema_CENSIA",
+      "gpc_algorithm_step": "En México, las directrices oficiales de CENSIA y sector salud establecen: Esquema de DOSIS ÚNICA para niñas de 5° de primaria o de 11 años no escolarizadas. Para mujeres cisgénero y transgénero viviendo con VIH (de 11 a 49 años), el esquema normado es de 3 DOSIS (0, 2 y 6 meses). La vacuna de VPH es recombinante (no virus vivos).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Pensar que en México aún se aplican 2 o 3 dosis rutinarias en niñas de 11 años es un distractor de actualización; México adoptó la recomendación de dosis única avalada por el Grupo de Expertos en Asesoramiento Estratégico (SAGE) de la OMS. Además, la vacuna no es de virus vivos, por lo que es segura en VIH."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el esquema de vacunación contra VPH normado en México para niñas de 11 años vs personas con VIH?",
+        "back": "Niñas de 5° primaria / 11 años: DOSIS ÚNICA. Personas con VIH (11 a 49 años): ESQUEMA DE 3 DOSIS (0, 2 y 6 meses).",
+        "tags": "D13 GYO VPH Vacunacion CENSIA NOM-014 Esquemas"
+      }
+    },
+    {
+      "id": "d13_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Inpatient Management of Severe Pelvic Inflammatory Disease and Complications",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "A 23-year-old nulliparous female presents to the Emergency Department with a 4-day history of progressively worsening lower abdominal pain, high-grade fever, chills, and nausea with multiple episodes of vomiting that prevent oral fluid and medication intake. She is sexually active with a new partner over the past month and reports inconsistent barrier contraceptive use. Physical examination reveals a distressed, febrile patient (temperature: 38.8 °C, heart rate: 104 bpm, blood pressure: 105/65 mmHg, respiratory rate: 20 bpm). Abdominal palpation demonstrates severe direct tenderness in the hypogastrium and both lower quadrants with voluntary guarding, but without diffuse rebound tenderness. Speculum examination reveals a hyperemic, friable cervix with copious thick purulent endocervical discharge. Bimanual pelvic examination elicits exquisite cervical motion tenderness (positive Chandelier / Frenkel sign) and extremely painful, thickened bilateral adnexa without a well-delineated fluctuant mass. Transvaginal ultrasonography shows dilated fallopian tubes with thick walls (>5 mm) containing echogenic fluid (pyosalpinx) measuring 4.2 cm on the right adnexa, with intact capsule integrity and no free intra-abdominal fluid. Urine pregnancy test is negative.",
+      "question_text": "According to the Mexican Clinical Practice Guideline (GPC IMSS-072) and Monif/Hager severity staging criteria, which of the following represents the correct clinical classification and the mandatory initial clinical decision?",
+      "options": {
+        "A": "Complicated/Severe Pelvic Inflammatory Disease (Monif Stage II-III); mandatory immediate hospital admission for intravenous fluid resuscitation and initiation of parenteral broad-spectrum antibiotic therapy.",
+        "B": "Mild Pelvic Inflammatory Disease (Monif Stage I); outpatient management with a single intramuscular dose of ceftriaxone followed by oral doxycycline and metronidazole for 14 days.",
+        "C": "Pelvic Inflammatory Disease Monif Stage IV; immediate transfer to the operating theater for total abdominal hysterectomy and bilateral salpingo-oophorectomy without prior medical therapy.",
+        "D": "Uncomplicated cervicitis; discharge home with oral nonsteroidal anti-inflammatory drugs and appointment for outpatient follow-up in two weeks."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "PID_Hospitalization_Criteria_Monif_II_III",
+      "gpc_algorithm_step": "Criteria for inpatient parenteral therapy in PID per Mexican GPC IMSS-072: high fever (≥38.3 °C), inability to tolerate oral intake due to severe nausea/vomiting, presence of tubo-ovarian complex / pyosalpinx (Monif Stage II-III), peritoneal irritation, or diagnostic uncertainty. Mandatory hospital admission for IV therapy.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Outpatient oral treatment (Option B) is the standard for Monif Stage I (mild, tolerating oral intake, no adnexal mass); however, intractable vomiting, high fever, and pyosalpinx are absolute criteria for urgent inpatient admission."
+      },
+      "anki_flashcard": {
+        "front": "What are the absolute criteria for hospital admission and parenteral therapy in PID according to Mexican GPC?",
+        "back": "Inability to tolerate oral fluids (vomiting), pregnancy, severe illness/high fever, tubo-ovarian abscess/pyosalpinx (Monif II-III), or failure of outpatient oral therapy at 72 h.",
+        "tags": "D13 GYO PID Monif Hospitalization English GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Inpatient Management of Severe Pelvic Inflammatory Disease and Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The patient is admitted to the inpatient gynecology ward. Intravenous crystalloid rehydration is initiated. Baseline laboratory results reveal: Hemoglobin 12.4 g/dL, White Blood Cell count 16,200/mm³ with 86% neutrophils and 5% band forms, Platelets 275,000/mm³, Serum Creatinine 0.7 mg/dL, Blood Urea Nitrogen 14 mg/dL, Total Bilirubin 0.8 mg/dL, and C-reactive protein 54 mg/L. She has no known drug allergies and no chronic medical conditions. Renal and hepatic profiles are completely within normal limits.",
+      "question_text": "According to the Mexican Clinical Practice Guideline (GPC IMSS-072), which of the following represents the standard first-line intravenous antimicrobial regimen for hospitalized patients with complicated/severe Pelvic Inflammatory Disease?",
+      "options": {
+        "A": "Ceftriaxone 1 g IV every 24 hours + oral/IV Doxycycline 100 mg every 12 hours + Metronidazole 500 mg IV every 8 hours (or IV Clindamycin 900 mg every 8 h + IV Gentamicin 2 mg/kg loading dose followed by 1.5 mg/kg every 8 h).",
+        "B": "Ciprofloxacin 400 mg IV every 12 hours + Azithromycin 500 mg IV every 24 hours as empiric narrow-spectrum therapy.",
+        "C": "Ampicillin 1 g IV every 6 hours as single-agent monotherapy covering polymicrobial vaginal commensals.",
+        "D": "Vancomycin 1 g IV every 12 hours + Meropenem 1 g IV every 8 hours as routine empiric initiation."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "PID_Inpatient_Parenteral_Regimens",
+      "gpc_algorithm_step": "Recommended parenteral regimens in Mexican GPC IMSS-072: Regimen A: Ceftriaxone 1 g IV q24h + Doxycycline 100 mg PO/IV q12h + Metronidazole 500 mg IV q8-12h. Alternative Regimen B: Clindamycin 900 mg IV q8h + Gentamicin 2 mg/kg IV loading followed by 1.5 mg/kg q8h. Both cover N. gonorrhoeae, C. trachomatis, and anaerobes.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Fluoroquinolones (ciprofloxacin) are strictly proscribed as empirical therapy for PID due to widespread Neisseria gonorrhoeae resistance exceeding 50% in Mexico and globally. Meropenem + Vancomycin is extreme overtreatment."
+      },
+      "anki_flashcard": {
+        "front": "What is the recommended first-line parenteral antibiotic regimen for hospitalized PID according to Mexican GPC?",
+        "back": "Ceftriaxone 1 g IV q24h + Doxycycline 100 mg PO/IV q12h + Metronidazole 500 mg IV q8h (or Clindamycin 900 mg IV q8h + Gentamicin IV).",
+        "tags": "D13 GYO PID Inpatient Antibiotics Ceftriaxone English GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Inpatient Management of Severe Pelvic Inflammatory Disease and Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "At 72 hours of optimal intravenous triple antibiotic therapy (Ceftriaxone + Doxycycline + Metronidazole), the patient fails to improve and experiences acute clinical collapse: fever spikes to 39.5 °C, heart rate accelerates to 126 bpm, blood pressure drops to 85/52 mmHg, and respiratory rate increases to 26 bpm. On physical examination, her abdomen is rigid like a wooden board, with intense involuntary guarding and generalized peritoneal rebound tenderness (diffuse Blumberg sign) across all four quadrants. Follow-up bedside pelvic ultrasonography shows collapse and loss of architectural integrity of the right adnexal mass with extensive complex, turbid free fluid in the rectouterine pouch (Douglas), hepatorenal space (Morison pouch), and paracolic gutters, diagnostic of a ruptured right Tubo-Ovarian Abscess (TOA).",
+      "question_text": "According to the Mexican Clinical Practice Guideline (GPC IMSS-072), what is the immediate, mandatory management required for this life-threatening complication?",
+      "options": {
+        "A": "Continue conservative medical therapy for an additional 48 hours while adding an intravenous antifungal agent to prevent superinfection.",
+        "B": "Perform bedside percutaneous needle aspiration under local anesthesia and discharge the patient on oral therapy.",
+        "C": "Perform diagnostic fractional dilation and curettage (D&C) followed by pelvic rest without entering the peritoneal cavity.",
+        "D": "Immediate aggressive fluid resuscitation and urgent emergency surgical intervention (exploratory laparotomy/laparoscopy) for source control, extensive peritoneal lavage, and unilateral salpingectomy/abscess drainage with ovarian preservation."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Ruptured_TOA_Emergency_Surgery_Source_Control",
+      "gpc_algorithm_step": "Ruptured Tubo-Ovarian Abscess (TOA) is an absolute surgical emergency leading to generalized peritonitis, septic shock, and death. Immediate resuscitation and surgical exploration (laparotomy/laparoscopy) for copious peritoneal lavage and source control (conservative unilateral salpingectomy/drainage) are mandatory.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "While intact TOAs can be managed medically initially, once rupture and septic shock occur, medical therapy or percutaneous drainage alone is completely inadequate and delays life-saving surgical source control."
+      },
+      "anki_flashcard": {
+        "front": "What is the mandatory immediate treatment for a ruptured Tubo-Ovarian Abscess (TOA) with peritonitis?",
+        "back": "Hemodynamic resuscitation and urgent emergency exploratory laparotomy/laparoscopy for source control, extensive lavage, and unilateral salpingectomy/drainage.",
+        "tags": "D13 GYO PID TOA_Rupture Emergency Laparotomy English GPC"
+      }
+    },
+    {
+      "id": "d13_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Inpatient Management of Severe Pelvic Inflammatory Disease and Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The patient undergoes emergency exploratory laparotomy. The surgical team successfully evacuates 600 mL of purulent peritoneal fluid, performs copious warm saline peritoneal lavage, and completes a right salpingectomy with preservation of the right ovary and the uninvolved left adnexa. A closed-suction pelvic drain is placed. Intraoperative peritoneal fluid cultures yield polymicrobial growth, and cervical/peritoneal nucleic acid amplification testing (NAAT) is positive for Chlamydia trachomatis. The patient stabilizes hemodynamically, becomes afebrile by postoperative day 3, and tolerates oral diet on postoperative day 4 with the pelvic drain removed.",
+      "question_text": "Prior to hospital discharge, which of the following post-treatment regimens and partner management strategies is mandated by Mexican Clinical Practice Guidelines (GPC IMSS-072)?",
+      "options": {
+        "A": "Complete a total antimicrobial course of 14 days (transitioning to oral Doxycycline 100 mg BID plus Metronidazole 500 mg BID), mandatory empirical treatment of all sexual partners from the preceding 60 days, and strict sexual abstinence until both partners complete therapy.",
+        "B": "Discontinue all antibiotics immediately upon drain removal, with no need to treat sexual partners unless they develop acute dysuria.",
+        "C": "Administer a single oral dose of Azithromycin 1 g to the patient and discharge without partner tracing.",
+        "D": "Prescribe lifelong continuous suppressive doxycycline therapy and advise strict in vitro fertilization because tubal function is permanently destroyed."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "PID_Discharge_14Days_Partner_Management",
+      "gpc_algorithm_step": "Mexican GPC IMSS-072 mandates completing a full 14-day antimicrobial course (switching to oral doxycycline + metronidazole after 24-48 h of clinical improvement). All sexual partners from the preceding 60 days MUST be evaluated and treated empirically for N. gonorrhoeae and C. trachomatis. Sexual intercourse must be avoided until both complete treatment.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Stopping antibiotics prematurely after clinical improvement leads to relapsing pelvic infection, chronic pelvic pain, and permanent tubal destruction. Failing to treat sexual partners guarantees immediate reinfection ('ping-pong' transmission)."
+      },
+      "anki_flashcard": {
+        "front": "What is the total duration of antibiotic therapy and partner management for PID according to GPC?",
+        "back": "Complete 14 total days of antibiotics. Mandatory empirical treatment of all sexual partners from the preceding 60 days; sexual abstinence until both complete treatment.",
+        "tags": "D13 GYO PID 14Days Partner_Treatment Chlamydia English GPC"
+      }
+    }
+  ]
+}

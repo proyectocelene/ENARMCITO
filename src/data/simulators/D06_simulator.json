@@ -1,0 +1,709 @@
+{
+  "topic_code": "D06",
+  "title": "Simulador Post-Estudio: Vacunación Nacional y Exantemáticas",
+  "normativa_origen": "NOM-036 / GPC IMSS-579-19",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d06_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Esquema de Vacunación en Prematuros y Situaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Lactante masculino nacido a las 31 semanas de gestación por cesárea urgente secundaria a desprendimiento prematuro de placenta normoincerta, con peso al nacer de 1,480 g y Apgar 7/8. Requirió 21 días de estancia en la Unidad de Cuidados Intensivos Neonatales por síndrome de dificultad respiratoria resuelto. Actualmente acude a su consulta de medicina familiar al cumplir 2 meses de edad cronológica (edad corregida: 39 semanas de gestación). Se encuentra clínicamente estable, afebril, con peso actual de 2,350 g, talla 45 cm, FC 134 lpm, FR 38 rpm. No ha recibido ninguna vacuna previa debido a que al nacimiento el personal médico difirió los biológicos por bajo peso y prematurez. La madre pregunta qué vacunas le corresponden en esta visita.",
+      "question_text": "¿Cuál es la conducta vacunal correcta que debe indicarse en este momento según la NOM-036-SSA2 y los lineamientos del Programa de Vacunación Universal en México?",
+      "options": {
+        "A": "Aplicar de inmediato vacuna BCG (dosis única), primera dosis de vacuna Hexavalente acelular y primera dosis de vacuna Neumocócica conjugada.",
+        "B": "Diferir todas las vacunas hasta que el lactante alcance los 2 meses de edad corregida (48 semanas postconcepción) para asegurar madurez inmunológica adecuada.",
+        "C": "Aplicar únicamente vacuna Hexavalente acelular y Neumocócica conjugada, contraindicando formalmente BCG por antecedente de estancia en UCIN.",
+        "D": "Administrar únicamente vacuna contra Hepatitis B monodosis y diferir Hexavalente y Neumococo hasta alcanzar los 3,000 gramos de peso corporal."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Inmunización en Prematuros y Criterio Ponderal para BCG",
+      "gpc_algorithm_step": "En prematuros clínicamente estables, las vacunas del esquema regular (Hexavalente, Neumococo) se aplican a la edad cronológica habitual. La vacuna BCG se aplica en cuanto el lactante alcanza un peso ≥ 2,000 g.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El clínico novato calcula la edad corregida y posterga erróneamente la vacunación por prematurez. La regla de oro de la NOM-036 y CENSIA es que las vacunas se aplican por edad cronológica, y la BCG se aplica en cuanto se superan los 2,000 g de peso."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el criterio ponderal mínimo para aplicar BCG en México y cómo se vacuna al prematuro estable?",
+        "back": "Peso ≥ 2,000 g para BCG. En prematuros estables, las vacunas sistemáticas (Hexavalente, Neumococo) se administran por EDAD CRONOLÓGICA, sin corregir por edad gestacional.",
+        "tags": "D06 Vacunacion NOM-036 Prematuro BCG"
+      }
+    },
+    {
+      "id": "d06_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Esquema de Vacunación en Prematuros y Situaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En el mismo lactante de 2 meses de edad cronológica (peso 2,350 g), la enfermera del módulo de vacunación interroga antecedentes familiares y la madre comenta angustiada que el hermano mayor del paciente presentó a los 5 meses de edad un cuadro de invaginación intestinal idiopática que requirió laparotomía exploradora y reducción hidrostática exitosa. La madre teme que este bebé desarrolle el mismo problema si se le administra la vacuna oral contra Rotavirus.",
+      "question_text": "¿Cuál es la conducta y fundamento normativo respecto a la aplicación de la vacuna contra Rotavirus en este paciente según la NOM-036-SSA2?",
+      "options": {
+        "A": "Administrar la primera dosis de vacuna contra Rotavirus por vía oral, ya que el antecedente de invaginación en un familiar de primer grado no es contraindicación para el paciente.",
+        "B": "Contraindicar de forma absoluta la vacuna contra Rotavirus debido a la carga genética hereditaria de invaginación intestinal.",
+        "C": "Diferir la primera dosis de Rotavirus hasta los 6 meses de edad para permitir un mayor diámetro del anillo ileocecal.",
+        "D": "Sustituir la vacuna de Rotavirus oral por dosis parenteral fraccionada para evitar el estímulo local en las placas de Peyer."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Contraindicaciones Reales vs Falsas en Vacuna de Rotavirus",
+      "gpc_algorithm_step": "La contraindicación absoluta para la vacuna de Rotavirus es el antecedente PERSONAL de invaginación intestinal, malformación gastrointestinal congénita no corregida o inmunodeficiencia combinada severa. El antecedente familiar NO contraindica su uso.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Confundir antecedente personal de invaginación intestinal (que sí es contraindicación absoluta) con antecedente familiar (que NO contraindica la inmunización)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las contraindicaciones absolutas para la vacuna de Rotavirus según la NOM-036?",
+        "back": "1) Antecedente PERSONAL de invaginación intestinal. 2) Malformación GI no corregida (ej. divertículo de Meckel). 3) Inmunodeficiencia combinada grave (SCID). 4) Alergia anafiláctica previa. El antecedente familiar NO es contraindicación.",
+        "tags": "D06 Vacunacion Rotavirus Contraindicaciones NOM-036"
+      }
+    },
+    {
+      "id": "d06_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Esquema de Vacunación en Prematuros y Situaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Al revisar el expediente clínico perinatal del lactante, se identifica que la madre tenía resultado reactivo para Antígeno de Superficie de Hepatitis B (HBsAg positivo) detectado en el tercer trimestre del embarazo. Al nacimiento (hace 2 meses), el equipo de neonatología administró correctamente la primera dosis de vacuna contra Hepatitis B y la Inmunoglobulina específica contra Hepatitis B (IGHB) dentro de las primeras 12 horas de vida. El paciente recibe hoy su primera dosis de Hexavalente acelular (que incluye Hepatitis B).",
+      "question_text": "¿Cuál es la estrategia de seguimiento serológico y calendario recomendada por la GPC y la NOM-036 para confirmar la protección y descartar transmisión vertical en este niño?",
+      "options": {
+        "A": "Solicitar HBsAg y anticuerpos contra el antígeno de superficie (anti-HBs) entre los 9 y 12 meses de edad (1 a 2 meses después de completar el esquema primario).",
+        "B": "Solicitar carga viral cuantitativa de ADN de VHB a los 3 meses de vida para normar profilaxis secundaria con tenofovir.",
+        "C": "Solicitar anticuerpos totales anticore (anti-HBc IgM) a los 4 meses de vida de manera rutinaria.",
+        "D": "No requiere estudios serológicos de control si completó la inmunoglobulina y las dosis correspondientes de vacuna."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Seguimiento Serológico de Hijo de Madre HBsAg Positiva",
+      "gpc_algorithm_step": "En hijos de madre HBsAg (+), se realiza determinación serológica de HBsAg y anti-HBs entre los 9 y 12 meses de edad (o 1-2 meses después de la última dosis de la serie primaria de VHB) para confirmar aclaramiento o infección.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Solicitar carga viral de ADN por PCR en fases tempranas en lactantes asintomáticos en lugar del protocolo serológico normativo (HBsAg y anti-HBs a los 9-12 meses) que define inmunidad (anti-HBs > 10 mUI/ml) vs fracaso profiláctico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo y cómo se evalúa la serología en un lactante hijo de madre con HBsAg positivo?",
+        "back": "A los 9-12 meses de edad (o 1-2 meses tras completar la serie primaria). Se solicitan HBsAg y anti-HBs cuantitativos.",
+        "tags": "D06 HepatitisB Profilaxis MadreHBsAg NOM-036"
+      }
+    },
+    {
+      "id": "d06_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Esquema de Vacunación en Prematuros y Situaciones Especiales",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Ocho semanas después de haber recibido la vacuna BCG en el brazo derecho (a los 4 meses de edad cronológica), la madre acude a consulta sumamente preocupada porque nota una 'masa' en la axila derecha del bebé. A la exploración física: peso 5,100 g, afebril, buen estado general. En la región del deltoides derecho se observa una pequeña costra indurada de 6 mm sin secreción. En la fosa axilar ipsilateral se palpa una adenomegalia de 2.2 cm de diámetro, móvil, no fluctuante, levemente dolorosa, sin eritema cutáneo suprayacente ni signos de calor local. No hay hepatoesplenomegalia ni adenopatías en otras cadenas ganglionares. Se diagnostica linfadenitis por BCG (becegeítis regional no supurativa).",
+      "question_text": "¿Cuál es la conducta médica indicada de acuerdo con la Guía de Práctica Clínica y el Manual del Vacunador de la Secretaría de Salud / CENETEC?",
+      "options": {
+        "A": "Vigilancia clínica expectante mensual sin tratamiento farmacológico ni drenaje quirúrgico.",
+        "B": "Iniciar de inmediato esquema antifímico acortado con Isoniazida y Rifampicina durante 6 meses.",
+        "C": "Realizar punción por aspiración con aguja fina e irrigar con solución de estreptomicina al 1%.",
+        "D": "Programar resección quirúrgica ganglionar urgente por riesgo elevado de fistulización cutánea."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo de ESAVI por BCG: Linfadenitis Regional",
+      "gpc_algorithm_step": "La linfadenitis regional no supurativa post-BCG es una reacción esperada autolimitada. El manejo es expectante y de observación. Se contraindica la incisión, legrado o uso de antifímicos sistémicos en casos no supurativos.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Prescribir antifímicos (isoniazida/rifampicina) o drenaje quirúrgico invasivo ante una linfadenitis no complicada. M. bovis BCG suele ser resistente intrínseco a pirazinamida y los antifímicos no aceleran la resolución en linfadenitis regional benigna."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de elección para la linfadenitis axilar regional no supurativa post-BCG?",
+        "back": "Manejo conservador y observación clínica. NO requiere antibióticos, antifímicos ni drenaje quirúrgico.",
+        "tags": "D06 BCG ESAVI Becegeitis NOM-036"
+      }
+    },
+    {
+      "id": "d06_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Sarampión, Abordaje de Brote y Manejo Oficial",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Preescolar masculino de 3 años 4 meses de edad es llevado al servicio de urgencias pediátricas. La madre refiere que no cuenta con Cartilla Nacional de Salud ni vacunas debido a objeción ideológica. Inició hace 4 días con fiebre cuantificada de hasta 39.6 °C, malestar general, tos seca traqueal en accesos, rinorrea hialina profusa y fotofobia intensa con inyección conjuntival y lagrimeo constante. Hace 12 horas apareció un exantema maculopapular eritematoso retroauricular y en la línea de implantación del cuero cabelludo que ha progresado en sentido descendente hacia cara y cuello. A la exploración física: T 39.1 °C, FC 138 lpm, FR 28 rpm. En la cavidad oral, en la mucosa yugal a la altura de los segundos molares inferiores, se observan lesiones blanquecinas puntiformes de 1 mm rodeadas de un halo intensamente eritematoso.",
+      "question_text": "¿Cuál es la prueba confirmatoria oficial requerida para la vigilancia epidemiológica en México y el tiempo máximo normado para notificar el caso sospechoso?",
+      "options": {
+        "A": "Determinación de anticuerpos IgM específicos contra sarampión en suero y exudado faríngeo para RT-PCR; notificación inmediata en menos de 24 horas.",
+        "B": "Cultivo viral en células Vero a partir de líquido cefalorraquídeo; notificación semanal mediante el informe epidemiológico regular.",
+        "C": "Prueba rápida de antígeno en heces por inmunocromatografía; notificación en las primeras 72 horas hábiles.",
+        "D": "Determinación de IgG pareada con diferencia de 8 semanas; notificación supeditada a confirmación genómica."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Notificación y Confirmación Diagnóstica en Sarampión",
+      "gpc_algorithm_step": "Todo caso sospechoso de sarampión es de notificación obligatoria inmediata (< 24 horas). La confirmación se realiza mediante IgM sérica tomada al primer contacto y muestra para RT-PCR (exudado faríngeo y orina).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Confundir los plazos epidemiológicos rutinarios (notificación semanal en SUIVE) con la regla de oro de la Red Nacional de Laboratorios de Salud Pública (InDRE) que exige notificación inmediata en < 24 h para enfermedades exantemáticas febriles sujetas a erradicación."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta diagnóstica y tiempo de notificación ante sospecha de sarampión en México?",
+        "back": "Notificación inmediata (< 24 horas). Toma de suero para IgM específica y exudado faríngeo/orina para RT-PCR (InDRE).",
+        "tags": "D06 Sarampion Notificacion InDRE GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Sarampión, Abordaje de Brote y Manejo Oficial",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "El paciente del caso anterior es ingresado a un cubículo de aislamiento aéreo. Su peso corporal es de 14.5 kg. La exploración pulmonar revela transmitancia vocal conservada con estertores roncantes diseminados sin dificultad respiratoria grave (SpO2 96% al aire ambiente). Se ratifica la presencia patognomónica de manchas de Koplik. Además de las medidas de soporte hidroelectrolítico y antipiréticos no salicilatos, el médico adscrito indica el tratamiento farmacológico coadyuvante avalado por la OMS y la Guía de Práctica Clínica mexicana para reducir complicaciones y mortalidad.",
+      "question_text": "¿Cuál es la dosis y esquema del suplemento farmacológico de primera línea que debe administrarse de inmediato a este paciente?",
+      "options": {
+        "A": "Vitamina A oral a dosis de 200,000 UI diarias durante 2 días consecutivos.",
+        "B": "Vitamina A oral a dosis de 50,000 UI en dosis única exclusiva.",
+        "C": "Ribavirina oral a 15 mg/kg/día dividida cada 8 horas durante 7 días.",
+        "D": "Zinc elemental oral a 20 mg/día asociado a Vitamina C en infusión intravenosa."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Terapia con Vitamina A en Sarampión",
+      "gpc_algorithm_step": "La GPC y la OMS recomiendan Vitamina A oral a todos los casos de sarampión: < 6 meses: 50,000 UI/día; 6-11 meses: 100,000 UI/día; ≥ 12 meses: 200,000 UI/día; administrada en 2 dosis consecutivas (días 1 y 2).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Elegir la dosis para lactantes menores de 6 meses (50,000 UI) o lactantes de 6-11 meses (100,000 UI) en un paciente de 3 años de edad, quien debe recibir 200,000 UI por día durante 2 días."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la dosificación de Vitamina A en sarampión según la edad del paciente?",
+        "back": "- < 6 meses: 50,000 UI/día x 2 días.\n- 6 a 11 meses: 100,000 UI/día x 2 días.\n- ≥ 12 meses: 200,000 UI/día x 2 días (VO).",
+        "tags": "D06 Sarampion VitaminaA GPC Dosis"
+      }
+    },
+    {
+      "id": "d06_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Sarampión, Abordaje de Brote y Manejo Oficial",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la investigación epidemiológica de campo de los contactos intrafamiliares estrechos del preescolar con sarampión, se detectan dos personas no inmunizadas y sin antecedentes de la enfermedad: 1) Su hermana menor de 8 meses de edad, sana; y 2) Su madre de 28 años, quien cursa con un embarazo normoevolutivo de 16 semanas de gestación. El último contacto directo con el paciente en fase prodrómica fue hace 48 horas.",
+      "question_text": "¿Cuál es la indicación de profilaxis post-exposición correcta para cada uno de estos contactos según la GPC y la normativa mexicana?",
+      "options": {
+        "A": "Aplicar vacuna SRP o SR a la lactante de 8 meses dentro de las 72 horas del contacto, y administrar Inmunoglobulina humana normal a la madre embarazada dentro de los 6 días post-exposición.",
+        "B": "Aplicar vacuna SRP tanto a la lactante como a la madre embarazada dentro de las 72 horas posteriores a la exposición.",
+        "C": "Administrar Inmunoglobulina específica contra sarampión a la lactante y diferir cualquier intervención en la madre hasta el puerperio.",
+        "D": "Indicar profilaxis oral con Aciclovir a dosis de 80 mg/kg/día a ambos contactos durante 10 días."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Profilaxis Post-exposición en Contactos de Sarampión",
+      "gpc_algorithm_step": "Vacuna antisarampionosa en contactos susceptibles ≥ 6 meses de edad si se administra en las primeras 72 horas. Inmunoglobulina humana normal (0.5 mL/kg IM, máx 15 mL) dentro de los primeros 6 días en contactos de alto riesgo donde la vacuna viva atenuada está contraindicada (embarazadas, lactantes < 6 meses e inmunosuprimidos).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar la vacuna viral atenuada SRP a la mujer embarazada, lo cual está contraindicado por el riesgo teratogénico potencial de los virus vivos atenuados."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se realiza la profilaxis post-exposición para sarampión en contactos susceptibles?",
+        "back": "- Vacuna (SRP/SR) en primeras 72 horas para contactos ≥ 6 meses sin contraindicación.\n- Inmunoglobulina normal en primeros 6 días para embarazadas, lactantes < 6 meses o inmunodeprimidos.",
+        "tags": "D06 Sarampion Profilaxis Contactos GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Sarampión, Abordaje de Brote y Manejo Oficial",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Al séptimo día de estancia hospitalaria, el preescolar de 3 años presenta reactivación febril brusca con 39.4 °C tras 48 horas afebril. Desarrolla taquipnea severa (FR 58 rpm), aleteo nasal, tiraje intercostal y SpO2 de 86% al aire ambiente. A la auscultación se detecta síndrome de condensación pulmonar apical derecho con estertores crepitantes. La biometría hemática de control muestra leucocitos de 21,800/mm3 con 86% de neutrófilos y 8% de bandas (previa al ingreso: leucocitos 4,100/mm3 con linfopenia). La radiografía de tórax revela consolidación lobar con broncograma aéreo.",
+      "question_text": "¿Cuál es la etiología más probable del deterioro respiratorio y la causa más común de muerte asociada a sarampión en este grupo etario?",
+      "options": {
+        "A": "Sobreinfección bacteriana secundaria (Streptococcus pneumoniae / Staphylococcus aureus); neumonía bacteriana como principal causa de mortalidad.",
+        "B": "Neumonía de células gigantes de Hecht por efecto citopático directo del paramixovirus.",
+        "C": "Panencefalitis esclerosante subaguda de presentación precoz fulminante.",
+        "D": "Laringotraqueobronquitis estridulosa aguda por adenovirus asociado."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Complicaciones y Mortalidad en Sarampión",
+      "gpc_algorithm_step": "La otitis media aguda es la complicación más frecuente del sarampión, pero la neumonía bacteriana sobreagregada (S. pneumoniae, S. aureus, H. influenzae) es la causa principal de morbimortalidad.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Atribuir el cuadro a neumonía viral pura de Hecht sin notar el viraje paraclínico (de leucopenia/linfopenia a leucocitosis con neutrofilia y bandas) y la consolidación lobar, característicos de sobreinfección bacteriana secundaria facilitada por la anergia inmunológica post-sarampión."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la complicación más frecuente y cuál es la principal causa de muerte en sarampión?",
+        "back": "- Complicación más frecuente: Otitis media aguda.\n- Causa más frecuente de muerte: Neumonía (sobreinfección bacteriana secundaria por S. pneumoniae / S. aureus).",
+        "tags": "D06 Sarampion Complicaciones Neumonia GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Varicela Complicada y Síndrome de Reye",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Escolar masculino de 6 años de edad, previamente sano, cursa con varicela clásica diagnosticada hace 5 días por la presencia de lesiones polimórficas ('cielo estrellado') pruriginosas. La madre refiere que ante la fiebre persistente de 39 °C le administró por cuenta propia 'gotas infantiles de ácido acetilsalicílico' y paracetamol cada 4 horas. Hace 18 horas el paciente inició con vómitos en proyectil de contenido biliar que se repitieron en más de 8 ocasiones, seguidos de somnolencia, desorientación progresiva y episodios de agitación psicomotriz. A la exploración física: estuporoso, sin rigidez de nuca ni signos meníngeos. Se palpa hepatomegalia de 4 cm por debajo del reborde costal, no dolorosa, sin ictericia clínica en escleras. Laboratorio: Glucosa 52 mg/dL, ALT 480 UI/L, AST 510 UI/L, Bilirrubina Total 1.1 mg/dL, Amonio sérico 190 mcmol/L (normal < 50), Tiempo de Protrombina 22 segundos (INR 1.9).",
+      "question_text": "¿Cuál es el diagnóstico más probable de esta complicación severa y su mecanismo fisiopatológico cardinal?",
+      "options": {
+        "A": "Síndrome de Reye; daño mitocondrial hepático y cerebral inducido por salicilatos durante una infección viral.",
+        "B": "Hepatitis fulminante por virus varicela zóster con necrosis hepática masiva.",
+        "C": "Encefalitis viral herpética con falla hepática secundaria a choque séptico.",
+        "D": "Intoxicación aguda por sobredosis de paracetamol con necrosis centrolobulillar."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Diagnóstico de Síndrome de Reye",
+      "gpc_algorithm_step": "El Síndrome de Reye cursa con encefalopatía aguda no inflamatoria, degeneración grasa hepática microvesicular, hiperamonemia, elevación marcada de transaminasas con bilirrubina normal o casi normal e hipoglucemia, desencadenado por salicilatos en infecciones como varicela o influenza.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "El distractor de intoxicación por paracetamol tienta por la mención de su uso, pero el amonio elevado > 3 veces lo normal con transaminasas altas, ausencia de ictericia (bilirrubina normal < 2 mg/dL) y vómitos/estupor tras aspirina en varicela define el Síndrome de Reye clásico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los hallazgos paraclínicos cardinales del Síndrome de Reye?",
+        "back": "1) Hiperamonemia. 2) Elevación marcada de transaminasas (AST/ALT). 3) Bilirrubina normal o mínimamente elevada (< 2 mg/dL, sin ictericia franca). 4) Hipoglucemia y coagulopatía (TP prolongado).",
+        "tags": "D06 Varicela Reye Salicilatos Toxicologia"
+      }
+    },
+    {
+      "id": "d06_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Varicela Complicada y Síndrome de Reye",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "En la consulta externa, un médico pasante pregunta al especialista sobre las indicaciones precisas para prescribir Aciclovir oral en pacientes pediátricos con varicela, debido a que muchos padres solicitan el antiviral inmediatamente al brotar las primeras vesículas en niños pequeños sanos sin comorbilidades.",
+      "question_text": "¿En cuál de los siguientes escenarios clínicos está formalmente indicado iniciar Aciclovir por vía oral según la GPC del IMSS y lineamientos pediátricos?",
+      "options": {
+        "A": "Pacientes mayores de 12 años, pacientes con afección cutánea crónica (ej. dermatitis atópica), neumopatías crónicas o segundos casos intrafamiliares.",
+        "B": "Todos los lactantes previamente sanos menores de 2 años en las primeras 72 horas del exantema.",
+        "C": "Exclusivamente en pacientes que cursen con sobreinfección bacteriana dérmica confirmada por cultivo.",
+        "D": "En cualquier niño que presente prurito severo que no ceda con antihistamínicos de primera generación."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Criterios de Tratamiento Antiviral en Varicela",
+      "gpc_algorithm_step": "En niños sanos menores de 12 años la varicela es autolimitada y no se recomienda aciclovir rutinario. Se indica aciclovir oral si se inicia en las primeras 24 h en: > 12 años, trastornos cutáneos crónicos, neumopatías crónicas, tratamiento crónico con salicilatos/esteroides orales y segundos casos intradomiciliarios.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Prescribir antivirales de amplio uso comercial a todos los niños pequeños sanos. La GPC mexicana restringe estrictamente el aciclovir a poblaciones con riesgo de complicaciones o mayor carga viral (segundo caso domiciliario, > 12 años, comorbilidades)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo está indicado el Aciclovir oral en varicela pediátrica según la GPC?",
+        "back": "En las primeras 24 horas del exantema si: edad > 12 años, enfermedad cutánea crónica (dermatitis atópica), patología pulmonar crónica, salicilismo crónico, corticoterapia o 2° caso intrafamiliar.",
+        "tags": "D06 Varicela Aciclovir Indicaciones GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Varicela Complicada y Síndrome de Reye",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Recién nacido de término (39 semanas de gestación, peso 3,200 g) obtenido por parto eutócico sin complicaciones. Seis horas después del nacimiento, el médico revisa a la madre y detecta un exantema típico de varicela en fase vesicular y costrosa en tronco y cuello, el cual inició formalmente 2 días antes del parto. El neonato se encuentra actualmente asintomático, con signos vitales normales y piel limpia sin lesiones.",
+      "question_text": "¿Cuál es la conducta médica de profilaxis post-exposición obligatoria e inmediata para este recién nacido según la GPC?",
+      "options": {
+        "A": "Administrar Inmunoglobulina específica contra varicela zóster (VarIZIG o IGVZ) al recién nacido de inmediato.",
+        "B": "Iniciar de inmediato Aciclovir oral a 20 mg/kg cada 6 horas durante 14 días sin necesidad de anticuerpos pasivos.",
+        "C": "Aplicar de inmediato la vacuna viva atenuada contra varicela en el deltoides izquierdo del recién nacido.",
+        "D": "Mantener en aislamiento conjunto con la madre y vigilar evolución clínica sin aplicar ningún biológico ni fármaco."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Profilaxis de Varicela Neonatal Grave",
+      "gpc_algorithm_step": "Si la madre inicia el exantema de varicela entre 5 días antes y 2 días después del parto, el recién nacido tiene riesgo de varicela neonatal fulminante (mortalidad hasta 30%) por no haber recibido anticuerpos maternos transplacentarios. La indicación estricta es IGVZ de inmediato.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Asumir conducta expectante porque el neonato está actualmente asintomático, ignorando la ventana crítica de alto riesgo materno (5 días antes a 2 días postparto) que culmina en varicela neonatal visceral si no se aplica inmunoglobulina."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo se indica inmunoglobulina específica (IGVZ) al recién nacido cuya madre tiene varicela?",
+        "back": "Cuando el exantema materno inicia entre 5 DÍAS ANTES y 2 DÍAS DESPUÉS del parto. Previene la varicela neonatal fulminante.",
+        "tags": "D06 Varicela Neonatal IGVZ Perinatal GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Varicela Complicada y Síndrome de Reye",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Lactante femenino de 14 meses con varicela en su 4° día de evolución presenta fiebre de 39.8 °C, irritabilidad extrema y rechazo al apoyo del miembro pélvico derecho. En la cara anterolateral del muslo derecho se observa una lesión umbilicada previa rodeada por un área de eritema violáceo de 8x6 cm, con bordes mal definidos, edema indurado a tensión, crepitación fina a la palpación y dolor desproporcionado al roce superficial. El laboratorio muestra: Leucocitos 26,000/mm3 con 20% de bandas, PCR 180 mg/L, lactato sérico 3.8 mmol/L.",
+      "question_text": "¿Cuál es la complicación bacteriana invasiva más temida que presenta esta paciente y la conducta terapéutica de urgencia según la GPC?",
+      "options": {
+        "A": "Fascitis necrotizante por Streptococcus pyogenes; desbridamiento quirúrgico urgente más antibioticoterapia de amplio espectro asociada a Clindamicina.",
+        "B": "Impétigo ampolloso estafilocócico; curaciones locales con mupirocina tópica y cefalexina oral.",
+        "C": "Eritema multiforme mayor; suspensión de antivirales e inicio de esteroide sistémico a dosis altas.",
+        "D": "Celulitis preseptal circunscrita; amoxicilina con ácido clavulánico ambulatoria y compresas tibias."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Fascitis Necrotizante Post-Varicela",
+      "gpc_algorithm_step": "La sobreinfección bacteriana por S. pyogenes o S. aureus es la complicación más frecuente de la varicela. El dolor desproporcionado, edema a tensión, crepitación y choque séptico indican fascitis necrotizante: requiere desbridamiento quirúrgico inmediato y clindamicina (efecto antitoxina de Eagle).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Tratar la lesión como una celulitis bacteriana simple con antibióticos orales ambulatorios, pasando por alto los signos de alarma de fascitis necrotizante (crepitación, dolor desproporcionado, toxicidad sistémica) que requieren desbridamiento quirúrgico de urgencia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el agente principal y el manejo urgente de la fascitis necrotizante post-varicela?",
+        "back": "Agente: Streptococcus pyogenes (o S. aureus). Manejo: Desbridamiento quirúrgico de urgencia + antibióticos IV (incluyendo Clindamicina por inhibición de síntesis de toxinas).",
+        "tags": "D06 Varicela FascitisNecrotizante Clindamicina GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Escarlatina Estreptocócica y Diagnósticos Diferenciales",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Escolar masculino de 7 años de edad acude a consulta acompañado de su madre por presentar cuadro de 48 horas de evolución caracterizado por fiebre súbita de 39.3 °C, odinofagia intensa, disfagia, cefalea y vómito en una ocasión. A la exploración física: orofaringe intensamente hiperémica con exudado amigdalino blanquecino pultáceo y petequias en el paladar blando. La lengua muestra papilas hipertróficas prominentes rojas sobre una capa blanquecina densa (lengua en fresa blanca). Se palpa una adenopatía submandibular derecha dolorosa de 2 cm. En tórax y abdomen se observa un exantema micropapular eritematoso puntiforme que blanquea a la digitopresión, con textura áspera similar al 'papel de lija'. En los pliegues antecubitales e inguinales se aprecian líneas hiperpigmentadas transversales que no desaparecen a la compresión (signo de Pastia). La región perioral se encuentra pálida en contraste con el eritema facial (facies de Filatow).",
+      "question_text": "¿Cuál es el agente etiológico específico y la sustancia patogénica responsable de las manifestaciones cutáneas descritas según la GPC?",
+      "options": {
+        "A": "Streptococcus pyogenes (estreptococo betahemolítico del grupo A) mediante la producción de exotoxinas pirogénicas eritrogénicas (A, B o C).",
+        "B": "Staphylococcus aureus mediante la enterotoxina B termoestable y leucocidina de Panton-Valentine.",
+        "C": "Virus de Epstein-Barr mediante reactivación lítica con formación de anticuerpos heterófilos.",
+        "D": "Corynebacterium diphtheriae a través de su exotoxina que inhibe el factor de elongación 2 (EF-2)."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Fisiopatología y Agente de la Escarlatina",
+      "gpc_algorithm_step": "La escarlatina es causada por cepas de Streptococcus pyogenes productoras de exotoxinas pirogénicas estreptocócicas (A, B y C). Produce exantema en lija, líneas de Pastia, facies de Filatow y lengua en fresa.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir la escarlatina con síndrome de piel escaldada estafilocócica o mononucleosis infecciosa. El patrón de líneas de Pastia, textura en papel de lija y facies de Filatow es patognomónico de la exotoxina de S. pyogenes."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el agente causal y la toxina responsable del exantema de la escarlatina?",
+        "back": "Streptococcus pyogenes (estreptococo betahemolítico del grupo A) a través de las exotoxinas pirogénicas eritrogénicas (SpeA, SpeB, SpeC).",
+        "tags": "D06 Escarlatina Etiologia Streptococcus GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Escarlatina Estreptocócica y Diagnósticos Diferenciales",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "En el paciente del caso anterior (peso 28 kg), se confirma el diagnóstico de escarlatina estreptocócica. La madre refiere que el niño tolera adecuadamente la vía oral y no tiene antecedentes de alergias a medicamentos. El médico explica que el objetivo fundamental del tratamiento antimicrobiano es erradicar el germen de la vía aérea, prevenir la transmisión y evitar complicaciones no supurativas tardías.",
+      "question_text": "¿Cuál es el tratamiento antimicrobiano de primera línea y su objetivo preventivo principal de acuerdo con la GPC mexicana IMSS-047?",
+      "options": {
+        "A": "Penicilina V potásica oral por 10 días (o Penicilina G benzatínica 1,200,000 UI IM dosis única) para prevenir la Fiebre Reumática Aguda.",
+        "B": "Ciprofloxacino oral por 5 días para prevenir de forma específica la Glomerulonefritis Postestreptocócica.",
+        "C": "Trimetoprima con Sulfametoxazol oral por 7 días para evitar la formación de abscesos periamigdalinos.",
+        "D": "Amoxicilina oral durante 3 días exclusivamente para disminuir la duración del exantema sin efecto en secuelas cardíacas."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tratamiento de Escarlatina y Prevención de Fiebre Reumática",
+      "gpc_algorithm_step": "El tratamiento de elección según GPC es Penicilina V oral por 10 días o Penicilina benzatínica IM dosis única. Su objetivo primordial con evidencia comprobada es prevenir la Fiebre Reumática Aguda (no previene la glomerulonefritis postestreptocócica).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Afirmar que el tratamiento antibiótico previene la Glomerulonefritis Postestreptocócica (GNPE). La penicilina previene con alta eficacia la Fiebre Reumática Aguda, pero NO previene la GNPE."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de 1a línea de escarlatina y qué complicación previene eficazmente?",
+        "back": "Penicilina V oral x 10 días o Penicilina benzatínica IM (dosis única). Previene la Fiebre Reumática Aguda (NO previene la Glomerulonefritis postestreptocócica).",
+        "tags": "D06 Escarlatina Penicilina FiebreReumatica GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Escarlatina Estreptocócica y Diagnósticos Diferenciales",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Imagine que el mismo escolar de 7 años presenta como antecedente médico verificado una reacción anafiláctica severa previa a la amoxicilina hace un año (angioedema orofaríngeo, broncoespasmo y colapso circulatorio que ameritó adrenalina intramuscular).",
+      "question_text": "¿Cuál es el esquema farmacológico alternativo de elección que debe indicarse en este paciente según la GPC?",
+      "options": {
+        "A": "Azitromicina oral a 12 mg/kg/día una vez al día durante 5 días (o Clindamicina oral durante 10 días).",
+        "B": "Cefalexina oral a 50 mg/kg/día cada 8 horas durante 10 días por su baja reactividad cruzada.",
+        "C": "Ceftriaxona intramuscular a 50 mg/kg/día durante 3 dosis consecutivas bajo vigilancia médica.",
+        "D": "Tetraciclina oral a 25 mg/kg/día durante 7 días en tomas fraccionadas."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tratamiento en Alergia a Penicilina en Escarlatina",
+      "gpc_algorithm_step": "En pacientes con hipersensibilidad inmediata (tipo I mediada por IgE: anafilaxia, angioedema) a penicilinas, están contraindicadas todas las penicilinas y cefalosporinas. La primera línea alternativa son los macrólidos (azitromicina/claritromicina) o la clindamicina.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Prescribir cefalosporinas de primera o tercera generación (cefalexina/ceftriaxona) a un paciente con anafilaxia confirmada a penicilina, ignorando la reactividad cruzada mediada por IgE potencialmente fatal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de escarlatina en un paciente con anafilaxia previa a penicilina?",
+        "back": "Macrólidos (Azitromicina 12 mg/kg/día x 5 días o Claritromicina) o Clindamicina x 10 días. Las cefalosporinas están CONTRAINDICADAS ante anafilaxia.",
+        "tags": "D06 Escarlatina AlergiaPenicilina Macrolidos GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Escarlatina Estreptocócica y Diagnósticos Diferenciales",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Tras 24 horas de haber iniciado el tratamiento antibiótico adecuado, la madre del paciente acude a solicitar el justificante médico escolar. El niño se encuentra completamente afebril (36.5 °C), activo, hidratado y con franca mejoría de la odinofagia, aunque el exantema y la descamación laminar palmo-plantar tardía apenas comienzan a hacerse evidentes.",
+      "question_text": "¿Cuál es el criterio oficial de aislamiento y reincorporación a las actividades escolares para este paciente según la GPC?",
+      "options": {
+        "A": "Puede reincorporarse a la escuela al cumplir 24 horas de antibioticoterapia efectiva si permanece afebril.",
+        "B": "Debe mantenerse en aislamiento estricto durante 10 días completos hasta terminar el último comprimido de antibiótico.",
+        "C": "Debe permanecer en cuarentena hasta que haya remitido por completo toda la descamación cutánea de manos y pies.",
+        "D": "Requiere exudado faríngeo con cultivo de control negativo antes de autorizar el regreso a las aulas."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Criterio de Reincorporación Escolar en Escarlatina",
+      "gpc_algorithm_step": "La GPC establece que los pacientes con faringitis estreptocócica/escarlatina dejan de ser contagiosos tras 24 horas de tratamiento antibiótico adecuado y pueden reincorporarse a la escuela si están afebriles.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Condicionar el regreso escolar a la desaparición del exantema o de la descamación descamativa tardía, la cual es un fenómeno postinflamatorio no infeccioso que puede durar semanas."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo puede reincorporarse a la escuela un paciente con escarlatina tratada?",
+        "back": "A las 24 horas de haber iniciado el antibiótico apropiado, siempre y cuando se encuentre afebril.",
+        "tags": "D06 Escarlatina Aislamiento Escuela GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Escolar de 8 años con antecedente de esferocitosis hereditaria es llevado a urgencias por astenia severa, mareo postural y palidez marcada. Hace 5 días presentó febrícula, malestar general y un llamativo eritema confluente en ambas mejillas que respetaba la zona perioral y nasal ('signo de la bofetada'), seguido de un exantema maculopapular eritematoso reticulado con aspecto en 'encaje' en extremidades que se intensificaba con la exposición solar. A la exploración física: palidez mucocutánea extrema de tinte céreo, FC 142 lpm, soplo sistólico eyectivo grado II/VI en foco pulmonar, hepatomegalia 1 cm, esplenomegalia basal conocida sin dolor. Biometría hemática: Hemoglobina 3.8 g/dL, Hematocrito 11.4%, Leucocitos 5,200/mm3, Plaquetas 185,000/mm3, Reticulocitos 0.1% (absolutos 4,000/mm3). Bilirrubina total 1.4 mg/dL a expensas de indirecta.",
+      "question_text": "¿Cuál es el agente causal del cuadro exantemático, la complicación hematológica desarrollada y la conducta terapéutica inmediata?",
+      "options": {
+        "A": "Parvovirus B19; Crisis aplásica transitoria por tropismo hacia receptores del antígeno P eritrocitario; requiere transfusión urgente de concentrado eritrocitario.",
+        "B": "Herpesvirus humano tipo 6; Crisis de secuestro esplénico agudo; requiere esplenectomía de urgencia.",
+        "C": "Virus de Coxsackie A16; Anemia hemolítica autoinmune por anticuerpos calientes; requiere bolos de metilprednisolona.",
+        "D": "Streptococcus pyogenes; Supresión medular tóxica; requiere plasmaféresis e inmunoglobulina intravenosa."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Eritema Infeccioso, Parvovirus B19 y Crisis Aplásica",
+      "gpc_algorithm_step": "El Parvovirus B19 se une al antígeno P de los progenitores eritroides deteniendo temporalmente la eritropoyesis. En pacientes con anemias hemolíticas crónicas con sobrevida eritrocitaria acortada, produce crisis aplásica con reticulocitopenia severa (< 1%). Tratamiento de urgencia: transfusión de concentrado eritrocitario.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Confundir la crisis aplásica por Parvovirus B19 con crisis de secuestro esplénico o crisis hemolítica hiperaguda. La clave diagnóstica irrebatible son los RETICULOCITOS CASI EN CERO (0.1%), que demuestran paro medular eritroide."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se manifiesta la infección por Parvovirus B19 en pacientes con anemia hemolítica crónica?",
+        "back": "Crisis aplásica transitoria: anemia grave con reticulocitopenia severa (reticulocitos < 1%). Tratamiento: transfusión de concentrado de hematíes.",
+        "tags": "D06 ParvovirusB19 CrisisAplasica Esferocitosis GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Lactante femenino de 10 meses de edad acudió a urgencias hace 3 días por fiebre de 39.7 °C de inicio súbito, sin foco aparente en la exploración física. Presentó un episodio de crisis convulsiva febril simple generalizada de 2 minutos de duración. El examen general de orina, biometría hemática y radiografía de tórax fueron normales. El día de hoy la madre regresa a consulta porque, al remitir la fiebre de forma súbita por lisis, apareció en cuestión de horas un exantema de pequeñas máculas y pápulas rosadas tenues de 2 a 3 mm, no confluentes, no pruriginosas, localizadas predominantemente en el tronco y cuello, con escasa afectación facial. A la exploración física: niña afebril (36.6 °C), sonriente, reactiva, con máculas eritematosas en paladar blando y úvula (manchas de Nagayama).",
+      "question_text": "¿Cuál es el diagnóstico clínico definitivo y su agente etiológico primordial según la GPC?",
+      "options": {
+        "A": "Exantema súbito (roséola infantil / sexta enfermedad) causado por el Herpesvirus humano tipo 6 (HHV-6).",
+        "B": "Eritema infeccioso (quinta enfermedad) causado por el Parvovirus humano B19.",
+        "C": "Rubéola adquirida causada por un virus de la familia Togaviridae.",
+        "D": "Mononucleosis infecciosa causada por el Citomegalovirus humano."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Exantema Súbito y Patrón de Defervescencia",
+      "gpc_algorithm_step": "El exantema súbito (HHV-6 y HHV-7) es clásico en lactantes de 6-15 meses: cursa con fiebre alta 3-5 días y crisis febriles. Al caer la fiebre por lisis aparece bruscamente el exantema maculopapular en tronco más manchas de Nagayama.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El error clásico es confundir exantema súbito con sarampión o rubéola. En sarampión el exantema brota con el pico máximo de fiebre; en el exantema súbito el exantema aparece JUSTO CUANDO LA FIEBRE DESAPARECE."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la característica clínica cardinal que define al exantema súbito (roséola)?",
+        "back": "Fiebre alta de 3-5 días que al desaparecer bruscamente (por lisis) da paso a un exantema maculopapular rosado en tronco (asociado a manchas de Nagayama en paladar).",
+        "tags": "D06 ExantemaSubito Roseola HHV6 Pediatria"
+      }
+    },
+    {
+      "id": "d06_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Lactante masculino de 16 meses de edad asiste a guardería y es llevado a consulta por presentar febrícula de 38.1 °C, anorexia y odinofagia. A la exploración física se observan úlceras dolorosas superficiales de 2 a 4 mm con halo eritematoso en mucosa labial y lengua. Simultáneamente, en las palmas de las manos, plantas de los pies y nalgas se aprecian vesículas elípticas de pared delgada, no pruriginosas, de eje mayor paralelo a las líneas cutáneas, rodeadas por un anillo eritematoso. Veinticuatro horas después, el niño desarrolla taquicardia sinusal desproporcionada (FC 180 lpm), mioclonías en extremidades, ataxia troncal, dificultad respiratoria súbita y esputo asalmonado espumoso.",
+      "question_text": "¿Cuál es el serotipo viral causante con mayor propensión a provocar este cuadro de rombencefalitis y edema pulmonar neurogénico?",
+      "options": {
+        "A": "Enterovirus A71 (EV-A71).",
+        "B": "Virus Coxsackie A16 (CVA16).",
+        "C": "Echovirus serotipo 11.",
+        "D": "Poliovirus tipo 1 Sabin mutado."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Enfermedad Mano-Pie-Boca y Neurovirulencia por Enterovirus 71",
+      "gpc_algorithm_step": "La enfermedad mano-pie-boca suele ser causada por Coxsackie A16 (benigna y autolimitada). Sin embargo, el Enterovirus A71 se asocia a complicaciones neurológicas graves (rombencefalitis, meningitis aséptica) y edema pulmonar neurogénico de rápida letalidad.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Asumir Coxsackie A16 como respuesta automática al identificar mano-pie-boca, sin reconocer la complicación neurológica/edema pulmonar que apunta específicamente a Enterovirus A71."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué serotipo de la enfermedad mano-pie-boca se asocia a rombencefalitis y edema pulmonar neurogénico?",
+        "back": "Enterovirus A71 (EV-A71). El Coxsackie A16 es el más común pero cursa benigno.",
+        "tags": "D06 ManoPieBoca Enterovirus71 Rombencefalitis GPC"
+      }
+    },
+    {
+      "id": "d06_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Niña de 11 años de edad, alumna regular de 5° año de primaria, acude con su madre a la Unidad de Medicina Familiar durante una jornada de salud comunitaria. Cuenta con esquema de vacunación básico completo para su edad en su Cartilla Nacional de Salud, pero no ha recibido vacunas en los últimos 4 años. La madre pregunta si a su hija le corresponde la vacuna contra el Virus del Papiloma Humano (VPH) y cómo se aplica actualmente en México.",
+      "question_text": "¿Cuál es la recomendación oficial actual del Programa de Vacunación Universal (CENSIA / NOM-036) respecto a la inmunización contra VPH para esta paciente?",
+      "options": {
+        "A": "Aplicar una dosis única de vacuna recombinante contra VPH intramuscular en región deltoidea a niñas que cursan el 5° grado de primaria o de 11 años de edad no escolarizadas.",
+        "B": "Iniciar esquema de 3 dosis (0, 2 y 6 meses) exclusivo para mayores de 15 años de edad.",
+        "C": "Contraindicar la vacuna de VPH en menores de 13 años por interferencia con los estrógenos puberales.",
+        "D": "Solicitar previamente captura de híbridos o PCR de VPH antes de autorizar la aplicación del biológico."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Esquema Nacional de Vacunación contra VPH en México",
+      "gpc_algorithm_step": "En México, la política nacional de CENSIA y la actualización normativa contemplan la aplicación de dosis única contra VPH a niñas en 5° grado de primaria o de 11 años no escolarizadas, así como en mujeres cis y trans que viven con VIH (esquema de 3 dosis en este último grupo).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Elegir esquemas estadounidenses de 2 o 3 dosis antiguas sin conocer la actualización rectora de la Secretaría de Salud de México / OMS que adoptó el esquema simplificado de dosis única para optimizar cobertura poblacional."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la población objetivo y el esquema de la vacuna contra VPH en México según CENSIA/NOM-036?",
+        "back": "Niñas de 5° grado de primaria o de 11 años no escolarizadas: Dosis ÚNICA intramuscular (0.5 mL en deltoides).",
+        "tags": "D06 VPH EsquemaNacional CENSIA NOM-036"
+      }
+    },
+    {
+      "id": "d06_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Adolescente de 14 años de edad sufre una herida punzocortante profunda en la planta del pie derecho al pisar una tabla con un clavo oxidado cubierto de tierra de establo en un rancho. Acude al servicio de urgencias 8 horas después del accidente. A la exploración: herida puntiforme anfractuosa de 1.5 cm de profundidad con bordes desvitalizados y restos de materia orgánica. La madre muestra la Cartilla Nacional de Salud del paciente: recibió 3 dosis de Pentavalente en el primer año de vida, refuerzo al año y medio, y refuerzo con DPT a los 4 años de edad cumplidos. No ha recibido biológicos adicionales desde entonces.",
+      "question_text": "¿Cuál es la conducta de profilaxis antitetánica correcta e indicada según la NOM-036-SSA2 y la GPC?",
+      "options": {
+        "A": "Administrar una dosis de Toxoide tetánico y diftérico (vacuna Td); no requiere Inmunoglobulina Antitetánica Humana (IGH).",
+        "B": "Administrar Inmunoglobulina Antitetánica Humana (IGH) 250 UI de forma aislada, omitiendo la vacuna Td por antecedente de DPT previo.",
+        "C": "Administrar simultáneamente Toxoide tetánico (Td) e Inmunoglobulina Antitetánica Humana (IGH) 250 UI en sitios anatómicos separados.",
+        "D": "No requiere vacuna ni inmunoglobulina debido a que el esquema infantil primario confiere inmunidad permanente de por vida."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Profilaxis Antitetánica en Heridas de Riesgo",
+      "gpc_algorithm_step": "En heridas sucias/tetanígenas: si el paciente tiene antecedente documentado de esquema completo (≥ 3 dosis) pero han transcurrido > 5 años desde la última dosis, se aplica una dosis de refuerzo con Td. La Inmunoglobulina (IGH) solo se añade si el esquema es incompleto (< 3 dosis) o desconocido.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Administrar IGH (inmunoglobulina antitetánica) por tratarse de una herida muy sucia y profunda, olvidando que el paciente tiene un esquema previo de ≥ 3 dosis comprobadas, por lo que su memoria inmunológica solo requiere reactivación con toxoide (Td)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo se indica Td e Inmunoglobulina antitetánica (IGH) en una herida tetanígena sucia?",
+        "back": "- Esquema ≥ 3 dosis previas: Solo Td si pasaron > 5 años de la última dosis (NO requiere IGH).\n- Esquema < 3 dosis o desconocido: Td + IGH (250 UI) en sitios anatómicos distintos.",
+        "tags": "D06 Tetanos Profilaxis HeridaTetanigena NOM-036"
+      }
+    },
+    {
+      "id": "d06_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Kawasaki Disease and Coronary Complications",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "A 2-year-and-8-month-old previously healthy boy is brought to the pediatric emergency department with a 6-day history of continuous high fever (39.5 °C) that has been refractory to alternating therapeutic doses of acetaminophen and ibuprofen. The mother reports extreme irritability, decreased oral intake, and swollen hands. Physical examination reveals: HR 148 bpm, RR 30 rpm, BP 92/58 mmHg, Temp 39.1 °C. Bilateral non-exudative bulbar conjunctival injection sparing the limbus is present. His lips are dry, deeply erythematous, and cracked, and the tongue exhibits prominent hypertrophic papillae with a 'strawberry' appearance. A solitary, tender, non-fluctuant anterior cervical lymph node measuring 2.0 cm is palpated in the right jugulodigastric chain. The palms and soles show diffuse erythema with non-pitting indurated edema over the dorsum of the hands and feet. A polymorphous maculopapular rash is noted on the trunk and perineal area.",
+      "question_text": "According to the Mexican Clinical Practice Guideline (GPC IMSS-302) and the American Heart Association criteria, which initial bedside imaging study is strictly required to establish baseline cardiovascular assessment?",
+      "options": {
+        "A": "Transthoracic two-dimensional echocardiography with color Doppler as soon as the clinical diagnosis is suspected.",
+        "B": "Coronary multi-detector computed tomography angiography (64-slice CT) with 3D vascular reconstruction.",
+        "C": "Diagnostic selective invasive coronary catheterization under general anesthesia.",
+        "D": "Late gadolinium enhancement cardiac magnetic resonance imaging (CMR)."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Initial Cardiovascular Evaluation in Kawasaki Disease",
+      "gpc_algorithm_step": "Transthoracic echocardiography is the primary, non-invasive imaging modality of choice. It must be performed immediately upon suspected diagnosis of Kawasaki disease to evaluate coronary artery dimensions (Z-score), myocardial function, and pericardial effusion.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Selecting invasive coronary catheterization or high-radiation CT angiography as the initial diagnostic modality, rather than bedside non-invasive echocardiography mandated by both GPC and AHA."
+      },
+      "anki_flashcard": {
+        "front": "What is the initial diagnostic imaging modality of choice in Kawasaki disease?",
+        "back": "Transthoracic echocardiography with color Doppler, performed immediately at diagnosis to establish baseline coronary dimensions (Z-score).",
+        "tags": "D06 Kawasaki Echocardiography GPC English"
+      }
+    },
+    {
+      "id": "d06_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Kawasaki Disease and Coronary Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "In the same 2-year-old patient with confirmed classic Kawasaki disease on day 6 of illness, baseline laboratory tests reveal: Hb 10.1 g/dL, WBC 19,800/mm3 with 82% neutrophils, Platelets 490,000/mm3, Erythrocyte Sedimentation Rate (ESR) 82 mm/h, C-Reactive Protein (CRP) 98 mg/L (normal < 5), ALT 74 IU/L, Serum Albumin 2.8 g/dL. Urinalysis demonstrates sterile pyuria (18 WBCs per high-power field). The baseline echocardiogram shows normal left ventricular systolic function with coronary artery internal diameters corresponding to a Z-score of +1.8 in the left anterior descending artery.",
+      "question_text": "Which first-line pharmacological regimen must be administered promptly to halt vascular inflammation and reduce the risk of coronary artery aneurysms according to GPC IMSS-302?",
+      "options": {
+        "A": "Intravenous Immunoglobulin (IVIG) single infusion of 2 g/kg over 10-12 hours PLUS High-dose Aspirin (30 to 50 mg/kg/day or 80 to 100 mg/kg/day divided every 6 hours).",
+        "B": "Intravenous Methylprednisolone pulses at 30 mg/kg/day for 3 consecutive days PLUS prophylactic Subcutaneous Enoxaparin.",
+        "C": "Infliximab single infusion at 5 mg/kg PLUS oral Dipyridamole as primary first-line biologic monotherapy.",
+        "D": "Low-dose Aspirin alone (3 to 5 mg/kg/day) withholding IVIG until coronary dilation exceeds a Z-score of +2.5."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "First-Line Pharmacotherapy for Acute Kawasaki Disease",
+      "gpc_algorithm_step": "Standard first-line therapy within the first 10 days is IVIG 2 g/kg in a single 10-12 hour infusion combined with anti-inflammatory doses of Aspirin (30-50 mg/kg/day or 80-100 mg/kg/day), followed by low-dose aspirin (3-5 mg/kg/day) once afebrile for 48-72 hours.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Delaying IVIG or prescribing only antiplatelet doses (3-5 mg/kg/day) of aspirin, which increases the rate of coronary aneurysms from 4% to over 20-25%."
+      },
+      "anki_flashcard": {
+        "front": "What is the standard first-line treatment for acute Kawasaki disease according to GPC?",
+        "back": "IVIG 2 g/kg (single infusion over 10-12 h) + High-dose Aspirin (30-50 mg/kg/day or 80-100 mg/kg/day) within the first 10 days of illness.",
+        "tags": "D06 Kawasaki IVIG Aspirin GPC English"
+      }
+    },
+    {
+      "id": "d06_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Kawasaki Disease and Coronary Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The patient successfully completes the 2 g/kg IVIG infusion and high-dose aspirin regimen. However, 38 hours after the completion of the infusion, his body temperature spikes again to 39.3 °C accompanied by worsening irritability and recrudescence of the conjunctival injection. Repeat inflammatory markers show: CRP 110 mg/L, WBC 21,500/mm3. Blood cultures collected at the time of fever recurrence remain negative at 24 hours. The clinical team confirms IVIG-resistant (refractory) Kawasaki disease.",
+      "question_text": "What is the most appropriate next step in pharmacological management according to GPC IMSS-302 and international pediatric guidelines?",
+      "options": {
+        "A": "Administer a second dose of Intravenous Immunoglobulin at 2 g/kg in a single infusion (or intravenous Methylprednisolone pulse therapy).",
+        "B": "Immediately initiate therapeutic anticoagulation with intravenous unfractionated heparin without further immunomodulation.",
+        "C": "Discontinue aspirin and start broad-spectrum empirical intravenous vancomycin plus meropenem for secondary hospital-acquired sepsis.",
+        "D": "Observe expectantly for 7 days without changing medications since fever recrudescence is an expected physiological rebound."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Management of IVIG-Refractory Kawasaki Disease",
+      "gpc_algorithm_step": "IVIG resistance is defined as persistent or recrudescent fever ≥ 36 hours after completion of initial IVIG. The primary treatment of choice is a second infusion of IVIG (2 g/kg) or high-dose pulse methylprednisolone (30 mg/kg/day for 3 days).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Assuming the fever recurrence represents an opportunistic hospital-acquired bacterial infection and stopping Kawasaki-directed therapy, which leaves the ongoing coronary arteritis untreated."
+      },
+      "anki_flashcard": {
+        "front": "How is IVIG-resistant Kawasaki disease defined and managed according to GPC?",
+        "back": "Definition: Fever persisting or recurring ≥ 36 hours post-IVIG.\nManagement: Second dose of IVIG (2 g/kg) OR pulse Methylprednisolone (30 mg/kg/day x 3 days).",
+        "tags": "D06 Kawasaki Refractory IVIG-Resistance GPC English"
+      }
+    },
+    {
+      "id": "d06_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Kawasaki Disease and Coronary Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Following the second immunomodulatory cycle, the patient becomes permanently afebrile. A follow-up echocardiogram obtained at week 3 (subacute phase) demonstrates a saccular aneurysm in the proximal right coronary artery measuring 8.5 mm in internal luminal diameter, with an adjusted body surface area Z-score of +11.2 (Giant Coronary Artery Aneurysm). His platelet count has risen to 820,000/mm3.",
+      "question_text": "What is the mandatory long-term antithrombotic and anticoagulation management regimen indicated for this patient to prevent catastrophic coronary thrombosis?",
+      "options": {
+        "A": "Dual therapy consisting of Low-dose Aspirin (3 to 5 mg/kg/day) PLUS systemic therapeutic anticoagulation with Warfarin (target INR 2.0-3.0) or Low-Molecular-Weight Heparin.",
+        "B": "Low-dose Aspirin monotherapy (3 to 5 mg/kg/day) avoiding anticoagulants due to bleeding risks in toddlers.",
+        "C": "Clopidogrel monotherapy at 1 mg/kg/day without aspirin or anticoagulant monitoring.",
+        "D": "Immediate emergency coronary artery bypass graft surgery (CABG) withholding all antiplatelet and anticoagulant medications."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Antithrombotic Management of Giant Coronary Aneurysms",
+      "gpc_algorithm_step": "Patients with giant coronary aneurysms (internal diameter ≥ 8 mm or Z-score ≥ 10) require long-term dual antithrombotic therapy combining low-dose aspirin with systemic anticoagulation (Warfarin target INR 2.0-3.0 or LMWH) due to high risk of sluggish flow, stasis, and lethal thrombosis.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Prescribing antiplatelet monotherapy (aspirin alone). While appropriate for small aneurysms (Z-score 2.5 to 5), giant aneurysms (Z-score ≥ 10 or > 8 mm) carry an extreme risk of thrombosis and strictly require systemic anticoagulation (Warfarin/LMWH) combined with aspirin."
+      },
+      "anki_flashcard": {
+        "front": "What antithrombotic regimen is indicated for giant coronary aneurysms (Z-score ≥ 10 or diameter ≥ 8 mm) in Kawasaki disease?",
+        "back": "Dual therapy: Low-dose Aspirin (3-5 mg/kg/day) PLUS systemic anticoagulation (Warfarin, target INR 2.0-3.0, or therapeutic LMWH).",
+        "tags": "D06 Kawasaki GiantAneurysm Anticoagulation GPC English"
+      }
+    }
+  ]
+}

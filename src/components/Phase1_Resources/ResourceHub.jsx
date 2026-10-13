@@ -38,7 +38,8 @@ import {
   Send,
   Image as ImageIcon,
   History,
-  ZoomIn
+  ZoomIn,
+  Clipboard
 } from "lucide-react";
 
 // Extraer ID de YouTube para embed seguro
@@ -422,12 +423,12 @@ export function ResourceHub({ topic, onBackToHub, onProceedToAnki }) {
           const ytEmbedUrl = isVideo ? getYouTubeEmbedUrl(res.url) : null;
 
           const isExpanded = expandedMap[res.id] !== false; // Abierto por defecto, permite contraer
-          const cardFontSize = fontSizeMap[res.id] || "xs";
-          const fontSizeClasses = {
-            xs: "text-xs leading-relaxed",
-            sm: "text-sm leading-relaxed",
-            base: "text-base leading-relaxed",
-            lg: "text-lg leading-loose"
+          const cardFontSize = fontSizeMap[res.id] || "sm";
+          const fontSizeStyles = {
+            xs: { fontSize: "12px", lineHeight: "1.6" },
+            sm: { fontSize: "14.5px", lineHeight: "1.65" },
+            base: { fontSize: "16.5px", lineHeight: "1.7" },
+            lg: { fontSize: "19px", lineHeight: "1.75" }
           };
 
           const comments = Array.isArray(res.comments) ? res.comments : [];
@@ -644,6 +645,37 @@ export function ResourceHub({ topic, onBackToHub, onProceedToAnki }) {
                 </div>
               )}
 
+              {/* VISTA PREVIA INFORMATIVA CUANDO ESTÁ COLAPSADO */}
+              {!isExpanded && (
+                <div 
+                  onClick={() => toggleExpand(res.id)}
+                  className="p-3 rounded-xl border border-dashed border-slate-300 dark:border-slate-700 bg-slate-50/70 dark:bg-slate-950/40 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-900 transition-all space-y-1.5"
+                >
+                  {res.content && (
+                    <p className="text-xs text-slate-600 dark:text-slate-300 line-clamp-2 leading-relaxed">
+                      {res.content.replace(/[#*`_~\[\]]/g, "").slice(0, 160)}...
+                    </p>
+                  )}
+                  <div className="flex items-center justify-between text-[11px] font-semibold text-slate-500 pt-0.5">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      {res.content && (
+                        <span>~{Math.max(1, Math.ceil(res.content.split(/\s+/).length / 130))} min de lectura</span>
+                      )}
+                      {res.manualRef?.manualName && (
+                        <span className="text-amber-700 dark:text-amber-300 font-bold">
+                          📖 {res.manualRef.manualName} (Pág. {res.manualRef.pages || "—"})
+                        </span>
+                      )}
+                      {ytEmbedUrl && <span className="text-rose-600 font-bold">🎬 Video YouTube</span>}
+                      {res.imageUrl && <span className="text-emerald-600 font-bold">🖼️ Algoritmo / Infografía</span>}
+                    </div>
+                    <span className="text-blue-600 dark:text-cyan-400 font-extrabold text-[10px] flex items-center gap-0.5">
+                      Ver material completo ▼
+                    </span>
+                  </div>
+                </div>
+              )}
+
               {/* CUERPO EXPANDIDO (CONTENIDO MARKDOWN) */}
               {isExpanded && (
                 <>
@@ -663,7 +695,10 @@ export function ResourceHub({ topic, onBackToHub, onProceedToAnki }) {
 
                   {/* Contenido / Resumen con Markdown, fórmulas KaTeX y cajas Anki TSV */}
                   {res.content && (
-                    <div className={`clinical-case-text p-3.5 rounded-xl border-2 border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950/50 overflow-x-auto ${fontSizeClasses[cardFontSize]}`}>
+                    <div 
+                      style={fontSizeStyles[cardFontSize] || fontSizeStyles.sm}
+                      className="p-3.5 rounded-xl border-2 border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950/50 overflow-x-auto transition-all"
+                    >
                       <MarkdownRenderer
                         content={res.content}
                         onImportTsvCards={handleImportTsvFromResource}
@@ -1005,7 +1040,29 @@ export function ResourceHub({ topic, onBackToHub, onProceedToAnki }) {
               </div>
 
               <div>
-                <label className="text-xs font-bold block mb-1">Contenido / Notas (Soporta Markdown y LaTeX $$...$$)</label>
+                <div className="flex items-center justify-between mb-1">
+                  <label className="text-xs font-bold block">Contenido / Notas (Soporta Markdown y LaTeX $$...$$)</label>
+                  <button
+                    type="button"
+                    onClick={async () => {
+                      try {
+                        const text = await navigator.clipboard.readText();
+                        if (text && text.trim()) {
+                          setEditContent(text);
+                          showToast("¡Texto pegado desde el portapapeles!", "success");
+                        } else {
+                          showToast("El portapapeles está vacío", "info");
+                        }
+                      } catch (err) {
+                        showToast("No se pudo acceder al portapapeles. Pégalo manualmente.", "error");
+                      }
+                    }}
+                    className="px-2 py-0.5 rounded-lg text-[10px] font-black border border-indigo-300 dark:border-indigo-700 bg-indigo-50 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300 flex items-center gap-1 cursor-pointer active:scale-95 transition-all"
+                  >
+                    <Clipboard className="w-3 h-3" />
+                    <span>Pegar Portapapeles</span>
+                  </button>
+                </div>
                 <textarea
                   rows={5}
                   value={editContent}
@@ -1208,9 +1265,31 @@ export function ResourceHub({ topic, onBackToHub, onProceedToAnki }) {
               )}
 
               <div>
-                <label className="text-xs font-bold block mb-1">
-                  Contenido / Notas (Soporta Markdown y LaTeX $$...$$)
-                </label>
+                <div className="flex items-center justify-between mb-1">
+                  <label className="text-xs font-bold block">
+                    Contenido / Notas (Soporta Markdown y LaTeX $$...$$)
+                  </label>
+                  <button
+                    type="button"
+                    onClick={async () => {
+                      try {
+                        const text = await navigator.clipboard.readText();
+                        if (text && text.trim()) {
+                          setNewContent(text);
+                          showToast("¡Texto pegado desde el portapapeles!", "success");
+                        } else {
+                          showToast("El portapapeles está vacío", "info");
+                        }
+                      } catch (err) {
+                        showToast("No se pudo acceder al portapapeles. Pégalo manualmente.", "error");
+                      }
+                    }}
+                    className="px-2 py-0.5 rounded-lg text-[10px] font-black border border-indigo-300 dark:border-indigo-700 bg-indigo-50 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300 flex items-center gap-1 cursor-pointer active:scale-95 transition-all"
+                  >
+                    <Clipboard className="w-3 h-3" />
+                    <span>Pegar Portapapeles</span>
+                  </button>
+                </div>
                 <textarea
                   rows={4}
                   placeholder="Escribe notas, perlas clínicas, fórmulas como $$\text{Osm} = 2\text{Na} + \text{Gluc}/18$$..."

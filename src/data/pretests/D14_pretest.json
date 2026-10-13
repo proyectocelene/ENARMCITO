@@ -1,0 +1,392 @@
+{
+  "topic_code": "D14",
+  "title": "Pre-Test Psicométrico: Patología Mamaria (BI-RADS, CaMa) y Diabetes Gestacional (DMG)",
+  "normativa_origen": "NOM-041-SSA2-2011 / GPC IMSS-232-09 / GPC IMSS-320",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d14_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "NOM-041-SSA2-2011 / GPC IMSS-232-09",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 52 años, menopáusica desde hace 3 años sin terapia de reemplazo hormonal, acude a consulta externa ginecológica por notar desde hace 2 meses una induración no dolorosa en la mama derecha. A la exploración física: glándula mamaria derecha con masa palpable en cuadrante superior externo de aproximadamente 2.5 cm, consistencia pétrea, bordes irregulares, fija a planos profundos, con leve retracción de la piel suprayacente sin telorrea; se palpa una adenopatía axilar ipsilateral móvil de 1 cm, no dolorosa. La mastografía diagnóstica reporta una masa hiperdensa espiculada de 24 mm en cuadrante superior externo derecho asociada a microcalcificaciones pleomórficas agrupadas y distorsión de la arquitectura, catalogada como BI-RADS 5.",
+      "question_text": "De acuerdo con la NOM-041-SSA2-2011 y la GPC IMSS-232 para la prevención, tamizaje y diagnóstico del cáncer de mama, ¿cuál es el procedimiento confirmatorio de elección (estándar de oro diagnóstico) que debe indicarse en este momento?",
+      "options": {
+        "A": "Biopsia por aspiración con aguja fina (BAAF) en consultorio para frotis citológico convencional inmediato.",
+        "B": "Biopsia percutánea con aguja de corte (Tru-Cut) guiada por imagen (ultrasonido o estereotaxia) para estudio histopatológico e inmunohistoquímica.",
+        "C": "Resonancia magnética mamaria bilateral con contraste dinámico para confirmar malignidad antes de cualquier biopsia.",
+        "D": "Mastectomía radical modificada urgente con vaciamiento ganglionar axilar de niveles I y II sin diagnóstico histológico previo."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Lesión mamaria sospechosa (BI-RADS 5): la biopsia percutánea con aguja de corte (Tru-Cut) guiada por imagen es el estándar de oro confirmatorio inicial obligatorio, permitiendo evaluar arquitectura histológica e inmunohistoquímica (RE, RP, HER2, Ki-67) sin la morbilidad de una biopsia abierta inicial.",
+      "justificacion_gpc": "La NOM-041-SSA2-2011 y la GPC IMSS-232 establecen categóricamente que ante una lesión mamaria con alta sospecha de malignidad (BI-RADS 4 o 5), el método confirmatorio de elección es la biopsia percutánea con aguja de corte (Tru-Cut) guiada por ultrasonido o estereotaxia. Este procedimiento obtiene cilindros de tejido que permiten diferenciar un carcinoma in situ de uno invasor y realizar el perfil inmunohistoquímico completo (RE, RP, HER2 y Ki-67), indispensable para la toma de decisiones terapéuticas. La biopsia por aspiración con aguja fina (BAAF) tiene alta tasa de falsos negativos y no distingue invasión.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón Subóptimo]: La punción por aspiración con aguja fina (BAAF) solo provee material citológico que no puede distinguir invasión estromal ni ofrece suficiente tejido para técnicas inmunohistoquímicas estandarizadas.",
+        "C": "[Distractor de Espectro por Imagen]: La resonancia magnética no sustituye a la biopsia histológica; realizarla antes de la confirmación tisular en una lesión BI-RADS 5 evidente encarece y retrasa innecesariamente el tratamiento oncológico.",
+        "D": "[Distractor de Radicalidad Iatrogénica]: Proceder a resección quirúrgica oncológica mayor sin diagnóstico histopatológico previo viola la normativa mexicana y los estándares oncológicos universales."
+      }
+    },
+    {
+      "id": "d14_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-232-09 / NOM-041-SSA2-2011",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "En la paciente de 52 años del caso anterior, la biopsia Tru-Cut confirma un carcinoma ductal infiltrante (carcinoma invasor de tipo no especial) grado 2. Se realiza cirugía conservadora de mama con márgenes negativos y biopsia de ganglio centinela que resulta negativa para metástasis (pT2 N0 M0, estadio clínico IIA). El informe definitivo de inmunohistoquímica revela: Receptores de Estrógeno (RE) positivos en 95%, Receptores de Progesterona (RP) positivos en 85%, HER2 negativo (score 0), y un índice de proliferación celular Ki-67 del 8% (subtipo molecular Luminal A). Se programa radioterapia adyuvante sobre el volumen mamario remanente. Se confirma su estado postmenopáusico.",
+      "question_text": "Con base en la GPC IMSS-232 y los consensos oncológicos para cáncer de mama sensible a hormonas en la postmenopausia, ¿cuál es el tratamiento adyuvante sistémico de primera línea de elección que debe indicarse?",
+      "options": {
+        "A": "Terapia endocrina adyuvante con un inhibidor de aromatasa no esteroideo (Letrozol o Anastrozol) por vía oral durante 5 años.",
+        "B": "Modulador selectivo de receptores estrogénicos (Tamoxifeno) oral a dosis de 20 mg/día como monoterapia preferente por encima de inhibidores de aromatasa.",
+        "C": "Terapia biológica dirigida con Trastuzumab intravenoso cada 3 semanas durante 12 meses.",
+        "D": "Quimioterapia sistémica poliquimioterápica intensiva basada en Antraciclinas y Taxanos (esquema AC-T) sin bloqueo hormonal complementario."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Mujer postmenopáusica con cáncer de mama subtipo Luminal A (RE+, RP+, HER2-, Ki-67 bajo): la primera línea de tratamiento endocrino adyuvante son los inhibidores de aromatasa de tercera generación (Letrozol o Anastrozol) por 5 años, superiores a tamoxifeno en este grupo.",
+      "justificacion_gpc": "La GPC IMSS-232 y las guías oncológicas internacionales estipulan que en mujeres postmenopáusicas con cáncer de mama temprano y receptores hormonales positivos (especialmente subtipo Luminal A), los inhibidores de aromatasa de tercera generación (como Letrozol 2.5 mg/día o Anastrozol 1 mg/día) son la terapia endocrina de primera línea de elección durante 5 años. Estos agentes han demostrado una mayor reducción en la tasa de recurrencias locales, a distancia y cáncer de mama contralateral en comparación con tamoxifeno. El tamoxifeno es de primera elección primordialmente en pacientes premenopáusicas.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Menopáusico]: El tamoxifeno es la primera línea en pacientes PREmenopáusicas; en la postmenopausia, los inhibidores de aromatasa ofrecen mayor supervivencia libre de progresión y menor riesgo tromboembólico o endometrial.",
+        "C": "[Distractor de Espectro Inmuno-Oncológico]: El trastuzumab está dirigido contra el receptor HER2; en un tumor clasificado como HER2 negativo (score 0), carece de diana biológica y está contraindicado.",
+        "D": "[Distractor por Toxicidad Injustificada]: Los tumores Luminal A en estadio temprano sin ganglios afectados tienen mínima o nula respuesta a quimioterapia citotóxica y excelente pronóstico con endocrinoterapia sola, por lo que la quimioterapia AC-T añade morbilidad severa innecesaria."
+      }
+    },
+    {
+      "id": "d14_q3",
+      "index": 3,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "NOM-041-SSA2-2011 / Léxico BI-RADS ACR",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Durante la sesión clínica multidisciplinaria de revisión del caso anterior, el médico residente analiza la imagen mastográfica inicial de la paciente: nódulo denso espiculado con sombra acústica posterior, bordes indistintos y microcalcificaciones pleomórficas lineales ramificadas que motivaron la clasificación BI-RADS 5. El comité le solicita fundamentar ante el equipo quirúrgico la probabilidad de malignidad establecida por la normativa para dicha categoría y la conducta mandatoria.",
+      "question_text": "De acuerdo con la NOM-041-SSA2-2011 y la clasificación BI-RADS del Colegio Americano de Radiología, ¿cuál es el porcentaje de probabilidad de malignidad que define a la categoría BI-RADS 5 y cuál es la pauta de manejo obligatoria?",
+      "options": {
+        "A": "Probabilidad de malignidad entre 2% y 10% (sospecha baja); amerita seguimiento radiológico semestral a los 6 meses.",
+        "B": "Probabilidad de malignidad entre 10% y 50% (sospecha moderada); amerita aspiración con aguja fina o resección diferida en 3 meses.",
+        "C": "Probabilidad de malignidad mayor o igual al 95% (altamente sugerente de malignidad); amerita indicación obligatoria de biopsia tisular y planeación terapéutica oncológica expedita.",
+        "D": "Probabilidad de malignidad menor al 2%; catalogada como lesión probablemente benigna que permite diferir la biopsia a 24 meses."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Categoría BI-RADS 5: confiere una probabilidad de malignidad ≥ 95% y obliga a la toma inmediata de biopsia histológica guiada por imagen y preparación del abordaje oncológico.",
+      "justificacion_gpc": "La NOM-041-SSA2-2011 adopta el léxico y categorización BI-RADS: BI-RADS 0 (incompleto), BI-RADS 1 (negativo, 0%), BI-RADS 2 (benigno, 0%), BI-RADS 3 (probablemente benigno, < 2%), BI-RADS 4 (sospecha de malignidad: 4A 2-10%, 4B 10-50%, 4C 50-95%), BI-RADS 5 (altamente sugerente de malignidad, ≥ 95%), y BI-RADS 6 (malignidad demostrada por biopsia previa). Para BI-RADS 5, la probabilidad de cáncer es ≥ 95% y la indicación mandatoria es la biopsia histológica percutánea urgente y planeación del tratamiento oncológico.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Espectro",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Subestimación Severa]: Una probabilidad del 2% al 10% define a la subcategoría BI-RADS 4A (baja sospecha), no a BI-RADS 5.",
+        "B": "[Distractor de Subcategoría 4B]: Una probabilidad del 10% al 50% corresponde a BI-RADS 4B (sospecha intermedia).",
+        "D": "[Distractor de Lesión Probablemente Benigna]: Una probabilidad < 2% define a BI-RADS 3, cuyo manejo es el seguimiento semestral y no la biopsia inmediata."
+      }
+    },
+    {
+      "id": "d14_q4",
+      "index": 4,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-320 / IADPSG Consensus",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Paciente de 29 años, segundigesta con antecedente de un parto eutócico a término sin complicaciones hace 3 años, cursando embarazo actual de 25 semanas de gestación por fecha de última menstruación confiable y ecografía de primer trimestre. Cuenta con IMC pregestacional de 27.8 kg/m2 (sobrepeso) y antecedente de madre con diabetes mellitus tipo 2. Su glucemia plasmática venosa en ayuno del primer trimestre (semana 9) fue de 82 mg/dL. Acude a su control prenatal de rutina; se encuentra asintomática, con signos vitales normales y fondo uterino acorde a la edad gestacional.",
+      "question_text": "De acuerdo con la GPC IMSS-320 para el tamizaje universal de Diabetes Gestacional entre las semanas 24 y 28 mediante la estrategia recomendada de un solo paso (IADPSG), ¿cuál es el estudio de elección y los puntos de corte diagnósticos en ayuno, 1 hora y 2 horas?",
+      "options": {
+        "A": "Prueba de escrutinio con carga de 50 gramos de glucosa sin ayuno (Test de O'Sullivan); diagnóstico positivo si el valor a la hora supera los 140 mg/dL sin requerir otra prueba.",
+        "B": "Determinación aleatoria de Hemoglobina Glicosilada (HbA1c); diagnóstico definitivo de diabetes gestacional si se reporta un valor ≥ 6.5%.",
+        "C": "Curva de tolerancia oral a la glucosa de 100 gramos en ayuno de 3 horas; requiere al menos 2 valores alterados de Carpenter-Coustan (ayuno ≥ 95, 1h ≥ 180, 2h ≥ 155, 3h ≥ 140 mg/dL).",
+        "D": "Curva de tolerancia a la glucosa oral (CTOG) con 75 gramos de glucosa en ayuno; basta un solo valor alterado: ayuno ≥ 92 mg/dL, a la hora ≥ 180 mg/dL, o a las dos horas ≥ 153 mg/dL."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Tamizaje universal de DMG en semanas 24-28 (estrategia de un solo paso IADPSG/GPC): CTOG con 75 g de glucosa en ayuno; basta un solo valor alterado (ayuno ≥ 92, 1h ≥ 180, 2h ≥ 153 mg/dL) para establecer el diagnóstico definitivo de Diabetes Gestacional.",
+      "justificacion_gpc": "La GPC IMSS-320 de Diabetes en el Embarazo y la IADPSG recomiendan como estrategia diagnóstica preferente de un solo paso entre las semanas 24 y 28 de gestación la Curva de Tolerancia Oral a la Glucosa (CTOG) con carga de 75 g en ayuno. Los puntos de corte diagnósticos son: glucosa en ayuno ≥ 92 mg/dL, a la primera hora ≥ 180 mg/dL y a las dos horas ≥ 153 mg/dL. Con un solo valor que iguale o supere estos umbrales se confirma el diagnóstico de Diabetes Gestacional.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Tamizaje Incompleto]: El test de O'Sullivan de 50 g es solo una prueba de tamizaje inicial de la estrategia de dos pasos; si resulta ≥ 140 mg/dL, NO confirma el diagnóstico por sí sola, sino que obliga a realizar una curva diagnóstica completa de 100 g.",
+        "B": "[Distractor por Prueba No Validada]: La HbA1c no se recomienda para diagnóstico de diabetes gestacional en el segundo trimestre debido al aumento fisiológico del recambio eritrocitario materno que infraestima sus valores.",
+        "C": "[Distractor de Estrategia Alternativa de Dos Pasos]: La curva con 100 g y 4 tomas forma parte de la estrategia diagnóstica de dos pasos de Carpenter-Coustan/ACOG, pero no es la estrategia de un solo paso con 75 g recomendada por la IADPSG y la GPC mexicana."
+      }
+    },
+    {
+      "id": "d14_q5",
+      "index": 5,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-320",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A la paciente de 29 años del caso anterior se le realiza la CTOG con 75 g reportando: Ayuno 96 mg/dL, 1 hora 184 mg/dL y 2 horas 156 mg/dL, confirmándose Diabetes Gestacional. Se indica de inmediato terapia médica nutricional normocalórica fraccionada (3 comidas y 2-3 colaciones) y programa de caminata aeróbica de 30 minutos diarios. Tras 2 semanas de apego documentado mediante automonitoreo glucémico capilar de 6 tomas al día, se observa que el 30% de los registros en ayuno oscilan entre 98 y 106 mg/dL y el 35% de los registros 1 hora postprandial oscilan entre 148 y 162 mg/dL (más del 20% de las tomas fuera de meta).",
+      "question_text": "De conformidad con la GPC IMSS-320 de Diabetes en el Embarazo, al constatarse el fracaso de la terapia nutricional en alcanzar metas glucémicas, ¿cuál es el tratamiento farmacológico de primera línea de elección que debe iniciarse?",
+      "options": {
+        "A": "Sulfonilureas orales tipo Glibenclamida a dosis de 5 mg cada 12 horas para estimular la secreción pancreática materna.",
+        "B": "Terapia con Insulina humana (esquema basal o basal-bolo con NPH combinada con insulina rápida o análogo ultrarrápido) ajustada según peso y edad gestacional.",
+        "C": "Continuar exclusivamente con refuerzo educativo de la dieta y ejercicio durante 4 semanas adicionales antes de autorizar fármacos.",
+        "D": "Inhibidores del cotransportador sodio-glucosa tipo 2 (SGLT2) como Empagliflozina por vía oral una vez al día."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Falla de terapia nutricional en DMG (> 20% de glicemias fuera de metas tras 2 semanas): la Insulina humana o análogos aprobados representan el tratamiento farmacológico de primera línea obligatorio.",
+      "justificacion_gpc": "La GPC IMSS-320 establece que la terapia médica nutricional y el ejercicio son la base inicial del tratamiento de la DMG. Sin embargo, si después de 2 semanas de apego estricto más del 20% de las mediciones de glucosa capilar se encuentran fuera de las metas terapéuticas, debe iniciarse tratamiento farmacológico de inmediato. La Insulina es el fármaco de primera línea de elección debido a que no cruza la barrera placentaria y permite un control glucémico preciso y seguro sin efectos teratogénicos ni toxicidad fetal directa.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Fármaco con Riesgo Fetal]: La glibenclamida cruza activamente la placenta, estimula las células beta fetales y se asocia a mayor riesgo de hiperinsulinismo fetal, macrosomía e hipoglucemia neonatal refractaria; no es de primera línea en la GPC.",
+        "C": "[Distractor de Retraso Inercial Inaceptable]: Retrasar el tratamiento farmacológico por 4 semanas ante el descontrol documentado somete al feto a picos hiperglucémicos que aceleran el sobrecrecimiento somático y aumentan la morbimortalidad perinatal.",
+        "D": "[Distractor de Clase Proscrita]: Los inhibidores del SGLT2 (gliflozinas) están formalmente contraindicados en el embarazo debido a toxicidad sobre el desarrollo renal fetal y riesgo de cetoacidosis euglucémica materna."
+      }
+    },
+    {
+      "id": "d14_q6",
+      "index": 6,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-320 / ADA Guidelines",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Se inicia tratamiento con insulina en la paciente del caso previo. Durante la consulta de seguimiento prenatal a las 30 semanas de gestación, el médico analiza las cifras del automonitoreo glucémico capilar ambulatorio para titular las unidades de insulina y certificar que la paciente se encuentre dentro de las metas terapéuticas estrictas estandarizadas por la GPC IMSS-320 para prevenir macrosomía, polihidramnios y distocia de hombros.",
+      "question_text": "¿Cuáles son las metas terapéuticas de control glucémico capilar ambulatorio (en ayuno y postprandiales) establecidas por la GPC mexicana durante el embarazo?",
+      "options": {
+        "A": "Glucosa capilar en ayuno ≤ 95 mg/dL, 1 hora postprandial ≤ 140 mg/dL y 2 horas postprandial ≤ 120 mg/dL.",
+        "B": "Glucosa capilar en ayuno ≤ 70 mg/dL, 1 hora postprandial ≤ 100 mg/dL y 2 horas postprandial ≤ 90 mg/dL.",
+        "C": "Glucosa capilar en ayuno ≤ 126 mg/dL, 1 hora postprandial ≤ 180 mg/dL y 2 horas postprandial ≤ 160 mg/dL.",
+        "D": "Glucosa capilar en ayuno entre 100 y 115 mg/dL, y postprandial indiferenciada menor a 160 mg/dL."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Metas glucémicas en diabetes durante el embarazo (GPC IMSS-320): ayuno ≤ 95 mg/dL, 1 hora postprandial ≤ 140 mg/dL y 2 horas postprandial ≤ 120 mg/dL (HbA1c < 6.0%).",
+      "justificacion_gpc": "La GPC IMSS-320 y la Asociación Americana de Diabetes definen metas de control glucémico estricto en el embarazo para prevenir complicaciones fetales como macrosomía (> 4,000 g o percentil > 90) y muerte intrauterina: Glucosa capilar en ayuno ≤ 95 mg/dL, a la hora postprandial ≤ 140 mg/dL y a las 2 horas postprandial ≤ 120 mg/dL. La meta de hemoglobina glucosilada es < 6.0% siempre que se alcance sin desencadenar hipoglucemias maternas.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Hipercorrección Peligrosa]: Metas de ayuno ≤ 70 y postprandiales < 100 mg/dL provocan hipoglucemias maternas sintomáticas recurrentes, poniendo en peligro la vida materna por neuroglucopenia.",
+        "C": "[Distractor de Metas No Obstétricas]: Las metas de ayuno < 126 y postprandial < 180 mg/dL corresponden a adultos no gestantes con diabetes tipo 2; tolerar estos niveles en el embarazo induce hipertrofia fetal, polihidramnios y trauma al nacimiento.",
+        "D": "[Distractor de Metas Laxas]: Objetivos de ayuno por encima de 95 mg/dL son insuficientes para frenar el crecimiento somático acelerado fetal mediado por insulina."
+      }
+    },
+    {
+      "id": "d14_q7",
+      "index": 7,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-320",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 33 años, primigesta de 28 semanas de gestación con diagnóstico confirmado de Diabetes Gestacional, presenta descontrol glucémico persistente con cifras en ayuno de 108 a 114 mg/dL y postprandiales de 152 a 160 mg/dL a pesar de terapia médico-nutricional supervisada. El equipo médico le indica iniciar esquema de insulina humana NPH. La paciente presenta fobia severa a las agujas (tripanofobia estructurada con crisis de angustia paroxística ante punciones) y manifiesta un rechazo absoluto y definitivo a inyectarse cualquier fármaco, condicionando la continuidad de su control prenatal a una alternativa farmacológica oral.",
+      "question_text": "De acuerdo con la GPC IMSS-320 de Diabetes en el Embarazo, ¿cuál es el fármaco hipoglucemiante oral de rescate/alternativa avalado por la normativa mexicana cuando existe rechazo formal o imposibilidad insuperable para el empleo de insulina?",
+      "options": {
+        "A": "Glibenclamida oral a dosis fija de 10 mg al día antes del desayuno.",
+        "B": "Acarbosa vía oral a dosis de 100 mg tres veces al día con los alimentos.",
+        "C": "Metformina oral (iniciando con 500 a 850 mg/día con titulación progresiva según tolerancia gastrointestinal y respuesta glucémica).",
+        "D": "Pioglitazona oral 30 mg al día en toma matutina única."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Rechazo formal o incapacidad para recibir insulina en DMG: la Metformina oral (500-850 mg/día) es la alternativa farmacológica de rescate recomendada por la GPC IMSS-320, con adecuado perfil de seguridad.",
+      "justificacion_gpc": "La GPC IMSS-320 y consensos internacionales reconocen que la insulina es la primera línea, pero señalan explícitamente que cuando la paciente rechaza categóricamente la vía inyectable, no tiene capacidad cognitiva/física para administrarse insulina o sufre fobia severa a las agujas, la Metformina es el fármaco oral alternativo de rescate preferente. Se inicia a dosis de 500 a 850 mg/día y puede titularse hasta un máximo de 2,000-2,550 mg/día. La metformina mejora la sensibilidad a la insulina sin causar hipoglucemia materna ni inducir hiperinsulinismo fetal.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Distractor_Escalon",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Riesgo Fetal de Hipoglucemia]: La glibenclamida cruza libremente la placenta produciendo concentraciones fetales altas que sobreestimulan el páncreas fetal, generando macrosomía e hipoglucemia neonatal grave.",
+        "B": "[Distractor de Eficacia Insuficiente]: La acarbosa tiene un impacto mínimo en las glicemias maternas y causa efectos gastrointestinales adversos severos (meteorismo y diarrea), no estando avalada como alternativa de rescate en la GPC.",
+        "D": "[Distractor de Fármaco Proscrito]: Las tiazolidinedionas (pioglitazona) no cuentan con perfil de seguridad en el embarazo humano y están formalmente contraindicadas."
+      }
+    },
+    {
+      "id": "d14_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "NOM-041-SSA2-2011 / GPC IMSS-232-09",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer asintomática de 31 años acude a consulta de ginecología para asesoría de prevención de cáncer de mama. Refiere que su madre padeció cáncer de mama premenopáusico bilateral a los 35 años y su tía materna falleció de cáncer epitelial de ovario seroso de alto grado a los 39 años. Una prueba genética molecular reciente realizada en la paciente confirmó una mutación patogénica germinal en el gen BRCA1. A la exploración física no se identifican nódulos mamarios palpables ni adenopatías axilares o supraclaviculares.",
+      "question_text": "Conforme a la NOM-041-SSA2-2011 y las directrices de práctica clínica para mujeres en categoría de muy alto riesgo genético hereditario confirmado, ¿cuál es la estrategia de tamizaje por imagen recomendada para esta paciente a su edad actual?",
+      "options": {
+        "A": "Diferir todo estudio de imagen hasta cumplir los 40 años de edad, realizando únicamente autoexploración mamaria mensual.",
+        "B": "Mastografía diagnóstica bienal exclusiva complementada con proyecciones con magnificación sin contraste.",
+        "C": "Ultrasonido mamario bilateral cada 2 años para evitar por completo cualquier radiación ionizante hasta los 50 años.",
+        "D": "Resonancia magnética mamaria bilateral con medio de contraste dinámico anual combinada con mastografía anual a partir de los 30 años de edad."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Portadora de mutación BRCA1 a los 31 años (alto riesgo hereditario): la recomendación normativa obligatoria es Resonancia Magnética mamaria anual contrastada combinada con mastografía anual iniciando a los 30 años de edad (o 10 años antes del caso índice familiar).",
+      "justificacion_gpc": "La NOM-041-SSA2-2011 y las guías oncológicas nacionales e internacionales establecen que en mujeres con mutaciones patogénicas de alta penetrancia (BRCA1 o BRCA2) o con radioterapia torácica previa antes de los 30 años, el tamizaje convencional de la población general es insuficiente. En estas pacientes, el tamizaje debe iniciarse a los 30 años de edad (o 10 años antes del familiar más joven afectado) mediante Resonancia Magnética mamaria con medio de contraste dinámico de forma anual en combinación con Mastografía bilateral anual. La resonancia magnética ofrece la sensibilidad diagnóstica más elevada para detectar carcinomas invasores en tejido mamario denso juvenil.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Comorbilidad",
+        "C": "Distractor_Espectro",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Retraso Inadmisible]: En portadoras de BRCA1, el riesgo de cáncer invasor se incrementa drásticamente antes de los 40 años; postergar los estudios hasta esa edad conlleva diagnósticos tardíos en estadios avanzados.",
+        "B": "[Distractor de Sensibilidad Inadecuada]: La mastografía sola en mamas densas de mujeres jóvenes pierde gran parte de su sensibilidad diagnóstica para carcinomas de intervalo.",
+        "C": "[Distractor de Modalidad No Avalada]: El ultrasonido como técnica única no cuenta con suficiente sensibilidad para tumores incipientes en portadoras de BRCA1 y no sustituye a la resonancia magnética contrastada."
+      }
+    },
+    {
+      "id": "d14_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-320 / IADPSG Criteria",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 34 años, primigesta de 9 semanas de gestación que acude a su primera consulta de control prenatal en medicina familiar. Sin antecedentes personales ni familiares patológicos relevantes; IMC pregestacional de 24.1 kg/m2. Se encuentra clínicamente asintomática. En sus análisis de laboratorio rutinarios del primer trimestre se reporta una glucosa plasmática en ayuno venosa de 132 mg/dL. Se solicita una segunda determinación en ayuno a las 48 horas para corroboración, reportando 128 mg/dL.",
+      "question_text": "Con base en la GPC IMSS-320 de Diabetes en el Embarazo y los criterios consensuados de la IADPSG, ¿cuál es el diagnóstico normativo y la clasificación clínica precisa de este cuadro en el primer trimestre?",
+      "options": {
+        "A": "Glucemia basal normal adaptativa del primer trimestre secundaria al aclaramiento renal fisiológico aumentado.",
+        "B": "Diabetes pregestacional (diabetes manifiesta / overt diabetes) no diagnosticada previamente que precedía a la gestación.",
+        "C": "Diabetes gestacional típica del segundo trimestre; debe programarse una curva de tolerancia oral a la glucosa de 75 g en la semana 24 para corroborar.",
+        "D": "Intolerancia a la glucosa transitoria inducida por el lactógeno placentario humano de síntesis precoz."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Glucemia en ayuno ≥ 126 mg/dL en el primer trimestre (o HbA1c ≥ 6.5%): criterio diagnóstico indiscutible de Diabetes Pregestacional / Manifiesta (Overt Diabetes), no de DMG clásica del segundo trimestre.",
+      "justificacion_gpc": "La GPC IMSS-320 y la IADPSG definen con precisión los hallazgos glucémicos de la primera consulta prenatal del primer trimestre: glucosa en ayuno < 92 mg/dL es normal; glucosa entre 92 y 125 mg/dL corresponde a diabetes gestacional temprana; y glucosa en ayuno ≥ 126 mg/dL (confirmada en dos ocasiones) o HbA1c ≥ 6.5% define Diabetes Pregestacional o Manifiesta (Overt Diabetes). Esta paciente padece diabetes preexistente no diagnosticada y tiene riesgo inmediato de malformaciones fetales congénitas mayores, requiriendo manejo especializado urgente y ecografía anatómica detallada.",
+      "distractor_roles": {
+        "A": "Distractor_Espectro",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Interpretación Fisiológica Errónea]: La glucemia normal en ayuno en el primer trimestre suele ser de 70 a 80 mg/dL por consumo fetoplacentario; cifras ≥ 126 mg/dL reflejan hiperglucemia patológica franca.",
+        "C": "[Distractor de Retraso Diagnóstico Peligroso]: La diabetes gestacional propiamente dicha se produce por resistencia a la insulina mediada por hormonas placentarias en la segunda mitad del embarazo. En el primer trimestre, valores ≥ 126 mg/dL confirman diabetes pregestacional y no requieren esperar a la semana 24.",
+        "D": "[Distractor Cronológico y Hormonal]: El lactógeno placentario humano alcanza concentraciones diabetogénicas significativas a partir de la semana 24 a 28, siendo prácticamente indetectable como causante de hiperglucemia en la semana 9."
+      }
+    },
+    {
+      "id": "d14_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "NOM-041-SSA2-2011 / ACR BI-RADS Atlas",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 45 años sin antecedentes heredofamiliares de cáncer mamario acude a recoger el informe de su primera mastografía bilateral de tamizaje. En la mama derecha se reporta un nódulo ovalado circunscrito de 8 mm en el cuadrante inferior interno, con márgenes nítidos, sin calcificaciones sospechosas ni distorsión tisular. El radiólogo concluye: Categoría BI-RADS 3 (hallazgo probablemente benigno). La paciente se muestra sumamente angustiada ante la posibilidad de malignidad y exige ser programada para una biopsia por aguja de corte urgente o extirpación quirúrgica.",
+      "question_text": "De conformidad con la NOM-041-SSA2-2011 y las directrices del Colegio Americano de Radiología (ACR), ¿cuál es la probabilidad calculada de malignidad para la categoría BI-RADS 3 y la conducta clínica estandarizada correspondiente?",
+      "options": {
+        "A": "Probabilidad de malignidad del 20% al 50%; se debe realizar biopsia percutánea con aguja de corte de manera inmediata.",
+        "B": "Probabilidad de malignidad del 0%; se cataloga como benignidad absoluta definitiva y se reinicia tamizaje habitual en 2 a 3 años.",
+        "C": "Probabilidad de malignidad menor al 2% (< 2%); la conducta indicada es el seguimiento por imagen a intervalos cortos (control a los 6 meses, y posteriormente a los 12 y 24 meses) para comprobar estabilidad morfológica, evitando biopsias innecesarias.",
+        "D": "Probabilidad de malignidad mayor al 95%; amerita referencia urgente al servicio de oncología médica para cuadrantectomía diagnóstica."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Categoría BI-RADS 3: riesgo de malignidad menor al 2% (< 2%); la conducta normativa es vigilancia por imagen a los 6, 12 y 24 meses para demostrar estabilidad temporal, proscribiendo la biopsia indiscriminada en ausencia de progresión.",
+      "justificacion_gpc": "La NOM-041-SSA2-2011 define la categoría BI-RADS 3 como un hallazgo probablemente benigno con una probabilidad de malignidad menor al 2% (< 2%). Los hallazgos típicos incluyen nódulos sólidos circunscritos no palpables, asimetrías focales o microcalcificaciones redondas monomórficas. El manejo normativo consiste en seguimiento imagenológico estrecho a intervalos cortos: a los 6 meses (unilateral), a los 12 meses (bilateral) y a los 24 meses. Si la lesión permanece estrictamente estable durante los 24 meses, se reclasifica como BI-RADS 2 (benigna). La toma de biopsia solo se justifica si la lesión incrementa de tamaño o desarrolla características sospechosas.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Comorbilidad",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Categoría BI-RADS 4B]: Una sospecha de malignidad entre 20% y 50% define a la subcategoría BI-RADS 4B, la cual sí exige biopsia histopatológica percutánea mandatoria.",
+        "B": "[Distractor de BI-RADS 2]: La probabilidad de malignidad nula (0%) corresponde a BI-RADS 1 o 2 (hallazgos definitivamente benignos comprobados, como quistes simples o fibroadenomas calcificados involutivos).",
+        "D": "[Distractor de BI-RADS 5]: Una probabilidad de cáncer superior al 95% es privativa de BI-RADS 5 (lesiones francamente espiculadas con microcalcificaciones pleomórficas lineales ramificadas)."
+      }
+    },
+    {
+      "id": "d14_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "NOM-041-SSA2-2011 / CENETEC Breast Cancer Screening",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A 48-year-old asymptomatic woman presents to the primary healthcare clinic for her routine well-woman clinical examination. She has no family history of breast, ovarian, or colorectal cancer, no personal history of benign breast disease, and no prior thoracic mantle radiation therapy (average-risk profile). Physical examination reveals symmetrical breasts with no palpable masses, no cutaneous edema (peau d'orange), no nipple discharge, and no axillary or supraclavicular lymphadenopathy. She inquires about the mandatory nationwide screening protocol for breast cancer established by Mexican Official Standards.",
+      "question_text": "According to the Mexican Official Standard NOM-041-SSA2-2011 and CENETEC Clinical Practice Guidelines, what is the mandatory initial imaging screening recommendation for average-risk asymptomatic women aged 40 to 69 years?",
+      "options": {
+        "A": "Bilateral screening mammography performed annually or biennially starting at age 40 and continuing through age 69.",
+        "B": "Bilateral breast ultrasonography every 6 months as the primary screening method, reserving mammography strictly for patients aged 70 and older.",
+        "C": "Dynamic contrast-enhanced breast MRI every 12 months as the initial modality of choice for all women in this age bracket.",
+        "D": "Routine clinical breast examination every 6 months without imaging until age 55, when baseline mammography should first be requested."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Tamizaje poblacional de CaMa en México (NOM-041-SSA2-2011): mastografía bilateral anual o bienal en mujeres de 40 a 69 años de edad con riesgo estándar, dado que el pico de incidencia en mujeres mexicanas ocurre una década antes que en caucásicas.",
+      "justificacion_gpc": "Under Mexican Official Standard NOM-041-SSA2-2011 and CENETEC Clinical Practice Guidelines for Breast Cancer Screening, population-based mammographic screening is mandatory for all asymptomatic, average-risk women between 40 and 69 years of age, to be performed annually or biennially (every 1 to 2 years). This Mexican standard differs from some foreign guidelines that begin at age 50 because epidemiologic data in Mexico demonstrate that the peak incidence of breast cancer occurs significantly earlier (between 40 and 50 years of age). Ultrasound cannot substitute for mammography as a primary screening tool because it lacks sensitivity for microcalcifications.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor of Incorrect Modality Hierarchy]: Breast ultrasound is an adjunct imaging modality used to evaluate dense breast tissue or characterize palpable nodules, but it cannot detect early clustered microcalcifications and is not approved as a stand-alone screening tool.",
+        "C": "[Distractor of High-Risk Excessive Modality]: Contrast-enhanced breast MRI is reserved exclusively for high genetic risk women (such as BRCA1/BRCA2 mutation carriers) or history of chest irradiation, not for general average-risk screening.",
+        "D": "[Distractor of Guideline Non-Compliance]: Delaying mammography until age 55 violates NOM-041-SSA2-2011 and leads to advanced-stage breast cancer presentations in Mexican women."
+      }
+    },
+    {
+      "id": "d14_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-320 / Neonatal Care Guidelines",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 32-year-old woman with poorly controlled gestational diabetes (diagnosed at 26 weeks of gestation, showing recurrent postprandial glucose values > 165 mg/dL due to poor dietary compliance and medication refusal) delivers a male infant at 38 weeks of gestation via Cesarean delivery indicated for cephalopelvic disproportion. The neonate has a birth weight of 4,380 g (> 90th percentile, macrosomic). At 40 minutes of extrauterine life, the newborn displays tremors, jitteriness, weak suckling, lethargy, and mild respiratory distress with a respiratory rate of 66 breaths/min. Bedside capillary heel-stick blood testing reveals a glucose level of 26 mg/dL.",
+      "question_text": "According to perinatal pathophysiological mechanisms and Mexican Clinical Practice Guidelines (GPC IMSS-320), which underlying process directly accounts for this newborn's severe neonatal hypoglycemia and delayed pulmonary surfactant production?",
+      "options": {
+        "A": "Direct transplacental passage of maternal exogenous and endogenous insulin into the fetal circulation, which directly destroys fetal hepatic glycogen stores.",
+        "B": "Congenital anterior hypopituitarism and isolated growth hormone deficiency induced by maternal glycemic peaks.",
+        "C": "Direct toxic inhibition of alveolar type II pneumocytes by transplacental ketones and maternal free fatty acids.",
+        "D": "Maternal hyperglycemia driving sustained fetal hyperglycemia via facilitated diffusion (GLUT-1), which triggers fetal pancreatic beta-cell hyperplasia and autonomous hyperinsulinism that suppresses gluconeogenesis and antagonizes cortisol-mediated surfactant maturation."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Hiperinsulinismo fetal por hiperglucemia materna transferida (hipótesis de Pedersen): la insulina fetal no cruza la placenta, pero el feto produce hiperinsulinemia autónoma que suprime la gluconeogénesis al nacer (hipoglucemia neonatal grave) e inhibe la inducción enzimática de surfactante mediada por cortisol (síndrome de dificultad respiratoria).",
+      "justificacion_gpc": "Under the Pedersen hypothesis reinforced by Mexican perinatal guidelines (GPC IMSS-320), maternal glucose freely crosses the placenta via facilitated diffusion through GLUT-1 transporters, but maternal insulin does NOT cross. Chronic maternal hyperglycemia causes fetal hyperglycemia, inducing fetal pancreatic beta-cell hyperplasia and hyperinsulinism. Once the umbilical cord is clamped, maternal glucose influx abruptly ceases while the autonomous fetal hyperinsulinism persists, causing profound neonatal hypoglycemia (< 40-45 mg/dL). Furthermore, elevated fetal insulin acts as a potent inhibitor of cortisol-induced maturation of type II alveolar pneumocytes and fibroblast-pneumocyte factor, delaying surfactant synthesis and predisposing the infant to respiratory distress syndrome.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor of Flawed Placental Physiology]: Maternal insulin does not cross the placental barrier in significant quantities; the fetus synthesizes its own excessive insulin in response to transferred maternal glucose.",
+        "B": "[Distractor of Spurious Endocrine Pathology]: Infants of diabetic mothers suffer from generalized somatic organomegaly and hyperinsulinism, not pituitary aplasia or growth hormone deficiencies.",
+        "C": "[Distractor of Inaccurate Biochemical Mechanism]: Surfactant deficiency in infants of diabetic mothers is not caused by ketone toxicity, but by high fetal insulin levels biochemically antagonizing cortisol's stimulatory action on surfactant phospholipid synthesis."
+      }
+    }
+  ]
+}

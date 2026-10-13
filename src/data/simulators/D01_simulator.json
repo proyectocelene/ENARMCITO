@@ -1,0 +1,709 @@
+{
+  "topic_code": "D01",
+  "title": "Simulador Post-Estudio: Diabetes Mellitus Tipo 2, CAD y EHH",
+  "normativa_origen": "GPC IMSS-718-18 / NOM-015",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d01_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Cetoacidosis Diabética Moderada con Hipopotasemia Crítica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Masculino de 24 años con diagnóstico reciente de diabetes acude al servicio de urgencias por náusea, vómito persistente de 24 horas de evolución, dolor abdominal difuso y astenia intensa. A la exploración física: somnoliento pero responde adecuadamente a estímulos verbales, taquipneico con respiración profunda (patrón de Kussmaul) y aliento cetósico característico; TA 95/60 mmHg, FC 118 lpm, FR 28 rpm, Temp 36.8 °C, SpO2 96%. Mucosas orales secas, turgencia cutánea marcadamente disminuida. Los paraclínicos urgentes reportan: Glucosa plasmática 490 mg/dL, Na+ 132 mEq/L, K+ 3.1 mEq/L, Cl- 98 mEq/L, Creatinina 1.7 mg/dL, BUN 32 mg/dL; Gasometría venosa: pH 7.18, HCO3 11 mEq/L, pCO2 24 mmHg; EGO: Cetonuria ++++, Glucosuria ++++.",
+      "question_text": "De acuerdo con los algoritmos normativos de la GPC mexicana (IMSS-718-18), ¿cuál es la conducta terapéutica inicial de mayor prioridad y rigor en este paciente?",
+      "options": {
+        "A": "Iniciar de inmediato infusión continua de insulina rápida a 0.1 UI/kg/h precedida por un bolo IV de 0.1 UI/kg para frenar la cetogénesis",
+        "B": "Administrar 100 mmol de bicarbonato de sodio en infusión de 2 horas debido a la acidemia severa con pH menor a 7.20",
+        "C": "Iniciar expansión hídrica con solución salina al 0.9% y reposición intensiva de cloruro de potasio (20 a 40 mEq/h), difiriendo el inicio de insulina hasta constatar K+ > 3.3 mEq/L",
+        "D": "Iniciar infusión de solución glucosada al 5% con bicarbonato de sodio y gluconato de calcio para estabilizar la membrana miocárdica"
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Potasio_Critico_Previo_Insulina",
+      "gpc_algorithm_step": "La GPC IMSS-718-18 y las guías rectoras de CAD estipulan que si el potasio sérico es menor a 3.3 mEq/L, NO debe administrarse insulina bajo ninguna circunstancia. La insulina estimula la bomba Na+/K+ ATPasa introduciendo potasio al espacio intracelular, lo que precipitaría hipopotasemia crítica con arritmias ventriculares letales o paro respiratorio. La prioridad absoluta es reanimación con NaCl 0.9% y KCl a 20-40 mEq/h hasta que el potasio supere 3.3 mEq/L.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El inicio de infusión de insulina rápida a 0.1 UI/kg/h es la piedra angular habitual de la CAD, pero en este paciente específico con potasio < 3.3 mEq/L está estrictamente contraindicado hasta reponer potasio."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta obligatoria en Cetoacidosis Diabética si el potasio sérico inicial es < 3.3 mEq/L según la GPC?",
+        "back": "Diferir el inicio de insulina, reanimar con solución salina al 0.9% y administrar KCl a 20-40 mEq/h hasta lograr K+ > 3.3 mEq/L.",
+        "tags": "D01 CAD Potasio Insulina GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Cetoacidosis Diabética Moderada con Hipopotasemia Crítica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Tras 2 horas de reposición hidroelectrolítica con solución salina al 0.9% (1000 mL/h) y KCl a 30 mEq/h, el potasio sérico de control se reporta en 4.0 mEq/L. Se procede a iniciar la infusión de insulina regular a 0.1 UI/kg/h. Los laboratorios simultáneos muestran: Glucosa plasmática 400 mg/dL, Sodio sérico medido 138 mEq/L, Cl- 104 mEq/L.",
+      "question_text": "¿Cuál es el valor del sodio sérico corregido y qué tipo de solución intravenosa debe continuarse a continuación según el algoritmo de la GPC?",
+      "options": {
+        "A": "Sodio corregido de 138 mEq/L; continuar solución Hartmann a 500 mL/h para aporte de lactato",
+        "B": "Sodio corregido de 142.8 mEq/L; cambiar a solución salina al 0.45% a razón de 250 a 500 mL/h adicionando 20 a 30 mEq KCl/L",
+        "C": "Sodio corregido de 133.2 mEq/L; continuar solución salina al 0.9% a 1000 mL/h por hiponatremia persistente",
+        "D": "Sodio corregido de 148 mEq/L; cambiar de inmediato a agua bidestilada intravenosa sin electrolitos"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Sodio_Corregido_Y_Fluidos",
+      "gpc_algorithm_step": "Fórmula de Katz: Na corregido = Na medido + 1.6 * [(Glucosa - 100) / 100] = 138 + 1.6 * 3 = 142.8 mEq/L. Al encontrarse el sodio corregido en rangos normales o elevados (eunatremia/hipernatremia), la GPC indica cambiar la hidratación a solución hipotónica (NaCl al 0.45% a 250-500 mL/h) con 20-30 mEq KCl/L para reponer agua libre intracelular y evitar sobrecarga de cloro que cause acidosis hiperclorémica profunda.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Interpretar el sodio medido (138 mEq/L) como el valor real sin corregirlo por la hiperglucemia induce a continuar erróneamente soluciones isotónicas al 0.9% o calcular soluciones inadecuadas."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se calcula el sodio corregido en CAD y qué solución se indica si el Na corregido es normal o alto?",
+        "back": "Na corregido = Na medido + 1.6 * [(Glucosa - 100)/100]. Si es normal o elevado, se indica Solución Salina al 0.45% (250-500 mL/h) + KCl.",
+        "tags": "D01 CAD SodioCorregido Fluidos GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Cetoacidosis Diabética Moderada con Hipopotasemia Crítica",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "A las 5 horas de iniciado el manejo, la glucosa capilar y sérica desciende a 192 mg/dL con un ritmo de descenso adecuado (65 mg/dL/h). La gasometría venosa de control muestra pH 7.27, HCO3 13 mEq/L, pCO2 28 mmHg, Anion Gap 16 mEq/L. El paciente se encuentra alerta, hemodinámicamente estable, pero aún no tiene indicación de vía oral por náusea residual.",
+      "question_text": "¿Cuál es la modificación mandatoria e inmediata que debe realizarse en las soluciones parenterales y en la infusión de insulina según la GPC?",
+      "options": {
+        "A": "Suspender definitivamente la infusión de insulina intravenosa e iniciar metformina oral",
+        "B": "Duplicar la dosis de infusión de insulina rápida para acelerar el cierre del anion gap",
+        "C": "Mantener la solución salina al 0.45% sin glucosa y reducir la infusión de insulina a la mitad",
+        "D": "Cambiar las soluciones a Glucosa al 5% con salina al 0.45% y reducir la infusión de insulina a 0.02-0.05 UI/kg/h para mantener la glucemia entre 150 y 200 mg/dL"
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Transicion_Fluidos_Glucosa_CAD",
+      "gpc_algorithm_step": "La GPC establece que cuando la glucemia desciende a ≤ 200 mg/dL en CAD (o ≤ 300 mg/dL en EHH), es imperativo agregar dextrosa al 5% a las soluciones parenterales y disminuir la infusión de insulina a 0.02-0.05 UI/kg/h. Esto previene hipoglucemia y edema cerebral, permitiendo mantener la insulina necesaria para suprimir la lipólisis hepática y cerrar la brecha aniónica.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Suspender la infusión de insulina intravenosa porque la glucosa ya está por debajo de 200 mg/dL es un error grave que perpetúa la cetogénesis y reabre la cetoacidosis."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué cambio de soluciones e insulina se realiza cuando la glucosa llega a ≤ 200 mg/dL en CAD?",
+        "back": "Agregar solución glucosada al 5% (con NaCl 0.45%) y reducir infusión de insulina a 0.02-0.05 UI/kg/h para mantener glucemia 150-200 mg/dL hasta resolver la acidosis.",
+        "tags": "D01 CAD Glucosa5 Dextrosa Metas GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Cetoacidosis Diabética Moderada con Hipopotasemia Crítica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A las 12 horas del ingreso, el paciente refiere hambre y excelente tolerancia a una dieta líquida/blanda asistida. Los paraclínicos confirman: Glucosa plasmática 165 mg/dL, Gasometría venosa con pH 7.35, HCO3 19 mEq/L, pCO2 36 mmHg, Anion Gap 10 mEq/L, K+ 4.2 mEq/L.",
+      "question_text": "Habiéndose alcanzado los criterios formales de resolución de la cetoacidosis diabética, ¿cuál es el protocolo normativo para efectuar la transición a insulina subcutánea?",
+      "options": {
+        "A": "Administrar la primera dosis de insulina basal subcutánea y mantener la infusión intravenosa de insulina durante 1 a 2 horas adicionales antes de apagarla",
+        "B": "Apagar inmediatamente la bomba de infusión de insulina intravenosa en el instante exacto en que se inyecta la primera dosis de insulina rápida subcutánea",
+        "C": "Suspender la infusión de insulina IV y mantener al paciente en ayuno durante 6 horas para evaluar si la glucemia se eleva espontáneamente",
+        "D": "Retirar la vía venosa e iniciar tratamiento exclusivo con sulfonilureas orales de liberación prolongada"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Criterios_Resolucion_Y_Traslape",
+      "gpc_algorithm_step": "Criterios de resolución de CAD según GPC: Glucosa < 200 mg/dL y al menos 2 de: HCO3 ≥ 18 mEq/L, pH venoso > 7.30 o Anion Gap normal (≤ 12 mEq/L), aunado a tolerancia a la vía oral. Para la transición, debe aplicarse insulina basal subcutánea y traslapar la infusión IV manteniéndola encendida durante 1 a 2 horas (o 2 a 4 horas si se usa NPH/Glargina) tras la inyección SC, debido a la vida media ultracorta (minutos) de la insulina IV.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Suspender la infusión intravenosa al momento exacto de inyectar la insulina subcutánea provoca un intervalo de ausencia de insulinemia efectiva en sangre, lo que desencadena rebote de cetosis y recaída."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo debe realizarse el traslape de insulina intravenosa a subcutánea al resolver una CAD?",
+        "back": "Administrar insulina basal SC y continuar la infusión IV de insulina durante 1 a 2 horas adicionales antes de suspenderla.",
+        "tags": "D01 CAD Traslape InsulinaSC Resolucion GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Estado Hiperosmolar Hiperglucémico en Adulto Mayor con Infección",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Femenina de 76 años con antecedente de DM2 de 15 años de evolución tratada de forma irregular con metformina. Es traída a urgencias por sus familiares por deterioro cognitivo progresivo de 4 días hasta el estupor, tos con expectoración herrumbrosa y fiebre. Signos vitales: TA 85/55 mmHg, FC 124 lpm, FR 22 rpm, Temp 38.6 °C, SatO2 90% aire ambiente. Exploración: solo responde a estímulos nociceptivos con quejido incomprensible; mucosas orales acartonadas, signo del pliegue cutáneo marcadamente positivo, estertores crepitantes en base pulmonar derecha. Laboratorios urgentes: Glucosa plasmática 880 mg/dL, Na+ sérico 144 mEq/L, K+ 4.6 mEq/L, Cl- 102 mEq/L, Creatinina 2.6 mg/dL, Urea 104 mg/dL (BUN 48 mg/dL); Gasometría arterial: pH 7.36, HCO3 22 mEq/L, pCO2 38 mmHg; EGO: cetonas negativas, glucosuria > 1000 mg/dL.",
+      "question_text": "¿Cuál es la osmolaridad sérica efectiva calculada y el diagnóstico correspondiente según la clasificación de la GPC mexicana?",
+      "options": {
+        "A": "Osmolaridad efectiva 296 mOsm/kg; Cetoacidosis diabética leve asociada a choque séptico",
+        "B": "Osmolaridad efectiva 310 mOsm/kg; Encefalopatía urémica aislada con hiperglucemia por estrés",
+        "C": "Osmolaridad efectiva 336.8 mOsm/kg; Estado Hiperosmolar Hiperglucémico",
+        "D": "Osmolaridad efectiva 362 mOsm/kg; Cetoacidosis diabética mixta con brecha aniónica ensanchada"
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Calculo_Osmolaridad_Efectiva_EHH",
+      "gpc_algorithm_step": "Fórmula de Osmolaridad efectiva: 2 * [Na+] + (Glucosa / 18) = 2 * (144) + (880 / 18) = 288 + 48.88 = 336.88 mOsm/kg. La GPC y la NOM definen Estado Hiperosmolar Hiperglucémico (EHH) por: Glucosa > 600 mg/dL, Osmolaridad efectiva > 320 mOsm/kg, pH > 7.30, HCO3 > 18 mEq/L, cetonas negativas o trazas y alteración profunda del estado de alerta.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Calcular erróneamente la osmolaridad total sumando el BUN (2*Na + Glucosa/18 + BUN/2.8) o confundir los valores umbrales lleva a clasificaciones diagnósticas erróneas. Para el diagnóstico de EHH la GPC exige osmolaridad EFECTIVA > 320 mOsm/kg."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la fórmula y el punto de corte de la osmolaridad efectiva para diagnosticar Estado Hiperosmolar Hiperglucémico (EHH)?",
+        "back": "Osmolaridad efectiva = 2*[Na+] + Glucosa/18. Diagnóstico de EHH: > 320 mOsm/kg (junto con glucosa > 600 mg/dL, pH > 7.30 y estupor/coma).",
+        "tags": "D01 EHH Osmolaridad Criterios GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Estado Hiperosmolar Hiperglucémico en Adulto Mayor con Infección",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la misma paciente de 76 años (peso estimado 60 kg), se calcula un déficit de agua libre aproximado de 8 a 9 litros (100 a 200 mL/kg). El equipo de urgencias debate la velocidad de reposición hídrica para evitar desenlaces adversos hemodinámicos y neurológicos.",
+      "question_text": "De acuerdo con las pautas de reanimación hídrica en EHH avaladas por la GPC mexicana, ¿cuál es el ritmo y la estrategia de reposición volumétrica recomendada?",
+      "options": {
+        "A": "Infundir el 100% del déficit de volumen calculado en las primeras 6 horas mediante cargas rápidas a chorro para revertir la hipotensión",
+        "B": "Infundir solución salina al 0.9% a 1000 mL/h en la primera hora; reponer el 50% del déficit en las primeras 12 a 24 horas y el 50% restante en las siguientes 24 a 48 horas",
+        "C": "Restringir los líquidos parenterales a no más de 1000 mL en 24 horas por el riesgo inminente de edema pulmonar agudo cardiogénico",
+        "D": "Administrar solución glucosada al 5% a 500 mL/h desde la primera hora para contrarrestar la hiperosmolaridad de inmediato"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Ritmo_Hidratacion_EHH",
+      "gpc_algorithm_step": "En el EHH, el déficit hídrico es masivo pero su corrección debe ser prudente y progresiva. La GPC recomienda: 1000-1500 mL de solución salina al 0.9% en la primera hora para restaurar perfusión tisular. Posteriormente, la reposición del déficit hídrico calculado debe administrarse un 50% en las primeras 12 a 24 horas y el resto en las siguientes 24 a 48 horas, cuidando que el descenso de osmolaridad no exceda 3 mOsm/kg/h para evitar edema cerebral y mielinolisis osmótica.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Asumir que un choque hipovolémico severo justifica reponer los 9 litros en 6 horas pasa por alto la vulnerabilidad del endotelio cerebral y las advertencias de la GPC contra descensos osmolares bruscos."
+      },
+      "anki_flashcard": {
+        "front": "¿A qué ritmo se debe reponer el déficit hídrico en el Estado Hiperosmolar Hiperglucémico según la GPC?",
+        "back": "Salina 0.9% 1000 mL en la 1ª hora; luego reponer el 50% del déficit en 12-24 horas y el 50% restante en 24-48 horas.",
+        "tags": "D01 EHH Hidratacion Deficit GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Estado Hiperosmolar Hiperglucémico en Adulto Mayor con Infección",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "La paciente continúa en el área de cuidados intermedios/choque. Recibe antibiótico para neumonía bacteriana, líquidos parenterales e infusión de insulina regular a 0.05 UI/kg/h. El médico residente interroga qué medida preventiva de soporte farmacológico debe agregarse de manera mandatoria según la GPC institucional dada la hiperosmolaridad extrema, edad avanzada e inmovilidad.",
+      "question_text": "¿Cuál es la intervención profiláctica adyuvante con indicación formal en la GPC para pacientes con Estado Hiperosmolar Hiperglucémico?",
+      "options": {
+        "A": "Infusión rutinaria profiláctica de Manitol al 20% cada 8 horas para proteger contra edema cerebral",
+        "B": "Infusión continua de bicarbonato de sodio para evitar nefrotoxicidad por contraste",
+        "C": "Administración de ácido acetilsalicílico 500 mg por sonda nasogástrica cada 12 horas",
+        "D": "Tromboprofilaxis farmacológica con Heparina de Bajo Peso Molecular (o heparina no fraccionada) salvo contraindicación hemorrágica activa"
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Tromboprofilaxis_En_EHH",
+      "gpc_algorithm_step": "En el EHH confluyen hiperviscosidad sanguínea severa secundaria a hemoconcentración, deshidratación profunda, daño endotelial e inmovilidad prolongada. La GPC mexicana subraya la prescripción obligatoria de tromboprofilaxis con HBPM (ej. Enoxaparina 40 mg SC/día) o Heparina no fraccionada en todos los pacientes con EHH sin sangrado activo, debido a la altísima incidencia de trombosis venosa profunda, tromboembolia pulmonar e infartos mesentéricos.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Centrarse únicamente en la glucosa y los líquidos olvidando el estado protrombótico crítico del paciente con EHH es una omisión frecuentemente evaluada en el ENARM."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué es mandatoria la tromboprofilaxis en el Estado Hiperosmolar Hiperglucémico (EHH)?",
+        "back": "Por el alto riesgo de eventos tromboembólicos debido a la hiperviscosidad extrema, hemoconcentración grave e inmovilidad.",
+        "tags": "D01 EHH Tromboprofilaxis Heparina GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Estado Hiperosmolar Hiperglucémico en Adulto Mayor con Infección",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A las 7 horas de tratamiento, tras un descenso glucémico acelerado de 880 a 290 mg/dL mediado por una dosis no titulada de insulina, la paciente presenta súbitamente anisocoria pupilar, quejido laríngeo, bradicardia de 46 lpm, cifras tensionales de 185/105 mmHg y deterioro abrupto del estado neurológico (la escala de coma de Glasgow se reduce de 11 a 6 puntos).",
+      "question_text": "¿Cuál es la complicación aguda que explica este deterioro y cuál es la medida terapéutica farmacológica de emergencia normada por la GPC?",
+      "options": {
+        "A": "Edema cerebral agudo; administrar Manitol al 20% (0.5 a 1 g/kg IV en 20 minutos) o Solución Salina Hipertónica al 3%, elevar cabecera a 30° y asegurar la vía aérea",
+        "B": "Infarto cerebral isquémico masivo; iniciar terapia trombolítica con alteplasa IV en bolo e infusión",
+        "C": "Choque cardiogénico refractario; aplicar bolo de furosemida 80 mg IV y comenzar dobutamina",
+        "D": "Hipoglucemia severa inadvertida; administrar 5 frascos de solución glucosada al 50% en bolo"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo_Edema_Cerebral_Complicacion",
+      "gpc_algorithm_step": "El descenso osmolar y glucémico demasiado rápido precipita la entrada masiva de agua libre al parénquima encefálico generando Edema Cerebral Agudo. La presentación clásica incluye deterioro del estado de alerta, anisocoria y la tríada de Cushing (hipertensión, bradicardia y alteraciones respiratorias). El manejo normativo inmediato es: Manitol al 20% (0.5 a 1 g/kg IV) o Solución Salina al 3% (5-10 mL/kg), elevar cabecera a 30° y asegurar vía aérea.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Asumir que por ser una paciente añosa con clínica focal se trata de un EVC tromboembólico y administrar alteplasa sería fatal ante un edema cerebral secundario a gradiente osmolar invertido."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de urgencia ante la sospecha de Edema Cerebral agudo en crisis hiperglucémicas?",
+        "back": "Manitol al 20% (0.5-1 g/kg IV en 20 min) o Solución Salina al 3%, elevación de cabecera a 30° y protección de la vía aérea.",
+        "tags": "D01 CAD EHH EdemaCerebral Manitol GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Escalonamiento Terapéutico y Ajuste por Falla Renal y Riesgo Cardiovascular en DM2",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Masculino de 58 años acude a consulta externa de Medicina Familiar con diagnóstico confirmado de DM2 (dos glucemias en ayuno de 168 y 174 mg/dL, HbA1c de 8.3%). Asintomático para urgencias metabólicas, IMC 31.4 kg/m². En sus estudios basales presenta: Creatinina sérica 1.65 mg/dL, urea 42 mg/dL. Se calcula una Tasa de Filtración Glomerular (TFG por CKD-EPI) de 38 mL/min/1.73m² (ERC Estadio 3b). El médico analiza el inicio de monoterapia farmacológica.",
+      "question_text": "De acuerdo con la GPC IMSS-718-18 y las directrices normativas mexicanas sobre antidiabéticos en enfermedad renal, ¿cuál es la conducta correcta respecto al uso de Metformina en este paciente?",
+      "options": {
+        "A": "Iniciar Metformina a dosis plena habitual de 2550 mg/día, dado que la TFG se encuentra por encima de 30 mL/min",
+        "B": "Proscribir absolutamente la Metformina, puesto que el corte oficial de suspensión definitiva es una TFG menor a 60 mL/min",
+        "C": "Prescribir Metformina a dosis ajustada reducida (máximo 1000 mg/día) con monitoreo trimestral de función renal, al ubicarse en TFG entre 30 y 44 mL/min",
+        "D": "Iniciar Glibenclamida 10 mg cada 12 horas como monoterapia de reemplazo obligatoria por seguridad renal"
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Ajuste_Metformina_TFG",
+      "gpc_algorithm_step": "Lineamientos de ajuste de Metformina según GPC IMSS y guías KDIGO: TFG ≥ 60 mL/min: uso seguro sin restricción (hasta 2550 mg/día); TFG 45-59 mL/min: dosis habitual vigilando función renal anual; TFG 30-44 mL/min: reducir la dosis máxima a 1000 mg/día (reducción del 50%) y evaluar TFG cada 3 meses; TFG < 30 mL/min: CONTRAINDICADA de forma absoluta por alto riesgo de acidosis láctica fatal. Glibenclamida está proscrita en falla renal.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Creer que la metformina se suspende con TFG < 60 mL/min es un mito común que priva al paciente de su beneficio metabólico; el corte de contraindicación absoluta es TFG < 30 mL/min."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los puntos de corte de TFG para ajuste y contraindicación absoluta de Metformina según la GPC?",
+        "back": "TFG 30-44 mL/min: ajustar dosis máxima a 1000 mg/día. TFG < 30 mL/min: contraindicación absoluta por riesgo de acidosis láctica.",
+        "tags": "D01 DM2 Metformina TFG FallaRenal GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Escalonamiento Terapéutico y Ajuste por Falla Renal y Riesgo Cardiovascular en DM2",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El mismo paciente, 18 meses después, acude a control. Se le ha diagnosticado recientemente Insuficiencia Cardiaca con Fracción de Eyección Reducida (FEVI 34%, clase funcional NYHA II). Su régimen actual consta de Metformina 850 mg/día, enalapril y carvedilol. Su HbA1c se encuentra en 8.2% y su TFG se mantiene estable en 40 mL/min/1.73m².",
+      "question_text": "De acuerdo con la GPC mexicana y la evidencia de reducción de eventos cardiovasculares mayores, ¿cuál es el segundo fármaco antidiabético que debe agregarse de manera preferencial?",
+      "options": {
+        "A": "Pioglitazona 30 mg cada 24 horas",
+        "B": "Inhibidor del cotransportador SGLT2 (Dapagliflozina o Empagliflozina)",
+        "C": "Sulfonilurea (Glibenclamida 5 mg cada 12 horas)",
+        "D": "Inhibidor de DPP-4 del tipo Saxagliptina 5 mg cada 24 horas"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Falla_Cardiaca_iSGLT2_DM2",
+      "gpc_algorithm_step": "En pacientes con DM2 que presentan Insuficiencia Cardiaca o Enfermedad Renal Crónica, la GPC y las actualizaciones normativas indican que el segundo escalón de elección indiscutible es un inhibidor de SGLT2 (Empagliflozina o Dapagliflozina), debido a su capacidad comprobada para reducir hospitalizaciones por insuficiencia cardiaca y frenar el deterioro renal. Pioglitazona está contraindicada por retención hidrosalina; Saxagliptina incrementa el riesgo de hospitalización por falla cardiaca.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La pioglitazona y la saxagliptina son antidiabéticos orales efectivos, pero en este paciente con insuficiencia cardiaca con fracción de eyección reducida están contraindicadas por riesgo de descompensación hemodinámica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el antidiabético de segunda línea de elección en DM2 con Insuficiencia Cardiaca establecida según la GPC?",
+        "back": "Inhibidores de SGLT2 (Dapagliflozina o Empagliflozina), por reducir hospitalizaciones por falla cardiaca y mortalidad CV.",
+        "tags": "D01 DM2 InsuficienciaCardiaca iSGLT2 Dapagliflozina GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Escalonamiento Terapéutico y Ajuste por Falla Renal y Riesgo Cardiovascular en DM2",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "En la discusión clínica del caso de este paciente de 60 años con comorbilidades múltiples (insuficiencia cardiaca y ERC estadio 3b), el equipo médico analiza la meta de control glucémico ambulatorio a perseguir para no incrementar la morbimortalidad.",
+      "question_text": "¿Cuál es la meta terapéutica de Hemoglobina Glucosilada (HbA1c) recomendada por la GPC mexicana y la NOM-015 para este perfil de paciente?",
+      "options": {
+        "A": "HbA1c menor a 6.0% para revertir por completo la remodelación miocárdica",
+        "B": "HbA1c estricta entre 6.0% y 6.5% aplicable a cualquier adulto menor de 65 años",
+        "C": "HbA1c entre 8.5% y 9.5% tolerando hiperglucemia sin intervención para evitar todo riesgo",
+        "D": "HbA1c individualizada entre 7.0% y 8.0%, flexibilizando la meta para minimizar el riesgo de hipoglucemias graves y arritmias letales"
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Metas_Individualizadas_HbA1c",
+      "gpc_algorithm_step": "La NOM-015 y la GPC IMSS establecen la individualización de metas de HbA1c: mientras que en pacientes jóvenes recién diagnosticados sin comorbilidad la meta es < 7.0% (o < 6.5%), en aquellos con comorbilidad cardiovascular severa (como insuficiencia cardiaca), nefropatía crónica o antecedente de fragilidad, la meta se flexibiliza a 7.5% - 8.0%. Esto previene la hipoglucemia iatrogénica, la cual desencadena descargas adrenérgicas que inducen isquemia coronaria y arritmias fatales.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Aplicar de manera indiscriminada la meta rígida de < 6.5% a un paciente cardiópata y nefrópata incrementa sustancialmente la mortalidad por hipoglucemia (como demostró el ensayo clínico ACCORD)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la meta de HbA1c en pacientes con DM2 y comorbilidad cardiovascular severa o ERC según la GPC?",
+        "back": "Meta flexibilizada e individualizada entre 7.0% y 8.0% para evitar hipoglucemias y eventos arrítmicos letales.",
+        "tags": "D01 DM2 HbA1c Metas Comorbilidad GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Escalonamiento Terapéutico y Ajuste por Falla Renal y Riesgo Cardiovascular en DM2",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El mismo paciente requiere una tomografía axial computarizada toracoabdominal con medio de contraste yodado intravenoso para caracterizar un nódulo pulmonar solitario. Su creatinina sérica previa es de 1.6 mg/dL (TFG 40 mL/min). Toma Metformina 850 mg al día.",
+      "question_text": "De acuerdo con las guías institucionales mexicanas, ¿cuál es la indicación precisa respecto a la administración de Metformina en torno a este estudio contrastado?",
+      "options": {
+        "A": "Suspender la Metformina 48 horas previas al procedimiento (o al momento de la exposición) y reanudarla no antes de 48 horas posteriores, tras verificar que la función renal se mantiene estable",
+        "B": "Duplicar la dosis de metformina y administrar infusión de bicarbonato de sodio 1 hora antes del medio de contraste",
+        "C": "Continuar la metformina sin ninguna interrupción, prescribiendo únicamente N-acetilcisteína oral como nefroprotector",
+        "D": "Suspender la metformina permanentemente e iniciar esquema de insulina NPH de forma vitalicia"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Metformina_Y_Contraste_Yodado",
+      "gpc_algorithm_step": "En pacientes con TFG < 60 mL/min que se someterán a estudios con contraste yodado intravenoso, la GPC indica suspender la Metformina 48 horas antes del estudio (o el día del procedimiento si es imprevisto) y suspenderla durante al menos 48 horas posteriores al procedimiento. Solo podrá reanudarse una vez que se verifique mediante creatinina sérica que no hubo deterioro agudo de la función renal, previniendo el cúmulo de metformina y el desarrollo de acidosis láctica.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Confiar exclusivamente en medidas como N-acetilcisteína o hidratación sin suspender la metformina en un paciente con TFG < 60 expone al paciente a una complicación mortal si desarrolla lesión renal aguda por contraste."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta con la Metformina en pacientes con TFG < 60 mL/min que recibirán contraste yodado IV?",
+        "back": "Suspender 48 horas previas (o al momento) y reanudar 48 horas posteriores únicamente tras confirmar función renal estable.",
+        "tags": "D01 DM2 Metformina ContrasteYodado GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Detección Oportuna y Manejo de Complicaciones Crónicas Microvasculares",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Femenina de 62 años con antecedente de DM2 de 10 años de evolución acude a su control preventivo anual. Se encuentra totalmente asintomática. TA 126/78 mmHg, FC 72 lpm, IMC 27.5 kg/m². En el examen general de orina no se identifican nitritos, leucocitos ni eritrocitos. Se realiza tamizaje renal mediante Razón Albúmina/Creatinina en orina al azar (RAC), reportando 145 mg/g. Una segunda muestra tomada a las 6 semanas confirma una RAC de 160 mg/g.",
+      "question_text": "¿Cuál es el diagnóstico según la estratificación KDIGO/GPC y cuál es el fármaco de primera línea para nefroprotección, a pesar de que la paciente se encuentre normotensa?",
+      "options": {
+        "A": "Normoalbuminuria; solo requiere dieta hiposódica y control glucémico sin necesidad de medicamentos adicionales",
+        "B": "Microalbuminuria persistente (ERC Categoría A2); iniciar un IECA (ej. Enalapril) o un ARA-II (ej. Losartán)",
+        "C": "Macroalbuminuria establecida (ERC Categoría A3); iniciar de inmediato Furosemida 40 mg cada 12 horas",
+        "D": "Insuficiencia renal crónica terminal; referir de urgencia para colocación de catéter de diálisis peritoneal"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Microalbuminuria_Nefroproteccion_IECA_ARAII",
+      "gpc_algorithm_step": "Razón albúmina/creatinina (RAC): A1 < 30 mg/g (normal), A2 30-300 mg/g (microalbuminuria), A3 > 300 mg/g (macroalbuminuria). Se requiere la confirmación en 2 de 3 muestras en un lapso de 3 a 6 meses. La GPC IMSS y la NOM-015 dictaminan que ante microalbuminuria confirmada en DM2, debe iniciarse un IECA o ARA-II independientemente de las cifras de presión arterial, dado que reducen la presión intraglomerular por dilatación de la arteriola eferente y frenan la progresión a nefropatía franca.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Asumir que por tener cifras tensionales normales (126/78 mmHg) no está indicado prescribir un antihipertensivo ignora el beneficio nefroprotector hemodinámico directo de los IECA/ARA-II en la microalbuminuria diabética."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de elección en un paciente con DM2 normotenso con microalbuminuria confirmada (RAC 30-300 mg/g)?",
+        "back": "Iniciar IECA (ej. Enalapril) o ARA-II (ej. Losartán) por su efecto nefroprotector hemodinámico intraglomerular.",
+        "tags": "D01 DM2 Nefropatia Microalbuminuria IECA GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Detección Oportuna y Manejo de Complicaciones Crónicas Microvasculares",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Como parte del protocolo de cribado anual en la misma paciente de 62 años, se realiza oftalmoscopia bajo midriasis pupilar. La exploración revela en ambos ojos la presencia de múltiples microaneurismas, hemorragias intrarretinianas 'en mancha y en llama' y exudados duros en los 4 cuadrantes retinianos. No se aprecian neovasos en papila ni en retina periférica, ni evidencia de hemorragia vítrea.",
+      "question_text": "¿Cuál es el diagnóstico oftalmológico preciso y la conducta de referencia según la GPC institucional?",
+      "options": {
+        "A": "Retinopatía diabética proliferativa de alto riesgo; enviar a vitrectomía de urgencia en menos de 24 horas",
+        "B": "Retinopatía hipertensiva grado IV con edema de papila; referir a terapia intensiva",
+        "C": "Retinopatía diabética no proliferativa moderada a severa; referir a Oftalmología para valoración y seguimiento especializado cada 4 a 6 meses",
+        "D": "Fondo de ojo con cambios seniles fisiológicos; citar a nuevo fondo de ojo dentro de 3 años en el primer nivel"
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Retinopatia_Diabetica_Estadiaje",
+      "gpc_algorithm_step": "La presencia de microaneurismas, exudados duros y hemorragias retinianas sin evidencia de neovascularización tipifica la Retinopatía Diabética No Proliferativa (RDNP) moderada/severa. Según la GPC del IMSS, la ausencia de neovasos descarta la forma proliferativa; sin embargo, al existir afección en múltiples cuadrantes, amerita referencia al segundo nivel (Oftalmología) para valoración de edema macular clínicamente significativo y seguimiento cada 4 a 6 meses.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Confundir las hemorragias retinianas extensas con retinopatía proliferativa induce a ordenar panfotocoagulación con láser o vitrectomía urgente sin que existan neovasos."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué hallazgo oftalmológico diferencia de forma patognomónica la retinopatía diabética proliferativa de la no proliferativa?",
+        "back": "La presencia de neovascularización (neovasos retinianos o en disco óptico) y/o hemorragia prerretiniana/vítrea.",
+        "tags": "D01 Retinopatia Neovasos RDNP RDP GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Detección Oportuna y Manejo de Complicaciones Crónicas Microvasculares",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la exploración neurológica de extremidades inferiores de la misma paciente de 62 años, se evalúa la sensibilidad táctil con monofilamento de Semmes-Weinstein de 10 gramos, constatándose ausencia de percepción en 4 de los 10 puntos evaluados en la planta de ambos pies. La paciente refiere disestesias ardorosas intolerables ('quemazón en calcetín') de 6 meses de evolución que empeoran marcadamente durante la noche e impiden el descanso nocturno (EVA 8/10).",
+      "question_text": "¿Cuál es el tratamiento farmacológico de PRIMERA línea normado por la GPC mexicana para el alivio sintomático del dolor neuropático diabético?",
+      "options": {
+        "A": "Pregabalina, Duloxetina o Amitriptilina a dosis nocturna titulada",
+        "B": "AINEs potentes (Ketorolaco o Ibuprofeno) en ciclos prolongados de 3 meses",
+        "C": "Complejo B intramuscular (Tiamina, Piridoxina y Cianocobalamina) cada semana",
+        "D": "Sulfato de morfina de liberación inmediata combinado con indometacina"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Neuropatia_Diabetica_Dolorosa_Tx",
+      "gpc_algorithm_step": "La GPC IMSS sobre neuropatía diabética dolorosa recomienda como fármacos de primera línea: ligandos alfa-2-delta de canales de calcio (Pregabalina, Gabapentina), inhibidores selectivos de la recaptura de serotonina y noradrenalina (Duloxetina) o antidepresivos tricíclicos (Amitriptilina). Los AINEs están proscritos por falta de eficacia analgésica sobre el dolor neuropático y alto riesgo de toxicidad renal y gastrointestinal; el complejo B carece de evidencia clínica demostrada en polineuropatía diabética simétrica.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El uso popular extendido de complejo B o la prescripción de analgésicos antiinflamatorios no esteroideos son trampas clásicas del ENARM que carecen de recomendación en las guías CENETEC."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los fármacos de primera línea para la polineuropatía diabética dolorosa según la GPC?",
+        "back": "Pregabalina, Duloxetina o Amitriptilina (AINEs y Complejo B carecen de eficacia neuropática y los AINEs son nefrotóxicos).",
+        "tags": "D01 Neuropatia Dolor Pregabalina Duloxetina GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Detección Oportuna y Manejo de Complicaciones Crónicas Microvasculares",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Al completar la revisión podológica de la paciente, se corrobora Pérdida de Sensibilidad Protectora (PSP) bilateral mediante monofilamento. Los pulsos pedios y tibiales posteriores son simétricos y de adecuada amplitud. No presenta callosidades prominentes, deformidades osteoarticulares (pie de Charcot ausente), ni antecedentes de úlceras previas o amputaciones.",
+      "question_text": "De acuerdo con el sistema de estratificación de riesgo del Grupo Internacional de Trabajo sobre Pie Diabético (IWGDF) adoptado por la GPC mexicana, ¿en qué categoría de riesgo se clasifica y cuál es el intervalo normativo de seguimiento?",
+      "options": {
+        "A": "Riesgo 0 (Sin PSP); seguimiento clínico anual en medicina preventiva",
+        "B": "Riesgo 3 (Muy alto riesgo); revisión cada 1 a 2 semanas en clínica de heridas",
+        "C": "Riesgo 2 (PSP con arteriopatía); referencia inmediata a cirugía vascular periférica",
+        "D": "Riesgo 1 (Bajo riesgo por PSP aislada sin vasculopatía ni deformidad); revisión médica cada 3 a 6 meses"
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Pie_Diabetico_Estratificacion_IWGDF",
+      "gpc_algorithm_step": "Clasificación de riesgo de ulceración IWGDF/GPC: Categoría 0: Sin pérdida de sensibilidad protectora (PSP) ni enfermedad arterial periférica (EAP) -> Revisión anual. Categoría 1: PSP aislada sin EAP ni deformidad -> Revisión cada 3 a 6 meses. Categoría 2: PSP con deformidad o EAP -> Revisión cada 2 a 3 meses. Categoría 3: Antecedente de úlcera previa, amputación o ERC terminal -> Revisión cada 1 a 2 meses.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Asignar una categoría de riesgo extremo (Riesgo 3) solo por tener monofilamento anormal pasa por alto que la paciente carece de antecedentes de úlcera o amputación previa."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo clasifica el IWGDF el pie de un paciente diabético con pérdida de sensibilidad protectora (PSP) aislada y cuál es su seguimiento?",
+        "back": "Riesgo Categoría 1. Seguimiento médico podológico cada 3 a 6 meses.",
+        "tags": "D01 PieDiabetico IWGDF Monofilamento GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Masculino de 45 años con antecedente de DM2 de 4 años de evolución en tratamiento con Metformina 1000 mg c/12h y Empagliflozina 25 mg c/24h. Acude a urgencias por náusea, vómito y disnea de 18 horas de evolución tras realizar ayuno intermitente estricto de 36 horas antes de una carrera de montaña. Signos vitales: TA 105/65 mmHg, FC 110 lpm, FR 26 rpm con respiración acidótica. Paraclínicos: Glucosa plasmática 174 mg/dL, pH venoso 7.21, HCO3 11 mEq/L, pCO2 24 mmHg, Cetonas séricas 4.8 mmol/L, Anion Gap 19 mEq/L, Creatinina 1.1 mg/dL, Lactato sérico 1.2 mmol/L.",
+      "question_text": "¿Cuál es el diagnóstico más probable y el mecanismo fisiopatológico subyacente según la evidencia clínica?",
+      "options": {
+        "A": "Acidosis láctica asociada a Metformina por inhibición del complejo I mitocondrial hepático",
+        "B": "Cetoacidosis diabética euglucémica inducida por inhibidores de SGLT2 debida a glucosuria masiva que reduce la insulina y estimula la lipólisis hepática",
+        "C": "Alcalosis respiratoria compensada por crisis de angustia e hiperventilación",
+        "D": "Cetoacidosis por inanición no complicada que se resuelve únicamente con ingesta de suero oral"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "CAD_Euglucemica_iSGLT2",
+      "gpc_algorithm_step": "Los inhibidores de SGLT2 pueden precipitar Cetoacidosis Diabética Euglucémica (glucosa < 250 o incluso < 200 mg/dL) ante situaciones de estrés catabólico, cirugía, infecciones o ayuno prolongado. La inhibición del cotransportador SGLT2 provoca glucosuria continua, bajando la glucemia y provocando disminución relativa de secreción de insulina endógena y aumento de glucagón; esta baja relación insulina/glucagón detona la lipólisis masiva y la beta-oxidación hepática con acidosis cetósica severa a pesar de normoglucemia.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Descartar CAD simplemente porque la glucosa plasmática es de 174 mg/dL y atribuirlo erróneamente a la metformina es un sesgo de anclaje habitual; el lactato es normal (1.2 mmol/L) y las cetonas séricas son muy elevadas."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué es la CAD euglucémica por iSGLT2 y cuál es su fisiopatología?",
+        "back": "Cetoacidosis con glucosa < 250 mg/dL secundaria a glucosuria continua por iSGLT2, que reduce insulina y aumenta glucagón detonando cetogénesis.",
+        "tags": "D01 CADEuglucemica iSGLT2 Empagliflozina GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Femenina de 78 años con DM2 en tratamiento crónico con Glibenclamida 10 mg al día. Es llevada a urgencias por sus familiares por diaforesis profusa, letargo y conducta errática. Se constata glucemia capilar de 34 mg/dL. Se le infunde de urgencia un bolo intravenoso de 50 mL de solución glucosada al 50%, recuperando la lucidez por completo en 10 minutos con glucosa de control de 125 mg/dL. Los familiares solicitan el alta voluntaria de inmediato argumentando que la paciente ya se encuentra consciente y asintomática.",
+      "question_text": "De acuerdo con la GPC mexicana, ¿cuál es la conducta médica normativa indicada ante una hipoglucemia severa secundaria a sulfonilureas?",
+      "options": {
+        "A": "Conceder el alta inmediata indicando colación rica en carbohidratos complejos y cita de control en 1 mes",
+        "B": "Administrar 1 mg de glucagón subcutáneo profiláctico y egresar a domicilio con metformina",
+        "C": "Hospitalizar a la paciente en observación continua con infusión intravenosa de glucosa al 10% por un mínimo de 24 a 48 horas debido al alto riesgo de hipoglucemia recurrente",
+        "D": "Aplicar insulina rápida subcutánea para contrarrestar el rebote hiperglucémico inducido por el bolo de dextrosa"
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Hipoglucemia_Sulfonilureas_Observacion",
+      "gpc_algorithm_step": "La Glibenclamida tiene una vida media biológica muy prolongada y metabolitos activos que se acumulan en adultos mayores por aclaramiento renal reducido. El bolo de dextrosa corrige temporalmente la cifra plasmática, pero estimula una nueva liberación masiva de insulina por las células beta pancreáticas sensibilizadas, provocando hipoglucemia recurrente severa horas después. La GPC IMSS exige hospitalización con infusión continua de glucosa al 10% y monitoreo estrecho por al menos 24 a 48 horas.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Dar de alta a un adulto mayor tras revertir una hipoglucemia por sulfonilureas basándose en la mejoría clínica inmediata puede ser fatal debido al fenómeno de hipoglucemia recurrente tardía."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué es mandatoria la hospitalización por 24-48 horas en un paciente con hipoglucemia por glibenclamida revertida?",
+        "back": "Porque las sulfonilureas tienen vida media prolongada y la dextrosa estimula mayor secreción de insulina, causando hipoglucemia recurrente.",
+        "tags": "D01 DM2 Hipoglucemia Glibenclamida Sulfonilureas GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Masculino de 32 años con DM1 bajo tratamiento con esquema basal-bolo (insulina NPH antes de la cena e insulina rápida con las comidas). Acude a la consulta refiriendo hiperglucemias en ayuno matutino consistentemente elevadas (220 a 250 mg/dL). El médico sospecha entre Fenómeno del Alba vs Efecto Somogyi y le solicita glucometrías a las 3:00 AM durante tres madrugadas consecutivas, las cuales reportan: 46, 50 y 48 mg/dL, acompañadas de diaforesis nocturna y cefalea matutina.",
+      "question_text": "¿Cuál es el diagnóstico fisiopatológico y el ajuste normativo en el esquema insulínico según la GPC?",
+      "options": {
+        "A": "Efecto Somogyi (hiperglucemia matutina de rebote tras hipoglucemia nocturna); reducir la dosis nocturna de insulina NPH o retrasar su aplicación a la hora de acostarse",
+        "B": "Fenómeno del Alba (liberación de hormona de crecimiento); incrementar la dosis vespertina de insulina NPH",
+        "C": "Resistencia periférica a la insulina refractaria; agregar metformina 2000 mg por la noche",
+        "D": "Hipoglucemia facticia por manipulación insulínica; suspender de inmediato toda la insulina basal"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Efecto_Somogyi_vs_Alba",
+      "gpc_algorithm_step": "El monitoreo a las 3:00 AM es el criterio discriminatorio clave: si la glucemia es baja (< 60-70 mg/dL), se trata del Efecto Somogyi (la hipoglucemia inadvertida nocturna desencadena un pico masivo de hormonas contrarreguladoras —adrenalina, glucagón, cortisol— que provoca hiperglucemia de rebote al despertar). La conducta correcta es reducir la dosis nocturna de NPH o moverla de la cena a la hora de acostarse (bedtime). Si la glucemia a las 3:00 AM fuera normal o alta, se trataría del Fenómeno del Alba (aumento matutino de GH/cortisol, que requiere aumentar la insulina basal).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Aumentar la insulina nocturna ante la hiperglucemia matutina cuando el paciente tiene Efecto Somogyi agrava la hipoglucemia de las 3 AM y perpetúa el rebote hiperglucémico severo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se diferencia el Efecto Somogyi del Fenómeno del Alba y cuál es el manejo de Somogyi?",
+        "back": "Glucometría a las 3:00 AM: si es BAJA (<60-70 mg/dL) es Somogyi -> Reducir dosis o retrasar NPH al acostarse. Si es NORMAL/ALTA es Alba -> Subir NPH.",
+        "tags": "D01 Somogyi Alba Insulina HipoglucemiaNocturna GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Masculino de 60 años con antecedente de DM2 de 8 años de evolución ingresa a hospitalización general en Medicina Interna por una celulitis no complicada en pierna izquierda que requiere antibiótico parenteral. Se encuentra no crítico, con dieta enteral adecuada para diabético. En su domicilio tomaba metformina 850 mg c/12h y glibenclamida 5 mg c/12h. Glucosa al ingreso de 220 mg/dL. El médico interno de pregrado propone redactar la indicación: 'Aplicar insulina rápida subcutánea según escala móvil cada 6 horas'.",
+      "question_text": "¿Cuál es la postura y recomendación oficial de la GPC y directrices clínicas sobre el control glucémico hospitalario en pacientes no críticos?",
+      "options": {
+        "A": "Continuar con glibenclamida oral y aplicar insulina rápida si la glucemia supera los 300 mg/dL",
+        "B": "Administrar únicamente metformina por vía intravenosa y no usar insulina",
+        "C": "Utilizar la escala móvil de insulina rápida como monoterapia exclusiva durante los primeros 5 días de internamiento",
+        "D": "Suspender los antidiabéticos orales e iniciar un esquema programado de insulina subcutánea basal-bolo (o basal-plus con corrección), proscribiendo el uso exclusivo de la escala móvil"
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Manejo_Insulina_Hospitalario_No_Critico",
+      "gpc_algorithm_step": "La GPC y los consensos internacionales proscriben el uso de la 'escala móvil de insulina rápida' (Sliding Scale) como estrategia única intrahospitalaria. Este esquema reactivo solo trata la hiperglucemia una vez ocurrida ('persigue la glucosa') y se asocia a marcada variabilidad glucémica y episodios de hipoglucemia. La estrategia estandarizada es suspender fármacos orales e iniciar un esquema fisiológico programado de insulina subcutánea basal-bolo o basal-plus con dosis de corrección.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "El uso generalizado de la escala móvil refleja inercia clínica arraigada, pero está formalmente desaconsejado en las evaluaciones psicométricas del ENARM basadas en guías de práctica clínica."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué está contraindicada la escala móvil exclusiva de insulina rápida en el paciente hospitalizado no crítico?",
+        "back": "Porque no previene la hiperglucemia, produce gran variabilidad y aumenta hipoglucemias. La GPC exige esquema programado basal-bolo o basal-plus.",
+        "tags": "D01 DM2 Hospitalizado EscalaMovil BasalBolo GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Femenina de 49 años, asintomática, con IMC de 29.8 kg/m². En exámenes de chequeo ocupacional rutinario se documentan dos glucemias plasmáticas en ayuno de 142 mg/dL y 150 mg/dL, con una HbA1c confirmatoria de 7.6%. La paciente no presenta antecedentes de daño orgánico renal, cardiovascular ni hepático, y no tiene datos de descompensación catabólica.",
+      "question_text": "De acuerdo con la GPC IMSS-718-18 y la NOM-015, ¿cuál es el abordaje terapéutico inicial normativo y el intervalo de tiempo para evaluar la meta terapéutica de HbA1c?",
+      "options": {
+        "A": "Prescribir únicamente modificaciones en el estilo de vida durante 6 meses; si no alcanza la meta, iniciar glibenclamida",
+        "B": "Iniciar cambios en el estilo de vida conjuntamente con Metformina oral (iniciando con 500 a 850 mg/día) y revaluar el cumplimiento de metas con HbA1c a los 3 meses",
+        "C": "Iniciar de inmediato triple terapia oral con Metformina, Sulfonilurea e iSGLT2 por ser el esquema de inducción obligatorio",
+        "D": "Iniciar insulina NPH a 0.5 UI/kg/día por ser obligatoria en toda HbA1c superior al 7.0%"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Inicio_Metformina_Y_Monitoreo_HbA1c",
+      "gpc_algorithm_step": "En el paciente con diagnóstico de DM2 de novo asintomático y con HbA1c < 9.0%, la GPC y la NOM-015 indican el inicio simultáneo de modificaciones en el estilo de vida más monoterapia farmacológica con Metformina (titulada progresivamente desde 500-850 mg/día para evitar intolerancia digestiva). La evaluación del apego y logro de metas de control glucémico (HbA1c < 7.0%) debe llevarse a cabo a los 3 meses para decidir escalonamiento terapéutico.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Demorar el inicio de metformina esperando 6 meses de dieta exclusiva o iniciar insulina cuando la HbA1c es < 9% contradice los algoritmos institucionales de primer nivel."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el manejo farmacológico inicial y el tiempo de reevaluación de HbA1c en DM2 recién diagnosticada con HbA1c < 9%?",
+        "back": "Estilo de vida + Metformina (monoterapia) con reevaluación de HbA1c a los 3 meses.",
+        "tags": "D01 DM2 Metformina Monoterapia Reevaluacion3Meses GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Clinical Vignette in Medical English - Diabetic Ketoacidosis with Severe Acidemia and Multiple Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A 28-year-old female with poorly controlled type 1 diabetes mellitus is brought to the emergency department by her family due to persistent nausea, intractable vomiting, generalized abdominal pain, and marked lethargy for the past 24 hours. She had omitted her daily insulin injections for two days because of poor oral intake attributed to suspected acute gastroenteritis. Physical examination reveals a drowsy patient who arouses only to voice, with dry oral mucosa, poor skin turgor, and a prominent fruity breath odor. Vital signs: Blood pressure 92/58 mmHg, Heart rate 126 bpm, Respiratory rate 32 breaths/min (deep Kussmaul pattern), Temperature 37.1 °C, SpO2 97% on ambient air. Urgent laboratory analysis demonstrates: Plasma Glucose 510 mg/dL, Arterial Blood Gas: pH 7.12, PaCO2 18 mmHg, PaO2 94 mmHg, HCO3- 8 mEq/L; Serum Electrolytes: Na+ 131 mEq/L, K+ 5.7 mEq/L, Cl- 98 mEq/L; BUN 38 mg/dL, Serum Creatinine 1.9 mg/dL; Urinalysis: Ketones ++++, Glucose ++++.",
+      "question_text": "Based on the clinical presentation and laboratory parameters, what is the calculated serum anion gap and the corresponding severity classification of Diabetic Ketoacidosis according to standard Clinical Practice Guidelines?",
+      "options": {
+        "A": "Serum Anion Gap is 25 mEq/L; Classified as Severe Diabetic Ketoacidosis",
+        "B": "Serum Anion Gap is 14 mEq/L; Classified as Mild Diabetic Ketoacidosis",
+        "C": "Serum Anion Gap is 33 mEq/L; Classified as Hyperosmolar Hyperglycemic State",
+        "D": "Serum Anion Gap is 8 mEq/L; Classified as Non-Anion Gap Normal Metabolic Acidosis"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Calculo_Anion_Gap_Severidad_CAD",
+      "gpc_algorithm_step": "Serum Anion Gap formula: [Na+] - ([Cl-] + [HCO3-]) = 131 - (98 + 8) = 131 - 106 = 25 mEq/L (Normal ≤ 12 mEq/L). Severity classification per GPC IMSS and ADA criteria: Severe DKA is defined by arterial pH < 7.00 OR serum bicarbonate < 10 mEq/L, anion gap > 12 mEq/L, and presence of stupor or lethargy. Here, the bicarbonate of 8 mEq/L and lethargy firmly categorize this case as Severe DKA.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Miscalculating the anion gap by failing to include bicarbonate or classifying the severity solely based on pH without taking into account the bicarbonate < 10 mEq/L and neurologic depression."
+      },
+      "anki_flashcard": {
+        "front": "What is the formula for the serum anion gap and the criteria for Severe DKA according to CPG?",
+        "back": "Anion Gap = Na+ - (Cl- + HCO3-). Severe DKA: pH < 7.00, HCO3- < 10 mEq/L, Anion Gap > 12, and stupor/coma.",
+        "tags": "D01 English DKA AnionGap Severity GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Clinical Vignette in Medical English - Diabetic Ketoacidosis with Severe Acidemia and Multiple Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "In the same 28-year-old female patient, the attending medical team reviews the initial serum potassium level of 5.7 mEq/L in the presence of prerenal azotemia (Creatinine 1.9 mg/dL) and tachycardia with hypotension (BP 92/58 mmHg, HR 126 bpm).",
+      "question_text": "According to Mexican Clinical Practice Guidelines, what is the most appropriate initial fluid resuscitation and electrolyte management strategy regarding potassium and insulin initiation?",
+      "options": {
+        "A": "Administer 100 mmol of IV sodium bicarbonate and start IV potassium chloride infusion at 30 mEq/hr immediately before fluids",
+        "B": "Withhold insulin and administer IV calcium gluconate plus nebulized albuterol to aggressively treat life-threatening hyperkalemia",
+        "C": "Initiate 0.9% normal saline at 1000 mL/hr, start regular insulin IV infusion at 0.1 units/kg/hr without potassium replacement, and recheck potassium every 2 hours",
+        "D": "Infuse 5% Dextrose with 0.45% normal saline at 500 mL/hr to prevent hypoglycemia and administer subcutaneous glargine"
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Manejo_Potasio_Elevado_CAD",
+      "gpc_algorithm_step": "Mexican GPC algorithms state: When baseline serum potassium is > 5.2 mEq/L (or > 5.3 mEq/L), do NOT administer exogenous potassium. Start fluid expansion with 0.9% NaCl (1000 mL/h) and initiate intravenous regular insulin infusion (0.1 units/kg/h). Insulin will rapidly drive potassium into the intracellular space, lowering serum levels. Serum potassium must be checked every 2 hours; once it drops below 5.2 mEq/L, KCl (20-30 mEq per liter of IV fluid) must be added. Bicarbonate is contraindicated as pH is ≥ 6.90.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Assuming potassium 5.7 mEq/L requires calcium gluconate or delaying insulin ignores that hyperkalemia in DKA is primarily due to acidemia and insulin deficiency; insulin administration promptly resolves it."
+      },
+      "anki_flashcard": {
+        "front": "What is the initial potassium management protocol in DKA when baseline K+ is > 5.2 mEq/L?",
+        "back": "Do NOT give potassium. Start IV fluid resuscitation (0.9% saline) and insulin infusion; recheck K+ every 2 hours until it drops < 5.2 mEq/L.",
+        "tags": "D01 English DKA Hyperkalemia PotassiumProtocol GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Clinical Vignette in Medical English - Diabetic Ketoacidosis with Severe Acidemia and Multiple Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Four hours after initiating fluid resuscitation with 0.9% normal saline and continuous intravenous regular insulin infusion at 0.1 units/kg/hr, the patient's plasma glucose decreases to 192 mg/dL. Repeat venous blood gas demonstrates: pH 7.25, HCO3- 13 mEq/L, pCO2 29 mmHg, and calculated anion gap of 15 mEq/L. The patient remains somewhat drowsy with mild abdominal discomfort.",
+      "question_text": "What is the mandatory next step in the intravenous fluid and insulin therapy according to Clinical Practice Guidelines?",
+      "options": {
+        "A": "Discontinue the intravenous insulin infusion immediately and transition the patient to oral antidiabetic agents",
+        "B": "Switch intravenous fluids to 5% Dextrose with 0.45% NaCl, reduce regular insulin infusion to 0.02-0.05 units/kg/hr, and maintain blood glucose between 150 and 200 mg/dL until ketoacidosis resolves",
+        "C": "Administer 100 mmol of IV sodium bicarbonate because the venous pH is still below 7.30",
+        "D": "Double the insulin infusion rate to 0.2 units/kg/hr to close the anion gap faster regardless of current blood glucose"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Adicion_Dextrosa_Evitar_Edema_CAD",
+      "gpc_algorithm_step": "Clinical guidelines dictate that as soon as blood glucose reaches ≤ 200 mg/dL in DKA, 5% Dextrose must be added to hypotonic maintenance fluids (0.45% NaCl) and the insulin infusion rate reduced to 0.02-0.05 units/kg/hr. This prevents rapid osmolar decline, hypoglycemia, and cerebral edema while ensuring ongoing insulin delivery to clear ketosis and close the anion gap. Discontinuing insulin would precipitate immediate rebound ketoacidosis.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Stopping insulin infusion prematurely because glucose dropped below 200 mg/dL is a frequent clinical mistake; the anion gap is still 15 mEq/L and ketoacidosis has not resolved."
+      },
+      "anki_flashcard": {
+        "front": "What adjustment to IV fluids and insulin is indicated when plasma glucose drops to ≤ 200 mg/dL in DKA?",
+        "back": "Add 5% Dextrose to 0.45% NaCl and reduce insulin infusion to 0.02-0.05 units/kg/hr, keeping glucose 150-200 mg/dL until resolution.",
+        "tags": "D01 English DKA GlucoseDrop Dextrose5 GPC"
+      }
+    },
+    {
+      "id": "d01_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Clinical Vignette in Medical English - Diabetic Ketoacidosis with Severe Acidemia and Multiple Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Ten hours after presentation, the patient is fully alert, hungry, and comfortably drinking liquids. Repeat laboratory values show: Plasma glucose 162 mg/dL, Venous blood gas: pH 7.35, HCO3- 19 mEq/L, pCO2 35 mmHg, Anion gap 9 mEq/L, K+ 4.3 mEq/L.",
+      "question_text": "Having met all criteria for resolution of diabetic ketoacidosis, what is the mandatory transition protocol to subcutaneous insulin according to Mexican Clinical Practice Guidelines?",
+      "options": {
+        "A": "Administer the first dose of subcutaneous basal insulin and continue the intravenous insulin infusion for 1 to 2 hours before discontinuation",
+        "B": "Immediately discontinue the intravenous insulin infusion at the exact second the first subcutaneous rapid insulin injection is administered",
+        "C": "Discontinue all insulin therapies and initiate oral metformin 850 mg every 12 hours",
+        "D": "Keep the patient NPO and continue intravenous insulin infusion for an additional 48 hours to confirm ketoacidosis stability"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Protocolo_Traslape_Insulina_SC",
+      "gpc_algorithm_step": "DKA resolution is defined as: Blood glucose < 200 mg/dL plus at least 2 of: HCO3- ≥ 18 mEq/L, venous pH > 7.30, normal anion gap (≤ 12 mEq/L), and patient tolerating oral intake. Intravenous regular insulin has a half-life of mere minutes. Therefore, CPG strictly mandates administering subcutaneous basal insulin (or basal-bolus) and overlapping the IV infusion for 1 to 2 hours (or 2-4 hours with NPH/Glargine) before turning it off. This prevents a gap in circulating insulin levels and avoids rebound ketosis.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Stopping the IV insulin infusion simultaneously without an overlapping period creates an insulin-deficient window that triggers relapse of ketoacidosis."
+      },
+      "anki_flashcard": {
+        "front": "What is the mandatory overlap protocol when transitioning from IV to subcutaneous insulin in resolved DKA?",
+        "back": "Administer subcutaneous basal insulin and maintain the IV insulin infusion for 1 to 2 hours before turning it off.",
+        "tags": "D01 English DKA SubcutaneousTransition Overlap GPC"
+      }
+    }
+  ]
+}

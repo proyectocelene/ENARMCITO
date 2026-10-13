@@ -1,0 +1,709 @@
+{
+  "topic_code": "D02",
+  "title": "Simulador Post-Estudio: Hipertensión Arterial Sistémica y Crisis HTA",
+  "normativa_origen": "GPC IMSS-076-08 / NOM-030",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d02_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Diagnóstico de HAS, Estratificación de Riesgo Cardiovascular y Terapia Inicial Combinada",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Hombre de 52 años, chofer de transporte público, sin antecedentes crónicos conocidos salvo tabaquismo activo con IT de 15 paquetes-año. Acude a chequeo preventivo institucional en Unidad de Medicina Familiar. Refiere cefalea occipital vespertina ocasional y fatiga leve al final de su jornada laboral. A la exploración física: peso 86 kg, talla 1.71 m (IMC 29.4 kg/m²), perímetro abdominal 102 cm, FC 76 lpm, FR 16 rpm. Se realiza toma protocolizada de presión arterial con esfigmomanómetro aneroide calibrado tras 5 minutos de reposo sentado y manguito adecuado al brazo, registrándose 164/102 mmHg en el brazo derecho y 162/100 mmHg en el izquierdo; se repite la medición 5 minutos después obteniendo 166/102 mmHg. Exámenes de laboratorio de rutina: glucosa en ayuno 108 mg/dL, creatinina 0.95 mg/dL, nitrógeno ureico 16 mg/dL, colesterol total 228 mg/dL, triglicéridos 195 mg/dL, HDL 38 mg/dL, ácido úrico 5.8 mg/dL, y examen general de orina normal sin hematuria ni proteinuria en tira reactiva.",
+      "question_text": "Con base en la NOM-030-SSA2-2009 y la GPC IMSS-076-08, ¿cuál es la clasificación hemodinámica de las cifras tensionales de este paciente y el protocolo de abordaje inicial obligado para daño subclínico a órgano blanco?",
+      "options": {
+        "A": "Hipertensión Grado 1; citar a 3 consultas mensuales sucesivas para confirmar diagnóstico antes de solicitar cualquier estudio complementario.",
+        "B": "Hipertensión Grado 2 (Moderada); confirmar diagnóstico e indicar de inmediato electrocardiograma de 12 derivaciones y cuantificación de albuminuria o relación albúmina/creatinina urinaria.",
+        "C": "Crisis Hipertensiva tipo Urgencia; administrar captopril sublingual de inmediato y referir al servicio de urgencias hospitalarias.",
+        "D": "Hipertensión Grado 3 (Severa); hospitalizar de inmediato en sala de terapia intensiva para monitoreo hemodinámico invasivo."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Estratificacion_Inicial",
+      "gpc_algorithm_step": "NOM-030-SSA2-2009 y GPC IMSS-076-08: Cifras de 160-179 mmHg sistólica y/o 100-109 mmHg diastólica corresponden a Hipertensión Grado 2 (Moderada). En pacientes con cifras Grado 2 o riesgo cardiovascular alto, se corrobora el diagnóstico y se solicita tamizaje basal de daño subclínico a órgano blanco con ECG de 12 derivaciones (búsqueda de hipertrofia ventricular izquierda) y relación albúmina/creatinina urinaria (microalbuminuria).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir las cifras de Grado 2 con Grado 1 (esperando meses sin estudiar) o con una urgencia hipertensiva por la presencia de cefalea inespecífica sin daño agudo a órgano blanco."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo clasifica la NOM-030 cifras de 160-179 / 100-109 mmHg y qué estudios de daño subclínico a órgano blanco se deben solicitar de inicio?",
+        "back": "Hipertensión Arterial Grado 2 (Moderada). Estudios iniciales obligados: ECG de 12 derivaciones (hipertrofia ventricular izquierda) y relación albúmina/creatinina urinaria (RAC / microalbuminuria), además de química sanguínea, electrolitos y perfil lipídico.",
+        "tags": "D02 HAS Clasificacion NOM030 GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Diagnóstico de HAS, Estratificación de Riesgo Cardiovascular y Terapia Inicial Combinada",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En el mismo paciente de 52 años, el electrocardiograma de 12 derivaciones revela ritmo sinusal, FC 74 lpm, eje eléctrico a -15°, onda S en V1 de 18 mm y onda R en V5 de 22 mm (Índice de Sokolow-Lyon = 40 mm, positivo para HVI). La relación albúmina/creatinina urinaria (RAC) en muestra matutina es de 145 mg/g (microalbuminuria confirmada: 30-300 mg/g). Su TFG calculada por CKD-EPI es de 88 mL/min/1.73m², potasio sérico 4.4 mEq/L y sodio 140 mEq/L. Sus cifras tensionales se mantienen en 166/102 mmHg tras reposo.",
+      "question_text": "¿Cuál es la mejor estrategia terapéutica farmacológica inicial indicada por la GPC IMSS-076-08 para este paciente?",
+      "options": {
+        "A": "Monoterapia con hidroclorotiazida 25 mg/día en dosis única matutina, revalorando a los 3 meses.",
+        "B": "Terapia combinada dual de inicio: un IECA (ej. enalapril) o un ARA-II (ej. losartán) asociado a un calcioantagonista dihidropiridínico (ej. amlodipino) o a una tiazida.",
+        "C": "Terapia combinada sinérgica dual de bloqueo del sistema renina-angiotensina con enalapril 10 mg cada 12 horas más losartán 50 mg al día.",
+        "D": "Monoterapia con betabloqueador cardioselectivo (metoprolol succinato 100 mg/día) como fármaco de primera elección en el paciente trabajador activo."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC IMSS-076-08: Cuando la presión arterial se encuentra en Grado 2 (≥160/100 mmHg o >20/10 mmHg por encima de la meta) y/o existe daño a órgano blanco (HVI, microalbuminuria), se recomienda iniciar directamente con TERAPIA COMBINADA DUAL (IECA o ARA-II + Calcioantagonista o Diurético tiazídico). Se prohíbe taxativamente la combinación simultánea de IECA + ARA-II.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Intentar combinar IECA + ARA-II pensando erróneamente que duplica la protección renal, cuando en realidad incrementa el riesgo de falla renal aguda e hiperpotasemia sin beneficio clínico (contraindicación formal según GPC / estudio ONTARGET)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo indica la GPC mexicana iniciar tratamiento antihipertensivo con terapia combinada dual desde la primera consulta?",
+        "back": "Cuando la TA basal es ≥160/100 mmHg (Grado 2, o >20/10 mmHg sobre la meta) o existe daño a órgano blanco documentado / riesgo cardiovascular alto. Se combina IECA o ARA-II con Calcioantagonista dihidropiridínico o Tiazida.",
+        "tags": "D02 HAS Terapia_Dual Algoritmo GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Diagnóstico de HAS, Estratificación de Riesgo Cardiovascular y Terapia Inicial Combinada",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El paciente inició tratamiento con enalapril 10 mg cada 12 horas más amlodipino 5 mg cada 24 horas, junto con modificaciones en el estilo de vida (restricción de sodio a <2 g/día y abandono de tabaco). A las 6 semanas acude a consulta de control: su presión arterial ha descendido exitosamente a 126/78 mmHg y FC 72 lpm. Sin embargo, refiere sensación de pesadez y aumento de volumen en ambos tobillos hacia el final del día. A la exploración física: edema bimaleolar simétrico blando grado II, sin dolor, sin eritema ni cambios tróficos cutáneos. Pulsos periféricos presentes y simétricos. Niega disnea, ortopnea ni fatiga. Laboratorios de control: creatinina 0.92 mg/dL, potasio 4.5 mEq/L, albúmina sérica 4.2 g/dL.",
+      "question_text": "¿Cuál es el mecanismo fisiopatológico primario responsable de este efecto adverso y la conducta terapéutica más adecuada según la farmacología clínica de la GPC?",
+      "options": {
+        "A": "Retención renal patológica de sodio y agua; se debe agregar furosemida 40 mg/día por sospecha de insuficiencia cardíaca congestiva incipiente.",
+        "B": "Vasodilatación arteriolar precapilar preferencial inducida por amlodipino con aumento de la presión hidrostática capilar; no es una falla cardíaca ni retención sistémica.",
+        "C": "Toxicidad glomerular renal secundaria a sobredosis de enalapril; se debe suspender inmediatamente el IECA y solicitar biopsia renal.",
+        "D": "Trombosis venosa profunda bilateral sincrónica; se debe iniciar anticoagulación terapéutica inmediata con heparina de bajo peso molecular."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Efecto_Adverso_Farmacologia",
+      "gpc_algorithm_step": "GPC IMSS-076-08: El edema periférico por calcioantagonistas dihidropiridínicos (amlodipino) no se debe a sobrecarga de volumen ni a falla cardíaca, sino a vasodilatación arteriolar desproporcionada que eleva la presión intracapilar y produce trasudación al intersticio. Los diuréticos de asa son ineficaces para resolverlo; los IECAs o ARA-II ayudan a contrarrestarlo al inducir venodilatación poscapilar.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Prescribir furosemida para un edema inducido por calcioantagonista creyendo erróneamente que hay sobrecarga hídrica, exponiendo al paciente a depleción de volumen, hipotensión e hipopotasemia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la causa del edema maleolar por amlodipino y por qué no responde a diuréticos de asa?",
+        "back": "Es causado por vasodilatación arteriolar precapilar con aumento de presión hidrostática capilar (fuga al intersticio), no por sobrecarga hidrosalina. Los diuréticos de asa no revierten este mecanismo hemodinámico local.",
+        "tags": "D02 Amlodipino Edema Calcioantagonistas Farmacologia GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Diagnóstico de HAS, Estratificación de Riesgo Cardiovascular y Terapia Inicial Combinada",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Cuatro semanas más tarde, el paciente continúa con TA en meta terapéutica (124/76 mmHg), pero acude nuevamente porque desde hace 15 días presenta tos seca constante, no productiva, en accesos nocturnos, muy molesta, que interrumpe su descanso y le provoca carraspera faríngea. Niega fiebre, rinorrea, disnea, pirosis o sibilancias. A la auscultación pulmonar los campos están limpios y bien ventilados. Se descarta infección respiratoria aguda y reflujo gastroesofágico. Se identifica que la tos inició tras titular la dosis de enalapril.",
+      "question_text": "¿Cuál es el mediador bioquímico responsable de este síntoma y la conducta farmacológica recomendada por la GPC IMSS-076-08?",
+      "options": {
+        "A": "Acumulación de angiotensina II por retroalimentación positiva; indicar jarabe de dextrometorfano con difenhidramina.",
+        "B": "Bloqueo de receptores beta-2 adrenérgicos bronquiales; cambiar enalapril por captopril a dosis equivalente.",
+        "C": "Acumulación de bradicinina y sustancia P por inhibición de la cininasa II; suspender el IECA y sustituirlo por un ARA-II (ej. losartán o telmisartán).",
+        "D": "Hipersensibilidad de tipo I mediada por IgE; agregar salbutamol en aerosol y mantener el enalapril a mitad de dosis."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Sustitucion_Farmacologica",
+      "gpc_algorithm_step": "GPC IMSS-076-08: La tos inducida por IECAs ocurre en 5-20% de los pacientes por acumulación pulmonar de bradicinina y sustancia P (la ECA es idéntica a la enzima cininasa II). La conducta obligada es la suspensión del IECA y su sustitución por un ARA-II (losartán, telmisartán), el cual no altera la degradación de bradicinina.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Cambiar enalapril por captopril, olvidando que es un efecto de clase de todos los IECAs, o intentar tratar la tos con antitusígenos sin retirar el fármaco causante."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el mecanismo de la tos por IECAs y cuál es el reemplazo indicado por GPC?",
+        "back": "Acumulación de bradicinina y sustancia P al inhibir la cininasa II. Conducta: suspender el IECA y sustituir por un ARA-II (losartán, telmisartán).",
+        "tags": "D02 IECA Bradicinina Tos ARAII GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Emergencia Hipertensiva vs Urgencia Hipertensiva con Daño Renal Agudo y Retinopatía",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mujer de 58 años, con diagnóstico de hipertensión arterial de 8 años de evolución con mal apego al tratamiento farmacológico (suspende medicamentos con frecuencia). Es traída al servicio de urgencias por sus familiares debido a cefalea holocraneana de intensidad progresiva 9/10, náuseas, vómito en dos ocasiones, fotofobia y visión borrosa caracterizada por escotomas centellantes y pérdida parcial de agudeza visual. A la exploración física: obnubilada, orientada en persona pero desorientada en tiempo y espacio, sin déficit motor focalizado ni rigidez de nuca. Signos vitales: TA 224/132 mmHg (TAM 162 mmHg), FC 94 lpm, FR 18 rpm, SpO2 97% al aire ambiente, glucemia capilar 118 mg/dL. Al examen de fondo de ojo bajo midriasis farmacológica se aprecian hemorragias retinianas en llama, exudados algodonosos y borramiento completo de los bordes del disco óptico (edema de papila bilateral).",
+      "question_text": "¿Cuál es la clasificación sindromática exacta de este cuadro clínico y el nivel de atención prioritario de acuerdo con la GPC IMSS-076-08 / CENETEC?",
+      "options": {
+        "A": "Urgencia Hipertensiva sin riesgo vital; administrar clonidina o captopril vía oral y enviar a domicilio con cita a consulta externa en 72 horas.",
+        "B": "Emergencia Hipertensiva con daño agudo a órgano blanco (encefalopatía hipertensiva y retinopatía grado IV); requiere ingreso inmediato a Unidad de Cuidados Intensivos / Choque con monitoreo y terapia parenteral.",
+        "C": "Crisis Hipertensiva de bata blanca; administrar ansiolítico sublingual (diazepam) y revaluar cifras en 4 horas.",
+        "D": "Seudocrisis hipertensiva por migraña con aura; iniciar ketorolaco y ergotamina intramuscular."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Clasificacion_Crisis_HTA",
+      "gpc_algorithm_step": "GPC IMSS-076-08 / NOM-030: La elevación de cifras tensionales (TAS ≥180 o TAD ≥120 mmHg) acompañada de daño agudo y progresivo a órgano blanco (papiledema, retinopatía grado IV, encefalopatía, estupor) define de forma absoluta una EMERGENCIA HIPERTENSIVA. Amerita ingreso inmediato a área de reanimación/UCI y uso de fármacos endovenosos titulados.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Catalogar erróneamente el cuadro como Urgencia Hipertensiva por creer que sólo el infarto miocárdico o el EVC motor son emergencias, ignorando el papiledema bilateral y el estado de encefalopatía aguda."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué diferencia clave distingue a una Emergencia Hipertensiva de una Urgencia Hipertensiva según la GPC?",
+        "back": "La Emergencia Hipertensiva presenta daño agudo a órgano blanco en evolución (ej. papiledema, encefalopatía, SCA, EAP, disección aórtica, falla renal aguda) y requiere fármacos IV en UCI. La Urgencia no presenta daño agudo a órgano blanco y se maneja con VO.",
+        "tags": "D02 Crisis_HTA Emergencia Urgencia GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Emergencia Hipertensiva vs Urgencia Hipertensiva con Daño Renal Agudo y Retinopatía",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la misma paciente de 58 años con Emergencia Hipertensiva, el equipo médico calcula una Presión Arterial Media (TAM) basal de 162 mmHg (TA 224/132 mmHg). Se canalizan dos vías venosas periféricas y se prepara línea arterial. El médico interno propone descender la presión arterial inmediatamente a cifras normales (<120/80 mmHg) en los primeros 15 minutos para 'proteger el cerebro y la retina'.",
+      "question_text": "¿Cuál es la meta hemodinámica estricta de reducción de presión arterial en la primera hora y la justificación fisiopatológica según la GPC IMSS-076-08?",
+      "options": {
+        "A": "Normalizar la TA a menos de 120/80 mmHg en los primeros 30 minutos para revertir de inmediato el edema cerebral.",
+        "B": "Disminuir la TAM no más del 20% al 25% (o situar la presión arterial diastólica alrededor de 100-110 mmHg) en la primera hora, para evitar isquemia e hipoperfusión cerebral y coronaria por desplazamiento de la curva de autorregulación.",
+        "C": "Descender la presión sistólica exclusivamente a 90 mmHg durante los primeros 10 minutos mediante bolo rápido de nitroprusiato de sodio.",
+        "D": "Mantener la presión arterial completamente sin cambios durante las primeras 6 horas para no alterar la hemodinámica sistémica."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Metas_Reduccion_Crisis",
+      "gpc_algorithm_step": "GPC IMSS-076-08: En pacientes hipertensos crónicos, la curva de autorregulación del flujo sanguíneo cerebral está desplazada a la derecha. Un descenso brusco a cifras 'normales' precipita hipoperfusión cerebral severa, infarto cerebral isquémico y ceguera. La meta es reducir la TAM entre un 20% y 25% en la primera hora, alcanzar 160/100-110 mmHg en las siguientes 2 a 6 horas, y normalizar gradualmente en 24-48 horas.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Creer intuitivamente que la meta en emergencias hipertensivas es llevar al paciente a cifras 'óptimas' (<120/80) de forma inmediata, lo cual es iatrogénico y lesivo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la meta de reducción de la TAM en la primera hora en una emergencia hipertensiva (regla general) y por qué?",
+        "back": "Disminuir la TAM no más del 20% al 25% en la 1ª hora (o PAD a 100-110 mmHg). Justificación: evita infartos cerebrales o coronarios por caída del flujo sanguíneo al estar desplazada la curva de autorregulación a la derecha.",
+        "tags": "D02 Emergencia_HTA Metas TAM Fisiopatologia GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Emergencia Hipertensiva vs Urgencia Hipertensiva con Daño Renal Agudo y Retinopatía",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Para iniciar el manejo farmacológico de la paciente anterior, se revisa el carro rojo y el botiquín de urgencias. Un médico sugiere exprimir o administrar una cápsula de nifedipino sublingual perforada para 'bajar la presión de inmediato', mientras que otro médico defiende la indicación institucional de un fármaco parenteral titulado.",
+      "question_text": "¿Cuál es la postura oficial y advertencia de la NOM-030-SSA2-2009 y la GPC mexicana respecto al uso de nifedipino sublingual de liberación inmediata en crisis hipertensivas?",
+      "options": {
+        "A": "Es el fármaco de primera línea absoluto debido a su bajo costo y rápida biodisponibilidad por absorción en la mucosa oral.",
+        "B": "Está formalmente contraindicado y proscrito debido a que provoca hipotensión severa e incontrolable, taquicardia refleja, robo coronario, accidentes cerebrovasculares isquémicos y muerte.",
+        "C": "Solo está indicado si se asocia concomitantemente a betabloqueadores orales para prevenir taquicardia.",
+        "D": "Está autorizado únicamente en pacientes geriátricos con infarto cerebral isquémico en evolución."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Contraindicacion_Nifedipino_SL",
+      "gpc_algorithm_step": "NOM-030-SSA2-2009 y GPC IMSS-076-08: El nifedipino sublingual de acción corta está terminantemente contraindicado en el manejo de crisis hipertensivas. Su absorción errática produce hipotensión precipitada, estimulación simpática masiva y desastres vasculares (isquemia miocárdica, infarto cerebral). En emergencia hipertensiva se usan vasodilatadores o betabloqueadores IV (labetalol, nitroprusiato).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Práctica médica empírica en desuso de administrar cápsulas de nifedipino masticadas o sublinguales, expresamente condenada y castigada en reactivos psicométricos del ENARM."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué está formalmente proscrito el nifedipino sublingual de liberación rápida en crisis hipertensivas?",
+        "back": "Porque causa caídas descontroladas e impredecibles de la TA, taquicardia refleja y fenómeno de robo coronario, aumentando el riesgo de infarto miocárdico, EVC isquémico y muerte súbita.",
+        "tags": "D02 Nifedipino_Sublingual Contraindicacion NOM030 GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Emergencia Hipertensiva vs Urgencia Hipertensiva con Daño Renal Agudo y Retinopatía",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente es ingresada a la UCI e inicia infusión continua de nitroprusiato de sodio a 2 mcg/kg/min con monitoreo por línea arterial, logrando descender su TAM a 125 mmHg a las 2 horas. A las 48 horas de infusión continua, la paciente desarrolla debilidad muscular extrema, temblores involuntarios, confusión marcada, náuseas persistentes y acidosis metabólica con anión gap elevado. Los laboratorios reportan: Creatinina sérica 3.1 mg/dL (basal de ingreso 1.3 mg/dL), nitrógeno ureico 48 mg/dL, lactato sérico 4.2 mmol/L. Gasto urinario de 15 mL/h en las últimas 6 horas.",
+      "question_text": "¿Cuál es la complicación toxicológica que está desarrollando la paciente y cuál es la medida terapéutica específica indicada?",
+      "options": {
+        "A": "Crisis tirotóxica inducida por contrastes; administrar propiltiouracilo y solución de lugol.",
+        "B": "Intoxicación por tiocianato/cianuro secundaria a infusión prolongada de nitroprusiato en presencia de falla renal aguda; suspender inmediatamente el nitroprusiato y administrar tiosulfato de sodio o hidroxocobalamina.",
+        "C": "Síndrome urémico terminal irreversible; preparar para colocación inmediata de fístula arteriovenosa autóloga.",
+        "D": "Hiperpotasemia maligna aislada; administrar gluconato de calcio al 10% y mantener la infusión de nitroprusiato a dosis doble."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Toxicidad_Farmacologica_Nitroprusiato",
+      "gpc_algorithm_step": "GPC IMSS-076-08: El nitroprusiato de sodio se metaboliza a cianuro en los eritrocitos y se convierte en el hígado en tiocianato, el cual se elimina por vía renal. En infusiones >48-72 h o con deterioro de la función renal (TFG baja), se acumula tiocianato/cianuro produciendo acidosis láctica, deterioro neurológico y falla multiorgánica. El tratamiento es suspender la infusión y administrar tiosulfato de sodio o hidroxocobalamina.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio",
+        "explanation": "Atribuir la acidosis metabólica y el cuadro de deterioro exclusivamente a la uremia per se, pasando por alto la toxicidad iatrogénica de la infusión prolongada de nitroprusiato en un riñón insuficiente."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la toxicidad clásica del nitroprusiato de sodio en infusión prolongada (>48h) o en falla renal y su antídoto?",
+        "back": "Intoxicación por cianuro y tiocianato (acidosis láctica, confusión, convulsiones). Antídoto: Tiosulfato de sodio o Hidroxocobalamina.",
+        "tags": "D02 Nitroprusiato Tiocianato Toxicidad Antidoto GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Crisis Hipertensiva en el Contexto de Síndrome Coronario Agudo y Edema Agudo de Pulmón",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Hombre de 64 años, con antecedentes de diabetes mellitus tipo 2 de 12 años e hipertensión arterial no controlada. Acude al servicio de urgencias con dolor torácico opresivo retroesternal de 45 minutos de evolución, intensidad 10/10, irradiado a cuello y brazo izquierdo, acompañado de disnea súbita en reposo, ortopnea y diaforesis profusa. A la exploración física: sentado con apoyo en trípode, taquipneico (FR 30 rpm), FC 108 lpm, saturación de O2 85% al aire ambiente. Se auscultan estertores crepitantes bilaterales hasta campos medios y ápices, además de tercer ruido cardíaco (R3 galope). Presión arterial: 215/120 mmHg. ECG muestra infradesnivel del segmento ST de 3 mm en V3-V6, DI y aVL.",
+      "question_text": "¿Cuál es la categoría clínica y complicación cardiovascular que presenta este paciente según la clasificación de Killip-Kimball y las guías de emergencia hipertensiva?",
+      "options": {
+        "A": "Urgencia hipertensiva con broncoespasmo reactivo; Killip I.",
+        "B": "Emergencia Hipertensiva asociada a Síndrome Coronario Agudo sin elevación del ST complicada con Edema Agudo de Pulmón cardiogénico (Killip III).",
+        "C": "Infarto agudo de miocardio Killip IV (choque cardiogénico) con hipotensión refleja.",
+        "D": "Hipertensión renovascular con tromboembolia pulmonar masiva bilateral."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Diagnostico_Emergencia_SICA_EAP",
+      "gpc_algorithm_step": "GPC IMSS-076-08 / GPC SICA: La presencia de cifras tensionales severas (215/120 mmHg) en coexistencia con isquemia miocárdica aguda y congestión pulmonar con estertores extensos y R3 corresponde a Emergencia Hipertensiva con SICA y Edema Agudo de Pulmón (clasificación de Killip-Kimball III: edema pulmonar franco).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Clasificarlo erróneamente como Killip IV (choque cardiogénico requiere hipotensión TAS <90 mmHg, no cifras de 215/120 mmHg)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se define un paciente con SICA y estertores crepitantes en más de la mitad de los campos pulmonares (EAP) según Killip-Kimball?",
+        "back": "Killip III (Edema Agudo Pulmonar). Si presenta hipotensión y datos de hipoperfusión tisular sistémica, es Killip IV (Choque Cardiogénico).",
+        "tags": "D02 SICA Killip EAP Emergencia_HTA GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Crisis Hipertensiva en el Contexto de Síndrome Coronario Agudo y Edema Agudo de Pulmón",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En el paciente anterior (64 años, TA 215/120 mmHg, SICA en curso y estertores crepitantes bilaterales extensos por edema agudo de pulmón), se requiere iniciar tratamiento antihipertensivo intravenoso de inmediato para controlar las cifras tensionales y revertir el daño miocárdico.",
+      "question_text": "¿Cuál es el fármaco hipotensor intravenoso de PRIMERA ELECCIÓN recomendado por la GPC IMSS-076-08 para este escenario clínico específico y cuál es su beneficio fisiopatológico primario?",
+      "options": {
+        "A": "Hidralazina en bolos intravenosos repetidos; produce vasodilatación arteriolar sin afectar la circulación coronaria.",
+        "B": "Nitroglicerina en infusión intravenosa continua; produce venodilatación preferencial, reduce la precarga, disminuye el estrés parietal ventricular y optimiza la perfusión miocárdica sin robo coronario.",
+        "C": "Nitroprusiato de sodio a dosis máximas en infusión rápida; es superior a los nitratos porque no genera tolerancia farmacológica.",
+        "D": "Diazóxido intravenoso; es el fármaco de elección institucional en pacientes con sobrecarga de volumen."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Primera_Linea_Tx_EAP_SICA",
+      "gpc_algorithm_step": "GPC IMSS-076-08: En la emergencia hipertensiva asociada a isquemia miocárdica aguda (SICA) y/o edema agudo de pulmón, el fármaco de primera línea es la NITROGLICERINA IV. Disminuye la precarga ventricular (venodilatación), reduce la presión de llenado capilar pulmonar, disminuye el consumo miocárdico de O2 y dilata los lechos vasculares coronarios colaterales. La hidralazina está contraindicada por taquicardia refleja.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Elegir hidralazina o nitroprusiato a altas dosis, ignorando que la hidralazina desata taquicardia refleja que empeora la isquemia miocárdica, y el nitroprusiato puede provocar robo coronario en el miocardio isquémico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el fármaco antihipertensivo IV de primera elección en emergencia hipertensiva con SICA y Edema Agudo Pulmonar?",
+        "back": "Nitroglicerina intravenosa (reduce precarga, estrés parietal y consumo miocárdico de O2, dilatando arterias coronarias).",
+        "tags": "D02 Nitroglicerina SICA EAP Emergencia_HTA GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Crisis Hipertensiva en el Contexto de Síndrome Coronario Agudo y Edema Agudo de Pulmón",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Durante la atención del mismo paciente, un médico residente sugiere administrar metoprolol intravenoso en bolo para controlar la taquicardia de 108 lpm y el infradesnivel del segmento ST. El médico adscrito detiene la indicación de inmediato.",
+      "question_text": "¿Por qué está CONTRAINDICADO el uso de betabloqueadores intravenosos en este momento agudo según las guías clínicas de práctica médica?",
+      "options": {
+        "A": "Porque los betabloqueadores producen vasoconstricción coronaria dependiente de óxido nítrico en todos los pacientes diabéticos.",
+        "B": "Porque el paciente se encuentra en Killip III (insuficiencia cardíaca aguda descompensada / edema pulmonar agudo); el inotropismo negativo del betabloqueador puede precipitar choque cardiogénico agudo y colapso circulatorio.",
+        "C": "Porque interfieren con la agregación plaquetaria inducida por aspirina y clopidogrel.",
+        "D": "Porque los betabloqueadores aumentan el potasio sérico por encima de 7 mEq/L de forma inmediata en la primera hora."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Contraindicacion_Betabloqueador_Insuficiencia_Cardiaca",
+      "gpc_algorithm_step": "GPC IMSS-076-08 / GPC SICA: Los betabloqueadores IV están formalmente contraindicados en pacientes con SICA que presentan signos de insuficiencia cardíaca aguda descompensada (estertores crepitantes, edema pulmonar, Killip ≥II), riesgo de choque cardiogénico, FC <60 lpm o bloqueo AV de 2do/3er grado. Su efecto inotrópico negativo descompensa la función de bomba del ventrículo izquierdo.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Recordar que el betabloqueador se usa en el SICA, pero ignorar que en presencia de insuficiencia cardíaca aguda congestiva/edema pulmonar está proscrito en la fase hiperaguda."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué no se debe administrar un betabloqueador en un paciente con SICA y edema agudo pulmonar (Killip III)?",
+        "back": "Porque su efecto inotrópico negativo puede abatir catastróficamente el gasto cardíaco y precipitar choque cardiogénico.",
+        "tags": "D02 SICA Betabloqueador Contraindicacion Killip GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Crisis Hipertensiva en el Contexto de Síndrome Coronario Agudo y Edema Agudo de Pulmón",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "El paciente evoluciona favorablemente tras recibir nitroglicerina IV, furosemida IV, ventilación no invasiva (CPAP) y cateterismo cardíaco con colocación de stent farmacológico en arteria descendente anterior. Al quinto día de hospitalización se encuentra hemodinámicamente estable, euvolémico, sin estertores, TA 122/76 mmHg, FC 68 lpm. El ecocardiograma de control reporta una Fracción de Eyección del Ventrículo Izquierdo (FEVI) del 36% con aquinesia anteroapical.",
+      "question_text": "¿Cuál es el pilar de tratamiento antihipertensivo y cardioprotector que ha demostrado reducción de mortalidad en pacientes posinfarto con FEVI reducida para su egreso hospitalario?",
+      "options": {
+        "A": "Monoterapia con nifedipino de liberación prolongada más digoxina oral.",
+        "B": "Cuádruple terapia con IECA/ARA-II (o ARNI) + Betabloqueador con evidencia en falla cardíaca (carvedilol, succinato de metoprolol o bisoprolol) + Antagonista del receptor mineralocorticoide (espironolactona) + Inhibidor de SGLT2.",
+        "C": "Verapamilo 240 mg/día más diltiazem 180 mg/día para control estricto de la poscarga.",
+        "D": "Hidralazina más mononitrato de isosorbida como primera línea estándar universal en todo paciente mexicano."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Manejo_Cronico_Post_SICA_FEVI_Reducida",
+      "gpc_algorithm_step": "GPC Insuficiencia Cardíaca / GPC IMSS-076-08: En pacientes con hipertensión arterial, antecedente de infarto y falla cardíaca con FEVI reducida (<40%), los cuatro pilares fundamentales con beneficio demostrado en sobrevida y reversión del remodelado adverso son: IECA/ARA-II/ARNI + Betabloqueador específico (carvedilol, metoprolol succinato, bisoprolol) + Antagonista mineralocorticoide (espironolactona) + iSGLT2 (dapagliflozina/empagliflozina).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Elegir calcioantagonistas no dihidropiridínicos (verapamilo o diltiazem), los cuales están contraindicados en FEVI reducida por su efecto inotrópico negativo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los 4 pilares farmacológicos que reducen la mortalidad en un paciente hipertenso post-infarto con FEVI reducida (<40%)?",
+        "back": "1. IECA / ARA-II / ARNI; 2. Betabloqueador selectivo (carvedilol, metoprolol succinato, bisoprolol); 3. Antagonista mineralocorticoide (espironolactona); 4. iSGLT2 (dapagliflozina/empagliflozina).",
+        "tags": "D02 HAS SICA FEVI Pilares Falla_Cardiaca GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Disección Aórtica Aguda Tipo A / B y Metas Hemodinámicas Estrictas",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Hombre de 55 años, con antecedente de hipertensión arterial de 10 años de evolución con mal control y tabaquismo activo. Es traído en ambulancia al área de reanimación por dolor torácico retroesternal súbito, lacerante, 'como si le desgarraran el pecho por dentro', de intensidad 10/10, que se irradió de forma instantánea a la región interescapular y dorso. A la exploración física: diaforético, pálido, quejumbroso. Signos vitales: TA en brazo derecho 198/112 mmHg, TA en brazo izquierdo 142/82 mmHg (diferencial tensional de 56 mmHg entre ambos miembros). Se ausculta un soplo diastólico aspirativo nuevo Grado III/VI en foco aórtico. El pulso radial izquierdo y pedio izquierdo se encuentran notablemente disminuidos respecto al lado contralateral. ECG: taquicardia sinusal a 105 lpm sin elevación del segmento ST. Radiografía de tórax: ensanchamiento mediastínico >8 cm.",
+      "question_text": "¿Cuál es la sospecha diagnóstica prioritaria y el estudio de imagen confirmatorio de elección inicial en este paciente hemodinámicamente estable según la GPC?",
+      "options": {
+        "A": "Pericarditis aguda; solicitar ecocardiograma transtorácico en 24 horas.",
+        "B": "Disección Aórtica Aguda (probable afectación de aorta ascendente / Stanford A); solicitar Angiotomografía computarizada toracoabdominal con contraste intravenoso de forma urgente.",
+        "C": "Infarto pulmonar masivo; gammagrafía de ventilación/perfusión pulmonar.",
+        "D": "Hernia hiatal estrangulada; serie esofagogastroduodenal baritada urgente."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Diagnostico_Diseccion_Aortica",
+      "gpc_algorithm_step": "GPC IMSS-076-08 / GPC Aorta: Ante un dolor torácico súbito desgarrante irradiado a la espalda, diferencial de TA >20 mmHg entre extremidades y soplo de insuficiencia aórtica nueva, la sospecha es Disección Aórtica Aguda. En pacientes hemodinámicamente estables, el estudio confirmatorio de primera elección con mayor sensibilidad y especificidad es la Angiotomografía computarizada (AngioTC) toracoabdominal con contraste.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Asumir que todo dolor torácico con hipertensión es un infarto miocárdico e indicar anticoagulación/antiagregación, lo cual sería catastrófico y mortal en una disección aórtica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la tríada/hallazgos clave de Disección Aórtica Aguda y su estudio de imagen confirmatorio de elección en paciente estable?",
+        "back": "Dolor torácico lacerante interescapular súbito + asimetría de pulsos / diferencial de TA >20 mmHg entre brazos + soplo aórtico nuevo. Estudio de elección: AngioTC toracoabdominal contrastada.",
+        "tags": "D02 Diseccion_Aortica AngioTC Diagnostico GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Disección Aórtica Aguda Tipo A / B y Metas Hemodinámicas Estrictas",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En el mismo paciente con sospecha fundamentada de Disección Aórtica Aguda, el equipo de guardia revisa las metas hemodinámicas agudas mientras se prepara la sala de tomografía. El paciente se encuentra taquicárdico con FC 106 lpm y TA 198/112 mmHg.",
+      "question_text": "¿Cuáles son las metas hemodinámicas estrictas inmediatas y el tiempo objetivo para alcanzarlas según las guías clínicas institucionales?",
+      "options": {
+        "A": "Frecuencia cardíaca <60 lpm y Presión Arterial Sistólica <120 mmHg (o 100-110 mmHg si tolera) en un lapso de 10 a 20 minutos.",
+        "B": "Frecuencia cardíaca de 80 a 90 lpm y Presión Arterial Sistólica <160 mmHg en las siguientes 6 a 12 horas.",
+        "C": "Disminución exclusiva de la presión diastólica a 90 mmHg sin alterar la frecuencia cardíaca durante las primeras 4 horas.",
+        "D": "Mantener cifras tensionales basales para asegurar la perfusión del falso lumen y los órganos viscerales."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Metas_Hemodinamicas_Diseccion",
+      "gpc_algorithm_step": "GPC IMSS-076-08 / GPC Síndromes Aórticos Agudos: La disección aórtica es una excepción a la regla del descenso paulatino del 20%. Exige una reducción hemodinámica ULTRARRÁPIDA en los primeros 10-20 minutos: FC <60 lpm (para abatir el dP/dt o fuerza de cizallamiento) y TAS <120 mmHg (idealmente 100-110 mmHg) para detener la propagación del desgarro intimal.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Aplicar la regla general de emergencias hipertensivas (descender sólo 20-25% en horas), lo cual en una disección aórtica provoca la rotura aórtica y el taponamiento cardíaco fatal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las metas hemodinámicas de emergencia en Disección Aórtica Aguda y en cuánto tiempo deben lograrse?",
+        "back": "FC <60 lpm y TAS <120 mmHg (o 100-110 mmHg) en los primeros 10 a 20 minutos.",
+        "tags": "D02 Diseccion_Aortica Metas FC TAS GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Disección Aórtica Aguda Tipo A / B y Metas Hemodinámicas Estrictas",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Para lograr las metas hemodinámicas en este paciente con Disección Aórtica, se dispone de esmolol IV, labetalol IV y nitroprusiato de sodio IV. Se discute cuál debe ser el orden estricto de inicio de los medicamentos intravenosos.",
+      "question_text": "¿Cuál es el orden cronológico obligado de administración de fármacos intravenosos en la disección aórtica aguda y su fundamento biofísico según la GPC?",
+      "options": {
+        "A": "Iniciar nitroprusiato de sodio primero para bajar la presión sistólica de golpe; el betabloqueador se añade únicamente si aparece dolor torácico residual.",
+        "B": "Iniciar betabloqueador intravenoso (esmolol o labetalol) PRIMERO para controlar la frecuencia cardíaca (<60 lpm); si la TAS se mantiene >120 mmHg tras betabloqueo adecuado, se adiciona el vasodilatador (nitroprusiato). Administrar vasodilatador solo incrementa la fuerza de cizallamiento (dP/dt) y rompe la aorta.",
+        "C": "Administrar hidralazina intravenosa en bolo único como monoterapia antes de considerar cualquier otro fármaco.",
+        "D": "Iniciar dobutamina para mejorar el inotropismo ventricular seguido de sulfato de magnesio."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Farmacos_Orden_Diseccion_Aortica",
+      "gpc_algorithm_step": "GPC IMSS-076-08: En la disección aórtica, los betabloqueadores IV (esmolol/labetalol) SIEMPRE deben administrarse ANTES de cualquier vasodilatador puro (nitroprusiato). Si se administra un vasodilatador primero, la caída de resistencia vascular periférica desata taquicardia refleja mediada por barorreceptores, incrementando la velocidad de aumento de presión ventricular (dP/dt) y la fuerza de cizallamiento, lo que propaga el hematoma disecante y rompe la pared aórtica.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Administrar nitroprusiato de sodio antes del betabloqueador: es un error clásico y letal en medicina de urgencias."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué en la disección aórtica se debe administrar el betabloqueador ANTES del nitroprusiato de sodio?",
+        "back": "Porque el nitroprusiato solo desata taquicardia refleja y aumenta la fuerza de cizallamiento ventricular (dP/dt), propagando el desgarro aórtico. El betabloqueo previo frena la FC (<60 lpm) y bloquea ese riesgo.",
+        "tags": "D02 Diseccion_Aortica Betabloqueador Nitroprusiato dP_dt GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Disección Aórtica Aguda Tipo A / B y Metas Hemodinámicas Estrictas",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "La AngioTC toracoabdominal confirma un colgajo intimal que se origina en la raíz aórtica a 1.5 cm por encima del plano valvular y compromete toda la aorta ascendente, extendiéndose hasta el arco aórtico. No hay derrame pericárdico ni compromiso de arterias coronarias.",
+      "question_text": "¿Cuál es la clasificación anatómica de esta disección según Stanford y cuál es la conducta terapéutica definitiva obligada según la GPC?",
+      "options": {
+        "A": "Stanford B; tratamiento médico expectante en sala general con antihipertensivos orales.",
+        "B": "Stanford A (DeBakey I o II); emergencia quirúrgica inmediata para sustitución protésica de aorta ascendente debido al altísimo riesgo de ruptura aórtica, taponamiento cardíaco y muerte.",
+        "C": "Stanford B complicada; embolización selectiva percutánea por radiología intervencionista.",
+        "D": "Aneurisma fusiforme no disecante; control ambulatorio semestral con angiorresonancia magnética."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Clasificacion_Stanford_Manejo_Definitivo",
+      "gpc_algorithm_step": "GPC IMSS-076-08 / GPC Aorta: La clasificación de Stanford define como Tipo A toda disección que involucra la aorta ascendente (independientemente del sitio de inicio o extensión distal), y como Tipo B la que involucra exclusivamente la aorta descendente distal a la arteria subclavia izquierda. El tipo A es una EMERGENCIA QUIRÚRGICA inmediata (mortalidad del 1-2% por hora las primeras 48 horas sin cirugía). El tipo B no complicado se maneja médicamente.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir la clasificación de Stanford A con Stanford B, indicando manejo médico expectante cuando el paciente requiere intervención quirúrgica cardiovascular urgente de por vida."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se define la Disección Aórtica Stanford A vs Stanford B y cuál es el tratamiento de cada una?",
+        "back": "Stanford A: afecta aorta ascendente -> Emergencia QUIRÚRGICA inmediata. Stanford B: afecta sólo aorta descendente distal a subclavia izq -> Tratamiento MÉDICO hemodinámico inicial (salvo complicaciones).",
+        "tags": "D02 Diseccion_Aortica Stanford_A Cirugia Stanford_B GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 34 años, sin comorbilidades previas conocidas, acude por fatiga crónica, debilidad muscular proximal en miembros inferiores y calambres recurrentes. En sus registros médicos presenta hipertensión arterial de reciente diagnóstico resistente al control con enalapril 20 mg/día y amlodipino 10 mg/día (cifras habituales 156/98 mmHg). No toma diuréticos, laxantes ni esteroides. A la exploración física: TA 158/100 mmHg, FC 74 lpm, IMC 23 kg/m², sin soplos abdominales ni estigmas de hipercortisolismo. Exámenes de laboratorio: glucosa 92 mg/dL, creatinina 0.78 mg/dL, Sodio sérico 145 mEq/L, Potasio sérico 2.7 mEq/L (hipopotasemia confirmada), Cloro 98 mEq/L, Bicarbonato sérico 32 mEq/L (alcalosis metabólica hipopotasémica). EGO con potasio urinario inapropiadamente elevado (>30 mEq/24h).",
+      "question_text": "¿Cuál es la sospecha clínica de hipertensión secundaria más probable y cuál es la prueba diagnóstica de tamizaje inicial de elección según la GPC?",
+      "options": {
+        "A": "Feocromocitoma bilateral; cuantificación de ácido vainillilmandélico urinario.",
+        "B": "Hiperaldosteronismo primario (Síndrome de Conn o hiperplasia suprarrenal bilateral); determinación de la Relación Aldosterona Plasmática / Actividad de Renina Plasmática (ARR).",
+        "C": "Estenosis de arteria renal por ateroesclerosis; angiografía renal con cateterismo femoral invasivo.",
+        "D": "Síndrome de Cushing ectópico; prueba de supresión con dexametasona a dosis altas (8 mg)."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Hipertension_Secundaria_Hiperaldosteronismo",
+      "gpc_algorithm_step": "GPC IMSS-076-08 / GPC Hipertensión Secundaria: En pacientes jóvenes (<40 años) o con hipertensión resistente acompañada de hipopotasemia espontánea (o inducida por dosis bajas de diuréticos) y alcalosis metabólica, la principal causa es el Hiperaldosteronismo Primario (adenoma productor de aldosterona / hiperplasia adrenal). El tamizaje de primera elección es la Relación Aldosterona Plasmática / Actividad de Renina Plasmática (ARR >20-30 con aldosterona >15 ng/dL).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Sospechar estenosis ateroesclerótica en una mujer de 34 años sin factores aterogénicos, o indicar cateterismo invasivo como prueba inicial de tamizaje antes de evaluar causas endocrinas comunes de hipopotasemia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la tríada bioquímica del Hiperaldosteronismo Primario y cuál es su prueba de tamizaje inicial?",
+        "back": "Hipertensión arterial resistente + Hipopotasemia + Alcalosis metabólica. Prueba de tamizaje: Relación Aldosterona Plasmática / Actividad de Renina Plasmática (ARR).",
+        "tags": "D02 Hipertension_Secundaria Hiperaldosteronismo Tamizaje ARR GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 27 años, primigesta con embarazo de 33 semanas de gestación por amenorrea confiable. Acude al servicio de urgencias de ginecoobstetricia por presentar cefalea pulsátil frontal intensa 8/10, visión borrosa con fosfenos y epigastralgia en barra. A la exploración física: TA 168/112 mmHg en dos tomas separadas por 15 minutos, FC 88 lpm, reflejos osteotendinosos patelares +++/++++ (hiperreflexia generalizada), edema pretibial bilateral importante. Fondo uterino acorde a edad gestacional, FCF 144 lpm sin desaceleraciones. Laboratorios urgentes: plaquetas 145,000/uL, creatinina 0.8 mg/dL, AST 45 UI/L, ALT 40 UI/L, proteinuria en tira reactiva +++.",
+      "question_text": "¿Cuál es el manejo antihipertensivo y de prevención de complicaciones neurológicas indicado de urgencia según la GPC IMSS de Trastornos Hipertensivos del Embarazo / NOM-007, y qué grupo farmacológico está ESTRICTAMENTE CONTRAINDICADO?",
+      "options": {
+        "A": "Administrar sulfato de magnesio (esquema Zuspan) para prevención de eclampsia + Hidralazina IV o Labetalol IV o Nifedipino oral; contraindicados absolutamente los IECAs y ARA-II por teratogenicidad y fetotoxicidad letal.",
+        "B": "Administrar nitroprusiato de sodio en infusión continua + fenitoína intravenosa; contraindicado el sulfato de magnesio por riesgo de atonía uterina.",
+        "C": "Administrar losartán 100 mg VO + furosemida 80 mg IV en bolo; contraindicada la alfametildopa por depresión neonatal.",
+        "D": "Monoterapia con enalaprilato intravenoso a dosis plenas + dexametasona para maduración pulmonar; sin necesidad de sulfato de magnesio."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Preeclampsia_Severa_Farmacoterapia",
+      "gpc_algorithm_step": "GPC Trastornos Hipertensivos del Embarazo / NOM-007: Ante preeclampsia con criterios de severidad (TA ≥160/110 mmHg con síntomas de vasoespasmo), la terapia obligada es: 1) Prevención de crisis convulsivas con Sulfato de Magnesio (esquema Zuspan); 2) Manejo antihipertensivo de rescate con Hidralazina IV, Labetalol IV o Nifedipino VO en cápsulas ingeridas. Los IECAs y ARA-II están terminantemente contraindicados por ocasionar agenesia/disgenesia renal fetal, oligohidramnios e hipoplasia pulmonar.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Prescribir IECAs (enalapril) o ARA-II (losartán) en una embarazada, lo cual es causa de teratogenicidad severa e insuficiencia renal anúrica fetal irreversible."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los antihipertensivos de elección en crisis hipertensiva del embarazo y cuáles están absolutamente contraindicados?",
+        "back": "De elección: Labetalol IV, Hidralazina IV, Nifedipino VO (más Sulfato de Magnesio para eclampsia). Contraindicados absolutamente: IECAs y ARA-II (disgenesia renal fetal, oligohidramnios, muerte fetal).",
+        "tags": "D02 Preeclampsia Embarazo Sulfato_Magnesio IECA_Contraindicado GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 61 años con antecedente de hipertensión arterial de 12 años de evolución. Acude a consulta de medicina interna para revaloración. Actualmente tiene prescrito y toma de forma rigurosa y confirmada: telmisartán 80 mg/día (ARA-II a dosis máxima), amlodipino 10 mg/día (calcioantagonista a dosis máxima) e hidroclorotiazida 25 mg/día (diurético tiazídico). El recuento de pastillas y el reporte familiar confirman apego terapéutico del 100%. Cumple con dieta hiposódica estricta y niega consumo de AINEs, descongestionantes nasales o esteroides. Sus registros de MAPA de 24 horas y tomas en consultorio promedian 154/96 mmHg de manera persistente. Laboratorios: creatinina 1.0 mg/dL, TFG 78 mL/min/1.73m², Sodio 138 mEq/L, Potasio 4.3 mEq/L.",
+      "question_text": "¿Cuál es el diagnóstico formal de este paciente y cuál es el fármaco de CUARTO ESCALÓN de elección recomendado por la GPC IMSS-076-08?",
+      "options": {
+        "A": "Hipertensión Primaria Controlada; continuar con la misma dosis de fármacos y citar en 1 año.",
+        "B": "Hipertensión Arterial Resistente (Refractaria); indicar adición de espironolactona (antagonista del receptor de mineralocorticoides) a dosis baja (25 mg/día).",
+        "C": "Hipertensión de bata blanca; retirar inmediatamente el diurético y titular amlodipino al doble de dosis.",
+        "D": "Hipertensión Neurogénica; sustituir todo el esquema por clonidina en parche transdérmico."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Hipertension_Resistente_Espironolactona",
+      "gpc_algorithm_step": "GPC IMSS-076-08: La Hipertensión Resistente se define como la falta de control tensional (<140/90 mmHg) a pesar del uso simultáneo de tres fármacos antihipertensivos de diferentes familias a dosis máximas recomendadas (uno de los cuales debe ser obligadamente un diurético), habiendo descartado mala adherencia y pseudorresistencia. El fármaco de elección de cuarto escalón respaldado por guías clínicas y ensayos (estudio PATHWAY-2) es la Espironolactona (25-50 mg/día), siempre monitoreando la función renal y el potasio sérico.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Sustituir abruptamente todo el esquema o aumentar fármacos sin respetar el algoritmo escalonado que sitúa a la espironolactona como el cuarto fármaco más efectivo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se define la Hipertensión Arterial Resistente y cuál es el fármaco de 4º escalón indicado por GPC?",
+        "back": "Definición: TA no controlada con 3 fármacos a dosis plenas de distintas familias (uno obligatoriamente diurético) con apego comprobado. 4º fármaco de elección: Espironolactona (25-50 mg/día).",
+        "tags": "D02 HAS_Resistente Espironolactona 4to_Farmaco GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 41 años, previamente sano, que acude a urgencias por presentar episodios paroxísticos recurrentes caracterizados por la tríada clásica de: cefalea pulsátil holocraneana severa, diaforesis profusa y palpitaciones intensas con sensación de angustia inminente. Durante la crisis actual se documenta TA de 210/125 mmHg y taquicardia sinusal de 128 lpm. La cuantificación de metanefrinas fraccionadas libres en plasma y en orina de 24 horas resulta con niveles cinco veces por encima del límite superior normal, confirmando la sospecha de feocromocitoma suprarrenal. Un médico generalista de guardia, al ver la taquicardia de 128 lpm y la hipertensión, prescribe iniciar inmediatamente una infusión de propranolol o metoprolol intravenoso sin ningún otro medicamento previo.",
+      "question_text": "¿Qué catástrofe hemodinámica provocará esta prescripción médica al omitir el bloqueo adrenérgico en el orden correcto según la farmacología clínica de la GPC?",
+      "options": {
+        "A": "Hipotensión ortostática severa con síncope vasovagal por exceso de vasodilatación periférica.",
+        "B": "Crisis hipertensiva paradójica potencialmente letal, edema pulmonar y colapso cardiovascular por vasoconstricción periférica masiva mediada por receptores alfa-1 sin oposición.",
+        "C": "Hipoglucemia severa mediada por consumo masivo de catecolaminas hepáticas.",
+        "D": "Acidosis láctica inducida por bloqueo directo de los receptores dopaminérgicos renales."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Feocromocitoma_Bloqueo_Alfa_Primero",
+      "gpc_algorithm_step": "GPC IMSS-076-08 / GPC Feocromocitoma: En el feocromocitoma, está ESTRICTAMENTE PROHIBIDO iniciar un betabloqueador antes de haber logrado un bloqueo alfa-adrenérgico completo y efectivo (ej. con fenoxibenzamina, doxazosina o fentolamina). El bloqueo beta aislado anula los receptores beta-2 vasodilatadores del músculo liso vascular, dejando la estimulación catecolaminérgica de los receptores alfa-1 completamente sin oposición ('unapposed alpha stimulation'), lo que causa vasoconstricción periférica masiva, picos tensionales extremos, hemorragia cerebral o infarto masivo.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Intentar controlar la taquicardia con un betabloqueador sin haber bloqueado previamente los receptores alfa, cometiendo el clásico error farmacológico de examen ENARM."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué en el feocromocitoma NUNCA se debe administrar un betabloqueador antes del alfabloqueador?",
+        "back": "Porque al bloquear los receptores beta-2 vasodilatadores, las catecolaminas estimulan los receptores alfa-1 sin oposición (vasoconstricción periférica descontrolada), desatando una crisis hipertensiva fatal.",
+        "tags": "D02 Feocromocitoma Alfabloqueo Betabloqueo_Contraindicado GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 67 años con antecedente de hipertensión arterial en tratamiento irregular. Es llevada a urgencias por familiares tras presentar debilidad súbita del hemicuerpo derecho y dificultad para emitir palabras (afasia mixta) de 80 minutos de evolución. A la exploración física: escala de Cincinnati positiva, NIHSS de 14 puntos. Signos vitales: TA 205/115 mmHg, FC 82 lpm, SpO2 98%, glucemia capilar 120 mg/dL. La tomografía computarizada simple de cráneo descarta hemorragia intracraneal y no muestra signos precoces extensos de isquemia (aspect score 10). La paciente se encuentra en ventana terapéutica (<4.5 horas) para trombólisis intravenosa con alteplasa (rtPA).",
+      "question_text": "¿Cuál es el protocolo tensional estricto normado por la GPC mexicana respecto a las cifras de presión arterial para poder administrar el tratamiento trombolítico en esta paciente?",
+      "options": {
+        "A": "No tratar la presión arterial y administrar rtPA de inmediato independientemente de la cifra tensional registrada.",
+        "B": "Reducir y mantener la presión arterial por debajo de 185/110 mmHg con labetalol o nicardipino IV antes de iniciar la infusión de rtPA, y sostenerla por debajo de 180/105 mmHg durante las primeras 24 horas post-trombólisis.",
+        "C": "Disminuir la presión sistólica agresivamente por debajo de 120 mmHg mediante infusión de nitroprusiato de sodio antes del rtPA.",
+        "D": "Diferir la trombólisis y esperar 24 horas a que la presión baje espontáneamente por autorregulación cerebral."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Metas_TA_EVC_Isquemico_Trombolisis",
+      "gpc_algorithm_step": "GPC EVC Isquémico Agudo IMSS-170 / GPC IMSS-076-08: En pacientes con EVC isquémico candidatos a trombólisis intravenosa (rtPA), la presión arterial debe ser cuidadosamente reducida a <185/110 mmHg antes de iniciar el trombolítico (utilizando labetalol IV en bolos o infusión), y mantenerse <180/105 mmHg durante las siguientes 24 horas. Cifras superiores incrementan exponencialmente el riesgo de transformación hemorrágica intracraneal fatal. Si el paciente no fuera candidato a rtPA, se permite hipertensión permisiva hasta 220/120 mmHg.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Confundir las metas de hipertensión permisiva en paciente NO candidato a trombólisis (<220/120 mmHg) con las metas estrictas obligatorias en el paciente SÍ candidato a rtPA (<185/110 mmHg pre-infusión y <180/105 mmHg post-infusión)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las metas tensionales en EVC isquémico agudo candidato a trombolisis iv (rtPA) vs no candidato?",
+        "back": "Candidato a rtPA: TA <185/110 mmHg previo a iniciar y <180/105 mmHg por 24 horas. NO candidato a rtPA: Hipertensión permisiva; sólo tratar si TA >220/120 mmHg (reducción gradual de 15% en 24h).",
+        "tags": "D02 EVC_Isquemico rtPA Metas_TA Labetalol GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Case 5: Hypertensive Encephalopathy and Malignant Hypertension Management",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "A 51-year-old male construction supervisor with a history of poorly controlled hypertension presents to the emergency department brought by his coworkers. He has developed a severe progressive throbbing diffuse headache over the past 12 hours, accompanied by nausea, repetitive projectile vomiting, visual obscurations, and marked mental confusion. On physical examination, he is somnolent, disoriented to time and place, but responds sluggishly to verbal commands. Vital signs: Blood pressure 234/136 mmHg, Heart rate 92 bpm, Respiratory rate 18 bpm, Temperature 36.6 °C, Fingerstick glucose 105 mg/dL. Funduscopic examination reveals bilateral papilledema, multiple flame-shaped retinal hemorrhages, and cotton-wool exudates. There is no focal cranial nerve deficit, no hemiparesis, and no meningeal signs. An urgent non-contrast head CT scan shows no evidence of ischemic stroke, mass effect, or intracranial hemorrhage.",
+      "question_text": "According to Mexican Clinical Practice Guidelines (GPC IMSS-076-08) and emergency protocols, what is the most accurate clinical diagnosis for this presentation?",
+      "options": {
+        "A": "Acute ischemic cerebrovascular stroke in the territory of the middle cerebral artery.",
+        "B": "Hypertensive Encephalopathy (Emergency Hypertension with cerebral autoregulation breakthrough).",
+        "C": "Simple tension headache triggered by occupational stress.",
+        "D": "Acute bacterial meningitis with secondary septic shock."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Diagnostico_Encefalopatia_Hipertensiva_Ingles",
+      "gpc_algorithm_step": "GPC IMSS-076-08: Hypertensive encephalopathy is an acute neurological syndrome caused by severe elevations in blood pressure (usually diastolic >120-130 mmHg) that exceed the upper limit of cerebral autoregulation, producing hyperperfusion, breakdown of the blood-brain barrier, and diffuse cerebral edema. It is characterized by severe headache, altered mental status, visual disturbances, and papilledema, without focal neurological deficits, and is reversible with prompt blood pressure reduction.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Assuming that every acute neurological change in a hypertensive crisis is a focal stroke, overlooking the diffuse non-focal nature, papilledema, and CT absence of hemorrhage or territorial infarction."
+      },
+      "anki_flashcard": {
+        "front": "What is Hypertensive Encephalopathy and what pathophysiologic mechanism causes it?",
+        "back": "An acute neurologic emergency caused by BP exceeding the upper limit of cerebral autoregulation (breakthrough hyperperfusion), leading to diffuse cerebral edema, severe headache, confusion, and papilledema without focal deficit.",
+        "tags": "D02 Hypertensive_Encephalopathy Autoregulation PRES GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Case 5: Hypertensive Encephalopathy and Malignant Hypertension Management",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "In the same 51-year-old male with Hypertensive Encephalopathy (BP 234/136 mmHg, MAP approximately 169 mmHg), the medical team is preparing continuous invasive arterial pressure monitoring in the Intensive Care Unit and selecting initial intravenous antihypertensive therapy.",
+      "question_text": "What is the recommended first-line intravenous pharmacologic agent and the target blood pressure reduction within the first hour according to clinical practice guidelines?",
+      "options": {
+        "A": "Immediate normalization of blood pressure to <120/80 mmHg within 15 minutes using sublingual nifedipine capsules.",
+        "B": "Intravenous Labetalol or Sodium Nitroprusside infusion, titrating to reduce Mean Arterial Pressure (MAP) by no more than 20% to 25% (or achieving a diastolic BP of 100-110 mmHg) during the first hour.",
+        "C": "Oral hydrochlorothiazide 25 mg daily with expectant observation for 24 hours in the waiting room.",
+        "D": "Intravenous boluses of mannitol and furosemide alone, keeping blood pressure above 220/130 mmHg indefinitely."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Manejo_Encefalopatia_Metas_Ingles",
+      "gpc_algorithm_step": "GPC IMSS-076-08: In hypertensive encephalopathy, intravenous labetalol or sodium nitroprusside is the treatment of choice. The blood pressure must be carefully lowered: the Mean Arterial Pressure (MAP) should be decreased by no more than 20-25% within the first hour (or target DBP ~100-110 mmHg). Excessive or precipitous reduction can cause cerebral hypoperfusion, ischemic infarction, or visual loss because the autoregulatory curve is shifted to the right in chronic hypertension.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Administering fast-acting oral or sublingual drugs or attempting to normalize BP instantly, which triggers watershed ischemic stroke due to cerebral hypoperfusion."
+      },
+      "anki_flashcard": {
+        "front": "What is the primary drug of choice and MAP reduction goal in the first hour for Hypertensive Encephalopathy?",
+        "back": "IV Labetalol or Sodium Nitroprusside. Goal: Reduce Mean Arterial Pressure (MAP) by 20% to 25% in the first hour to prevent ischemic cerebral hypoperfusion.",
+        "tags": "D02 Encephalopathy Labetalol Nitroprusside Target GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Case 5: Hypertensive Encephalopathy and Malignant Hypertension Management",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The patient was successfully initiated on sodium nitroprusside infusion at 3 mcg/kg/min with good initial MAP response. However, by hour 40 of continuous infusion, the patient becomes increasingly confused, agitated, tachypneic, and exhibits muscle twitching. Arterial blood gas analysis reveals: pH 7.22, pCO2 28 mmHg, pO2 96 mmHg, HCO3- 11 mEq/L, Base Excess -15 mEq/L, Anion Gap 24 mEq/L, and plasma lactate 5.8 mmol/L. Renal function demonstrates acute kidney injury with serum creatinine rising from 1.1 mg/dL to 2.8 mg/dL and BUN 46 mg/dL.",
+      "question_text": "What specific drug-induced toxicological complication should be diagnosed, and what is the definitive therapeutic antidote according to pharmacology standards?",
+      "options": {
+        "A": "Acetaminophen-induced hepatotoxicity; treat with oral N-acetylcysteine.",
+        "B": "Cyanide and thiocyanate toxicity due to prolonged sodium nitroprusside infusion; immediately discontinue nitroprusside and administer Sodium Thiosulfate or Hydroxocobalamin.",
+        "C": "Diabetic ketoacidosis; start regular insulin infusion and large volume normal saline.",
+        "D": "Malignant hyperthermia; administer intravenous dantrolene sodium immediately."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Toxicidad_Cianuro_Nitroprusiato_Ingles",
+      "gpc_algorithm_step": "GPC IMSS-076-08: Sodium nitroprusside releases cyanide radicals during its metabolism, which are converted to thiocyanate in the liver and excreted by the kidneys. Prolonged infusions (>24-48 h), high doses (>2-3 mcg/kg/min), or renal impairment lead to cyanide/thiocyanate accumulation. Clinical signs include severe lactic acidosis, unexplained mental status deterioration, tachyphylaxis, and seizures. Management requires prompt cessation of the infusion and administration of Sodium Thiosulfate (which provides sulfur donors for rhodanase conversion) or Hydroxocobalamin.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio",
+        "explanation": "Misattributing high anion gap metabolic acidosis and tachypnea to diabetic ketoacidosis or simple uremic acidosis, overlooking the direct toxic metabolite accumulation of prolonged nitroprusside in renal insufficiency."
+      },
+      "anki_flashcard": {
+        "front": "What are the hallmarks of Sodium Nitroprusside toxicity and what is its specific antidote?",
+        "back": "Cyanide/thiocyanate toxicity: severe high anion gap lactic acidosis, mental confusion, tachyphylaxis, acute renal failure. Antidote: Sodium Thiosulfate or Hydroxocobalamin.",
+        "tags": "D02 Nitroprusside Cyanide Thiocyanate Antidote GPC"
+      }
+    },
+    {
+      "id": "d02_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Case 5: Hypertensive Encephalopathy and Malignant Hypertension Management",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Following discontinuation of nitroprusside and successful antidote administration, the patient's neurological symptoms and metabolic acidosis completely resolve. Over the next 48 hours, he is transitioned to an oral dual regimen (oral ACE inhibitor plus calcium channel blocker) achieving stable blood pressure readings of 128/78 mmHg. Serum creatinine improves to 1.1 mg/dL. He is now 51 years old and had previously been untreated. Before discharge, the clinical team establishes the outpatient follow-up protocol and workup for secondary causes of accelerated/malignant hypertension according to Mexican Clinical Practice Guidelines.",
+      "question_text": "Which comprehensive diagnostic evaluation is recommended by Mexican clinical guidelines (GPC IMSS-076-08) to screen for secondary hypertension in a patient presenting with malignant/accelerated hypertension?",
+      "options": {
+        "A": "No diagnostic workup is needed; discharge with simple dietary recommendations and no scheduled follow-up.",
+        "B": "Renal duplex Doppler ultrasonography (or CT angiography) to rule out renovascular disease, plasma aldosterone-to-renin ratio, and polysomnography if obstructive sleep apnea is suspected.",
+        "C": "Exploratory abdominal laparotomy with bilateral adrenalectomy as empirical prophylactic treatment.",
+        "D": "Immediate coronary angiography and cardiac biopsy in all discharged patients."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Protocolo_Abordaje_HAS_Secundaria_Ingles",
+      "gpc_algorithm_step": "GPC IMSS-076-08: In patients presenting with malignant/accelerated hypertension, young age of onset (<40-50 years), severe target organ damage, or refractory hypertension, clinical practice guidelines recommend screening for secondary hypertension. The most common identifiable causes include renovascular hypertension (screened by Renal Doppler Ultrasound or CT Angiography), primary aldosteronism (plasma aldosterone/renin ratio), chronic kidney disease, and obstructive sleep apnea (OSA).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Suggesting invasive surgical interventions or dismissing outpatient secondary workup after recovery from a life-threatening malignant hypertensive crisis."
+      },
+      "anki_flashcard": {
+        "front": "What is the recommended outpatient screening for secondary hypertension in a patient recovered from malignant hypertension?",
+        "back": "Renal Doppler ultrasound/CT angiography (renovascular stenosis), plasma aldosterone-to-renin ratio (Conn syndrome), serum creatinine/urinalysis, and sleep study (OSA).",
+        "tags": "D02 Secondary_Hypertension Malignant Renovascular GPC"
+      }
+    }
+  ]
+}

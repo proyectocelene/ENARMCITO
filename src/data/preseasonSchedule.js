@@ -355,11 +355,23 @@ export function getScheduleDay(identifier) {
   };
 }
 
+import { getBundledPretest } from "./pretests/index.js";
+import { getBundledSimulator } from "./simulators/index.js";
+
 // Generar estructura completa de tema para cualquiera de los días o cursos
 export function generateTopicFromSchedule(scheduleItem, baseTopic = null) {
   if (scheduleItem.code === "D01" && baseTopic) {
-    return baseTopic;
+    const bundledSim = getBundledSimulator("D01");
+    return {
+      ...baseTopic,
+      simulation: (baseTopic.simulation?.questions?.length > 0)
+        ? baseTopic.simulation
+        : (bundledSim || baseTopic.simulation)
+    };
   }
+
+  const bundledPretest = getBundledPretest(scheduleItem.code);
+  const bundledSimulator = getBundledSimulator(scheduleItem.code);
 
   return {
     id: scheduleItem.topicId,
@@ -375,13 +387,13 @@ export function generateTopicFromSchedule(scheduleItem, baseTopic = null) {
     resources: [],
     // Material real pendiente de ser cargado por el usuario
     flashcards: [],
-    pretest: {
+    pretest: bundledPretest || {
       duration_minutes: 20,
       questions: []
     },
-    simulation: {
-      duration_minutes: 20,
-      seconds_per_question: 60,
+    simulation: bundledSimulator || {
+      duration_minutes: 30,
+      seconds_per_question: 72,
       questions: []
     }
   };

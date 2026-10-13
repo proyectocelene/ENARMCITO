@@ -6,6 +6,8 @@ import React from "react";
 import { useUser } from "../../context/UserContext";
 import { DuoStatusWidget } from "./DuoStatusWidget";
 import { getScheduleDay } from "../../data/preseasonSchedule";
+import { getBundledPretest } from "../../data/pretests/index.js";
+import { getBundledSimulator } from "../../data/simulators/index.js";
 import { 
   ClipboardCheck, 
   BookOpen, 
@@ -33,6 +35,7 @@ export function DayOverview({ onSelectPhase }) {
     switchDay, 
     goToToday,
     getTodayDayCode,
+    getDayStatus,
     setScheduleModalOpen,
     setCourseSidebarOpen,
     schedule 
@@ -46,20 +49,37 @@ export function DayOverview({ onSelectPhase }) {
     );
   }
 
-  const isDark = theme === "dark";
-  const status = currentUser.today_status || {};
-  const flashcardsTotal = topic.flashcards?.length || 0;
-  const resourcesTotal = topic.resources?.length || 0;
-
   // Encontrar índice del día actual en el cronograma (1 a 18)
   const currentDayInfo = getScheduleDay(topic.code || activeDayCode);
+  const isDark = theme === "dark";
+  const status = (typeof getDayStatus === "function") ? getDayStatus(currentDayInfo.code) : (currentUser.today_status || {});
+  const flashcardsTotal = topic.flashcards?.length || 0;
+  const resourcesTotal = topic.resources?.length || 0;
   const currentIndex = schedule.findIndex((s) => s.code === currentDayInfo.code);
   const prevDay = currentIndex > 0 ? schedule[currentIndex - 1] : null;
   const nextDay = currentIndex < schedule.length - 1 ? schedule[currentIndex + 1] : null;
 
   const isDonato = currentUser?.id === "donato";
-  const pretestTotal = topic.pretest?.questions?.length || 0;
-  const simTotal = topic.simulation?.questions?.length || 0;
+  const bundledPretest = getBundledPretest(topic.code || activeDayCode);
+  const effectivePretestQuestions = (Array.isArray(topic.pretest?.questions) && topic.pretest.questions.length > 0)
+    ? topic.pretest.questions
+    : (bundledPretest?.questions || []);
+  const pretestTotal = effectivePretestQuestions.length;
+
+  const bundledSim = getBundledSimulator(topic.code || activeDayCode);
+  const effectiveSimQuestions = (Array.isArray(topic.simulation?.questions) && topic.simulation.questions.length > 0)
+    ? topic.simulation.questions
+    : (bundledSim?.questions || []);
+  const simTotal = effectiveSimQuestions.length;
+
+  // Solo considerar completado si realmente tiene respuestas guardadas para este tema
+  const storageKey = `enarmcito_pretest_answers_${currentUser.id}_${topic.id}`;
+  let hasSavedAnswers = false;
+  try {
+    const raw = localStorage.getItem(storageKey);
+    hasSavedAnswers = Boolean(raw && Object.keys(JSON.parse(raw)).length > 0);
+  } catch {}
+  const isPretestDone = Boolean(status.phase0_done && hasSavedAnswers);
 
   const phases = [
     {
@@ -74,16 +94,16 @@ export function DayOverview({ onSelectPhase }) {
       icon: ClipboardCheck,
       color: "from-blue-600 to-cyan-600",
       textColor: "text-blue-600 dark:text-cyan-400",
-      done: status.phase0_done && pretestTotal > 0,
+      done: isPretestDone && pretestTotal > 0,
       score: status.phase0_score,
-      badge: status.phase0_done && pretestTotal > 0
+      badge: isPretestDone && pretestTotal > 0
         ? `Calificación: ${status.phase0_score}%` 
         : pretestTotal > 0 ? `${pretestTotal} reactivos` : "0 reactivos",
       actionText: pretestTotal === 0
         ? isDonato
           ? "Subir Cuestionario JSON (Donato)"
           : "Esperando cuestionario de Donato"
-        : status.phase0_done ? "Ver Auditoría & Retroalimentación" : "Iniciar Pre-Test",
+        : isPretestDone ? "Ver Auditoría & Retroalimentación" : "Iniciar Pre-Test",
       disabled: false
     },
     {
@@ -152,14 +172,14 @@ export function DayOverview({ onSelectPhase }) {
       <DuoStatusWidget />
 
       {/* Franja del Tema con Navegación entre Días del Cronograma (Paper over Paper) */}
-      <div className={`paper-card p-3 sm:p-4.5 transition-colors ${
+      <div className={`paper-card p-3 sm:p-4 transition-colors ${
         isDark 
           ? "bg-slate-900 border-slate-700 text-white" 
           : "bg-white border-slate-300 text-slate-900"
       }`}>
-        {/* Barra superior de control del día: Flechas y selector adaptable para celular */}
-        <div className="flex items-center justify-between gap-1.5 border-b-2 pb-2.5 mb-2.5 border-slate-200 dark:border-slate-800 flex-wrap">
-          <div className="flex items-center gap-1.5 flex-wrap">
+        {/* Barra superior de control del día compacta */}
+        <div className="flex items-center justify-between gap-1.5 border-b-2 pb-2 mb-2.5 border-slate-200 dark:border-slate-800 flex-wrap">
+          <div className="flex items-center gap-1.5">
             <div className="flex items-center gap-0.5">
               <button
                 type="button"
@@ -194,7 +214,7 @@ export function DayOverview({ onSelectPhase }) {
             <button
               type="button"
               onClick={goToToday}
-              className={`flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-black border transition-all cursor-pointer ${
+              className={`flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-black border transition-all cursor-pointer ${
                 activeDayCode === getTodayDayCode()
                   ? "bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border-emerald-500/40"
                   : "bg-amber-500/15 text-amber-800 dark:text-amber-300 border-amber-500/50 hover:bg-amber-500/25"
@@ -206,69 +226,96 @@ export function DayOverview({ onSelectPhase }) {
             </button>
           </div>
 
-          <div className="flex items-center gap-1.5 flex-wrap">
+          <div className="flex items-center gap-1.5">
             <button
               type="button"
               onClick={() => setCourseSidebarOpen(true)}
-              className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-indigo-50 dark:bg-indigo-950/40 border border-indigo-300 dark:border-indigo-800 text-indigo-800 dark:text-indigo-300 text-xs font-bold transition-all cursor-pointer"
+              className="flex items-center gap-1 px-2 py-1 rounded-lg bg-indigo-50 dark:bg-indigo-950/40 border border-indigo-300 dark:border-indigo-800 text-indigo-800 dark:text-indigo-300 text-xs font-bold transition-all cursor-pointer"
               title="Temario de Cursos"
             >
               <GraduationCap className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
-              <span className="hidden xs:inline">Cursos</span>
+              <span>Cursos</span>
             </button>
 
             <button
               type="button"
               onClick={() => setScheduleModalOpen(true)}
-              className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-slate-200 text-xs font-bold transition-all cursor-pointer"
+              className="flex items-center gap-1 px-2 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-slate-200 text-xs font-bold transition-all cursor-pointer"
             >
               <Calendar className="w-3.5 h-3.5 text-blue-600 dark:text-cyan-400" />
-              <span>Cronograma</span>
+              <span className="hidden xs:inline">Cronograma</span>
             </button>
           </div>
         </div>
 
-        {/* Título y Datos Clave del Tema */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-          <div className="space-y-1">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="px-2.5 py-0.5 rounded-full text-[11px] font-extrabold bg-blue-100 text-blue-800 dark:bg-blue-950/60 dark:text-cyan-300 border border-blue-300 dark:border-blue-800">
-                {currentDayInfo.specialtyName} ({currentDayInfo.specialty})
-              </span>
-              <span className="text-[11px] font-semibold text-slate-600 dark:text-slate-400">
-                📖 {topic.normativa_origen}
-              </span>
-              {currentDayInfo.drRePdfs?.[0] && (
-                <span className="text-[11px] font-bold text-purple-700 dark:text-purple-300 flex items-center gap-1">
-                  <Layers className="w-3 h-3 text-purple-500" />
-                  <span>{currentDayInfo.drRePdfs[0].label}</span>
-                </span>
-              )}
-            </div>
-
-            <h1 className="text-lg sm:text-xl font-black tracking-tight text-slate-950 dark:text-white">
-              {topic.title}
-            </h1>
+        {/* Título Limpio y Destacado del Tema */}
+        <div className="space-y-1 mb-3">
+          <div className="flex items-center gap-2">
+            <span className="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-blue-100 text-blue-800 dark:bg-blue-950/60 dark:text-cyan-300 border border-blue-300 dark:border-blue-800">
+              {currentDayInfo.specialtyName} ({currentDayInfo.specialty})
+            </span>
           </div>
 
-          <div className="flex items-center gap-2 self-start sm:self-center">
-            <span className="text-xs font-semibold text-slate-600 dark:text-slate-400">
-              Ruta del día:
+          <h1 className="text-base sm:text-xl font-black tracking-tight text-slate-950 dark:text-white leading-snug">
+            {topic.title}
+          </h1>
+        </div>
+
+        {/* LÍNEA SECUENCIAL DE FASES (STEPPER PIPELINE COGNITIVO) */}
+        {/* Indica claramente la fase completada (verde), la fase actual (azul con pulso) y la siguiente */}
+        <div className="pt-2 border-t border-slate-200 dark:border-slate-800">
+          <div className="flex items-center justify-between text-[11px] font-bold text-slate-500 mb-1.5">
+            <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-600 dark:text-slate-400">
+              Ruta Secuencial de Estudio:
             </span>
-            <div className="flex items-center gap-1">
-              {[0, 1, 2, 3].map((idx) => {
-                const isDone = currentUser.today_status?.[`phase${idx}_done`];
-                return (
-                  <span
-                    key={idx}
-                    className={`w-2.5 h-2.5 rounded-full transition-all ${
-                      isDone ? "bg-emerald-500 ring-2 ring-emerald-300" : "bg-slate-300 dark:bg-slate-700"
-                    }`}
-                    title={`Fase ${idx}: ${isDone ? "Completada" : "Pendiente"}`}
-                  />
-                );
-              })}
-            </div>
+            <span className="text-[10px] font-mono font-bold text-blue-600 dark:text-cyan-400">
+              {[0, 1, 2, 3].filter(idx => status?.[`phase${idx}_done`]).length}/4 completadas
+            </span>
+          </div>
+
+          <div className="relative flex items-center justify-between w-full px-2 py-1">
+            {/* Línea conectora de fondo */}
+            <div className="absolute left-6 right-6 top-1/2 -translate-y-1/2 h-1 bg-slate-200 dark:bg-slate-800 z-0" />
+
+            {[
+              { id: 0, label: "Pre-Test", short: "F0" },
+              { id: 1, label: "Recursos", short: "F1" },
+              { id: 2, label: "Anki", short: "F2" },
+              { id: 3, label: "Simulador", short: "F3" }
+            ].map((st, idx) => {
+              const isDone = Boolean(status?.[`phase${st.id}_done`]);
+              // La fase activa es la primera que aún no está completada
+              const isCurrent = !isDone && ([0, 1, 2, 3].find(p => !status?.[`phase${p}_done`]) === st.id);
+
+              return (
+                <button
+                  key={st.id}
+                  type="button"
+                  onClick={() => onSelectPhase(st.id)}
+                  className="relative z-10 flex flex-col items-center gap-1 group cursor-pointer focus:outline-hidden"
+                  title={`${st.short}: ${st.label} (${isDone ? "Completada ✓" : isCurrent ? "Siguiente en tu ruta" : "Pendiente"})`}
+                >
+                  <div className={`w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center font-black text-[11px] transition-all shadow-xs ${
+                    isDone
+                      ? "bg-emerald-500 text-white ring-4 ring-emerald-500/20"
+                      : isCurrent
+                      ? "bg-blue-600 text-white ring-4 ring-blue-500/30 animate-pulse scale-110"
+                      : "bg-slate-200 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border border-slate-300 dark:border-slate-700"
+                  }`}>
+                    {isDone ? "✓" : st.id}
+                  </div>
+                  <span className={`text-[10px] font-extrabold tracking-tight whitespace-nowrap transition-colors ${
+                    isDone
+                      ? "text-emerald-600 dark:text-emerald-400 font-black"
+                      : isCurrent
+                      ? "text-blue-600 dark:text-cyan-400 font-black underline decoration-2"
+                      : "text-slate-500 dark:text-slate-400"
+                  }`}>
+                    {st.label}
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </div>
       </div>
@@ -320,23 +367,39 @@ export function DayOverview({ onSelectPhase }) {
                 </p>
               </div>
 
-              <button
-                type="button"
-                disabled={p.disabled}
-                onClick={() => onSelectPhase(p.id)}
-                className={`w-full py-2.5 px-3.5 rounded-xl text-xs font-black flex items-center justify-center gap-2 transition-all cursor-pointer ${
-                  p.disabled
-                    ? "opacity-40 cursor-not-allowed bg-slate-200 dark:bg-slate-800 text-slate-500 border border-slate-300 dark:border-slate-700"
-                    : p.done
-                    ? isDark 
-                      ? "bg-slate-800 hover:bg-slate-700 text-slate-200 border-2 border-slate-600 active:scale-95"
-                      : "bg-slate-100 hover:bg-slate-200 text-slate-900 border-2 border-slate-400 active:scale-95"
-                    : `bg-gradient-to-r ${p.color} text-white hover:opacity-95 shadow-xs active:scale-95 border-2 border-transparent`
-                }`}
-              >
-                <span>{p.actionText}</span>
-                {!p.disabled && <ArrowRight className="w-3.5 h-3.5 flex-shrink-0" />}
-              </button>
+              <div className="space-y-1.5 w-full">
+                <button
+                  type="button"
+                  disabled={p.disabled}
+                  onClick={() => onSelectPhase(p.id)}
+                  className={`w-full py-2.5 px-3.5 rounded-xl text-xs font-black flex items-center justify-center gap-2 transition-all cursor-pointer ${
+                    p.disabled
+                      ? "opacity-40 cursor-not-allowed bg-slate-200 dark:bg-slate-800 text-slate-500 border border-slate-300 dark:border-slate-700"
+                      : p.done
+                      ? isDark 
+                        ? "bg-slate-800 hover:bg-slate-700 text-slate-200 border-2 border-slate-600 active:scale-95"
+                        : "bg-slate-100 hover:bg-slate-200 text-slate-900 border-2 border-slate-400 active:scale-95"
+                      : `bg-gradient-to-r ${p.color} text-white hover:opacity-95 shadow-xs active:scale-95 border-2 border-transparent`
+                  }`}
+                >
+                  <span>{p.actionText}</span>
+                  {!p.disabled && <ArrowRight className="w-3.5 h-3.5 flex-shrink-0" />}
+                </button>
+                {p.id === 0 && p.done && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      const storageKey = `enarmcito_pretest_answers_${currentUser.id}_${topic.id}`;
+                      localStorage.removeItem(storageKey);
+                      localStorage.removeItem(`${storageKey}_idx`);
+                      window.location.hash = "#/pretest_play";
+                    }}
+                    className="w-full py-1 text-[11px] font-bold text-blue-600 dark:text-cyan-400 hover:underline text-center cursor-pointer"
+                  >
+                    🔄 Reintentar Pre-Test desde cero
+                  </button>
+                )}
+              </div>
             </div>
           );
         })}

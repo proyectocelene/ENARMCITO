@@ -586,6 +586,7 @@ export function parseAndValidatePretestJson(rawInput, defaultTopic = {}) {
   });
 
   return {
+    topic_code: parsed.topic_code || defaultTopic.code || null,
     title: parsed.title || defaultTopic.title || "Pre-Test Psicométrico",
     normativa_origen: parsed.normativa_origen || defaultTopic.normativa_origen || "GPC CENETEC",
     duration_minutes: parsed.duration_minutes || parsed.timeLimitMinutes || 20,
@@ -848,6 +849,7 @@ export function parseAndValidateSimulatorJson(rawInput, defaultTopic = {}) {
   });
 
   return {
+    topic_code: parsed.topic_code || defaultTopic.code || null,
     title: parsed.title || `Simulador Post-Estudio: ${defaultTopic.title || "Tema"}`,
     normativa_origen: parsed.normativa_origen || defaultTopic.normativa_origen || "GPC CENETEC",
     duration_minutes: parsed.duration_minutes || 30,
@@ -896,16 +898,24 @@ export function generateSimulatorAuditReport(topicData, sessionResults, question
     md += `- **Pregunta:** ${q.question_text}\n`;
     md += `- **Tu Elección:** **${chosenOpt}** (${chosenText}) ❌ | **Correcta GPC:** **${correctOpt}** (${correctText}) ✅\n`;
 
-    if (q.distractor_trap) {
-      const trap = typeof q.distractor_trap === "object" ? q.distractor_trap : { trap_type: "Trampa", explanation: q.distractor_trap };
-      md += `- **Trampa en la que caíste:** \`${trap.trap_type || "Distractor"}\`\n`;
-      if (trap.explanation) {
-        md += `  > ${trap.explanation}\n`;
-      }
+    // Diagnóstico de Falla estructurado
+    const trap = typeof q.distractor_trap === "object" ? q.distractor_trap : { trap_type: "Trampa", explanation: q.distractor_trap };
+    const lowerTrap = (trap.trap_type || "").toLowerCase();
+    let failureDiag = "Consecuencia (Clínica / Laboratorios / Escalonamiento GPC)";
+    if (lowerTrap.includes("paciente incorrecto") || lowerTrap.includes("comorbilidad") || lowerTrap.includes("contraindicaci")) {
+      failureDiag = "Condición Facilitadora (Antecedentes / Comorbilidades / Alergia / TFG)";
+    } else if (lowerTrap.includes("cierre prematuro") || lowerTrap.includes("anclaje") || lowerTrap.includes("espectro")) {
+      failureDiag = "Fallo (Mecanismo Fisiopatológico / Sesgo de Anclaje Prematuro)";
+    }
+
+    md += `- **1. Tu Diagnóstico de Falla:** \`${failureDiag}\`\n`;
+    md += `- **2. Trampa del Distractor:** \`${trap.trap_type || "Distractor"}\`\n`;
+    if (trap.explanation) {
+      md += `  > ${trap.explanation}\n`;
     }
 
     if (q.gpc_algorithm_step) {
-      md += `- **Ruta del Algoritmo GPC Violada:**\n`;
+      md += `- **3. Ruta del Algoritmo GPC:**\n`;
       md += `  ${q.gpc_algorithm_step}\n`;
     }
 

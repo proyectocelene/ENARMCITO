@@ -1,0 +1,709 @@
+{
+  "topic_code": "D16",
+  "title": "Simulador Post-Estudio: Patología Biliar (Tokio, Colangitis)",
+  "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18)",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d16_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Colecistitis Aguda Litiásica y Escalonamiento Quirúrgico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 44 años, multípara con IMC de 31.8 kg/m², acude al servicio de urgencias por dolor continuo en hipocondrio derecho de 14 horas de evolución, de inicio súbito tras una comida rica en colecistoquinéticos, con irradiación a la región interescapular derecha, acompañado de náuseas y dos vómitos biliosos. A la exploración física: TA 128/82 mmHg, FC 92 lpm, FR 18 rpm, temperatura 38.1 °C. El abdomen muestra dolor exquisito a la palpación en hipocondrio derecho con signo de Murphy positivo inequívoco (cese inspiratorio brusco a la palpación profunda subcostal) y leve resistencia muscular voluntaria, sin plastrón ni rebote. Laboratorios: leucocitos 13,800/mm³ con 79% de neutrófilos, bandas 2%, proteína C reactiva 32 mg/L, bilirrubina total 0.9 mg/dL, amilasa 48 UI/L, lipasa 32 UI/L, creatinina sérica 0.8 mg/dL, plaquetas 260,000/mm³, INR 1.0. Ultrasonido hepatobiliar: vesícula biliar distendida de 9.5 x 4.2 cm, pared vesicular engrosada de 5.2 mm con signo de doble halo, presencia de múltiples litos móviles con un cálculo de 17 mm impactado en el bacinete vesicular, signo de Murphy ecográfico francamente positivo, sin líquido perivesicular. El conducto colédoco mide 4.5 mm de diámetro interno, sin litos en su luz.",
+      "question_text": "De acuerdo con los Criterios Diagnósticos y de Severidad de las Guías de Tokio 2018 (TG18) adoptados por la GPC IMSS-237, ¿cuál es la clasificación diagnóstica y el grado de severidad preciso en esta paciente?",
+      "options": {
+        "A": "Colecistitis aguda litiásica confirmada, Grado I (Leve), por no presentar disfunción orgánica ni criterios locales o analíticos de Grado II.",
+        "B": "Colecistitis aguda litiásica confirmada, Grado II (Moderada), debido a la presencia de leucocitosis > 10,000/mm³ y engrosamiento de pared vesicular > 4 mm.",
+        "C": "Colecistitis aguda litiásica en grado de sospecha diagnóstica, Grado I (Leve), debido a que el ultrasonido no demostró líquido perivesicular libre.",
+        "D": "Colecistitis aguda litiásica confirmada, Grado II (Moderada), por cursar con fiebre documentada mayor a 38 °C y dolor de más de 12 horas."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Criterios_Tokio_TG18_Estratificacion",
+      "gpc_algorithm_step": "Diagnóstico definitivo de colecistitis aguda (Ítems A + B + C de Tokio). La severidad es Grado I (Leve) porque no cumple criterios de Grado II (leucocitos > 18,000, masa palpable en CSD, evolución > 72 h o inflamación local marcada como gangrena/enfisema) ni de Grado III (falla orgánica).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El aspirante asume que cualquier leucocitosis (13,800) o pared engrosada (> 4 mm) convierte el cuadro en Grado II (Moderada). En Tokio TG18, la pared > 4 mm es criterio diagnóstico C, y el corte de leucocitos para Grado II es estrictamente > 18,000/mm³."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los 4 criterios de severidad para Colecistitis Aguda Grado II (Moderada) según las Guías de Tokio TG18?",
+        "back": "1. Leucocitosis > 18,000/mm³.\n2. Masa palpable dolorosa en CSD.\n3. Duración de los síntomas > 72 horas.\n4. Inflamación local marcada (gangrena, enfisema, absceso perivesicular o peritonitis biliar).",
+        "tags": "D16 Cirugía Tokio TG18 Colecistitis Severidad GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Colecistitis Aguda Litiásica y Escalonamiento Quirúrgico",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "En la misma paciente de 44 años con colecistitis aguda litiásica Grado I (Leve) y 14 horas de evolución, se inicia reanimación hídrica con solución cristaloide y analgesia parenteral. No cuenta con antecedentes cardiovasculares ni contraindicaciones para anestesia general (clasificación de riesgo quirúrgico ASA I, índice de comorbilidad de Charlson 0).",
+      "question_text": "Con base en el algoritmo de tratamiento de la GPC IMSS-237 y las recomendaciones de las Guías de Tokio TG18, ¿cuál es la conducta terapéutica de elección y su ventana temporal óptima?",
+      "options": {
+        "A": "Manejo médico conservador inicial con antibióticos y analgésicos durante 72 horas, programando colecistectomía electiva en 6 a 8 semanas para permitir que 'se enfríe' el proceso inflamatorio.",
+        "B": "Colecistectomía laparoscópica temprana durante el internamiento inicial, idealmente realizada dentro de las primeras 72 horas desde el inicio de los síntomas.",
+        "C": "Colecistostomía percutánea guiada por ultrasonido de urgencia para descompresión vesicular, seguida de colecistectomía laparoscópica a los 3 meses.",
+        "D": "Tratamiento litolítico oral con ácido ursodesoxicólico y analgesia ambulatoria una vez remitido el cuadro agudo."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Tiempo_Quirurgico_Colecistectomia_Temprana",
+      "gpc_algorithm_step": "En Colecistitis Aguda Grado I (Leve) en paciente con bajo riesgo quirúrgico, la colecistectomía laparoscópica temprana (< 72 horas del inicio de los síntomas o durante el mismo ingreso) es la primera línea. Reduce la estancia hospitalaria, reingresos y complicaciones comparado con el manejo diferido.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "El concepto obsoleto de 'enfriar el cuadro' y diferir la cirugía 6-8 semanas incrementa hasta en 20-30% la tasa de recurrencia aguda, complicaciones graves y estancia intrahospitalaria. La GPC y TG18 dictan colecistectomía temprana."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tiempo óptimo para realizar la colecistectomía laparoscópica temprana en colecistitis aguda según la GPC IMSS-237?",
+        "back": "Dentro de las primeras 72 horas desde el inicio de los síntomas (temprana), o durante la misma estancia intrahospitalaria.",
+        "tags": "D16 Cirugía Colecistectomia Tiempo_Quirurgico GPC Tokio"
+      }
+    },
+    {
+      "id": "d16_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Colecistitis Aguda Litiásica y Escalonamiento Quirúrgico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente es ingresada a quirófano a las 20 horas de evolución para colecistectomía laparoscópica. Durante el neumoperitoneo y la tracción del fondo vesicular, el cirujano encuentra adherencias fibrinosas firmes entre el epiplón y la vesícula. Al iniciar la disección en el triángulo hepatocístico (de Calot), la inflamación severa y el edema impiden visualizar claramente la confluencia entre el conducto cístico, la vía biliar principal y la placa cística, observando una estructura tubular engrosada que se presume podría ser el cístico.",
+      "question_text": "Para evitar una lesión iatrogénica de la vía biliar (LIVB), ¿cuál es el paso de seguridad mandatorio y estandarizado según la Cultura de Seguridad en Colecistectomía adoptada por la GPC mexicana?",
+      "options": {
+        "A": "Colocar inmediatamente un clip de titanio en la estructura tubular identificada y seccionarla con tijera para facilitar la movilización de la vesícula hacia cefálico.",
+        "B": "Obtener de manera rigurosa la 'Visión Crítica de Seguridad' de Strasberg (despejar el triángulo hepatocístico de grasa y tejido fibroso, separar el tercio inferior de la vesícula del lecho hepático y confirmar solo dos estructuras penetrando la vesícula antes de clipar).",
+        "C": "Realizar aspiración con aguja de la estructura tubular para verificar la salida de bilis clara y confirmar con ello que se trata del conducto cístico.",
+        "D": "Proceder de inmediato a una resección hepática en cuña de los segmentos IVb y V para evitar disecar el triángulo inflamado."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Vision_Critica_Seguridad_Strasberg",
+      "gpc_algorithm_step": "La Cultura de Seguridad exige obtener la Visión Crítica de Seguridad (CVS) de Strasberg antes de clipar cualquier estructura: 1) Triángulo hepatocístico libre de grasa/tejido fibroso; 2) Tercio inferior de la vesícula disecado del lecho (placa cística visible); 3) Solo dos estructuras (arteria y conducto cístico) entrando a la vesícula.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El cirujano asume erróneamente que la estructura más visible es el cístico y clipa a ciegas. La trampa del 'infundíbulo en bandera' confunde el colédoco traccionado con el cístico, provocando sección inadvertida de la vía biliar principal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los 3 componentes obligatorios de la Visión Crítica de Seguridad (CVS) de Strasberg en colecistectomía laparoscópica?",
+        "back": "1. Triángulo hepatocístico (de Calot) completamente libre de grasa y tejido fibroso.\n2. Tercio inferior de la vesícula biliar despegado de la placa cística hepática.\n3. Visualización inequívoca de solo 2 estructuras entrando a la vesícula (conducto y arteria císticos).",
+        "tags": "D16 Cirugía Strasberg Vision_Critica Seguridad GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Colecistitis Aguda Litiásica y Escalonamiento Quirúrgico",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "El procedimiento quirúrgico concluye con éxito por vía laparoscópica tras la obtención impecable de la Visión Crítica de Seguridad. La vesícula biliar fue extraída íntegra dentro de una bolsa endoscópica sin perforación de su pared ni derrame biliar o de cálculos a la cavidad peritoneal. La paciente se encuentra en el área de recuperación postanestésica, hemodinámicamente estable, tolerando pequeños sorbos de agua a las 4 horas.",
+      "question_text": "En relación con el régimen antimicrobiano profiláctico o terapéutico perioperatorio para este caso de colecistitis Grado I no complicada, ¿cuál es la pauta institucional avalada por la GPC IMSS-237 y las Guías de Tokio?",
+      "options": {
+        "A": "Completar un ciclo terapéutico de 7 días con Ciprofloxacino oral más Metronidazol ambulatorio tras el egreso.",
+        "B": "Monoterapia profiláctica preoperatoria con Cefalosporina de 1ª o 2ª generación (Cefazolina o Cefoxitina IV), sin necesidad de continuar antibióticos en el postoperatorio si no hubo derrame biliar ni bacteriemia.",
+        "C": "Prescribir Ertapenem intravenoso cada 24 horas durante 5 días hospitalarios para esterilizar la vía biliar.",
+        "D": "Administrar Vancomicina 1 g IV cada 12 horas por 72 horas para prevención de infección de sitio quirúrgico por SAMR."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Antibioticoterapia_Profilactica_Colecistitis_Grado_I",
+      "gpc_algorithm_step": "En Colecistitis Aguda Grado I (Leve), la GPC y TG18 indican que una dosis preoperatoria de cefazolina (o cefoxitina) es suficiente. Si la cirugía transcurre sin derrame biliar ni complicaciones, NO se requiere continuar antibióticos postoperatorios.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Sobreutilizar esquemas prolongados de fluoroquinolonas o carbapenémicos de amplio espectro en colecistitis Grado I post-quirúrgica sin complicaciones, práctica desaconsejada por la GPC por inducir resistencia bacteriana y costo excesivo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la recomendación de la GPC sobre el uso de antibióticos postoperatorios en Colecistitis Grado I resecada sin complicaciones?",
+        "back": "NO continuar antibióticos en el postoperatorio; basta con una dosis profiláctica preoperatoria de cefazolina/cefoxitina.",
+        "tags": "D16 Cirugía Colecistitis Antibioticos Profilaxis GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Colecistitis Aguda Grado III (Grave) en Paciente Senil con Choque Séptico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 79 años con antecedentes de diabetes mellitus tipo 2 descontrolada, insuficiencia renal crónica estadio 4 (creatinina basal 1.6 mg/dL, TFG 24 mL/min/1.73m²) y cardiopatía isquémica con fracción de eyección del 35%. Es llevado a urgencias por sus familiares por cuadro de 5 días (120 horas) de dolor abdominal continuo en hipocondrio derecho, hiporexia y deterioro progresivo del estado de alerta. A la exploración física: obnubilado, responde solo al dolor (Escala de Coma de Glasgow 12), TA 80/46 mmHg que no responde a la infusión de 2,000 mL de cristaloides isotónicos, FC 124 lpm, FR 26 rpm, temperatura 38.9 °C, saturación 89% con aire ambiente (PaO2/FiO2 260 mmHg). Se inicia infusión de noradrenalina a 0.2 mcg/kg/min para mantener PAM > 65 mmHg. Abdomen: distendido, muy doloroso en hipocondrio derecho con defensa muscular involuntaria. Laboratorios: leucocitos 24,500/mm³ con 18% de bandas, plaquetas 78,000/mm³, creatinina sérica 3.6 mg/dL, nitrógeno ureico 68 mg/dL, bilirrubina total 1.8 mg/dL, lactato sérico 4.1 mmol/L, INR 1.7. Ultrasonido: vesícula de 12 x 5.5 cm con pared engrosada de 7.5 mm con zonas de deslaminación, lito gigante de 28 mm impactado en bacinete y líquido perivesicular abundante; colédoco de 5 mm sin litos.",
+      "question_text": "Con base en las Guías de Tokio 2018 (TG18) adoptadas por la normativa mexicana (GPC IMSS-237), ¿cuál es el grado de severidad preciso de la colecistitis aguda en este paciente?",
+      "options": {
+        "A": "Grado II (Moderada), debido a que el tiempo de evolución supera las 72 horas y la leucocitosis es mayor a 18,000/mm³.",
+        "B": "Grado III (Grave), por cursar con disfunción orgánica múltiple (cardiovascular dependiente de vasopresores, respiratoria con PaO2/FiO2 < 300, renal, hepática con INR > 1.5, hematológica y neurológica).",
+        "C": "Grado II (Moderada), porque no presenta ictericia obstructiva grave y la bilirrubina total se mantiene por debajo de 2 mg/dL.",
+        "D": "Grado I (Leve), porque la vía biliar principal no está dilatada y la patología inflamatoria se limita anatómicamente a la vesícula biliar."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Criterios_Tokio_TG18_Colecistitis_Grado_III",
+      "gpc_algorithm_step": "En TG18/GPC, la presencia de disfunción de al menos un órgano (cardiovascular que requiere vasopresores, neurológica con Glasgow disminuido, respiratoria PaO2/FiO2 < 300, renal con Cr > 2.0, hepática INR > 1.5, plaquetas < 100k) escala automáticamente la colecistitis a Grado III (Grave), independientemente del tiempo de evolución.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El evaluado se ancla en los datos de Grado II (> 72 h de evolución y leucocitos > 18k) e ignora la disfunción multiorgánica que convierte de inmediato el caso en Grado III (Grave)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los 6 criterios de disfunción orgánica que definen Colecistitis Aguda Grado III (Grave) en Tokio TG18?",
+        "back": "1. Cardiovascular: hipotensión que requiere dopamina/noradrenalina.\n2. Neurológica: alteración de la conciencia.\n3. Respiratoria: PaO2/FiO2 < 300.\n4. Renal: oliguria o creatinina sérica > 2.0 mg/dL.\n5. Hepática: INR > 1.5.\n6. Hematológica: plaquetas < 100,000/mm³.",
+        "tags": "D16 Cirugía Tokio TG18 Colecistitis Grado_III Falla_Organica GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Colecistitis Aguda Grado III (Grave) en Paciente Senil con Choque Séptico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El paciente se encuentra en la Unidad de Cuidados Intensivos bajo soporte vasopresor continuo con noradrenalina, ventilación con oxígeno suplementario por mascarilla con reservorio y reanimación metabólica guiada por metas. Se calcula un puntaje APACHE II de 22 puntos y una escala de comorbilidad de Charlson ≥ 6 (riesgo quirúrgico extremo y mortalidad perioperatoria > 40% para cirugía mayor de urgencia).",
+      "question_text": "De acuerdo con el algoritmo de tratamiento de la GPC IMSS-237 y las Guías de Tokio TG18 para colecistitis Grado III con disfunción orgánica en pacientes de alto riesgo quirúrgico (inoperables en agudo), ¿cuál es la conducta resolutiva de primera línea indicada?",
+      "options": {
+        "A": "Colecistectomía laparoscópica de emergencia dentro de las primeras 6 horas para control de foco séptico.",
+        "B": "Colecistostomía percutánea transhepática guiada por ultrasonido o fluoroscopía de emergencia, asociada a soporte intensivo y antibióticos sistémicos.",
+        "C": "Colangiopancreatografía retrógrada endoscópica (CPRE) con colocación de prótesis biliar en colédoco distal.",
+        "D": "Laparotomía exploradora urgente con empaquetamiento abdominal y colecistectomía abierta 'a cielo abierto'."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Colecistostomia_Percutanea_Grado_III",
+      "gpc_algorithm_step": "En Colecistitis Grado III en paciente crítico con choque séptico, comorbilidad severa (Charlson ≥ 6) o disfunción orgánica que contraindica la anestesia/cirugía mayor inmediata, la descompresión vesicular urgente mediante Colecistostomía Percutánea es el procedimiento de elección.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La colecistectomía urgente es el tratamiento curativo definitivo en pacientes estables, pero llevar a quirófano a un paciente senil con choque séptico refractario, falla orgánica múltiple e inestabilidad extrema conlleva una mortalidad intraoperatoria inaceptable (> 40%)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el procedimiento de elección para Colecistitis Aguda Grado III en pacientes con alto riesgo quirúrgico (Charlson ≥ 6 o ASA IV)?",
+        "back": "Colecistostomía percutánea transhepática urgente bajo guía de ultrasonido/fluoroscopía + soporte en UCI y antibióticos.",
+        "tags": "D16 Cirugía Colecistostomia Percutanea Tokio TG18 GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Colecistitis Aguda Grado III (Grave) en Paciente Senil con Choque Séptico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Previo a la realización del procedimiento descompresivo en este paciente de 79 años con colecistitis Grado III, choque séptico y falla renal aguda sobre crónica (TFG calculada de 20 mL/min), se toman hemocultivos pareados y se requiere iniciar de inmediato cobertura antimicrobiana parenteral de amplio espectro.",
+      "question_text": "¿Cuál es el esquema antimicrobiano empírico institucional de elección según la GPC IMSS-237 y las Guías de Tokio para colecistitis Grado III con choque séptico, considerando el perfil de función renal?",
+      "options": {
+        "A": "Cefazolina 1 g IV cada 8 horas en monoterapia profiláctica.",
+        "B": "Amikacina 15 mg/kg IV cada 24 horas más Clindamicina 600 mg IV cada 8 horas.",
+        "C": "Piperacilina con tazobactam IV (o Carbapenémico como Meropenem) con ajuste de dosis a la tasa de filtración glomerular.",
+        "D": "Ciprofloxacino 400 mg IV cada 12 horas en monoterapia sin ajuste renal."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Antimicrobianos_Empiricos_Colecistitis_Grado_III",
+      "gpc_algorithm_step": "En Colecistitis Grado III (severa) o asociada a choque séptico, la GPC y TG18 dictan antibióticos de amplio espectro: Piperacilina/Tazobactam o Meropenem/Imipenem (o cefalosporina 3ª/4ª generación + metronidazol), ajustados estrictamente a la TFG para evitar toxicidad.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Utilizar aminoglucósidos (Amikacina) en un paciente con insuficiencia renal avanzada (TFG 20) y choque séptico precipita una nefropatía tóxica irreversible que agrava la anuria y la mortalidad."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué antibióticos empíricos de primera línea recomienda la GPC/TG18 para Colecistitis Aguda Grado III con Choque Séptico?",
+        "back": "Piperacilina/Tazobactam IV o Carbapenémicos (Meropenem) con ajuste posológico renal (cubriendo gramnegativos entéricos, Enterococcus y anaerobios).",
+        "tags": "D16 Cirugía Colecistitis Grado_III Antibioticos Sepsis GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Colecistitis Aguda Grado III (Grave) en Paciente Senil con Choque Séptico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A la colecistostomía percutánea se obtienen 150 mL de bilis purulenta a tensión, descomprimiendo la vesícula. A las 96 horas de evolución en la UCI, el paciente muestra una mejoría clínica notable: se retira la noradrenalina, se encuentra normotenso, afebril, Glasgow 15, leucocitos descendieron a 9,200/mm³, plaquetas en 180,000/mm³ y creatinina en 1.5 mg/dL. El catéter de colecistostomía drena 60 mL/día de bilis verde oscura no purulenta.",
+      "question_text": "Respecto a la conducta y permanencia del catéter de colecistostomía percutánea, ¿cuál es la recomendación normativa establecida por la GPC y consensos quirúrgicos?",
+      "options": {
+        "A": "Retirar el catéter de colecistostomía de inmediato al cumplir 96 horas, dado que el paciente ya está hemodinámicamente estable y afebril.",
+        "B": "Mantener el catéter a drenaje libre externo durante al menos 3 a 6 semanas para permitir la maduración del trayecto fistuloso transhepático y verificar permeabilidad mediante colangiografía antes de su retiro o eventual colecistectomía diferida.",
+        "C": "Pinzar el catéter de forma permanente y retirarlo al día siguiente sin realizar estudios de imagen de control.",
+        "D": "Inyectar etanol al 95% a través del catéter para realizar colecisto-ablación química inmediata durante el internamiento agudo."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Manejo_Cateter_Colecistostomia",
+      "gpc_algorithm_step": "El catéter de colecistostomía percutánea transhepática NO debe retirarse prematuramente. Requiere al menos 3 a 6 semanas para que madure el tracto fibroso transhepático; de lo contrario, el retiro precoz provoca fuga biliar intraperitoneal masiva y peritonitis biliar.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El médico retira el catéter a los 4 días por ver al paciente clínicamente bien. Sin un trayecto fistuloso consolidado (3-6 semanas), se produce extravasación libre de bilis al peritoneo con reingreso fulminante por peritonitis biliar."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuánto tiempo mínimo debe permanecer colocado un catéter de colecistostomía percutánea antes de su retiro o colangiografía de control?",
+        "back": "Mínimo 3 a 6 semanas, para garantizar la maduración del trayecto fistuloso transhepático y evitar peritonitis biliar.",
+        "tags": "D16 Cirugía Colecistostomia Cateter Tiempo GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Coledocolitiasis y Algoritmo Estratificado ASGE / GPC",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 56 años acude al servicio de urgencias por presentar dolor de 24 horas de evolución en epigastrio e hipocondrio derecho de tipo cólico opresivo, irradiado a espalda, acompañado de coluria y acolia progresiva en los últimos 2 días. Niega fiebre, diaforesis o escalofríos. A la exploración física: TA 120/75 mmHg, FC 78 lpm, afebril (36.7 °C). Ictericia franca en escleras y mucosas. Abdomen blando, depresible, con dolor a la palpación profunda en epigastrio e hipocondrio derecho, sin datos de irritación peritoneal ni signo de Murphy. Laboratorios: leucocitos 7,100/mm³, hemoglobina 13.5 g/dL, plaquetas 240,000/mm³, bilirrubina total 5.8 mg/dL a expensas de la directa (directa 4.6 mg/dL, indirecta 1.2 mg/dL), fosfatasa alcalina 380 UI/L (normal < 120), gamma-glutamil transferasa (GGT) 320 UI/L, ALT 110 UI/L, AST 85 UI/L, amilasa sérica 55 UI/L, lipasa 38 UI/L. El ultrasonido de abdomen superior demuestra vesícula biliar de paredes delgadas (2.5 mm) con múltiples litos móviles milimétricos en su interior, y un conducto colédoco dilatado a 11 mm de diámetro en cuyo tercio distal retroduodenal se identifica una imagen ecogénica redondeada de 9 mm que produce sombra acústica posterior neta.",
+      "question_text": "De acuerdo con los criterios estratificados de la ASGE (American Society for Gastrointestinal Endoscopy) y la GPC IMSS-237 adoptados en México, ¿en qué categoría de riesgo de coledocolitiasis se ubica esta paciente?",
+      "options": {
+        "A": "Riesgo Bajo (< 10%), debido a que no presenta colangitis aguda ni leucocitosis.",
+        "B": "Riesgo Intermedio (10 a 50%), requiriendo Colangiopancreatografía por Resonancia Magnética (CPRM) confirmatoria previa a cualquier decisión terapéutica.",
+        "C": "Muy Alto Riesgo (> 50%), debido a la visualización ecográfica concluyente de un cálculo en el conducto colédoco.",
+        "D": "Riesgo Alto Indeterminado, requiriendo ecoendoscopía (USE) mandatoria para confirmar el tamaño exacto del lito."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Estratificacion_Riesgo_Coledocolitiasis_ASGE_GPC",
+      "gpc_algorithm_step": "Criterios de Muy Alto Riesgo de coledocolitiasis (probabilidad > 50%): 1) Lito visible en colédoco por ultrasonido; 2) Colangitis aguda clínica; 3) Bilirrubina total > 4 mg/dL Y colédoco dilatado > 6 mm. En Muy Alto Riesgo se procede directamente a CPRE terapéutica.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "El médico clasifica erróneamente a la paciente en riesgo intermedio y solicita colangiorresonancia (CPRM), retrasando el procedimiento intervencionista cuando el lito ya está plenamente visualizado en la vía biliar por ecografía."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los 3 criterios de 'Muy Alto Riesgo' (> 50%) de coledocolitiasis según la ASGE y la GPC?",
+        "back": "1. Lito visible en colédoco por ultrasonido.\n2. Presencia de colangitis aguda clínica.\n3. Bilirrubina total > 4 mg/dL CON dilatación del colédoco (> 6 mm con vesícula in situ).",
+        "tags": "D16 Cirugía Coledocolitiasis ASGE Estratificacion GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Coledocolitiasis y Algoritmo Estratificado ASGE / GPC",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Con el diagnóstico confirmado de coledocolitiasis de Muy Alto Riesgo (lito coledociano de 9 mm) y colelitiasis múltiple concomitante en una paciente de 56 años hemodinámicamente estable, se debe definir la estrategia terapéutica resolutiva definitiva.",
+      "question_text": "Con base en la GPC IMSS-237 y las recomendaciones de manejo secuencial en dos tiempos institucionales, ¿cuál es la conducta resolutiva de primera elección?",
+      "options": {
+        "A": "Colangiopancreatografía retrógrada endoscópica (CPRE) terapéutica con esfinterotomía y extracción del lito, seguida de colecistectomía laparoscópica durante el mismo internamiento hospitalario.",
+        "B": "Colecistectomía abierta urgente con ligadura del colédoco distal y colecistoyeyunostomía en asa de Henle.",
+        "C": "Administración de ácido ursodesoxicólico vía oral durante 6 meses para disolución del cálculo coledociano, difiriendo la cirugía.",
+        "D": "Colecistectomía laparoscópica aislada dejando el cálculo coledociano para expulsión espontánea a duodeno."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo_Secuencial_CPRE_Colecistectomia",
+      "gpc_algorithm_step": "La estrategia estándar en 2 tiempos en nuestro medio para coledocolitiasis con colelitiasis sintomática es: 1) CPRE con esfinterotomía y extracción del cálculo; 2) Colecistectomía laparoscópica programada en el mismo internamiento (o dentro de las primeras semanas) para prevenir recidiva.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Resolver el colédoco mediante CPRE y dar de alta a la paciente sin programar la colecistectomía. Dejar la vesícula litiásica in situ causa recidiva de coledocolitiasis, pancreatitis o colecistitis en más del 30-45% de los pacientes al año."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la estrategia estándar en dos tiempos recomendada por la GPC para coledocolitiasis con colelitiasis sincrónica?",
+        "back": "CPRE terapéutica (esfinterotomía y extracción de litos) seguida de colecistectomía laparoscópica electiva en el mismo internamiento.",
+        "tags": "D16 Cirugía Coledocolitiasis CPRE Colecistectomia GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Coledocolitiasis y Algoritmo Estratificado ASGE / GPC",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En un escenario comparativo, acude un hombre de 49 años con antecedente de cólicos biliares esporádicos. En su valoración actual: afebril, sin ictericia clínica, dolor leve en hipocondrio derecho que cedió con AINEs. Laboratorios: leucocitos normales, bilirrubina total 2.3 mg/dL (directa 1.7 mg/dL), fosfatasa alcalina 175 UI/L (ligeramente elevada), transaminasas normales. El ultrasonido muestra colelitiasis múltiple sin datos de colecistitis y un conducto colédoco de 7.5 mm de diámetro (dilatación limítrofe), SIN visualización de cálculos en su interior.",
+      "question_text": "De acuerdo con el algoritmo estratificado de la ASGE y la GPC, ¿en qué categoría de riesgo se clasifica este paciente y cuál es la conducta diagnóstica de elección previa a la colecistectomía?",
+      "options": {
+        "A": "Riesgo Alto; envío directo e inmediato a CPRE terapéutica de urgencia.",
+        "B": "Riesgo Intermedio (10 a 50%); realizar estudio de imagen no invasivo avanzado como Colangiopancreatografía por Resonancia Magnética (CPRM) o ultrasonido endoscópico (USE) para confirmar o descartar coledocolitiasis.",
+        "C": "Riesgo Bajo (< 10%); programar colecistectomía laparoscópica sin ningún estudio adicional ni colangiografía.",
+        "D": "Riesgo Muy Alto; realizar laparotomía con exploración quirúrgica del colédoco a ciegas."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Riesgo_Intermedio_Coledocolitiasis_CPRM",
+      "gpc_algorithm_step": "En Riesgo Intermedio (colédoco > 6 mm o alteración de pruebas hepáticas sin lito visible ni colangitis), NO se hace CPRE directa por su riesgo de pancreatitis (5-10%). La indicación es evaluar la vía biliar mediante CPRM o USE (o colangiografía transoperatoria durante la colecistectomía).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Someter a CPRE directa invasiva a pacientes con riesgo intermedio. Si el colédoco resulta limpio (como ocurre en el 50-70% de estos casos), se expuso inútilmente al paciente a complicaciones graves como pancreatitis post-CPRE, perforación duodenal o hemorragia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta diagnóstica indicada ante un paciente con Riesgo Intermedio (10-50%) de coledocolitiasis según la ASGE/GPC?",
+        "back": "Estudio no invasivo: Colangiopancreatografía por Resonancia Magnética (CPRM) o Ultrasonido Endoscópico (USE) (o colangiografía transoperatoria durante la colecistectomía).",
+        "tags": "D16 Cirugía Coledocolitiasis Riesgo_Intermedio CPRM GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Coledocolitiasis y Algoritmo Estratificado ASGE / GPC",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A este paciente con riesgo intermedio se le programa colecistectomía laparoscópica con colangiografía transoperatoria (CTO) electiva. Durante la colangiografía transcística se evidencia un defecto de llenado intraluminal de 5 mm en el tercio distal del colédoco, con escaso paso de medio de contraste a duodeno. El cirujano realiza lavado con solución salina tibia e infusión de 1 mg de glucagón IV para relajar el esfínter de Oddi, pero el defecto persiste in situ. El centro quirúrgico cuenta con servicio de endoscopía pero no con coledocoscopio flexible laparoscópico ni instrumental de coledocotomía avanzada.",
+      "question_text": "Para evitar complicaciones mayores y garantizar la resolución segura del cálculo según la GPC IMSS-237, ¿cuál es la conducta más adecuada a seguir en quirófano?",
+      "options": {
+        "A": "Realizar coledocotomía anterior a ciegas con bisturí 11 y extraer el lito con pinza de Randall forzada a través de la herida.",
+        "B": "Introducir catéter con balón Fogarty por el cístico e inflarlo a alta presión para forzar el paso del lito rompiendo la papila duodenal hacia el duodeno.",
+        "C": "Completar la colecistectomía laparoscópica de forma habitual, colocar un drenaje subhepático de seguridad si es necesario, y programar una CPRE postoperatoria en las siguientes 24 a 48 horas.",
+        "D": "Suspender la cirugía, no retirar la vesícula y transferir a la paciente sin tratamiento a su domicilio."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "CPRE_Postoperatoria_en_Lito_Residual_CTO",
+      "gpc_algorithm_step": "Si la colangiografía transoperatoria detecta un lito coledociano y el cirujano no tiene experiencia o instrumental para exploración laparoscópica de la vía biliar, la conducta más segura y respaldada por la GPC es concluir la colecistectomía y realizar CPRE con esfinterotomía en el postoperatorio inmediato (24-48 h).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El cirujano intenta instrumentar agresivamente la vía biliar con catéteres o pinzas sin coledocoscopio ni visión directa, lo que causa laceración del colédoco, falso trayecto o perforación duodenal retroperitoneal catastrófica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta ante el hallazgo de un lito coledociano en la colangiografía transoperatoria si no se dispone de equipo de exploración laparoscópica de vía biliar?",
+        "back": "Completar la colecistectomía laparoscópica y resolver el lito coledociano mediante CPRE postoperatoria temprana (en las siguientes 24-48 h).",
+        "tags": "D16 Cirugía Colangiografia Lito_Residual CPRE GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome de Mirizzi y Colecistitis Enfisematosa",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 64 años con antecedente de cólicos biliares de repetición durante 10 años sin tratamiento quirúrgico, acude por ictericia indolora fluctuante, coluria y pérdida de peso de 4 kg en los últimos 2 meses. A la exploración física: ictérica, abdomen blando con plastrón indoloro palpable en hipocondrio derecho. Laboratorios: bilirrubina total 6.8 mg/dL (directa 5.4 mg/dL), FA 440 UI/L, GGT 360 UI/L, antígeno carcinoembrionario (ACE) 1.8 ng/mL, CA 19-9 28 U/mL (ambos normales). Se realiza Colangiopancreatografía por Resonancia Magnética (CPRM), la cual reporta: vesícula biliar escleroatrófica con pared engrosada y un cálculo gigante de 3.2 cm impactado fijamente en el cuello vesicular / conducto cístico, el cual produce una compresión extrínseca severa sobre la pared lateral del conducto hepático común, causando dilatación franca de la vía biliar intrahepática proximal, con colédoco distal de calibre normal. La señal de resonancia demuestra indemnidad de la pared del conducto hepático común sin solución de continuidad ni trayecto fistuloso entre la vesícula y la vía biliar.",
+      "question_text": "De acuerdo con la clasificación pronóstica y quirúrgica de Csendes para el Síndrome de Mirizzi, ¿a qué tipo corresponde este hallazgo?",
+      "options": {
+        "A": "Síndrome de Mirizzi Tipo I (compresión extrínseca del conducto hepático común por lito impactado en cístico o bolsa de Hartmann, sin fístula colecistobiliar).",
+        "B": "Síndrome de Mirizzi Tipo II (presencia de fístula colecistobiliar que compromete menos de un tercio de la circunferencia del conducto hepático común).",
+        "C": "Síndrome de Mirizzi Tipo III (fístula colecistobiliar que destruye hasta dos tercios de la circunferencia del conducto biliar).",
+        "D": "Síndrome de Mirizzi Tipo V (asociado a fístula colecistoentérica con íleo biliar secundario)."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Sindrome_Mirizzi_Clasificacion_Csendes",
+      "gpc_algorithm_step": "La Clasificación de Csendes divide el Síndrome de Mirizzi en: Tipo I: compresión extrínseca sin fístula; Tipo II: fístula < 1/3 de la circunferencia; Tipo III: fístula de 1/3 a 2/3; Tipo IV: destrucción completa de la pared biliar (> 2/3); Tipo V: cualquier tipo + fístula colecistoentérica.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir la dilatación biliar severa con un Tipo II o un colangiocarcinoma hiliar (Tumor de Klatskin). La indemnidad parietal demostrada en la CPRM sin trayecto fistuloso confirma inequívocamente el Tipo I."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo define la clasificación de Csendes al Síndrome de Mirizzi Tipo I y Tipo II?",
+        "back": "Tipo I: Compresión extrínseca del conducto hepático común por lito impactado en cístico/bacinete SIN fístula.\nTipo II: Presencia de fístula colecistocoledociana que afecta < 1/3 de la circunferencia del conducto biliar.",
+        "tags": "D16 Cirugía Mirizzi Csendes Clasificacion GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome de Mirizzi y Colecistitis Enfisematosa",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente con Síndrome de Mirizzi Tipo I es programada para intervención quirúrgica. El cirujano planifica el procedimiento tomando en cuenta el alto riesgo de lesión inadvertida de la vía biliar principal debido al intenso proceso cicatrizal fibroso y la fusión de planos tisulares en el ligamento hepatoduodenal.",
+      "question_text": "Según la GPC IMSS-237 y las directrices quirúrgicas especializadas, ¿cuál es el abordaje quirúrgico de elección en el Síndrome de Mirizzi Tipo I frente a la conducta obligada si se hubiera identificado un Tipo II (fístula < 1/3)?",
+      "options": {
+        "A": "En Tipo I: Colecistectomía total o subtotal cuidadosa respetando la vía biliar común sin coledocotomía; en Tipo II: Colecistectomía subtotal con cierre del orificio fistuloso sobre tubo en T (Kehr) o parche vesicular.",
+        "B": "En Tipo I: Duodenopancreatectomía cefálica de Whipple inmediata por sospecha de malignidad subyacente.",
+        "C": "En Tipo I: Coledocotomía longitudinal de rutina con colocación profiláctica de sonda en T siempre; en Tipo II: Derivación en Y de Roux obligada.",
+        "D": "En ambos tipos: Colecistectomía laparoscópica cerrada con tracción forzada del cístico sin disecar el cuello vesicular."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Abordaje_Quirurgico_Mirizzi_Csendes",
+      "gpc_algorithm_step": "En Mirizzi Tipo I el tratamiento es colecistectomía (frecuentemente subtotal para evitar disecar el lecho fibroso de la vía biliar). En Tipo II se preserva un manguito de vesícula para cerrar la fístula sobre una sonda en T de Kehr o plastia primaria.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Proponer resecciones pancreatoduodenales mutilantes o derivaciones biliodigestivas complejas en Mirizzi Tipo I, donde la vía biliar no tiene defecto estructural fistuloso y solo requiere colecistectomía cuidadosa."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la técnica quirúrgica recomendada para el Síndrome de Mirizzi Tipo I y Tipo II según Csendes?",
+        "back": "Tipo I: Colecistectomía (total o subtotal) con preservación estricta de la vía biliar.\nTipo II: Colecistectomía subtotal con cierre de la fístula sobre tubo en T (Kehr) o parche con remanente vesicular.",
+        "tags": "D16 Cirugía Mirizzi Tratamiento Csendes GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome de Mirizzi y Colecistitis Enfisematosa",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 66 años con antecedentes de diabetes mellitus tipo 2 de 25 años de evolución con mal apego terapéutico (última HbA1c 11.2%) y retinopatía diabética, es traído al servicio de urgencias por dolor súbito y desgarrador en hipocondrio derecho de 16 horas de evolución, fiebre de 39.2 °C con diaforesis profusa y taquicardia. A la exploración física: aspecto tóxico, TA 95/60 mmHg, FC 122 lpm, FR 24 rpm. A la palpación de hipocondrio derecho se percibe exquisito dolor a la descompresión y se palpa una fina crepitación subcutánea/subcostal. Laboratorios: leucocitos 22,000/mm³ con 16% de bandas, glucemia 340 mg/dL, acidosis metabólica leve con lactato 3.4 mmol/L. La Tomografía Axial Computarizada (TAC) abdominal con contraste muestra vesícula biliar francamente distendida con engrosamiento parietal y presencia abundante de gas intraluminal y gas disecando las paredes de la vesícula biliar (neumocolecisto), sin evidencia de aire en el árbol biliar intrahepático ni antecedente de procedimientos endoscópicos biliares previos.",
+      "question_text": "Con base en estos hallazgos clínicos y tomográficos, ¿cuál es el diagnóstico definitivo y el microorganismo patógeno productor de gas más frecuentemente aislado según la literatura y la GPC?",
+      "options": {
+        "A": "Íleo biliar secundario a fístula colecistoduodenal; el patógeno predominante es Salmonella typhi.",
+        "B": "Colecistitis enfisematosa; el patógeno anaerobio más frecuentemente aislado es Clostridium perfringens (seguido de Escherichia coli y Klebsiella).",
+        "C": "Perforación de úlcera péptica duodenal con neumoperitoneo secundario; patógeno predominante Helicobacter pylori.",
+        "D": "Absceso hepático amebiano roto a vesícula biliar; patógeno Entamoeba histolytica."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Colecistitis_Enfisematosa_Microbiologia",
+      "gpc_algorithm_step": "La colecistitis enfisematosa es una variante fulminante más común en varones diabéticos ancianos debida a isquemia de la arteria cística y colonización por gérmenes productores de gas, predominantemente Clostridium perfringens (y enterobacterias formadoras de gas como E. coli o Klebsiella).",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio",
+        "explanation": "Confundir el gas en la pared vesicular con neumobilia por fístula colecistoentérica (íleo biliar). En el íleo biliar el aire está dentro de los conductos biliares (neumobilia) con oclusión intestinal, mientras que en la colecistitis enfisematosa el gas diseca la pared y luz de la vesícula sin oclusión intestinal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la etiología, factor de riesgo principal y patógeno más común de la Colecistitis Enfisematosa?",
+        "back": "Etiología: Isquemia vascular vesicular + proliferación de bacterias productoras de gas.\nFactor de riesgo: Hombres diabéticos mayores de 60 años.\nPatógeno más común: Clostridium perfringens (seguido de E. coli y Klebsiella).",
+        "tags": "D16 Cirugía Colecistitis_Enfisematosa Clostridium Diabetes GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome de Mirizzi y Colecistitis Enfisematosa",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "En el paciente masculino de 66 años con colecistitis enfisematosa confirmada por TAC y signos tempranos de respuesta inflamatoria sistémica y choque séptico inminente, se instaura reanimación hemodinámica vigorosa y se formula el plan terapéutico de rescate.",
+      "question_text": "De acuerdo con la GPC IMSS-237 y consensos internacionales de cirugía de urgencia, ¿cuál es la conducta terapéutica obligada y su justificación pronóstica?",
+      "options": {
+        "A": "Manejo médico no quirúrgico con antibióticos intravenosos durante 72 a 96 horas para normalizar la hemoglobina glucosilada antes de proponer cirugía.",
+        "B": "Reanimación intensiva, cobertura antimicrobiana de amplio espectro contra anaerobios y gramnegativos, y colecistectomía de urgencia inmediata debido a la elevada tasa de gangrena, perforación (hasta 5 veces mayor) y mortalidad (15-25%).",
+        "C": "Realización de CPRE diagnóstica urgente para canulación del cístico e instilación de solución salina fría.",
+        "D": "Punción evacuadora con aguja fina guiada por ultrasonido en cama del paciente y egreso ambulatorio con amoxicilina."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Manejo_Urgente_Colecistitis_Enfisematosa",
+      "gpc_algorithm_step": "La colecistitis enfisematosa es una emergencia quirúrgica absoluta. Tiene un riesgo de gangrena y perforación hasta 5 veces mayor que la colecistitis litiásica ordinaria y una mortalidad del 15-25%. Requiere antibióticos de amplio espectro con cobertura antianaeróbica y colecistectomía urgente inmediata.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Demorar la intervención quirúrgica intentando 'estabilizar metabólicamente la glucemia durante 3 días'. En patología quirúrgica séptica fulminante, la persistencia del foco necrótico anula cualquier intento de estabilización médica y conduce a perforación peritonitis letal."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué la Colecistitis Enfisematosa es una indicación de Colecistectomía de Urgencia inmediata según la GPC?",
+        "back": "Porque presenta un riesgo de gangrena y perforación 5 veces superior a la colecistitis común, con una mortalidad de hasta el 15-25% si se retrasa el tratamiento quirúrgico.",
+        "tags": "D16 Cirugía Colecistitis_Enfisematosa Urgencia Pronostico GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mujer de 35 años, previamente sana, acude al centro de salud por dolor cólico de gran intensidad en epigastrio e hipocondrio derecho de 2 horas de duración, iniciado 45 minutos después de ingerir tacos de carnitas. A la exploración física: TA 118/76 mmHg, FC 74 lpm, afebril (36.6 °C). Abdomen blando, dolor moderado a la palpación profunda en epigastrio sin resistencia muscular y con signo de Murphy negativo. Los exámenes de laboratorio urgentes reportan leucocitos de 6,500/mm³, bilirrubina total 0.7 mg/dL, amilasa 45 UI/L. El ultrasonido muestra vesícula biliar no distendida, pared delgada de 2.0 mm, presencia de dos litos móviles de 8 mm en el cuerpo vesicular, sin líquido perivesicular ni dilatación del colédoco (diámetro 3.5 mm). Diagnóstico: Cólico biliar no complicado.",
+      "question_text": "Con base en la evidencia y recomendaciones de la GPC IMSS-237 para el tratamiento del cólico biliar agudo, ¿cuál es el fármaco analgésico de primera línea recomendado tanto para el alivio del dolor como para prevenir la progresión a colecistitis aguda?",
+      "options": {
+        "A": "Sulfato de morfina intravenoso en infusión continua.",
+        "B": "Antiinflamatorios no esteroideos (AINEs) parenterales, como Diclofenaco 75 mg IM (o Ketorolaco/Metamizol).",
+        "C": "Butilhioscina oral en monoterapia como único agente espasmolítico de rescate.",
+        "D": "Ácido acetilsalicílico 500 mg vía oral cada 4 horas."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Tratamiento_Colico_Biliar_AINEs_GPC",
+      "gpc_algorithm_step": "En el cólico biliar, la GPC recomienda los AINEs parenterales (ej. Diclofenaco IM 75 mg) como primera línea. Los AINEs inhiben la síntesis de prostaglandinas que median la contracción espasmódica y la secreción mucosal, reduciendo el dolor de forma superior a los antiespasmódicos y previniendo la progresión a colecistitis aguda.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Prescribir morfina como analgésico de primera línea en cólico biliar. Los derivados morfínicos inducen espasmo e hipertonía del esfínter de Oddi, incrementando la presión intraluminal de la vía biliar."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el analgésico de primera elección en el Cólico Biliar según la GPC IMSS-237 y por qué mecanismo protege?",
+        "back": "AINEs parenterales (Diclofenaco 75 mg IM). Inhiben prostaglandinas, reducen la tensión y edema intraluminal vesicular y previenen la progresión a colecistitis aguda.",
+        "tags": "D16 Cirugía Colico_Biliar AINEs Diclofenaco GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 42 años sometida a colecistectomía laparoscópica electiva hace 4 días en un hospital de segundo nivel. Durante el transoperatorio se reportó 'dificultad técnica por sangrado en el lecho vesicular'. Egresó al primer día de postoperatorio, pero acude a urgencias por astenia marcada, náuseas, dolor abdominal difuso progresivo, distensión y febrícula (38.2 °C). A la exploración: escleras ictéricas leves, TA 105/65 mmHg, FC 102 lpm. Abdomen francamente distendido, con resistencia involuntaria generalizada y dolor intenso al rebote (signo de Blumberg positivo en todos los cuadrantes). Laboratorios: leucocitos 17,200/mm³, bilirrubina total 3.6 mg/dL (directa 2.8 mg/dL), fosfatasa alcalina 240 UI/L. El ultrasonido de urgencia demuestra abundante líquido libre anecoico en espacio de Morrison, correderas parietocólicas y hueco pélvico. Se realiza paracentesis diagnóstica obteniendo líquido francamente biliar (bilis libre).",
+      "question_text": "Ante este cuadro de peritonitis biliar secundaria a lesión de vía biliar post-colecistectomía, ¿cuál es la conducta quirúrgica inicial mandatoria según las guías y consensos de cirugía hepatobiliar?",
+      "options": {
+        "A": "Realizar una anastomosis colédoco-coledociana término-terminal primaria de inmediato en esa misma cirugía de urgencia sin drenajes.",
+        "B": "Laparotomía o laparoscopía urgente para lavado exhaustivo de la cavidad peritoneal, control del daño y colocación de drenajes periboliares amplios, difiriendo la reconstrucción definitiva para derivar a un cirujano hepatobiliar experimentado en centro de tercer nivel una vez superada la sepsis.",
+        "C": "Manejo expectante en piso de hospitalización con antibióticos y sonda nasogástrica, sin explorar la cavidad.",
+        "D": "Aplicación de stent biliar por vía transcutánea y egreso a domicilio en 24 horas."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Manejo_Lesion_Via_Biliar_Peritonitis_Biliar",
+      "gpc_algorithm_step": "En lesión de vía biliar con peritonitis activa y sepsis, el principio rector es el 'control del daño': lavado exhaustivo, aspiración de bilis y drenaje externo amplio. Intentar una reconstrucción primaria sobre tejido inflamado e isquémico tiene una falla > 80%; la derivación biliodigestiva en Y de Roux debe diferirse y ser realizada por un cirujano hepatobiliar con experiencia.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El cirujano no especialista intenta reparar la vía biliar de urgencia suturando el conducto lesionado en medio de peritonitis biliar. Las anastomosis biliares de urgencia en tejido friable e inflamado sufren dehiscencia, estenosis secundaria terminal y cirrosis biliar secundaria."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta quirúrgica inicial ante una Lesión de Vía Biliar que se presenta con Peritonitis Biliar aguda?",
+        "back": "Lavado peritoneal, control del daño y drenaje externo amplio; diferir la reparación definitiva (hepático-yeyunostomía en Y de Roux) para ser realizada por un cirujano hepatobiliar especializado.",
+        "tags": "D16 Cirugía Lesion_Via_Biliar Peritonitis Strasberg GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Hombre de 54 años, sin síntomas digestivos ni antecedentes patológicos de relevancia, acude a consulta de medicina preventiva para revisión de un ultrasonido abdominal realizado como parte de un chequeo médico de rutina institucional. El ultrasonido reporta: hígado normal, colédoco de 4 mm, vesícula biliar distendida con pared delgada de 2 mm; en la pared posterior del cuerpo vesicular se aprecia una lesión polipoidea ecogénica fija a la pared, sin sombra acústica posterior, de base sésil, que mide 12 mm de diámetro mayor.",
+      "question_text": "De acuerdo con las recomendaciones de la GPC IMSS-237 y los consensos internacionales de manejo de pólipos de la vesícula biliar, ¿cuál es la conducta más apropiada?",
+      "options": {
+        "A": "Vigilancia estrecha con ultrasonido abdominal cada 6 meses durante 2 años para documentar estabilidad.",
+        "B": "Colecistectomía laparoscópica programada profiláctica, debido a que el pólipo mide ≥ 10 mm y el paciente es mayor de 50 años (factores de alto riesgo de malignidad).",
+        "C": "Tratamiento litolítico con ácido ursodesoxicólico vía oral durante 12 meses.",
+        "D": "Resección endoscópica del pólipo mediante colangiopancreatografía retrógrada."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Polipos_Vesiculares_Indicacion_Quirurgica",
+      "gpc_algorithm_step": "Indicaciones de colecistectomía profiláctica en pólipos vesiculares: 1) Tamaño ≥ 10 mm (riesgo de adenocarcinoma > 25-50%); 2) Edad > 50 años; 3) Pólipos sintomáticos; 4) Colelitiasis concomitante; 5) Base sésil o engrosamiento focal parietal; 6) Crecimiento rápido en controles ecográficos.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El médico decide 'vigilar cada 6 meses' porque el paciente está asintomático. Los pólipos ≥ 10 mm albergan una elevada tasa de carcinoma in situ o invasor, por lo que la observación sin cirugía está formalmente contraindicada."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las indicaciones absolutas de Colecistectomía profiláctica ante Pólipos de la Vesícula Biliar?",
+        "back": "1. Tamaño ≥ 10 mm.\n2. Edad > 50 años.\n3. Presencia de síntomas.\n4. Litiasis biliar asociada.\n5. Morfología sésil o engrosamiento focal de pared.\n6. Crecimiento en el seguimiento.",
+        "tags": "D16 Cirugía Polipos_Vesiculares Colecistectomia Indicacion GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 67 años a quien se le realizó colecistectomía laparoscópica electiva por colelitiasis sintomática recurrente sin incidentes intraoperatorios. Se recibe a las dos semanas en la consulta externa el reporte formal de patología histopatológica: 'Adenocarcinoma tubular moderadamente diferenciado de la vesícula biliar. El tumor invade la capa muscular propia de la vesícula (estadio pT1b de la AJCC 8ª edición). No se observa invasión a la capa subserosa ni serosa. Margen de corte del conducto cístico libre de neoplasia'.",
+      "question_text": "Con base en la estadificación oncológica y las guías de práctica clínica mexicanas e internacionales para cáncer de vesícula incidental, ¿cuál es la conducta terapéutica obligada?",
+      "options": {
+        "A": "Vigilancia clínica y tomográfica semestral, dado que la colecistectomía fue completa y el margen del cístico resultó negativo.",
+        "B": "Reintervención quirúrgica para resección hepática en cuña del lecho vesicular (segmentos IVb y V) más linfadenectomía regional del ligamento hepatoduodenal.",
+        "C": "Quimioterapia paliativa exclusiva con gemcitabina y cisplatino sin considerar nueva cirugía.",
+        "D": "Tratamiento con radioterapia externa sobre el hipocondrio derecho sin linfadenectomía."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Cancer_Vesicula_Incidental_pT1b_Reoperacion",
+      "gpc_algorithm_step": "En cáncer incidental de vesícula: Estadio pT1a (mucosa/lámina propia): colecistectomía simple es curativa (márgenes libres). Estadio pT1b (muscular propia) o superior (pT2): riesgo de metástasis ganglionares de 15-25% y recurrencia hepática, por lo que REQUIERE re-resección oncológica: resección en cuña de segmentos IVb y V + linfadenectomía del ligamento hepatoduodenal.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El clínico confunde pT1a con pT1b y asume que con margen cístico libre no se hace nada más. En pT1b la penetración de la capa muscular rica en linfáticos exige reintervención oncológica ampliada con resección hepática y vaciamiento ganglionar."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta oncológica en el hallazgo incidental de Cáncer de Vesícula en estadio pT1a vs pT1b?",
+        "back": "pT1a (confinado a lámina propia/mucosa): Colecistectomía simple suficiente.\npT1b (invade capa muscular propia): Reintervención con resección hepática (cuña segmentos IVb/V) + Linfadenectomía hepatoduodenal.",
+        "tags": "D16 Cirugía Cancer_Vesicula pT1b Oncologia GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 78 años con historia de colelitiasis conocida pero no operada de más de 20 años de evolución, es ingresada a urgencias por un cuadro de 72 horas caracterizado por dolor abdominal cólico difuso, náuseas y vómitos que pasaron de ser biliosos a fecaloideos, acompañado de incapacidad total para evacuar y canalizar gases. A la exploración física: TA 105/65 mmHg, FC 106 lpm, mucosas secas. Abdomen marcadamente distendido, timpánico en marco cólico, con peristalsis aumentada en intensidad con ruidos hidroaéreos de tono metálico ('lucha'), con dolor moderado difuso pero sin rebote franco. La radiografía simple de abdomen en bipedestación demuestra: 1) Distensión central masiva de asas de intestino delgado con niveles hidroaéreos 'en escalera'; 2) Presencia de aire en las vías biliares intrahepáticas (neumobilia); 3) Una imagen densa calcificada ovalada de 3.2 cm localizada en la fosa ilíaca derecha. Hallazgos que integran la Tríada de Rigler.",
+      "question_text": "Con el diagnóstico confirmado de Íleo Biliar secundario a fístula colecistoentérica, ¿cuál es la conducta quirúrgica urgente de elección según la GPC?",
+      "options": {
+        "A": "Cirugía urgente en un solo tiempo consistente en enterolitotomía más colecistectomía total y cierre primario de la fístula colecistoduodenal.",
+        "B": "Enterolitotomía de urgencia a través de una incisión longitudinal en borde antimesentérico proximal al litoimpacto con extracción del cálculo y cierre transversal, difiriendo la resolución de la vesícula y fístula.",
+        "C": "Administración de enemas evacuantes repetidos y procinéticos intravenosos en piso de hospitalización.",
+        "D": "Colonoscopía terapéutica descompresiva con intento de extracción del lito por vía retrógrada."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Ileo_Biliar_Tratamiento_Enterolitotomia",
+      "gpc_algorithm_step": "En íleo biliar en paciente anciano, deshidratado y séptico, el procedimiento de elección es la enterolitotomía aislada (incisión proximal al cálculo, extracción y cierre transversal). Intentar resolver la fístula y colecistectomía en el agudo ('cirugía en un tiempo') aumenta la mortalidad quirúrgica del 5-8% a más del 20-30%.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El cirujano intenta la reparación en un solo tiempo (enterolitotomía + colecistectomía + cierre fistuloso), lo cual en pacientes añosos y sépticos con plastrón periduodenal triplica la morbimortalidad intraoperatoria."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué elementos componen la Tríada de Rigler del Íleo Biliar y cuál es la cirugía urgente de elección?",
+        "back": "Tríada de Rigler: 1) Neumobilia; 2) Obstrucción mecánica de intestino delgado; 3) Lito biliar radioopaco ectópico (habitualmente en íleon terminal).\nCirugía de elección: Enterolitotomía proximal aislada sin colecistectomía en agudo.",
+        "tags": "D16 Cirugía Ileo_Biliar Rigler Enterolitotomia GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Acute Cholangitis (Charcot Triad & Reynolds Pentad) and Biliary Drainage",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A 73-year-old female presents to the Emergency Department with severe right upper quadrant abdominal pain, shaking chills, spiking fever up to 39.3 °C, and progressively deepening jaundice with dark urine over the past 24 hours (Charcot's triad). Upon initial physician assessment, she is confused, somnolent, and disoriented to time and place (Glasgow Coma Scale 12). Vital signs reveal: Blood Pressure 82/48 mmHg, Heart Rate 126 bpm, Respiratory Rate 24 bpm, Temperature 39.1 °C, and oxygen saturation of 94% on ambient air. Despite rapid intravenous infusion of 2,000 mL of balanced isotonic crystalloids over 60 minutes, her mean arterial pressure remains at 54 mmHg (persistent hypotension requiring initiation of norepinephrine infusion). Laboratory results: Leukocytes 24,800/mm³ with 22% band forms, Platelets 82,000/mm³, Total Bilirubin 8.4 mg/dL (Direct Bilirubin 6.9 mg/dL), Alkaline Phosphatase 580 IU/L, AST 190 IU/L, ALT 220 IU/L, Serum Creatinine 2.8 mg/dL (baseline 0.9 mg/dL), Serum Lactate 4.3 mmol/L, and INR 1.6.",
+      "question_text": "According to the Tokyo Guidelines 2018 (TG18) diagnostic and severity criteria adopted by Mexican clinical guidelines (GPC CENETEC), what is the definitive clinical syndrome and severity grade of this patient?",
+      "options": {
+        "A": "Grade II (Moderate) Acute Cholangitis, because her total bilirubin is markedly elevated (> 5 mg/dL) and her age is over 70 years.",
+        "B": "Grade III (Severe) Acute Cholangitis with septic shock and multiorgan dysfunction (Reynolds' pentad positive: Charcot's triad plus hypotension and altered mental status).",
+        "C": "Grade I (Mild) Acute Cholangitis, because she has not yet developed frank biliary peritonitis or acute pancreatitis.",
+        "D": "Fulminant Hepatic Failure secondary to acute viral hepatitis with superimposed bacterial translocation."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "TG18_Acute_Cholangitis_Severity_Grade_III",
+      "gpc_algorithm_step": "Presence of systemic inflammation + cholestasis + imaging criteria confirms acute cholangitis. Grade III (Severe) is diagnosed when associated with dysfunction in at least one organ system (cardiovascular requiring vasopressors, CNS alteration, PaO2/FiO2 < 300, oliguria/Cr > 2.0, INR > 1.5, or platelets < 100k). Charcot's triad + hypotension + CNS depression = Reynolds' pentad (toxic suppurative cholangitis).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Anchoring on Grade II criteria (bilirubin > 5 mg/dL, age ≥ 75). Any organ failure (cardiovascular shock or neurological impairment) instantly overrides Grade II criteria and classifies the condition as Grade III (Severe)."
+      },
+      "anki_flashcard": {
+        "front": "What defines Reynolds' Pentad and Grade III (Severe) Acute Cholangitis according to TG18?",
+        "back": "Reynolds' Pentad: Charcot's Triad (fever, jaundice, RUQ pain) + Hypotension/Shock + Altered Mental Status.\nGrade III: Cholangitis accompanied by organ dysfunction (cardiovascular, neurological, renal, respiratory, hepatic, or hematologic).",
+        "tags": "D16 CIR Cholangitis Reynolds TG18 Grade_III GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Acute Cholangitis (Charcot Triad & Reynolds Pentad) and Biliary Drainage",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The 73-year-old female is admitted to the Intensive Care Unit. Resuscitation bundle with continuous norepinephrine infusion, targeted crystalloids, and oxygen therapy is ongoing. Bedside point-of-care abdominal ultrasound confirms a significantly dilated common bile duct measuring 13 mm in diameter with distal acoustic shadowing compatible with an impacted choledochal calculus of 11 mm. The patient remains in septic shock with elevated serum lactate.",
+      "question_text": "In accordance with the TG18 algorithm and Mexican GPC for Grade III (Severe) Acute Cholangitis, what is the mandatory emergency intervention required for biliary source control?",
+      "options": {
+        "A": "Observation and conservative medical management with intravenous antibiotics alone for 48 to 72 hours before assessing intervention.",
+        "B": "Emergent endoscopic biliary decompression via Endoscopic Retrograde Cholangiopancreatography (ERCP) with endoscopic sphincterotomy and/or biliary stenting within 24 hours (ideally < 12 hours once hemodynamics are stabilized).",
+        "C": "Immediate emergent open surgical choledochotomy with T-tube drainage under general anesthesia as first-line choice.",
+        "D": "Elective percutaneous liver biopsy to evaluate hepatic parenchymal necrosis before manipulating the biliary tract."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Emergent_Biliary_Decompression_ERCP_TG18",
+      "gpc_algorithm_step": "In Grade III Acute Cholangitis, urgent biliary decompression is life-saving and mandatory within 24 hours (or as soon as possible after stabilization). Endoscopic drainage via ERCP (sphincterotomy / biliary stent / endoscopic nasobiliary drain) is the first-line procedure of choice, carrying significantly lower mortality (< 5-10%) than open surgical decompression (> 30%).",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Open emergency surgical decompression (choledochotomy + T-tube) has an excessively high procedural mortality rate (> 25-40%) in patients with active septic shock compared to endoscopic drainage (< 5%). Surgery is reserved strictly as a rescue option when ERCP fails or is unavailable."
+      },
+      "anki_flashcard": {
+        "front": "What is the primary intervention of choice and timeline for Grade III (Severe) Acute Cholangitis according to TG18?",
+        "back": "Emergent endoscopic biliary decompression via ERCP (sphincterotomy and/or biliary stent/nasobiliary drain) within 24 hours (ideally < 12 hours).",
+        "tags": "D16 CIR Cholangitis Decompression ERCP TG18 GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Acute Cholangitis (Charcot Triad & Reynolds Pentad) and Biliary Drainage",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The patient undergoes successful urgent ERCP at bedside in the ICU: biliary cannulation reveals purulent bile under high hydrostatic pressure; endoscopic sphincterotomy is performed followed by balloon clearance of an 11 mm obstructing calculus and placement of a 10 Fr biliary plastic stent. While awaiting blood culture results, empirical broad-spectrum intravenous antimicrobial therapy must be tailored given her acute kidney injury (creatinine 2.8 mg/dL, estimated GFR 22 mL/min).",
+      "question_text": "Which antimicrobial regimen represents the recommended institutional first-line empirical coverage for Grade III Acute Cholangitis according to Mexican clinical practice guidelines (GPC) and TG18?",
+      "options": {
+        "A": "Ampicillin 1 g IV every 6 hours plus oral Metronidazole as sole therapy.",
+        "B": "Intravenous Piperacillin/tazobactam (or a Carbapenem such as Meropenem), with renal dosage adjustment, providing bactericidal activity against enteric Gram-negative bacilli, Enterococcus, and anaerobes.",
+        "C": "Cefazolin 1 g IV every 8 hours in monotherapy.",
+        "D": "Gentamicin 5 mg/kg IV daily without renal dose reduction plus oral Vancomycin."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Antimicrobial_Therapy_Grade_III_Cholangitis",
+      "gpc_algorithm_step": "For Grade III Acute Cholangitis, TG18 and GPC recommend broad-spectrum parenteral coverage: Piperacillin/Tazobactam or Carbapenems (Meropenem, Imipenem/Cilastatin), or 3rd/4th gen Cephalosporins + Metronidazole, adjusted for renal function. Must cover Gram-negative enteric bacilli (E. coli, Klebsiella), Enterococcus, and anaerobes.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Using narrow-spectrum agents (Cefazolin) or nephrotoxic aminoglycosides (Gentamicin) in a patient with severe acute tubular necrosis. Severe cholangitis requires broad bactericidal coverage against resistant enterobacteria and biliary anaerobes."
+      },
+      "anki_flashcard": {
+        "front": "What empirical antimicrobial regimen is recommended for Grade III Acute Cholangitis by TG18 and GPC?",
+        "back": "Piperacillin/tazobactam IV or Carbapenems (Meropenem) with renal dose adjustment, covering enteric Gram-negative bacilli, Enterococcus, and anaerobes.",
+        "tags": "D16 CIR Cholangitis Antibiotics TG18 GPC"
+      }
+    },
+    {
+      "id": "d16_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Acute Cholangitis (Charcot Triad & Reynolds Pentad) and Biliary Drainage",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Five days following ERCP and biliary decompression, the patient exhibits remarkable clinical improvement: norepinephrine was successfully weaned off 48 hours ago, she is lucid and alert (Glasgow 15), afebrile, and eating a low-fat diet. Laboratory tests demonstrate: Leukocytes 7,400/mm³, Total Bilirubin decreased to 1.8 mg/dL (Direct 1.1 mg/dL), Alkaline Phosphatase 180 IU/L, and Serum Creatinine normalized to 0.9 mg/dL. A follow-up abdominal ultrasound demonstrates a decompressed common bile duct (5.5 mm) with the biliary stent in place and no residual stones, but shows a gallbladder containing multiple small mobile calculi without active wall thickening.",
+      "question_text": "What is the definitive therapeutic recommendation regarding the in situ lithiasic gallbladder according to the clinical algorithms of the GPC and international consensus?",
+      "options": {
+        "A": "Lifelong expectant observational management without surgery, since the common bile duct was already cleared and stented.",
+        "B": "Elective laparoscopic cholecystectomy during the same hospital admission (or within subsequent weeks) to eliminate the gallbladder source and prevent recurrent biliary events.",
+        "C": "Lifelong oral bile salt dissolution therapy with chenodeoxycholic acid, avoiding any future surgical consideration.",
+        "D": "Permanent external transhepatic cholecystostomy tube placement with chemical mucosal ablation."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Elective_Cholecystectomy_Post_ERCP_Cholangitis",
+      "gpc_algorithm_step": "In patients successfully treated for choledocholithiasis/cholangitis by ERCP who have a gallbladder containing gallstones, elective laparoscopic cholecystectomy during the same hospitalization is the standard of care. Leaving the gallbladder in place results in recurrent biliary events (pancreatitis, recurrent cholangitis, cholecystitis) in > 30-50% of patients.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Assuming that because the patient is asymptomatic and the duct is clear, no further surgery is warranted. Failure to perform cholecystectomy leaves the nidus for new stone migration, leading to high recurrence of life-threatening cholangitis within 12 months."
+      },
+      "anki_flashcard": {
+        "front": "Why is elective laparoscopic cholecystectomy indicated after successful ERCP clearance of choledocholithiasis/cholangitis?",
+        "back": "To eliminate the source of gallstones. Leaving the gallbladder in place carries a recurrence rate of biliary events (cholangitis, pancreatitis, cholecystitis) exceeding 30-50%.",
+        "tags": "D16 CIR Cholangitis Post_ERCP Cholecystectomy GPC"
+      }
+    }
+  ]
+}

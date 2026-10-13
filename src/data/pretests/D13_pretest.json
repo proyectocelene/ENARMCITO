@@ -1,0 +1,392 @@
+{
+  "topic_code": "D13",
+  "title": "Pre-Test Psicométrico: Tamizaje CaCu (VPH), Infecciones Vaginales y EPI",
+  "normativa_origen": "NOM-014-SSA2-1994 / GPC IMSS-081 (Vaginitis) / GPC IMSS-072 (EPI)",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d13_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-072 / NOM-014-SSA2",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 22 años, nuligesta, con vida sexual activa (nueva pareja sexual hace 3 semanas, uso irregular de preservativo). Acude a la consulta de medicina familiar por cuadro de 4 días de evolución caracterizado por dolor pélvico sordo de intensidad moderada (EVA 6/10) que empeora con el coito (dispareunia profunda), acompañado de descarga vaginal anormal. Signos vitales: TA 115/75 mmHg, FC 84 lpm, FR 18 rpm, Temperatura 38.3 °C. A la exploración física: abdomen blando, doloroso a la palpación profunda en hipogastrio y ambas fosas ilíacas, sin resistencia muscular involuntaria ni rebote peritoneal. A la especuloscopia: cérvix hiperémico con exudado endocervical mucopurulento abundante y friabilidad al contacto. Al tacto bimanual: dolor exquisito a la lateralización y movilización del cuello uterino (signo de Frenkel positivo), así como dolor a la palpación bimanual de ambos anexos, sin evidencia de masas pélvicas palpables. Prueba inmunológica de embarazo en orina: negativa.",
+      "question_text": "Con base en la GPC IMSS-072 y los Criterios de Hager para Enfermedad Pélvica Inflamatoria (EPI) ambulatoria Grado I-II, ¿cuál es el esquema farmacológico empírico de primera línea normado que debe prescribirse de inmediato?",
+      "options": {
+        "A": "Ceftriaxona 500 mg IM dosis única + Doxiciclina 100 mg VO cada 12 horas por 14 días + Metronidazol 500 mg VO cada 12 horas por 14 días.",
+        "B": "Ciprofloxacino 500 mg VO dosis única + Azitromicina 1 g VO dosis única en terapia acortada ambulatoria.",
+        "C": "Clindamicina 900 mg IV cada 8 horas + Gentamicina 2 mg/kg dosis inicial seguidos de 1.5 mg/kg cada 8 horas por 14 días de manera ambulatoria.",
+        "D": "Ampicilina 500 mg VO cada 6 horas por 7 días como monoterapia de amplio espectro para anaerobios y flora vaginal habitual."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Criterios mínimos de Hager presentes (dolor a la movilización cervical [signo de Frenkel] + dolor anexial) sin masas ni datos de sepsis: EPI Grado I-II ambulatoria. El régimen de primera línea requiere triple cobertura obligatoria: Ceftriaxona 500 mg IM (antigonocócica) + Doxiciclina 14 días (anti-Chlamydia) + Metronidazol 14 días (anti-anaerobios).",
+      "justificacion_gpc": "La GPC IMSS-072 y las pautas internacionales establecen que ante la sospecha clínica de EPI leve a moderada (Grados I y II de Monif sin datos de choque, intolerancia oral ni absceso) el tratamiento ambulatorio empírico de primera línea consiste en Ceftriaxona 500 mg intramuscular en dosis única, asociada a Doxiciclina 100 mg por vía oral cada 12 horas durante 14 días, más Metronidazol 500 mg por vía oral cada 12 horas durante 14 días (este último para garantizar cobertura estricta contra anaerobios y vaginosis bacteriana concomitante).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor por Fármacos Obsoletos y Resistencia]: Las fluoroquinolonas (ciprofloxacino) están formalmente proscritas como tratamiento empírico de EPI debido a tasas de resistencia de Neisseria gonorrhoeae superiores al 40-70%; además, los regímenes en dosis única no erradican la infección tubárica ascendente.",
+        "C": "[Distractor de Escalón y Vía Errónea]: El esquema Clindamicina + Gentamicina es un régimen parenteral hospitalario de segunda línea reservado para EPI severa o con absceso tuboovárico; no se emplea por vía ambulatoria en Grado I.",
+        "D": "[Distractor por Ineficacia Microbiológica]: La ampicilina como monoterapia no cubre Chlamydia trachomatis ni cepas de gonococo productoras de betalactamasas, provocando progresión a peritonitis y daño tubárico permanente."
+      }
+    },
+    {
+      "id": "d13_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-072",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "La paciente del caso anterior acude 72 horas después al servicio de urgencias por persistencia e incremento del dolor abdominal, ahora EVA 9/10, acompañado de náuseas, vómito de contenido gastrobiliar en 3 ocasiones que impide la vía oral, y sensación febril. Signos vitales: TA 100/60 mmHg, FC 112 lpm, FR 22 rpm, Temperatura 39.1 °C. A la exploración física: abdomen tenso con resistencia involuntaria y signo de Blumberg (rebote) positivo en fosa ilíaca derecha e hipogastrio. Al tacto ginecológico: tumoración anexial derecha sumamente dolorosa, fluctuante, de aproximadamente 6 x 5 cm. El ultrasonido transvaginal reporta una masa quística compleja multiloculada en anexo derecho con ecos internos ecogénicos, paredes engrosadas (> 5 mm) y flujo vascular periférico aumentado al Doppler color.",
+      "question_text": "De acuerdo con la clasificación de severidad de Monif/Gaines de la GPC IMSS-072, ¿cuál es el estadio clínico de la paciente y la conducta terapéutica inmediata obligatoria?",
+      "options": {
+        "A": "EPI Grado II (moderada); indicar incremento de dosis de analgésicos orales y continuar el esquema ambulatorio con doxiciclina hasta cumplir 14 días.",
+        "B": "EPI Grado IV (choque séptico refractario); traslado inmediato a quirófano para histerectomía abdominal total con salpingooforectomía bilateral de urgencia sin intentar antibioticoterapia previa.",
+        "C": "EPI Grado III (severa por Absceso Tuboovárico); indicar hospitalización urgente, reposición hídrica intravenosa e inicio inmediato de triple esquema parenteral (ej. Ceftriaxona 1 g IV cada 24 h + Doxiciclina 100 mg IV/VO cada 12 h + Metronidazol 500 mg IV cada 8 h).",
+        "D": "EPI Grado I (leve no complicada); toma de biopsia endometrial ambulatoria para cultivo y egreso a domicilio con antiinflamatorios no esteroideos."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Aparición de masa anexial compleja multiloculada (absceso tuboovárico / ATO) e intolerancia a la vía oral tras 72 horas: reclasifica el cuadro a EPI Grado III (severa). Indicación mandatoria de hospitalización y antibioticoterapia parenteral de amplio espectro antes de contemplar intervención quirúrgica.",
+      "justificacion_gpc": "La GPC IMSS-072 clasifica la EPI según Monif: Grado I (leve, no complicada, sin masa), Grado II (complicada con masa o plastrón en trompas/ovarios, con o sin peritonitis), Grado III (severa, con absceso tuboovárico roto o no roto o signos de sepsis pélvica/sistémica). La presencia de absceso tuboovárico (ATO), vómito, falla al tratamiento ambulatorio a las 72 horas y datos peritoneales constituyen criterios absolutos de hospitalización para tratamiento intravenoso de primera línea (Ceftriaxona IV + Doxiciclina VO/IV + Metronidazol IV, o Clindamicina IV + Gentamicina IV).",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Espectro",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Subestimación Peligrosa]: La presencia de absceso tuboovárico demostrable por ultrasonido e intolerancia oral contraindica formalmente el manejo ambulatorio y exige tratamiento hospitalario intravenoso.",
+        "B": "[Distractor Quirúrgico Radical Prematuro]: El Grado IV se define por choque séptico o ruptura de absceso con abdomen agudo catastrófico; en el ATO no roto el tratamiento inicial de elección es médico parenteral por 48-72 horas, logrando éxito en más del 70-80% sin cirugía radical mutilante.",
+        "D": "[Distractor por Error Diagnóstico Crítico]: Catalogar a una paciente con masa abscedada, fiebre de 39.1 °C y peritonitis localizada como Grado I leve es una omisión médica grave sujeta a responsabilidad médico-legal."
+      }
+    },
+    {
+      "id": "d13_q3",
+      "index": 3,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-072",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "En el contexto de la misma paciente y la patología inflamatoria pélvica, el médico adscrito de ginecología discute con los residentes los criterios diagnósticos y el papel de las pruebas diagnósticas para confirmar de forma definitiva la salpingitis y diferenciarla de cuadros como apendicitis aguda complicada, torsión anexial o embarazo ectópico con prueba dudosa.",
+      "question_text": "¿Cuál es el estudio considerado el Estándar de Oro (Gold Standard) para el diagnóstico definitivo de la Enfermedad Pélvica Inflamatoria según la GPC IMSS-072 y las normas internacionales?",
+      "options": {
+        "A": "Tomografía computarizada abdominopélvica contrastada con reconstrucción coronal en fase venosa tardía.",
+        "B": "Ultrasonido pélvico endovaginal con flujometría Doppler de arterias ováricas.",
+        "C": "Histerosalpingografía retrógrada con medio de contraste hidrosoluble durante la fase aguda.",
+        "D": "Laparoscopia diagnóstica con visualización directa de eritema seroso tubárico, edema de la pared y exudado purulento fimbrial."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "El Estándar de Oro para confirmación diagnóstica de EPI es la laparoscopia diagnóstica (inspección directa de eritema, edema y exudado tubárico purulento). Sin embargo, por ser un procedimiento invasivo, se reserva para dudas diagnósticas, sospecha de abdomen agudo quirúrgico alterno o falla terapéutica.",
+      "justificacion_gpc": "La GPC IMSS-072 establece con rigor que el Estándar de Oro para el diagnóstico de la Enfermedad Pélvica Inflamatoria es la Laparoscopia diagnóstica. Permite confirmar visualmente la presencia de salpingitis (hiperemia tubárica, edema seroso, pérdida de movilidad y presencia de exudado purulento fimbrial o en fondo de saco de Douglas), además de posibilitar la toma directa de cultivos peritoneales y descartar otras patologías quirúrgicas urgentes como apendicitis o torsión de quiste.",
+      "distractor_roles": {
+        "A": "Distractor_Espectro",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Gabinete Coadyuvante]: La TAC contrastada es excelente para colecciones intraabdominales o sospecha de patología digestiva, pero no constituye el estándar de oro de la salpingitis aguda.",
+        "B": "[Distractor de Estudio Inicial]: El ultrasonido transvaginal es el estudio de imagen inicial de primera elección por su inocuidad y accesibilidad, pero no tiene la sensibilidad ni especificidad para ser el estándar de oro.",
+        "C": "[Distractor Iatrogénico Absoluto]: La histerosalpingografía está contraindicada de manera absoluta en el curso de una infección pélvica aguda activa por el riesgo de bacteriemia y diseminación peritoneal letal."
+      }
+    },
+    {
+      "id": "d13_q4",
+      "index": 4,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "NOM-014-SSA2-1994 / GPC IMSS-146",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 31 años, G2 P2, con vida sexual activa iniciada a los 18 años, usuaria de dispositivo intrauterino (DIU) de cobre desde hace 3 años. Acude a su centro de salud para conocer el resultado de su citología cervical convencional (Papanicolaou) tomada hace 3 semanas en el programa de tamizaje. El reporte del laboratorio de citopatología concluye: \"Muestra adecuada para evaluación. Lesión Escamosa Intraepitelial de Bajo Grado (LEIBG) compatible con cambios citopáticos por VPH / Displasia Leve (NIC 1)\". La paciente se encuentra totalmente asintomática, afebril, sin sangrado intermenstrual ni sinusorragia.",
+      "question_text": "De acuerdo con el algoritmo normado en la NOM-014-SSA2-1994 y la GPC mexicana para el tamizaje y manejo de lesiones precancerosas del cuello uterino, ¿cuál es la conducta inmediata que debe realizar el médico de primer contacto?",
+      "options": {
+        "A": "Enviar a la paciente a su domicilio y citar a una nueva citología cervical de control dentro de 1 año calendario.",
+        "B": "Referir de manera inmediata a la paciente a una Clínica de Colposcopia para estudio colposcópico formal y toma de biopsia si está indicada.",
+        "C": "Iniciar tratamiento empírico con óvulos de policresuleno por 10 días y dar de alta del programa de detección.",
+        "D": "Programar directamente para histerectomía total abdominal profiláctica por alto riesgo de progresión a adenocarcinoma invasor."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Citología cervical con reporte de LEIBG (NIC 1 / cambios por VPH): en la normativa mexicana oficial (NOM-014-SSA2-1994), todo reporte de LEIBG, LEIAG o AGC es indicación obligatoria de envío a Clínica de Colposcopia para evaluación diagnóstica con colposcopio y toma de biopsia dirigida.",
+      "justificacion_gpc": "La NOM-014-SSA2-1994 y la GPC IMSS-146 establecen que toda paciente cuyo resultado citológico reporte Lesión Escamosa Intraepitelial de Bajo Grado (LEIBG / NIC 1) o Lesión de Alto Grado (LEIAG / NIC 2-3) debe ser enviada de inmediato a una Clínica de Colposcopia de segundo nivel. No se permite diferir la citología a un año en presencia de LEIBG, ya que hasta un 15-20% de las pacientes con citología de bajo grado albergan una lesión histológica subyacente de alto grado que requiere detección y manejo oportuno.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Retraso Iatrogénico]: Repetir la citología en 1 año solo es permisible en citología normal. Ante un LEIBG confirmado, la norma mexicana exige colposcopia para no retrasar el diagnóstico de lesiones más avanzadas.",
+        "B": "[Distractor Inútil]: Los cáusticos tópicos como el policresuleno no erradican la infección por VPH ni curan la displasia cervical, y pueden artefactar el examen colposcópico posterior.",
+        "D": "[Distractor Quirúrgico Desproporcionado]: El NIC 1 tiene una tasa de regresión espontánea superior al 60%; realizar histerectomía es una mala praxis inadmisible."
+      }
+    },
+    {
+      "id": "d13_q5",
+      "index": 5,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "NOM-014-SSA2-1994 / GPC IMSS-146",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "La paciente del caso anterior es recibida y evaluada en la Clínica de Colposcopia. A la exploración colposcópica con ácido acético al 5%: zona de transformación completamente visible (Tipo 1); se observa en el labio anterior una zona acetoblanca densa, de bordes netos y sobreelevados, con patrón de mosaico grueso y puntilleo conspicuo. A la prueba de Schiller (Lugol): zona yodo-negativa (amarillo mostaza) bien delimitada. Se realiza biopsia cervical dirigida por colposcopia. El informe histopatológico confirma: \"Lesión Escamosa Intraepitelial de Alto Grado (LEIAG) / Neoplasia Intraepitelial Cervical Grado 3 (NIC 3 / Carcinoma in situ), sin datos de invasión estromal; márgenes de la muestra superficiales no valorables para el canal endocervical\".",
+      "question_text": "Con base en la NOM-014-SSA2-1994 y los criterios oncológicos y reproductivos vigentes, ¿cuál es el procedimiento terapéutico conservador de primera elección indicado en esta paciente?",
+      "options": {
+        "A": "Crioterapia con óxido nitroso en doble ciclo de congelación-descongelación en el consultorio.",
+        "B": "Radioterapia pélvica externa concurrente con cisplatino semanal.",
+        "C": "Excisión electroquirúrgica con asa diatérmica de la zona de transformación (cono LEEP) o conización cervical con bisturí frío.",
+        "D": "Vigilancia estrecha con citología y colposcopia cada 12 meses sin intervención quirúrgica."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Diagnóstico histopatológico de LEIAG / NIC 3 confirmado por biopsia: requiere procedimiento escisional terapéutico y diagnóstico (cono cervical con asa LEEP o bisturí frío) para evaluar cabalmente la pieza quirúrgica, descartar microinvasión estromal oculta y verificar bordes endocervicales.",
+      "justificacion_gpc": "La NOM-014-SSA2-1994 y la GPC señalan que para lesiones intraepiteliales de alto grado (NIC 2 y NIC 3 / carcinoma in situ), el tratamiento de primera línea es la escisión de la zona de transformación mediante asa diatérmica (LEEP) o conización cervical con bisturí frío. Los métodos ablativos destructivos (crioterapia, láser ablativo) están contraindicados formalmente en NIC 3 porque destruyen el tejido impidiendo el examen histopatológico de los márgenes y del conducto endocervical para descartar un carcinoma invasor no sospechado.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Distractor_Escalon",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Técnica Contraindicada]: La crioterapia no deja espécimen para patología y se asocia a recurrencia o progresión inadvertida a cáncer invasor si existía compromiso endocervical en NIC 3.",
+        "B": "[Distractor de Cáncer Avanzado]: La radioterapia pélvica concurrente con quimioterapia es el tratamiento para cáncer cervicouterino invasor localmente avanzado (estadio IIB a IVA); su uso en NIC 3 es un disparate lesivo.",
+        "D": "[Distractor de Conducta Negligente]: El NIC 3 tiene un riesgo acumulado de progresión a cáncer invasor de hasta el 30-50% si se abandona a la observación; no intervenir quirúrgicamente constituye una omisión inaceptable."
+      }
+    },
+    {
+      "id": "d13_q6",
+      "index": 6,
+      "case_id": "CASO-3",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-081",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 27 años, no embarazada, acude a consulta médica por presentar leucorrea persistente desde hace 10 días, de color blanco-grisáceo, no pruriginosa pero con olor fétido intenso (\"a pescado descompuesto\") que se exacerba de manera notable tras las relaciones sexuales y durante la menstruación. A la exploración ginecológica: descarga vaginal homogénea, delgada, que cubre uniformemente las paredes vaginales, sin eritema ni edema vulvovaginal. Se toman muestras de secreción: pH vaginal de 5.3; prueba de aminas (Whiff test con KOH al 10%) francamente positiva; examen en fresco revela células guía o células clave (clue cells) en un 35% de los campos y escasos leucocitos polimorfonucleares. La paciente refiere antecedente comprobado de reacción anafiláctica grave (urticaria generalizada, angioedema laríngeo e hipotensión) tras la administración previa de metronidazol.",
+      "question_text": "¿Cuál es el tratamiento farmacológico de primera línea indicado en esta paciente con vaginosis bacteriana y alergia confirmada a los nitroimidazoles según la GPC IMSS-081?",
+      "options": {
+        "A": "Tinidazol 2 g por vía oral en dosis única, administrado bajo premedicación con difenhidramina.",
+        "B": "Fluconazol 150 mg por vía oral en dosis única combinada con lavados vaginales con vinagre blanco diluido.",
+        "C": "Doxiciclina 100 mg por vía oral cada 12 horas por 14 días asociados a Ceftriaxona intramuscular.",
+        "D": "Clindamicina en crema vaginal al 2%, una aplicación intravaginal diaria (5 g) por las noches durante 7 días (o clindamicina óvulos 100 mg por 3 a 7 días)."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Vaginosis bacteriana confirmada (Criterios de Amsel 4/4) en paciente con anafilaxia a metronidazol: la alternativa de primera línea exenta de reactividad cruzada es Clindamicina vaginal (crema al 2% por 7 días u óvulos). El tinidazol está contraindicado por reactividad cruzada de clase.",
+      "justificacion_gpc": "La GPC IMSS-081 señala que el régimen de elección para vaginosis bacteriana es metronidazol por vía oral o gel. En pacientes alérgicas a metronidazol o con intolerancia a los nitroimidazoles, la primera línea de tratamiento es Clindamicina en crema vaginal al 2% (una aplicación de 5 g al acostarse por 7 días) o Clindamicina 300 mg por vía oral cada 12 horas por 7 días. El tinidazol comparte el grupo 5-nitroimidazol y produce reactividad cruzada anafiláctica grave.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Escalon",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor con Riesgo de Muerte]: El tinidazol tiene reacción cruzada con metronidazol; usarlo en alguien con choque anafiláctico previo por nitroimidazoles puede ocasionar paro cardiorrespiratorio fatal.",
+        "B": "[Distractor Inefectivo]: El fluconazol es activo contra hongos (Candida) pero carece de acción sobre bacterias anaerobias y Gardnerella; los lavados vaginales empeoran la disbiosis.",
+        "C": "[Distractor de Esquema Erróneo]: Doxiciclina y ceftriaxona corresponden al manejo de EPI, constituyendo un sobretratamiento con toxicidad innecesaria en una vaginosis localizada."
+      }
+    },
+    {
+      "id": "d13_q7",
+      "index": 7,
+      "case_id": "CASO-3",
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-081",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "En el análisis de laboratorio de secreción vaginal de la paciente anterior, el ginecólogo explica la diferencia entre los criterios clínicos de Amsel utilizados en la cabecera de la paciente y el método de laboratorio considerado el Estándar de Oro (Gold Standard) microbiológico para la confirmación diagnóstica de la Vaginosis Bacteriana.",
+      "question_text": "¿Cuál es el Estándar de Oro microbiológico para el diagnóstico de Vaginosis Bacteriana establecido en la GPC IMSS-081 y en la literatura médica internacional?",
+      "options": {
+        "A": "Criterios de Nugent basados en tinción de Gram del exudado vaginal con puntuación semicuantitativa de 7 a 10 puntos.",
+        "B": "Cultivo bacteriológico cuantitativo en agar sangre humana para aislamiento exclusivo de Gardnerella vaginalis.",
+        "C": "Reacción en cadena de la polimerasa (PCR) cuantitativa para genoma de Trichomonas vaginalis y Chlamydia.",
+        "D": "Determinación serológica de anticuerpos IgG e IgM contra flora anaerobia vaginal mediante ELISA."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "El Estándar de Oro para el diagnóstico de Vaginosis Bacteriana es la escala de Nugent mediante tinción de Gram (puntuación de 7 a 10): evalúa el reemplazo de bacilos grampositivos grandes (Lactobacillus) por bacilos gramvariables pequeños (Gardnerella) y bacilos curvos (Mobiluncus).",
+      "justificacion_gpc": "La GPC IMSS-081 y los consensos internacionales ratifican que los Criterios de Nugent representan el Estándar de Oro microbiológico para diagnosticar vaginosis bacteriana. Se basan en la tinción de Gram de secreción vaginal que cuantifica morfotipos bacterianos: normal (0-3 puntos), intermedio (4-6 puntos) y vaginosis bacteriana (7-10 puntos). El cultivo de Gardnerella vaginalis no es útil debido a su alta prevalencia en mujeres sanas asintomáticas.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor por Falsos Positivos]: El cultivo de Gardnerella vaginalis carece de especificidad clínica ya que se aísla hasta en el 50-60% de mujeres sanas con microbiota normal dominada por Lactobacillus.",
+        "C": "[Distractor de Patógenos Ajenos]: La PCR para Trichomonas o Chlamydia detecta agentes de transmisión sexual específicos pero no evalúa la disbiosis polimicrobiana de la vaginosis bacteriana.",
+        "D": "[Distractor Sin Sustento Científico]: La vaginosis bacteriana no desencadena una respuesta inmunológica de anticuerpos séricos específicos; la serología no tiene utilidad."
+      }
+    },
+    {
+      "id": "d13_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-081",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 28 años con antecedente de diabetes mellitus tipo 1 en descontrol glucémico reciente (HbA1c 8.9%). Acude a la consulta médica refiriendo prurito vulvar intenso y constante, ardor al orinar (disuria externa) y dolor durante el coito (dispareunia). A la exploración ginecológica: eritema y edema vulvar marcado con lesiones por rascado (escoriaciones); a la colocación del espéculo se observa flujo vaginal blanco, grumoso, espeso, con aspecto característico en \"requesón\" o \"leche cortada\", densamente adherido a las paredes vaginales y al fondo de saco posterior.",
+      "question_text": "¿Cuál es el estudio paraclínico inicial inmediato y el valor de pH vaginal esperado en el consultorio para confirmar el diagnóstico de Candidiasis Vulvovaginal según la GPC IMSS-081?",
+      "options": {
+        "A": "Prueba de aminas con KOH al 10% (Whiff test positivo) con un pH vaginal alcalino mayor de 5.5.",
+        "B": "Examen en fresco con hidróxido de potasio (KOH al 10%) para visualizar hifas o pseudohifas, con un pH vaginal característicamente normal o ácido (< 4.5).",
+        "C": "Frotis citológico de Papanicolaou con coloración de Papanicolaou y medición de pH > 6.0.",
+        "D": "Cultivo en medio de Thayer-Martin enriquecido con antibióticos y pH vaginal neutro de 7.0."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Flujo en requesón + prurito intenso en paciente diabética: examen en fresco con KOH al 10% revela pseudohifas y esporas. El dato pivote diferencial respecto a vaginosis y tricomoniasis es que el pH vaginal en candidiasis permanece ácido y normal (< 4.5).",
+      "justificacion_gpc": "La GPC IMSS-081 especifica que ante la sospecha de Candidiasis Vulvovaginal, el estudio paraclínico inicial de elección en el consultorio es el examen microscópico en fresco con adición de solución de hidróxido de potasio al 10% (KOH), el cual lisa leucocitos y detritos celulares permitiendo visualizar filamentos miceliares, pseudohifas o levaduras gemantes. Un dato pivote crucial para el ENARM es que el pH vaginal se mantiene estrictamente normal o ácido (< 4.5), a diferencia de la vaginosis y tricomoniasis donde se eleva (> 4.5).",
+      "distractor_roles": {
+        "A": "Distractor_Espectro",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Vaginosis/Tricomoniasis]: El pH alcalino (> 4.5) y la prueba de aminas positiva caracterizan a la vaginosis bacteriana y a la tricomoniasis, nunca a la candidiasis vulvovaginal.",
+        "C": "[Distractor Inadecuado]: La citología cervical no es una prueba de evaluación inmediata para vaginitis micótica aguda, y reportar pH > 6.0 no coincide con candidiasis.",
+        "D": "[Distractor de Gonococo]: El agar Thayer-Martin es el medio selectivo para Neisseria gonorrhoeae, no para hongos oportunistas del género Candida."
+      }
+    },
+    {
+      "id": "d13_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-081 / NOM-039-SSA2",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 24 años, sexualmente activa, usuaria de anticonceptivos orales combinados, acude por presentar leucorrea abundante, espumosa, de coloración amarillo-verdosa y olor penetrante desagradable, acompañada de prurito vulvar intenso y disuria. A la colposcopia/especuloscopia: mucosa vaginal con eritema difuso y cuello uterino con múltiples hemorragias petequiales puntiformes subepiteliales que le confieren un aspecto clásico de \"cuello en fresa\" (colpitis macular). El examen microscópico directo en fresco revela microorganismos ovales flagelados con movimiento rápido unidireccional y en sacudidas, junto con abundantes leucocitos polimorfonucleares. El pH vaginal es de 6.0.",
+      "question_text": "Con base en la GPC IMSS-081 y la NOM-039-SSA2 para Infecciones de Transmisión Sexual, ¿cuál es la conducta terapéutica normativa obligatoria de primera línea?",
+      "options": {
+        "A": "Clotrimazol en crema vaginal al 1% por 7 noches únicamente a la paciente, sin requerir tratamiento a sus parejas sexuales.",
+        "B": "Metronidazol 500 mg por vía oral cada 12 horas por 7 días exclusivamente a la paciente, citando a la pareja sexual solo si desarrolla síntomas uretrales.",
+        "C": "Metronidazol 2 g por vía oral en dosis única (o 500 mg VO cada 12 horas por 7 días) a la paciente, CON TRATAMIENTO OBLIGATORIO Y SIMULTÁNEO a la pareja sexual independientemente de que sea asintomática.",
+        "D": "Azitromicina 1 g por vía oral en dosis única a la paciente y colocación de óvulos de nistatina por 14 días a la pareja."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Cuello en fresa + trofozoítos móviles flagelados en sacudidas = Tricomoniasis vaginal (ITS estricta). La regla de oro normativa mexicana e internacional es: Metronidazol VO a la paciente + TRATAMIENTO OBLIGATORIO Y SIMULTÁNEO a la pareja sexual con abstinencia durante el tratamiento.",
+      "justificacion_gpc": "La GPC IMSS-081 y la NOM-039-SSA2 establecen que la Tricomoniasis (Trichomonas vaginalis) es una infección de transmisión sexual. El tratamiento de primera elección es Metronidazol 2 g vía oral en dosis única o Metronidazol 500 mg VO cada 12 horas por 7 días. Es de carácter mandatario tratar a todas las parejas sexuales simultáneamente con el mismo régimen, aun cuando se encuentren completamente asintomáticas, para evitar la reinfección continua y la diseminación comunitaria.",
+      "distractor_roles": {
+        "A": "Distractor_Espectro",
+        "B": "Distractor_Escalon",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor Inefectivo]: El clotrimazol es un antifúngico inactivo contra protozoarios; omitir el tratamiento a la pareja propicia falla terapéutica inmediata.",
+        "B": "[Distractor con Error Grave de Manejo de Pareja]: Tratar únicamente a la paciente sin tratar a la pareja masculina garantiza una tasa de reinfección superior al 70-80% debido a que los varones suelen ser portadores asintomáticos en uretra y próstata.",
+        "D": "[Distractor de Cobertura Inadecuada]: La azitromicina y la nistatina no tienen espectro contra Trichomonas vaginalis, dejando a la paciente con infección persistente y riesgo de complicaciones inflamatorias."
+      }
+    },
+    {
+      "id": "d13_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "NOM-014-SSA2-1994 / GPC IMSS-146",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 36 años, asintomática, que acude a la Unidad de Medicina Familiar a su cita preventiva. En su Cartilla Nacional de Salud se corrobora que inició su tamizaje de cáncer cervicouterino con citología cervical a los 25 años. Sus dos últimas citologías cervicales anuales (realizadas a los 34 y 35 años de edad) resultaron reportadas formalmente como \"Negativas para lesión intraepitelial o malignidad (NLIM)\". La paciente pregunta cuándo debe realizarse su próximo estudio citológico y si es candidata a la prueba de VPH.",
+      "question_text": "Conforme a los intervalos y metas normadas en la NOM-014-SSA2-1994 y las guías de práctica clínica mexicanas para la prevención del CaCu, ¿cuál es la periodicidad correcta para el seguimiento de esta paciente?",
+      "options": {
+        "A": "Realizar citología cervical convencional anual de forma ininterrumpida hasta los 65 años de edad sin posibilidad de espaciamiento.",
+        "B": "Suspender definitivamente todo método de tamizaje citológico y molecular por haber superado los 35 años de edad con citologías previas normales.",
+        "C": "Indicar colposcopia de rutina cada 2 años de manera obligatoria como método de tamizaje poblacional de primera línea a partir de los 35 años.",
+        "D": "Espaciar la citología cervical a cada 3 años tras documentar dos resultados anuales consecutivos negativos; o realizar prueba biomolecular de VPH de alto riesgo, la cual si es negativa permite un intervalo de hasta 5 años."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Periodicidad del tamizaje en la NOM-014-SSA2-1994: citología anual por 2 años consecutivos; si ambos resultan negativos, se espacia a cada 3 años. A partir de los 35 años, la prueba molecular para VPH de alto riesgo (co-test o primaria) con resultado negativo permite extender el tamizaje a cada 5 años.",
+      "justificacion_gpc": "La NOM-014-SSA2-1994 para la prevención, detección, diagnóstico y tratamiento del cáncer cervicouterino dicta que el tamizaje citológico se inicia a los 25 años en mujeres con vida sexual activa. Debe realizarse anualmente durante 2 años consecutivos; si ambos son negativos a lesión, el intervalo de tamizaje pasa a realizarse cada 3 años. En mujeres a partir de los 30-35 años, la incorporación de la prueba de ADN para VPH de alto riesgo (genotipos oncogénicos 16, 18 y otros) permite, ante un resultado negativo, alargar el intervalo de seguridad a cada 5 años debido a su altísimo valor predictivo negativo.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Comorbilidad",
+        "C": "Distractor_Espectro",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Desconocimiento Normativo]: Continuar con citologías anuales de por vida cuando ya se cuentan con dos negativas documentadas representa una ineficiencia en salud pública no recomendada por la NOM-014.",
+        "B": "[Distractor con Retiro Prematuro Peligroso]: El tamizaje de CaCu se mantiene activo hasta los 64-65 años de edad en mujeres con controles previos adecuados; suspenderlo a los 35 años deja a la paciente desprotegida durante el pico de incidencia de CaCu.",
+        "C": "[Distractor de Uso Inadecuado de Colposcopia]: La colposcopia no es un método de tamizaje poblacional primario; reservarla para mujeres con citología o prueba molecular positiva previene sobrediagnósticos y sobretratamientos innecesarios."
+      }
+    },
+    {
+      "id": "d13_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "GPC IMSS-072 / CDC Guidelines",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 23-year-old sexually active female presents to the emergency department with a 2-day history of sharp right upper quadrant (RUQ) abdominal pain that exacerbates with deep inspiration and cough (pleuritic chest pain), radiating to the right shoulder. She also reports a 1-week history of worsening lower pelvic cramping, dyspareunia, and purulent vaginal discharge. Vital signs: BP 110/70 mmHg, HR 96 bpm, RR 20 bpm, Temperature 38.5 °C. Physical examination reveals exquisite tenderness to palpation over the hepatic edge and gallbladder area with voluntary guarding, as well as marked tenderness in the hypogastrium. Bimanual pelvic examination demonstrates severe cervical motion tenderness (Chandelier sign) and bilateral adnexal tenderness. Complete blood count shows leukocytosis (15,400/mcL) with 82% neutrophils. Right upper quadrant ultrasound demonstrates a completely normal gallbladder without calculi, biliary sludge, or wall thickening, but reveals a small amount of free fluid in the perihepatic space and Morrison's pouch.",
+      "question_text": "Based on the clinical presentation and Mexican clinical practice guidelines (GPC IMSS-072), what is the most likely diagnosis of this extrapelvic complication, and what is the underlying pathophysiological finding expected on laparoscopy?",
+      "options": {
+        "A": "Acute calculous cholecystitis with pericholecystic abscess; expected finding is gallbladder empyema requiring urgent open cholecystectomy.",
+        "B": "Fitz-Hugh-Curtis syndrome (perihepatitis secondary to pelvic inflammatory disease); expected finding is localized exudative fibrinous inflammation with characteristic 'violin-string' adhesions between the anterior hepatic surface and the abdominal wall.",
+        "C": "Primary spontaneous bacterial peritonitis due to Streptococcus pneumoniae; expected finding is diffuse cloudy purulent ascites without pelvic or liver involvement.",
+        "D": "Budd-Chiari syndrome with secondary hepatic vein thrombosis; expected finding is massive centrilobular liver necrosis without peritoneal signs."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Young female with cervical motion tenderness (PID) presenting with acute pleuritic RUQ pain and normal gallbladder ultrasound: classic presentation of Fitz-Hugh-Curtis syndrome (perihepatitis associated with Chlamydia trachomatis / Neisseria gonorrhoeae). Laparoscopy characteristically demonstrates fibrinous exudates and fibrous 'violin-string' adhesions between the liver capsule and abdominal peritoneum.",
+      "justificacion_gpc": "La GPC IMSS-072 y las pautas internacionales señalan que el Síndrome de Fitz-Hugh-Curtis es una complicación extrapélvica de la Enfermedad Pélvica Inflamatoria (presente en 5-15% de los casos), originada por la diseminación ascendente transperitoneal de Chlamydia trachomatis o Neisseria gonorrhoeae hacia el espacio perihepático. Cursa con dolor en hipocondrio derecho de tipo pleurítico asociado a hallazgos clínicos de cervicovaginitis o salpingitis. El hallazgo clásico patognomónico laparoscópico es la presencia de adherencias perihepáticas densas y finas en 'cuerdas de violín' entre la cápsula de Glisson y la pared abdominal anterior.",
+      "distractor_roles": {
+        "A": "Distractor_Espectro",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor of Misdiagnosed Spectrum]: The patient's ultrasound definitively ruled out cholecystitis (no gallstones, normal wall). Coexisting pelvic pain, purulent discharge, and marked cervical motion tenderness point directly to an ascending pelvic etiology.",
+        "C": "[Distractor of Unrelated Pathology]: Spontaneous bacterial peritonitis occurs in patients with end-stage cirrhosis and portal hypertension with pre-existing ascites, not in an otherwise healthy young woman with pelvic infection.",
+        "D": "[Distractor of Vascular Disease]: Budd-Chiari syndrome is a hepatic venous outflow tract obstruction presenting with severe tender hepatomegaly, intractable ascites, and liver failure, unrelated to pelvic inflammatory disease."
+      }
+    },
+    {
+      "id": "d13_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "GYO",
+      "normativa_origen": "NOM-014-SSA2-1994 / GPC IMSS-146",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A 29-year-old G1P1 woman attends a preventive medicine clinic for routine gynecological follow-up. Her last cervical cytology performed 2 weeks ago is reported as: 'Atypical Squamous Cells of Undetermined Significance (ASC-US); adequate endocervical sample'. She has no history of previous abnormal Pap smears, is completely asymptomatic, and her pelvic examination is unremarkable. She is anxious and asks the physician what the next step is according to official Mexican and international guidelines.",
+      "question_text": "According to NOM-014-SSA2-1994 and Mexican GPC algorithms for cervical cancer screening, what is the most appropriate next clinical management strategy?",
+      "options": {
+        "A": "Perform a high-risk HPV DNA molecular test (reflex testing) or repeat cervical cytology in 6 months; refer to the colposcopy clinic only if high-risk HPV is positive or if cytological abnormalities persist.",
+        "B": "Perform immediate loop electrosurgical excision procedure (LEEP cone) of the transformation zone under general anesthesia.",
+        "C": "Reassure the patient, discharge her from the screening program, and order a total abdominal hysterectomy if she has completed childbearing.",
+        "D": "Immediately perform blind four-quadrant cervical biopsy and endocervical curettage in the primary care outpatient office without colposcopic vision."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Cervical cytology with ASC-US in a 29-year-old: triage algorithm mandates high-risk HPV testing (preferred reflex testing) or repeat Pap smear in 6 months. Colposcopy is indicated only if high-risk HPV is positive, if ASC-US persists at 6 months, or if a higher-grade lesion is found.",
+      "justificacion_gpc": "La NOM-014-SSA2-1994 y la GPC IMSS-146 indican que ante un hallazgo citológico de Células Escamosas Atípicas de Significado Indeterminado (ASC-US), existen dos alternativas normadas válidas: 1) Realizar prueba molecular refleja de ADN para VPH de alto riesgo oncogénico (preferida si está disponible); si resulta positiva se refiere a colposcopia, y si es negativa se repite citología en 12 meses; o 2) Repetir la citología cervical a los 6 meses. La referencia directa e inmediata a colposcopia no es mandatoria en ASC-US a menos que la prueba de VPH sea positiva o la citología alterada persista en el control semestral.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor of Invasive Overtreatment]: Performing a diagnostic/therapeutic LEEP cone for an isolated ASC-US report is an aggressive overtreatment that risks cervical incompetence, stenosis, and future preterm birth.",
+        "C": "[Distractor of Radical Negligence]: Discharging the patient is unsafe because 5-10% of women with ASC-US harbor underlying high-grade CIN, but ordering a hysterectomy for ASC-US constitutes gross medical malpractice.",
+        "D": "[Distractor of Blind Invasive Procedure]: Blind biopsies of the cervix without colposcopic magnification and staining are obsolete, dangerous, and have low diagnostic yield; biopsies must always be colposcopically directed."
+      }
+    }
+  ]
+}

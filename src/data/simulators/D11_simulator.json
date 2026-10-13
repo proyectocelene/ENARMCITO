@@ -1,0 +1,709 @@
+{
+  "topic_code": "D11",
+  "title": "Simulador Post-Estudio: Preeclampsia, Eclampsia y Síndrome HELLP",
+  "normativa_origen": "GPC IMSS-058-08 / GPC CENETEC Trastornos Hipertensivos del Embarazo",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d11_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Preeclampsia con Criterios de Severidad a las 32 Semanas de Gestación",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Primigesta de 24 años con 32.2 semanas de gestación por ultrasonido del primer trimestre, sin antecedentes patológicos conocidos. Ingresa al área de choque de tococirugía refiriendo cefalea holocraneana pulsátil intensa (8/10 en EVA) refractaria a paracetamol, escotomas centellantes y dolor urente en epigastrio de 3 horas de evolución. Signos vitales basales: TA 174/114 mmHg (confirmada a los 15 minutos en brazo contralateral con 172/112 mmHg), FC 88 lpm, FR 18 rpm, afebril, SatO2 97% al aire ambiente. A la exploración física: fondo de ojo con espasmo arteriolar segmentario sin edema de papila; reflejos rotulianos +++/++++ con 2 salvas de clonus agotable. Fondo uterino acorde a 31 semanas, feto único cefálico, FCF 146 lpm sin desaceleraciones en trazo basal. Laboratorios urgentes: Hb 11.2 g/dL, plaquetas 112,000/microL, creatinina 1.15 mg/dL (creatinina basal de 0.55 mg/dL en el primer trimestre), ácido úrico 7.8 mg/dL, AST 78 UI/L, ALT 82 UI/L, DHL 450 UI/L, glucosa 94 mg/dL; examen general de orina con tira reactiva: proteínas 3+ (300 mg/dL), densidad 1.025, sin leucocituria ni cilindros patológicos.",
+      "question_text": "¿Cuál es el diagnóstico clínico y de estratificación de gravedad normativo que corresponde a este cuadro de acuerdo con la GPC IMSS-058-08?",
+      "options": {
+        "A": "Síndrome HELLP incompleto de la clasificación de Mississippi, requiriendo transfusión inmediata de plasma fresco congelado.",
+        "B": "Hipertensión gestacional transitoria no severa con cefalea tensional y dispepsia inducida por estrés gestacional.",
+        "C": "Preeclampsia con criterios de severidad (por cifras tensionales severas, síntomas vasomotores/neurológicos y elevación de enzimas hepáticas y creatinina).",
+        "D": "Preeclampsia sin criterios de severidad asociada a colecistitis litiásica aguda secundaria al embarazo."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Estratificacion_Severidad",
+      "gpc_algorithm_step": "La GPC IMSS-058-08 define Preeclampsia con Criterios de Severidad ante la presencia de hipertensión arterial severa (PAS ≥ 160 mmHg y/o PAD ≥ 110 mmHg en dos tomas con intervalo mínimo de 15 minutos) o cuando coexiste con síntomas de disfunción de órgano blanco: afección neurológica/visión (cefalea persistente, escotomas, clonus), daño hepático (dolor epigástrico en barra, AST/ALT al doble de lo normal), insuficiencia renal (creatinina > 1.1 mg/dL o duplicación del valor basal) o trombocitopenia (< 100,000/microL). No cumple aún criterios de Síndrome HELLP porque la DHL es < 600 UI/L y las plaquetas son > 100,000/microL.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje) y Ruido de Laboratorio",
+        "explanation": "El distractor A busca que el aspirante se precipite al ver transaminasemia y dolor en epigastrio y salte a Síndrome HELLP incompleto sin verificar que la DHL es normal (< 600 UI/L) y las plaquetas están por encima de 100,000/microL. El distractor D atribuye erróneamente la epigastralgia a colecistitis (distensión de cápsula de Glisson por isquemia sinusoidal periportal)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios diagnósticos oficiales de Preeclampsia con Criterios de Severidad según la GPC IMSS-058-08?",
+        "back": "1. TA ≥ 160/110 mmHg (2 tomas separadas por 15 min).<br>2. Síntomas vasomotores/SNC: cefalea severa, escotomas, hiperreflexia/clonus.<br>3. Dolor epigástrico/HCD (distensión de Glisson).<br>4. Hepático: AST/ALT ≥ 2 veces el valor normal.<br>5. Renal: Creatinina > 1.1 mg/dL o duplicación basal.<br>6. Hematológico: Plaquetas < 100,000/microL.<br>7. Pulmonar: Edema agudo de pulmón.",
+        "tags": "D11 Preeclampsia GPC_IMSS Criterios_Severidad ENARM"
+      }
+    },
+    {
+      "id": "d11_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Preeclampsia con Criterios de Severidad a las 32 Semanas de Gestación",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "En la misma paciente primigesta de 32.2 semanas de gestación, se confirma TA de 172/112 mmHg tras 15 minutos de reposo. Se requiere instaurar de inmediato terapia antihipertensiva farmacológica de rescate para prevenir hemorragia cerebrovascular materna y desprendimiento prematuro de placenta, manteniendo un adecuado flujo sanguíneo útero-placentario.",
+      "question_text": "¿Cuál es el esquema antihipertensivo farmacológico de primera elección y la meta de cifras tensionales establecida por la GPC IMSS-058-08 para el manejo agudo de la crisis hipertensiva?",
+      "options": {
+        "A": "Nifedipino cápsulas de 10 mg administrado por vía sublingual mediante punción cada 15 minutos, buscando normalizar la TA a cifras menores de 115/75 mmHg.",
+        "B": "Hidralazina 5 a 10 mg en bolo intravenoso lento (o Nifedipino 10 mg por vía oral deglutido), con meta terapéutica de presión arterial sistólica entre 130-150 mmHg y diastólica entre 90-100 mmHg.",
+        "C": "Nitroprusiato de sodio en infusión intravenosa continua a 2 mcg/kg/min como primera línea para vasodilatación arterial directa rápida.",
+        "D": "Enalaprilato intravenoso 1.25 mg en bolo cada 6 horas para bloquear la hiperactividad del eje renina-angiotensina-aldosterona."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Crisis_Hipertensiva_Tx",
+      "gpc_algorithm_step": "Para crisis hipertensiva en el embarazo (TA ≥ 160/110 mmHg), la GPC IMSS-058-08 establece como fármacos de primera línea la Hidralazina IV (5 mg en bolo lento cada 15-20 min, dosis máxima 20-30 mg) o Nifedipino oral (10 mg vía oral deglutido, nunca sublingual). La meta tensional no es normotensión profunda, sino mantener la PAD entre 90-100 mmHg y la PAS entre 130-150 mmHg para evitar hipoperfusión útero-placentaria y sufrimiento fetal agudo.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Fármaco Contraindicado",
+        "explanation": "El nifedipino SUBLINGUAL está formalmente proscrito en obstetricia por provocar hipotensión brusca e incontrolable, taquicardia refleja y muerte fetal intrauterina por hipoperfusión placentaria (debe ser ORAL DEGLUTIDO). El nitroprusiato tiene riesgo de toxicidad por cianuro fetal (solo UCI refractaria) y los IECA/ARA2 causan teratogenicidad y daño renal fetal irreversible."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la primera línea farmacológica y la meta tensional para crisis hipertensiva del embarazo según GPC IMSS-058-08?",
+        "back": "<b>Fármacos de 1ª Línea:</b><br>- Hidralazina IV: 5-10 mg en bolo lento cada 15-20 min (máx 20-30 mg).<br>- Nifedipino oral: 10 mg vía oral DEGLUTIDO (nunca sublingual).<br><b>Meta:</b> PAS 130-150 mmHg y PAD 90-100 mmHg (no descensos bruscos para proteger perfusión placentaria).",
+        "tags": "D11 Crisis_Hipertensiva Hidralazina Nifedipino Metas GPC_IMSS"
+      }
+    },
+    {
+      "id": "d11_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Preeclampsia con Criterios de Severidad a las 32 Semanas de Gestación",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Simultáneamente al antihipertensivo, a la paciente de 32.2 semanas se le administra sulfato de magnesio intravenoso (esquema Zuspan: bolo inicial de 4 g en 20 minutos seguido de infusión continua a 1 g/hora) para neuroprotección materna. A las 3 horas de infusión continua, el personal de enfermería reporta que la diuresis horaria de la paciente ha caído a 18 mL/hora durante las últimas 2 horas consecutivas. A la revaloración médica inmediata: TA 142/92 mmHg, somnolienta pero orientada, frecuencia respiratoria de 14 rpm y el reflejo rotuliano se encuentra disminuido (+/++++).",
+      "question_text": "Ante el hallazgo de oliguria (< 30 mL/h) y depresión temprana de los reflejos osteotendinosos bajo infusión de sulfato de magnesio, ¿cuál es la conducta inmediata indicada por la normativa oficial mexicana?",
+      "options": {
+        "A": "Suspender temporalmente la infusión de sulfato de magnesio, solicitar niveles séricos urgentes de magnesio, evaluar la vía aérea/frecuencia respiratoria y tener disponible de inmediato el antídoto (gluconato de calcio al 10%).",
+        "B": "Incrementar la velocidad de infusión del sulfato de magnesio a 2.5 g/h para contrarrestar la vasoconstricción renal y evitar una convulsión inminente.",
+        "C": "Administrar un bolo intravenoso de 40 mg de furosemida para forzar la diuresis osmótica y mantener inalterada la infusión de magnesio.",
+        "D": "Reemplazar de inmediato el sulfato de magnesio por una infusión continua de fenitoína sódica a 15 mg/kg."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Neuroproteccion_MgSO4",
+      "gpc_algorithm_step": "El sulfato de magnesio se elimina casi exclusivamente por excreción renal. La presencia de oliguria (< 30 mL/h o < 100 mL en 4 horas) favorece la rápida acumulación plasmática de magnesio hacia niveles tóxicos (> 7-10 mEq/L), cuya primera manifestación clínica es la hiporreflexia o pérdida del reflejo patelar (se pierde a 8-10 mEq/L), previa al paro respiratorio (> 12 mEq/L). La GPC dicta suspender la infusión, medir niveles, monitorizar diuresis/ventilación y asegurar la presencia al pie de la cama de gluconato de calcio al 10% (1 g IV). Está proscrito usar diuréticos como furosemida salvo edema agudo de pulmón.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Falso Refuerzo",
+        "explanation": "Aumentar la infusión en un paciente oligúrico con reflejos apagados conduciría a intoxicación severa, paro respiratorio (> 12 mEq/L) y asistolia (> 25 mEq/L). Usar diuréticos empeora la hipovolemia intravascular típica de la preeclampsia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta y los parámetros de vigilancia ante infusión de Sulfato de Magnesio según GPC IMSS-058-08?",
+        "back": "<b>Parámetros de Seguridad:</b><br>1. Reflejo rotuliano presente (se pierde a 8-10 mEq/L).<br>2. FR > 12-16 rpm (paro a > 12 mEq/L).<br>3. Diuresis > 30 mL/h o > 100 mL en 4h (excreción renal).<br><b>Ante Oliguria o Hiporreflexia:</b><br>Suspender infusión inmediatamente, verificar magnesemia y tener listo Gluconato de Calcio al 10% (1 g IV).",
+        "tags": "D11 Sulfato_Magnesio Toxicidad Oliguria Gluconato_Calcio GPC_IMSS"
+      }
+    },
+    {
+      "id": "d11_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Preeclampsia con Criterios de Severidad a las 32 Semanas de Gestación",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la misma primigesta de 32.2 semanas de gestación, tras ajustar la hidratación y modular la dosis de sulfato de magnesio guiada por función renal, la paciente se encuentra neurológicamente íntegra, con TA estable en 138/88 mmHg. Los paraclínicos de control reportan: plaquetas en 110,000/microL, AST 72 UI/L, creatinina 1.0 mg/dL y diuresis recuperada a 40 mL/h. La monitorización cardiotocográfica fetal continua muestra trazo categoría I (FCF basal 142 lpm, variabilidad moderada, aceleraciones presentes, ausencia de desaceleraciones) y el ultrasonido obstétrico muestra feto con peso en percentil 25 sin evidencia de desprendimiento placentario.",
+      "question_text": "Con base en la edad gestacional (32.2 semanas) y la estabilidad hemodinámica y fetal actual, ¿cuál es la conducta obstétrica de elección normada por la GPC IMSS-058-08?",
+      "options": {
+        "A": "Inducción inmediata del trabajo de parto con misoprostol vaginal sin administrar corticosteroides, debido a que toda preeclampsia severa exige nacimiento en menos de 2 horas.",
+        "B": "Ingreso a unidad de cuidados intensivos o tococirugía para manejo expectante conservador, iniciando esquema de maduración pulmonar fetal con corticosteroides (betametasona o dexametasona) y vigilancia estrecha materno-fetal.",
+        "C": "Realización de cesárea de urgencia inmediata bajo anestesia epidural sin esperar maduración pulmonar.",
+        "D": "Egreso hospitalario con sulfato de magnesio por vía oral y cita de control en consulta externa en 7 días."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Resolucion_Obstetrica",
+      "gpc_algorithm_step": "En preeclampsia con criterios de severidad entre las 24 y las 33.6 semanas de gestación, la GPC IMSS-058-08 y las guías de CENETEC recomiendan manejo conservador hospitalario en tercer nivel siempre que se logre estabilización materna (TA controlada, sin daño de órgano blanco progresivo) y bienestar fetal conservado. Este abordaje permite completar el esquema de maduración pulmonar fetal con corticosteroides (Betametasona 12 mg IM cada 24 h por 2 dosis o Dexametasona 6 mg IM cada 12 h por 4 dosis) para reducir el síndrome de dificultad respiratoria, hemorragia intraventricular y enterocolitis necrosante neonatal. La interrupción inmediata se reserva para deterioro materno incontrolable o compromiso fetal.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje) y Violación de Ventana de Gestación",
+        "explanation": "Pensar que 'severidad siempre equivale a cesárea en la primera hora' es un error común. Entre 24 y 33.6 semanas, si la madre y el feto se estabilizan, se prioriza la maduración pulmonar fetal hospitalaria. A partir de la semana 34.0, la resolución es inmediata tras estabilizar."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el momento de interrupción en Preeclampsia con Criterios de Severidad según la edad gestacional en GPC IMSS-058-08?",
+        "back": "<b>≥ 34.0 semanas:</b> Interrupción del embarazo tras estabilización materna (no prolongar).<br><b>24.0 a 33.6 semanas:</b> Manejo conservador en 3er nivel con maduración pulmonar (betametasona/dexametasona) SI madre y feto están estables.<br><b>Cualquier EG:</b> Interrupción INMEDIATA si hay eclampsia, edema pulmonar, DPPNI, HELLP refractario o sufrimiento fetal.",
+        "tags": "D11 Preeclampsia_Severa Resolucion Maduracion_Pulmonar Semanas GPC_IMSS"
+      }
+    },
+    {
+      "id": "d11_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Eclampsia y Manejo Crítico en Tococirugía",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Segundigesta de 19 años con embarazo de 36.4 semanas de gestación sin antecedentes médicos conocidos y control prenatal deficiente. Es traída en ambulancia a la sala de choque de tococirugía tras haber presentado en su hogar una convulsión generalizada de 2 minutos de duración con pérdida del estado de alerta y emisión involuntaria de orina. A su ingreso a urgencias: estuporosa, apertura ocular al dolor, sialorrea abundante con restos hemáticos en labios por mordedura de lengua. Constantes vitales: TA 186/118 mmHg, FC 112 lpm, FR 22 rpm, SatO2 91% al aire ambiente. A la palpación abdominal: útero hipertónico, altura uterina 34 cm, frecuencia cardíaca fetal con bradicardia en 105 lpm. La paciente no presenta antecedentes de epilepsia ni traumatismos.",
+      "question_text": "En adición a asegurar la permeabilidad de la vía aérea y la oxigenación, ¿cuál es el tratamiento farmacológico de primera elección indicado por la GPC IMSS-058-08 para el control y prevención de recurrencia de las convulsiones en esta paciente?",
+      "options": {
+        "A": "Diazepam 10 mg en bolo intravenoso lento diluido, repetible a los 10 minutos si persisten fasciculaciones.",
+        "B": "Fenitoína sódica con dosis de impregnación a 18 mg/kg en infusión intravenosa rápida diluida en solución glucosada al 5%.",
+        "C": "Sulfato de magnesio: dosis de impregnación de 4 g intravenosos administrados en 20 a 30 minutos, seguida de una infusión continua de mantenimiento a 1-2 g/hora (esquema Zuspan o Pritchard).",
+        "D": "Levetiracetam 1,500 mg intravenosos en bolo lento por poseer un perfil farmacocinético sin requerimiento de monitoreo de reflejos."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Neuroproteccion_Eclampsia",
+      "gpc_algorithm_step": "La GPC IMSS-058-08 y la evidencia global (Ensayo Colaborativo de Eclampsia) determinan de manera contundente que el Sulfato de Magnesio es el fármaco de primera elección superior a cualquier anticonvulsivo convencional (diazepam, fenitoína, barbitúricos) para el tratamiento y prevención secundaria de las convulsiones eclámpticas. Reduce la recurrencia de convulsiones en un 52% y disminuye significativamente la morbimortalidad materna y perinatal. El esquema Zuspan utiliza 4 g IV en 20-30 min y 1-2 g/h de mantenimiento por 24 horas posparto o posconvulsión.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía General' (Neurología vs Obstetricia)",
+        "explanation": "En pacientes no obstétricos con estatus convulsivo, las benzodiacepinas y la fenitoína son la norma. Sin embargo, en la eclampsia la fisiopatología es vasoespasmo cerebral y disfunción endotelial microvascular; el magnesio actúa como vasodilatador cerebral y bloqueador de receptores NMDA, superando ampliamente a las benzodiacepinas."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el fármaco anticonvulsivo de primera elección en Eclampsia según GPC IMSS-058-08 y por qué no usar benzodiacepinas?",
+        "back": "<b>Fármaco de Elección:</b> Sulfato de Magnesio (Zuspan: 4 g IV en 20 min + 1-2 g/h por 24 h).<br><b>Razón:</b> Superior a Diazepam y Fenitoína; reduce a la mitad la recurrencia de convulsiones y la mortalidad materna. Actúa sobre vasoespasmo cerebral y receptores NMDA.",
+        "tags": "D11 Eclampsia Sulfato_Magnesio Anticonvulsivo GPC_IMSS"
+      }
+    },
+    {
+      "id": "d11_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Eclampsia y Manejo Crítico en Tococirugía",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A la paciente eclámptica de 36.4 semanas se le administró el bolo de impregnación de 4 g de sulfato de magnesio y se inició la infusión de mantenimiento a 2 g/h. Tras presentar una breve sacudida motora a los 20 minutos, el médico residente en formación administró por error un bolo adicional no indicado de 4 g intravenosos directos en 2 minutos. Quince minutos después, la monitorización continua emite alarma: frecuencia respiratoria de 6 respiraciones por minuto, cianosis peribucal, saturación de oxígeno del 80%, pérdida total de los reflejos osteotendinosos rotulianos y ensanchamiento del complejo QRS en el trazo electrocardiográfico.",
+      "question_text": "¿Cuál es la intervención terapéutica farmacológica antídoto inmediata que debe administrarse según la GPC oficial?",
+      "options": {
+        "A": "Gluconato de calcio al 10% (1 gramo / 10 mL) por vía intravenosa lenta administrado en 3 a 5 minutos, acompañado de soporte ventilatorio mecánico invasivo con bolsa-válvula-mascarilla.",
+        "B": "Flumazenil 0.5 mg intravenoso en bolo para revertir la depresión respiratoria generada por sedación iatrogénica.",
+        "C": "Naloxona 0.4 mg por vía intravenosa ante la sospecha de sobredosis de narcóticos no informada.",
+        "D": "Infusión rápida de bicarbonato de sodio 1 mEq/kg para alcalinizar la orina y acelerar la eliminación tubular renal del ion magnesio."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Antidoto_MgSO4",
+      "gpc_algorithm_step": "La intoxicación aguda severa por sulfato de magnesio (niveles > 12 mEq/L) produce depresión respiratoria severa, parálisis de músculos respiratorios y toxicidad miocárdica con arritmias o paro cardíaco (> 15-25 mEq/L). El antídoto específico es el Gluconato de Calcio al 10%: se administra 1 g (1 ampolleta de 10 mL al 10%) por vía intravenosa lenta en 3 a 5 minutos. El calcio antagoniza competitivamente las acciones del magnesio en la placa neuromuscular y en el miocardio. Simultáneamente se debe proporcionar asistencia ventilatoria con oxígeno al 100%.",
+      "distractor_trap": {
+        "trap_type": "La Trampa del Antídoto Cruzado",
+        "explanation": "Ofrecer flumazenil o naloxona como distractores busca tentar al médico que confunde la intoxicación por sedantes o depresores respiratorios habituales. El único antídoto normado para la toxicidad por magnesio es el gluconato de calcio al 10%."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el antídoto específico para la intoxicación por Sulfato de Magnesio y cómo se administra según la GPC?",
+        "back": "<b>Antídoto:</b> Gluconato de Calcio al 10%.<br><b>Dosis:</b> 1 g IV (10 mL de solución al 10%) administrado en forma lenta en 3 a 5 minutos.<br><b>Indicación:</b> Depresión respiratoria (< 12 rpm), arritmias o paro respiratorio por hipermagnesemia.",
+        "tags": "D11 Gluconato_Calcio Antidoto Sulfato_Magnesio Toxicidad GPC_IMSS"
+      }
+    },
+    {
+      "id": "d11_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Eclampsia y Manejo Crítico en Tococirugía",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Una vez revertida la depresión ventilatoria con gluconato de calcio y estabilizada la vía aérea, la paciente con eclampsia recupera el estado de alerta 4 horas después. Al interrogatorio neurológico dirigido, refiere pérdida completa de la visión (amaurosis/ceguera cortical bilateral, solo percibe sombras o bultos sin discriminar formas). A la exploración física: reflejos fotomotor y consensual bilaterales conservados con fondo de ojo que no muestra edema de papila ni desprendimiento de retina; no presenta déficit motor focal. Se sospecha Síndrome de Encefalopatía Posterior Reversible (PRES) secundario a la crisis eclámptica.",
+      "question_text": "¿Cuál es el estudio de neuroimagen considerado el estándar de elección para confirmar la presencia del síndrome PRES y descartar una hemorragia intracraneal según la literatura médica y la GPC?",
+      "options": {
+        "A": "Tomografía axial computarizada simple de cráneo sin medio de contraste.",
+        "B": "Punción lumbar diagnóstica para análisis citoquímico y microbiológico de líquido cefalorraquídeo.",
+        "C": "Electroencefalograma cuantitativo de 24 horas con mapeo topográfico cerebral.",
+        "D": "Resonancia magnética de encéfalo con secuencias ponderadas en T2, FLAIR y difusión (DWI)."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Neuroimagen_PRES",
+      "gpc_algorithm_step": "El Síndrome de Encefalopatía Posterior Reversible (PRES) es la complicación neurovascular prototípica de la eclampsia, caracterizada por edema vasogénico transitorio en la sustancia blanca subcortical, predominantemente en las regiones parieto-occipitales, lo que causa ceguera cortical con reflejos pupilares normales. La Resonancia Magnética de encéfalo (especialmente secuencias T2 y FLAIR que demuestran hiperintensidades corticosubcorticales parieto-occipitales simétricas, y difusión DWI para diferenciar edema vasogénico de edema citotóxico isquémico) es el estudio de elección con máxima sensibilidad.",
+      "distractor_trap": {
+        "trap_type": "Distractor de Escalón Tecnológico / TAC vs Resonancia",
+        "explanation": "La TAC simple de cráneo se utiliza a menudo en la urgencia para descartar rápidamente sangrado masivo, pero tiene una baja sensibilidad para visualizar el edema vasogénico sutil del PRES (hasta 40% de TAC son normales). La resonancia magnética es el estándar de elección confirmatorio."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estudio de neuroimagen de elección para Síndrome de Encefalopatía Posterior Reversible (PRES) en Eclampsia?",
+        "back": "<b>Estudio de Elección:</b> Resonancia Magnética de Encéfalo (RMN) con secuencias T2, FLAIR y difusión (DWI).<br><b>Hallazgo típico:</b> Hiperintensidades bilaterales y simétricas por edema vasogénico parieto-occipital.",
+        "tags": "D11 PRES Eclampsia RMN Neuroimagen Amaurosis GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Eclampsia y Manejo Crítico en Tococirugía",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la misma paciente de 36.4 semanas de gestación, las cifras de presión arterial se han controlado en 136/86 mmHg con hidralazina intravenosa, y se encuentra bajo infusión regulada de sulfato de magnesio. Sin embargo, en el monitoreo fetal cardiotocográfico continuo se detecta bradicardia fetal sostenida (95-100 lpm) que no se recupera tras 15 minutos, con pérdida de variabilidad, el tono uterino está aumentado a la palpación (hipertonía leñosa) y se evidencia salida de sangrado transvaginal oscuro en moderada cantidad.",
+      "question_text": "Ante el cuadro de eclampsia con evidencia de sufrimiento fetal agudo y datos clínicos compatibles con desprendimiento prematuro de placenta normoinserta (DPPNI), ¿cuál es la conducta obstétrica mandataria de acuerdo con la GPC IMSS-058-08?",
+      "options": {
+        "A": "Iniciar de inmediato inducción del trabajo de parto con infusión de oxitocina a dosis bajas para favorecer parto vaginal en las siguientes 12 horas.",
+        "B": "Proceder a la interrupción inmediata del embarazo mediante cesárea de urgencia previa estabilización hemodinámica materna.",
+        "C": "Manejo expectante con reposo absoluto y tocolíticos intravenosos hasta alcanzar la semana 37.0 de gestación.",
+        "D": "Realizar una amniocentesis descompresiva urgente guiada por ultrasonido antes de considerar la vía quirúrgica."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Resolucion_Obstetrica",
+      "gpc_algorithm_step": "La GPC IMSS-058-08 establece que la eclampsia es indicación de interrupción del embarazo una vez que la paciente ha sido estabilizada (vía aérea, control de crisis con sulfato de magnesio y control de crisis hipertensiva). La vía vaginal solo se contempla si hay condiciones cervicales extremadamente favorables y no existe compromiso fetal. Sin embargo, ante la coexistencia de sospecha de Desprendimiento Prematuro de Placenta Normoinserta (DPPNI: hipertonía uterina, sangrado oscuro) y sufrimiento fetal agudo (bradicardia fetal persistente), la cesárea de urgencia es la conducta mandatoria e inmediata.",
+      "distractor_trap": {
+        "trap_type": "La Trampa del Parto Vaginal Rutinario",
+        "explanation": "Aunque la GPC promueve el parto vaginal cuando es factible en preeclampsia estable, en presencia de DPPNI con sufrimiento fetal agudo la cesárea de emergencia es la única conducta que previene la muerte fetal inminente y la coagulopatía de consumo materna."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta obstétrica ante Eclampsia complicada con DPPNI y bradicardia fetal sostenida según GPC IMSS-058-08?",
+        "back": "<b>Conducta:</b> Cesárea de urgencia inmediata una vez estabilizada hemodinámicamente la madre (vía aérea, sulfato de magnesio y antihipertensivo).<br><b>Justificación:</b> Emergencia obstétrica absoluta por riesgo letal materno-fetal.",
+        "tags": "D11 Eclampsia DPPNI Cesarea Sufrimiento_Fetal GPC_IMSS"
+      }
+    },
+    {
+      "id": "d11_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Síndrome HELLP y Complicación Hepática Quirúrgica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Multípara de 31 años con embarazo de 34.1 semanas de gestación que acude a urgencias por presentar desde hace 12 horas dolor intenso y opresivo en epigastrio e hipocondrio derecho irradiado al hombro ipsilateral, acompañado de náuseas, vómitos de contenido gástrico e ictericia conjuntival leve. Constantes vitales: TA 165/105 mmHg, FC 98 lpm, FR 20 rpm, afebril. A la palpación abdominal: hepatomegalia dolorosa a 3 cm por debajo del reborde costal con signo de Murphy negativo. Los exámenes de laboratorio revelan: Hb 8.4 g/dL (previa de 12.2 g/dL hace una semana), frotis de sangre periférica con esquistocitos (3%), plaquetas 38,000/microL, creatinina 1.2 mg/dL, bilirrubina total 2.4 mg/dL a expensas de indirecta (1.8 mg/dL), AST 480 UI/L, ALT 410 UI/L, DHL 1,280 UI/L, glucosa 90 mg/dL; tiempos de coagulación: TP 13.2 s, TTPa 33 s, fibrinógeno 320 mg/dL.",
+      "question_text": "¿Cuál es el diagnóstico confirmatorio y la estratificación precisa de acuerdo con la clasificación de Mississippi para el Síndrome HELLP?",
+      "options": {
+        "A": "Síndrome HELLP clase 1 de Mississippi (trombocitopenia severa < 50,000/microL con hemólisis microangiopática y enzimas hepáticas elevadas).",
+        "B": "Síndrome HELLP clase 2 de Mississippi con requerimiento de plasmaféresis de urgencia en las primeras 2 horas.",
+        "C": "Hígado graso agudo del embarazo en fase terminal asociado a microangiopatía trombótica.",
+        "D": "Púrpura trombocitopénica trombótica (PTT) asociada al embarazo con deficiencia primaria de ADAMTS13."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "HELLP_Clasificacion",
+      "gpc_algorithm_step": "La clasificación de Mississippi para el Síndrome HELLP estratifica la gravedad según el nadir de plaquetas: Clase 1 (Grave/Severo: plaquetas < 50,000/microL, AST o ALT ≥ 70 UI/L, DHL > 600 UI/L), Clase 2 (Moderado: plaquetas 50,000 a 100,000/microL), Clase 3 (Leve: plaquetas 100,000 a 150,000/microL). La paciente presenta plaquetas en 38,000/microL, DHL 1,280 UI/L y esquistocitosis franca, lo que define Síndrome HELLP Clase 1. Se diferencia del hígado graso agudo porque este último cursa con hipoglucemia severa, coagulopatía con hipofibrinogenemia profunda y amilasa/amoníaco elevados.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje) / Confusión de Clasificaciones",
+        "explanation": "El distractor C busca confundir con Hígado Graso Agudo del Embarazo (criterios de Swansea), pero la paciente tiene fibrinógeno normal (320 mg/dL), normoglucemia y esquistocitosis típica de HELLP. El distractor B confunde la Clase 1 (< 50,000) con la Clase 2 (50,000-100,000)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo estratifica la gravedad del Síndrome HELLP la Clasificación de Mississippi?",
+        "back": "<b>Clase 1:</b> Plaquetas < 50,000/microL (Mayor morbimortalidad).<br><b>Clase 2:</b> Plaquetas 50,000 a 100,000/microL.<br><b>Clase 3:</b> Plaquetas 100,000 a 150,000/microL.<br>Todas requieren: DHL > 600 UI/L, AST/ALT ≥ 70 UI/L y hemólisis microangiopática.",
+        "tags": "D11 HELLP Clasificacion Mississippi Plaquetas GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Síndrome HELLP y Complicación Hepática Quirúrgica",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "En la misma paciente con Síndrome HELLP Clase 1 de 34.1 semanas de gestación, se programa la interrupción del embarazo por cesárea debido al deterioro hematológico y edad gestacional ≥ 34 semanas. Su recuento de plaquetas confirmado previo a entrar a quirófano es de 38,000/microL. La paciente no presenta sangrado espontáneo mucocutáneo activo.",
+      "question_text": "De acuerdo con la GPC mexicana y consensos internacionales para el manejo transfusional perioperatorio en Síndrome HELLP, ¿cuál es el umbral plaquetario mínimo indicado para realizar la intervención quirúrgica por cesárea con seguridad?",
+      "options": {
+        "A": "No se requiere transfusión de plaquetas a menos que el recuento sea inferior a 10,000/microL, independientemente de que se realice cesárea.",
+        "B": "Transfundir plaquetas únicamente si el recuento es menor a 20,000/microL o si se presenta sangrado activo en capa durante la incisión cutánea.",
+        "C": "Transfundir concentrados plaquetarios (o aféresis plaquetaria) para alcanzar una meta de al menos ≥ 50,000/microL antes de iniciar la incisión quirúrgica de la cesárea.",
+        "D": "Es mandatorio alcanzar un recuento plaquetario superior a 150,000/microL antes de entrar a quirófano postergando la cirugía por 24 horas."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Meta_Transfusional_Plaquetas",
+      "gpc_algorithm_step": "Para pacientes con Síndrome HELLP o preeclampsia severa que van a ser sometidas a cesárea, la GPC y los lineamientos transfusionales establecen como meta alcanzar un recuento plaquetario ≥ 50,000/microL antes de la cirugía para minimizar el riesgo de hemorragia obstétrica exanguinante en lecho quirúrgico. Para parto vaginal, la transfusión profiláctica se reserva si las plaquetas son < 20,000/microL. Si se contempla anestesia neuroaxial (bloqueo epidural/subaracnoideo), la mayoría de consensos exigen ≥ 70,000-80,000/microL para evitar hematoma epidural espinal.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Umbrales Médicos vs Quirúrgicos",
+        "explanation": "El umbral de < 10,000 o < 20,000/microL aplica para profilaxis médica en pacientes hematológicos no quirúrgicos. En obstetricia quirúrgica (cesárea mayor), el umbral mínimo de seguridad hemostática es de 50,000/microL."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los umbrales de transfusión de plaquetas en Síndrome HELLP según la vía de nacimiento?",
+        "back": "<b>Cesárea:</b> Transfundir si plaquetas < 50,000/microL (meta ≥ 50,000).<br><b>Parto Vaginal:</b> Transfundir si plaquetas < 20,000/microL (o sangrado activo).<br><b>Anestesia Neuroaxial:</b> Requiere generalmente ≥ 70,000-80,000/microL para evitar hematoma espinal.",
+        "tags": "D11 HELLP Plaquetas Transfusion Cesarea Umbrales GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Síndrome HELLP y Complicación Hepática Quirúrgica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Durante el traslado a la mesa de operaciones de la misma paciente con Síndrome HELLP clase 1, la paciente refiere súbitamente intensificación lancinante del dolor en hipocondrio derecho que se irradia en puñalada a la escápula derecha, seguido de palidez mucocutánea generalizada intensa, diaforesis profusa y pérdida del estado de alerta. Constantes vitales: TA 65/35 mmHg, FC 142 lpm filiforme, pulsos periféricos apenas palpables. A la exploración física: abdomen intensamente distendido, timpánico en marco cólico pero mate en flancos, con resistencia muscular involuntaria y datos de irritación peritoneal franca. Se sospecha rotura de hematoma subcapsular hepático.",
+      "question_text": "Ante el colapso hemodinámico crítico secundario a la probable rotura de hematoma hepático en síndrome HELLP, ¿cuál es la conducta médico-quirúrgica inmediata de elección según la GPC y el manejo multidisciplinario?",
+      "options": {
+        "A": "Traslado inmediato a la sala de tomografía axial computarizada de abdomen contrastada para cuantificar la extensión del hematoma antes de intervenir.",
+        "B": "Manejo conservador en la Unidad de Cuidados Intensivos mediante infusión de noradrenalina y ácido tranexámico sin exploración quirúrgica.",
+        "C": "Canalización a sala de hemodinamia para intentar embolización arterial hepática selectiva por radiología intervencionista antes de la cesárea.",
+        "D": "Activación del Código Mater / transfusión masiva, reanimación agresiva con hemoderivados e ingreso urgente inmediato a quirófano para laparotomía exploradora, empaquetamiento hepático (packing) y resolución de la gestación."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Hematoma_Hepatico_Cirugia",
+      "gpc_algorithm_step": "La rotura de hematoma subcapsular hepático es la complicación más catastrófica del Síndrome HELLP (mortalidad materna > 30-50%). Se manifiesta por choque hipovolémico hemorrágico súbito y abdomen agudo quirúrgico. En una paciente inestable, está formalmente proscrito el traslado al tomógrafo ('la paciente inestable no viaja a tomografía'). La conducta correcta es activar el protocolo de transfusión masiva (paquete globular, plasma fresco y plaquetas) y entrar a laparotomía exploradora urgente multidisciplinaria (con cirugía general/trasplante) para empaquetamiento perihepático (packing), hemostasia tópica y cesárea de urgencia.",
+      "distractor_trap": {
+        "trap_type": "La Trampa del Estudio de Imagen en Paciente Inestable",
+        "explanation": "La TAC trifásica de abdomen es el estudio de elección para el hematoma subcapsular hepático SOLO si la paciente está hemodinámicamente estable. Ante choque hipovolémico y colapso, enviar a tomografía retrasa la reanimación quirúrgica y suele ser fatal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta inmediata ante la rotura de hematoma subcapsular hepático con inestabilidad hemodinámica en Síndrome HELLP?",
+        "back": "<b>Conducta:</b> Activación de transfusión masiva + Laparotomía exploradora urgente con empaquetamiento perihepático (packing) y cesárea inmediata.<br><b>REGLA DE ORO:</b> NUNCA enviar a tomografía a una paciente hemodinámicamente inestable.",
+        "tags": "D11 Hematoma_Hepatico HELLP Choque Laparotomia Packing GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Síndrome HELLP y Complicación Hepática Quirúrgica",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Tras realizar con éxito el empaquetamiento hepático quirúrgico y la resolución obstétrica por cesárea, la paciente ingresa a la Unidad de Cuidados Intensivos. Durante el pase de visita, el equipo médico debate sobre la indicación de administrar dexametasona en altas dosis (10 mg intravenosos cada 12 horas) con el objetivo específico de revertir los parámetros de laboratorio maternos alterados por el síndrome HELLP en el posparto.",
+      "question_text": "Con base en las revisiones sistemáticas de alta calidad y la postura de la GPC IMSS-058-08, ¿cuál es la recomendación oficial sobre el uso de dexametasona a dosis altas en el Síndrome HELLP posparto?",
+      "options": {
+        "A": "Es el tratamiento etiológico definitivo de primera línea y sustituye por completo la necesidad de transfusión plaquetaria y soporte hemodinámico.",
+        "B": "Puede considerarse para acelerar transitoriamente la recuperación del recuento plaquetario y descenso enzimático, aunque la evidencia demuestra que no reduce la mortalidad materna global ni las complicaciones mayores de forma concluyente.",
+        "C": "Está formalmente contraindicada por incrementar en un 400% la tasa de absceso hepático y sangrado posoperatorio en el sitio de empaquetamiento.",
+        "D": "Debe administrarse únicamente hidrocortisona en infusión continua de 500 mg al día por ser el único glucocorticoide sin efecto mineralocorticoide."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Esteroides_HELLP",
+      "gpc_algorithm_step": "El uso de dexametasona a dosis altas (10 mg IV cada 12 horas) en Síndrome HELLP posparto ha sido objeto de debate. Aunque diversos estudios mostraron una aceleración temporal en la elevación de plaquetas y disminución de DHL/transaminasas, la revisión Cochrane y la GPC señalan que no hay evidencia contundente de que reduzca la mortalidad materna global, insuficiencia renal ni necesidad de cuidados intensivos. Por lo tanto, puede considerarse como medida adyuvante para recuperar el recuento plaquetario de forma más rápida, pero no es obligatoria ni cura la patología de base.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Panacea Terapéutica",
+        "explanation": "Asumir que los esteroides son una indicación clase 1A obligatoria que reduce la mortalidad es falso. La evidencia actual los ubica como coadyuvantes biológicos transitorios para mejorar el conteo plaquetario, sin impacto concluyente en supervivencia dura materna."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la evidencia sobre el uso de Dexametasona a dosis altas en Síndrome HELLP según la GPC?",
+        "back": "<b>Efecto real:</b> Acelera la recuperación temporal del recuento de plaquetas y descenso de enzimas hepáticas.<br><b>Limitación:</b> NO reduce de forma concluyente la mortalidad materna, insuficiencia renal o morbilidad mayor.<br><b>Conclusión:</b> Coadyuvante opcional, no cura la patología.",
+        "tags": "D11 HELLP Dexametasona Corticosteroides Evidencia GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Hipertensión Crónica, Preeclampsia Sobreagregada y Prevención Primaria",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mujer de 35 años, multigesta (G3, P2), con diagnóstico de hipertensión arterial esencial desde hace 4 años, en tratamiento habitual con losartán 50 mg cada 24 horas y espironolactona 25 mg diarios. Acude por primera vez a consulta de control prenatal tras presentar retraso menstrual. Se realiza ultrasonido obstétrico transvaginal que confirma embarazo intrauterino único de 11.2 semanas con embrión vivo y latido cardíaco presente. A la exploración física: TA 144/92 mmHg, FC 78 lpm, IMC 31 kg/m2.",
+      "question_text": "¿Cuál es la conducta farmacológica inmediata prioritaria respecto al régimen antihipertensivo de esta paciente de acuerdo con la NOM-007 y la GPC?",
+      "options": {
+        "A": "Suspender de inmediato el losartán y la espironolactona por su fetotoxicidad comprobada (disgenesia renal fetal, oligohidramnios e hipoplasia pulmonar) e iniciar alfametildopa, labetalol o nifedipino oral si las cifras tensionales lo requieren.",
+        "B": "Mantener el losartán a la misma dosis hasta alcanzar la semana 20 de gestación, ya que los bloqueadores del receptor de angiotensina solo ejercen efectos teratogénicos en la segunda mitad del embarazo.",
+        "C": "Sustituir el losartán por enalapril a dosis bajas (5 mg diarios) para conservar el efecto antiproteinúrico materno durante el primer trimestre.",
+        "D": "Suspender todo fármaco antihipertensivo de por vida sin iniciar reemplazo, ya que cualquier antihipertensivo está contraindicado en el embarazo independientemente de las cifras tensionales."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Teratogenicidad_Antihipertensivos",
+      "gpc_algorithm_step": "Tanto los IECA (captopril, enalapril) como los ARA-II (losartán, telmisartán) están formalmente contraindicados durante el embarazo (Categoría D/X). La exposición en el primer trimestre se asocia a malformaciones cardiovasculares y del SNC, mientras que en el 2º y 3er trimestre induce la 'fetopatía por IECA/ARA2': agenesia/disgenesia renal, anuria fetal, oligohidramnios severo, hipoplasia pulmonar, contracturas de extremidades y muerte perinatal. Deben suspenderse inmediatamente al confirmar el embarazo y sustituirse por fármacos seguros: Alfametildopa, Labetalol o Nifedipino.",
+      "distractor_trap": {
+        "trap_type": "La Trampa del 'Daño Exclusivo Tardío'",
+        "explanation": "Creer que los ARA2 o IECA solo dañan en la segunda mitad del embarazo es un error grave. Aunque la fetopatía renal es más pronunciada en el segundo y tercer trimestre, la exposición temprana confiere teratogenicidad cardiovascular y del SNC; deben suspenderse tan pronto se sospeche o confirme la gestación."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué están formalmente contraindicados los IECA y ARA-II en el embarazo y qué fármacos se utilizan de reemplazo?",
+        "back": "<b>Fetopatía por IECA/ARA-II:</b> Agenesia renal, anuria fetal, oligohidramnios, hipoplasia pulmonar y malformaciones cardíacas.<br><b>Fármacos seguros de reemplazo:</b><br>1. Alfametildopa.<br>2. Labetalol.<br>3. Nifedipino (liberación prolongada).",
+        "tags": "D11 Antihipertensivos IECA ARA2 Teratogenicidad Alfametildopa GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Hipertensión Crónica, Preeclampsia Sobreagregada y Prevención Primaria",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "En la misma paciente de 35 años con hipertensión arterial crónica y embarazo de 11.2 semanas de gestación, se identifica que posee múltiples factores de riesgo mayor para el desarrollo de preeclampsia (hipertensión crónica preexistente, edad materna ≥ 35 años y obesidad grado I).",
+      "question_text": "Con base en la GPC IMSS-058-08 y la evidencia preventiva actual, ¿cuál es la intervención farmacológica profiláctica de elección recomendada para reducir la incidencia de preeclampsia pretérmino y restricción del crecimiento fetal?",
+      "options": {
+        "A": "Prescribir suplementación con vitamina C (1,000 mg/día) y vitamina E (400 UI/día) a partir de la semana 16 de gestación.",
+        "B": "Iniciar ácido acetilsalicílico a dosis de 500 mg cada 24 horas únicamente a partir de la semana 28 de gestación si aparecen edemas en miembros inferiores.",
+        "C": "Administrar heparina de bajo peso molecular a dosis anticoagulante plena de forma empírica hasta el final del embarazo.",
+        "D": "Iniciar ácido acetilsalicílico a dosis bajas (100 a 150 mg diarios) por vía oral administrado preferentemente por la noche, comenzando antes de la semana 16 de gestación (idealmente entre las semanas 12 y 16) y manteniéndolo hasta la semana 36."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Profilaxis_Aspirina",
+      "gpc_algorithm_step": "La GPC IMSS-058-08 y consensos internacionales establecen que en mujeres con factores de alto riesgo (hipertensión crónica, preeclampsia previa, enfermedad renal, diabetes pregestacional, síndrome antifosfolípido), la única intervención farmacológica con evidencia sólida para prevenir preeclampsia es el Ácido Acetilsalicílico a dosis bajas (100-150 mg/día; en México 100 mg/día). Debe iniciarse antes de la semana 16 (óptimamente semana 12-16) para modular la remodelación de las arterias espirales por el trofoblasto, y suspenderse en la semana 36. Los antioxidantes (vitamina C y E) demostraron no ser útiles e incrementan riesgos.",
+      "distractor_trap": {
+        "trap_type": "La Trampa del Escalón Temporal de la Aspirina",
+        "explanation": "Iniciar la aspirina después de la semana 16 (como en la semana 20 o 28) reduce drásticamente su eficacia porque la segunda oleada de invasión trofoblástica ya ha concluido. El distractor A ofrece vitaminas antioxidantes, las cuales fueron desaconsejadas formalmente tras ensayos clínicos de gran escala."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la dosis y ventana temporal óptima para profilaxis con Ácido Acetilsalicílico en Preeclampsia de alto riesgo?",
+        "back": "<b>Dosis:</b> 100 a 150 mg/día por vía oral (por la noche).<br><b>Momento de inicio:</b> Antes de la semana 16 (idealmente semana 12 a 16).<br><b>Suspensión:</b> A la semana 36 de gestación.<br><b>Indicación:</b> Factores de alto riesgo (HTA crónica, preeclampsia previa, ERC, DM, SAF).",
+        "tags": "D11 Profilaxis Aspirina Dosis Semanas GPC_IMSS"
+      }
+    },
+    {
+      "id": "d11_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Hipertensión Crónica, Preeclampsia Sobreagregada y Prevención Primaria",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A las 29.4 semanas de gestación, la misma paciente hipertensa crónica acude a urgencias porque sus cifras tensionales, que se mantenían estables en 125/80 mmHg con alfametildopa, se han elevado en los últimos 4 días a 165/105 mmHg en múltiples tomas domiciliarias. Se solicita recolección de orina de 24 horas que reporta proteinuria de 1.9 gramos/24h (su valor basal en el primer trimestre era de 75 mg/24h, sin proteinuria patológica). Los laboratorios muestran: ácido úrico 8.4 mg/dL, plaquetas 118,000/microL, AST 54 UI/L y creatinina de 0.95 mg/dL. Niega cefalea o fosfenos.",
+      "question_text": "De acuerdo con las clasificaciones normativas de los trastornos hipertensivos del embarazo en México, ¿cuál es el diagnóstico preciso de este cuadro?",
+      "options": {
+        "A": "Hipertensión gestacional transitoria no complicada refractaria al tratamiento médico habitual.",
+        "B": "Hipertensión arterial esencial crónica con síndrome nefrótico idiopático sobreañadido.",
+        "C": "Hipertensión crónica con preeclampsia sobreagregada (preeclampsia sobreañadida).",
+        "D": "Preeclampsia pura del tercer trimestre sin componente de hipertensión preexistente."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Preeclampsia_Sobreagregada",
+      "gpc_algorithm_step": "Se define Hipertensión Crónica con Preeclampsia Sobreagregada cuando una mujer con hipertensión arterial crónica conocida (previa al embarazo o diagnosticada antes de la semana 20): 1) Desarrolla proteinuria de novo después de la semana 20 (≥ 300 mg/24h); o 2) Presenta un incremento súbito y sustancial en la proteinuria previa; o 3) Sufre un incremento agudo y descontrolado de sus cifras tensionales que requiera escalamiento terapéutico; o 4) Desarrolla cualquier dato de disfunción orgánica (trombocitopenia, elevación de transaminasas, síntomas neurológicos, ácido úrico elevado).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje) / Ignorar Antecedente Crónico",
+        "explanation": "Diagnosticar preeclampsia pura (distractor D) ignora que la paciente ya era hipertensa conocida antes de la semana 20. El diagnóstico exacto y normativo es Preeclampsia sobreagregada a hipertensión crónica, una de las entidades con mayor riesgo de complicaciones materno-fetales."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios diagnósticos para Hipertensión Crónica con Preeclampsia Sobreagregada según la GPC?",
+        "back": "En una paciente con HTA antes de la semana 20:<br>1. Proteinuria de novo (≥ 300 mg/24h) después de la semana 20.<br>2. Aumento brusco de proteinuria o descontrol tensional severo previo.<br>3. Aparición de criterios de severidad (trombocitopenia < 100k, transaminasas elevadas, dolor epigástrico, creatinina > 1.1 mg/dL).",
+        "tags": "D11 Hipertension_Cronica Preeclampsia_Sobreagregada Criterios GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Hipertensión Crónica, Preeclampsia Sobreagregada y Prevención Primaria",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "En esta paciente de 29.4 semanas con hipertensión crónica y preeclampsia sobreagregada, se ajusta el tratamiento antihipertensivo oral combinando alfametildopa y nifedipino de liberación prolongada. El equipo médico debe definir el rango meta de control de presión arterial para evitar tanto el riesgo de evento vascular cerebral materno como la hipoperfusión placentaria fetal.",
+      "question_text": "¿Cuál es el rango de cifras tensionales meta normado por la GPC mexicana para optimizar el pronóstico materno y preservar el flujo útero-placentario fetal en pacientes hipertensas embarazadas?",
+      "options": {
+        "A": "Presión arterial sistólica menor a 110 mmHg y diastólica menor a 70 mmHg para asemejar las metas de nefropatía en no embarazadas.",
+        "B": "Presión arterial sistólica entre 130 y 139 mmHg y presión arterial diastólica entre 80 y 89 mmHg (evitando descensos de la PAD por debajo de 80 mmHg).",
+        "C": "Presión arterial sistólica entre 155 y 165 mmHg y diastólica entre 100 y 105 mmHg para asegurar hiperperfusión placentaria permanente.",
+        "D": "Presión arterial sistólica menor a 90 mmHg y diastólica menor a 60 mmHg para erradicar totalmente cualquier riesgo de convulsión."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Metas_Control_Presion",
+      "gpc_algorithm_step": "La GPC IMSS-058-08 y consensos internacionales establecen que la meta terapéutica en embarazadas con hipertensión arterial crónica o preeclampsia sin severidad es mantener la PAS en 130-139 mmHg y la PAD en 80-89 mmHg. Disminuir la presión diastólica por debajo de 80 mmHg se asocia a hipoperfusión placentaria (el flujo sanguíneo útero-placentario no tiene autorregulación y depende directamente de la presión arterial media materna), lo que ocasiona restricción del crecimiento intrauterino y sufrimiento fetal.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa' de Hipertensión General (AHA/ACC vs Obstetricia)",
+        "explanation": "En la población general no gestante, las metas de la AHA buscan PA < 120/80 o < 130/80 mmHg. Trasladar agresivamente esta meta al embarazo disminuye la perfusión intervellosa provocando bajo peso fetal al nacer y desaceleraciones fetales por hipoxia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la cifra tensional meta en embarazadas hipertensas según la GPC y por qué no bajar de 80 mmHg de PAD?",
+        "back": "<b>Meta Tensional:</b> PAS 130-139 mmHg y PAD 80-89 mmHg.<br><b>Peligro de PAD < 80 mmHg:</b> El lecho útero-placentario carece de autorregulación vascular; una caída brusca o excesiva causa hipoperfusión fetal, RCIU y sufrimiento fetal.",
+        "tags": "D11 Metas_Tensionales Flujo_Placentario Hipoperfusion GPC_IMSS"
+      }
+    },
+    {
+      "id": "d11_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Puérpera de 26 años, cursando su octavo día posparto tras una cesárea electiva por presentación pélvica en un embarazo que cursó con cifras tensionales normales y sin complicaciones. Acude al servicio de urgencias refiriendo cefalea occipital pulsátil muy intensa (9/10), fosfenos, náuseas y mareo que iniciaron hace 24 horas y no ceden con analgésicos comunes. A la exploración física: TA 168/108 mmHg, FC 84 lpm, afebril, reflejos rotulianos exaltados (+++/++++) con hiperreflexia generalizada; útero bien involucionado a nivel suprapúbico, loquios hemáticos escasos no fétidos, herida quirúrgica limpia. La tira reactiva en orina muestra proteínas 2+ (100 mg/dL).",
+      "question_text": "¿Cuál es el diagnóstico más probable y la conducta inicial inmediata establecida por la normativa mexicana para esta paciente?",
+      "options": {
+        "A": "Cefalea pospunción dural posanestésica tardía; la conducta es colocación inmediata de un parche hemático epidural sin requerir antihipertensivos.",
+        "B": "Infección puerperal endometrítica con respuesta inflamatoria sistémica; la conducta es inicio de clindamicina y gentamicina intravenosas.",
+        "C": "Trombosis venosa profunda puerperal atípica; la conducta prioritaria es anticoagulación plena con enoxaparina a 1 mg/kg cada 12 horas.",
+        "D": "Preeclampsia posparto de inicio tardío con criterios de severidad; la conducta es ingreso urgente, inicio de sulfato de magnesio intravenoso para neuroprotección y antihipertensivo de acción rápida (nifedipino oral o hidralazina IV)."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Preeclampsia_Puerperal",
+      "gpc_algorithm_step": "La preeclampsia posparto de inicio tardío se presenta entre las 48 horas y hasta las 4 a 6 semanas posparto. Constituye una causa frecuente de eclampsia posparto inadvertida, ya que muchos clínicos asumen erróneamente que la extracción de la placenta erradica inmediatamente todo riesgo. Ante cifras de PA ≥ 160/110 mmHg con cefalea severa e hiperreflexia en el puerperio, la conducta mandatoria es manejo con sulfato de magnesio IV para profilaxis de eclampsia y control antihipertensivo agudo inmediato.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje) / 'Ya parió, ya no es preeclampsia'",
+        "explanation": "Un error clásico en el ENARM es descartar preeclampsia en una paciente puérpera asumiendo que la cefalea es por punción dural o fatiga. Hasta un tercio de las eclampsias se presentan en el puerperio (más del 15% tardías después de 48 h)."
+      },
+      "anki_flashcard": {
+        "front": "¿Hasta cuándo puede presentarse la Preeclampsia posparto de inicio tardío y cómo se maneja si tiene criterios de severidad?",
+        "back": "<b>Temporalidad:</b> Entre las 48 horas y hasta 4-6 semanas posparto.<br><b>Manejo con Severidad:</b> Exactamente igual que en el embarazo: Sulfato de Magnesio IV (profilaxis de eclampsia) + Antihipertensivo de acción rápida (Nifedipino oral o Hidralazina IV).",
+        "tags": "D11 Preeclampsia_Puerperal Eclampsia_Tardia Manejo GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Primigesta de 28 años con embarazo de 33 semanas que ingresa a urgencias con preeclampsia severa: TA 175/110 mmHg, cefalea holocraneana intensa, hiperreflexia y proteinuria masiva. Al revisar exhaustivamente el expediente clínico, se documenta que la paciente tiene diagnóstico confirmado de Miastenia Gravis generalizada desde hace 3 años, controlada con piridostigmina oral. El médico adscrito indica preparar el esquema de sulfato de magnesio para profilaxis de eclampsia.",
+      "question_text": "¿Por qué está formalmente contraindicado el uso de sulfato de magnesio en esta paciente y cuál es el fármaco anticonvulsivo alternativo de elección normado?",
+      "options": {
+        "A": "El ion magnesio inhibe la liberación presináptica de acetilcolina y desensibiliza la placa neuromuscular, pudiendo desencadenar una crisis miasténica fulminante con paro respiratorio inmediato; el anticonvulsivo alternativo es la fenitoína sódica (o levetiracetam).",
+        "B": "El sulfato de magnesio compite con los receptores muscarínicos de piridostigmina provocando crisis colinérgica grave; el fármaco de elección alternativo es el sulfato de atropina en infusión.",
+        "C": "El magnesio no tiene ninguna contraindicación en miastenia gravis siempre que se administre junto con neostigmina profiláctica a doble dosis.",
+        "D": "El magnesio precipita rabdomiólisis aguda destructiva en pacientes con miopatías autoinmunes; el fármaco de elección es el ácido valproico intravenoso."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Contraindicacion_Miastenia",
+      "gpc_algorithm_step": "La Miastenia Gravis es una contraindicación absoluta para el uso de Sulfato de Magnesio. El magnesio disminuye la liberación cuántica de acetilcolina en la terminación nerviosa presináptica y reduce la sensibilidad de la membrana postsináptica a la acetilcolina, lo que en una paciente miasténica precipita parálisis flácida de los músculos respiratorios y crisis miasténica potencialmente mortal. En estos casos excepcionales, la profilaxis anticonvulsiva de eclampsia se realiza con Fenitoína sódica (15-18 mg/kg bolo lento diluido en solución fisiológica) o Levetiracetam.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto (Contraindicación Absoluta Oculta)",
+        "explanation": "El sulfato de magnesio es la regla indiscutible en preeclampsia, PERO tiene contraindicaciones letales específicas: miastenia gravis, bloqueo AV de alto grado e insuficiencia renal anúrica no monitorizada. Identificar el antecedente de miastenia gravis cambia la conducta al 100%."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué está contraindicado el Sulfato de Magnesio en Miastenia Gravis y cuál es la alternativa en preeclampsia severa?",
+        "back": "<b>Mecanismo de daño:</b> El Mg bloquea la liberación de acetilcolina en la unión neuromuscular, causando parálisis respiratoria fatal (crisis miasténica).<br><b>Fármaco alternativo:</b> Fenitoína sódica (o Levetiracetam).",
+        "tags": "D11 Miastenia_Gravis Sulfato_Magnesio Fenitoina Contraindicacion GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Multípara de 30 años con 34 semanas de gestación diagnosticada con preeclampsia severa en una unidad médica de primer nivel. Antes de su traslado en ambulancia, recibió una sobrecarga hídrica intravenosa vigorosa con 3,500 mL de solución salina al 0.9% en un lapso de 3 horas. Al ingresar a la sala de choque de tercer nivel, la paciente presenta súbitamente disnea severa en reposo, ortopnea, sensación de asfixia inminente y tos con expectoración espumosa asalmonada. Constantes vitales: TA 180/115 mmHg, FC 124 lpm, FR 34 rpm, SatO2 81% al aire ambiente. A la auscultación pulmonar: estertores crepitantes húmedos bilaterales diseminados desde las bases hasta los ápices pulmonares en ambos campos.",
+      "question_text": "¿Cuál es el manejo médico inmediato de primera línea para revertir esta complicación pulmonar aguda de acuerdo con los algoritmos normativos de la GPC?",
+      "options": {
+        "A": "Infusión rápida de 1,000 mL de solución de albúmina humana al 20% para elevar la presión coloidoonmótica intravascular de forma inmediata.",
+        "B": "Administración de un bolo de 8 gramos de sulfato de magnesio intravenoso como broncodilatador de emergencia sin diuréticos.",
+        "C": "Administración inmediata de furosemida intravenosa (20 a 40 mg en bolo lento), oxigenoterapia de alto flujo / soporte ventilatorio con presión positiva, control agresivo de la poscarga con vasodilatadores y restricción hídrica estricta.",
+        "D": "Inducción inmediata de anestesia peridural continua para vasodilatación esplácnica con infusión simultánea de 500 mL de gelatina polimerizada."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Edema_Agudo_Pulmon",
+      "gpc_algorithm_step": "El edema agudo de pulmón es una de las principales causas de muerte materna en preeclampsia (mortalidad del 10 al 12%), con frecuencia desencadenado por la administración iatrogénica excesiva de líquidos cristaloides en una vasculatura con fuga capilar endotelial sistémica, poscarga marcadamente aumentada e hipoalbuminemia. El tratamiento de rescate prioritario es: 1) Oxígeno suplementario de alto flujo o CPAP/ventilación mecánica no invasiva; 2) Furosemida 20 a 40 mg IV en bolo lento; 3) Reducción rápida de la poscarga con vasodilatadores (hidralazina o nitroglicerina IV); 4) Restricción estricta de líquidos (máximo 60-80 mL/h en total).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de los Coloides y Expansión Hídrica",
+        "explanation": "Administrar albúmina o coloides durante la fase aguda de edema pulmonar empeora el edema hidrostático pulmonar por aumento agudo de volemia y permeabilidad capilar alterada. El diurético de asa (furosemida) es la piedra angular en el edema agudo de pulmón obstétrico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de rescate del Edema Agudo de Pulmón en Preeclampsia Severa según la GPC?",
+        "back": "1. Oxigenoterapia / Presión positiva (CPAP o intubación).<br>2. Furosemida IV: 20 a 40 mg en bolo lento.<br>3. Vasodilatador de poscarga: Hidralazina o Nitroglicerina IV.<br>4. Restricción hídrica estricta (máximo 60-80 mL/hora).",
+        "tags": "D11 Edema_Pulmonar Furosemida Preeclampsia_Severa GPC_IMSS"
+      }
+    },
+    {
+      "id": "d11_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Primigesta de 21 años con 37.3 semanas de gestación por amenorrea confiable y ultrasonido de primer trimestre. Acude a consulta prenatal donde se detecta TA de 144/92 mmHg, confirmada con 142/92 mmHg a las 4 horas de reposo. Se encuentra asintomática, sin cefalea, acúfenos ni epigastralgia. El examen general de orina muestra proteinuria de 1+ en tira y relación proteína:creatinina urinaria de 0.35 mg/mg. Los estudios de laboratorio reportan: plaquetas 195,000/microL, AST 22 UI/L, ALT 24 UI/L, creatinina 0.65 mg/dL y DHL 210 UI/L. El perfil biofísico fetal es de 10/10 con peso estimado en percentil 50.",
+      "question_text": "Con el diagnóstico confirmado de Preeclampsia sin criterios de severidad en un embarazo de término (≥ 37.0 semanas), ¿cuál es la conducta obstétrica normada por la GPC IMSS-058-08 y la evidencia del ensayo HYPITAT?",
+      "options": {
+        "A": "Manejo conservador expectante ambulatorio con citas semanales hasta alcanzar la semana 41 de gestación, esperando el inicio espontáneo del trabajo de parto.",
+        "B": "Hospitalización para reposo absoluto prolongado en decúbito lateral izquierdo y administración obligatoria de sulfato de magnesio por 7 días sin interrumpir la gestación.",
+        "C": "Realización forzosa de cesárea electiva inmediata, ya que la vía vaginal está contraindicada por norma en cualquier grado de preeclampsia.",
+        "D": "Inducción del trabajo de parto (o resolución del embarazo evaluando condiciones cervicales mediante escala de Bishop), ya que a partir de la semana 37.0 la interrupción previene complicaciones maternas sin aumentar la morbilidad neonatal."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Resolucion_Termino",
+      "gpc_algorithm_step": "En preeclampsia sin criterios de severidad que alcanza las 37.0 semanas de gestación (o 38 según algunos algoritmos previos de GPC IMSS-058-08), el ensayo clínico internacional HYPITAT y las actualizaciones de CENETEC establecen que la resolución del embarazo (preferentemente mediante inducción del trabajo de parto) es la conducta de elección. Prolongar la gestación más allá de las 37 semanas no ofrece beneficio neonatal alguno y triplica el riesgo de progresión a preeclampsia severa, desprendimiento placentario o síndrome HELLP materno.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Cesárea Sistemática vs Inducción",
+        "explanation": "La preeclampsia por sí misma NO es indicación de cesárea rutinaria. Salvo contraindicaciones obstétricas (presentación pélvica, cesárea previa iterativa, DPPNI, sufrimiento fetal), la vía vaginal mediante inducción con prostaglandinas/oxitocina es la vía de elección recomendada."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta en Preeclampsia sin criterios de severidad al alcanzar las 37 semanas de gestación (Ensayo HYPITAT / GPC)?",
+        "back": "<b>Conducta:</b> Inducción del trabajo de parto (resolución del embarazo).<br><b>Razón:</b> Continuar el embarazo no aporta beneficio al feto maduro y triplica el riesgo materno de progresar a preeclampsia severa o HELLP.",
+        "tags": "D11 Preeclampsia_Termino Induccion HYPITAT Resolucion GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Primigesta de 29 años con 25 semanas de gestación que acude a control prenatal con cifras de presión arterial limítrofes (136/88 mmHg). Para optimizar la estratificación del riesgo y diferenciar entre una alteración fisiológica y un daño placentario precoz, el médico especialista solicita la cuantificación sérica del cociente de biomarcadores angiogénicos: tirosina cinasa 1 tipo fms soluble (sFlt-1) / factor de crecimiento placentario (PlGF). El resultado de laboratorio reporta un cociente sFlt-1/PlGF de 21 (punto de corte de referencia: < 38).",
+      "question_text": "¿Cuál es la interpretación clínica y la utilidad práctica fundamental de un cociente sFlt-1/PlGF inferior a 38 de acuerdo con la literatura médica contemporánea y guías de práctica clínica?",
+      "options": {
+        "A": "Confirma el diagnóstico inminente de preeclampsia severa con indicación mandatoria de hospitalización e interrupción en menos de 24 horas.",
+        "B": "Posee un valor predictivo negativo extremadamente alto (> 99%) para descartar el desarrollo de preeclampsia o complicaciones materno-fetales relacionadas en la siguiente semana (y hasta 4 semanas).",
+        "C": "Indica el inicio urgente de anticoagulación profiláctica con enoxaparina a dosis plena para prevenir necrosis cotiledónea placentaria.",
+        "D": "Constituye un marcador diagnóstico confirmatorio de restricción selectiva del crecimiento fetal que exige infusión de vasodilatadores de forma indefinida."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Biomarcadores_Angiogenicos",
+      "gpc_algorithm_step": "El cociente de biomarcadores angiogénicos sFlt-1/PlGF (estudio PROGNOSIS) es una herramienta de alta precisión para el manejo de pacientes con sospecha de preeclampsia. Un cociente < 38 tiene un Valor Predictivo Negativo (VPN) superior al 99% para descartar el desarrollo de preeclampsia en los 7 días posteriores (y VPN ~95% a las 4 semanas), lo que permite evitar hospitalizaciones innecesarias y manejar a la paciente de manera ambulatoria segura. Por el contrario, un cociente > 85 (pretérmino) o > 110 (a término) tiene alto valor predictivo positivo para preeclampsia inminente.",
+      "distractor_trap": {
+        "trap_type": "La Trampa del Falso Positivo / Ignorar el VPN",
+        "explanation": "Muchos médicos asumen que las pruebas de biomarcadores en sangre se piden para confirmar la enfermedad (VPP). El valor clínico revolucionario del ratio sFlt-1/PlGF radica en su Valor Predictivo Negativo cercano al 100%, permitiendo dar de alta o evitar ingresos costosos a mujeres con clínica dudosa."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la utilidad clínica de un cociente sFlt-1/PlGF < 38 en sospecha de Preeclampsia (Estudio PROGNOSIS)?",
+        "back": "<b>Valor Predictivo Negativo > 99%:</b> Descarta el desarrollo de preeclampsia y complicaciones en la siguiente semana (y hasta 4 semanas).<br><b>Utilidad práctica:</b> Evita hospitalizaciones innecesarias y permite manejo ambulatorio seguro.",
+        "tags": "D11 sFlt1_PlGF Biomarcadores VPN PROGNOSIS GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Case 5: Severe Early-Onset Preeclampsia at 31 Weeks with HELLP Syndrome and Fetal Compromise",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A 27-year-old primigravida at 31.4 weeks of gestation, with no prior medical comorbidities, presents to the obstetric emergency triage complaining of a persistent, throbbing holocranial headache (8/10 on visual analog scale) unmitigated by acetaminophen, blurred vision, and persistent epigastric discomfort over the past 6 hours. Physical examination reveals: blood pressure 172/114 mmHg confirmed after 15 minutes of rest, heart rate 94 bpm, respiratory rate 18 bpm, SaO2 98% on room air. Neurological evaluation demonstrates brisk patellar reflexes (++++/++++) with 3 beats of unsustained clonus. Symphysis-fundal height is 26 cm (markedly discordant for gestational age). Obstetric ultrasound demonstrates severe asymmetric fetal growth restriction (estimated fetal weight below the 3rd percentile) and Doppler velocimetry of the umbilical artery reveals absent end-diastolic flow (AEDF). Urgent laboratory workup shows: hemoglobin 10.8 g/dL, platelets 78,000/microL, serum creatinine 1.25 mg/dL, AST 145 U/L, ALT 160 U/L, LDH 780 U/L, total bilirubin 1.9 mg/dL (indirect 1.4 mg/dL), and automated urinalysis demonstrates 3+ proteinuria (300 mg/dL).",
+      "question_text": "According to Mexican Clinical Practice Guidelines (GPC IMSS-058-08 / CENETEC), what is the definitive diagnosis and clinical stratification for this patient?",
+      "options": {
+        "A": "Preeclampsia with severe features, accompanied by Class 2 HELLP syndrome and severe fetal growth restriction with abnormal fetoplacental Doppler.",
+        "B": "Gestational hypertension with constitutional small-for-gestational-age fetus and tension-type headache.",
+        "C": "Chronic hypertension with superimposed glomerulonephritis without end-organ microangiopathy.",
+        "D": "Thrombotic thrombocytopenic purpura (TTP) requiring urgent emergent therapeutic plasma exchange within 1 hour."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Estratificacion_Severidad",
+      "gpc_algorithm_step": "This patient fulfills diagnostic criteria for Preeclampsia with Severe Features based on severe blood pressure (≥ 160/110 mmHg), central nervous system manifestations (severe headache, clonus), and renal impairment (creatinine > 1.1 mg/dL). Concurrently, laboratory findings demonstrate Class 2 HELLP Syndrome according to the Mississippi classification (platelet count between 50,000 and 100,000/microL, AST/ALT > 70 U/L, and LDH > 600 U/L indicating microangiopathic hemolysis). Fetal compromise is corroborated by severe fetal growth restriction (< 3rd percentile) and absent end-diastolic velocity in the umbilical artery, marking severe uteroplacental insufficiency.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje) / Isolated Disease Anchor",
+        "explanation": "Distractor B minimizes severe blood pressure and signs of end-organ damage as 'gestational hypertension'. Distractor D confuses HELLP microangiopathy with TTP; although both feature microangiopathy, HELLP occurs in the context of preeclampsia and does not primarily require immediate plasmapheresis."
+      },
+      "anki_flashcard": {
+        "front": "What are the definitive diagnostic criteria for Preeclampsia with severe features and Class 2 HELLP syndrome in English?",
+        "back": "<b>Severe Preeclampsia:</b> BP ≥ 160/110 mmHg + visual/CNS symptoms, clonus, or Cr > 1.1 mg/dL.<br><b>Class 2 HELLP (Mississippi):</b><br>- Platelets: 50,000 to 100,000/microL.<br>- AST/ALT ≥ 70 U/L.<br>- LDH > 600 U/L (microangiopathic hemolysis).",
+        "tags": "D11 English_ENARM Preeclampsia HELLP_Class2 Doppler GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Case 5: Severe Early-Onset Preeclampsia at 31 Weeks with HELLP Syndrome and Fetal Compromise",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "In the same 27-year-old patient with severe preeclampsia and HELLP syndrome, blood pressure remains dangerously elevated at 174/112 mmHg. Immediate acute antihypertensive therapy is warranted to reduce the risk of maternal hemorrhagic stroke while avoiding placental hypoperfusion.",
+      "question_text": "According to Mexican Clinical Practice Guidelines (GPC IMSS-058-08), which of the following regimens represents the first-line pharmacologic intervention and corresponding therapeutic hemodynamic target?",
+      "options": {
+        "A": "Sublingual nifedipine 10 mg punctured capsule administered every 15 minutes until blood pressure drops below 110/70 mmHg.",
+        "B": "Intravenous hydralazine 5 mg to 10 mg slow bolus over 2 minutes (or oral immediate-release nifedipine 10 mg swallowed), targeting a systolic blood pressure between 130-150 mmHg and a diastolic blood pressure between 90-100 mmHg.",
+        "C": "Continuous intravenous sodium nitroprusside infusion at 5 mcg/kg/min aiming for immediate normalization of mean arterial pressure.",
+        "D": "Intravenous labetalol bolus of 100 mg in a patient with severe active asthma and third-degree atrioventricular block."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Crisis_Hipertensiva_Tx",
+      "gpc_algorithm_step": "For acute severe hypertensive crisis in pregnancy (BP ≥ 160/110 mmHg), Mexican clinical practice guidelines designate intravenous hydralazine (5-10 mg slow IV every 15-20 min, max 20-30 mg) or oral immediate-release nifedipine (10 mg swallowed, repeated in 20-30 min) as first-line agents. The therapeutic goal is a controlled reduction to SBP 130-150 mmHg and DBP 90-100 mmHg to preserve uteroplacental blood flow. Sublingual nifedipine is contraindicated due to precipitous hypotension and fetal distress.",
+      "distractor_trap": {
+        "trap_type": "La Trampa del Nifedipino Sublingual y Guía Gringa",
+        "explanation": "Punctured sublingual nifedipine is formally proscribed due to uncontrollable hypotension and fetal death. Labetalol in Distractor D is contraindicated due to severe asthma and AV block. Nitroprusside carries cyanide toxicity risks."
+      },
+      "anki_flashcard": {
+        "front": "What is the recommended first-line therapy and blood pressure target for acute hypertensive crisis in pregnancy (GPC IMSS-058-08)?",
+        "back": "<b>1st Line:</b> IV Hydralazine 5-10 mg slow bolus OR oral immediate-release Nifedipine 10 mg SWALLOWED.<br><b>Target:</b> SBP 130-150 mmHg, DBP 90-100 mmHg.<br><b>Contraindicated:</b> Sublingual nifedipine (uncontrolled drop and fetal demise).",
+        "tags": "D11 English_ENARM Hypertensive_Crisis Hydralazine Nifedipine GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Case 5: Severe Early-Onset Preeclampsia at 31 Weeks with HELLP Syndrome and Fetal Compromise",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Intravenous magnesium sulfate was initiated using the Zuspan protocol (4 g IV loading dose over 20 minutes, followed by 1 g/hour continuous infusion) for seizure prophylaxis. Four hours into the infusion, the nurse notices that the patient has become profoundly lethargic and bradypneic. On physical assessment: respiratory rate has dropped to 8 breaths per minute, SaO2 is 84%, deep tendon patellar reflexes are completely absent (0/4), and urinary output over the last 3 hours totaled only 40 mL (13 mL/hour).",
+      "question_text": "What is the immediate, life-saving therapeutic intervention mandated by clinical guidelines for this patient experiencing severe magnesium toxicity?",
+      "options": {
+        "A": "Immediately discontinue the magnesium sulfate infusion, secure the airway with oxygenation support, and administer 1 gram of 10% calcium gluconate (10 mL) intravenously over 3 to 5 minutes.",
+        "B": "Administer 40 mg of intravenous furosemide to force renal excretion of magnesium and double the infusion rate to prevent eclampsia.",
+        "C": "Administer 0.5 mg of intravenous flumazenil to reverse central nervous system depression.",
+        "D": "Infuse 500 mL of 0.9% saline with potassium chloride to promote competitive renal tubular excretion."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Antidoto_MgSO4",
+      "gpc_algorithm_step": "Severe hypermagnesemia (levels > 10-12 mEq/L) causes loss of deep tendon reflexes followed by life-threatening respiratory depression and cardiac arrest. The immediate management consists of: 1) Immediately stopping the magnesium sulfate infusion; 2) Airway protection and 100% oxygen; 3) Administration of Calcium Gluconate 10% (1 g IV over 3-5 minutes), which directly antagonizes magnesium's action at the neuromuscular junction and myocardial membranes.",
+      "distractor_trap": {
+        "trap_type": "La Trampa del Manejo Incompleto / Falso Antídoto",
+        "explanation": "Flumazenil is a benzodiazepine antagonist and has no efficacy against magnesium toxicity. Forcing diuresis with furosemida in an oliguric, hypovolemic preeclamptic patient worsens hemodynamic instability without reversing neuromuscular paralysis."
+      },
+      "anki_flashcard": {
+        "front": "What is the immediate management for Magnesium Sulfate toxicity with respiratory depression in pregnancy?",
+        "back": "1. STOP magnesium sulfate infusion immediately.<br>2. Support airway and ventilate with 100% O2.<br>3. Administer Calcium Gluconate 10%: 1 g IV (10 mL) slow push over 3 to 5 minutes.<br>4. Monitor urine output and serum magnesium.",
+        "tags": "D11 English_ENARM Magnesium_Toxicity Calcium_Gluconate Antidote GPC"
+      }
+    },
+    {
+      "id": "d11_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Case 5: Severe Early-Onset Preeclampsia at 31 Weeks with HELLP Syndrome and Fetal Compromise",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Following calcium gluconate administration, respiratory depression resolves and magnesium toxicity is controlled. Betamethasone (12 mg IM) was initiated for fetal lung maturity. However, continuous electronic fetal heart rate monitoring demonstrates recurrent late decelerations with absent baseline variability (Category III tracing), and repeat umbilical artery Doppler confirms persistent absent end-diastolic velocity. Platelets have dropped to 52,000/microL and maternal blood pressure requires escalating doses of hydralazine.",
+      "question_text": "Considering the gestational age of 31.4 weeks, refractory Class 2 HELLP syndrome, and non-reassuring fetal status (Category III tracing with absent umbilical end-diastolic flow), what is the definitive obstetric management recommended by clinical practice guidelines?",
+      "options": {
+        "A": "Continue conservative hospital management for at least 7 days to complete the full benefit of corticosteroids and achieve 34 weeks of gestation.",
+        "B": "Initiate high-dose intravenous oxytocin infusion for vaginal labor induction with a planned delivery goal within 48 to 72 hours.",
+        "C": "Perform an emergent diagnostic cordocentesis to evaluate fetal acidosis before making any surgical decision.",
+        "D": "Proceed with prompt delivery via emergency cesarean section following maternal stabilization and platelet optimization, as fetal distress and HELLP progression override expectant management regardless of gestational age."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Resolucion_Obstetrica",
+      "gpc_algorithm_step": "According to GPC IMSS-058-08 and international guidelines, expectant management between 24 and 33.6 weeks is ONLY permissible when both maternal and fetal conditions remain stable. The presence of non-reassuring fetal heart rate tracing (Category III), absent end-diastolic flow, and progressive HELLP syndrome represents an absolute contraindication to expectant management. Prompt delivery by cesarean section is mandatory once the mother is stabilized, irrespective of gestational age.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje) / Obstetric Procrastination",
+        "explanation": "Attempting to delay delivery to reach 34 weeks in the setting of Category III fetal heart tracing and absent umbilical end-diastolic flow results in intrauterine fetal death and maternal catastrophe. Delivery must not be delayed once fetal decompensation or severe maternal organ failure occurs."
+      },
+      "anki_flashcard": {
+        "front": "When is expectant management contraindicated in severe preeclampsia under 34 weeks of gestation?",
+        "back": "<b>Absolute indications for immediate delivery regardless of gestational age:</b><br>1. Non-reassuring fetal status (Category III, persistent absent/reversed diastolic flow).<br>2. Progressive HELLP syndrome or DIC.<br>3. Eclampsia or persistent severe CNS symptoms.<br>4. Pulmonary edema or renal failure.<br>5. Placental abruption (DPPNI).",
+        "tags": "D11 English_ENARM Delivery_Timing Contraindications_Expectant Cesarean GPC"
+      }
+    }
+  ]
+}

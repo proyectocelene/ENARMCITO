@@ -1,0 +1,392 @@
+{
+  "topic_code": "D16",
+  "title": "Pre-Test Psicométrico: Patología Biliar (Tokio, Colangitis)",
+  "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18/TG20)",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d16_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18)",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 42 años, multípara con IMC de 31.4 kg/m², acude al servicio de urgencias por presentar dolor de inicio súbito en hipocondrio derecho de 8 horas de evolución, posterior a la ingesta de alimentos grasos. El dolor es de intensidad 8/10, constante, con irradiación a la región subescapular derecha, acompañado de náuseas y dos episodios de vómito gastroalimentario. A la exploración física: TA 125/80 mmHg, FC 88 lpm, FR 18 rpm, temperatura 38.2 °C. Se observa facies de dolor; abdomen blando, doloroso a la palpación profunda en hipocondrio derecho con maniobra de Murphy positiva franca (interrupción brusca de la inspiración a la palpación subcostal) y resistencia muscular involuntaria local. Laboratorios: leucocitos 13,800/mm³ con 81% de neutrófilos, proteína C reactiva 28 mg/L, bilirrubina total 0.8 mg/dL, amilasa 52 UI/L, examen general de orina sin alteraciones.",
+      "question_text": "Con base en la GPC IMSS-237 y los Criterios Diagnósticos de Tokio 2018 (TG18), ¿cuál es el estudio de imagen inicial de elección para confirmar la sospecha de colecistitis aguda litiásica?",
+      "options": {
+        "A": "Gammagrafía de vías biliares con ácido iminodiacético marcado con Tecnecio-99m (HIDA scan).",
+        "B": "Ultrasonido de hígado y vías biliares (ecografía abdominal en tiempo real).",
+        "C": "Tomografía computarizada trifásica de abdomen y pelvis con contraste intravenoso.",
+        "D": "Colangiopancreatografía retrógrada endoscópica (CPRE) diagnóstica urgente."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Sospecha de colecistitis aguda (Murphy positivo + fiebre/leucocitosis + dolor > 6 horas): el ultrasonido de hígado y vías biliares es el estudio de primera elección por su alta sensibilidad (88%), especificidad (80%), disponibilidad inmediata y ausencia de radiación.",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-237 y las Guías de Tokio 2018 (TG18), el ultrasonido de hígado y vías biliares es el estudio de imagen inicial de elección ante la sospecha clínica de colecistitis aguda. Presenta una sensibilidad del 88% y especificidad del 80%. Los hallazgos ultrasonográficos característicos incluyen: engrosamiento de la pared vesicular > 4 mm, signo de Murphy ecográfico positivo, presencia de lito impactado en el cuello vesicular o bacinete, sobredistensión vesicular (> 8 x 4 cm) y líquido perivesicular. La gammagrafía HIDA se reserva como estándar de oro funcional únicamente cuando el ultrasonido no sea concluyente.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón Diagnóstico]: La gammagrafía HIDA es el estándar de oro funcional por su sensibilidad > 95%, pero NO es el estudio inicial de elección debido a menor disponibilidad, mayor costo y demora temporal en urgencias.",
+        "C": "[Distractor de Espectro por Sobreuso de Imagen]: La tomografía computarizada tiene menor sensibilidad para identificar litos de colesterol radiolúcidos vesiculares en comparación con el ultrasonido y somete innecesariamente al paciente a radiación ionizante y nefrotoxicidad por contraste.",
+        "D": "[Distractor Invasivo Iatrogénico]: La CPRE es un procedimiento intervencionista de la vía biliar común y papila mayor con riesgo de pancreatitis post-CPRE (5-10%); no tiene indicación diagnóstica en colecistitis vesicular aislada sin colangitis o coledocolitiasis."
+      }
+    },
+    {
+      "id": "d16_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18)",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "En la misma paciente de 42 años del caso anterior, el ultrasonido abdominal reporta: vesícula biliar distendida de 9 x 4.5 cm, pared vesicular con engrosamiento difuso de 5.5 mm y doble contorno, múltiples litos móviles en el lumen con un lito de 16 mm impactado en la bolsa de Hartmann, Murphy ecográfico positivo y escasa cantidad de líquido libre perivesicular. El colédoco mide 4.2 mm de diámetro, sin litiasis coledociana visible. Se corroboran sus parámetros de laboratorio: leucocitos 13,800/mm³, plaquetas 250,000/mm³, creatinina sérica 0.7 mg/dL, bilirrubina total 0.8 mg/dL, INR 1.0, PaO2/FiO2 420 mmHg, TA 125/80 mmHg sin requerimiento de aminas vasoactivas. La paciente no presenta masa palpable dolorosa en hipocondrio derecho y el tiempo total de evolución de los síntomas al momento de la evaluación es de 10 horas.",
+      "question_text": "Con base en los criterios de severidad de las Guías de Tokio 2018 (TG18) adoptados por la normativa mexicana, ¿en qué grado de severidad se clasifica la colecistitis aguda de esta paciente?",
+      "options": {
+        "A": "Grado I (Leve): inflamación aguda limitada a la vesícula biliar, sin disfunción orgánica y sin criterios de grado moderado o grave.",
+        "B": "Grado II (Moderada): debido a la presencia de engrosamiento de la pared vesicular mayor a 4 mm y líquido perivesicular.",
+        "C": "Grado II (Moderada): debido a la presencia de leucocitosis superior a 12,000/mm³ y fiebre documentada mayor a 38 °C.",
+        "D": "Grado III (Grave): debido a la existencia de signos de respuesta inflamatoria sistémica y lito impactado en el cuello vesicular."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Leucocitos 13,800/mm³ (< 18,000/mm³), evolución de 10 horas (< 72 h), sin masa palpable ni disfunción orgánica: cumple estrictamente criterios de Grado I (Leve) de Tokio. El engrosamiento parietal y líquido perivesicular son criterios diagnósticos de colecistitis (Ítem C de Tokio), NO de severidad Grado II.",
+      "justificacion_gpc": "Las Guías de Tokio 2018 (TG18) clasifican la severidad de la colecistitis aguda en tres grados: Grado III (Grave) cuando existe disfunción de al menos un órgano (cardiovascular, neurológica, respiratoria, renal, hepática o hematológica); Grado II (Moderada) si cumple cualquiera de los 4 criterios: leucocitosis > 18,000/mm³, masa palpable dolorosa en CSD, duración de la enfermedad > 72 horas, o marcada inflamación local (gangrena, enfisema, absceso perivesicular); y Grado I (Leve) cuando no cumple criterios de Grado II ni III. Esta paciente tiene leucocitosis de 13,800 (< 18,000), 10 horas de evolución (< 72 h) y no tiene disfunción orgánica ni masa, por lo que es Grado I (Leve).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Confusión Criterio Diagnóstico vs Severidad]: El engrosamiento de pared vesicular > 4 mm y el líquido perivesicular son criterios imagenológicos para confirmar el diagnóstico de colecistitis (Criterio C), pero NO son criterios de severidad Grado II.",
+        "C": "[Distractor de Punto de Corte Hematológico]: La leucocitosis > 10,000-12,000 y fiebre confirman inflamación sistémica diagnóstica (Criterio B), pero para clasificar como Grado II (Moderada) se requiere una leucocitosis > 18,000/mm³.",
+        "D": "[Distractor por Sobredimensión de Severidad]: El Grado III (Grave) exige disfunción hemodinámica dependiente de vasopresores, neurológica, respiratoria, renal con oliguria/Cr > 2.0, INR > 1.5 o plaquetas < 100,000/mm³; jamás se define por la impactación del lito."
+      }
+    },
+    {
+      "id": "d16_q3",
+      "index": 3,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18)",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "La misma paciente de 42 años con colecistitis aguda litiásica Grado I (Leve) de Tokio cursa con 12 horas de evolución desde el inicio del dolor. Se encuentra hemodinámicamente estable, con riesgo quirúrgico habitual (ASA I). Se inicia hidratación con soluciones cristaloides, analgesia intravenosa con ketorolaco y una dosis profiláctica de antibiótico intravenoso. El equipo quirúrgico evalúa el momento oportuno para la resolución definitiva.",
+      "question_text": "De acuerdo con la GPC IMSS-237 y las recomendaciones de las Guías de Tokio 2018 (TG18), ¿cuál es el tratamiento quirúrgico definitivo de primera elección y el momento óptimo para su ejecución?",
+      "options": {
+        "A": "Colecistectomía laparoscópica temprana realizada dentro de las primeras 72 horas del inicio de los síntomas.",
+        "B": "Manejo médico conservador intrahospitalario con antibióticos y programación de colecistectomía electiva diferida a las 6 a 8 semanas.",
+        "C": "Colecistostomía percutánea guiada por ultrasonido con drenaje vesicular externo bajo anestesia local.",
+        "D": "Colecistectomía abierta mediante incisión subcostal de Kocher de primera intención para evitar lesión iatrogénica de la vía biliar."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Colecistitis aguda Grado I (Leve) con menos de 72 horas de evolución en paciente sin contraindicaciones: la colecistectomía laparoscópica temprana en las primeras 72 horas es el tratamiento de primera línea de elección, reduciendo días de estancia hospitalaria, costos y tasa de complicaciones frente al manejo diferido.",
+      "justificacion_gpc": "La GPC IMSS-237 y las Guías de Tokio 2018 (TG18) establecen que para la colecistitis aguda Grado I (Leve), el abordaje de primera línea es la colecistectomía laparoscópica temprana, idealmente en las primeras 72 horas del inicio del cuadro clínico (o dentro de los primeros 7 días de hospitalización si el paciente se mantiene estable). La evidencia demuestra que la cirugía laparoscópica temprana reduce significativamente la estancia hospitalaria global, los costos y las readmisiones por complicaciones biliares recurrentes, sin incrementar la tasa de conversiones ni la morbimortalidad en comparación con la cirugía diferida a 6-8 semanas.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Paradigma Quirúrgico Obsoleto]: El manejo conservador con cirugía electiva diferida a 6-8 semanas se asociaba a recurrencias de dolor (20-30%) y mayor fibrosis tisular; la normativa actual prioriza la resolución laparoscópica en el evento agudo temprano (< 72 h).",
+        "C": "[Distractor de Terapia de Rescate para Comorbilidad]: La colecistostomía percutánea está indicada exclusivamente en pacientes con colecistitis aguda Grado III o en aquellos con riesgo quirúrgico-anestésico prohibitivo (ASA III-IV) que no toleran anestesia general.",
+        "D": "[Distractor de Vía de Abordaje]: La vía laparoscópica es el estándar de oro quirúrgico por menor dolor posoperatorio, menor infección de herida y recuperación más rápida; la laparotomía abierta se reserva como conversión ante dificultades anatómicas o sangrado incontrolable."
+      }
+    },
+    {
+      "id": "d16_q4",
+      "index": 4,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18)",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 66 años con antecedente de diabetes mellitus tipo 2 e hipercolesterolemia, acude a urgencias con cuadro de 24 horas de evolución que inició con dolor cólico intenso en epigastrio e hipocondrio derecho irradiado a dorso. En las últimas 12 horas el cuadro se acompaña de fiebre de hasta 39.0 °C con escalofríos intensos e ictericia conjuntival y cutánea progresiva, refiriendo además orina oscura (coluria) y heces blanquecinas (acolia). A la exploración física: TA 118/74 mmHg, FC 102 lpm, FR 20 rpm, temperatura 38.8 °C, SpO2 96%. Paciente íntegro, reactivo y orientado en tiempo, espacio y persona. Abdomen blando, doloroso a la palpación en hipocondrio derecho y epigastrio, sin datos de peritonitis ni masa palpable. Laboratorios: leucocitos 17,200/mm³ con 86% neutrófilos, bilirrubina total 6.2 mg/dL, bilirrubina directa 5.1 mg/dL, fosfatasa alcalina 490 UI/L, gamma-glutamil transferasa (GGT) 340 UI/L, ALT 85 UI/L, AST 78 UI/L, amilasa 60 UI/L, creatinina 0.9 mg/dL, plaquetas 215,000/mm³.",
+      "question_text": "Con base en la semiología clásica y los criterios diagnósticos de las Guías de Tokio (TG18), ¿cuál es el síndrome clínico integrado por fiebre con escalofríos, ictericia y dolor en hipocondrio derecho en este paciente?",
+      "options": {
+        "A": "Tríada de Charcot, diagnóstica de colangitis aguda supurativa secundaria a obstrucción de la vía biliar.",
+        "B": "Péntada de Reynolds, debido a la presencia de taquicardia y leucocitosis mayor a 17,000/mm³.",
+        "C": "Tríada de Rigler, altamente sugestiva de íleo biliar secundario a fístula biliodigestiva.",
+        "D": "Tríada de Virchow, correspondiente a tromboflebitis séptica de la vena porta (pileflebitis)."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Fiebre con escalofríos + Ictericia obstructiva + Dolor en hipocondrio derecho con paciente consciente y hemodinámicamente estable: Tríada de Charcot presente en 50-70% de colangitis aguda; la Péntada de Reynolds requiere choque séptico (hipotensión) y confusión mental/letargo.",
+      "justificacion_gpc": "La tríada clásica de Charcot está constituida por: 1) fiebre con escalofríos, 2) ictericia y 3) dolor en el hipocondrio derecho, la cual se observa en el 50-70% de los pacientes con colangitis aguda secundaria a obstrucción biliar (habitualmente por coledocolitiasis). La péntada de Reynolds agrega choque séptico (hipotensión arterial) y alteración del estado de alerta (confusión mental, letargo), confiriendo una mortalidad superior al 50% si no se descomprime la vía biliar de emergencia. Este paciente se encuentra consciente, orientado y normotenso, por lo que cumple estrictamente la Tríada de Charcot.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Progresión Séptica Incompleta]: La péntada de Reynolds exige hipotensión refractaria/choque séptico y depresión neurológica; la taquicardia aislada y leucocitosis forman parte de la respuesta sistémica de la Tríada de Charcot.",
+        "C": "[Distractor de Epónimo Radiológico]: La tríada de Rigler es un signo tomográfico/radiográfico de íleo biliar (neumobilia, cálculos biliares ectópicos y distensión de asas de intestino delgado), sin relación con la tríada semiológica de colangitis.",
+        "D": "[Distractor Fisiopatológico Extremo]: La tríada de Virchow evalúa trombogénesis (lesión endotelial, estasis e hipercoagulabilidad) y la pileflebitis cursa con abscesos hepáticos y bacteriemia sin el patrón clínico típico de Charcot."
+      }
+    },
+    {
+      "id": "d16_q5",
+      "index": 5,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18)",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "En el paciente de 66 años del caso anterior con colangitis aguda e hiperbilirrubinemia directa, el ultrasonido abdominal inicial de urgencia confirma vesícula biliar litiásica con dilatación franca de la vía biliar extrahepática: colédoco de 13 mm de diámetro con una imagen ecogénica productora de sombra acústica posterior de 11 mm en su porción distal intrapancreática, compatible con coledocolitiasis obstructiva. Se inicia reanimación hídrica agresiva con solución cristaloide y antibioticoterapia parenteral de amplio espectro con ceftriaxona más metronidazol.",
+      "question_text": "De acuerdo con las Guías de Tokio 2018 (TG18) y la normativa quirúrgica mexicana, ¿cuál es el procedimiento confirmatorio y de descompresión biliar de elección (estándar de oro) que debe programarse en este paciente?",
+      "options": {
+        "A": "Colangiopancreatografía retrógrada endoscópica (CPRE) con esfinterotomía endoscópica y extracción del lito o colocación de endoprótesis biliar.",
+        "B": "Colangiorresonancia magnética (CPRM) en 3D para mapeo anatómico antes de definir cualquier intervención invasiva.",
+        "C": "Laparotomía exploradora con coledocotomía, extracción de litos con pinzas de Randall y colocación de sonda en T (tubo de Kehr).",
+        "D": "Colecistectomía laparoscópica de urgencia con intento de exploración transcística de la vía biliar dentro de las primeras 6 horas."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Colangitis aguda por coledocolitiasis demostrada: la CPRE es el estándar de oro terapéutico y diagnóstico simultáneo de elección para lograr la descompresión biliar urgente mediante esfinterotomía o colocación de stent, evitando la morbimortalidad de una cirugía abierta en un paciente infectado.",
+      "justificacion_gpc": "Tanto las Guías de Tokio 2018 (TG18) como la GPC mexicana establecen que el tratamiento angular de la colangitis aguda es la descompresión biliar oportuna asociada a antibioticoterapia. El procedimiento de elección indiscutible (estándar de oro) es el drenaje endoscópico mediante CPRE, el cual permite visualizar la vía biliar, realizar esfinterotomía de la papila de Vater, extraer el lito con canastilla o balón de Fogarty, o en su defecto colocar una prótesis plástica o nasobiliar que garantice el flujo biliar inmediato. Presenta una tasa de éxito superior al 90% con significativamente menor morbilidad y mortalidad que la exploración quirúrgica abierta de la vía biliar.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Imagen No Terapéutica]: La colangiorresonancia (CPRM) es excelente para diagnóstico no invasivo en coledocolitiasis dudosa de riesgo intermedio, pero en un paciente con colangitis activa demostrada por USG, retrasar el procedimiento sin posibilidad de drenaje terapéutico pone en riesgo la vida del paciente.",
+        "C": "[Distractor Quirúrgico Abierto de Alta Morbilidad]: La coledocotomía abierta con colocación de sonda en T se reserva como alternativa de rescate ante falla o inaccesibilidad de la CPRE y drenaje percutáneo, ya que conlleva una morbimortalidad quirúrgica severa en pacientes con sepsis biliar activa.",
+        "D": "[Distractor de Conducta Quirúrgica Errónea]: Realizar colecistectomía urgente sin resolver primero la obstrucción distal del colédoco en un paciente séptico no resuelve la colangitis ascendente y somete al paciente a riesgo de lesión de vía biliar."
+      }
+    },
+    {
+      "id": "d16_q6",
+      "index": 6,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18)",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Seis horas después de su ingreso al piso de medicina interna, el mismo paciente de 66 años del caso anterior presenta un deterioro clínico súbito: su presión arterial desciende a 80/45 mmHg (PAM 56 mmHg), la cual persiste refractaria tras la administración de 2,000 mL de solución Ringer lactato a 30 mL/kg, requiriendo el inicio de infusión continua de norepinefrina para mantener PAM ≥ 65 mmHg. Se encuentra con letargo profundo, desorientado, con escala de coma de Glasgow de 11 puntos, polipneico a 28 rpm, con oliguria marcada de 15 mL/h en las últimas 2 horas. Los nuevos laboratorios revelan creatinina sérica que se elevó de 0.9 a 2.5 mg/dL, plaquetas que descendieron a 88,000/mm³ y lactato sérico en 4.2 mmol/L. Se traslada a la Unidad de Cuidados Intensivos (UCI) confirmando colangitis aguda Grado III (Grave de Tokio) / Péntada de Reynolds.",
+      "question_text": "De acuerdo con el algoritmo de manejo de las Guías de Tokio 2018 (TG18) y la normativa del ENARM, ¿cuál es el tiempo meta obligatorio para realizar la descompresión biliar en este paciente con colangitis aguda grave?",
+      "options": {
+        "A": "Descompresión biliar de emergencia inmediata tan pronto como sea posible, dentro de las primeras horas (< 12 a 24 horas), en paralelo con la estabilización intensiva en UCI.",
+        "B": "Diferir la descompresión biliar durante 48 a 72 horas para esperar la negativización bacteriana tras el ciclo completo de antibióticos parenterales.",
+        "C": "Posponer el procedimiento endoscópico hasta que la cifra de plaquetas sea superior a 150,000/mm³ y la creatinina se normalice a < 1.2 mg/dL.",
+        "D": "Programar descompresión biliar electiva de forma ambulatoria al egreso hospitalario a los 7 a 10 días."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Colangitis aguda Grado III (Péntada de Reynolds: disfunción cardiovascular dependiente de vasopresores, renal, hematológica y neurológica): la descompresión biliar de emergencia debe realizarse dentro de las primeras horas de forma inmediata; diferir el procedimiento más allá de 24 horas incrementa la mortalidad por choque séptico refractario a más del 50-80%.",
+      "justificacion_gpc": "Las Guías de Tokio 2018 (TG18) estratifican la urgencia de la descompresión biliar según la severidad: en Grado I (Leve), descompresión temprana dentro de las primeras 48-72 h si no responde a antibióticos; en Grado II (Moderada), descompresión temprana en las primeras 24-48 horas; y en Grado III (Grave / Péntada de Reynolds con disfunción orgánica), la descompresión biliar de emergencia debe realizarse inmediatamente en las primeras horas (< 12-24 h) simultáneamente a la reanimación hemodinámica en UCI. La postergación del drenaje biliar en un paciente con choque séptico biliar irreversible incrementa la mortalidad de forma exponencial.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Intervalo de Grado Leve]: Esperar 48-72 horas es una conducta reservada únicamente para colangitis leve (Grado I); aplicarla en un choque séptico Grado III ocasiona falla multiorgánica irreversible y muerte.",
+        "C": "[Distractor por Dilación Falsa de Seguridad]: En colangitis supurativa con sepsis severa, la trombocitopenia y la lesión renal aguda son consecuencia de la propia endotoxemia no resuelta; esperar la normalización paraclínica sin drenar la pus biliar es un error letal.",
+        "D": "[Distractor Incongruente de Baja Agudeza]: El drenaje electivo ambulatorio no tiene ningún papel en la colangitis aguda con descompensación hemodinámica."
+      }
+    },
+    {
+      "id": "d16_q7",
+      "index": 7,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Consenso Tokio TG18",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 34 años con antecedentes de dislipidemia y obesidad grado II (IMC 37.8 kg/m²), acude al servicio de urgencias por dolor súbito y progresivo en hipocondrio derecho de 9 horas de evolución acompañado de náuseas, anorexia y febrícula (37.9 °C). A la exploración: dolor focalizado a la palpación en hipocondrio derecho pero con maniobra de Murphy clínico dudosa por abundante panículo adiposo y defensa voluntaria. Se le realiza ultrasonido abdominal en dos ocasiones por médicos distintos, reportándose como no concluyente debido a marcada interposición de gas colónico y marcada esteatosis hepática que genera atenuación acústica severa, sin poder visualizar claramente la vesícula biliar ni valorar el grosor de su pared. Los exámenes de laboratorio revelan leucocitos de 14,100/mm³ con 82% neutrófilos y PCR de 35 mg/L, manteniendo una alta sospecha clínica de colecistitis aguda litiásica.",
+      "question_text": "Con base en la GPC IMSS-237 y la literatura de alta especialidad para el ENARM, cuando el ultrasonido inicial resulta no concluyente o equívoco, ¿cuál es el estudio de imagen estándar de oro funcional con mayor sensibilidad y especificidad diagnóstica para confirmar colecistitis aguda?",
+      "options": {
+        "A": "Gammagrafía biliar con derivados del ácido iminodiacético marcados con Tecnecio-99m (Colecistogammagrafía HIDA / 99mTc-DISIDA).",
+        "B": "Radiografía simple de abdomen en proyecciones anteroposterior y decúbito lateral con rayo horizontal.",
+        "C": "Tomografía computarizada helicoidal de abdomen simple sin medio de contraste intravenoso.",
+        "D": "Colangiopancreatografía retrógrada endoscópica (CPRE) diagnóstica de la vesícula biliar."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Sospecha fundada de colecistitis aguda con ultrasonido no concluyente o dudoso: la gammagrafía de vías biliares con 99mTc-HIDA es el estándar de oro confirmatorio con sensibilidad del 97% y especificidad del 90%, evidenciando ausencia de llenado de la vesícula biliar a las 4 horas por obstrucción litiásica del conducto cístico.",
+      "justificacion_gpc": "La GPC IMSS-237 y las directrices internacionales definen a la gammagrafía hepatobiliar con radionúclidos marcados con 99mTc (HIDA o DISIDA) como el estándar de oro funcional para el diagnóstico de colecistitis aguda (sensibilidad ~97%, especificidad ~90%). El radiofármaco es excretado por los hepatocitos hacia la bilis; en condiciones normales la vesícula biliar se visualiza en los primeros 30 a 60 minutos. La ausencia de llenado de la vesícula biliar pasadas 1 a 4 horas (en presencia de llenado del colédoco y paso a duodeno) confirma la obstrucción anatómica o litiásica del conducto cístico, patognomónica de colecistitis aguda.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Utilidad Marginal]: La radiografía simple de abdomen solo detecta litos en un 10-15% (aquellos con suficiente contenido de calcio para ser radiopacos) y no permite diagnosticar inflamación parietal vesicular ni obstrucción del cístico.",
+        "C": "[Distractor Subóptimo por Tomografía Simple]: La TC sin contraste tiene baja sensibilidad para detectar colecistitis aguda y cálculos de colesterol isodensos con la bilis, resultando inferior al ultrasonido y a la gammagrafía HIDA.",
+        "D": "[Distractor Invasivo sin Indicación]: La CPRE canaliza el colédoco y conducto pancreático, pero no permite canular con fiabilidad el conducto cístico ni evaluar la pared vesicular, asociándose a morbilidad innecesaria."
+      }
+    },
+    {
+      "id": "d16_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18)",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 81 años con antecedente de infarto agudo de miocardio transmural hace 6 semanas, insuficiencia cardíaca terminal con fracción de eyección del ventrículo izquierdo del 20%, enfermedad renal crónica estadio 4 (TFG 20 mL/min/1.73 m²) y dependencia domiciliaria de oxígeno por neumopatía restrictiva grave. Es trasladada al hospital con cuadro de 3 días de dolor en hipocondrio derecho, fiebre de 38.6 °C, hipotensión con TA 85/55 mmHg que requiere noradrenalina a dosis medias y somnolencia. El ultrasonido demuestra vesícula biliar litiásica con engrosamiento parietal de 7 mm, contenido purulento heterogéneo y líquido perivesicular, catalogándose como Colecistitis Aguda Grado III (Grave de Tokio). El comité de anestesiología y cirugía general dictamina un riesgo quirúrgico anestésico prohibitivo (ASA IV-E, mortalidad perioperatoria calculada > 70%) para cualquier procedimiento bajo anestesia general.",
+      "question_text": "Con base en la GPC IMSS-237 y las Guías de Tokio (TG18), ¿cuál es el procedimiento de rescate terapéutico de primera línea para el control de la fuente séptica en esta paciente con alto riesgo quirúrgico?",
+      "options": {
+        "A": "Colecistostomía percutánea guiada por ultrasonido o tomografía bajo anestesia local para descompresión vesicular.",
+        "B": "Colecistectomía abierta urgente de salvamento mediante incisión media supraumbilical bajo anestesia regional epidural.",
+        "C": "Tratamiento médico puramente conservador con triple esquema de antibióticos parenterales, contraindicando cualquier intervención mecánica.",
+        "D": "Colecistectomía laparoscópica precoz con colocación de drenaje subhepático de Penrose."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Colecistitis aguda Grado III en paciente anciana con riesgo quirúrgico extremo (ASA IV-E, falla cardíaca terminal, vasopresores): la colecistostomía percutánea con anestesia local es el procedimiento intervencionista de rescate obligado por GPC para evacuar la bilis purulenta y desinflamar la vesícula, evitando la mortalidad de la colecistectomía.",
+      "justificacion_gpc": "La GPC IMSS-237 y las Guías de Tokio 2018 (TG18) establecen que en pacientes con colecistitis aguda grave (Grado III) o colecistitis moderada (Grado II) que presentan un riesgo quirúrgico prohibitivo (ASA III-IV, choque séptico refractario, comorbilidades cardiopulmonares extremas), la colecistectomía está contraindicada por su altísima morbimortalidad. En estos casos, el tratamiento de elección es la colecistostomía percutánea guiada por imagen (ultrasonido o TAC) realizada con anestesia local. Este procedimiento drena la bilis a tensión y pus del lumen vesicular, controlando el foco séptico de forma rápida y mínimamente invasiva, permitiendo estabilizar al paciente y diferir la cirugía definitiva a un segundo tiempo o mantener el tubo como tratamiento definitivo.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor Quirúrgico Temerario]: Someter a una paciente en choque cardiogénico/séptico con fracción de eyección de 20% a laparotomía abierta bajo anestesia epidural generaría colapso circulatorio irreversible.",
+        "C": "[Distractor Incompleto por Inacción]: El tratamiento exclusivamente médico en una colecistitis grado III complicada con empiema vesicular tiene una falla terapéutica > 60% si no se logra la descompresión mecánica del foco séptico a tensión.",
+        "D": "[Distractor de Neumoperitoneo Letal]: La insuflación de CO2 para laparoscopia aumenta la postcarga cardíaca, disminuye el retorno venoso y compromete el gasto cardíaco en una paciente con FEVI del 20% e inestabilidad hemodinámica."
+      }
+    },
+    {
+      "id": "d16_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18)",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Varón de 54 años acude a urgencias por presentar dolor constante en cuadrante superior derecho de 74 horas de evolución, fiebre de 38.4 °C y masa dolorosa palpable en hipocondrio derecho. Laboratorios: leucocitos 19,200/mm³ con neutrofilia del 88%, creatinina 0.9 mg/dL, bilirrubina total 1.0 mg/dL. Se diagnostica Colecistitis Aguda Grado II (Moderada de Tokio). En la anamnesis farmacológica, el paciente y su expediente médico confirman antecedente fidedigno de choque anafiláctico (colapso cardiovascular, estridor laríngeo y angioedema) hace 3 años tras recibir ampicilina, y reacción alérgica similar con urticaria severa y broncoespasmo ante cefuroxima. El equipo quirúrgico programa colecistectomía y requiere iniciar cobertura antibiótica parenteral contra los patógenos biliares habituales (enterobacterias gramnegativas y anaerobios).",
+      "question_text": "Con base en la GPC IMSS-237 y las recomendaciones de las Guías de Tokio 2018 para infecciones intraabdominales biliares, ¿cuál es el esquema antimicrobiano parenteral de elección para este paciente con alergia anafiláctica grave a betalactámicos?",
+      "options": {
+        "A": "Fluorquinolona (Ciprofloxacino o Levofloxacino) intravenosa combinada con Metronidazol intravenoso.",
+        "B": "Piperacilina con tazobactam intravenosa a dosis de 4.5 gramos cada 6 horas.",
+        "C": "Ceftriaxona intravenosa 1 gramo cada 12 horas más Metronidazol intravenoso 500 mg cada 8 horas.",
+        "D": "Vancomicina intravenosa en monoterapia a dosis de 15 mg/kg cada 12 horas."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Alergia anafiláctica grave confirmada a penicilinas y cefalosporinas (contraindicación absoluta de toda la familia betalactámica): el esquema alternativo no betalactámico de elección es Ciprofloxacino (o Levofloxacino) + Metronidazol, cubriendo Escherichia coli, Klebsiella y anaerobios como Bacteroides fragilis.",
+      "justificacion_gpc": "En las infecciones de vías biliares (colecistitis y colangitis), los agentes bacterianos más frecuentes son bacilos gramnegativos entéricos (E. coli, Klebsiella pneumoniae, Enterobacter) y anaerobios (Bacteroides fragilis). Cuando existe antecedente comprobado de anafilaxia o reacción alérgica mediada por IgE a betalactámicos (penicilinas y cefalosporinas), toda la clase de betalactámicos está formalmente contraindicada por reactividad cruzada potencialmente fatal. La GPC IMSS-237 y las Guías de Tokio 2018 recomiendan como régimen no betalactámico de primera elección la combinación de una fluorquinolona con buena excreción biliar (Ciprofloxacino 400 mg IV c/12h o Levofloxacino 500 mg IV c/24h) asociada a Metronidazol (500 mg IV c/8h), o alternativamente un aminoglucósido (Amikacina) más Metronidazol.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Comorbilidad",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor Letal por Comorbilidad Alérgica]: Piperacilina/tazobactam es la primera línea en pacientes no alérgicos con Tokio II o III, pero administrarla a un paciente con choque anafiláctico a penicilinas precipitaría anafilaxia perioperatoria fulminante.",
+        "C": "[Distractor con Reactividad Cruzada Peligrosa]: Las cefalosporinas de tercera generación comparten epitopes betalactámicos y tienen reactividad cruzada documentada en pacientes con anafilaxia grave previa a penicilinas y cefalosporinas.",
+        "D": "[Distractor de Espectro Inadecuado]: La vancomicina cubre exclusivamente cocos grampositivos como MRSA y Enterococcus faecalis, careciendo de actividad contra E. coli y Klebsiella pneumoniae, que son los principales causantes de bacteriemia y sepsis biliar."
+      }
+    },
+    {
+      "id": "d16_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Manual Dr. Re & Dr. Prieto",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 37 años con IMC de 29.5 kg/m² acude al servicio de urgencias refiriendo dolor de tipo opresivo y cólico localizado en epigastrio e hipocondrio derecho de 3 horas de evolución, iniciado 45 minutos después de cenar alimentos con alto contenido graso. Refiere náusea sin llegar al vómito. A su llegada: TA 118/72 mmHg, FC 74 lpm, FR 16 rpm, afebril (temperatura 36.6 °C), saturación 98%. A la exploración física: abdomen blando y depresible, dolor leve a la palpación media en hipocondrio derecho sin defensa muscular, signo de Murphy negativo. Se administra una dosis de butilhioscina intravenosa y ketorolaco, con remisión completa del dolor a las 4 horas del inicio. Laboratorios: leucocitos 6,400/mm³, neutrófilos 60%, PCR 1.5 mg/L, bilirrubina total 0.7 mg/dL, fosfatasa alcalina 75 UI/L, amilasa 48 UI/L. El ultrasonido muestra vesícula biliar distendida con litiasis múltiple móvil, sin engrosamiento parietal (pared de 2.2 mm), sin lito enclavado y sin líquido perivesicular.",
+      "question_text": "De acuerdo con el algoritmo diagnóstico diferencial de la patología litiásica biliar de la GPC IMSS-237 y las perlas del Manual Dr. Re y Dr. Prieto, ¿cuál es el dato pivote cronológico y clínico que distingue formalmente al cólico biliar no complicado de una colecistitis aguda litiásica?",
+      "options": {
+        "A": "Duración del dolor menor a 6 horas (habitualmente remite en menos de 4 a 6 horas) en ausencia de respuesta inflamatoria sistémica (sin fiebre ni leucocitosis) y con signo de Murphy negativo.",
+        "B": "Presencia de ictericia cutánea transitoria con bilirrubina total superior a 4 mg/dL y elevación de aminotransferasas.",
+        "C": "Duración continua del dolor mayor a 12 horas pero con respuesta inmediata a antiespasmódicos orales en consulta.",
+        "D": "Identificación ultrasonográfica de pared vesicular engrosada mayor a 5 mm con litiasis microlitiásica múltiple en el fondo vesicular."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Dolor cólico posprandial < 6 horas sin fiebre, sin leucocitosis, Murphy negativo y pared < 4 mm: define Cólico Biliar no complicado. La colecistitis aguda se define por dolor persistente > 6 horas, Murphy positivo, respuesta inflamatoria (fiebre, leucocitosis) y pared > 4 mm.",
+      "justificacion_gpc": "En el diagnóstico diferencial de la patología litiásica biliar según la GPC IMSS-237 y los manuales de alta síntesis para el ENARM, la frontera temporal y fisiopatológica entre el cólico biliar y la colecistitis aguda radica en la duración del espasmo/impactación y la instauración de inflamación transmural. El cólico biliar es provocado por la impactación transitoria de un lito en el cístico con sobredistensión muscular, cuyo dolor cede característicamente en menos de 6 horas (típicamente entre 1 y 4 horas), sin fiebre, sin leucocitosis, sin signo de Murphy y con pared vesicular fina (< 3-4 mm). Si la obstrucción del cístico persiste por más de 6 horas, se produce isquemia, liberación de lisolecitina, invasión bacteriana y colecistitis aguda franca.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Coledocolitiasis]: La ictericia con hiperbilirrubinemia franca corresponde a coledocolitiasis obstructiva o hepatitis, no a un cólico biliar vesicular simple.",
+        "C": "[Distractor por Falsa Cronología]: Un dolor continuo superior a 6-12 horas ya no es un cólico biliar; por definición cumple criterio temporal de colecistitis aguda o complicación inflamatoria.",
+        "D": "[Distractor de Criterio Invertido]: El engrosamiento de pared vesicular > 4 mm es el hallazgo ultrasonográfico cardinal de colecistitis aguda; en el cólico biliar la pared es delgada y normal (≤ 3 mm)."
+      }
+    },
+    {
+      "id": "d16_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18)",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A 58-year-old male with a history of arterial hypertension presents to the emergency department complaining of constant, severe right upper quadrant abdominal pain that began 78 hours ago following a high-fat dinner. On physical examination: blood pressure is 132/84 mmHg, heart rate 94 bpm, respiratory rate 18 breaths/min, and oral temperature 38.3 °C. Abdominal evaluation reveals marked local peritoneal guarding and an exquisitely tender, palpable inflammatory mass in the right hypochondrium with a positive Murphy's sign. Laboratory investigations report: white blood cell count of 19,400/mm³ with 86% segmented neutrophils, C-reactive protein 74 mg/L, total bilirubin 1.1 mg/dL, serum creatinine 0.8 mg/dL, international normalized ratio (INR) 1.05, and platelet count 265,000/mm³. Transabdominal ultrasonography reveals gallbladder hydrops measuring 10 x 5 cm, wall thickness of 6.2 mm with marked pericholecystic fluid, and an impacted 20-mm calculus at the gallbladder neck, without common bile duct dilatation (4.5 mm).",
+      "question_text": "According to the Tokyo Guidelines 2018 (TG18) severity grading for acute cholecystitis endorsed by Mexican clinical practice guidelines, what is the formal severity grade for this patient?",
+      "options": {
+        "A": "Grade I (Mild) acute cholecystitis, because the patient has preserved hemodynamic stability and normal renal function.",
+        "B": "Grade II (Moderate) acute cholecystitis, characterized by leukocytosis > 18,000/mm³, a tender palpable mass in the right upper quadrant, and symptom duration > 72 hours.",
+        "C": "Grade III (Severe) acute cholecystitis, due to the presence of high-grade fever, extensive pericholecystic fluid, and marked inflammatory response.",
+        "D": "Unclassified complicated acute cholecystitis requiring immediate open surgical exploration without risk stratification."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Leucocitosis > 18,000/mm³ + Masa palpable dolorosa en CSD + Duración de síntomas > 72 horas sin disfunción de órganos: define inequívocamente Colecistitis Aguda Grado II (Moderada) de Tokio 2018.",
+      "justificacion_gpc": "Under the Tokyo Guidelines 2018 (TG18) diagnostic criteria and severity grading, Grade II (Moderate) Acute Cholecystitis is diagnosed when the patient meets any of the following four criteria without organ dysfunction: 1) Elevated white blood cell count > 18,000/mm³; 2) Palpable tender mass in the right upper quadrant; 3) Duration of symptoms > 72 hours; or 4) Marked local inflammation (gangrenous cholecystitis, pericholecystic abscess, hepatic abscess, biliary peritonitis, or emphysematous cholecystitis). This patient meets three of these criteria (leukocytosis of 19,400/mm³, palpable mass, and 78 hours of symptom duration) with normal organ function, classifying him definitively as Grade II (Moderate).",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor of Severity Underestimation]: Grade I (Mild) is reserved strictly for patients who do not meet any criteria for Grade II or Grade III; leukocytosis > 18,000, palpable mass, or > 72 hours automatically upstages the condition to Grade II.",
+        "C": "[Distractor of Organ Dysfunction Confusion]: Grade III (Severe) requires systemic organ dysfunction (cardiovascular needing vasopressors, neurological, respiratory with PaO2/FiO2 < 300, renal with oliguria or Cr > 2.0, hepatic with INR > 1.5, or thrombocytopenia < 100,000/mm³); fever and pericholecystic fluid alone do not define Grade III.",
+        "D": "[Distractor of Arbitrary Classification]: Bypassing formal Tokyo severity stratification violates international consensus and Mexican national guidelines, leading to substandard surgical timing."
+      }
+    },
+    {
+      "id": "d16_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC IMSS-237-09 / Guías de Tokio 2018 (TG18)",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 71-year-old female is rushed to the emergency department due to acute severe abdominal pain, high fever, and altered mental status. Over the preceding 24 hours, her family noted scleral jaundice, dark tea-colored urine, shivering chills, and progressive drowsiness. Upon arrival: blood pressure is 78/42 mmHg, heart rate 126 bpm, respiratory rate 26 breaths/min, and core temperature 39.5 °C. She is somnolent, responding only to noxious stimuli with a Glasgow Coma Scale score of 10. Physical exam shows pronounced generalized jaundice and marked tenderness in the right hypochondrium. Immediate resuscitation with 30 mL/kg of balanced crystalloids fails to restore perfusion (MAP remains 52 mmHg), prompting the initiation of continuous intravenous norepinephrine infusion. Emergency labs show: WBC 24,500/mm³, total bilirubin 8.4 mg/dL (direct bilirubin 6.9 mg/dL), serum creatinine 2.8 mg/dL, platelet count 78,000/mm³, and lactate 4.8 mmol/L. Bedside ultrasound displays a dilated common bile duct of 15 mm containing multiple obstructing stones in the distal portion (Reynolds' Pentad / Tokyo Guidelines Grade III Acute Cholangitis).",
+      "question_text": "Concomitantly with ICU resuscitation and broad-spectrum intravenous antimicrobial therapy, what is the mandatory first-line procedural intervention to achieve definitive source control in this patient?",
+      "options": {
+        "A": "Immediate emergency endoscopic retrograde cholangiopancreatography (ERCP) with biliary sphincterotomy and/or stent placement for urgent biliary decompression.",
+        "B": "Emergency open exploration of the common bile duct with T-tube (Kehr tube) drainage and cholecystectomy under general anesthesia.",
+        "C": "Conservative intensive medical management with vasopressors and antibiotics alone, deferring all endoscopic interventions until renal function normalizes.",
+        "D": "Percutaneous transhepatic gallbladder puncture without ductal decompression as the sole definitive intervention."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Colangitis aguda Grado III con choque séptico y falla orgánica múltiple (Péntada de Reynolds): la descompresión biliar de emergencia mediante CPRE con colocación de stent/esfinterotomía es la primera línea obligada para abatir la mortalidad superior al 50-80% asociada al retraso del drenaje.",
+      "justificacion_gpc": "Under the Tokyo Guidelines 2018 (TG18) and Mexican national clinical practice guidelines for acute cholangitis, patients with Grade III (Severe) acute cholangitis presenting with Reynolds' pentad (Charcot's triad plus septic shock and central nervous system depression) have an extremely high mortality rate without immediate biliary decompression. The mandatory first-line procedure of choice is emergency endoscopic decompression via ERCP (with endoscopic sphincterotomy or placement of a biliary plastic stent / nasobiliary drain). Endoscopic drainage is associated with significantly lower morbidity and mortality (5-10%) compared to emergency surgical common bile duct exploration (mortality 20-40%). Procedure timing must be immediate (< 12-24 hours) as soon as resuscitation with vasopressors is initiated.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor of Excessive Surgical Mortality]: Emergency open surgical choledochotomy in a patient with active refractory septic shock, metabolic acidosis, and thrombocytopenia carries a perioperative mortality exceeding 30-50%, making it an outdated second-line rescue option only when endoscopy fails.",
+        "C": "[Distractor of Lethal Delay]: In severe acute purulent cholangitis, intravenous antibiotics cannot penetrate the obstructed, high-pressure biliary tree; relying solely on medical therapy without relieving the obstructed pus causes irreversible multiple organ dysfunction syndrome.",
+        "D": "[Distractor of Ineffective Anatomical Target]: In choledocholithiasis causing complete distal common bile duct obstruction, percutaneous cholecystostomy frequently fails to decompress the biliary tree effectively if cystic duct patency is compromised, whereas ERCP directly relieves the main duct obstruction."
+      }
+    }
+  ]
+}

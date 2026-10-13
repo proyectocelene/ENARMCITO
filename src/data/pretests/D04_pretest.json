@@ -1,0 +1,393 @@
+{
+  "topic_code": "D04",
+  "title": "Pre-Test Psicométrico: EPOC, Asma Adulto/Pedia y NAC (CURB-65)",
+  "specialty": "MI",
+  "normativa_origen": "GPC IMSS-037 / IMSS-234 / GPC Asma CENETEC",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d04_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-234",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 68 años con antecedente de hipertensión arterial en tratamiento con losartán. Es llevado al servicio de urgencias por su hija debido a un cuadro de 4 días de evolución caracterizado por tos productiva con expectoración herrumbrosa, escalofríos, fiebre no cuantificada y disnea progresiva de medianos a pequeños esfuerzos. A la exploración física: se encuentra desorientado en tiempo y espacio, sin focalización motora (puntuación del Mini-Mental State Examination de 18/30); signos vitales: TA 85/55 mmHg, FC 114 lpm, FR 32 rpm, temperatura 38.9 °C, SatO2 86% al aire ambiente. A la auscultación torácica se aprecian estertores crepitantes y soplo tubárico en hemitórax derecho basal. Laboratorios: hemoglobina 13.8 g/dL, leucocitos 18,400/mm³ con 86% neutrófilos y 8% bandas; glucosa 118 mg/dL; nitrógeno ureico en sangre (BUN) 28 mg/dL (urea calculada 59.9 mg/dL); creatinina 1.4 mg/dL; sodio 134 mEq/L; potasio 4.1 mEq/L. Radiografía de tórax portátil: consolidación lobar alveolar en lóbulo inferior derecho con broncograma aéreo evidente.",
+      "question_text": "¿Cuál es el puntaje obtenido en la escala CURB-65 y la conducta de ubicación asistencial indicada de acuerdo con la GPC IMSS-234?",
+      "options": {
+        "A": "CURB-65 de 2 puntos; ingreso a sala de observación de urgencias por 24 horas y egreso con amoxicilina oral",
+        "B": "CURB-65 de 3 puntos; ingreso a hospitalización general en sala de medicina interna",
+        "C": "CURB-65 de 5 puntos; indicación de valoración e ingreso inmediato a la Unidad de Cuidados Intensivos (UCI)",
+        "D": "CURB-65 de 4 puntos; egreso hospitalario para manejo ambulatorio supervisado con levofloxacino oral"
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Cumple los 5 criterios de la mnemotecnia CURB-65: Confusión (desorientado), Urea > 19 mg/dL / BUN > 19 mg/dL (BUN 28 mg/dL), FR ≥ 30 rpm (32 rpm), Blood pressure < 90/60 mmHg (85/55 mmHg) y edad ≥ 65 años (68 años), confiriendo un riesgo de mortalidad > 22-30%.",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-234 para Neumonía Adquirida en la Comunidad (NAC), la escala CURB-65 evalúa: Confusión (1), Urea > 19 mg/dL o BUN > 7 mmol/L / > 19 mg/dL (1), Frecuencia respiratoria ≥ 30 rpm (1), Tensión arterial sistólica < 90 mmHg o diastólica ≤ 60 mmHg (1) y edad ≥ 65 años (1). Con 5 puntos, el paciente se clasifica en Grupo 3 (neumonía severa con alta mortalidad), siendo indicación obligatoria el ingreso o valoración prioritaria a la Unidad de Cuidados Intensivos (UCI) e inicio de terapia antimicrobiana parenteral combinada inmediata.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Escalon",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón]: Un puntaje de 2 puntos corresponde a riesgo intermedio y se maneja en sala de hospitalización general, pero este paciente reúne los 5 criterios completos; desestimar la severidad retrasa el ingreso a UCI y aumenta drásticamente la mortalidad.",
+        "B": "[Distractor de Escalón]: 3 puntos orienta a hospitalización general o UCI según criterios menores de ATS/IDSA, pero el paciente tiene 5 puntos completos (C=1, U=1, R=1, B=1, 65=1), lo que clasifica formalmente como neumonía de máxima gravedad.",
+        "D": "[Distractor por Condición Incompatible]: Un puntaje de 4 puntos jamás se maneja de forma ambulatoria; el manejo ambulatorio solo está indicado con CURB-65 de 0 o 1 punto sin factores sociales adversos."
+      }
+    },
+    {
+      "id": "d04_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-234",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "El paciente masculino de 68 años con NAC severa (CURB-65 de 5 puntos) es ingresado a la Unidad de Cuidados Intensivos. Se inicia ventilación mecánica no invasiva y soporte hidroelectrolítico con cristaloides. No tiene antecedentes de hospitalización en los últimos 90 días, no tiene bronquiectasias ni enfermedad pulmonar estructural previa, no ha recibido antibióticos en los últimos 3 meses y no presenta factores de riesgo conocidos para Pseudomonas aeruginosa ni Staphylococcus aureus resistente a meticilina (SARM). No presenta alergias medicamentosas conocidas.",
+      "question_text": "¿Cuál es el esquema antimicrobiano parenteral de primera línea indicado por la GPC IMSS-234 para este paciente durante su estancia en la UCI?",
+      "options": {
+        "A": "Ceftriaxona 2 g IV cada 24 horas en combinación con Claritromicina 500 mg IV cada 12 horas",
+        "B": "Amoxicilina con ácido clavulánico 875/125 mg por vía oral cada 12 horas en monoterapia",
+        "C": "Piperacilina con tazobactam 4.5 g IV cada 6 horas más Vancomicina 15 mg/kg IV cada 12 horas",
+        "D": "Monoterapia con Ciprofloxacino 400 mg IV cada 12 horas"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Paciente con NAC severa en UCI sin factores de riesgo para Pseudomonas aeruginosa ni SARM: requiere la cobertura sinérgica de un betalactámico IV de amplio espectro antineumocócico (cefalosporina de 3ra generación) MÁS un macrólido IV (o fluoroquinolona respiratoria) para cubrir gérmenes atípicos y Streptococcus pneumoniae.",
+      "justificacion_gpc": "Conforme a la GPC IMSS-234 y consensos IDSA/ATS, el tratamiento empírico de elección en pacientes con NAC severa ingresados a la UCI sin riesgo de Pseudomonas ni SARM es un betalactámico IV potente (Ceftriaxona 2 g IV al día o Cefotaxima o Ampicilina/sulbactam) MÁS un macrólido IV (Claritromicina 500 mg IV c/12h o Azitromicina 500 mg IV c/24h), o como alternativa betalactámico más fluoroquinolona respiratoria IV (Levofloxacino o Moxifloxacino). La combinación betalactámico + macrólido reduce la mortalidad gracias al efecto inmunomodulador del macrólido.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón]: La amoxicilina/clavulanato oral es de utilidad en el paciente ambulatorio con comorbilidades (CURB-65 de 1), pero es totalmente inapropiada e insuficiente para un paciente en estado crítico en UCI.",
+        "C": "[Distractor de Espectro Innecesario]: La combinación de piperacilina/tazobactam + vancomicina representa un sobretratamiento con toxicidad renal innecesaria, indicado únicamente ante sospecha fundada o aislamiento de Pseudomonas aeruginosa o SARM.",
+        "D": "[Distractor por Selección Inadecuada de Fármaco]: El ciprofloxacino no es una fluoroquinolona respiratoria, posee una actividad muy pobre contra Streptococcus pneumoniae y la monoterapia está contraindicada en NAC severa en UCI."
+      }
+    },
+    {
+      "id": "d04_q3",
+      "index": 3,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-234",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 54 años con diagnóstico de Neumonía Adquirida en la Comunidad clasificada con CURB-65 de 2 puntos (moderada), por lo que se decide su ingreso a sala general de Medicina Interna. En el interrogatorio dirigido refiere antecedente fidedigno de reacción anafiláctica inmediata a la penicilina (edema laríngeo, choque distributivo y urticaria generalizada que requirió adrenalina intramuscular en urgencias hace 5 años). El electrocardiograma muestra ritmo sinusal con intervalo QTc normal de 410 ms. Creatinina sérica 0.8 mg/dL.",
+      "question_text": "¿Cuál es el esquema terapéutico antimicrobiano de primera elección en esta paciente de acuerdo con la GPC IMSS-234 ante el antecedente de hipersensibilidad tipo I severa a betalactámicos?",
+      "options": {
+        "A": "Cefepime 2 g IV cada 8 horas más Azitromicina oral",
+        "B": "Levofloxacino 750 mg IV cada 24 horas en monoterapia",
+        "C": "Ampicilina con sulbactam 1.5 g IV cada 6 horas previa prueba cutánea",
+        "D": "Trimetoprima con sulfametoxazol 160/800 mg oral cada 12 horas"
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Hipersensibilidad tipo I (anafilaxia) a penicilinas contraindica absolutamente betalactámicos y cefalosporinas; en hospitalización general con QTc normal, la alternativa de elección es una fluoroquinolona respiratoria (Levofloxacino o Moxifloxacino).",
+      "justificacion_gpc": "La GPC IMSS-234 establece que en pacientes hospitalizados con NAC que presentan alergia grave o confirmada a betalactámicos (reacciones tipo I mediadas por IgE como anafilaxia o angioedema), las cefalosporinas están contraindicadas por el riesgo de reactividad cruzada. El tratamiento de elección en este escenario es la monoterapia con una fluoroquinolona respiratoria como Levofloxacino (750 mg IV/VO c/24h) o Moxifloxacino (400 mg IV/VO c/24h), los cuales ofrecen excelente cobertura contra Streptococcus pneumoniae y gérmenes atípicos.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Contraindicación Absoluta]: El cefepime es un betalactámico (cefalosporina de 4ta generación). En presencia de anafilaxia previa a penicilinas, existe riesgo significativo de choque anafiláctico cruzado, por lo que está contraindicado.",
+        "C": "[Distractor de Alto Riesgo]: La ampicilina es un aminopenicilínico. Realizar pruebas cutáneas o administrar ampicilina/sulbactam tras una anafilaxia previa documentada pone en peligro inminente la vida de la paciente existiendo opciones seguras eficaces.",
+        "D": "[Distractor de Cobertura Inadecuada]: El cotrimoxazol (TMP-SMX) no es tratamiento de primera línea ni de rescate para NAC bacteriana típica en pacientes hospitalizados debido a las elevadas tasas de resistencia neumocócica en México."
+      }
+    },
+    {
+      "id": "d04_q4",
+      "index": 4,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-037",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 61 años, albañil con exposición crónica intensa a humo de leña durante 25 años y tabaquismo con índice tabáquico de 32 paquetes-año. Acude a consulta externa por presentar disnea progresiva de esfuerzo de 3 años de evolución (actualmente mMRC grado 2), tos crónica matutina y expectoración mucosa blanquecina. A la exploración física: tórax con discreto aumento del diámetro anteroposterior, murmullo vesicular disminuido en ambos hemitórax y sibilancias tele-espiratorias aisladas. La radiografía de tórax muestra aplanamiento de cúpulas diafragmáticas y aumento del espacio claro retroesternal.",
+      "question_text": "¿Cuál es la prueba diagnóstica considerada Estándar de Oro (Gold Standard) para confirmar de forma definitiva el diagnóstico de Enfermedad Pulmonar Obstructiva Crónica (EPOC) según la GPC IMSS-037?",
+      "options": {
+        "A": "Espirometría forzada estandarizada con prueba broncodilatadora",
+        "B": "Tomografía computarizada de alta resolución (TACAR) de tórax en fase inspiratoria y espiratoria",
+        "C": "Medición seriada ambulatoria del flujo espiratorio máximo (PEF) con flujómetro portátil",
+        "D": "Gasometría arterial en reposo al aire ambiente con cálculo de gradiente alvéolo-arterial"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "La definición funcional y confirmatoria indiscutible de EPOC requiere demostrar limitación persistente al flujo aéreo mediante espirometría con una relación VEF1/CVF < 0.70 posbroncodilatador.",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-037 y la iniciativa global GOLD, la espirometría forzada con prueba broncodilatadora es el estándar de oro indispensable para el diagnóstico de EPOC. La presencia de una relación VEF1/CVF (FEV1/FVC) menor a 0.70 (o por debajo del límite inferior de la normalidad, LIN) posterior a la inhalación de 400 mcg de salbutamol confirma la limitación irreversible o persistente al flujo aéreo.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Anatómico]: La TACAR permite clasificar fenotípicamente el enfisema centroacinar/panacinar o descartar bronquiectasias, pero no evalúa la función fisiológica ni establece por sí sola el diagnóstico de EPOC sin espirometría.",
+        "C": "[Distractor de Espectro Diagnóstico]: La variabilidad del pico flujo espiratorio (PEF) se utiliza en el monitoreo y diagnóstico de asma bronquial, pero carece de la precisión diagnóstica para confirmar EPOC.",
+        "D": "[Distractor de Escalón de Severidad]: La gasometría arterial evalúa insuficiencia respiratoria e hipercapnia en etapas avanzadas o exacerbaciones, no es el estudio de confirmación diagnóstica inicial de la enfermedad."
+      }
+    },
+    {
+      "id": "d04_q5",
+      "index": 5,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-037",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "El mismo paciente de 61 años diagnosticado con EPOC acude 6 meses después al servicio de urgencias por deterioro clínico agudo de 48 horas de evolución. Manifiesta incremento sustancial de su disnea habitual (ahora limitante al mínimo esfuerzo y al reposo, mMRC 4), aumento notable en la cantidad habitual de secreciones y cambio evidente en las características del esputo, el cual se tornó espeso y francamente purulento (amarillo-verdoso). A la exploración: FC 102 lpm, FR 28 rpm, TA 130/80 mmHg, temperatura 37.8 °C, SatO2 88% al aire ambiente. A la auscultación: roncus abundantes y sibilancias bilaterales.",
+      "question_text": "Con base en la clasificación de Anthonisen recomendada en la GPC IMSS-037, ¿a qué tipo de exacerbación de EPOC corresponde y cuál es la conducta terapéutica indicada?",
+      "options": {
+        "A": "Exacerbación Tipo I (Grave); requiere broncodilatadores de acción corta, esteroide sistémico y antibioticoterapia empírica",
+        "B": "Exacerbación Tipo II (Moderada); requiere únicamente duplicar la dosis de broncodilatadores inhalados sin antibiótico",
+        "C": "Exacerbación Tipo III (Leve); se maneja con corticoide inhalado exclusivo y teofilina oral ambulatoria",
+        "D": "Exacerbación no infecciosa; contraindica el uso de esteroides sistémicos y antibióticos por riesgo de sobreinfección"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Presenta los 3 criterios cardinales de Anthonisen: 1) Aumento de disnea, 2) Aumento de volumen de esputo, 3) Purulencia de esputo -> Tipo I (severa), indicación formal e indiscutible de antibioticoterapia.",
+      "justificacion_gpc": "La GPC IMSS-037 adopta los criterios de Anthonisen para normar la conducta en la exacerbación de EPOC: Tipo I cuando están presentes los 3 síntomas cardinales (incremento de disnea, volumen de esputo y esputo purulento); Tipo II con 2 síntomas; Tipo III con 1 síntoma más fiebre o tos aumentada. Los pacientes con exacerbación Tipo I (o Tipo II siempre que uno de los dos síntomas sea esputo purulento) obtienen el mayor beneficio en reducción de mortalidad y fracaso terapéutico al recibir antibióticos (ej. amoxicilina/clavulanato, macrólido o fluoroquinolona) además de broncodilatadores inhalados (SABA + SAMA) y corticoide sistémico (prednisona 40 mg/día por 5 días).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Subclasificación Errónea]: El paciente presenta los 3 criterios completos, lo que define Anthonisen Tipo I y no Tipo II. Incluso en Tipo II, si existe purulencia de esputo, el antibiótico es estrictamente mandatorio.",
+        "C": "[Distractor Obsoleto]: Anthonisen Tipo III solo tiene un síntoma cardinal. Además, la teofilina oral está en desuso por su toxicidad y falta de eficacia en exacerbaciones agudas.",
+        "D": "[Distractor Falso Negativo]: El cambio del esputo a purulento es el marcador biológico de mayor correlación con infección bacteriana (Haemophilus influenzae, Streptococcus pneumoniae, Moraxella catarrhalis), por lo que el antibiótico está plenamente indicado."
+      }
+    },
+    {
+      "id": "d04_q6",
+      "index": 6,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-037",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Durante la atención en urgencias del paciente anterior con exacerbación de EPOC y SatO2 de 88%, el personal de enfermería administra oxígeno suplementario mediante mascarilla con bolsa reservorio a 15 litros por minuto sin indicación médica explícita. Treinta y cinco minutos después, el médico encuentra al paciente estuporoso, con bradipnea (FR 9 rpm), mioclonías y flapping tremor (asterixis). La gasometría arterial de control reporta: pH 7.21, PaCO2 74 mmHg, PaO2 135 mmHg, HCO3 29 mEq/L, SatO2 99%.",
+      "question_text": "¿Cuál es la explicación fisiopatológica de esta complicación y cuál es la meta estricta de saturación de oxígeno (SpO2) normada en la GPC IMSS-037 para pacientes con EPOC?",
+      "options": {
+        "A": "Abolición del estímulo respiratorio hipóxico y efecto Haldane con narcosis hipercápnica; meta de SpO2: 88% a 92%",
+        "B": "Toxicidad pulmonar aguda por radicales libres de oxígeno; meta de SpO2: 95% a 99%",
+        "C": "Alcalosis respiratoria por hiperventilación paradójica; meta de SpO2: 92% a 96%",
+        "D": "Edema pulmonar no cardiogénico por daño alveolar difuso; meta de SpO2: 80% a 85%"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "La administración descontrolada de oxígeno a alto flujo en retenedores de CO2 produce abolición del drive hipóxico, empeoramiento de la relación V/Q y efecto Haldane, llevando a hipercapnia severa y encefalopatía. La meta de oxigenoterapia es 88-92%.",
+      "justificacion_gpc": "La GPC IMSS-037 advierte enfáticamente que en la exacerbación de EPOC la oxigenoterapia debe ser titulada con precisión para alcanzar una meta de SpO2 entre 88% y 92% (o PaO2 entre 60 y 65 mmHg) con mascarilla Venturi al 24-28% o cánula nasal a bajo flujo (1-2 L/min). Administrar oxígeno a altas concentraciones produce retención aguda de dióxido de carbono debido a la pérdida de vasoconstricción pulmonar hipóxica (desajuste V/Q), liberación de CO2 de la hemoglobina oxigenada (efecto Haldane) y atenuación del estímulo quimiorreceptor carotídeo central, provocando acidosis respiratoria grave y narcosis hipercápnica.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Comorbilidad",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Meta Inadecuada]: La meta de 95% a 99% es letal en pacientes con EPOC exacerbado por inducir hipercapnia severa; la toxicidad de radicales libres toma días y no explica el coma hipercápnico agudo a los 35 minutos.",
+        "C": "[Distractor Incoherente]: La gasometría evidencia acidosis respiratoria descompensada severa (pH 7.21 con PaCO2 74 mmHg), no alcalosis respiratoria.",
+        "D": "[Distractor de Hipoxia Excesiva]: Una meta de 80% a 85% mantiene al paciente en hipoxemia tisular crítica y riesgo de arritmias; la meta validada internacionalmente y por CENETEC es 88-92%."
+      }
+    },
+    {
+      "id": "d04_q7",
+      "index": 7,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC Asma CENETEC / GINA",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 22 años con antecedente de asma bronquial de difícil control es traída a urgencias por sus familiares por dificultad respiratoria extrema. A su llegada se encuentra somnolienta, sudorosa, sentada inclinada hacia adelante y es incapaz de pronunciar una sola palabra. A la exploración física: cianosis peribucal, pulso paradójico > 25 mmHg, FC 136 lpm, FR 36 rpm, SatO2 83% al aire ambiente. A la auscultación del tórax existe una llamativa ausencia completa de sibilancias y abolición del murmullo vesicular en ambos hemitórax ('tórax silente').",
+      "question_text": "¿Cuál es la clasificación de gravedad de esta crisis asmática y cuál es la interpretación clínica correcta del 'tórax silente' según la GPC mexicana?",
+      "options": {
+        "A": "Crisis casi fatal con paro respiratorio inminente; el silencio auscultatorio traduce flujo de aire crítico insuficiente para generar sonido de sibilancia",
+        "B": "Crisis leve a moderada en fase de resolución; el silencio auscultatorio indica broncodilatación completa y apertura alveolar",
+        "C": "Crisis asmática moderada con laringoespasmo reflejo aislado; las sibilancias están ausentes por colapso glótico",
+        "D": "Crisis conversiva no orgánica; la ausencia de sibilancias descarta obstrucción al flujo aéreo inferior"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Tórax silente (silencio auscultatorio), somnolencia, cianosis y pulso paradójico: signos de fatiga muscular respiratoria extrema y flujo aéreo críticamente disminuido en crisis asmática casi fatal con paro respiratorio inminente.",
+      "justificacion_gpc": "De acuerdo con la GPC mexicana y GINA, la crisis asmática se clasifica en leve/moderada, grave y potencialmente mortal (casi fatal / paro respiratorio inminente). El 'tórax silente' o ausencia de sibilancias en un paciente con disnea severa y compromiso del estado de alerta NO es signo de mejoría, sino un signo de alarma extrema que traduce una obstrucción bronquial tan severa que el flujo aéreo espiratorio es incapaz de hacer vibrar las paredes de las vías aéreas. Requiere manejo de reanimación inmediata, oxígeno a alto flujo, broncodilatadores en nebulización continua, esteroides parenterales y preparación para intubación orotraqueal en secuencia rápida.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Trampa Cognitiva Clásica]: El mayor peligro en el ENARM es asumir que 'no hay sibilancias = no hay asma'. En crisis severa con cianosis y somnolencia, el tórax silente es el marcador clásico de colapso respiratorio inminente.",
+        "C": "[Distractor Anatómico]: El laringoespasmo produce estridor laríngeo inspiratorio alto; no justifica la somnolencia, abolición global del murmullo vesicular ni el tórax silente bilateral.",
+        "D": "[Distractor Psiquiátrico]: Atribuir somnolencia, SatO2 de 83% y pulso paradójico a un trastorno conversivo es un error médico garrafal con desenlace mortal."
+      }
+    },
+    {
+      "id": "d04_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC Diagnóstico y Manejo del Asma en Niños CENETEC",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Escolar masculino de 7 años con antecedente de dermatitis atópica y asma alérgica es llevado a urgencias por tos seca espasmódica de 4 horas de evolución tras realizar ejercicio en un día frío. A la exploración física: alerta, habla con oraciones completas, sin cianosis ni aleteo nasal. Signos vitales: FC 98 lpm, FR 24 rpm, SatO2 95% al aire ambiente. A la auscultación torácica: sibilancias espiratorias bilaterales de tono agudo moderadas, sin tiraje intercostal evidente. Puntuación en la escala Pulmonary Score de 2 puntos (crisis asmática leve).",
+      "question_text": "¿Cuál es el tratamiento de primera línea de rescate indicado en este paciente de acuerdo con la GPC mexicana para el manejo del asma pediátrica en urgencias?",
+      "options": {
+        "A": "Salbutamol en aerosol presurizado de dosis medida (IDM) de 2 a 4 disparos mediante cámara espaciadora con mascarilla cada 20 minutos durante la primera hora",
+        "B": "Nebulizaciones continuas con adrenalina racémica al 2.25% cada 15 minutos más ceftriaxona intramuscular",
+        "C": "Sulfato de magnesio intravenoso en infusión de 50 mg/kg en 30 minutos de forma inicial",
+        "D": "Bromuro de tiotropio inhalado en dispositivo Respimat en dosis única más jarabe de ambroxol"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Crisis asmática leve (Pulmonary Score ≤ 3, SatO2 ≥ 94%): primera línea universal es Salbutamol (SABA) con IDM y cámara espaciadora (2 a 4 inhalaciones cada 20 minutos en la primera hora).",
+      "justificacion_gpc": "La GPC de Asma en Pediatría establece que en la crisis leve a moderada el pilar terapéutico de primera línea es la administración de agonistas beta-2 adrenérgicos de acción corta (SABA: salbutamol) mediante inhalador de dosis medida con cámara espaciadora valvulada (2 a 4 disparos cada 20 minutos durante la primera hora), demostrando igual o superior eficacia que las nebulizaciones húmedas, con menores efectos secundarios sistémicos y menor costo.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Patología Pediátrica Distinta]: La adrenalina racémica es el tratamiento de primera línea del crup viral (laringotraqueítis aguda), no de la crisis asmática leve infantil; además los antibióticos no están indicados.",
+        "C": "[Distractor de Escalón Avanzado]: El sulfato de magnesio IV es un fármaco de rescate reservado para crisis asmáticas graves refractarias a SABA y corticoides sistémicos, totalmente desproporcionado en una crisis leve.",
+        "D": "[Distractor Farmacológico Inadecuado]: El tiotropio es un LAMA utilizado como terapia de mantenimiento en etapas avanzadas de asma persistente o EPOC, nunca como fármaco de rescate rápido en crisis agudas."
+      }
+    },
+    {
+      "id": "d04_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC Asma Adulto CENETEC / GINA",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Hombre de 28 años con asma severa acude a urgencias con una crisis asmática grave. Durante la primera hora de estancia hospitalaria ha recibido de forma protocolizada: oxígeno para mantener SatO2 > 93%, tres nebulizaciones consecutivas con Salbutamol (2.5 mg) combinado con Bromuro de Ipratropio (500 mcg) cada 20 minutos, y una dosis intravenosa de Metilprednisolona (1 mg/kg). A la revaloración a los 60 minutos: el paciente persiste con disnea severa en reposo, taquipnea (FR 34 rpm), taquicardia (FC 126 lpm), tiraje supraesternal marcado y flujo espiratorio máximo (PEF) del 42% del predicho.",
+      "question_text": "Ante la falta de respuesta adecuada al tratamiento broncodilatador y esteroideo de primera línea, ¿cuál es el fármaco intravenoso de rescate de segunda línea recomendado por la GPC mexicana para revertir el broncoespasmo y evitar la intubación?",
+      "options": {
+        "A": "Sulfato de magnesio 2 g por vía intravenosa en infusión para 20 minutos",
+        "B": "Aminofilina en bolo intravenoso de 6 mg/kg seguido de infusión de mantenimiento",
+        "C": "Montelukast 10 mg por vía oral como dosis de carga inmediata",
+        "D": "Inhalación de formoterol con budesonida en polvo seco a dosis máxima de 12 disparos"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Crisis asmática grave refractaria al tratamiento estándar de primera línea durante la primera hora (SABA + SAMA + corticoide sistémico): fármaco de elección de rescate es Sulfato de Magnesio IV (2 g en infusión de 20 minutos).",
+      "justificacion_gpc": "De acuerdo con la GPC mexicana de Asma y las guías GINA, en pacientes con crisis asmática grave que no responden favorablemente a la terapia combinada inicial de rescate (SABA + Bromuro de ipratropio + corticoide sistémico) durante los primeros 60 minutos o que se presentan con PEF < 50%, está formalmente indicada la administración de Sulfato de Magnesio intravenoso (2 g IV en infusión para 20 minutos en adultos; 40-50 mg/kg en niños). El magnesio actúa inhibiendo la entrada de calcio al músculo liso bronquial y disminuyendo la liberación de acetilcolina en las uniones neuromusculares, logrando una broncodilatación rápida, disminuyendo las tasas de hospitalización y previniendo la intubación.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Comorbilidad",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Toxicidad Obsoleta]: La aminofilina / teofilina intravenosa ya no se recomienda en las crisis asmáticas debido a su estrecho margen terapéutico, alto riesgo de arritmias ventriculares fatales y convulsiones sin beneficio clínico añadido comprobado.",
+        "C": "[Distractor de Escalón de Mantenimiento]: Los antagonistas de receptores de leucotrienos (montelukast) son fármacos de mantenimiento por vía oral para asma crónica; no tienen ninguna indicación en la reanimación de una crisis asmática grave en urgencias.",
+        "D": "[Distractor Mecánico Peligroso]: Los dispositivos de polvo seco requieren un flujo inspiratorio alto del que carece un paciente con crisis asmática grave con PEF del 42%, siendo totalmente ineficaces y contraindicados en esta fase."
+      }
+    },
+    {
+      "id": "d04_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-234",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 38 años, previamente sana, sin comorbilidades crónicas. Acude a la unidad de medicina familiar por cuadro de 3 días caracterizado por fiebre de 38.6 °C precedida de escalofríos, malestar general, dolor de tipo pleurítico en región axilar derecha y tos con expectoración mucopurulenta herrumbrosa. A la exploración física: TA 118/72 mmHg, FC 86 lpm, FR 20 rpm, temperatura 38.2 °C, SatO2 97% al aire ambiente. A la auscultación pulmonar se detecta una zona localizada con estertores crepitantes inspiratorios finos y aumento localizado de la transmisión de las vibraciones vocales (broncofonía) en tercio medio de hemitórax derecho.",
+      "question_text": "¿Cuál es el estudio de imagen inicial de elección indicado por la GPC IMSS-234 para establecer la sospecha diagnóstica y documentar el infiltrado en esta paciente con sospecha de Neumonía Adquirida en la Comunidad?",
+      "options": {
+        "A": "Radiografía de tórax en proyecciones posteroanterior (PA) y lateral",
+        "B": "Tomografía computarizada helicoidal de tórax de alta resolución con contraste intravenoso",
+        "C": "Ultrasonido endobronquial (EBUS) con biopsia transbronquial inmediata",
+        "D": "Gammagrafía pulmonar de ventilación/perfusión (V/Q)"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Estudio de gabinete inicial de elección en toda sospecha de neumonía adquirida en la comunidad: Radiografía de tórax en proyecciones PA y lateral, indispensable para demostrar el infiltrado alveolar o intersticial y descartar complicaciones tempranas.",
+      "justificacion_gpc": "La GPC IMSS-234 establece de manera contundente que la Radiografía de tórax en proyecciones posteroanterior (PA) y lateral es el estudio de imagen inicial, obligatorio y de elección ante la sospecha clínica de Neumonía Adquirida en la Comunidad. Permite confirmar el diagnóstico mediante la visualización del infiltrado pulmonar (consolidación lobar, broncograma aéreo o patrón intersticial), descartar diagnósticos alternativos (neumotórax, derrame pleural, insuficiencia cardiaca) y evaluar la extensión radiográfica de la infección.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Innecesario]: La TAC de tórax es de mayor resolución pero no es el estudio inicial de elección de rutina; se reserva para dudas diagnósticas, sospecha de necrosis/absceso o falla al tratamiento empírico inicial.",
+        "C": "[Distractor Invasivo Extremo]: El EBUS es un procedimiento intervencionista de tercer nivel para etapificación mediastinal en cáncer o masas pulmonares, totalmente desproporcionado e invasivo en neumonía típica.",
+        "D": "[Distractor de Otra Entidad Nosológica]: La gammagrafía V/Q es un estudio de medicina nuclear empleado en sospecha de tromboembolia pulmonar cuando la angioTAC está contraindicada, sin valor en la neumonía comunitaria infecciosa."
+      }
+    },
+    {
+      "id": "d04_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-234",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A 36-year-old previously healthy man presents to the primary care clinic complaining of a 3-day history of productive cough with purulent greenish sputum, subjective fever, chills, and mild right-sided pleuritic chest discomfort. He has no chronic medical conditions and has not taken any antibiotics in the past 6 months. Physical examination reveals: blood pressure 120/78 mmHg, heart rate 80 bpm, respiratory rate 18 breaths/min, temperature 38.3 °C, and oxygen saturation 98% on room air. He is fully alert and oriented. Chest examination reveals localized bronchial breath sounds and crackles in the right lower lung field. Serum blood urea nitrogen (BUN) is 11 mg/dL. Posterior-anterior chest radiograph demonstrates a right lower lobe alveolar consolidation without pleural effusion. The CURB-65 score is calculated as 0 points.",
+      "question_text": "According to the Mexican Clinical Practice Guideline (GPC IMSS-234) for Community-Acquired Pneumonia, what is the recommended first-line oral empirical antimicrobial regimen for this low-risk outpatient?",
+      "options": {
+        "A": "Oral Amoxicillin 500 mg every 8 hours (or 1 g every 8 hours) for 5 to 7 days",
+        "B": "Oral Ciprofloxacin 500 mg every 12 hours for 10 days",
+        "C": "Intravenous Ceftriaxone 1 g daily plus oral Clarithromycin 500 mg every 12 hours",
+        "D": "Oral Trimethoprim/sulfamethoxazole 160/800 mg every 12 hours for 14 days"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Low-risk outpatient CAP (CURB-65 = 0 points) in a young healthy adult without comorbidities: first-line antimicrobial monotherapy in Mexican guidelines is high-dose oral Amoxicillin (or Azithromycin/Clarithromycin as an alternative).",
+      "justificacion_gpc": "Under Mexican GPC IMSS-234 guidelines, outpatients with mild Community-Acquired Pneumonia (CURB-65 score of 0 or 1 point) who lack underlying comorbidities or recent antibiotic exposure should receive oral monotherapy targeting Streptococcus pneumoniae. Amoxicillin (500 mg to 1 g PO every 8 hours for 5 to 7 days) remains the first-line choice due to its high efficacy against pneumococcus, favorable safety profile, and low ecological impact. Macrolides (azithromycin or clarithromycin) represent valid alternative monotherapies when atypical pathogens are strongly suspected or in penicillin-tolerant patients.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Comorbilidad",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Inappropriate Antimicrobial Selection Distractor]: Ciprofloxacin possesses very weak intrinsic activity against Streptococcus pneumoniae and is NOT considered a respiratory fluoroquinolone; prescribing it leads to treatment failure in pneumococcal pneumonia.",
+        "C": "[Overtreatment Escalation Distractor]: Dual parenteral therapy with Ceftriaxone plus a macrolide is reserved for hospitalized patients with moderate-to-severe CAP (CURB-65 ≥ 2), representing unnecessary hospitalization and intravenous overtreatment for a healthy outpatient with CURB-65 = 0.",
+        "D": "[High Resistance Rate Distractor]: Trimethoprim/sulfamethoxazole exhibits high rates of pneumococcal resistance (> 40-50% in Mexico) and is not recommended as empirical first-line therapy for community-acquired pneumonia."
+      }
+    },
+    {
+      "id": "d04_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-037 / GOLD Guidelines",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 62-year-old man, retired carpenter with a 40 pack-year smoking history, presents to the pulmonary outpatient clinic with progressive shortness of breath over the past 4 years (currently mMRC scale grade 2) and chronic morning productive cough. Physical examination reveals barrel chest, distant heart sounds, and prolonged expiratory phase with faint end-expiratory wheezing. Pre- and post-bronchodilator spirometry using 400 mcg of inhaled albuterol demonstrates the following results: Pre-bronchodilator FEV1/FVC is 0.58 and FEV1 is 1.62 L (54% of predicted); Post-bronchodilator FEV1/FVC is 0.61 and FEV1 is 1.70 L (57% of predicted, representing an increase of 80 mL and 4.9% from baseline).",
+      "question_text": "According to the Global Initiative for Chronic Obstructive Lung Disease (GOLD) and the Mexican GPC IMSS-037, what is the correct diagnostic conclusion based on these spirometric parameters?",
+      "options": {
+        "A": "Confirmation of Chronic Obstructive Pulmonary Disease (COPD) due to a persistent post-bronchodilator FEV1/FVC ratio < 0.70 without significant acute reversibility",
+        "B": "Confirmation of moderate bronchial asthma due to significant bronchodilator reversibility in FEV1",
+        "C": "Pure restrictive ventilatory defect, requiring urgent total lung capacity (TLC) plethysmography",
+        "D": "Normal post-bronchodilator spirometric values ruling out fixed chronic airway obstruction"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Post-bronchodilator FEV1/FVC < 0.70 establishes irreversible/fixed airway obstruction diagnostic of COPD. Bronchodilator reversibility requires an increase in FEV1 of ≥ 12% AND ≥ 200 mL, which is absent here (only 80 mL and 4.9%), excluding acute asthma reversibility.",
+      "justificacion_gpc": "According to GOLD criteria and GPC IMSS-037, the gold standard criterion for diagnosing COPD is a post-bronchodilator FEV1/FVC ratio below 0.70 (or below the lower limit of normal). A significant bronchodilator response (suggestive of asthma) is defined as an increase in FEV1 or FVC of at least 12% AND an absolute increase of at least 200 mL following bronchodilator inhalation. In this patient, the post-bronchodilator FEV1/FVC ratio remains fixed at 0.61 (< 0.70) and the FEV1 only improved by 80 mL (4.9%), confirming fixed chronic airflow limitation diagnostic of COPD.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Misinterpretation of Reversibility Distractor]: Bronchodilator reversibility diagnostic of asthma requires an improvement of ≥ 12% AND ≥ 200 mL in FEV1 or FVC; an increase of only 80 mL and 4.9% does not meet reversibility criteria.",
+        "C": "[Ventilatory Pattern Confusion Distractor]: A restrictive defect is characterized by a normal or elevated FEV1/FVC ratio with reduced TLC < 80%; an FEV1/FVC ratio < 0.70 unequivocally defines an obstructive ventilatory defect.",
+        "D": "[Diagnostic Threshold Error Distractor]: The post-bronchodilator FEV1/FVC ratio is 0.61, well below the established 0.70 threshold, which directly contradicts normal spirometry."
+      }
+    }
+  ]
+}

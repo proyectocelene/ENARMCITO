@@ -18,6 +18,7 @@ import {
   normalizeFlashcardKey 
 } from "../../firebase/firestoreService";
 import { MarkdownRenderer } from "../Common/MarkdownRenderer";
+import { filterCardsByStudyMode, getSeenDayCodes } from "../../services/ankiDeckService";
 import { 
   Layers, 
   Play, 
@@ -34,16 +35,20 @@ import {
   CheckSquare,
   List,
   X,
-  BookOpen
+  BookOpen,
+  Target,
+  Clock,
+  Shuffle
 } from "lucide-react";
 
 export function GlobalDeckView({ onStartStudyDeck }) {
-  const { currentUserId, currentUser, theme, schedule, switchDay } = useUser();
+  const { currentUserId, currentUser, activeDayCode, theme, schedule, switchDay } = useUser();
   const { showToast, confirmAction } = useToast();
   const isDark = theme === "dark";
   const isExam = theme === "enarm-cifrhs";
 
   const [activeTab, setActiveTab] = useState("decks"); // "decks" | "browser"
+  const [selectedStudyMode, setSelectedStudyMode] = useState("today"); // "today" | "due" | "cumulative" | "random" | "difficult"
   const [allCards, setAllCards] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -198,6 +203,32 @@ export function GlobalDeckView({ onStartStudyDeck }) {
 
     return { total: allCards.length, newCount, learnCount, dueCount };
   }, [allCards]);
+
+  // Sesión de estudio según el modo seleccionado estilo Anki Desktop
+  const currentStudySession = useMemo(() => {
+    return filterCardsByStudyMode(allCards, selectedStudyMode, activeDayCode, schedule);
+  }, [allCards, selectedStudyMode, activeDayCode, schedule]);
+
+  // Contadores por modo de estudio para los botones
+  const studyModeCounts = useMemo(() => {
+    const today = filterCardsByStudyMode(allCards, "today", activeDayCode, schedule).cards.length;
+    const due = filterCardsByStudyMode(allCards, "due", activeDayCode, schedule).cards.length;
+    const cumulative = filterCardsByStudyMode(allCards, "cumulative", activeDayCode, schedule).cards.length;
+    const difficult = filterCardsByStudyMode(allCards, "difficult", activeDayCode, schedule).cards.length;
+    return { today, due, cumulative, difficult };
+  }, [allCards, activeDayCode, schedule]);
+
+  const handleLaunchStudySession = (overrideMode = null) => {
+    const modeToUse = overrideMode || selectedStudyMode;
+    const session = filterCardsByStudyMode(allCards, modeToUse, activeDayCode, schedule);
+    if (session.cards.length === 0) {
+      showToast(`No hay tarjetas en modo "${session.modeTitle}"`, "info");
+      return;
+    }
+    if (onStartStudyDeck) {
+      onStartStudyDeck(session);
+    }
+  };
 
   // Agrupación por Especialidades
   const specialtyDecks = useMemo(() => {
@@ -558,6 +589,154 @@ export function GlobalDeckView({ onStartStudyDeck }) {
       {/* PESTAÑA 1: ÁRBOL DE MAZOS POR ESPECIALIDAD Y TEMAS */}
       {activeTab === "decks" && (
         <div className="space-y-3">
+          {/* LANZADOR DE SESIONES INTELIGENTES ANKI */}
+          <div className={`border-2 rounded-2xl p-4 sm:p-5 shadow-sm transition-all space-y-3 ${
+            isExam ? "bg-white border-black text-black" : isDark ? "bg-slate-900 border-slate-700 text-white" : "bg-white border-purple-200 text-slate-900"
+          }`}>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2.5 border-b border-slate-200 dark:border-slate-800">
+              <div className="flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-purple-600 dark:text-purple-400" />
+                <h3 className="text-sm font-black uppercase tracking-wide">
+                  Modo de Estudio Anki (Repetición Espaciada)
+                </h3>
+              </div>
+              <span className="text-xs text-slate-500 font-medium">
+                {currentStudySession.modeDescription}
+              </span>
+            </div>
+
+            {/* Selector de Modos (Pills) */}
+            <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+              <button
+                type="button"
+                onClick={() => setSelectedStudyMode("today")}
+                className={`p-2.5 rounded-xl border-2 text-left flex flex-col justify-between gap-1 transition-all cursor-pointer ${
+                  selectedStudyMode === "today"
+                    ? "border-blue-500 bg-blue-50 dark:bg-blue-950/60 text-blue-950 dark:text-cyan-200 ring-2 ring-blue-400/40 font-black"
+                    : "border-slate-200 dark:border-slate-800 hover:border-slate-300 bg-slate-50/50 dark:bg-slate-900/60 text-slate-700 dark:text-slate-300 font-semibold"
+                }`}
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-[11px] flex items-center gap-1">
+                    <Target className="w-3 h-3 text-blue-500" />
+                    <span>Tema Hoy</span>
+                  </span>
+                  <span className="font-mono text-[10px] font-black px-1.5 py-0.2 rounded bg-blue-200/80 dark:bg-blue-900 text-blue-900 dark:text-cyan-200">
+                    {studyModeCounts.today}
+                  </span>
+                </div>
+                <span className="text-[10px] text-slate-500">{activeDayCode}</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setSelectedStudyMode("due")}
+                className={`p-2.5 rounded-xl border-2 text-left flex flex-col justify-between gap-1 transition-all cursor-pointer ${
+                  selectedStudyMode === "due"
+                    ? "border-emerald-500 bg-emerald-50 dark:bg-emerald-950/60 text-emerald-950 dark:text-emerald-200 ring-2 ring-emerald-400/40 font-black"
+                    : "border-slate-200 dark:border-slate-800 hover:border-slate-300 bg-slate-50/50 dark:bg-slate-900/60 text-slate-700 dark:text-slate-300 font-semibold"
+                }`}
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-[11px] flex items-center gap-1">
+                    <Clock className="w-3 h-3 text-emerald-500" />
+                    <span>Vencidas FSRS</span>
+                  </span>
+                  <span className={`font-mono text-[10px] font-black px-1.5 py-0.2 rounded ${
+                    studyModeCounts.due > 0 ? "bg-emerald-200 text-emerald-900 dark:bg-emerald-900 dark:text-emerald-200 animate-pulse" : "bg-slate-200 dark:bg-slate-800 text-slate-600"
+                  }`}>
+                    {studyModeCounts.due}
+                  </span>
+                </div>
+                <span className="text-[10px] text-slate-500">Curva de olvido</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setSelectedStudyMode("cumulative")}
+                className={`p-2.5 rounded-xl border-2 text-left flex flex-col justify-between gap-1 transition-all cursor-pointer ${
+                  selectedStudyMode === "cumulative"
+                    ? "border-purple-500 bg-purple-50 dark:bg-purple-950/60 text-purple-950 dark:text-purple-200 ring-2 ring-purple-400/40 font-black"
+                    : "border-slate-200 dark:border-slate-800 hover:border-slate-300 bg-slate-50/50 dark:bg-slate-900/60 text-slate-700 dark:text-slate-300 font-semibold"
+                }`}
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-[11px] flex items-center gap-1">
+                    <BookOpen className="w-3 h-3 text-purple-500" />
+                    <span>Temas Vistos</span>
+                  </span>
+                  <span className="font-mono text-[10px] font-black px-1.5 py-0.2 rounded bg-purple-200/80 dark:bg-purple-900 text-purple-900 dark:text-purple-200">
+                    {studyModeCounts.cumulative}
+                  </span>
+                </div>
+                <span className="text-[10px] text-slate-500">Acumulado</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setSelectedStudyMode("random")}
+                className={`p-2.5 rounded-xl border-2 text-left flex flex-col justify-between gap-1 transition-all cursor-pointer ${
+                  selectedStudyMode === "random"
+                    ? "border-indigo-500 bg-indigo-50 dark:bg-indigo-950/60 text-indigo-950 dark:text-indigo-200 ring-2 ring-indigo-400/40 font-black"
+                    : "border-slate-200 dark:border-slate-800 hover:border-slate-300 bg-slate-50/50 dark:bg-slate-900/60 text-slate-700 dark:text-slate-300 font-semibold"
+                }`}
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-[11px] flex items-center gap-1">
+                    <Shuffle className="w-3 h-3 text-indigo-500" />
+                    <span>Aleatorio</span>
+                  </span>
+                  <span className="font-mono text-[10px] font-black px-1.5 py-0.2 rounded bg-indigo-200/80 dark:bg-indigo-900 text-indigo-900 dark:text-indigo-200">
+                    🔀
+                  </span>
+                </div>
+                <span className="text-[10px] text-slate-500">Cramming</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setSelectedStudyMode("difficult")}
+                className={`p-2.5 rounded-xl border-2 text-left flex flex-col justify-between gap-1 transition-all cursor-pointer ${
+                  selectedStudyMode === "difficult"
+                    ? "border-amber-500 bg-amber-50 dark:bg-amber-950/60 text-amber-950 dark:text-amber-200 ring-2 ring-amber-400/40 font-black"
+                    : "border-slate-200 dark:border-slate-800 hover:border-slate-300 bg-slate-50/50 dark:bg-slate-900/60 text-slate-700 dark:text-slate-300 font-semibold"
+                }`}
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-[11px] flex items-center gap-1">
+                    <AlertTriangle className="w-3 h-3 text-amber-500" />
+                    <span>Difíciles</span>
+                  </span>
+                  <span className="font-mono text-[10px] font-black px-1.5 py-0.2 rounded bg-amber-200/80 dark:bg-amber-900 text-amber-900 dark:text-amber-200">
+                    {studyModeCounts.difficult}
+                  </span>
+                </div>
+                <span className="text-[10px] text-slate-500">Lapsos FSRS</span>
+              </button>
+            </div>
+
+            {/* Botón de Lanzamiento de Sesión */}
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-2">
+              <div className="text-xs">
+                <span className="font-bold text-slate-900 dark:text-white">
+                  Sesión lista: {currentStudySession.modeTitle}
+                </span>
+                <span className="text-slate-500 ml-2">
+                  ({currentStudySession.cards.length} tarjetas en esta baraja)
+                </span>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => handleLaunchStudySession()}
+                className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-black text-xs shadow-md flex items-center justify-center gap-2 active:scale-95 transition-all cursor-pointer"
+              >
+                <Play className="w-4 h-4 fill-current" />
+                <span>Iniciar Estudio ({currentStudySession.cards.length} tarjetas)</span>
+              </button>
+            </div>
+          </div>
+
           <div className="flex items-center justify-between px-1">
             <h3 className="font-black text-sm text-slate-600 dark:text-slate-400 uppercase tracking-wider">
               Estructura de Mazos Clínicos

@@ -1,0 +1,709 @@
+{
+  "topic_code": "D18",
+  "title": "Simulador Post-Estudio: Politraumatizado (ATLS: ABCDE) y Quemaduras",
+  "normativa_origen": "ATLS 10ª Edición / GPC CENETEC Manejo Integral del Paciente Quemado",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d18_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Politraumatizado con Shock Hemorrágico y Fractura Pélvica Inestable",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Masculino de 32 años, conductor en choque frontal automovilístico de alta energía a 100 km/h contra muro de contención. Arriba a sala de choque de traumatología inmovilizado en tabla espinal rígida y collarín cervical. A la evaluación inicial en el área C (Circulación y control de hemorragias): se encuentra estuporoso (Glasgow de 9), diaforético y con palidez mucotegumentaria generalizada intensa. Signos vitales: TA 75/40 mmHg, FC 138 lpm, FR 26 rpm, SatO2 93% con mascarilla con reservorio. A la exploración física dirigida se detecta pelvis inestable a la compresión suave con rotación externa asimétrica de extremidades inferiores ('pelvis en libro abierto') y hematoma perineo-escrotal expansivo. No se evidencian hemorragias externas exanguinantes activas en extremidades ni tórax.",
+      "question_text": "De acuerdo con el algoritmo ABCDE de la 10ª Edición del ATLS y guías de reanimación del control de daños, ¿cuál es la conducta inmediata prioritaria para la estabilización mecánica pélvica y el manejo hídrico inicial?",
+      "options": {
+        "A": "Colocación inmediata de fijador esquelético externo percutáneo en sala de urgencias e infusión de bolo de 2,000 mL de solución salina al 0.9% a temperatura ambiente.",
+        "B": "Colocación de faja pélvica circunferencial a nivel de los trocánteres mayores e infusión juiciosa de un bolo de 1,000 mL de cristaloide isotónico tibio (Ringer Lactato).",
+        "C": "Compresión manual pélvica continua mantenida a nivel de las crestas ilíacas anterosuperiores e inicio de infusión rápida de 500 mL de albúmina al 5% con norepinefrina.",
+        "D": "Traslado inmediato a sala de tomografía computarizada para angio-TAC pélvica sin manipular la pelvis, manteniendo restricción absoluta de líquidos intravenosos."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Faja_Pelvica_Trocanteres_Bolo_1000ml_ATLS10",
+      "gpc_algorithm_step": "Circulación (C): El ATLS 10ª Edición modificó la reanimación inicial reduciendo el bolo de cristaloides a 1 L (previamente 2 L) de Ringer Lactato tibio para evitar hemodilución, coagulopatía e hipotermia. La estabilización pélvica no invasiva de emergencia debe colocarse a nivel de los trocánteres mayores (no sobre las crestas ilíacas) para lograr el cierre del anillo pélvico y reducir el volumen retroperitoneal.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / ATLS Antiguo",
+        "explanation": "El distractor A propone la pauta antigua de 2,000 mL de cristaloides (ATLS 9ª edición hacia atrás), actualmente en desuso por agravar la tríada de la muerte, además de proponer fijación externa en sala de choque sin estabilización rápida con faja. El distractor C coloca la faja en crestas ilíacas (error anatómico clásico) y usa vasopresores antes de volumen."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el nivel anatómico exacto de colocación del cinturón/faja pélvica y el volumen del bolo inicial de cristaloides según ATLS 10ª Edición?",
+        "back": "Nivel anatómico: Trocánteres mayores (sínfisis del pubis). Bolo inicial: 1,000 mL de Ringer Lactato tibio (se redujo de los 2,000 mL de ediciones previas).",
+        "tags": "D18 ATLS Pelvis Shock_Hemorragico Cristaloides"
+      }
+    },
+    {
+      "id": "d18_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Politraumatizado con Shock Hemorrágico y Fractura Pélvica Inestable",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En el paciente del caso anterior, tras la colocación adecuada de la faja pélvica a nivel trocantérico y la infusión del bolo de 1,000 mL de Ringer Lactato tibio, han transcurrido 60 minutos desde el impacto automovilístico. La reevaluación hemodinámica muestra: TA 78/45 mmHg, FC 132 lpm, lactato sérico 5.2 mmol/L, déficit de base -10 mEq/L, hemoglobina 7.4 g/dL, plaquetas 88,000/mcL y fibrinógeno de 115 mg/dL. El paciente se clasifica como 'no respondedor' transitorio en choque hemorrágico grado IV.",
+      "question_text": "Con base en los principios de reanimación hemostática y cirugía de control de daños (ATLS 10ª Edición y estudio CRASH-2), ¿cuál es la conducta terapéutica farmacológica y transfusional mandatoria?",
+      "options": {
+        "A": "Activación inmediata del protocolo de transfusión masiva en relación balanceada 1:1:1 (Concentrado Eritrocitario, Plasma Fresco Congelado, Plaquetas) y administración de Ácido Tranexámico (1 g IV en 10 min seguido de 1 g para 8 horas).",
+        "B": "Infusión de 2 unidades de concentrado eritrocitario con pruebas cruzadas completas y retrasar el plasma hasta documentar tiempos de coagulación prolongados (INR > 1.8).",
+        "C": "Administración de infusión continua de factor VII recombinante activado (rFVIIa) a dosis de 90 mcg/kg en combinación con 4 frascos de albúmina humana al 20%.",
+        "D": "Administración de Ácido Tranexámico en bolo único de 3 g IV después de completar la transfusión de 6 concentrados eritrocitarios sin plasma."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Transfusion_Masiva_1_1_1_Acido_Tranexamico_CRASH2",
+      "gpc_algorithm_step": "Reanimación hemostática de control de daños: En pacientes no respondedores con choque hemorrágico severo, se debe activar el protocolo de transfusión masiva (relación balanceada 1:1:1 de CE, PFC y plaquetas) para prevenir la coagulopatía dilucional. El ácido tranexámico (1 g IV en bolo en los primeros 10 min, seguido de infusión de 1 g durante 8 horas) debe administrarse dentro de las primeras 3 horas posteriores a la lesión; pasadas las 3 horas aumenta la mortalidad.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Retraso Iatrogénico",
+        "explanation": "El distractor B espera pruebas cruzadas y tiempos de coagulación en un paciente exanguinante, lo cual es causa directa de muerte prevenible. El distractor C usa rFVIIa sin reanimación balanceada previa (costoso, no indicado de primera línea). El distractor D administra ácido tranexámico fuera de pauta y sin plasma."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la relación de componentes en el Protocolo de Transfusión Masiva y la ventana/dosis del Ácido Tranexámico en trauma severo?",
+        "back": "Relación 1:1:1 (CE : PFC : Plaquetas). Ácido Tranexámico: 1 g IV en bolo (en 10 min) + 1 g IV infusión en 8 horas; SIEMPRE dentro de las primeras 3 horas del evento.",
+        "tags": "D18 ATLS Transfusion_Masiva Acido_Tranexamico CRASH2"
+      }
+    },
+    {
+      "id": "d18_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Politraumatizado con Shock Hemorrágico y Fractura Pélvica Inestable",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El paciente continúa en sala de choque recibiendo la primera ronda del protocolo 1:1:1 y ácido tranexámico. Se realiza protocolo eFAST (Extended Focused Assessment with Sonography for Trauma), el cual reporta: espacio de Morison con abundante líquido libre anecoico (receso hepatorrenal positivo), corredera parietocólica derecha positiva y corredera esplenorrenal positiva; hemitórax bilaterales sin neumotórax ni hemotórax. La TA es de 80/48 mmHg y la FC de 128 lpm.",
+      "question_text": "¿Cuál es la conducta diagnóstica y terapéutica inmediata que dicta el algoritmo del ATLS para este escenario clínico?",
+      "options": {
+        "A": "Trasladar de inmediato a la sala de tomografía helicoidal trifásica con contraste para caracterizar la severidad de la lesión hepática y esplénica.",
+        "B": "Traslado inmediato a quirófano para laparotomía exploradora de control de daños con empaquetamiento abdominal y empaquetamiento preperitoneal.",
+        "C": "Realizar lavado peritoneal diagnóstico (LPD) para cuantificar eritrocitos (>100,000/mm3) y amilasa antes de tomar una decisión quirúrgica.",
+        "D": "Trasladar a la sala de hemodinamia e intervencionismo para angioembolización pélvica selectiva urgente como primer abordaje terapéutico."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "eFAST_Positivo_Inestabilidad_Laparotomia_Control_Danos",
+      "gpc_algorithm_step": "Algoritmo de Trauma Abdominal ATLS: Paciente con traumatismo cerrado, inestabilidad hemodinámica persistente y ultrasonido FAST positivo para líquido libre intraperitoneal tiene indicación MANDATORIA de Laparotomía de Control de Daños inmediata. Está terminantemente prohibido llevar a un paciente inestable a la sala de TAC.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa (Estudio Inapropiado en Inestable)",
+        "explanation": "El distractor A propone TAC helicoidal contrastada; este es el error más penalizado en el ENARM: 'el paciente inestable nunca debe pisar el tomógrafo'. El distractor D propone angioembolización primaria, pero con FAST positivo libre intraperitoneal, la prioridad quirúrgica es controlar la hemorragia intraabdominal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta mandatoria ante un paciente politraumatizado inestable hemodinámicamente con eFAST positivo intraabdominal?",
+        "back": "Laparotomía exploradora de control de daños inmediata en quirófano. ¡PROHIBIDO enviar a Tomografía Computarizada (TAC)!",
+        "tags": "D18 ATLS eFAST Laparotomia Inestabilidad"
+      }
+    },
+    {
+      "id": "d18_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Politraumatizado con Shock Hemorrágico y Fractura Pélvica Inestable",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la camilla de quirófano, previo al inicio de la incisión quirúrgica xifopúbica, el equipo de enfermería se dispone a colocar una sonda Foley transuretral para cuantificar el gasto urinario horario. Durante la inspección de los genitales externos y el periné, el cirujano observa sangre fresca rutilante en el meato uretral externo, una equimosis perineal en alas de mariposa y, al tacto rectal, se evidencia una próstata cabalgante/flotante no fija.",
+      "question_text": "¿Cuál es la conducta diagnóstica y terapéutica correcta respecto al manejo de la vía urinaria en este paciente según el ATLS 10ª Edición?",
+      "options": {
+        "A": "Colocar con técnica estéril una sonda Foley 16 Fr con abundante gel lubricante ejerciendo presión firme y sostenida hasta vencer la resistencia esfinteriana.",
+        "B": "Suspender de inmediato el intento de cateterismo uretral a ciegas y realizar cistostomía suprapúbica percutánea o abierta de emergencia durante la laparotomía.",
+        "C": "Realizar una uretroscopia rígida de urgencia en la misma camilla de operaciones para canalizar la uretra bajo visión óptica directa.",
+        "D": "Introducir una sonda de Nelaton flexible calibre 10 Fr para evaluar permeabilidad; si refluye sangre, proceder a lavado vesical continuo."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Sospecha_Ruptura_Uretra_Contraindicacion_Foley",
+      "gpc_algorithm_step": "Manejo urológico en trauma: La tríada de sangre en el meato uretral, equimosis perineal/escrotal y próstata flotante o ausente al tacto rectal (frecuentemente asociada a fractura de pelvis en libro abierto) confirma sospecha de lesión de uretra membranosa. El sondaje uretral a ciegas está absolutamente contraindicado porque puede convertir una rotura parcial en una rotura completa. La conducta es derivación vesical mediante cistostomía suprapúbica.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje) / Iatrogenia Clásica",
+        "explanation": "El distractor A e insiste en pasar la sonda ejerciendo presión, lo cual convierte una lesión parcial de uretra en una sección total irreparable. El distractor D minimiza el riesgo usando un calibre más delgado pero igualmente peligroso a ciegas."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué signos clínicos indican sospecha de rotura uretral y contraindican formalmente la colocación de sonda Foley transuretral a ciegas?",
+        "back": "Sangre en meato uretral, hematoma perineal/escrotal en mariposa y próstata flotante al tacto rectal. Conducta: Cistostomía suprapúbica (y uretrografía retrógrada al estabilizar).",
+        "tags": "D18 ATLS Trauma_Uretral Contraindicacion_Sonda_Foley Cistostomia"
+      }
+    },
+    {
+      "id": "d18_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Traumatismo Torácico Penetrante y Hemotórax Masivo",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Masculino de 24 años ingresa a urgencias tras recibir una herida penetrante por proyectil de arma de fuego en el hemitórax izquierdo, a nivel del 5º espacio intercostal línea axilar anterior. A su ingreso: disneico severo, cianótico, diaforético y confuso. Signos vitales: TA 70/35 mmHg, FC 144 lpm, FR 34 rpm, SatO2 81% con aire ambiente. A la exploración física del tórax se constata: asimetría en la amplexión y amplexación, ausencia completa de ruidos respiratorios en todo el hemitórax izquierdo, matidez leñosa marcada a la percusión ipsilateral, desviación de la tráquea hacia el lado derecho y venas yugulares del cuello colapsadas (planas).",
+      "question_text": "¿Cuál es la integración diagnóstica diferencial de mayor precisión psicométrica y la conducta terapéutica inmediata de primera línea?",
+      "options": {
+        "A": "Neumotórax a tensión izquierdo; descompresión urgente con catéter de grueso calibre en 2º espacio intercostal línea medioclavicular.",
+        "B": "Taponamiento cardíaco agudo; punción pericárdica subxifoidea de urgencia guiada por ecografía para evacuar sangre intrapericárdica.",
+        "C": "Hemotórax masivo izquierdo; colocación inmediata de un tubo de toracostomía (28-32 Fr) en 5º espacio intercostal línea axilar anterior o media izquierda conectado a sello de agua con autotransfusión.",
+        "D": "Contusión pulmonar severa aislada; intubación orotraqueal e inicio de presión positiva al final de la espiración (PEEP) alta sin drenaje pleural."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Hemototax_Masivo_vs_Neumotorax_Tension_Taponamiento",
+      "gpc_algorithm_step": "Diagnóstico diferencial torácico en ATLS: El hemotórax masivo se distingue del neumotórax a tensión por MATIDEZ a la percusión (el neumotórax produce hiperclaridad/timpanismo) y venas yugulares colapsadas por hipovolemia severa (en neumotórax y taponamiento hay ingurgitación yugular). El tratamiento inmediato es la toracostomía con tubo grueso (28-32 Fr) en el 5º espacio intercostal.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "El clínico novato asocia hipotensión + tráquea desviada + murmullo abolido automáticamente con 'neumotórax a tensión' (Distractor A), ignorando la MATIDEZ a la percusión y las venas yugulares planas que delatan choque hipovolémico exanguinante por hemotórax masivo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se diferencia clínicamente el Hemotórax Masivo del Neumotórax a Tensión en la evaluación primaria (ATLS)?",
+        "back": "Hemotórax Masivo: MATIDEZ a la percusión y venas yugulares colapsadas (planas). Neumotórax a tensión: TIMPANISMO a la percusión e INGURGITACIÓN yugular.",
+        "tags": "D18 ATLS Hemotorax_Masivo Neumotorax_Tension Diagnostico_Diferencial"
+      }
+    },
+    {
+      "id": "d18_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Traumatismo Torácico Penetrante y Hemotórax Masivo",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En el paciente del caso anterior, tras la inserción inmediata de la sonda endopleural 32 Fr en el 5º espacio intercostal izquierdo, se obtiene de forma inmediata y masiva una salida de 1,650 mL de sangre rutilante oscura a través del pleurevac. En los primeros 15 minutos posteriores a la colocación, se drenan 250 mL adicionales de sangre rutilante activa, mientras que la presión arterial del paciente permanece en 72/38 mmHg a pesar de la administración de hemoderivados.",
+      "question_text": "De acuerdo con los criterios cuantitativos estrictos del ATLS 10ª Edición, ¿cuál es la conducta quirúrgica mandatoria?",
+      "options": {
+        "A": "Pinzar temporalmente la sonda pleural durante 2 horas para permitir que la cavidad forme coágulos y efectúe hemostasia por efecto de taponamiento.",
+        "B": "Solicitar tomografía computarizada con contraste intravenoso y angiotomografía pulmonar para localizar el vaso intercostal lesionado.",
+        "C": "Indicación de toracotomía de urgencia en quirófano por drenaje inicial mayor a 1,500 mL o gasto continuo mayor a 200 mL/hora durante 2 a 4 horas consecutivas.",
+        "D": "Instilar 50,000 UI de estreptoquinasa intrapleural para evitar la formación de hemotórax coagulado y fibroespacio residual."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Criterios_Toracotomia_Urgencia_Hemotorax_Masivo",
+      "gpc_algorithm_step": "Criterios de Toracotomía de Urgencia en Hemotórax Masivo (ATLS 10ª Ed): 1) Drenaje inicial inmediato ≥ 1,500 mL de sangre al colocar la sonda pleural, o 2) Sangrado continuo ≥ 200 mL/h durante 2 a 4 horas consecutivas, o 3) Necesidad persistente de transfusión sanguínea para mantener estabilidad hemodinámica.",
+      "distractor_trap": {
+        "trap_type": "Error Iatrogénico Mortal / La Trampa del Pinzamiento",
+        "explanation": "El distractor A propone pinzar el tubo de toracostomía; esto es una falta gravísima que convierte un hemotórax drenado en un hemotórax a tensión que colapsa el retorno venoso y causa paro cardiorrespiratorio en minutos. El distractor B retrasa la intervención quirúrgica vital."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los 2 criterios cuantitativos principales de drenaje pleural para indicar toracotomía de urgencia en trauma?",
+        "back": "1. Drenaje inmediato inicial ≥ 1,500 mL de sangre al colocar la sonda. 2. Gasto continuo ≥ 200 mL/hora durante 2 a 4 horas consecutivas.",
+        "tags": "D18 ATLS Hemotorax_Masivo Toracotomia Criterios"
+      }
+    },
+    {
+      "id": "d18_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Traumatismo Torácico Penetrante y Hemotórax Masivo",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El paciente es trasladado a quirófano donde se realiza toracotomía anterolateral izquierda. Se identifica y controla lesión de vasos mamarios internos y laceración de língula. Sin embargo, durante el procedimiento quirúrgico, la temperatura esofágica desciende a 33.8 °C, el pH arterial cae a 7.15, el lactato se eleva a 6.8 mmol/L y los tiempos de coagulación se vuelven incoagulables (INR > 3.0), comenzando un sangrado microvascular difuso no anatómico en capa a través de toda la superficie parietal y mediastínica.",
+      "question_text": "¿Cuál es la conducta quirúrgica y perioperatoria prioritaria en concordancia con los principios de Cirugía de Control de Daños Torácica?",
+      "options": {
+        "A": "Continuar con la exploración meticulosa de la cavidad torácica durante 2 horas adicionales hasta identificar y electrocoagular cada punto sangrante.",
+        "B": "Empaquetamiento torácico temporal (packing pleural), colocación de sistema de cierre torácico temporal sin suturar costillas y traslado inmediato a UCI para calentamiento y corrección de coagulopatía.",
+        "C": "Administrar 4 ámpulas de bicarbonato de sodio al 8.4% en bolo rápido intravenoso para neutralizar la acidosis sin modificar el plan quirúrgico definitivo.",
+        "D": "Realizar clampeo cruzado profiláctico de la arteria pulmonar izquierda principal para disminuir el flujo sanguíneo torácico durante el recalentamiento."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Control_Danos_Toracico_Triada_Muerte",
+      "gpc_algorithm_step": "Cirugía de Control de Daños Torácica: La presencia de la tríada mortal (Hipotermia < 35 °C, Acidosis pH < 7.20 y Coagulopatía) con sangrado en capa obliga a terminar el procedimiento inmediatamente. Se realiza empaquetamiento hemostático (packing), colocación de apósito o sistema de vacío temporal y traslado inmediato a UCI para reanimación metabólica activa.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Empecinamiento Quirúrgico",
+        "explanation": "El distractor A describe el empecinamiento quirúrgico clásico de intentar lograr hemostasia anatómica en presencia de coagulopatía biológica, lo que lleva al fallecimiento del paciente en la mesa de operaciones. El distractor C usa bicarbonato en bolo sin resolver la hipoperfusión."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo se debe abortar la cirugía definitiva y realizar empaquetamiento (packing) torácico de control de daños?",
+        "back": "Ante la aparición de la Tríada Mortal: Hipotermia (<35 °C), Acidosis severa (pH <7.20) y Coagulopatía clínica/laboratorial con sangrado microvascular en capa.",
+        "tags": "D18 ATLS Cirugia_Control_Danos Torax Triada_Mortal"
+      }
+    },
+    {
+      "id": "d18_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Traumatismo Torácico Penetrante y Hemotórax Masivo",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Al mismo tiempo, arriba al área de reanimación un segundo paciente masculino de 22 años con una herida por arma blanca penetrante en el hemitórax izquierdo anterior (área precordial). Los paramédicos reportan que el paciente perdió el pulso 3 minutos antes de cruzar la puerta de urgencias. Al colocar el monitor en sala de choque se observa ritmo de disociación electromecánica (AESP) a 40 lpm y ausencia total de pulsos carotídeos.",
+      "question_text": "De acuerdo con el algoritmo del ATLS 10ª Edición, ¿cuál es la indicación estricta y el tiempo límite para la Toracotomía de Reanimación en el Servicio de Urgencias (EDT)?",
+      "options": {
+        "A": "Está contraindicada de manera absoluta si el paciente llega sin pulso palpable a la sala de choque, debiendo limitarse a 30 minutos de compresiones torácicas cerradas y adrenalina.",
+        "B": "Está formalmente indicada de inmediato al ser un trauma penetrante con paro cardiorrespiratorio presenciado o menos de 10-15 minutos de maniobras de RCP previa.",
+        "C": "Solo está indicada si se documenta en ultrasonido FAST un derrame pericárdico mayor a 500 mL con colapso de cavidades izquierdas.",
+        "D": "Debe realizarse toracotomía derecha bilateral transversa (clamshell) únicamente si el paciente presenta pupilas midriáticas y arreactivas por más de 20 minutos."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Toracotomia_Reanimacion_Sala_Choque_Indicaciones",
+      "gpc_algorithm_step": "Toracotomía de Reanimación en Urgencias (EDT): Indicada en víctimas de traumatismo torácico penetrante que presentan paro cardiorrespiratorio presenciado en urgencias o con pérdida de signos vitales con menos de 10-15 minutos de RCP en el traslado. En traumatismo cerrado la indicación es excepcional (<5-10 min de paro presenciado) debido a una tasa de supervivencia menor al 1-2%.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Futilidad vs Oportunidad",
+        "explanation": "El distractor A confunde los criterios de futilidad de trauma cerrado prolongado con el trauma penetrante reciente; en trauma penetrante torácico con paro <10-15 minutos, la toracotomía de rescate en sala de choque tiene tasas de éxito del 15-30% al desobstruir taponamiento o clampear la aorta descendente."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la indicación ideal y ventana de tiempo para la Toracotomía de Reanimación en Urgencias (EDT)?",
+        "back": "Trauma torácico penetrante con paro cardíaco presenciado o <10-15 minutos de RCP prehospitalaria (en trauma cerrado la ventana es fútil si excede 5-10 minutos).",
+        "tags": "D18 ATLS Toracotomia_Reanimacion EDT Paro_Traumatico"
+      }
+    },
+    {
+      "id": "d18_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Traumatismo Abdominal Cerrado, Trauma Esplénico y Síndrome Compartimental",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Masculino de 45 años, ciclista que sufre impacto lateral por vehículo a motor, recibiendo golpe contuso directo sobre el hipocondrio y flanco izquierdos. Es llevado a urgencias por el SAMU. A la exploración física: consciente y orientado (Glasgow 15), refiere dolor intenso en hipocondrio izquierdo que se irradia hacia la punta del hombro ipsilateral (signo de Kehr positivo). A la palpación hay resistencia muscular involuntaria localizada en cuadrante superior izquierdo. Signos vitales: TA 120/75 mmHg, FC 88 lpm, FR 18 rpm, SatO2 97% al aire ambiente. El estudio ultrasonográfico eFAST en sala de choque muestra una fina lámina anecoica de líquido libre en el espacio esplenorrenal.",
+      "question_text": "Considerando la completa estabilidad hemodinámica del paciente y el hallazgo ecográfico, ¿cuál es el estudio de imagen estándar de oro para clasificar y orientar el tratamiento?",
+      "options": {
+        "A": "Laparotomía exploradora inmediata por presencia confirmada de líquido libre intraabdominal en ecografía.",
+        "B": "Tomografía axial computarizada abdominal con contraste intravenoso.",
+        "C": "Lavado peritoneal diagnóstico (LPD) para verificar si el líquido corresponde a sangre o contenido entérico.",
+        "D": "Resonancia magnética nuclear abdominal simple y colangiorresonancia en secuencia rápida."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "TAC_Contraste_Gold_Standard_Trauma_Abdominal_Estable",
+      "gpc_algorithm_step": "Trauma abdominal cerrado: El estándar de oro diagnóstico en el paciente hemodinámicamente ESTABLE es la Tomografía Axial Computarizada (TAC) abdominal con contraste intravenoso. Permite estadificar el grado anatómico de lesión de órganos sólidos (hígado, bazo, riñón), evaluar retroperitoneo y detectar extravasación activa de contraste (blush arterial).",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje) / Cirugía Innecesaria",
+        "explanation": "El distractor A incurre en laparotomía innecesaria; un FAST positivo en un paciente ESTABLE no es indicación quirúrgica inmediata, sino indicación de TAC para valorar manejo no operatorio (MNO). El distractor C (LPD) ha sido desplazado casi en su totalidad por la TAC en pacientes estables."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estudio estándar de oro de elección en traumatismo abdominal cerrado en un paciente hemodinámicamente ESTABLE?",
+        "back": "Tomografía Computarizada (TAC) abdominal con contraste intravenoso.",
+        "tags": "D18 ATLS Trauma_Abdominal TAC_Contrastada Paciente_Estable"
+      }
+    },
+    {
+      "id": "d18_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Traumatismo Abdominal Cerrado, Trauma Esplénico y Síndrome Compartimental",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La tomografía abdominal contrastada del paciente anterior revela una laceración parenquimatosa esplénica de 4 cm de profundidad que involucra vasos trabeculares y un hematoma subcapsular que abarca el 35% de la superficie esplénica, clasificándose como Trauma Esplénico Grado III según la AAST (American Association for the Surgery of Trauma), sin evidencia de extravasación de medio de contraste ('blush' vascular negativo). Se decide Manejo No Operatorio (MNO) en la Unidad de Cuidados Intensivos. Sin embargo, a las 20 horas de su ingreso, el paciente presenta dolor abdominal generalizado intenso súbito, palidez mucotegumentaria, diaforesis, TA 82/46 mmHg, FC 126 lpm y la hemoglobina de control desciende de 13.5 a 8.2 g/dL sin responder a un bolo de 1 L de cristaloide.",
+      "question_text": "¿Cuál es la conducta terapéutica indicada de inmediato ante el fracaso del Manejo No Operatorio?",
+      "options": {
+        "A": "Repetir la TAC abdominal con doble contraste oral e intravenoso para re-estadificar el grado lesional.",
+        "B": "Conversión inmediata a Laparotomía exploradora de urgencia para control hemostático y esplenectomía total o preservación quirúrgica.",
+        "C": "Incrementar analgesia con infusión de fentanilo y solicitar embolización angiográfica programada en las siguientes 12 horas.",
+        "D": "Administrar 2 frascos de concentrado de complejo protrombínico y mantener conducta expectante conservadora en UCI."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Falla_MNO_Esplenico_Laparotomia_Urgente",
+      "gpc_algorithm_step": "Falla del Manejo No Operatorio (MNO) en Trauma Esplénico: La aparición de inestabilidad hemodinámica, signos de irritación peritoneal difusa o descenso progresivo de hemoglobina que no responde a líquidos en el curso de un MNO constituye indicación mandatoria de intervención quirúrgica urgente (Laparotomía).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Pérdida de la Ventana",
+        "explanation": "El distractor A propone repetir la TAC en un paciente que ahora está INESTABLE (gravísimo error). El distractor C propone angioembolización tardía o programada cuando el paciente está en choque refractario en sala de choque/UCI requiriendo control quirúrgico inmediato."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios de fracaso del Manejo No Operatorio (MNO) en trauma esplénico que obligan a laparotomía inmediata?",
+        "back": "Desarrollo de inestabilidad hemodinámica, caída de hematocrito refractaria a transfusión o irritación peritoneal difusa. ¡Obliga a laparotomía urgente!",
+        "tags": "D18 ATLS Trauma_Esplenico MNO Falla_MNO Laparotomia"
+      }
+    },
+    {
+      "id": "d18_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Traumatismo Abdominal Cerrado, Trauma Esplénico y Síndrome Compartimental",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "El paciente es intervenido quirúrgicamente de urgencia realizándose esplenectomía total por estallamiento del hilio esplénico no susceptible a reparación. Se logra control hemostático adecuado y es extubado con éxito al 3er día postoperatorio. Al 5º día, previo a planear su egreso hospitalario, el médico especialista programa las medidas preventivas para reducir el riesgo a largo plazo de Sepsis Fulminante Post-Esplenectomía (OPSI - Overwhelming Post-Splenectomy Infection).",
+      "question_text": "De acuerdo con las guías de práctica clínica y el esquema de vacunación oficial en pacientes asplénicos, ¿cuál es el régimen de inmunización profiláctica indicado y cuál es el momento óptimo para su administración?",
+      "options": {
+        "A": "Vacunación contra Streptococcus pneumoniae, Neisseria meningitidis y Haemophilus influenzae tipo b; administrada preferentemente alrededor de los 14 días posteriores a la cirugía.",
+        "B": "Vacunación inmediata en el postoperatorio inmediato (primeras 24 horas) únicamente contra virus de hepatitis B y toxoide tetánico.",
+        "C": "Vacunación exclusiva contra bacilo Calmette-Guérin (BCG) y fiebre tifoidea oral a los 3 meses de la cirugía.",
+        "D": "No se requiere vacunación profiláctica si se prescribe penicilina V oral diaria de por vida a dosis de mantenimiento."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Inmunizacion_Post_Esplenectomia_OPSI_14_Dias",
+      "gpc_algorithm_step": "Inmunoprofilaxis post-esplenectomía: El riesgo de sepsis fulminante post-esplenectomía (OPSI) se asocia a bacterias capsuladas (S. pneumoniae, N. meningitidis, H. influenzae b). En esplenectomía de urgencia, la vacuna debe administrarse idealmente a los 14 días postoperatorios (o al egreso si hay riesgo de pérdida del paciente), ya que la respuesta humoral está suprimida en las primeras 2 semanas post-trauma.",
+      "distractor_trap": {
+        "trap_type": "La Trampa del Tiempo Óptimo (Inmunocompetencia Post-Trauma)",
+        "explanation": "El distractor B vacuna en las primeras 24 horas, momento en que el sistema inmune tiene una respuesta antigénica marcadamente deprimida postquirúrgica, resultando en títulos protectores insuficientes. El distractor D omite vacunas vitales confiando erróneamente solo en antibiótico oral."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles gérmenes capsulados deben cubrirse con vacunas post-esplenectomía de urgencia y a cuántos días postoperatorios se administran?",
+        "back": "S. pneumoniae, N. meningitidis y H. influenzae b. Momento óptimo: ~14 días postoperatorios (cuando el paciente ha recuperado su capacidad de respuesta humoral).",
+        "tags": "D18 ATLS Esplenectomia Vacunacion OPSI Capsulados"
+      }
+    },
+    {
+      "id": "d18_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Traumatismo Abdominal Cerrado, Trauma Esplénico y Síndrome Compartimental",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En otro paciente masculino de 38 años sometido a empaquetamiento abdominal y reanimación hídrica masiva con 6 L de cristaloides y 8 paquetes de hemoderivados por trauma hepático complejo, se encuentra en la UCI con abdomen cerrado a tensión. En las últimas 4 horas se documenta: oliguria persistente (0.15 mL/kg/h) que no responde a volumen, presiones pico en ventilación mecánica de 45 cmH2O con hipoxemia refractaria e hipercapnia, y acidosis metabólica láctica progresiva. Se realiza medición de la presión intraabdominal (PIA) a través de catéter vesical transitorio con técnica cerrada instilando 25 mL de solución salina, reportándose una PIA de 24 mmHg.",
+      "question_text": "Con base en las definiciones de la Sociedad Mundial del Síndrome Compartimental Abdominal (WSACS) y ATLS, ¿cuál es el diagnóstico y la conducta terapéutica definitiva?",
+      "options": {
+        "A": "Hipertensión intraabdominal grado I; manejo expectante con infusión continua de diuréticos de asa y restricción hídrica estricta en UCI.",
+        "B": "Síndrome Compartimental Abdominal (PIA > 20 mmHg asociado a nueva disfunción orgánica); descompresión quirúrgica urgente mediante laparostomía con cierre temporal (abdomen abierto).",
+        "C": "Falla renal aguda prerrenal por choque hipovolémico; administrar bolo adicional de 2,000 mL de albúmina y elevar PEEP en el ventilador.",
+        "D": "Insuficiencia respiratoria por neumonía asociada a ventilador; cambio de esquema antimicrobiano a vancomicina con meropenem sin intervención abdominal."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Sindrome_Compartimental_Abdominal_PIA20_Descompresion",
+      "gpc_algorithm_step": "Síndrome Compartimental Abdominal (SCA): Se define como Presión Intraabdominal (PIA) sostenida > 20 mmHg asociada a nueva disfunción o falla orgánica (oliguria, elevación de presiones inspiratorias, acidosis). El tratamiento definitivo e impostergable es la Descompresión Quirúrgica inmediata con técnica de abdomen abierto (laparostomía contenida con sistema de vacío o bolsa de Bogotá).",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio / Enmascaramiento de Disfunción Orgánica",
+        "explanation": "El distractor A minimiza la PIA de 24 mmHg como grado I (Grado IV es >20 mmHg). El distractor C confunde la oliguria y el colapso respiratorio con hipovolemia simple, lo que llevaría a infundir más volumen y precipitar el paro cardíaco por colapso de la vena cava inferior."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se define el Síndrome Compartimental Abdominal (SCA) y cuál es su tratamiento definitivo?",
+        "back": "PIA > 20 mmHg asociada a nueva falla o disfunción orgánica (renal, respiratoria, hemodinámica). Tratamiento: Descompresión quirúrgica inmediata (abdomen abierto).",
+        "tags": "D18 ATLS Sindrome_Compartimental_Abdominal PIA WSACS Laparostomia"
+      }
+    },
+    {
+      "id": "d18_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Traumatismo Craneoencefálico Severo con Hipertensión Intracraneal y Politrauma",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Femenina de 21 años, copiloto en colisión vehicular que sale proyectada a través del parabrisas al no portar cinturón de seguridad. Es ingresada a urgencias con collarín cervical rígido. A la evaluación neurológica inicial: apertura ocular solo al dolor (2 puntos), emite sonidos guturales incomprensibles (2 puntos) y adopta postura flexora anormal / decorticación ante estímulo álgido (3 puntos), sumando una puntuación en la Escala de Coma de Glasgow de 7 puntos. A la exploración pupilar se encuentra midriasis pupilar derecha de 5 mm no reactiva a la luz y pupila izquierda de 2.5 mm fotorreactiva. Signos vitales: TA 82/48 mmHg, FC 124 lpm, FR 10 rpm irregulares, SatO2 86%. Se sospecha fractura de fémur asociada con sangrado en partes blandas.",
+      "question_text": "Tras asegurar la vía aérea mediante intubación orotraqueal con técnica de secuencia rápida y estabilización manual cervical en línea, ¿cuál es la meta prioritaria de presión arterial en la reanimación inicial según ATLS 10ª Edición y guías de la Brain Trauma Foundation (BTF)?",
+      "options": {
+        "A": "Hipotensión permisiva con Presión Arterial Sistólica (TAS) meta entre 70 y 80 mmHg para evitar hemorragia de la lesión cerebral.",
+        "B": "Mantener Presión Arterial Sistólica (TAS) ≥ 100 mmHg (en pacientes de 50-69 años) o ≥ 110 mmHg (en pacientes de 15-49 años) para asegurar una Presión de Perfusión Cerebral (PPC) > 60-70 mmHg, evitando a toda costa la hipotensión arterial.",
+        "C": "Inducir hipotensión controlada con nitroprusiato de sodio para disminuir la presión intracraneal y evitar el edema cerebral vasogénico.",
+        "D": "Mantener una Presión Arterial Media (PAM) exactamente en 50 mmHg mediante sedación profunda y restricción estricta de cristaloides isotónicos."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Metas_Presion_Arterial_TCE_Severo_ATLS10_BTF",
+      "gpc_algorithm_step": "Manejo hemodinámico en TCE Severo: La hipotensión arterial (TAS < 90 mmHg) duplica la mortalidad en TCE severo por causar isquemia cerebral secundaria. La BTF y ATLS 10ª Edición establecen que en pacientes de 15 a 49 años se debe mantener TAS ≥ 110 mmHg (y ≥ 100 mmHg en 50-69 años) para asegurar PPC ≥ 60 mmHg. La hipotensión permisiva está TERMINANTEMENTE CONTRAINDICADA en presencia de TCE moderado o severo.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Hipotensión Permisiva Contraindicada",
+        "explanation": "El distractor A aplica la 'hipotensión permisiva' válida en choque hemorrágico puro de torso sin trauma craneal, pero en presencia de TCE severo (Glasgow 7), un solo episodio de TAS < 90 mmHg causa isquemia cerebral y muerte neuronal irreversible."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué está contraindicada la hipotensión permisiva en un paciente politraumatizado que presenta Traumatismo Craneoencefálico Severo?",
+        "back": "Porque la hipotensión (TAS <90 mmHg) duplica la mortalidad por isquemia cerebral secundaria. Metas BTF/ATLS: TAS ≥110 mmHg (15-49 años) o ≥100 mmHg (≥50 años) para PPC >60 mmHg.",
+        "tags": "D18 ATLS TCE_Severo Hipotension_Permisiva Contraindicacion BTF"
+      }
+    },
+    {
+      "id": "d18_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Traumatismo Craneoencefálico Severo con Hipertensión Intracraneal y Politrauma",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la paciente anterior, una vez intubada y con reanimación hídrica en curso para elevar la TA a metas, persiste la anisocoria pupilar marcada con midriasis derecha arreactiva, bradicardia relativa súbita (FC 56 lpm) y TA de 88/52 mmHg, sugiriendo síndrome de herniación uncal transtentorial inminente. El equipo médico debe administrar un agente hiperosmolar de emergencia mientras se prepara el traslado al quirófano/tomógrafo.",
+      "question_text": "Considerando que la paciente presenta hipotensión arterial activa persistente (TAS < 90 mmHg) y politraumatismo, ¿cuál es el agente osmótico de elección y la justificación farmacológica según las guías clínicas?",
+      "options": {
+        "A": "Manitol al 20% en bolo rápido a dosis de 1 g/kg de peso corporal para forzar diuresis osmótica inmediata.",
+        "B": "Solución salina hipertónica (al 3% o 7.5%) en bolo IV, ya que incrementa la osmolaridad sérica y reduce el edema cerebral restaurando al mismo tiempo el volumen intravascular y la presión arterial sistémica.",
+        "C": "Dextrosa al 50% en agua para alimentar la corteza cerebral isquémica y reducir el gradiente osmolar transtentorial.",
+        "D": "Furosemida a dosis de 80 mg IV en combinación con infusión de solución salina al 0.45% (hipotónica) para diluir la concentración intracraneal."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Solucion_Salina_Hipertonica_vs_Manitol_TCE_Hipotenso",
+      "gpc_algorithm_step": "Osmoterapia en TCE: El Manitol produce diuresis osmótica y está CONTRAINDICADO en presencia de hipotensión arterial (TAS < 90 mmHg) o hipovolemia no corregida porque agrava el choque. La solución salina hipertónica (al 3% a dosis de 2-4 mL/kg o al 7.5%) es el agente osmótico de elección en pacientes con TCE e hipotensión arterial concomitante, ya que expande el volumen intravascular a la par que reduce la PIC.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El Manitol (Distractor A) es excelente en el paciente normotenso o hipertenso con herniación, pero mortal en un paciente hipotenso o con hipovolemia traumática asociada porque induce diuresis osmótica masiva, colapsa la volemia y suprime la perfusión cerebral."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál agente osmótico de emergencia se prefiere en un paciente con TCE severo y herniación cerebral que cursa con HIPOTENSIÓN o hipovolemia?",
+        "back": "Solución Salina Hipertónica (3% o 7.5%), porque expande volumen y eleva TA mientras reduce PIC. ¡El Manitol está CONTRAINDICADO en hipotensión!",
+        "tags": "D18 ATLS TCE Osmoterapia Salina_Hipertonica Manitol Contraindicacion"
+      }
+    },
+    {
+      "id": "d18_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Traumatismo Craneoencefálico Severo con Hipertensión Intracraneal y Politrauma",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Tras estabilizar la presión arterial sistólica en 115 mmHg con salino hipertónico y hemoderivados, se realiza tomografía axial computarizada simple de cráneo urgente. El estudio tomográfico demuestra una lesión extraaxial hiperdensa biconvexa (en forma de lente o lenteja) localizada en la región temporoparietal derecha, que no cruza las líneas de las suturas craneales pero sí cruza las inserciones durales, con un grosor máximo de 18 mm, asociada a desviación de la línea media de 7 mm y colapso del ventrículo lateral ipsilateral.",
+      "question_text": "¿Cuál es el diagnóstico patológico definitivo, la estructura vascular más comúnmente lesionada y la indicación quirúrgica inmediata?",
+      "options": {
+        "A": "Hematoma Subdural Agudo; rotura de venas puente corticales; indicación de manejo conservador en UCI con neuromonitorización invasiva.",
+        "B": "Hematoma Epidural Agudo; rotura de la arteria meníngea media secundaria a fractura del hueso temporal; indicación de craneotomía descompresiva y evacuación quirúrgica de urgencia.",
+        "C": "Hemorragia Subaracnoidea Traumática; rotura del polígono de Willis; indicación de panangiografía cerebral y embolización endovascular con coils.",
+        "D": "Contusión hemorrágica intraparenquimatosa difusa; lesión por cizallamiento axónico; indicación de lobectomía temporal reglada diferida a 72 horas."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Hematoma_Epidural_Arteria_Meningea_Media_Biconvexo",
+      "gpc_algorithm_step": "Hematoma Epidural: Imagen biconvexa (lenticular) hiperdensa limitada por las suturas craneales (donde la duramadre está adherida al periostio). Se produce clásicamente por traumatismo en la región del pterion con fractura de la escama del temporal y desgarro de la Arteria Meníngea Media. Criterios quirúrgicos: volumen > 30 cm3 (independientemente del Glasgow) o grosor > 15 mm, desviación de línea media > 5 mm, o Glasgow < 9 con anisocoria.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje) / Confusión Clásica Epidural vs Subdural",
+        "explanation": "El hematoma subdural (Distractor A) tiene morfología semilunar (en medialuna o cóncavo-convexa) y cruza suturas craneales, originado típicamente por venas puente. El hematoma epidural es biconvexo y arterial (meníngea media)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las características tomográficas y el vaso más frecuentemente lesionado en el Hematoma Epidural?",
+        "back": "Morfología biconvexa (lenteja), no cruza suturas craneales. Vaso: Arteria Meníngea Media (desgarro por fractura temporal/pterion).",
+        "tags": "D18 ATLS TCE Hematoma_Epidural Arteria_Meningea_Media Tomografia"
+      }
+    },
+    {
+      "id": "d18_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Traumatismo Craneoencefálico Severo con Hipertensión Intracraneal y Politrauma",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Tras ser sometida exitosamente a craneotomía y evacuación del hematoma epidural, la paciente ingresa a la Unidad de Cuidados Intensivos conectada a ventilación mecánica asistida. Durante la ronda médica matutina, el médico en formación propone inducir hiperventilación mecánica profunda continua para alcanzar una PaCO2 arterial de 24 mmHg, argumentando que la vasoconstricción cerebral consecuente mantendrá la presión intracraneal (PIC) en niveles óptimos.",
+      "question_text": "De acuerdo con las guías de la Brain Trauma Foundation y ATLS 10ª Edición, ¿cuál es el rango meta de PaCO2 recomendado y cuál es la razón por la cual está PROHIBIDA la hiperventilación profunda profiláctica continua?",
+      "options": {
+        "A": "Rango meta PaCO2 de 35 a 40 mmHg (normocapnia); la hiperventilación profunda continua causa vasoconstricción cerebral intensa e isquemia cerebral secundaria por hipoperfusión tisular crítica.",
+        "B": "Rango meta PaCO2 de 20 a 25 mmHg; se debe mantener durante 72 horas para asegurar alcalosis respiratoria compensatoria que previene el edema citotóxico.",
+        "C": "Rango meta PaCO2 de 50 a 55 mmHg (hipercapnia permisiva); para inducir vasodilatación cerebral masiva que optimice el flujo sanguíneo y la oxigenación.",
+        "D": "No existe relación entre la PaCO2 y el flujo sanguíneo cerebral, por lo que el ventilador debe programarse exclusivamente en función del pH urinario."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Normocapnia_TCE_Prohibicion_Hiperventilacion_Profilactica",
+      "gpc_algorithm_step": "Manejo ventilatorio en TCE: La PaCO2 es el regulador más potente del tono arteriolar cerebral. La hiperventilación profunda (PaCO2 < 30 mmHg) induce vasoconstricción marcada que disminuye la PIC temporalmente a expensas de provocar ISQUEMIA CEREBRAL SECUNDARIA severa. La recomendación es mantener normocapnia estricta (PaCO2 35-40 mmHg). La hiperventilación breve (<30-32 mmHg) se reserva únicamente como medida temporal de rescate extremo ante signos inminentes de herniación cerebral refractaria.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Paradigma Obsoleto",
+        "explanation": "El distractor B representa el dogma médico superado de los años 80 donde se hiperventilaba de rutina a los pacientes con TCE. Múltiples ensayos clínicos demostraron que esto empeora drásticamente el pronóstico neurológico funcional al infartar la penumbra isquémica cerebral."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la meta de PaCO2 en TCE severo y por qué está prohibida la hiperventilación profunda profiláctica?",
+        "back": "Meta: Normocapnia (PaCO2 35-40 mmHg). La hiperventilación profunda (<30 mmHg) causa vasoconstricción cerebral e ISQUEMIA cerebral secundaria por hipoperfusión.",
+        "tags": "D18 ATLS TCE Ventilacion Normocapnia PaCO2 Isquemia"
+      }
+    },
+    {
+      "id": "d18_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Masculino de 35 años sufre caída desde un andamio a 5 metros de altura con traumatismo cervical axial directo. A su llegada a urgencias en tabla rígida y collarín: consciente y orientado (Glasgow 15). A la exploración neurológica: cuadriplejía flácida y anestesia total sensitiva por debajo del dermatoma C5 (nivel medular cervical). Signos vitales: TA 78/42 mmHg, FC 46 lpm (bradicardia sinusal marcada en electrocardiograma), FR 16 rpm con respiración diafragmática exclusiva, temperatura 36.2 °C, piel caliente, seca y bien perfundida con uresis conservada de 45 mL/h tras sonda vesical. El abdomen es blando y no doloroso, sin evidencias de sangrado externo ni fracturas de huesos largos.",
+      "question_text": "¿Cuál es el diagnóstico hemodinámico de precisión y cuál es la estrategia farmacológica de primera línea recomendada por ATLS y guías neuroquirúrgicas?",
+      "options": {
+        "A": "Choque hipovolémico descompensado por sangrado retroperitoneal oculto; infundir 3,000 mL de solución salina al 0.9% en bolo y solicitar transfusión de 4 unidades de concentrados eritrocitarios.",
+        "B": "Choque cardiogénico agudo por contusión miocárdica cerrada; iniciar infusión de dobutamina y milrinona con balón de contrapulsación intraaórtico.",
+        "C": "Choque neurogénico por denervación simpática toracolumbar; reanimación hídrica cautelosa con vasopresores con actividad alfa y beta adrenérgica (norepinefrina) manteniendo PAM meta de 85 a 90 mmHg durante 7 días.",
+        "D": "Choque espinal con edema vasogénico; administrar bolos masivos de metilprednisolona a dosis de 30 mg/kg en infusión durante 24 horas como única intervención."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Choque_Neurogenico_Hipotension_Bradicardia_Norepinefrina",
+      "gpc_algorithm_step": "Choque Neurogénico: Se produce por interrupción de las vías simpáticas descendentes en traumatismos cervicales o torácicos altos (sobre T6). Se caracteriza por la combinación patognomónica de HIPOTENSIÓN + BRADICARDIA + PIEL CALIENTE/SECA (por pérdida del tono vasomotor simpático y predominio parasimpático vagal). Tratamiento: líquidos intravenosos juiciosos y vasopresores (norepinefrina/dopamina) para mantener PAM entre 85-90 mmHg durante 7 días para perfundir la médula espinal.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje) / Confusión Choque Neurogénico vs Choque Espinal",
+        "explanation": "El distractor D confunde choque neurogénico (entidad hemodinámica) con 'choque espinal' (fenómeno neurológico de arreflexia y parálisis flácida temporal). Además, la metilprednisolona a dosis altas ya no se recomienda por guías de trauma/GPC por alto riesgo de sepsis y nulo beneficio medular comprobado."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se caracteriza clínicamente el Choque Neurogénico y cuál es su meta hemodinámica?",
+        "back": "Clínica: Hipotensión + Bradicardia + Piel caliente y seca (vasodilatación periférica). Manejo: Vasopresor (norepinefrina) con meta de Presión Arterial Media (PAM) 85-90 mmHg.",
+        "tags": "D18 ATLS Choque_Neurogenico Bradicardia Norepinefrina PAM85"
+      }
+    },
+    {
+      "id": "d18_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Masculino de 28 años ingresa tras sufrir aplastamiento de extremidad inferior izquierda por maquinaria pesada, con fractura diafisaria cerrada de tibia y peroné inmovilizada provisionalmente con férula inguinopédica de yeso. A las 6 horas de evolución en piso de ortopedia, el paciente desarrolla dolor atroz, desproporcionado a la lesión y que no cede con la administración de morfina intravenosa. A la exploración física: tumefacción leñosa a tensión de la pantorrilla, dolor exquisito exacerbado a la estiramiento pasivo de los ortejos del pie y parestesias en el primer espacio interdigital del pie. Los pulsos pedio y tibial posterior están presentes pero débiles. La TA del paciente es de 110/70 mmHg (Presión Arterial Diastólica = 70 mmHg). Mediante técnica con aguja y manómetro se mide la presión intracompartimental del compartimento anterior de la pierna, registrándose 48 mmHg.",
+      "question_text": "¿Cuál es la interpretación de la presión delta (ΔP) y cuál es la conducta quirúrgica urgente de elección?",
+      "options": {
+        "A": "Presión delta de 22 mmHg (menor o igual a 30 mmHg), indicativa de síndrome compartimental agudo; retiro de vendajes y fasciotomía descompresiva urgente de los 4 compartimentos de la pierna.",
+        "B": "Presión delta normal; mantener la férula cerrada, elevar la extremidad a 90 grados por encima del corazón y aplicar compresas con hielo local.",
+        "C": "Presión delta indeterminada; esperar a la desaparición completa de los pulsos pedio y tibial posterior antes de plantear la intervención quirúrgica.",
+        "D": "Administrar heparina de bajo peso molecular y solicitar arteriografía urgente de la arteria poplítea para descartar trombosis antes de operar."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Sindrome_Compartimental_Presion_Delta_30_Fasciotomia",
+      "gpc_algorithm_step": "Síndrome Compartimental Agudo: El signo clínico más temprano y sensible es el dolor desproporcionado exacerbado por el estiramiento pasivo de los músculos del compartimento. El diagnóstico de certeza se establece con una Presión Delta (Presión Arterial Diastólica menos Presión Intracompartimental) ≤ 30 mmHg (en este caso: 70 - 48 = 22 mmHg) o presión absoluta > 30 mmHg. El tratamiento urgente es la fasciotomía descompresiva de todos los compartimentos involucrados. NUNCA esperar a la ausencia de pulsos periféricos (signo tardío e irreversible de necrosis).",
+      "distractor_trap": {
+        "trap_type": "La Trampa del Pulso Presente / Retraso Iatrogénico Mortal",
+        "explanation": "El distractor C comete el error más clásico: creer que 'si hay pulsos periféricos, no hay síndrome compartimental'. La presión intracompartimental ocluye la microcirculación capilar y arteriolar mucho antes de obliterar el vaso arterial principal con pulso palpable."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se calcula la Presión Delta (ΔP) en Síndrome Compartimental y a partir de qué valor está indicada la fasciotomía?",
+        "back": "Presión Delta = Presión Arterial Diastólica (PAD) - Presión Intracompartimental. Indicación de Fasciotomía: Presión Delta ≤ 30 mmHg (o presión absoluta >30 mmHg).",
+        "tags": "D18 ATLS Sindrome_Compartimental Presion_Delta Fasciotomia Extremidad"
+      }
+    },
+    {
+      "id": "d18_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Obrero de la construcción de 30 años sufre descarga eléctrica por contacto accidental directo con cable de alta tensión (13,800 voltios). Ingresa a sala de choque con Glasgow 15, quemaduras cutáneas de entrada en palma de mano derecha (3% de SCQ aparente) y quemadura de salida en planta de pie izquierdo, pero con edema masivo, tensión y endurecimiento severo de toda la masa muscular de la extremidad superior derecha y el muslo izquierdo. Se coloca sonda vesical Foley obteniéndose orina de color marrón oscuro / refresco de cola. El examen general de orina con tira reactiva reporta positividad intensa (+++) para sangre/hemoglobina, pero el sedimento microscópico urinario revela ausencia de eritrocitos intactos (0-1 hematíes por campo). La creatina fosfocinasa (CPK) total se reporta en 42,000 UI/L.",
+      "question_text": "De acuerdo con el ATLS 10ª Edición y la Guía de Práctica Clínica para el manejo del paciente quemado, ¿cuál es la meta de uresis horaria y la intervención terapéutica prioritaria?",
+      "options": {
+        "A": "Meta de uresis convencional de 0.5 mL/kg/h (30 a 50 mL/h); limitar los líquidos endovenosos para prevenir edema cerebral y pulmonar.",
+        "B": "Meta de uresis aumentada de 1.0 a 1.5 mL/kg/h (o 100 a 200 mL/h en adultos) con infusión vigorosa de Ringer Lactato, considerando alcalinización urinaria con bicarbonato de sodio hasta que la orina se aclare visiblemente.",
+        "C": "Indicar hemodiálisis de urgencia inmediata sin administrar líquidos intravenosos para evitar la precipitación de mioglobina en los túbulos.",
+        "D": "Administrar ácido tranexámico y fitomenadiona (vitamina K) para corregir la supuesta hematuria macroscópica de origen glomerular."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Quemadura_Electrica_Rabdomiolisis_Uresis_100ml_h",
+      "gpc_algorithm_step": "Quemadura eléctrica de alto voltaje y rabdomiólisis: La corriente destruye tejido muscular profundo masivo liberando mioglobina (tira positiva para sangre con sedimento sin eritrocitos). La mioglobina precipita en los túbulos renales causando necrosis tubular aguda. La meta de reanimación hídrica se incrementa de la meta térmica estándar (0.5 mL/kg/h) a 1.0 - 1.5 mL/kg/h (o 100 mL/h en adultos) hasta que la orina aclare macroscópicamente. Puede asociarse bicarbonato para alcalinizar la orina (pH > 6.5) y prevenir la precipitación de cristales de ácido hemático.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / La Trampa de la Meta Convencional",
+        "explanation": "El distractor A aplica la meta habitual de 0.5 mL/kg/h para quemaduras térmicas. En quemadura eléctrica con mioglobinuria/rabdomiólisis, esta meta es insuficiente y conduce inexorablemente a falla renal aguda oligoanúrica irreversible."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la meta de uresis horaria en quemaduras eléctricas de alto voltaje con rabdomiólisis/mioglobinuria según ATLS?",
+        "back": "1.0 a 1.5 mL/kg/hora (o 100 a 200 mL/hora en adultos) con Ringer Lactato hasta que la orina aclare visiblemente (a diferencia de los 0.5 mL/kg/h térmicos).",
+        "tags": "D18 Quemaduras ATLS Electrica Rabdomiolisis Mioglobinuria Uresis"
+      }
+    },
+    {
+      "id": "d18_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Femenina de 34 años sufre quemadura por fuego directo en espacio cerrado, presentando quemaduras de espesor total (tercer grado) de aspecto acartonado, apergaminado y blanquecino que abarcan circunferencialmente todo el tórax anterior y posterior. Al llegar a urgencias, se encuentra intubada pero el ventilador dispara alarmas continuas de alta presión en la vía aérea (presión pico de 52 cmH2O), el volumen corriente desciende a 180 mL, la SatO2 cae a 82% y se observa nula expansibilidad de la caja torácica durante las insuflaciones debido al efecto restrictivo constrictivo de la escara.",
+      "question_text": "¿Cuál es el procedimiento quirúrgico de emergencia impostergable y cuál es el plano anatómico de profundidad en el que debe ejecutarse según las guías clínicas?",
+      "options": {
+        "A": "Traqueostomía percutánea de emergencia para disminuir el espacio muerto y la resistencia de la vía aérea.",
+        "B": "Escarotomía torácica descompresiva de urgencia; incisión que divide la escara quemada en todo su espesor hasta visualizar el tejido celular subcutáneo graso, sin seccionar la fascia muscular profunda.",
+        "C": "Fasciotomía torácica profunda con disección y desbridamiento de los músculos pectorales mayor y menor hasta el periostio costal.",
+        "D": "Toracostomía con tubo pleural bilateral en ambos hemitórax para descartar neumotórax restrictivo antes de intervenir la piel."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Escarotomia_Toracica_Descompresiva_Plano_Subcutaneo",
+      "gpc_algorithm_step": "Quemaduras circunferenciales torácicas: La escara rígida inelástica actúa como un corsé que impide la excursión torácica y produce falla ventilatoria restrictiva crítica. La intervención salvadora inmediata es la ESCAROTOMÍA: incisiones longitudinales en líneas axilares anteriores unidas por una incisión transversal supraclavicular e inframamaria. El plano de incisión atraviesa estrictamente la dermis quemada hasta el tejido celular subcutáneo graso. No se debe seccionar la fascia muscular profunda (eso sería fasciotomía, la cual está contraindicada salvo en quemadura muscular eléctrica profunda).",
+      "distractor_trap": {
+        "trap_type": "La Trampa del Plano Anatómico / Escarotomía vs Fasciotomía",
+        "explanation": "El distractor C confunde escarotomía con fasciotomía. Seccionar la fascia muscular profunda en el tórax no aporta descompresión adicional y genera hemorragia masiva innecesaria, bacteriemia y destrucción de planos anatómicos funcionales."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el procedimiento y el plano anatómico de descompresión en quemaduras torácicas circunferenciales restrictivas?",
+        "back": "Escarotomía torácica descompresiva. Plano: Se divide la escara dérmica hasta el tejido celular subcutáneo graso (SIN cortar la fascia muscular profunda).",
+        "tags": "D18 Quemaduras Escarotomia Torax Circunferencial ATLS GPC"
+      }
+    },
+    {
+      "id": "d18_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Masculino de 52 años rescatado de un incendio en un departamento cerrado con combustión de alfombras sintéticas y muebles plásticos. Arriba a urgencias letárgico, confuso, con voz ronca, esputo carbonáceo y estridor laríngeo inspiratorio audible sin estetoscopio. Presenta quemaduras faciales de segundo grado y quemadura de vibrisas nasales. A la monitorización: TA 130/80 mmHg, FC 110 lpm, FR 28 rpm. El oxímetro de pulso de cabecera marca una SatO2 de 98% con mascarilla simple. La gasometría arterial inmediata reporta: pH 7.22, PaO2 88 mmHg, PaCO2 32 mmHg, lactato sérico marcadamente elevado en 11 mmol/L, y cooximetría con Fracción de Carboxihemoglobina (COHb) de 32%.",
+      "question_text": "Con base en los mecanismos fisiopatológicos de intoxicación por humos y quemadura de vía aérea, ¿cuáles son las conductas prioritarias inmediatas?",
+      "options": {
+        "A": "Confiar en la SatO2 de 98% del pulsioxímetro y administrar oxígeno a bajo flujo por puntas nasales para evitar toxicidad por hiperoxia.",
+        "B": "Intubación orotraqueal inmediata para aseguramiento definitivo de la vía aérea previo a la progresión del edema laríngeo, administración de oxígeno al 100% con mascarilla de no reinhalación y administración de hidroxocobalamina por sospecha de toxicidad por cianuro.",
+        "C": "Traslado inmediato a una cámara hiperbárica en otra unidad hospitalaria antes de considerar la intubación o cualquier acceso venoso.",
+        "D": "Nebulización con solución fisiológica al 0.9% y broncodilatadores sin intubación, con egreso a domicilio si la COHb desciende de 20% en 2 horas."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Lesion_Inhalacion_CO_Cianuro_Intubacion_Precoz",
+      "gpc_algorithm_step": "Lesión por inhalación e intoxicación por CO/Cianuro: 1) Estridor, ronquera y esputo carbonáceo son signos de compromiso inminente de vía aérea que exigen INTUBACIÓN OROTRAQUEAL PRECOZ antes de que el edema la ocluya por completo. 2) El pulsioxímetro convencional lee la carboxihemoglobina como oxihemoglobina (SatO2 falsamente normal al 98%). 3) El tratamiento de la intoxicación por CO es Oxígeno al 100% (reduce la vida media de COHb de 320 min a 40-80 min). 4) La presencia de lactato muy elevado (>10 mmol/L) en incendios cerrados con materiales sintéticos indica intoxicación concurrente por Cianuro, tratándose con Hidroxocobalamina.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio / Falso Reflejo de Oximetría",
+        "explanation": "El distractor A cae en la trampa del pulsioxímetro: el aparato no distingue oxihemoglobina de carboxihemoglobina. Creer que tiene '98% de saturación' y retrasar la intubación y el O2 al 100% condiciona paro respiratorio por edema glótico masivo."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué es engañosa la pulsioximetría en la intoxicación por Monóxido de Carbono (CO) y qué indica un lactato >10 mmol/L en incendios cerrados?",
+        "back": "La pulsioximetría lee COHb como oxihemoglobina (SatO2 falsamente normal). Lactato >10 mmol/L en incendios de plásticos sugiere intoxicación por CIANURO (tratar con Hidroxocobalamina).",
+        "tags": "D18 Inhalacion Monoxido_Carbono Cianuro Pulsioximetria ATLS Hidroxocobalamina"
+      }
+    },
+    {
+      "id": "d18_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Severe Thermal Burn Resuscitation, Complications and Critical Care",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A 40-year-old male industrial worker weighing exactly 70 kg is rushed to the trauma and burn center following a flash fire explosion at a chemical solvent facility 2 hours ago. On physical examination in the emergency resuscitation bay, he is awake, highly anxious, and complaining of excruciating pain. The airway is widely patent without carbonaceous sputum or stridor. Careful inspection reveals circumferential third-degree (full-thickness) leathery burns involving the entire anterior and posterior trunk (36% TBSA) and both entire upper extremities circumferentially (18% TBSA). The head, neck, lower extremities, and perineum are entirely spared. Total Body Surface Area (TBSA) burned is calculated at 54%.",
+      "question_text": "According to the 10th Edition of the Advanced Trauma Life Support (ATLS) guidelines—which updated the fluid resuscitation formula to 2 mL/kg/%TBSA for adult thermal burns—and Mexican CENETEC Clinical Practice Guidelines, what is the total Lactated Ringer's volume required for the first 24 hours, and what is the exact hourly infusion rate required for the remaining 6 hours of the initial 8-hour window?",
+      "options": {
+        "A": "Total 24-hour volume: 7,560 mL; hourly rate for the next 6 hours: 630 mL/hour.",
+        "B": "Total 24-hour volume: 15,120 mL (Parkland 4 mL formula); hourly rate for the next 6 hours: 1,260 mL/hour.",
+        "C": "Total 24-hour volume: 7,560 mL; hourly rate: 472.5 mL/hour administered evenly over an 8-hour period calculated from hospital arrival.",
+        "D": "Total 24-hour volume: 3,780 mL; hourly rate for the next 6 hours: 315 mL/hour."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "ATLS_10th_2ml_Formula_Thermal_Burns_Calculation",
+      "gpc_algorithm_step": "ATLS 10th Edition Fluid Resuscitation Formula: For thermal burns in adults, ATLS updated the initial fluid load from 4 mL to 2 mL of Lactated Ringer's x kg x %TBSA (second and third degree) to avoid fluid creep and abdominal compartment syndrome. Calculation: 2 mL x 70 kg x 54% = 7,560 mL for the first 24 hours. Fifty percent (3,780 mL) must be administered within the first 8 hours FROM THE TIME OF INJURY (not from hospital arrival). Since 2 hours have already elapsed, 3,780 mL must be delivered over the remaining 6 hours = 3,780 / 6 = 630 mL/hour.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Parkland 4 mL vs ATLS 10th Ed 2 mL",
+        "explanation": "Option B uses the historical Parkland 4 mL formula (15,120 mL), which current ATLS 10th edition explicitly abandoned for thermal burns due to lethal complications from fluid overload ('fluid creep'). Option C calculates time from hospital arrival rather than from the moment of burn injury."
+      },
+      "anki_flashcard": {
+        "front": "What is the fluid formula for adult thermal burns in ATLS 10th Edition, and how is the first 8-hour volume timed?",
+        "back": "Formula: 2 mL of Lactated Ringer's x kg x %TBSA. Half (50%) is infused within 8 hours FROM THE TIME OF THE BURN INJURY (not from hospital admission).",
+        "tags": "D18 ATLS_10th Burns Resuscitation Fluid_Formula TBSA"
+      }
+    },
+    {
+      "id": "d18_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Severe Thermal Burn Resuscitation, Complications and Critical Care",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Four hours into intravenous fluid resuscitation (which corresponds to 6 hours after the explosion occurred), the 70 kg patient remains in the burn intensive care unit. During the last 2 consecutive hours, his urinary drainage via the Foley catheter has been 20 mL/hour and 18 mL/hour (mean of ~0.27 mL/kg/hour). His current vital signs are: BP 95/55 mmHg, HR 122 bpm, central venous pressure 4 mmHg. Hematocrit is 56% and serum lactate is 3.8 mmol/L.",
+      "question_text": "What is the target hourly urine output for an adult patient with thermal burns according to ATLS and international burn guidelines, and what is the immediate indicated hemodynamic intervention?",
+      "options": {
+        "A": "Target urine output is 0.5 mL/kg/hour (30 to 50 mL/hour in adults); the Lactated Ringer's infusion rate should be titrated upward by 20% to 33% per hour until target urine output is achieved.",
+        "B": "Target urine output is 1.5 to 2.0 mL/kg/hour; an immediate intravenous bolus of 40 mg furosemide must be administered to prevent tubular obstruction.",
+        "C": "Target urine output is 0.2 mL/kg/hour during the first 12 hours; maintain current fluid rates because transient oliguria reflects normal physiological stress.",
+        "D": "Target urine output is 100 mL/hour; immediately discontinue crystalloids and initiate a full volume replacement with 20% human albumin."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Target_Urine_Output_Adult_Burns_0_5_ml_kg_h",
+      "gpc_algorithm_step": "Endpoint of Burn Resuscitation: Urine output is the single most reliable clinical indicator of adequate renal and end-organ perfusion. For adults with thermal burns, the target is 0.5 mL/kg/hour (approximately 30-50 mL/hour). If output falls below this threshold (<0.5 mL/kg/h), the intravenous infusion rate of Lactated Ringer's must be titrated upward by 20% to 33% every hour until target is reached. Diuretics are strictly contraindicated during burn shock resuscitation.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Prohibición de Diuréticos",
+        "explanation": "Option B administers furosemide (diuretics); giving a loop diuretic in hypovolemic burn shock creates catastrophic intravascular volume collapse. Option D uses electrical burn targets (100 mL/h) which do not apply to thermal burns without rhabdomyolysis."
+      },
+      "anki_flashcard": {
+        "front": "What is the target hourly urinary output for adult thermal burns vs pediatric burns during fluid resuscitation?",
+        "back": "Adults: 0.5 mL/kg/hour (30-50 mL/h). Children (<30 kg): 1.0 mL/kg/hour. If below goal: titrate IV fluids up by 20-33%/hour (NEVER give diuretics).",
+        "tags": "D18 ATLS Burns Urine_Output Resuscitation Parkland Endpoint"
+      }
+    },
+    {
+      "id": "d18_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Severe Thermal Burn Resuscitation, Complications and Critical Care",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "By 48 hours post-injury, the patient has completed the initial fluid resuscitation phase and is hemodynamically stable. The burn surgical team addresses local wound care and topical antimicrobials to reduce microbial colonization and prevent invasive burn wound sepsis. The patient has deep partial and full-thickness burns involving his trunk, but his facial structures, ears, and cartilage are intact.",
+      "question_text": "Which of the following clinical statements regarding topical antimicrobial agents and systemic antimicrobial prophylaxis in major burn management is strictly correct according to Clinical Practice Guidelines (GPC CENETEC / ISBI)?",
+      "options": {
+        "A": "Silver sulfadiazine (Silvadene) 1% cream is widely utilized for its broad antibacterial spectrum; however, its known adverse effect is transient, reversible neutropenia/leukopenia, and it does not penetrate thick eschars deeply.",
+        "B": "Mafenide acetate (Sulfamylon) is indicated exclusively because it stimulates carbonic anhydrase, causing metabolic alkalosis and painless application.",
+        "C": "Routine prophylactic systemic broad-spectrum intravenous antibiotics (e.g., piperacillin/tazobactam) must be initiated from day 1 in all patients with burns > 20% TBSA to prevent wound colonization.",
+        "D": "Silver nitrate (0.5% solution) is preferred because it deeply penetrates eschars without causing skin staining or electrolyte disturbances such as hyponatremia."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Silver_Sulfadiazine_Adverse_Effects_Neutropenia_GPC",
+      "gpc_algorithm_step": "Topical antimicrobial therapy in severe burns: Silver sulfadiazine 1% is the most commonly used topical agent; its classic board-tested side effect is transient leukopenia/neutropenia (bone marrow suppression). Mafenide acetate (Sulfamylon) penetrates deep tissue/cartilage but causes metabolic acidosis (carbonic anhydrase inhibitor) and significant burning pain. Systemic prophylactic antibiotics are STRONGLY DISCOURAGED by Mexican and international guidelines because they do not reduce wound infections and lead to colonization by multi-resistant bacterial pathogens.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de los Antibióticos Profilácticos / Mafenide Acidosis",
+        "explanation": "Option C promotes routine systemic prophylactic antibiotics; this is one of the most heavily penalized errors in burn questions (antibiotics are reserved only for proven systemic sepsis or targeted perioperative prophylaxis). Option B incorrectly claims mafenide causes alkalosis (it causes metabolic acidosis)."
+      },
+      "anki_flashcard": {
+        "front": "What is the classic side effect of Silver Sulfadiazine and why are systemic prophylactic antibiotics contraindicated in severe burns?",
+        "back": "Silver Sulfadiazine: Transient leukopenia/neutropenia. Systemic antibiotics: Contraindicated prophylactically because they breed multi-drug resistant flora without reducing infection.",
+        "tags": "D18 Burns Topical_Antimicrobials Silver_Sulfadiazine Mafenide Prophylaxis"
+      }
+    },
+    {
+      "id": "d18_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Severe Thermal Burn Resuscitation, Complications and Critical Care",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "On hospital day 4, the patient develops a pronounced hypermetabolic stress response with tachycardia (HR 118 bpm), hyperthermia (38.4 °C), and accelerated protein catabolism. Nasogastric tube drainage reveals 200 mL of dark, coffee-ground aspirate. The patient has remained fasting (NPO) since admission due to surgical ileus concerns, without gastrointestinal protective therapy.",
+      "question_text": "According to Mexican GPC and international critical care guidelines, what is the best evidence-based strategy for the prevention and management of stress-related mucosal injury (Curling's ulcer) and metabolic support in this severely burned patient?",
+      "options": {
+        "A": "Immediate initiation of early enteral nutrition (within the first 24 to 48 hours post-burn) combined with intravenous proton pump inhibitors or H2-receptor antagonists.",
+        "B": "Total Parenteral Nutrition (TPN) instituted as the exclusive modality of feeding to ensure complete bowel rest until the hypermetabolic state completely resolves.",
+        "C": "High-dose systemic corticosteroid therapy (dexamethasone 20 mg/day) to inhibit the release of hypermetabolic cytokines and hyperpyrexia.",
+        "D": "Emergency prophylactic total gastrectomy and truncal vagotomy to permanently eliminate the risk of catastrophic gastrointestinal hemorrhage."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Curlings_Ulcer_Early_Enteral_Nutrition_PPI",
+      "gpc_algorithm_step": "Curling's Ulcer and Nutritional Support: Severe burns produce acute stress mucosal ulceration (Curling's ulcer) caused by splanchnic hypoperfusion and hypersecretion of gastric acid. Prevention consists of early enteral nutrition (initiated within 24-48 hours) which preserves the gut mucosal barrier and mitigates the hypermetabolic response, along with pharmacological acid suppression (PPIs or H2 blockers). TPN is associated with gut atrophy, increased bacteremia, and higher mortality compared to enteral nutrition.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Nutrición Parenteral (NPT vs Enteral Precoz)",
+        "explanation": "Option B suggests Total Parenteral Nutrition (TPN); guidelines specifically advise against routine TPN in burn patients due to loss of enterocyte integrity, bacterial translocation, and line sepsis compared to the proven protective benefit of early enteral nutrition."
+      },
+      "anki_flashcard": {
+        "front": "What is a Curling's Ulcer and what are the two core interventions for its prevention in extensive burn victims?",
+        "back": "Acute stress gastroduodenal ulcer in burn patients due to hypoperfusion. Prevention: Early enteral nutrition (within 24-48 h) + acid suppression (PPI / H2 blocker).",
+        "tags": "D18 Burns Curlings_Ulcer Early_Enteral_Nutrition PPI Complications"
+      }
+    }
+  ]
+}

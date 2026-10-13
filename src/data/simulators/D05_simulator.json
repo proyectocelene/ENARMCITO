@@ -1,0 +1,709 @@
+{
+  "topic_code": "D05",
+  "title": "Simulador Post-Estudio: Enfermedad Renal Crónica (KDIGO) y EVC",
+  "normativa_origen": "GPC IMSS-335-19 / IMSS-152",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d05_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: EVC Isquémico Agudo en Ventana Terapéutica y Decisiones Críticas",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 68 años con antecedente de hipertensión arterial sistémica mal controlada y tabaquismo activo. Es traído al servicio de urgencias por sus familiares debido a que hace exactamente 1 hora y 45 minutos presentó de manera súbita desviación de la comisura bucal a la izquierda, imposibilidad para hablar y debilidad en hemicuerpo derecho que le provocó caída de su propia altura. A su ingreso: TA 198/112 mmHg, FC 88 lpm, FR 18 rpm, SaO2 96% al aire ambiente, temperatura 36.8 °C. La glucometría capilar reporta 142 mg/dL. A la exploración neurológica: afasia global, hemianopsia homónima derecha, parálisis facial central derecha y hemiplejía faciobraquiocrural derecha completa (escala NIHSS calculada en 16 puntos). La tomografía axial computarizada (TAC) simple de cráneo realizada inmediatamente a su llegada descarta hemorragia intracraneal y muestra un ASPECTS de 9 puntos (hipodensidad muy sutil en corteza insular, sin afección mayor a 1/3 del territorio de la arteria cerebral media). Los tiempos de coagulación basales son normales (INR 1.05, TTPa 28 segundos, plaquetas 230,000/mm3).",
+      "question_text": "¿Cuál es la conducta médica prioritaria e inmediata para habilitar y proceder a la terapia de reperfusión según la GPC IMSS-152?",
+      "options": {
+        "A": "Administrar labetalol intravenoso en bolos titulados (o infusión de nicardipino) con la meta estricta de reducir la TA a < 185/110 mmHg antes de iniciar la infusión de alteplase (rtPA)",
+        "B": "Iniciar de inmediato la infusión de alteplase intravenoso sin demora, ya que el beneficio de la ventana terapéutica supera el riesgo tensional",
+        "C": "Administrar nitroprusiato de sodio en infusión de alta velocidad para inducir una caída brusca de la TA sistólica a < 120 mmHg antes de trombolizar",
+        "D": "Contraindicar la trombólisis intravenosa de forma definitiva por cifras tensionales de urgencia y enviar a trombectomía mecánica primaria sin intentar control farmacológico"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo_Tension_Arterial_Pretrombolisis",
+      "gpc_algorithm_step": "GPC IMSS-152: Todo paciente con EVC isquémico en ventana (< 4.5 h) y TA > 185/110 mmHg requiere tratamiento antihipertensivo IV de primera línea (labetalol o nicardipino) para descender la TA por debajo de 185/110 mmHg ANTES de la administración de alteplase (rtPA), manteniéndola < 180/105 mmHg durante las primeras 24 horas post-trombólisis para mitigar el riesgo de transformación hemorrágica sintomática.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El rtPA está indicado por tiempo (< 4.5 h) y ausencia de hemorragia, pero infundirlo con TA > 185/110 mmHg cuadruplica el riesgo de hemorragia cerebral fatal. La TA no contraindica de forma absoluta la reperfusión, sino que exige su control IV activo previo con labetalol."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la meta de presión arterial requerida por la GPC antes de iniciar alteplase (rtPA) en EVC isquémico agudo y cuál es el fármaco de primera línea?",
+        "back": "Meta: TA < 185/110 mmHg previa a la infusión (y mantener < 180/105 mmHg en las primeras 24 h).\nFármaco de 1ª línea: Labetalol IV en bolos (10-20 mg) o infusión de nicardipino.",
+        "tags": "D05 EVC Isquemico Trombolisis Labetalol Metas_TA GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: EVC Isquémico Agudo en Ventana Terapéutica y Decisiones Críticas",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Tras dos bolos de labetalol intravenoso de 20 mg, la presión arterial desciende a 172/96 mmHg. Se calcula la dosis de alteplase a 0.9 mg/kg (dosis máxima 90 mg; 10% en bolo en 1 minuto y el 90% restante en infusión para 60 minutos) y se inicia la administración a las 2 horas con 15 minutos del inicio de los síntomas. A los 35 minutos de haber iniciado la infusión continua del trombolítico, el paciente súbitamente presenta cefalea holocraneal de intensidad 10/10, náusea, dos episodios de vómito en proyectil, descenso del estado de despierto (escala de Glasgow desciende de 13 a 8 puntos), asimetría pupilar con midriasis derecha y su presión arterial se dispara abruptamente a 215/120 mmHg.",
+      "question_text": "Ante la sospecha inminente de transformación hemorrágica sintomática inducida por el trombolítico, ¿cuál es la conducta médica inmediata e inexcusable que debe ejecutarse según el protocolo de la GPC?",
+      "options": {
+        "A": "Suspender inmediatamente la infusión de alteplase, solicitar TAC simple de cráneo urgente y tomar muestras para biometría hemática, tiempos de coagulación y niveles de fibrinógeno",
+        "B": "Aumentar la infusión de labetalol para bajar la presión arterial y continuar la administración del trombolítico hasta completar la dosis prescrita de 60 minutos",
+        "C": "Administrar un bolo de manitol al 20% e hiperventilar al paciente sin suspender el trombolítico para proteger el tejido de penumbra isquémica",
+        "D": "Administrar ácido tranexámico empírico de inmediato por vía intravenosa y diferir la tomografía para el día siguiente"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo_Complicacion_Hemorragica_rtPA",
+      "gpc_algorithm_step": "GPC IMSS-152: Ante cualquier deterioro neurológico agudo, cefalea intensa, náusea/vómito o elevación súbita de la TA durante la infusión de alteplase, el primer paso mandatario es SUSPENDER la infusión de rtPA de forma inmediata, solicitar TAC simple de cráneo urgente y enviar laboratorios de coagulación (fibrinógeno, TP, TTPa, plaquetas) para guiar la reposición con crioprecipitados si se confirma hemorragia.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El clínico novato tiende a culpar únicamente a la hipertensión reactiva y persiste en pasar el trombolítico, o infunde procoagulantes sin suspender el fármaco causante ni confirmar mediante TAC la hemorragia, lo cual es iatrogénico."
+      },
+      "anki_flashcard": {
+        "front": "Paciente con EVC isquémico que presenta deterioro neurológico súbito, cefalea o vómito durante la infusión de alteplase. ¿Conducta inmediata según GPC?",
+        "back": "1. Suspender inmediatamente la infusión de alteplase.\n2. Solicitar TAC simple de cráneo urgente.\n3. Solicitar fibrinógeno, tiempos de coagulación y BH.\n4. Si confirma hemorragia: administrar crioprecipitados (meta fibrinógeno > 150 mg/dL) o ácido tranexámico.",
+        "tags": "D05 EVC Trombolisis Complicacion Hemorragia_Sintomatica GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: EVC Isquémico Agudo en Ventana Terapéutica y Decisiones Críticas",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La tomografía de cráneo urgente descarta hemorragia intraparenquimatosa (el deterioro se catalogó como crisis focal con parálisis de Todd transitoria postictal, la cual cedió con levetiracetam). Se completa el protocolo de neuroimagen vascular mediante angiotomografía computarizada (angioTAC), la cual evidencia una oclusión en la bifurcación carotídea distal y en el segmento M1 proximal de la arteria cerebral media izquierda con un trombo de 13 mm de longitud. El tiempo total transcurrido desde el inicio de los síntomas es de 3 horas con 10 minutos. El paciente se encuentra en un centro hospitalario con sala de hemodinamia y neurointervencionismo disponible.",
+      "question_text": "De acuerdo con la GPC IMSS-152 y las directrices vigentes para el manejo del EVC isquémico por oclusión de gran vaso, ¿cuál es la conducta terapéutica indicada respecto al procedimiento endovascular?",
+      "options": {
+        "A": "Proceder de inmediato a trombectomía mecánica endovascular ('terapia puente') dentro de la ventana estándar de 6 horas desde el inicio de los síntomas",
+        "B": "Contraindicar cualquier intervención endovascular dado que el paciente ya recibió dosis previa de trombolítico intravenoso",
+        "C": "Administrar una dosis adicional de tenecteplase intravenoso para intentar la disolución farmacológica del trombo de gran vaso",
+        "D": "Mantener manejo médico conservador exclusivo con ácido acetilsalicílico y diferir la revascularización para las siguientes 72 horas"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Trombectomia_Mecanica_Gran_Vaso",
+      "gpc_algorithm_step": "GPC IMSS-152 / Consensos de Neurointervencionismo: En pacientes con oclusión de gran vaso en la circulación anterior (carótida interna terminal o segmento M1 de ACM) dentro de las primeras 6 horas del inicio de los síntomas, la trombectomía mecánica con stent retriever o aspiración es la terapia de elección estándar, incluso tras haber recibido alteplase intravenoso (enfoque de reperfusión combinada o terapia puente).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "Asumir que el uso de alteplase contraindica la terapia endovascular o pretender sustituir la trombectomía mecánica por una segunda dosis farmacológica de trombolíticos (lo cual está absolutamente proscrito por riesgo hemorrágico letal)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios clave para indicar trombectomía mecánica en ventana estándar en EVC isquémico según la GPC?",
+        "back": "1. Oclusión demostrada de gran vaso en circulación anterior (ACI o M1 de ACM).\n2. Ventana de tiempo < 6 horas desde el inicio de síntomas (o última vez visto bien).\n3. ASPECTS ≥ 6 y NIHSS ≥ 6.\n4. Se realiza independientemente de si el paciente recibió o no alteplase IV (terapia puente).",
+        "tags": "D05 EVC Trombectomia Gran_Vaso Ventana_6h GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: EVC Isquémico Agudo en Ventana Terapéutica y Decisiones Críticas",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Se realiza con éxito la trombectomía mecánica logrando una recanalización completa con grado TICI 3 a las 4 horas del inicio del cuadro. A las 24 horas del procedimiento, el paciente muestra una recuperación neurológica notable, con habla comprensible, paresia braquial mínima y un puntaje en la escala NIHSS de 3 puntos (EVC menor residual). La TAC simple de cráneo a las 24 horas confirma un infarto isquémico pequeño no compresivo en ganglios basales izquierdos sin transformación hemorrágica. La monitorización electrocardiográfica continua en la unidad de cuidados intensivos documenta paroxismos de fibrilación auricular no valvular de novo con respuesta ventricular controlada. El paciente no presenta signos de sangrado sistémico.",
+      "question_text": "De acuerdo con el algoritmo de anticoagulación post-EVC isquémico de la GPC y la regla temporal clásica (regla 1-3-6-12), ¿cuándo debe iniciarse la anticoagulación oral definitiva en este paciente con EVC menor (NIHSS < 8)?",
+      "options": {
+        "A": "Al tercer día (a partir de las 72 horas) posterior al evento isquémico índice, previa confirmación tomográfica de ausencia de sangrado",
+        "B": "Inmediatamente a las 12 horas del procedimiento mediante infusión continua de heparina no fraccionada en dosis terapéutica",
+        "C": "Al primer día (a las 24 horas) independientemente de la severidad del infarto cerebral",
+        "D": "Diferir la anticoagulación durante 3 meses manteniendo únicamente monoterapia con ácido acetilsalicílico"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tiempo_Inicio_Anticoagulacion_Regla_1_3_6_12",
+      "gpc_algorithm_step": "GPC IMSS-152 / Regla de consenso 1-3-6-12: En EVC cardioembólico por FA, la anticoagulación oral se estratifica según la severidad del déficit para balancear el riesgo de transformación hemorrágica: AIT = Día 1; EVC leve/menor (NIHSS < 8) = Día 3; EVC moderado (NIHSS 8-15) = Día 6; EVC severo (NIHSS > 15) = Día 12 a 14 tras repetir neuroimagen.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Anticoagular con heparina en las primeras 24-48 horas de un infarto cerebral agudo incrementa de forma crítica la transformación hemorrágica sin mejorar la sobrevida funcional. En infarto leve (NIHSS 3) el día 3 (72 horas) es el momento normativo."
+      },
+      "anki_flashcard": {
+        "front": "En EVC cardioembólico por FA, ¿cuándo se inicia la anticoagulación oral según la regla 1-3-6-12 adoptada en la GPC?",
+        "back": "• AIT: Día 1.\n• EVC menor / leve (NIHSS < 8): Día 3 (72 horas).\n• EVC moderado (NIHSS 8-15): Día 6.\n• EVC severo (NIHSS > 15): Día 12-14 (con TAC de control previa).",
+        "tags": "D05 EVC Fibrilacion_Auricular Anticoagulacion Regla_1_3_6_12 GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Enfermedad Renal Crónica Avanzada y Trastorno Mineral Óseo (TMO-ERC)",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mujer de 59 años con diabetes mellitus tipo 2 de 18 años de evolución e hipertensión arterial sistémica. Acude a consulta externa para seguimiento de medicina interna. Se revisan estudios de laboratorio seriados de los últimos 4 meses: glucosa 134 mg/dL, HbA1c 7.6%, creatinina sérica actual de 3.1 mg/dL (hace 4 meses reportaba 2.9 mg/dL y hace 2 meses 3.0 mg/dL), BUN 44 mg/dL, urea 94 mg/dL; la Tasa de Filtración Glomerular estimada (TFGe) por ecuación CKD-EPI es de 19 mL/min/1.73m2. El cociente albúmina/creatinina en muestra aislada de orina es de 1,450 mg/g. Su perfil metabólico óseo reporta: calcio sérico corregido por albúmina de 8.2 mg/dL, fósforo sérico de 6.4 mg/dL (elevado), hormona paratiroidea intacta (PTHi) de 380 pg/mL (valor de referencia normal: 15-65 pg/mL) y 25-hidroxivitamina D sérica de 18 ng/mL.",
+      "question_text": "¿Cuál es la estadificación pronóstica exacta de la ERC según la clasificación KDIGO y el diagnóstico del trastorno metabólico asociado según la GPC IMSS-335-19?",
+      "options": {
+        "A": "Enfermedad Renal Crónica Estadio G4A3 con Trastorno Mineral y Óseo (Hiperparatiroidismo secundario e hiperfosfatemia)",
+        "B": "Enfermedad Renal Crónica Estadio G5A3 con Hiperparatiroidismo primario y nefrolitiasis hipercalcémica",
+        "C": "Enfermedad Renal Crónica Estadio G4A2 con Osteomalacia pura por hipofosfatemia crónica",
+        "D": "Enfermedad Renal Crónica Estadio G3bA3 con Pseudohipoparatiroidismo tipo 1a resistente a PTH"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Estadificacion_KDIGO_G4A3_TMO",
+      "gpc_algorithm_step": "GPC IMSS-335-19 / KDIGO: Estadio G4 corresponde a TFGe de 15 a 29 mL/min/1.73m2 confirmada por > 3 meses. Categoría A3 corresponde a albuminuria severamente incrementada (> 300 mg/g). La retención de fósforo por caída del filtrado glomerular disminuye el calcio iónico y la síntesis renal de calcitriol, estimulando la síntesis excesiva de PTH (hiperparatiroidismo secundario).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir hiperparatiroidismo secundario (PTH elevada con calcio bajo/normal y fósforo alto por ERC) con primario (PTH elevada con calcio alto), o asignar erróneamente estadio G5 (que exige TFGe < 15 mL/min/1.73m2)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se define el estadio G4A3 de la clasificación KDIGO para ERC y cuál es la tríada bioquímica del hiperparatiroidismo secundario?",
+        "back": "• Estadio G4: TFGe 15-29 mL/min/1.73m2 por > 3 meses.\n• Categoría A3: Albuminuria > 300 mg/g.\n• Tríada de Hiperparatiroidismo 2°: Fósforo sérico elevado, Calcio sérico bajo o límite normal, PTH intacta marcadamente elevada.",
+        "tags": "D05 ERC KDIGO G4A3 Hiperparatiroidismo_Secundario TMO GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Enfermedad Renal Crónica Avanzada y Trastorno Mineral Óseo (TMO-ERC)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la misma paciente de 59 años con ERC estadio G4A3 (TFGe 19 mL/min/1.73m2, calcio 8.2 mg/dL, fósforo 6.4 mg/dL, PTHi 380 pg/mL), usted diseña el plan farmacológico integral para prevenir la progresión de la osteodistrofia renal y las calcificaciones cardiovasculares.",
+      "question_text": "¿Cuál es la intervención farmacológica de primera línea recomendada por la GPC IMSS-335-19 para el control del fósforo y la modulación de la PTH en este escenario?",
+      "options": {
+        "A": "Prescribir quelantes de fósforo a base de calcio (carbonato o acetato de calcio) administrados estrictamente con las comidas principales, junto con restricción dietética de fosfatos",
+        "B": "Iniciar calcitriol oral a dosis altas de 1 mcg al día de forma inmediata sin requerir control previo de las concentraciones de fósforo sérico",
+        "C": "Indicar hidróxido de aluminio por vía oral tres veces al día como quelante de mantenimiento por tiempo indefinido",
+        "D": "Iniciar cinacalcet 60 mg al día como monoterapia primaria antes de instaurar cualquier quelante intestinal de fósforo"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Quelantes_Fosforo_GPC",
+      "gpc_algorithm_step": "GPC IMSS-335-19: En pacientes con ERC no dialítica e hiperfosfatemia (> 4.5-5.5 mg/dL) con calcio normal-bajo, la primera línea son los quelantes a base de calcio (carbonato de calcio) tomados JUNTO con los alimentos para quelar el fosfato de la dieta. El calcitriol está CONTRAINDICADO si el fósforo es > 5.5 mg/dL (o producto Ca x P > 55) por riesgo severo de calcificación metastásica tisular y vascular. Los quelantes de aluminio están proscritos por toxicidad.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "Iniciar calcitriol directamente sin bajar primero el fósforo sérico. Si Ca x P supera 55 mg2/dL2, el calcitriol precipita fosfato de calcio en arterias, corazón y partes blandas. Los quelantes de aluminio están proscritos por encefalopatía y osteomalacia."
+      },
+      "anki_flashcard": {
+        "front": "Paciente con ERC G4, P 6.4 mg/dL, Ca 8.2 mg/dL y PTH 380 pg/mL. ¿Por qué está contraindicado iniciar calcitriol de inmediato y cuál es el paso previo según GPC?",
+        "back": "Contraindicación: El calcitriol aumenta la absorción de Ca y P; con P > 5.5 eleva el producto Ca x P (> 55) produciendo calcificaciones vasculares y metastásicas.\nPaso previo obligado: Reducir primero el fósforo sérico con quelantes (carbonato de calcio con alimentos) y dieta.",
+        "tags": "D05 ERC TMO Quelantes_Fosforo Calcitriol Carbonato_Calcio GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Enfermedad Renal Crónica Avanzada y Trastorno Mineral Óseo (TMO-ERC)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente continúa en seguimiento y refiere astenia y adinamia progresivas en el último mes. Su biometría hemática completa muestra: hemoglobina 8.6 g/dL, hematocrito 26.2%, VCM 88 fL, HCM 29 pg (anemia normocítica normocrómica), leucocitos 6,100/mm3, plaquetas 220,000/mm3. El perfil de cinética de hierro reporta: ferritina sérica de 68 ng/mL e índice de saturación de transferrina (IST) del 14%. La paciente se encuentra afebril, hemodinámicamente estable, con TA 132/80 mmHg, sin dolor precordial, disnea de reposo ni signos de hemorragia gastrointestinal oculta.",
+      "question_text": "De acuerdo con el algoritmo terapéutico para el manejo de la anemia en la ERC de la GPC IMSS-335-19 en pacientes no en diálisis, ¿cuál es la conducta médica inicial obligatoria?",
+      "options": {
+        "A": "Administrar hierro intravenoso (ej. sacarato férrico) con la meta de alcanzar una saturación de transferrina > 20% y ferritina sérica > 100 ng/mL antes de prescribir agentes estimulantes de la eritropoyesis",
+        "B": "Iniciar de inmediato eritropoyetina alfa recombinante a dosis de 100 UI/kg/semana por vía subcutánea sin requerir administración previa de hierro",
+        "C": "Prescribir sulfato ferroso por vía oral a dosis de 200 mg tres veces al día en ayuno estricto como única medida",
+        "D": "Transfundir de urgencia dos paquetes de concentrado eritrocitario para elevar la hemoglobina a cifras superiores a 12 g/dL"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo_Anemia_ERC_Replecion_Hierro_Previa",
+      "gpc_algorithm_step": "GPC IMSS-335-19: Antes de iniciar cualquier Agente Estimulante de la Eritropoyesis (AEE) como la eritropoyetina, es mandatario asegurar la repleción de las reservas de hierro con metas de IST > 20% y ferritina > 100 ng/mL (en no diálisis) o > 200 ng/mL (en diálisis). En estadios G4-G5, la vía intravenosa es superior a la oral por la pobre absorción intestinal mediada por hepcidina.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Prescribir eritropoyetina a un paciente con ferropenia absoluta (IST 14%, ferritina 68) produce falla terapéutica, refractariedad y acelera el agotamiento de reservas. El hierro oral fracasa por bloqueo de ferroportina duodenal por hepcidina inflamatoria."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las metas obligatorias del perfil de hierro antes de iniciar eritropoyetina en un paciente con ERC según la GPC?",
+        "back": "• Índice de saturación de transferrina (IST): > 20%.\n• Ferritina sérica: > 100 ng/mL (en no diálisis) o > 200 ng/mL (en hemodiálisis).\nVía de elección en estadios avanzados: Hierro intravenoso.",
+        "tags": "D05 ERC Anemia Eritropoyetina Hierro_IV Ferritina IST GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Enfermedad Renal Crónica Avanzada y Trastorno Mineral Óseo (TMO-ERC)",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Como parte del protocolo metabólico de la paciente con ERC estadio G4A3, se realiza una gasometría venosa periférica de control ambulatorio: pH 7.30, bicarbonato sérico (HCO3) 16 mEq/L, PCO2 33 mmHg, sodio sérico 138 mEq/L, potasio 4.7 mEq/L, cloro 108 mEq/L. La brecha aniónica es de 14 mEq/L. La paciente se encuentra estable, eupneica y tolerando la vía oral.",
+      "question_text": "¿Cuál es la recomendación terapéutica y la meta sérica de bicarbonato establecida por la GPC IMSS-335-19 y las guías KDIGO para retrasar la progresión del daño renal?",
+      "options": {
+        "A": "Iniciar bicarbonato de sodio por vía oral con la meta de mantener el bicarbonato sérico en un valor ≥ 22 mEq/L para prevenir la osteopenia y el catabolismo muscular",
+        "B": "Infundir solución de bicarbonato de sodio al 8.4% intravenoso en bolo para forzar una alcalosis sistémica con meta de pH > 7.48",
+        "C": "Vigilar expectante sin tratamiento farmacológico, ya que la acidosis metabólica solo se interviene si el bicarbonato desciende por debajo de 12 mEq/L",
+        "D": "Prescribir acetazolamida oral para estimular la excreción tubular distal de iones hidrógeno"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo_Acidosis_Metabolica_ERC_Meta_Bicarbonato",
+      "gpc_algorithm_step": "GPC IMSS-335-19 / KDIGO: En pacientes con ERC y bicarbonato sérico < 22 mEq/L, se recomienda la suplementación oral con bicarbonato de sodio (0.5 a 1.0 mEq/kg/día) para mantener niveles séricos de bicarbonato ≥ 22 mEq/L (rango 22 a 26 mEq/L), demostrando enlentecer la declinación de la TFG y atenuar la sarcopenia.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Pensar que un bicarbonato de 16 mEq/L es 'asintomático y tolerable' en ERC. La acidosis metabólica crónica estimula la resorción ósea, degrada músculo esquelético y acelera la esclerosis glomerular, ameritando sustitución oral a meta ≥ 22 mEq/L."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la cifra meta de bicarbonato sérico en el tratamiento de la acidosis metabólica crónica en la ERC según la GPC?",
+        "back": "Meta: Bicarbonato sérico ≥ 22 mEq/L (rango 22-26 mEq/L).\nTratamiento: Bicarbonato de sodio por vía oral (0.5 a 1 mEq/kg/día).",
+        "tags": "D05 ERC Acidosis_Metabolica Bicarbonato KDIGO Metas GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Ataque Isquémico Transitorio (AIT) y Prevención Secundaria Neurovascular",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Varón de 66 años con antecedente de diabetes mellitus tipo 2 e hipertensión arterial sistémica de 14 años de evolución en tratamiento con enalapril y metformina. Mientras desayunaba presentó súbitamente debilidad motora del brazo y pierna izquierdos acompañada de disartria que le impedía articular adecuadamente las palabras. Los síntomas persistieron durante 40 minutos y remitieron de forma completa y espontánea. Arriba a urgencias 90 minutos después de haber iniciado el evento. A su llegada: TA 156/94 mmHg, FC 74 lpm, FR 16 rpm, glucemia capilar 136 mg/dL. Al examen físico el paciente se encuentra neurológicamente íntegro, consciente, orientado, con fuerza muscular 5/5 simétrica en cuatro extremidades y lenguaje fluido sin disartria (NIHSS de 0 puntos).",
+      "question_text": "¿Cuál es el puntaje obtenido en la escala pronóstica ABCD2 y la conducta clínica dictada por la GPC IMSS-152?",
+      "options": {
+        "A": "ABCD2 de 6 puntos (Alto riesgo de EVC en 48 horas); hospitalización inmediata en segundo o tercer nivel para estudio neurovascular urgente",
+        "B": "ABCD2 de 2 puntos (Bajo riesgo de EVC en 48 horas); egreso a domicilio con cita diferida en un mes a medicina familiar",
+        "C": "ABCD2 de 4 puntos (Riesgo moderado); tratamiento ambulatorio exclusivo con ácido acetilsalicílico sin neuroimagen obligatoria",
+        "D": "ABCD2 de 7 puntos (Riesgo máximo); infusión urgente de alteplase intravenoso profiláctico para evitar trombosis inminente"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Escala_ABCD2_Estratificacion_AIT",
+      "gpc_algorithm_step": "GPC IMSS-152 / Escala ABCD2: Edad ≥ 60 años (1 pto), TA ≥ 140/90 mmHg (1 pto), Clínica: debilidad unilateral (2 ptos), Duración de 10 a 59 minutos (1 pto), Diabetes presente (1 pto) = TOTAL: 6 PUNTOS. Un puntaje ABCD2 de 6 a 7 puntos categoriza al paciente en ALTO RIESGO de EVC en 48 h (~8-10%), exigiendo hospitalización inmediata para neuroimagen y estudio vascular.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El examen neurológico normal (NIHSS 0) induce erróneamente a catalogarlo como 'paciente curado' y darlo de alta, o subestimar el puntaje ABCD2 al no otorgar 2 puntos a la debilidad motora unilateral."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se calcula y clasifica la escala ABCD2 para riesgo de EVC post-AIT según la GPC?",
+        "back": "• Age ≥ 60 años (1 pto).\n• BP ≥ 140/90 mmHg (1 pto).\n• Clinical: debilidad unilateral (2 ptos) o trastorno del habla sin debilidad (1 pto).\n• Duration: ≥ 60 min (2 ptos) o 10-59 min (1 pto).\n• Diabetes (1 pto).\nPuntajes: 0-3 Bajo, 4-5 Moderado, 6-7 Alto riesgo (hospitalización urgente obligatoria).",
+        "tags": "D05 EVC AIT Escala_ABCD2 Alto_Riesgo GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Ataque Isquémico Transitorio (AIT) y Prevención Secundaria Neurovascular",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La tomografía computarizada simple de cráneo realizada al ingreso no demuestra sangrado ni zonas de infarto cortical establecido, confirmando el diagnóstico de AIT de alto riesgo (ABCD2 6 puntos). El electrocardiograma descarta arritmias y confirma ritmo sinusal normal.",
+      "question_text": "De acuerdo con los ensayos clínicos POINT/CHANCE adoptados en la actualización de la GPC IMSS-152 para prevención secundaria temprana en AIT de alto riesgo (ABCD2 ≥ 4) o EVC menor no cardioembólico, ¿cuál es el esquema de antiagregación de elección?",
+      "options": {
+        "A": "Doble antiagregación plaquetaria (DAPT) con ácido acetilsalicílico más clopidogrel iniciada dentro de las primeras 24 horas y mantenida estrictamente durante 21 días, continuando después con monoterapia",
+        "B": "Doble antiagregación plaquetaria con ácido acetilsalicílico más clopidogrel mantenida de forma indefinida de por vida para evitar cualquier recurrencia",
+        "C": "Monoterapia con ácido acetilsalicílico a dosis de 100 mg al día sin asociar clopidogrel bajo ninguna circunstancia",
+        "D": "Anticoagulación oral completa con antagonistas de vitamina K (warfarina) con meta de INR 2.0 a 3.0"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Esquema_DAPT_21_Dias_AIT_EVC_Menor",
+      "gpc_algorithm_step": "GPC IMSS-152: En pacientes con AIT de alto riesgo (ABCD2 ≥ 4) o EVC isquémico menor no cardioembólico (NIHSS ≤ 3), se indica terapia antiplaquetaria dual (ácido acetilsalicílico 100 mg + clopidogrel 75 mg con dosis de carga) iniciada dentro de las primeras 24 horas y mantenida por un período exacto de 21 días. Posteriormente se continúa con monoterapia para evitar incremento excesivo del riesgo de hemorragia mayor.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "Mantener DAPT más allá de 21 a 90 días no aporta beneficio protector adicional contra EVC isquémico recurrente y triplica el riesgo de hemorragia extracraneal y hemorragia intracraneal letal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la duración exacta recomendada de la doble antiagregación (AAS + Clopidogrel) en AIT de alto riesgo (ABCD2 ≥ 4) o EVC menor según la GPC?",
+        "back": "Exactamente 21 DÍAS iniciados dentro de las primeras 24 horas post-evento.\nPosteriormente se cambia a monoterapia antiplaquetaria indefinida.",
+        "tags": "D05 EVC AIT DAPT Clopidogrel Aspirina 21_Dias GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Ataque Isquémico Transitorio (AIT) y Prevención Secundaria Neurovascular",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Durante el protocolo intrahospitalario del paciente con AIT de alto riesgo, se realiza ultrasonido Doppler carotídeo complementado con angiotomografía de vasos supraaórticos. Se documenta una placa aterosclerótica complicada y ulcerada en el bulbo carotídeo derecho que condiciona una estenosis del 75% de la luz de la arteria carótida interna ipsilateral al hemisferio sintomático (criterios NASCET). El paciente no presenta comorbilidades cardíacas descompensadas y su riesgo quirúrgico es habitual.",
+      "question_text": "¿Cuál es la intervención de revascularización de primera línea y la ventana temporal recomendada por la GPC IMSS-152 para prevenir un infarto cerebral masivo recurrente?",
+      "options": {
+        "A": "Endarterectomía carotídea realizada idealmente dentro de las primeras 2 semanas posteriores al evento isquémico índice",
+        "B": "Angioplastia con stent carotídeo de emergencia en las primeras 6 horas sin requerir antiagregación previa",
+        "C": "Manejo médico conservador exclusivo con estatinas sin considerar cirugía de revascularización",
+        "D": "Endarterectomía carotídea diferida a los 6 meses del evento tras completar fase de remodelación vascular"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Endarterectomia_Carotidea_Sintomatica_Ventana",
+      "gpc_algorithm_step": "GPC IMSS-152: En pacientes con AIT o EVC no discapacitante y estenosis carotídea sintomática grave (70% al 99% por NASCET), la endarterectomía carotídea es la intervención de primera línea, debiendo realizarse de manera temprana, preferentemente dentro de las primeras 2 semanas posteriores al evento isquémico para alcanzar la máxima reducción de riesgo absoluto de EVC ipsilateral.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Diferir la cirugía más allá de 2 a 4 semanas disminuye drásticamente el beneficio neto de la revascularización, ya que el riesgo de EVC recurrente por placa inestable es máximo en los primeros 14 días."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo está indicada la endarterectomía carotídea en EVC/AIT y cuál es la ventana de realización recomendada por GPC?",
+        "back": "• Indicación: Estenosis sintomática del 70% al 99% (NASCET) en paciente con expectativa > 5 años.\n• Ventana óptima: Primeras 2 SEMANAS post-evento.",
+        "tags": "D05 EVC Carotida Endarterectomia NASCET Ventana_2_Semanas GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Ataque Isquémico Transitorio (AIT) y Prevención Secundaria Neurovascular",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "El paciente es programado para endarterectomía carotídea. Su perfil lipídico en ayuno reporta: colesterol total 224 mg/dL, triglicéridos 168 mg/dL, cHDL 38 mg/dL, cLDL 146 mg/dL. El paciente no recibía previamente terapia hipolipemiante.",
+      "question_text": "De acuerdo con las metas de prevención secundaria aterotrombótica de la GPC IMSS-152, ¿cuál es el esquema farmacológico hipolipemiante de elección y su objetivo de control?",
+      "options": {
+        "A": "Estatina de alta intensidad (atorvastatina 80 mg o rosuvastatina 20-40 mg al día) con meta de reducción del cLDL ≥ 50% y un nivel sérico < 70 mg/dL (o < 55 mg/dL en muy alto riesgo)",
+        "B": "Pravastatina 20 mg al día con meta de reducción moderada para cLDL < 130 mg/dL",
+        "C": "Fibratos (bezafibrato 200 mg/día) como monoterapia primaria sobre las estatinas para proteger la pared carotídea",
+        "D": "Inhibidores de PCSK9 en monoterapia como fármaco de primera intención institucional sin usar estatinas"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Estatinas_Alta_Intensidad_Metas_cLDL_EVC",
+      "gpc_algorithm_step": "GPC IMSS-152: Todo paciente con EVC isquémico o AIT de origen aterotrombótico se clasifica en riesgo cardiovascular muy alto. Requiere estatinas de alta intensidad (atorvastatina 80 mg o rosuvastatina 20-40 mg/día) con el objetivo de lograr una reducción ≥ 50% de las cifras basales de cLDL y un nivel objetivo estricto de cLDL < 70 mg/dL (o < 55 mg/dL), ejerciendo efectos pleiotrópicos de estabilización de placa.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "Prescribir estatinas de baja/moderada potencia (pravastatina 20 mg) 'para no elevar enzimas hepáticas' no alcanza las metas de estabilización de placa exigidas en prevención secundaria."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la indicación y meta de cLDL en prevención secundaria post-EVC/AIT aterotrombótico según la GPC?",
+        "back": "• Fármaco: Estatina de alta intensidad (Atorvastatina 80 mg o Rosuvastatina 20-40 mg).\n• Meta: Reducción ≥ 50% del basal y cLDL < 70 mg/dL (o < 55 mg/dL en riesgo extremo).",
+        "tags": "D05 EVC AIT Estatinas Atorvastatina Metas_LDL GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Urgencias Nefrológicas y Terapia de Reemplazo Renal de Emergencia",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 54 años con antecedente de diabetes mellitus tipo 2 de 20 años y ERC estadio G5 no dialítico que suspendió todo tratamiento médico y citas de seguimiento hace 2 semanas. Es traído al área de reanimación por debilidad muscular extrema ascendente que le imposibilita ponerse de pie, náusea intensa y parestesias periorales. Signos vitales: TA 165/90 mmHg, FC 44 lpm (bradicardia marcada), FR 22 rpm, temperatura 36.4 °C. Los resultados urgentes de laboratorio reportan: glucosa 142 mg/dL, BUN 98 mg/dL, urea 210 mg/dL, creatinina 8.6 mg/dL, sodio 133 mEq/L, potasio 7.8 mEq/L, cloro 102 mEq/L, calcio 8.0 mg/dL. El electrocardiograma de 12 derivaciones muestra bradicardia sinusal, ausencia aparente de ondas P, ensanchamiento severo del complejo QRS (160 ms) y ondas T elevadas, puntiagudas, simétricas de base estrecha en 'tienda de campaña'.",
+      "question_text": "¿Cuál es la primera intervención médica inmediata y prioritaria que debe administrarse según el algoritmo de hiperkalemia severa de la GPC IMSS-335-19?",
+      "options": {
+        "A": "Gluconato de calcio al 10% por vía intravenosa (10 mL infundidos en 2 a 5 minutos) bajo monitorización electrocardiográfica continua",
+        "B": "Infusión de solución polarizante con 10 UI de insulina regular en 50 mL de solución glucosada al 50% a pasar en 30 minutos",
+        "C": "Administración oral de 30 g de sulfonato de poliestireno sódico disuelto en agua con sorbitol",
+        "D": "Bolo intravenoso de 120 mg de furosemida para forzar la eliminación urinaria de potasio"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Prioridad_Estabilizacion_Membrana_Gluconato_Calcio",
+      "gpc_algorithm_step": "GPC IMSS-335-19 / Algoritmo de Hiperkalemia Grave: Ante concentraciones de K > 6.5 mEq/L o cambios electrocardiográficos (ondas T picudas, ensanchamiento de QRS, bradiarritmias), el PRIMER PASO inexcusable es estabilizar la membrana miocárdica con Gluconato de Calcio al 10% IV (10 mL en 2-5 min). No disminuye el potasio plasmático, pero revierte el riesgo inminente de fibrilación ventricular y asistolia en 1 a 3 minutos.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La insulina con glucosa es excelente para meter potasio a la célula, pero tarda 15 a 30 minutos en actuar. Si no se estabiliza la membrana miocárdica con calcio primero, el paciente puede presentar paro en FV o ritmo sinoventricular fatal durante la espera."
+      },
+      "anki_flashcard": {
+        "front": "Paciente con hiperkalemia severa (K > 7.0) y ensanchamiento del QRS / ondas T picudas. ¿Cuál es el primer fármaco que debe recibir y cuál es su mecanismo?",
+        "back": "1. Fármaco: Gluconato de Calcio al 10% IV (10 mL en 2-5 min).\n2. Mecanismo: Estabiliza el potencial de umbral de la membrana celular miocárdica. NO disminuye los niveles séricos de potasio.",
+        "tags": "D05 ERC Hiperkalemia Gluconato_Calcio Estabilizacion_Membrana GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Urgencias Nefrológicas y Terapia de Reemplazo Renal de Emergencia",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A los 5 minutos de infundir el gluconato de calcio, el QRS se estrecha transitoriamente. Se inicia de inmediato infusión polarizante de glucosa más insulina y salbutamol nebulizado. Sin embargo, a los 40 minutos el paciente desarrolla disnea súbita con ortopnea y taquipnea (FR 34 rpm con respiración profunda de Kussmaul), hipoxemia (SaO2 84% con FiO2 ambiental) y estertores crepitantes bilaterales hasta vértices pulmonares. La gasometría arterial reporta: pH 7.08, PaCO2 22 mmHg, PaO2 58 mmHg, HCO3 6.8 mEq/L, lactato 2.1 mmol/L. Su gasto urinario en las últimas 6 horas es de 10 mL (anuria prácticamente absoluta). La radiografía de tórax revela redistribución venocapilar masiva, infiltrado en 'alas de mariposa' y líneas B de Kerley compatibles con edema agudo de pulmón.",
+      "question_text": "¿Cuál es la conducta médica definitiva e inaplazable dictada por la GPC IMSS-335-19 para la supervivencia del paciente?",
+      "options": {
+        "A": "Terapia de reemplazo renal urgente (hemodiálisis de emergencia) por sobrecarga hídrica refractaria (edema pulmonar), acidosis metabólica severa (pH < 7.15) e hiperkalemia",
+        "B": "Infundir 4 ámpulas de bicarbonato de sodio al 8.4% en bolo rápido intravenoso para compensar la acidosis y diferir la diálisis",
+        "C": "Administrar infusión continua de furosemida a 80 mg/hora esperando respuesta diurética forzada antes de intervenir",
+        "D": "Colocar cánula nasal de alto flujo y manejar con nitroglicerina sublingual de forma conservadora"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Criterios_Urgencia_Dialitica_AEIOU",
+      "gpc_algorithm_step": "GPC IMSS-335-19: Las indicaciones absolutas de inicio urgente de Terapia de Reemplazo Renal (TRR) se resumen en la mnemotecnia AEIOU: Acidosis metabólica refractaria severa (pH < 7.15 o HCO3 < 10), Electrólitos (hiperkalemia > 6.5 refractaria), Ingestión/intoxicación, Overload (sobrecarga de volumen / edema pulmonar refractario a diuréticos), y Uremia sintomática grave. Infundir bicarbonato a un anúrico sobrecargado precipita la muerte por sobrecarga de sodio y agua.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Infundir bolos de bicarbonato de sodio al 8.4% agrega una carga masiva de soluto y sodio que empeora catastróficamente el edema agudo pulmonar en un paciente anúrico. En oliguria/anuria con falla terminal, la diálisis urgente es el único tratamiento resolutivo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las 5 indicaciones clásicas de inicio urgente de terapia dialítica (criterios AEIOU) según la GPC?",
+        "back": "• A: Acidosis metabólica severa y refractaria (pH < 7.15 o HCO3 < 10).\n• E: Electrólitos: Hiperkalemia severa refractaria (> 6.5 mEq/L o con arritmias).\n• I: Intoxicaciones dializables (metanol, etilenglicol, litio, salicilatos).\n• O: Overload: Sobrecarga hídrica / Edema pulmonar refractario a diuréticos.\n• U: Uremia clínica grave (pericarditis, encefalopatía, sangrado urémico).",
+        "tags": "D05 ERC Urgencia_Dialitica AEIOU Criterios_Dialisis GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Urgencias Nefrológicas y Terapia de Reemplazo Renal de Emergencia",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mientras el equipo de nefrología prepara el equipo de hemodiálisis urgente, a la exploración cardiovascular se ausculta un sonido áspero, superficial, trifásico (componente presistólico, sistólico y mesodiastólico), audible con la membrana del estetoscopio en el borde paraesternal izquierdo bajo, el cual se intensifica notablemente cuando el paciente inclina el torso hacia adelante en espiración forzada. El ecocardiograma a la cabecera muestra engrosamiento pericárdico con derrame pericárdico circunferencial moderado de 220 mL sin evidencia de colapso de aurícula ni ventrículo derechos.",
+      "question_text": "Ante la presencia indiscutible de pericarditis urémica, ¿cuál es la prescripción técnica fundamental respecto al procedimiento de hemodiálisis según la GPC?",
+      "options": {
+        "A": "Realizar la hemodiálisis de urgencia estrictamente sin anticoagulación sistémica (hemodiálisis libre de heparina) para prevenir la conversión a hemopericardio y taponamiento cardíaco",
+        "B": "Administrar heparina no fraccionada en dosis plena para lisar los depósitos pericárdicos de fibrina",
+        "C": "Suspender la hemodiálisis y realizar punción pericárdica evacuadora a ciegas de inmediato",
+        "D": "Prescribir dosis altas de ibuprofeno o indometacina oral y posponer la hemodiálisis 48 horas"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Pericarditis_Uremica_Hemodialisis_Sin_Heparina",
+      "gpc_algorithm_step": "GPC IMSS-335-19: La pericarditis urémica es una manifestación grave de uremia que confiere un pericardio hipervascularizado, friable y propenso al sangrado. La hemodiálisis es el tratamiento de elección definitivo, pero DEBE prescribirse de forma obligatoria LIBRE DE HEPARINA (realizando lavados con solución salina del circuito) para evitar la temida complicación de transformación hemorrágica y taponamiento cardíaco.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El uso rutinario de heparina para anticoagular el circuito extracorpóreo de hemodiálisis está contraindicado en pericarditis urémica porque desencadena hemopericardio rápidamente letal. Los AINEs no resuelven la pericarditis urémica y son nefrotóxicos."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo debe prescribirse la hemodiálisis en un paciente con pericarditis urémica y cuál es la razón según la GPC?",
+        "back": "Prescripción: Hemodiálisis urgente LIBRE DE HEPARINA (lavados con solución salina).\nRazón: Evitar la hemorragia pericárdica masiva (hemopericardio) y el taponamiento cardíaco agudo.",
+        "tags": "D05 ERC Pericarditis_Uremica Hemodialisis Libre_de_Heparina GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Urgencias Nefrológicas y Terapia de Reemplazo Renal de Emergencia",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "El paciente supera la emergencia urémica tras sesiones dialíticas continuas libres de heparina a través de un catéter venoso temporal. Se encuentra asintomático, con urea de 60 mg/dL, creatinina 4.2 mg/dL y potasio 4.4 mEq/L. Se planifica su incorporación definitiva al programa sustitutivo renal crónico de la institución.",
+      "question_text": "De acuerdo con las recomendaciones de acceso vascular en hemodiálisis crónica de la GPC IMSS-335-19, ¿cuál es el acceso vascular de primera elección y con qué anticipación temporal debe planificarse preferentemente?",
+      "options": {
+        "A": "Fístula arteriovenosa autóloga (de preferencia radiocefálica), confeccionada idealmente con 3 a 6 meses de anticipación antes de su punción para asegurar su maduración adecuada",
+        "B": "Permanencia indefinida del catéter venoso central temporal femoral para evitar procedimientos quirúrgicos",
+        "C": "Colocación de injerto vascular protésico de politetrafluoroetileno (PTFE) como primera opción universal por ser de punción inmediata",
+        "D": "Fístula arteriovenosa con punción y uso mandatorio en las primeras 48 horas postoperatorias"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Acceso_Vascular_Eleccion_Fistula_Autologa",
+      "gpc_algorithm_step": "GPC IMSS-335-19: El acceso vascular de elección indiscutible para hemodiálisis crónica es la Fístula Arteriovenosa Autóloga (FAV autóloga, radiocefálica de primera intención, o braquiocefálica), debido a su menor tasa de infecciones, menor disfunción trombótica y mayor permeabilidad a largo plazo en comparación con catéteres o injertos. Requiere confeccionarse con 3 a 6 meses de anticipación (mínimo 8-12 semanas de maduración).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "Creer que mantener un catéter venoso central es viable a largo plazo (alta tasa de bacteriemias por estafilococo y estenosis venosa central) o que los injertos sintéticos superan en sobrevida a la fístula nativa autóloga."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el acceso vascular de primera elección para hemodiálisis crónica según la GPC y cuánto tiempo antes debe confeccionarse?",
+        "back": "• Elección: Fístula Arteriovenosa Autóloga (radiocefálica en miembro no dominante).\n• Tiempo: 3 a 6 meses antes del inicio programado de la hemodiálisis (para permitir maduración de 8-12 semanas).",
+        "tags": "D05 ERC Hemodialisis Acceso_Vascular Fistula_Autologa GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 64 años con antecedente de hipertensión arterial esencial mal controlada desde hace 15 años sin adherencia terapéutica. Es llevada a urgencias por presentar cefalea occipital súbita, náuseas, tres vómitos en proyectil y hemiplejía faciobraquiocrural izquierda, seguida de tendencia al sopor (escala de coma de Glasgow de 11 puntos). Signos vitales: TA 212/116 mmHg, FC 82 lpm, FR 18 rpm, SaO2 96%, glucemia capilar 126 mg/dL. La TAC simple de cráneo evidencia un área hiperdensa homogénea bien delimitada de 26 cm3 en la región de los ganglios basales (putamen derecho) con halo perilesional hipodenso de edema, sin desviación de la línea media ni apertura ventricular. La paciente no toma anticoagulantes ni antiagregantes plaquetarios.",
+      "question_text": "De acuerdo con la GPC IMSS-170 / IMSS-152 para el manejo de la Hemorragia Intracerebral aguda hipertensiva, ¿cuál es la indicación precisa y meta tensional inmediata durante las primeras horas?",
+      "options": {
+        "A": "Reducción rápida y suave de la presión arterial sistólica a una meta objetivo de 140 mmHg (rango seguro 130 a 150 mmHg) utilizando antihipertensivos IV titulables como labetalol o nicardipino",
+        "B": "Infundir nitroprusiato de sodio a dosis máximas buscando una caída de la TA sistólica a cifras < 110 mmHg para colapsar inmediatamente el vaso sangrante",
+        "C": "Administrar nifedipino 10 mg en cápsula sublingual cada 30 minutos hasta lograr normotensión",
+        "D": "Mantener cifras tensionales basales (> 200 mmHg de sistólica) sin intervención farmacológica para garantizar la perfusión cerebral global"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Metas_Tension_Arterial_Hemorragia_Intracerebral",
+      "gpc_algorithm_step": "GPC IMSS-170 / IMSS-152: En pacientes con Hemorragia Intracerebral (HIC) aguda espontánea y TA sistólica entre 150 y 220 mmHg, la reducción aguda y controlada de la PAS a una meta de 140 mmHg (manteniéndola entre 130-150 mmHg) con fármacos IV como labetalol es segura y eficaz para frenar el crecimiento del hematoma sin generar hipoperfusión perihematoma. Caídas por debajo de 130 mmHg aumentan lesión renal y mortalidad.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "El descenso extremo a cifras de PAS < 110-120 mmHg demostrado en el ensayo ATACH-2 incrementa complicaciones renales e isquemia perilesional sin beneficio clínico; el nifedipino sublingual causa caída tensional errática descontrolada y está proscrito."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la meta de presión arterial sistólica en hemorragia intracerebral aguda hipertensiva según la GPC?",
+        "back": "Meta: PAS de 140 mmHg (rango 130 a 150 mmHg) mediante antihipertensivos IV titulables (labetalol o nicardipino).\nEvitar descensos < 130 mmHg por riesgo de lesión renal e isquemia.",
+        "tags": "D05 EVC Hemorragia_Intracerebral Metas_TA Labetalol GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 45 años, previamente asintomático y sin antecedentes médicos conocidos. Durante una sesión de entrenamiento deportivo en el gimnasio presenta una cefalea holocraneal de instauración explosiva que alcanza su máxima intensidad (10/10) en menos de 30 segundos, descrita por el paciente como 'el peor e insoportable dolor de cabeza de toda su vida'. Presenta náusea, vómito y fotofobia marcada. A la exploración física en urgencias: consciente, orientado en tiempo y espacio, sin déficit motor ni sensitivo focal, pero con rigidez de nuca franca y signos meníngeos (Brudzinski y Kernig) positivos (Hunt y Hess grado II). Es llevado a la sala de tomografía a las 3 horas del inicio del cuadro; el reporte de la TAC simple de cráneo de corte fino es rigurosamente normal, sin evidencia de sangre en cisternas subaracnoideas ni surcos corticales.",
+      "question_text": "Ante la persistencia de una sospecha clínica fundada de Hemorragia Subaracnoidea aneurismática con tomografía computarizada negativa, ¿cuál es la conducta diagnóstica obligada que debe realizarse según la GPC?",
+      "options": {
+        "A": "Realizar punción lumbar con análisis citoquímico y espectrofotométrico del LCR buscando xantocromía y prueba de tres tubos",
+        "B": "Egresar al paciente con analgésicos opioides menores bajo el diagnóstico presuntivo de migraña con aura",
+        "C": "Solicitar resonancia magnética simple ambulatoria programada para realizarse en los siguientes 7 días",
+        "D": "Iniciar empíricamente dexametasona y aciclovir por sospecha exclusiva de meningoencefalitis viral sin estudios invasivos"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Puncion_Lumbar_Xantocromia_HSA_TAC_Negativa",
+      "gpc_algorithm_step": "GPC IMSS-170 / Consensos de HSA: Aunque la TAC simple de cráneo en las primeras 6 horas tiene una sensibilidad superior al 95-98%, NO es del 100%. Ante un cuadro clínico compatible ('cefalea en trueno') con TAC negativa, la PUNCIÓN LUMBAR es mandatoria para buscar xantocromía (pigmento derivado de la lisis eritrocitaria que no se sedimenta con centrifugación) y descartar punción traumática mediante conteo en tubos seriados.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confiar ciegamente en una TAC normal y dar de alta al paciente; hasta un 2 a 5% de las hemorragias subaracnoideas aneurismáticas con volúmenes de sangrado pequeños presentan TAC falsamente negativa, teniendo un riesgo inminente de resangrado masivo fatal en las primeras semanas si no se diagnostican."
+      },
+      "anki_flashcard": {
+        "front": "Sospecha fundada de Hemorragia Subaracnoidea (cefalea en trueno) con TAC de cráneo simple normal. ¿Conducta diagnóstica obligada según GPC?",
+        "back": "Punción Lumbar para análisis de LCR buscando xantocromía (persiste tras centrifugación) y eritrocitos en tubos seriados para diferenciarla de punción traumática.",
+        "tags": "D05 EVC Hemorragia_Subaracnoidea Puncion_Lumbar Xantocromia GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Varón de 58 años, hipertenso y fumador, que inicia súbitamente con vértigo intenso incapacitante, náusea incontrolable, dismetría y ataxia apendicular en hemicuerpo derecho que le impide la bipedestación. A la exploración neurológica detallada: disfagia marcada por paresia del velo del paladar, disfonía por parálisis de cuerda vocal derecha, pérdida de la sensibilidad termoalgésica en la mitad derecha de la cara y en la mitad izquierda del cuerpo (déficit termoalgésico cruzado/alterno), así como síndrome de Horner ipsilateral derecho (ptosis palpebral, miosis y enoftalmos). La fuerza motora voluntaria se encuentra completamente preservada (5/5) en las cuatro extremidades.",
+      "question_text": "¿Cuál es el diagnóstico topográfico neurovascular y la arteria comúnmente ocluida en este síndrome clásico?",
+      "options": {
+        "A": "Síndrome bulbar lateral (Síndrome de Wallenberg) por oclusión de la arteria cerebelosa posteroinferior (PICA) o arteria vertebral ipsilateral",
+        "B": "Síndrome protuberancial medial (Síndrome de Millard-Gubler) por oclusión de arterias circunferenciales cortas de la basilar",
+        "C": "Síndrome mesencefálico ventral (Síndrome de Weber) por oclusión de ramas perforantes de la arteria cerebral posterior",
+        "D": "Síndrome de la arteria cerebral anterior derecha por oclusión de la arteria recurrente de Heubner"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Sindrome_Wallenberg_PICA_Topografia",
+      "gpc_algorithm_step": "Semiología Neurovascular ENARM: El Síndrome de Wallenberg (bulbar lateral) afecta: núcleo ambiguo (pares IX y X: disfagia, disfonía), núcleo espinal del trigémino (hipoestesia facial ipsilateral), haz espinotalámico lateral (hipoestesia corporal contralateral), pedúnculo cerebeloso inferior (ataxia ipsilateral) y fibras simpáticas descendentes (Horner ipsilateral). Respeta la fuerza motora por estar indemne la vía piramidal (que discurre por el bulbo medial). Se produce por trombosis de la PICA o de la arteria vertebral.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir el síndrome bulbar lateral con síndromes mesencefálicos o pontinos. La ausencia de déficit motor piramidal es la clave cardinal que descarta afección de los pedúnculos cerebrales o de la base de la protuberancia."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué estructura vascular está afectada en el Síndrome de Wallenberg (bulbar lateral) y cuáles son sus hallazgos clínicos pivotes?",
+        "back": "• Vaso: Arteria Cerebelosa Posteroinferior (PICA) o Arteria Vertebral.\n• Hallazgos: Disfagia y disfonía (núcleo ambiguo), ataxia ipsilateral, Horner ipsilateral, hipoestesia facial ipsilateral con hipoestesia corporal contralateral (déficit alterno). Fuerza motora respetada.",
+        "tags": "D05 EVC Neuroanatomia Wallenberg PICA Sindromes_Vasculares ENARM"
+      }
+    },
+    {
+      "id": "d05_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Paciente masculino de 69 años con antecedente de diabetes mellitus tipo 2 y ERC clasificada en estadio G3bA2 (TFGe de 36 mL/min/1.73m2 por CKD-EPI, cociente albúmina/creatinina de 190 mg/g). Acude a consulta de medicina interna donde el médico revisa su receta médica ambulatoria. Por lumbalgia mecánica y gonartrosis se automedica ketorolaco 10 mg cada 8 horas desde hace 3 semanas; para control glucémico toma metformina 850 mg cada 12 horas; por hipertensión toma enalapril 10 mg cada 12 horas asociado a espironolactona 25 mg/día; y por un ácido úrico sérico asintomático de 7.8 mg/dL (sin historia previa de gota) un facultativo le prescribió alopurinol 300 mg al día. En los exámenes de laboratorio actuales se documenta: creatinina 2.2 mg/dL, potasio sérico 5.7 mEq/L y bicarbonato 22 mEq/L.",
+      "question_text": "De acuerdo con las guías de práctica clínica de prescripción segura en la ERC (GPC IMSS-335-19), ¿cuál es la modificación farmacológica prioritaria e indispensable?",
+      "options": {
+        "A": "Suspender de inmediato el ketorolaco (AINE), suspender la espironolactona debido a hiperkalemia, ajustar metformina a dosis máxima de 1,000 mg/día (vigilando que la TFG no caiga de 30) y retirar el alopurinol por falta de indicación en hiperuricemia asintomática",
+        "B": "Mantener el ketorolaco agregando omeprazol y asociar losartán al enalapril para optimizar el bloqueo dual del eje renina-angiotensina",
+        "C": "Suspender el enalapril de forma inmediata sustituyéndolo por amlodipino y mantener la espironolactona a dosis plenas",
+        "D": "Duplicar la dosis de metformina a 2,550 mg/día para compensar la resistencia a la insulina de la falla renal"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Prescripcion_Segura_Ajustes_Farmacos_ERC",
+      "gpc_algorithm_step": "GPC IMSS-335-19: 1) Los AINEs contraen la arteriola aferente precipitando falla renal aguda sobre crónica; 2) La espironolactona con TFGe < 45 mL/min y potasio > 5.5 mEq/L está contraindicada por riesgo letal de arritmias; 3) La metformina con TFGe 30-44 mL/min debe ajustarse a dosis máxima de 1,000 mg/día y suspenderse si < 30 por riesgo de acidosis láctica; 4) No se recomienda tratar con alopurinol la hiperuricemia asintomática.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El bloqueo dual (IECA + ARA-II) está formalmente proscrito en la GPC por riesgo de colapso hemodinámico renal e hiperkalemia severa sin beneficio de sobrevida. Los AINEs son el desencadenante número uno prevenible de progresión acelerada a diálisis."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las 3 reglas de oro de seguridad farmacológica en ERC estadio G3b (TFG 30-44 mL/min) según la GPC?",
+        "back": "1. Prohibir AINEs (precipitan falla renal por vasoconstricción aferente).\n2. Ajustar metformina a máximo 1,000 mg/día (suspender si TFG < 30 mL/min).\n3. Evitar o suspender ahorradores de potasio si K > 5.0-5.5 mEq/L; prohibido bloqueo dual IECA + ARA-II.",
+        "tags": "D05 ERC Farmacologia Metformina AINEs Seguridad GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 62 años con ERC estadio G5 en hemodiálisis regular trisemanal. Recibe eritropoyetina alfa recombinante a dosis de 4,000 UI subcutáneas tres veces por semana. En los controles mensuales de laboratorio de los últimos 2 meses, su hemoglobina se incrementó de forma rápida de 10.2 g/dL a 13.8 g/dL en la medición actual. La paciente refiere cefalea leve ocasional, su presión arterial se encuentra en 148/92 mmHg y el acceso vascular (fístula radiocefálica) tiene un frémito audible normal sin signos de trombosis.",
+      "question_text": "De acuerdo con las recomendaciones de seguridad basadas en los ensayos pivotal (CHOIR/CREATE/TREAT) adoptados por la GPC IMSS-335-19 y guías KDIGO, ¿cuál es la conducta terapéutica correcta respecto a la dosis de eritropoyetina?",
+      "options": {
+        "A": "Reducir la dosis de eritropoyetina en un 25-50% o suspenderla temporalmente hasta que la hemoglobina regrese al rango de seguridad de 10.0 a 11.5 g/dL, debido a que niveles > 12-13 g/dL aumentan marcadamente la incidencia de EVC, trombosis del acceso y muerte cardiovascular",
+        "B": "Aumentar la dosis de eritropoyetina para alcanzar valores de hemoglobina completamente normales de la población sana (14 a 15 g/dL)",
+        "C": "Mantener la dosis idéntica de eritropoyetina felicitando a la paciente por haber normalizado su biometría hemática",
+        "D": "Realizar una flebotomía urgente de 500 mL para descender la viscosidad sanguínea de inmediato"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Metas_Seguridad_Hemoglobina_Eritropoyetina_ERC",
+      "gpc_algorithm_step": "GPC IMSS-335-19 / Ensayos CHOIR-CREATE: La meta terapéutica estricta de hemoglobina con el uso de Agentes Estimulantes de la Eritropoyesis (AEE) en ERC es de 10.0 a 11.5 g/dL (máximo no superar 12.0 g/dL). Buscar la 'normalización completa' de la hemoglobina (> 13 g/dL) eleva significativamente el riesgo de eventos vasculares cerebrales isquémicos, eventos coronarios agudos, hipertensión arterial refractaria y trombosis del acceso vascular.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "La falacia de la 'normalización fisiológica': asumir que una hemoglobina de 13.8 g/dL es 'excelente' por ser el valor normal de una mujer no enferma. En ERC bajo AEE, niveles > 12-13 g/dL tienen un riesgo relativo de mortalidad y EVC significativamente incrementado."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la meta estricta de hemoglobina con eritropoyetina en ERC y qué riesgo conlleva superar los 12-13 g/dL según la GPC?",
+        "back": "• Meta terapéutica: 10.0 a 11.5 g/dL (máximo tolerado 12.0 g/dL).\n• Riesgo de Hb > 13 g/dL: Mayor incidencia de EVC isquémico, eventos cardiovasculares mayores, trombosis de la fístula arteriovenosa y mortalidad (estudios CHOIR/CREATE).",
+        "tags": "D05 ERC Anemia Eritropoyetina Metas_Hemoglobina Seguridad GPC"
+      }
+    },
+    {
+      "id": "d05_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Acute Cardioembolic Stroke in Chronic Kidney Disease",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A 72-year-old male with a history of long-standing hypertension and known stage G3b chronic kidney disease (baseline eGFR 38 mL/min/1.73m2) arrives at the emergency department accompanied by his wife. Exactly 2 hours ago, while watching television, he developed acute left-sided hemiplegia, left spatial neglect, and forced right eye gaze. Vital signs upon arrival: BP 168/94 mmHg, HR 114 bpm (irregularly irregular rhythm), RR 18 bpm, SpO2 96% on ambient air, temperature 36.6 °C. Neurological examination reveals a NIHSS score of 14 points. Emergent non-contrast head CT shows no intracranial hemorrhage, with an ASPECTS score of 9. Point-of-care capillary blood glucose is 126 mg/dL, platelet count is 215,000/mm3, and baseline INR is 1.08. The patient is not taking oral anticoagulants. Electrocardiogram confirms atrial fibrillation with rapid ventricular response.",
+      "question_text": "Which is the most appropriate immediate reperfusion therapy according to clinical practice guidelines (GPC IMSS-152)?",
+      "options": {
+        "A": "Intravenous thrombolysis with alteplase (rtPA) at 0.9 mg/kg (10% bolus in 1 minute, 90% infusion over 60 minutes) administered within the therapeutic window of 4.5 hours",
+        "B": "Emergent therapeutic anticoagulation with unfractionated heparin IV bolus followed by continuous infusion to dissolve the intracardiac source",
+        "C": "Withhold acute reperfusion therapy due to the fear of contrast-induced nephropathy and advanced chronic kidney disease",
+        "D": "Immediate administration of oral apixaban 5 mg combined with dual antiplatelet therapy (aspirin plus clopidogrel)"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Acute_Ischemic_Stroke_Reperfusion_Window_Alteplase",
+      "gpc_algorithm_step": "GPC IMSS-152: Intravenous alteplase (rtPA) within the 4.5-hour window is the standard first-line treatment for acute ischemic stroke without contraindications (BP is < 185/110, platelets > 100k, INR < 1.7, no hemorrhage on CT). CKD stage G3b is NOT a contraindication to IV rtPA. Therapeutic heparin in acute ischemic stroke is strictly contraindicated due to high risk of intracranial hemorrhage without proven benefit.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Administering full-dose IV heparin in the acute phase of an ischemic stroke increases symptomatic intracerebral hemorrhage without improving functional outcomes. CKD does not preclude non-contrast CT nor alteplase reperfusion."
+      },
+      "anki_flashcard": {
+        "front": "What is the primary acute reperfusion strategy in a patient with cardioembolic stroke within 4.5 hours and pre-existing CKD G3b?",
+        "back": "Intravenous alteplase (rtPA) at 0.9 mg/kg (max 90 mg; 10% bolus, 90% in 60 min).\nCKD G3b is NOT a contraindication. Therapeutic anticoagulation with heparin is contraindicated in acute stroke.",
+        "tags": "D05 Stroke Reperfusion Alteplase CKD GPC English"
+      }
+    },
+    {
+      "id": "d05_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Acute Cardioembolic Stroke in Chronic Kidney Disease",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The patient successfully completes the 60-minute intravenous alteplase infusion. At 24 hours post-thrombolysis, his neurological exam improves to a NIHSS score of 8 points (moderate residual neurological deficit). A follow-up non-contrast head CT at 24 hours demonstrates a well-circumscribed subcortical infarction in the right middle cerebral artery territory with no hemorrhagic transformation. The patient remains hemodynamically stable in the stroke unit with persistent atrial fibrillation.",
+      "question_text": "In accordance with the Mexican Clinical Practice Guideline (GPC IMSS-152) and the '1-3-6-12 day rule' for stroke secondary to non-valvular atrial fibrillation, when should oral anticoagulation be initiated in this patient with moderate stroke (NIHSS 8)?",
+      "options": {
+        "A": "At day 6 following the acute stroke onset, provided that repeated imaging confirms the absence of hemorrhage and the patient remains clinically stable",
+        "B": "Immediately at hour 24 alongside intravenous heparin bridging therapy",
+        "C": "At day 1 (within the first 24 hours) as practiced in transient ischemic attack",
+        "D": "Delayed for at least 3 to 6 months while maintaining aspirin monotherapy until complete glial scar formation"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Timing_Anticoagulation_Stroke_AF_Rule_1_3_6_12",
+      "gpc_algorithm_step": "GPC IMSS-152 / 1-3-6-12 Day Rule: Timing of oral anticoagulation after ischemic stroke with atrial fibrillation depends on stroke severity: TIA = Day 1; Mild stroke (NIHSS < 8) = Day 3; Moderate stroke (NIHSS 8-15) = Day 6; Severe stroke (NIHSS > 15) = Day 12 to 14 after follow-up brain imaging excludes hemorrhage.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Starting oral anticoagulants too early (< day 6 in moderate stroke) significantly increases the risk of fatal hemorrhagic transformation of the infarcted parenchyma; delaying for 3 to 6 months leaves the patient unprotected against recurrent embolism."
+      },
+      "anki_flashcard": {
+        "front": "According to the 1-3-6-12 rule, when is oral anticoagulation initiated in a moderate ischemic stroke (NIHSS 8-15) secondary to atrial fibrillation?",
+        "back": "At Day 6 post-onset, provided follow-up neuroimaging confirms no hemorrhagic transformation.",
+        "tags": "D05 Stroke Atrial_Fibrillation Anticoagulation Timing Rule_1_3_6_12 English"
+      }
+    },
+    {
+      "id": "d05_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Acute Cardioembolic Stroke in Chronic Kidney Disease",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Prior to initiating anticoagulation, the medical team stratifies the patient's long-term thromboembolic and bleeding risks. His CHA2DS2-VASc score is 4 points (Age 72 = 1 point, Hypertension = 1 point, Prior Stroke = 2 points). Laboratory evaluation reveals: serum creatinine 1.9 mg/dL with an estimated glomerular filtration rate (eGFR) of 36 mL/min/1.73m2 (KDIGO stage G3b). Complete blood count shows hemoglobin 12.4 g/dL and platelet count 210,000/mm3.",
+      "question_text": "Regarding the selection of oral anticoagulant therapy in this patient with non-valvular atrial fibrillation and stage G3b chronic kidney disease, which statement aligns with clinical practice recommendations?",
+      "options": {
+        "A": "Direct oral anticoagulants (DOACs, such as apixaban or rivaroxaban with dose adjustment for renal function) are preferred over vitamin K antagonists (warfarin) due to lower intracranial hemorrhage rates and preserved efficacy in stage G3b CKD",
+        "B": "Direct oral anticoagulants are strictly contraindicated when eGFR is below 50 mL/min/1.73m2, making warfarin the only permitted therapeutic choice",
+        "C": "Anticoagulation should be entirely avoided and replaced by aspirin 325 mg daily because the risk of major renal bleeding outweighs stroke prevention",
+        "D": "Dabigatran at the full standard dose of 150 mg twice daily should be prescribed without considering renal clearance"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "DOAC_Selection_Dose_Adjustment_CKD_G3b",
+      "gpc_algorithm_step": "GPC IMSS-152 / KDIGO / European-Mexican Guidelines: In non-valvular AF with stage G3b CKD (eGFR 30-49 mL/min), DOACs (Apixaban, Rivaroxaban) are preferred over Warfarin because they significantly reduce intracranial hemorrhage and provide stable efficacy without routine INR monitoring. Dose adjustments are made based on renal function (e.g., Rivaroxaban 15 mg daily; Apixaban 2.5 mg BID if criteria met). Aspirin is inferior and not recommended as an alternative.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la 'Guía Gringa'",
+        "explanation": "Believing that any degree of renal impairment contraindicates DOACs ('falso dogma renal'). DOACs can be safely used with appropriate dose reductions down to eGFR 15-30 mL/min; aspirin monotherapy is ineffective for cardioembolic stroke prevention."
+      },
+      "anki_flashcard": {
+        "front": "What is the preferred oral anticoagulant class for stroke prevention in non-valvular AF with stage G3b CKD (eGFR 30-49 mL/min)?",
+        "back": "Direct Oral Anticoagulants (DOACs, e.g. Apixaban or Rivaroxaban with renal dose adjustment).\nPreferred over warfarin due to significantly lower rates of fatal intracranial hemorrhage.",
+        "tags": "D05 Stroke Atrial_Fibrillation DOACs CKD Apixaban Rivaroxaban English"
+      }
+    },
+    {
+      "id": "d05_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Acute Cardioembolic Stroke in Chronic Kidney Disease",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Before hospital discharge, the stroke team reviews secondary prevention pharmacological targets. The patient's blood pressure is well-controlled at 132/78 mmHg, and his baseline fasting lipid panel demonstrates: total cholesterol 210 mg/dL, triglycerides 150 mg/dL, HDL-C 42 mg/dL, and LDL-C 138 mg/dL. Renal function remains stable at eGFR 36 mL/min/1.73m2.",
+      "question_text": "In accordance with the Mexican Clinical Practice Guideline (GPC IMSS-152) and international consensus for secondary vascular prevention in ischemic stroke, which lipid-lowering strategy and LDL-C target must be implemented?",
+      "options": {
+        "A": "High-intensity statin therapy (atorvastatin 80 mg or rosuvastatin 20-40 mg daily) targeting an LDL-C reduction ≥ 50% and a serum LDL-C level < 70 mg/dL (or < 55 mg/dL in extreme risk), which requires no dose adjustment for renal function",
+        "B": "Moderate-intensity pravastatin 20 mg daily with a target LDL-C < 130 mg/dL to prevent statin accumulation in kidney disease",
+        "C": "Ezetimibe monotherapy (10 mg daily) without statins, due to the presence of chronic kidney disease stage G3b",
+        "D": "Fibrate monotherapy (fenofibrate 160 mg daily) targeting triglyceride lowering as the primary therapeutic goal"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Secondary_Prevention_High_Intensity_Statin_CKD_Safety",
+      "gpc_algorithm_step": "GPC IMSS-152: Secondary prevention following ischemic stroke requires high-intensity statin therapy (atorvastatin 80 mg or rosuvastatin 20-40 mg) targeting LDL-C < 70 mg/dL (or < 55 mg/dL) and ≥ 50% reduction from baseline. Atorvastatin is primarily metabolized hepatically (< 2% renal elimination) and requires NO dose adjustment in CKD stage G3b.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Withholding high-intensity statins or using low-dose pravastatin out of unjustified fear of renal failure. Atorvastatin 80 mg has proven cardiovascular and neurovascular plaque stabilization benefits without renal toxicity."
+      },
+      "anki_flashcard": {
+        "front": "What is the recommended statin intensity and LDL-C goal for secondary prevention in a post-stroke patient with CKD stage G3b?",
+        "back": "• Therapy: High-intensity statin (Atorvastatin 80 mg daily; minimal renal clearance, no dose adjustment needed).\n• Target: ≥ 50% reduction from baseline and LDL-C < 70 mg/dL (or < 55 mg/dL).",
+        "tags": "D05 Stroke Secondary_Prevention Atorvastatin LDL_Goal CKD English"
+      }
+    }
+  ]
+}

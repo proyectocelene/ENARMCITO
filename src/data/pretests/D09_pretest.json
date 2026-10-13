@@ -1,0 +1,395 @@
+{
+  "topic_code": "D09",
+  "title": "Pre-Test Psicométrico: Reanimación Neonatal, APGAR/Silverman y Tamizajes",
+  "normativa_origen": "GPC IMSS-230-18 / GPC Reanimación Neonatal CENETEC / NOM-007",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d09_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC Reanimación Neonatal CENETEC / NRP 8ª Edición",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Recién nacido masculino obtenido por parto eutócico a las 39 semanas de gestación. La madre presentó ruptura de membranas intraparto con líquido amniótico teñido de meconio espeso (\"en puré de chícharos\"). Al momento del nacimiento el neonato se encuentra flácido, en apnea y con cianosis generalizada. El equipo traslada inmediatamente al paciente a una cuna de calor radiante, coloca la cabeza en posición de olfateo, seca la piel, retira los campos húmedos y aplica estimulación táctil suave en la espalda durante los primeros 30 segundos de vida. Al reevaluar: el neonato persiste sin esfuerzo respiratorio espontáneo (apnea secundaria) y la auscultación precordial revela una frecuencia cardíaca de 72 latidos por minuto.",
+      "question_text": "¿Cuál es la conducta terapéutica inmediata y prioritaria que debe iniciarse dentro del \"minuto de oro\" según la GPC y los consensos internacionales de reanimación neonatal?",
+      "options": {
+        "A": "Iniciar ventilación con presión positiva (VPP) con bolsa y mascarilla facial a 40-60 respiraciones por minuto con FiO2 al 21% (aire ambiente)",
+        "B": "Realizar laringoscopia directa urgente con intubación endotraqueal para aspiración traqueal rutinaria de meconio residual",
+        "C": "Iniciar compresiones torácicas coordinadas con ventilación en relación 3:1 debido a que la frecuencia cardíaca es menor de 100 lpm",
+        "D": "Administrar ventilación con presión positiva con bolsa-mascarilla utilizando oxígeno suplementario al 100% (FiO2 1.0) mediante reservorio"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Neonato de término en apnea con FC < 100 lpm a los 30 segundos de vida a pesar de pasos iniciales; la presencia de meconio ya no justifica intubación rutinaria para aspiración.",
+      "justificacion_gpc": "De acuerdo con la GPC de Reanimación Neonatal CENETEC y el NRP (8ª edición), si tras los pasos iniciales (30 segundos) el recién nacido presenta apnea, boqueo (gasping) o frecuencia cardíaca menor de 100 lpm, la indicación inmediata y prioritaria de primera línea es comenzar ventilación con presión positiva (VPP) en los primeros 60 segundos de vida (\"el minuto de oro\"). En recién nacidos de término (≥ 35 semanas de gestación), la VPP debe iniciarse estrictamente con aire ambiente (FiO2 al 21%). La aspiración traqueal rutinaria bajo laringoscopia directa en neonatos no vigorosos con líquido meconial ha sido descartada formalmente de las guías por no demostrar beneficio y demorar el inicio crítico de la ventilación.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Práctica Desfasada]: La aspiración traqueal sistemática bajo laringoscopia en líquido meconial no vigoroso fue retirada de las guías clínicas debido a que retrasa la VPP y no previene el síndrome de aspiración meconial.",
+        "C": "[Distractor de Escalón Prematuro]: Las compresiones torácicas están indicadas únicamente si la FC persiste < 60 lpm después de al menos 30 segundos de VPP efectiva con técnica ventilatoria adecuada.",
+        "D": "[Distractor de Toxicidad por Hiperoxia]: Iniciar VPP con FiO2 al 100% en recién nacidos de término produce estrés oxidativo y daño celular; la normativa indica iniciar siempre con FiO2 al 21% (aire ambiente) en neonatos ≥ 35 SDG."
+      }
+    },
+    {
+      "id": "d09_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC Reanimación Neonatal CENETEC / NRP 8ª Edición",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Continuación del caso anterior. Se inicia VPP con bolsa autoinflable y máscara facial anatómica al 21% a un ritmo constante de \"ventilo, dos, tres\". Quince segundos después de iniciada la maniobra, el segundo reanimador evalúa la respuesta clínica: no se observa movimiento ni elevación de la caja torácica del neonato y la auscultación precordial confirma que la frecuencia cardíaca no se ha incrementado, manteniéndose en 70 lpm. El oxímetro de pulso preductal colocado en la muñeca derecha aún no logra detectar una onda de pulso confiable.",
+      "question_text": "¿Cuál es la secuencia de pasos correctivos de la ventilación (algoritmo MR. SOPA) que debe ejecutarse de inmediato según la GPC?",
+      "options": {
+        "A": "Ajustar la Máscara a la cara para asegurar sellado hermético y Reposicionar la vía aérea en olfateo (M-R); reintentar VPP y si no expande, Succionar boca/nariz y abrir la Boca (S-O)",
+        "B": "Suspender de inmediato la VPP e iniciar masaje cardíaco cerrado con técnica de los dos pulgares por falta de respuesta cronotrópica",
+        "C": "Aumentar directamente la presión de insuflación a 50 cmH2O e intubar al paciente sin verificar el sellado ni la permeabilidad de la vía aérea",
+        "D": "Instilar 0.5 mL de adrenalina endotraqueal para estimular el centro respiratorio y provocar taquicardia refleja"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Falta de elevación torácica y ausencia de incremento en la FC durante los primeros 15 segundos de VPP, indicando falla técnica o mecánica en la ventilación.",
+      "justificacion_gpc": "La GPC de Reanimación Neonatal CENETEC establece que el indicador más fiable de una VPP exitosa es el aumento rápido de la frecuencia cardíaca, acompañado de la expansión visible del tórax. Si el tórax no se mueve y la FC no sube tras 15 segundos de VPP, se debe asumir que la ventilación no está siendo efectiva y se debe aplicar de forma escalonada la mnemotecnia correctiva MR. SOPA: 1) M y R: Ajuste de Máscara (recolocar con tracción mandibular en 'C y E') y Reposicionar la cabeza (posición neutral/olfateo). Se prueba VPP. Si continúa sin expandir: 2) S y O: Succión de secreciones en boca y nariz, y Apertura de la boca (Open mouth). Si aún no expande: 3) P: Aumento progresivo de Presión (hasta 30-40 cmH2O). Si no responde: 4) A: Vía Aérea alternativa (intubación endotraqueal o máscara laríngea).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Falso Deterioro]: Iniciar masaje cardíaco cuando el tórax ni siquiera expande es un error fatal; la bradicardia neonatal es secundaria a hipoxemia por ventilación ineficaz y solo se resuelve al ventilar adecuadamente los alvéolos.",
+        "C": "[Distractor de Iatrogenia / Barotrauma]: Aplicar presiones excesivas (> 40 cmH2O) a ciegas sin verificar sellado ni permeabilidad genera neumotórax y neumomediastino por rotura alveolar.",
+        "D": "[Distractor Farmacológico Incorrecto]: La adrenalina está reservada exclusivamente para FC < 60 lpm persistente tras RCP avanzado con compresiones torácicas y ventilación efectiva con oxígeno al 100%, nunca durante problemas mecánicos de VPP inicial."
+      }
+    },
+    {
+      "id": "d09_q3",
+      "index": 3,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "NOM-007-SSA2-2016 / GPC IMSS-230-18",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Continuación del caso anterior. Tras la aplicación exitosa de los pasos correctivos de la ventilación (MR. SOPA) y la colocación de un tubo orotraqueal #3.5 con adecuada excursión torácica simétrica bilateral, el paciente presenta mejoría hemodinámica progresiva. A los 5 minutos de vida se realiza la evaluación clínica protocolaria: el neonato muestra llanto enérgico y regular, frecuencia cardíaca auscultada de 128 latidos por minuto, extremidades en flexión activa con movimientos vigorosos, reflejo de tos y mueca intensa ante la aspiración de secreciones, pero mantiene acrocianosis distal en manos y pies con tronco y mucosas completamente sonrosados.",
+      "question_text": "¿Cuál es la puntuación de APGAR asignada a los 5 minutos y su interpretación clínica correspondiente según la NOM-007 y la GPC?",
+      "options": {
+        "A": "APGAR de 9 puntos; recién nacido con vigor / adaptación adecuada",
+        "B": "APGAR de 7 puntos; recién nacido con depresión respiratoria leve",
+        "C": "APGAR de 8 puntos; recién nacido con depresión moderada transitoria",
+        "D": "APGAR de 10 puntos; recuperación fisiológica óptima sin secuelas"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Acrocianosis periférica con tronco sonrosado (1 punto en Apariencia), con todos los demás parámetros con puntuación máxima de 2 puntos.",
+      "justificacion_gpc": "De acuerdo con la NOM-007-SSA2-2016 y la GPC de Reanimación Neonatal, la escala de APGAR califica 5 signos clínicos (0, 1 o 2 puntos): Apariencia/Color (cuerpo sonrosado con acrocianosis distal = 1), Pulso/FC (> 100 lpm = 2), Gesto/Reflejos (tos/mueca enérgica = 2), Actividad/Tono muscular (flexión activa y vigorosa = 2), y Respiración (llanto fuerte y regular = 2). La suma arroja 9 puntos. Una puntuación de 7 a 10 puntos a los 5 minutos se clasifica como normal/sin depresión (neonato vigoroso con adecuada adaptación cardiopulmonar extrauterina).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Subestimación]: Asignar 7 puntos asume erróneamente pérdidas de puntaje en tono, esfuerzo respiratorio o reflejos que no existen en la viñeta.",
+        "C": "[Distractor de Error de Clasificación]: 8 puntos no corresponde a depresión moderada; las guías definen normalidad de 7 a 10 puntos, depresión moderada de 4 a 6 puntos y depresión severa de 0 a 3 puntos.",
+        "D": "[Distractor por Omisión de Acrocianosis]: Asignar 10 puntos ignora la acrocianosis distal (manos y pies azulados), la cual resta 1 punto en el parámetro de coloración cutánea."
+      }
+    },
+    {
+      "id": "d09_q4",
+      "index": 4,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-230-18 / CENETEC",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Recién nacido prematuro de 34 semanas de gestación obtenido por cesárea de urgencia debido a preeclampsia con datos de severidad. A los 25 minutos de vida en la sala de transición neonatal, el personal de enfermería reporta taquipnea con frecuencia respiratoria de 76 respiraciones por minuto. A la exploración física dirigida se identifican: movimientos tóraco-abdominales con retardo evidente del tórax en la inspiración (disociación tórax-abdomen moderada), tiraje intercostal marcado y fácilmente visible, retracción xifoidea visible y marcada, aleteo nasal acentuado y continuo, y a la auscultación con estetoscopio se escucha claramente un quejido espiratorio audible que no se percibe al retirar el estetoscopio.",
+      "question_text": "¿Cuál es la puntuación obtenida en la escala de Silverman-Anderson y el grado de dificultad respiratoria correspondiente?",
+      "options": {
+        "A": "7 puntos; dificultad respiratoria grave",
+        "B": "5 puntos; dificultad respiratoria moderada",
+        "C": "3 puntos; dificultad respiratoria leve",
+        "D": "9 puntos; falla respiratoria inminente"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Desglose estricto de Silverman: Disociación tóraco-abdominal moderada (1), tiraje intercostal marcado (2), retracción xifoidea marcada (2), aleteo nasal acentuado (2), quejido audible solo con estetoscopio (1) = 7 puntos.",
+      "justificacion_gpc": "La escala de Silverman-Anderson es la herramienta estandarizada por la GPC mexicana (IMSS-230-18 y CENETEC) para cuantificar la dificultad respiratoria en el recién nacido. Evalúa 5 parámetros de 0 a 2 puntos (a mayor puntaje, mayor gravedad): 1) Disociación tóraco-abdominal: sincronizada = 0, retraso inspiratorio torácico = 1, bamboleo = 2 (aquí: 1 punto); 2) Tiraje intercostal: ausente = 0, apenas visible = 1, marcado = 2 (aquí: 2 puntos); 3) Retracción xifoidea: ausente = 0, apenas visible = 1, marcada = 2 (aquí: 2 puntos); 4) Aleteo nasal: ausente = 0, discreto = 1, acentuado = 2 (aquí: 2 puntos); 5) Quejido espiratorio: ausente = 0, audible al estetoscopio = 1, audible a distancia = 2 (aquí: 1 punto). Total = 1 + 2 + 2 + 2 + 1 = 7 puntos, lo que categoriza al paciente con dificultad respiratoria grave (escala: 0 = sin dificultad, 1-3 = leve, 4-6 = moderada, 7-10 = grave/severa).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Subestimación de Severidad]: 5 puntos clasificaría erróneamente el cuadro en dificultad moderada, omitiendo la severidad de los signos marcados de colapso de la vía aérea inferior.",
+        "C": "[Distractor de Error Grave]: 3 puntos corresponde a dificultad leve (tiraje leve o aleteo discreto aislado), incompatible con las retracciones marcadas documentadas.",
+        "D": "[Distractor de Sobreestimación]: 9 puntos requeriría disociación en bamboleo (2 puntos) y quejido espiratorio audible a distancia sin estetoscopio (2 puntos), lo que no cumple la viñeta."
+      }
+    },
+    {
+      "id": "d09_q5",
+      "index": 5,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-230-18 / CENETEC",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "El mismo neonato prematuro de 34 semanas de gestación con dificultad respiratoria grave (Silverman-Anderson de 7 puntos) mantiene esfuerzo respiratorio espontáneo continuo con frecuencia cardíaca de 142 lpm y SpO2 preductal de 82% con oxígeno indirecto en casco cefálico. En la gasometría arterial de sangre capilar se reporta: pH 7.28, PaCO2 49 mmHg, PaO2 52 mmHg, HCO3 22 mEq/L, lactato 1.8 mmol/L. Se sospecha enfermedad de membrana hialina incipiente.",
+      "question_text": "¿Cuál es la modalidad terapéutica respiratoria no invasiva de primera línea indicada en este neonato con respiración espontánea para reclutar alvéolos y reducir la necesidad de intubación endotraqueal?",
+      "options": {
+        "A": "Colocación temprana de presión positiva continua en la vía aérea por vía nasal (CPAP nasal) con presión de 5 a 6 cmH2O",
+        "B": "Intubación orotraqueal mandatoria inmediata y conexión a ventilación mecánica sincronizada por volumen corriente",
+        "C": "Aumentar el flujo de oxígeno libre mediante mascarilla facial simple a 10 litros por minuto sin presión al final de la espiración",
+        "D": "Administración de surfactante exógeno profiláctico mediante técnica abierta sin soporte ventilatorio con presión positiva"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Pretérmino con esfuerzo respiratorio espontáneo continuo y dificultad respiratoria moderada a grave secundaria a déficit de surfactante.",
+      "justificacion_gpc": "La GPC IMSS-230-18 y las directrices neonatales internacionales señalan que en neonatos prematuros con esfuerzo respiratorio espontáneo y dificultad respiratoria (síndrome de dificultad respiratoria / enfermedad de membrana hialina), el soporte inicial de elección es el CPAP nasal temprano (5 a 6 cmH2O). El CPAP mantiene la capacidad residual funcional, previene el colapso alveolar telespiratorio, reduce el trabajo respiratorio y disminuye significativamente la necesidad de intubación mecánica invasiva y sus complicaciones asociadas (displasia broncopulmonar).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Invasividad Prematura]: La intubación inmediata de rutina en prematuros con respiración espontánea ha sido reemplazada por el uso temprano de CPAP nasal, reservando la intubación solo si falla el CPAP o hay apnea severa recurrente.",
+        "C": "[Distractor Ineficaz]: El oxígeno a flujo libre no aporta PEEP (presión positiva al final de la espiración), por lo que no previene el colapso alveolar propio del déficit de surfactante y puede generar toxicidad pulmonar.",
+        "D": "[Distractor Inviable]: El surfactante requiere distribución pulmonar efectiva, la cual no puede lograrse sin soporte previo o simultáneo con presión positiva (CPAP o técnica LISA/INSURE)."
+      }
+    },
+    {
+      "id": "d09_q6",
+      "index": 6,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC Reanimación Neonatal CENETEC / NRP 8ª Edición",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Recién nacido de término de 40 semanas de gestación nacido de parto eutócico institucional. Al minuto de vida presentó llanto irregular y ligera acrocianosis, por lo que se colocó un sensor de oxímetro de pulso en la muñeca derecha (sitio preductal). A los 5 minutos de vida, el paciente respira de forma regular, presenta llanto vigoroso, tono activo, frecuencia cardíaca de 136 latidos por minuto y el oxímetro de pulso registra una saturación preductal constante de 83% mientras respira aire ambiente (FiO2 21%).",
+      "question_text": "¿Cuál es la interpretación clínica correcta de este valor de oximetría y la conducta correspondiente según las metas de saturación de la GPC de Reanimación Neonatal?",
+      "options": {
+        "A": "Es un valor fisiológico normal (rango meta a los 5 minutos: 80% a 85%); se debe continuar con aire ambiente y vigilancia clínica sin aportar oxígeno suplementario",
+        "B": "Representa hipoxemia neonatal patológica grave (< 90%); se debe iniciar de inmediato oxígeno suplementario en flujo libre al 100%",
+        "C": "Requiere inicio urgente de ventilación con presión positiva (VPP) con bolsa-mascarilla por no alcanzar el 95% de saturación",
+        "D": "Indica sospecha inminente de cardiopatía congénita cianógena compleja que obliga a iniciar infusión inmediata de prostaglandina E1"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "SpO2 preductal de 83% a los 5 minutos de vida en un neonato asintomático con FC normal (rango objetivo estricto: 80% a 85%).",
+      "justificacion_gpc": "La GPC CENETEC y el NRP establecen objetivos fisiológicos precisos de saturación de oxígeno preductal minuto a minuto durante la transición neonatal: a 1 minuto: 60-65%; a 2 minutos: 65-70%; a 3 minutos: 70-75%; a 4 minutos: 75-80%; a 5 minutos: 80-85%; y a los 10 minutos: 85-95%. Es fisiológico que un neonato sano tarde hasta 10 minutos en alcanzar saturaciones mayores al 90%. Un valor de 83% a los 5 minutos está perfectamente dentro del rango meta esperado y no requiere oxígeno suplementario ni maniobras adicionales.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Sobretratamiento]: Pretender que el recién nacido sature > 90% a los 5 minutos es un error conceptual frecuente que conduce a la administración innecesaria y nociva de oxígeno al 100%.",
+        "C": "[Distractor Inapropiado]: La VPP está indicada por apnea, boqueo o FC < 100 lpm, no por una saturación de 83% a los 5 minutos en un paciente con esfuerzo respiratorio regular y FC de 136 lpm.",
+        "D": "[Distractor de Alarma Desproporcionada]: La transición circulatoria fetal a neonatal es gradual; considerar prostaglandinas a los 5 minutos con SpO2 de 83% es un sobrediagnóstico injustificado."
+      }
+    },
+    {
+      "id": "d09_q7",
+      "index": 7,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC Reanimación Neonatal CENETEC / NRP 8ª Edición",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Recién nacido a término que no respiró al nacer y presentó bradicardia persistente. Se le colocó tubo orotraqueal confirmando posición correcta por capnografía y auscultación simétrica. Se administraron 30 segundos de ventilación con presión positiva efectiva que logró una adecuada expansión bilateral del tórax con FiO2 al 100%. Al detener la maniobra brevemente para evaluar: la auscultación precordial confirma una frecuencia cardíaca de 46 latidos por minuto.",
+      "question_text": "¿Cuál es la intervención terapéutica que debe implementarse inmediatamente según el algoritmo de reanimación cardiopulmonar neonatal?",
+      "options": {
+        "A": "Iniciar compresiones torácicas coordinadas con VPP en relación 3:1 (90 compresiones y 30 ventilaciones por minuto) mediante la técnica de los dos pulgares",
+        "B": "Administrar un bolo intravenoso urgente de adrenalina 1:10,000 previo a iniciar el masaje cardíaco",
+        "C": "Modificar la relación compresión-ventilación a 15:2 como se recomienda en el soporte vital pediátrico con dos reanimadores",
+        "D": "Infundir solución de bicarbonato de sodio al 8.4% a 2 mEq/kg para revertir la acidosis láctica antes de comprimir el tórax"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "FC < 60 lpm a pesar de al menos 30 segundos de VPP efectiva a través de vía aérea avanzada con FiO2 al 100%.",
+      "justificacion_gpc": "La GPC CENETEC y el NRP dictaminan que la indicación estricta para iniciar compresiones torácicas en el recién nacido es una frecuencia cardíaca menor de 60 lpm después de al menos 30 segundos de VPP efectiva que movilice el tórax (idealmente tras intubación endotraqueal y con FiO2 al 100%). La técnica de elección es la de los dos pulgares rodeando el tórax con las manos, aplicando presión en el tercio inferior del esternón a una profundidad de un tercio del diámetro anteroposterior. La relación sincrónica es estrictamente 3:1 (3 compresiones seguidas de 1 ventilación), logrando 90 compresiones y 30 ventilaciones (120 eventos por minuto).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Prematuro]: La adrenalina se indica únicamente si la FC persiste < 60 lpm después de al menos 60 segundos de compresiones torácicas de alta calidad coordinadas con VPP al 100%, nunca antes del masaje.",
+        "C": "[Distractor de Confusión Guiada]: La relación 15:2 corresponde al algoritmo pediátrico (PALS) para lactantes y niños con 2 reanimadores cuando el paro no es neonatal; en reanimación neonatal la relación es siempre 3:1.",
+        "D": "[Distractor Iatrogénico Peligroso]: El bicarbonato de sodio de rutina en reanimación neonatal está contraindicado porque genera hiperosmolaridad, hemorragia intraventricular y empeora la acidosis intracelular por producción de CO2."
+      }
+    },
+    {
+      "id": "d09_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC Reanimación Neonatal CENETEC / NRP 8ª Edición",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Neonato masculino de 38 semanas de gestación nacido mediante cesárea urgente por desprendimiento prematuro de placenta normoinserta con hemorragia materna masiva. Al nacer presenta palidez cutánea marmórea extrema, tono muscular abolido, llenado capilar de 6 segundos y pulsos periféricos imperceptibles. A pesar de una adecuada intubación endotraqueal, VPP con oxígeno al 100% y compresiones torácicas continuas de alta calidad durante 2 minutos, la frecuencia cardíaca se mantiene oscilando entre 50 y 60 latidos por minuto.",
+      "question_text": "¿Cuál es la indicación farmacológica de expansión de volumen de primera línea y su posología recomendada por la GPC?",
+      "options": {
+        "A": "Solución salina fisiológica al 0.9% a dosis de 10 mL/kg por vía intravenosa (catéter venoso umbilical) a infundir en 5 a 10 minutos",
+        "B": "Albúmina humana al 5% a dosis de 20 mL/kg en bolo intravenoso directo en menos de 1 minuto",
+        "C": "Solución glucosada al 10% a dosis de 5 mL/kg en bolo rápido para corregir hipoglucemia de estrés",
+        "D": "Solución salina al 0.9% a dosis de 30 mL/kg en infusión rápida bajo presión positiva"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Antecedente obstétrico de sangrado masivo (desprendimiento placentario), palidez extrema, hipoperfusión grave y refractariedad a RCP avanzado (choque hipovolémico agudo).",
+      "justificacion_gpc": "La GPC CENETEC y el NRP especifican que ante la sospecha fundamentada de choque hipovolémico por pérdida aguda de sangre fetal o materna (desprendimiento de placenta, vasa previa, prolapso de cordón) y falta de respuesta a las maniobras de VPP y masaje cardíaco, está indicada la administración de un expansor de volumen. La solución de elección inicial es la solución salina al 0.9% (cloruro de sodio isotónico) o concentrado eritrocitario O negativo no cruzado a dosis de 10 mL/kg por vía intravenosa o intraósea, infundida en un periodo de 5 a 10 minutos para evitar oscilaciones bruscas del flujo cerebral.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Comorbilidad",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor Contraindicado]: Las soluciones coloides como la albúmina humana no se recomiendan para la reanimación neonatal inicial debido a mayor riesgo de morbimortalidad infecciosa, daño pulmonar agudo y alto costo.",
+        "C": "[Distractor Inadecuado]: La glucosa al 10% trata la hipoglucemia sintomática, pero carece de efecto osmolar y de volumen para tratar el colapso circulatorio hipovolémico.",
+        "D": "[Distractor de Sobrecarga Hídrica]: Administrar 30 mL/kg en bolo ultrarrápido provoca hemorragia de la matriz germinal / hemorragia intraventricular catastrófica y edema agudo pulmonar."
+      }
+    },
+    {
+      "id": "d09_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "NOM-034-SSA2-2013 / GPC CENETEC Tamiz Cardiológico",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Recién nacida de término de 39 semanas de gestación con peso de 3,250 g, producto de embarazo normoevolutivo y parto eutócico sin complicaciones. Tiene APGAR 9/9 y se encuentra asintomática en alojamiento conjunto con lactancia materna exclusiva. De acuerdo con las disposiciones de la NOM-034-SSA2-2013 y las guías nacionales para la detección oportuna de cardiopatías congénitas complejas críticas (ductus dependientes), se planifica la realización de su tamizaje cardiológico previo a su egreso a domicilio.",
+      "question_text": "¿En qué momento y mediante qué método estandarizado debe efectuarse este tamizaje inicial de acuerdo con la normativa mexicana?",
+      "options": {
+        "A": "Medición de oximetría de pulso en mano derecha (preductal) y en cualquiera de los pies (posductal) entre las 24 y 48 horas de vida",
+        "B": "Ecocardiograma transtorácico bidimensional con Doppler color en las primeras 6 horas de vida",
+        "C": "Registro de electrocardiograma de 12 derivaciones y medición de tensión arterial en cuatro extremidades a los 7 días de vida",
+        "D": "Oximetría de pulso exclusiva en mano izquierda a las 12 horas de vida previa a la primera toma de alimento"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Tamizaje universal de cardiopatías congénitas críticas: oximetría preductal (mano derecha) y posductal (pie) entre las 24 y 48 horas de vida (o antes del alta si es > 24 horas).",
+      "justificacion_gpc": "La NOM-034-SSA2-2013 y la GPC de Tamiz Neonatal Cardiológico dictaminan que el estudio de tamizaje inicial de elección para la detección oportuna de cardiopatías congénitas críticas es la pulsioximetría realizada entre las 24 y 48 horas de vida (para reducir falsos positivos por conducto arterioso aún permeable con presiones pulmonares en descenso). Se debe colocar un sensor en la mano derecha (sitio preductal) y otro en cualquiera de los pies (sitio posductal). Se considera resultado negativo (normal) si la SpO2 es ≥ 95% en ambas extremidades con una diferencia absoluta ≤ 3% entre la mano y el pie.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Diagnóstico / Gold Standard]: El ecocardiograma es el estándar de oro confirmatorio ante un tamiz alterado o sospecha clínica, pero es inviable y no costo-efectivo como tamizaje universal masivo.",
+        "C": "[Distractor Inadecuado]: El ECG a los 7 días no es la prueba de tamizaje de primera línea y retrasa peligrosamente el diagnóstico de lesiones ductus dependientes que cierran en los primeros días.",
+        "D": "[Distractor Anatómico]: La mano izquierda recibe flujo después de la subclavia izquierda y puede reflejar territorio posductal o limítrofe; el sitio preductal anatómico estricto es exclusivamente la mano o muñeca derecha."
+      }
+    },
+    {
+      "id": "d09_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "NOM-007-SSA2-2016 / NOM-034-SSA2-2013 / GPC CENETEC",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Neonato masculino de 12 días de vida que acude al centro de salud para la entrega del resultado de su tamiz metabólico neonatal básico en papel filtro (obtenido por punción del talón al cuarto día de vida). El reporte de laboratorio notifica una concentración de hormona estimulante de la tiroides (TSH) en sangre de talón de 24 μUI/mL (valor de referencia de corte institucional: > 10 μUI/mL se considera sospechoso). A la exploración física: se encuentra activo, reactivo, con fontanela anterior amplia de 3.5 x 3.5 cm, ictericia leve en cara (zona I de Kramer) y discreta hipotonía axial sin otros estigmas clínicos.",
+      "question_text": "¿Cuál es el estudio confirmatorio estándar de oro que debe solicitarse de inmediato en suero venoso para corroborar el diagnóstico de hipotiroidismo congénito según la normativa mexicana?",
+      "options": {
+        "A": "Perfil tiroideo sérico venoso con cuantificación de TSH, T4 libre y T4 total",
+        "B": "Gammagrama tiroideo con Tecnecio-99m como primera prueba diagnóstica obligatoria",
+        "C": "Repetir la toma de muestra de sangre capilar en papel filtro de talón en 30 días",
+        "D": "Ultrasonido Doppler de cuello para medir el volumen tiroideo antes de tomar pruebas sanguíneas"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Tamiz en talón sospechoso (TSH > 10 μUI/mL); el tamiz es una prueba de cribado poblacional y exige confirmación diagnóstica inmediata con perfil tiroideo en suero venoso.",
+      "justificacion_gpc": "De acuerdo con la NOM-007-SSA2-2016, la NOM-034-SSA2-2013 y la GPC de Hipotiroidismo Congénito CENETEC, el tamiz metabólico en papel filtro es una prueba de tamizaje presuntivo. Todo resultado con TSH elevada (> 10-20 μUI/mL) requiere toma urgente e inmediata de muestra de sangre venosa para cuantificación del perfil tiroideo completo (TSH, T4 libre y T4 total), que constituye el estándar de oro confirmatorio. Se confirma hipotiroidismo congénito primario cuando se demuestra TSH sérica venosa elevada con T4 libre disminuida.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Etiológico]: El gammagrama con Tc-99m o I-123 sirve para determinar la causa etiológica (disgenesia vs. ectopia vs. dishormonogénesis), pero jamás sustituye al perfil hormonal venoso ni debe demorar el inicio del tratamiento.",
+        "C": "[Distractor Negligente / Retraso Crítico]: Esperar 30 días para repetir el tamiz capilar en papel filtro condena al paciente a retraso mental irreversible por hipotiroidismo no tratado en la ventana de neurodesarrollo crítico.",
+        "D": "[Distractor Inadecuado]: El ultrasonido es un estudio anatómico complementario, no bioquímico funcional, y no puede confirmar la presencia o severidad del hipotiroidismo."
+      }
+    },
+    {
+      "id": "d09_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "NOM-007-SSA2-2016 / NOM-034-SSA2-2013 / CENETEC",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A full-term male newborn is evaluated at his community health center for a routine postpartum checkup. The mother inquires about the mandatory timeline established by Mexican Official Standards (NOM-007-SSA2-2016 and NOM-034-SSA2-2013) to perform the newborn metabolic screening (heel prick on filter paper), and the critical deadline to initiate definitive levothyroxine replacement therapy if congenital hypothyroidism is confirmed, in order to prevent irreversible intellectual disability.",
+      "question_text": "According to Mexican Official Standards and Clinical Practice Guidelines, what is the optimal timeframe for collecting the newborn metabolic screening blood sample, and what is the therapeutic deadline to initiate levothyroxine therapy?",
+      "options": {
+        "A": "Blood sample collection between the 3rd and 5th day of life (72 to 120 hours); initiation of levothyroxine before 15 days of life",
+        "B": "Blood sample collection within the first 6 hours of life; initiation of levothyroxine before 30 days of life",
+        "C": "Blood sample collection at 14 to 21 days of life; initiation of levothyroxine before 3 months of life",
+        "D": "Blood sample collection strictly between 24 and 48 hours of life; initiation of levothyroxine at 6 weeks of life"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Ventana normativa de tamiz metabólico neonatal en México: 3 a 5 días de vida (evita pico fisiológico de TSH) y meta terapéutica de inicio de levotiroxina antes del día 15 de vida.",
+      "justificacion_gpc": "Under Mexican Official Standards NOM-007-SSA2-2016 and NOM-034-SSA2-2013, the optimal physiological window for obtaining the dried blood heel-prick sample on Guthrie filter paper for metabolic screening is between the 3rd and 5th day of life (72 to 120 hours). Performing the test before 72 hours results in high false-positive rates due to the physiological postnatal TSH surge. Furthermore, clinical practice guidelines emphasize that whenever congenital hypothyroidism is confirmed, oral levothyroxine sodium replacement therapy (10-15 mcg/kg/day) must be initiated immediately, ideally before 15 days of life, which represents the critical neurodevelopmental threshold to prevent permanent cognitive impairment and cretinism.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor of Premature Sampling]: Sampling within the first 6 hours is plagued by physiological surge-induced false positives for TSH and false negatives for phenylketonuria before adequate protein feedings.",
+        "C": "[Distractor of Unacceptable Delay]: Taking the screen past 2 weeks and deferring treatment up to 3 months misses the therapeutic window, causing permanent loss of intelligence quotient (IQ) points.",
+        "D": "[Distractor of Incorrect Window]: The 24-48 hour window corresponds to pulse oximetry critical congenital heart disease screening, not the 3-5 day window for metabolic heel screening, and delaying levothyroxine to 6 weeks is clinically detrimental."
+      }
+    },
+    {
+      "id": "d09_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "NOM-034-SSA2-2013 / CENETEC",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 2-day-old female newborn born at 39 weeks of gestation via uncomplicated vaginal delivery is evaluated prior to hospital discharge. The infant had an APGAR score of 9/9, received standard neonatal prophylaxis (vitamin K and ophthalmic chloramphenicol), and has no family history of hearing loss, nor risk factors such as craniofacial anomalies, hyperbilirubinemia requiring exchange transfusion, ototoxic medications, or admission to the neonatal intensive care unit (NICU). According to the Mexican Official Standard for congenital defects (NOM-034-SSA2-2013), universal newborn hearing screening must be scheduled.",
+      "question_text": "Which diagnostic modality represents the first-line initial screening test for universal hearing evaluation in this healthy newborn without risk factors, and what is the definitive confirmatory gold standard if screening is failed?",
+      "options": {
+        "A": "Initial screening: Transient Evoked Otoacoustic Emissions (TEOAE); Confirmatory standard: Automated or Diagnostic Auditory Brainstem Response (ABR / PEATC)",
+        "B": "Initial screening: Automated Auditory Brainstem Response; Confirmatory standard: Behavioral observation pure-tone audiometry",
+        "C": "Initial screening: Tympanometry and acoustic reflex testing; Confirmatory standard: High-resolution temporal bone computed tomography",
+        "D": "Initial screening: Visual reinforcement audiometry; Confirmatory standard: Genetic testing for GJB2 (connexin 26) mutations"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Neonato sano sin factores de riesgo para hipoacusia neurosensorial: cribado inicial con Emisiones Otoacústicas (EOA) y confirmatorio estándar con Potenciales Evocados Auditivos de Tallo Cerebral (PEATC).",
+      "justificacion_gpc": "According to NOM-034-SSA2-2013 and Mexican CENETEC clinical guidelines on newborn hearing screening (Tamiz Auditivo Neonatal), the mandatory first-line screening modality for well-baby nurseries (infants without NICU stay or high-risk factors) is Transient Evoked Otoacoustic Emissions (TEOAE / EOA), which evaluates the integrity of the outer hair cells of the cochlea quickly and non-invasively. If the neonate fails the initial test and a re-test at 1 month, the confirmatory gold standard test is the Diagnostic Auditory Brainstem Response (ABR / PEATC), which assesses neural auditory pathway transmission from the cochlea to the brainstem.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor of Inverted Hierarchy]: ABR can be used for initial screening in high-risk NICU infants to detect auditory neuropathy, but behavioral audiometry cannot be performed in newborns as a confirmatory test (only reliable after 6 months).",
+        "C": "[Distractor of Middle Ear Assessment]: Tympanometry evaluates middle ear mechanics and acoustic reflexes, which are not universal screening tests for neonatal sensorineural hearing loss, and temporal bone CT exposes neonates to unnecessary radiation.",
+        "D": "[Distractor of Developmentally Inappropriate Test]: Visual reinforcement audiometry requires motor head-turning developmental milestones achieved only between 6 and 24 months of age."
+      }
+    }
+  ],
+  "code": "D09",
+  "topic_id": "D09_PED_Reanimacion_Neonatal_Sepsis_SDR",
+  "topic": "RENEO (Minuto de Oro), Sepsis y SDR"
+}

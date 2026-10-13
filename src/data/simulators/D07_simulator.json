@@ -1,0 +1,709 @@
+{
+  "topic_code": "D07",
+  "title": "Simulador Post-Estudio: Deshidratación y EDA (Planes A, B y C)",
+  "normativa_origen": "GPC IMSS-156-08 / NOM-031",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d07_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Gastroenteritis Aguda Viral y Falla al Plan B",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Lactante femenino de 9 meses de edad (peso previo 8.800 kg, peso actual en báscula calibrada 8.200 kg, pérdida ponderal del 6.8%), con esquema de vacunación completo para la edad. Es traída a urgencias de su Unidad de Medicina Familiar por presentar cuadro de 48 horas de evolución con 6 evacuaciones líquidas abundantes al día, color amarillento, sin moco ni estrías de sangre, acompañadas de vómitos de contenido lácteo en 2 ocasiones y febrícula de 37.8 °C. A la exploración física: FC 144 lpm, FR 32 rpm, temperatura 37.4 °C; se observa irritable pero consolable en brazos de la madre, fontanela anterior discretamente deprimida, mucosas orales secas, saliva filante, ojos hundidos con lágrimas escasas al llanto; al ofrecerle un vaso con agua bebe con avidez desesperada. El llenado capilar distal es de 2 segundos, pulsos periféricos radiales y pedios de adecuada intensidad y simétricos, y el signo del pliegue cutáneo abdominal se deshace en menos de 2 segundos.",
+      "question_text": "De acuerdo con los criterios normados en la NOM-031-SSA2-1999 y la GPC IMSS-156-08, ¿cuál es la estratificación del estado de hidratación de esta paciente y la conducta inicial inmediata obligada?",
+      "options": {
+        "A": "Sin deshidratación evidente; indicar egreso al domicilio con Plan A a base de Vida Suero Oral 75 mL tras cada evacuación líquida y mantener la alimentación habitual.",
+        "B": "Con deshidratación (algún grado de deshidratación); iniciar de inmediato el Plan B con Vida Suero Oral a 100 mL/kg en 4 horas fraccionado cada 30 minutos bajo supervisión médica en la unidad de salud.",
+        "C": "Deshidratación grave con choque hipovolémico compensado; canalizar dos accesos venosos periféricos e infundir bolo rápido de Solución Hartmann a 20 mL/kg en 15 minutos.",
+        "D": "Deshidratación hipernatrémica moderada; ingresar a hospitalización para iniciar reposición hídrica intravenosa lenta a 48 horas con Solución Glucosada al 5% sin sodio añadido."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Estratificacion_Plan_B",
+      "gpc_algorithm_step": "Diagnóstico de 'Con Deshidratación' ante la presencia de dos o más signos cardinales (inquietud/irritabilidad, ojos hundidos, llanto sin lágrimas, boca/lengua secas, sed intensa/bebe con avidez, pliegue que desaparece lentamente < 2 s) sin datos de choque. Indicación estricta de Plan B con Vida Suero Oral a 100 mL/kg en 4 horas.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "El evaluado se confía porque la paciente está 'consolable' o 'no chocado' y asume erróneamente Plan A domiciliario, o sobrerreacciona ante la taquicardia e indica cargas intravenosas de Plan C sin que existan datos de choque ni letargia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios clínicos de la NOM-031/GPC para clasificar a un niño 'Con Deshidratación' e indicar Plan B?",
+        "back": "Presencia de 2 o más signos: irritabilidad/inquietud, ojos hundidos, llanto sin lágrimas, mucosas secas/saliva filante, sed intensa (bebe con avidez) o pliegue cutáneo < 2 s. Tratamiento: Plan B con VSO 100 mL/kg en 4 horas (25 mL/kg/h) fraccionado cada 30 min.",
+        "tags": "D07 EDA Deshidratacion Plan_B NOM_031 GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Gastroenteritis Aguda Viral y Falla al Plan B",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A la misma lactante femenina de 9 meses con peso de 8.200 kg se le calcula el Plan B con Vida Suero Oral: volumen total de 820 mL para 4 horas (aproximadamente 100 mL cada 30 minutos administrados con taza y cuchara a ritmo continuo). A los 25 minutos de haber iniciado la hidratación oral, tras haber ingerido 60 mL de solución, la paciente presenta un vómito de 30 mL de contenido gástrico y suero; sin embargo, inmediatamente después la niña se tranquiliza y continúa señalando y buscando el vaso de suero con avidez.",
+      "question_text": "De acuerdo con el algoritmo normado en la GPC IMSS-156-08 y la NOM-031-SSA2-1999, ¿cuál es la conducta médica inmediata que debe ejecutarse ante la presencia de este vómito?",
+      "options": {
+        "A": "Suspender la administración de Vida Suero Oral durante 10 minutos para permitir reposo gástrico y posteriormente reiniciar la hidratación oral ofreciendo volúmenes menores a ritmo más lento.",
+        "B": "Declarar falla inmediata al Plan B por intolerancia a la vía oral e instalar sonda nasogástrica para iniciar gastroclisis continua a 30 gotas por minuto.",
+        "C": "Administrar una dosis intramuscular de metoclopramida (0.1 mg/kg) o difenidol y duplicar la velocidad de administración oral para compensar el volumen expulsado.",
+        "D": "Suspender definitivamente la vía oral e iniciar Plan C intravenoso con infusión de Solución Hartmann a 50 mL/kg en la primera hora por riesgo de descompensación hemodinámica."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo_Vomito_Plan_B",
+      "gpc_algorithm_step": "Regla de oro del Plan B ante vómito aislado: pausar la administración de VSO durante 10 minutos para reposo de la mucosa gástrica y reanudar con la misma solución a cucharadas más lentas y espaciadas. Solo si el vómito es persistente o incoercible (≥3 vómitos en una hora) se clasifica como falla al Plan B.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Antieméticos Prohibidos",
+        "explanation": "El evaluado cae en la tentación de prescribir antieméticos no normados en el algoritmo primario o escala prematuramente a sonda nasogástrica o vía intravenosa ante un vómito fisiológico común durante la rehidratación oral rápida."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta normada en Plan B si el niño vomita durante la rehidratación oral con Vida Suero Oral?",
+        "back": "Suspender la vía oral durante 10 minutos (reposo gástrico) y reiniciar con la misma solución a cucharadas o sorbos más lentos y espaciados. NO usar antieméticos de rutina.",
+        "tags": "D07 EDA Deshidratacion Plan_B Vomito GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Gastroenteritis Aguda Viral y Falla al Plan B",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A pesar de aplicar la pausa de 10 minutos y ofrecer el suero con técnica lenta, durante las siguientes 2 horas la paciente presenta un gasto fecal sumamente elevado (>10 g/kg/h) con 5 evacuaciones diarreicas líquidas explosivas y 4 vómitos adicionales de contenido biliar y gástrico en la última hora. Al reexplorar a la paciente a la tercera hora: persiste irritable, con ojos muy hundidos, llanto afónico sin lágrimas y saliva filante; sin embargo, el abdomen se palpa blando, depresible, con ruidos hidroaéreos normales, sin distensión patológica, y el llenado capilar se mantiene en 2 segundos con pulsos periféricos palpables.",
+      "question_text": "Ante la confirmación de fracaso al Plan B por vómito incoercible y gasto fecal elevado, pero con ausencia de íleo paralítico, distensión abdominal y sin choque descompensado, ¿cuál es la conducta terapéutica indicada según la GPC IMSS-156-08?",
+      "options": {
+        "A": "Administrar loperamida a dosis de 0.1 mg/kg vía oral combinada con caolín-pectina para reducir el volumen fecal y permitir la retención oral.",
+        "B": "Iniciar inmediatamente Plan C intravenoso con carga rápida de Solución Salina al 0.9% a 20 mL/kg en bolo para infundir en 10 minutos.",
+        "C": "Iniciar administración de Vida Suero Oral mediante gastroclisis por sonda nasogástrica a razón de 20 a 30 gotas por minuto (o 20 a 30 mL/kg/hora) vigilando estrechamente la tolerancia gástrica.",
+        "D": "Indicar ayuno absoluto por 24 horas y colocar venoclisis para aporte de líquidos basales según método de Holliday-Segar con Dextrosa al 5% en agua destilada."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Falla_Plan_B_Gastroclisis",
+      "gpc_algorithm_step": "En caso de falla al Plan B por vómitos incoercibles (≥3 en 1 hora), gasto fecal de alto flujo o rechazo oral, si el paciente NO tiene íleo paralítico, distensión abdominal grave ni choque hipovolémico, la GPC y NOM-031 mandatan el uso de gastroclisis por sonda nasogástrica a 20-30 gotas/min antes de escalar a Plan C intravenoso.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Fármacos Contraindicados",
+        "explanation": "El evaluado olvida el paso intermedio de la gastroclisis por SNG estipulado en la normativa mexicana y salta a cargas intravenosas rápidas de choque, o peor aún, prescribe loperamida, la cual está formalmente contraindicada por riesgo de íleo paralítico y megacolon tóxico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo está indicada la gastroclisis por sonda nasogástrica en deshidratación pediátrica según GPC?",
+        "back": "En fracaso al Plan B por vómito persistente/incoercible, gasto fecal elevado o rechazo al VSO, siempre que NO exista íleo paralítico, distensión abdominal grave ni choque.",
+        "tags": "D07 EDA Deshidratacion Plan_B Gastroclisis GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Gastroenteritis Aguda Viral y Falla al Plan B",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Con la técnica de gastroclisis la paciente tolera adecuadamente el Vida Suero Oral sin nuevos vómitos. Tras 4 horas de infusión continua y vigilancia estrecha, la lactante se encuentra alerta, reactiva, mucosas orales húmedas, lágrimas abundantes, fontanela al nivel de la calota y presenta una micción espontánea clara de 25 mL (uresis >2 mL/kg/h). La madre reanuda la vía oral espontánea con vaso y cuchara con adecuada tolerancia. Se decide egreso domiciliario bajo Plan A de rehidratación.",
+      "question_text": "¿Cuáles son las intervenciones terapéuticas coadyuvantes obligatorias al alta según la NOM-031-SSA2-1999 y qué grupo de fármacos se encuentra formalmente CONTRAINDICADO?",
+      "options": {
+        "A": "Prescribir Sulfato de Zinc a 5 mg/día por 3 días, suspender la lactancia materna por 72 horas reemplazándola con fórmula deslactosada y prescribir subsalicilato de bismuto.",
+        "B": "Prescribir suplementación oral con Sulfato de Zinc a 20 mg/día por 10 a 14 días, continuar alimentación habitual con leche materna y contraindicar de forma absoluta los agentes antimotilidad (loperamida) y antidiarreicos.",
+        "C": "Prescribir Neomicina con Caolín y Pectina cada 8 horas durante 5 días para esterilizar la luz colónica y contraindicar los sueros de hidratación oral en el hogar.",
+        "D": "Prescribir Trimetoprima con Sulfametoxazol profiláctico a 8 mg/kg/día durante 7 días y ayuno relativo de sólidos durante 48 horas para reposo de los enterocitos."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Plan_A_Zinc_Contraindicaciones",
+      "gpc_algorithm_step": "NOM-031 y GPC dictan que en el Plan A se debe continuar la alimentación regular (seno materno/fórmula sin diluir ni deslactosar de rutina), administrar VSO tras cada evacuación (75 mL en <1 año, 150 mL en >1 año), suplementar con Zinc (10 mg/día en <6 meses, 20 mg/día en ≥6 meses por 10-14 días) y prohíben estrictamente antimotilidad, antieméticos y antibióticos empíricos.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El evaluado cae en la práctica obsoleta de suspender la lactancia o indicar fórmulas deslactosadas de rutina, o bien en el uso de antibióticos empíricos y mezclas de caolín/pectina prohibidas expresamente por la NOM-031."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la dosis y duración de la suplementación con Zinc recomendada en EDA por NOM-031/OMS?",
+        "back": "Menores de 6 meses: 10 mg/día; Mayores de 6 meses: 20 mg/día. Duración: 10 a 14 días. Reduce duración, severidad y recurrencia de diarrea.",
+        "tags": "D07 EDA Zinc Plan_A NOM_031 GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Deshidratación Grave con Choque Hipovolémico (Plan C)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Lactante masculino de 13 meses de edad (peso habitual previo conocido de 10.0 kg; peso actual a su ingreso de 8.800 kg, pérdida ponderal del 12%), con antecedente de 3 días con diarrea acuosa profusa en 'agua de arroz' (>12 episodios al día) y vómitos repetidos. A su llegada al área de choque pediátrico: paciente comatoso/letárgico, reactivo únicamente a estímulos dolorosos profundos, con ojos profundamente hundidos que no cierran completamente, boca acartonada sin saliva, incapacidad para deglutir líquidos. Signos vitales: FC 186 lpm, FR 44 rpm con polipnea profunda acidótica, TA 64/36 mmHg (presión arterial media de 45 mmHg), pulsos periféricos radiales y pedios filiformes, ausentes los distales, extremidades pálidas, moteadas y frías, llenado capilar de 4.5 segundos y signo del lienzo húmedo/pliegue abdominal que persiste por más de 3 segundos.",
+      "question_text": "De acuerdo con el algoritmo normado en la GPC IMSS-156-08 y la NOM-031-SSA2-1999, ¿cuál es el diagnóstico sindromático definitivo y la conducta de reanimación hídrica inmediata que debe ejecutarse?",
+      "options": {
+        "A": "Deshidratación grave con choque hipovolémico descompensado; canalizar acceso vascular periférico o intraóseo de inmediato e iniciar Plan C de rehidratación parenteral con Solución Hartmann o Salina al 0.9%.",
+        "B": "Deshidratación con algún grado de deshidratación; instalar sonda nasogástrica para infundir Plan B con Vida Suero Oral a 100 mL/kg en 4 horas ya que la vía oral está alterada.",
+        "C": "Choque séptico distributivo refractario; iniciar infusión central de epinefrina a 0.1 mcg/kg/min y antibióticos intravenosos de amplio espectro antes de aportar cristaloides.",
+        "D": "Acidosis tubular renal descompensada; iniciar infusión parenteral de bicarbonato de sodio al 8.4% a 5 mEq/kg en bolo rápido para corregir la respiración de Kussmaul."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Diagnostico_Plan_C_Choque",
+      "gpc_algorithm_step": "Identificación de 'Deshidratación Grave / Choque Hipovolémico' (letargia/coma, pulsos filiformes/ausentes, llenado capilar >3 s, hipotensión, pliegue >2 s, incapacidad para beber). Indicación urgente de Plan C parenteral con Solución Hartmann o Solución Salina al 0.9% por vía periférica o intraósea.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir la taquipnea acidótica y el aspecto moteado con sepsis primaria o acidosis tubular, retrasando la expansión urgente de volumen intravascular con cristaloides isotónicos normados en el Plan C."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los signos clínicos que definen Deshidratación Grave / Choque (Plan C) en pediatría?",
+        "back": "Letargia/inconsciencia, ojos profundamente hundidos, incapacidad para beber, pulsos filiformes o ausentes, llenado capilar > 3 segundos, hipotensión y pliegue cutáneo > 2 s. Tratamiento: Plan C IV.",
+        "tags": "D07 EDA Deshidratacion Plan_C Choque GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Deshidratación Grave con Choque Hipovolémico (Plan C)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Para el mismo lactante de 13 meses de edad con peso actual de 8.800 kg en estado de choque hipovolémico por deshidratación grave, se asegura con éxito un acceso intraóseo tibial proximal al fallar dos intentos de canalización venosa en 60 segundos. El equipo médico se dispone a programar la bomba de infusión para ejecutar el esquema formal del Plan C según la normativa oficial mexicana.",
+      "question_text": "De acuerdo con la GPC IMSS-156-08 y la NOM-031-SSA2-1999 para niños mayores de un año, ¿cuál es la distribución volumétrica exacta y el tiempo de infusión de los 100 mL/kg calculados con Solución Hartmann?",
+      "options": {
+        "A": "Bolo inicial único de 100 mL/kg (880 mL) para infundir en 20 minutos con jeringa a presión, seguido de suspensión completa de líquidos parenterales.",
+        "B": "Total de 880 mL (100 mL/kg) en 6 horas: Primera hora: 30 mL/kg (264 mL); siguientes 5 horas: 70 mL/kg (616 mL en total a ~123 mL/h).",
+        "C": "Total de 528 mL (60 mL/kg) en 2 horas: Primera hora: 30 mL/kg (264 mL); Segunda hora: 30 mL/kg (264 mL) de Solución Mixta.",
+        "D": "Total de 880 mL (100 mL/kg) en 3 horas: Primera hora: 50 mL/kg (440 mL); Segunda hora: 25 mL/kg (220 mL); Tercera hora: 25 mL/kg (220 mL)."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Distribucion_Plan_C_Mayor_1_Ano",
+      "gpc_algorithm_step": "Esquema del Plan C en mayores de 1 año (GPC IMSS-156-08 / NOM-031): Total 100 mL/kg en 3 horas divididos en: 1ª hora: 50 mL/kg; 2ª hora: 25 mL/kg; 3ª hora: 25 mL/kg. (Nota: en menores de 1 año el esquema OMS/GPC se extiende a 6 horas: 30 mL/kg en la primera hora y 70 mL/kg en las siguientes 5 horas).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Esquema Erróneo por Grupo de Edad",
+        "explanation": "El evaluado confunde el esquema de mayores de 1 año (3 horas: 50-25-25 mL/kg) con el de menores de 1 año (6 horas: 30 mL/kg en 1h y 70 mL/kg en 5h), fallando en la prescripción temporal normada por la edad del paciente (13 meses)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el esquema de infusión del Plan C en niños MAYORES de 1 año según NOM-031 / GPC?",
+        "back": "100 mL/kg en 3 horas con Solución Hartmann o Salina al 0.9%:\n• 1ª hora: 50 mL/kg\n• 2ª hora: 25 mL/kg\n• 3ª hora: 25 mL/kg",
+        "tags": "D07 EDA Deshidratacion Plan_C Esquema GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Deshidratación Grave con Choque Hipovolémico (Plan C)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Al finalizar la primera hora de infusión del Plan C (se completaron los primeros 440 mL de Solución Hartmann), el paciente presenta mejoría en pulsos periféricos y la FC desciende a 140 lpm con TA de 82/48 mmHg. En ese momento se reciben los exámenes de laboratorio tomados al ingreso: Gasometría arterial: pH 7.21, pCO2 27 mmHg, pO2 86 mmHg, HCO3 10.5 mEq/L, Exceso de Base -15.2 mEq/L, Lactato 3.9 mmol/L. Electrólitos séricos: Sodio 134 mEq/L, Potasio 2.8 mEq/L, Cloro 108 mEq/L. Creatinina 0.9 mg/dL, Nitrógeno Ureico (BUN) 26 mg/dL. El paciente no ha presentado micción desde su ingreso (anuria de 65 minutos). El médico pasante sugiere indicar un bolo de bicarbonato de sodio al 8.4% para tratar la acidosis metabólica severa y añadir de inmediato 40 mEq/L de KCl a la infusión para corregir la hipopotasemia.",
+      "question_text": "De acuerdo con los principios de reanimación pediátrica y la GPC IMSS-156-08, ¿cuál es la conducta terapéutica correcta frente a estos resultados de laboratorio?",
+      "options": {
+        "A": "Cambiar la solución a Solución Glucosada al 5% con bicarbonato al 4% sin aporte de electrolitos hasta normalizar el bicarbonato sérico por encima de 18 mEq/L.",
+        "B": "Infundir inmediatamente bolo de bicarbonato de sodio al 8.4% a 2 mEq/kg y añadir 40 mEq/L de cloruro de potasio a la bolsa de Hartmann de inmediato, independientemente de la anuria, para evitar paro cardíaco.",
+        "C": "Suspender la Solución Hartmann e iniciar hemodiálisis de urgencia o diálisis peritoneal continua por insuficiencia renal aguda anúrica intrínseca con necrosis cortical.",
+        "D": "Continuar con la segunda hora del Plan C (25 mL/kg de Solución Hartmann); NO administrar bicarbonato de sodio ya que la acidosis corregirá al reponer la volemia y NO administrar potasio intravenoso hasta documentar gasto urinario espontáneo efectivo (>1 mL/kg/h)."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Manejo_Bicarbonato_Potasio_Plan_C",
+      "gpc_algorithm_step": "En la deshidratación grave, la acidosis metabólica con anión gap normal/mixto corrige progresivamente al restaurar la perfusión renal y tisular con cristaloides; el bicarbonato de rutina está contraindicado. La regla inviolable de reanimación pediátrica prohíbe administrar potasio IV si el paciente se encuentra anúrico, debido al riesgo inminente de hiperpotasemia letal y asistolia.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio / Bicarbonato y Potasio en Anuria",
+        "explanation": "El evaluado sobrerreacciona al valor de potasio de 2.8 mEq/L o al bicarbonato de 10.5 mEq/L e indica reposición agresiva antes de verificar que el riñón esté orinando, cometiendo una negligencia potencialmente fatal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo está permitido añadir cloruro de potasio (KCl) a las soluciones parenterales en deshidratación pediátrica?",
+        "back": "Únicamente después de corroborar gasto urinario espontáneo efectivo (> 1 mL/kg/hora). Está estrictamente contraindicado infundir potasio IV si el paciente se encuentra en anuria/oliguria no filiada.",
+        "tags": "D07 EDA Deshidratacion Potasio Anuria GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Deshidratación Grave con Choque Hipovolémico (Plan C)",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Se completa exitosamente la tercera hora del Plan C (total de 880 mL infundidos en 3 horas). A la reevaluación: el paciente se encuentra despierto, reactivo, con adecuado llanto con lágrimas, mucosas orales húmedas, llenado capilar de 1.5 segundos, FC 115 lpm, TA 92/56 mmHg. Presentó una micción clara de 30 mL en la última hora (gasto urinario de 3.4 mL/kg/h). No ha vuelto a vomitar y acepta ávidamente el vaso de agua que le acerca su madre.",
+      "question_text": "De acuerdo con el algoritmo de seguimiento continuo de la NOM-031-SSA2-1999 y GPC IMSS-156-08, ¿cuál es el paso siguiente en el manejo de este paciente tras revertir el choque y completar el Plan C?",
+      "options": {
+        "A": "Egresar de inmediato al domicilio con Plan A sin requerir observación hospitalaria adicional ya que el estado de choque se ha resuelto por completo.",
+        "B": "Repetir inmediatamente un segundo ciclo completo de Plan C intravenoso (100 mL/kg en otras 3 horas) para asegurar una sobrehidratación profiláctica de reserva.",
+        "C": "Hacer la transición a Plan B con Vida Suero Oral (100 mL/kg en 4 horas) por vía oral para completar la reposición de las pérdidas intracelulares y estabilizar al paciente antes de considerar el Plan A.",
+        "D": "Mantener al paciente en ayuno absoluto con sonda Foley a derivación durante 48 horas y programar laparotomía exploradora para descartar necrosis transmural."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Transicion_Plan_C_a_Plan_B",
+      "gpc_algorithm_step": "El algoritmo oficial establece que una vez completado el Plan C intravenoso y revertido el choque, si el paciente está alerta y tolera la vía oral, debe continuarse con Plan B con Vida Suero Oral (100 mL/kg en 4 horas) para reponer el déficit hídrico restante y evaluar tolerancia enteral completa antes del alta con Plan A.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "El evaluado asume falsamente que tras revertir el choque el niño ya puede egresar directamente a casa con Plan A, obviando la fase de consolidación enteral normada bajo el Plan B en la unidad médica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta normada al concluir exitosamente el Plan C intravenoso y revertir el choque?",
+        "back": "Si el paciente está consciente y tolera la vía oral, realizar la transición a Plan B con Vida Suero Oral (100 mL/kg en 4 horas) para consolidar la rehidratación antes de egresar con Plan A.",
+        "tags": "D07 EDA Deshidratacion Plan_C Transicion Plan_B GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Deshidratación Hipernatrémica y Corrección Hidroelectrolítica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Lactante masculino de 7 meses de edad (peso 7.400 kg), llevado al servicio de urgencias por diarrea acuosa de 4 días de evolución y pobre ingesta de líquidos. La madre refiere que preparaba los biberones agregando 'dos cucharadas copeteadas extra de fórmula de inicio por cada onza de agua para que estuviera más espesa y le quitara la diarrea', y además le dio a beber suero casero preparado con agua hervida y varias cucharadas soperas de sal de mesa. A la exploración física: FC 158 lpm, FR 40 rpm, temperatura 38.7 °C; se encuentra con irritabilidad extrema, llanto agudo y chillón inconsolable, sed voraz, fontanela deprimida, mucosas secas; al explorar el abdomen y los muslos, la piel se siente gruesa, con consistencia 'pastosa' o 'acartonada' al tacto, y el pliegue cutáneo no se deshace de inmediato sino con lentitud esponjosa. Neurológicamente presenta hipertonía generalizada e hiperreflexia osteotendinosa (+++/++++).",
+      "question_text": "¿Cuál es la sospecha diagnóstica prioritaria y cuál es el fundamento fisiopatológico que explica los hallazgos cutáneos y neurológicos característicos en esta entidad?",
+      "options": {
+        "A": "Meningitis bacteriana aguda por neumococo; la piel acartonada traduce esfacelo dérmico por vasculitis séptica y la hiperreflexia es signo cardinal de inflamación leptomeníngea primaria sin relación con el balance hídrico.",
+        "B": "Deshidratación hipernatrémica; el gradiente hiperosmolar extracelular extrae agua del compartimento intracelular celular hacia el intravascular, preservando transitoriamente la volemia y dando la textura pastosa subcutánea, mientras que la deshidratación y encogimiento de las neuronas genera hipertonía e irritabilidad del SNC.",
+        "C": "Deshidratación hiponatrémica severa; el edema cerebral agudo por paso de agua al interior de los astrocitos ocasiona aumento de la presión intracraneal que se manifiesta con piel pastosa y reflejos miotáticos exacerbados.",
+        "D": "Encefalopatía urémica secundaria a síndrome urémico hemolítico; la uremia elevada produce espasticidad muscular refleja y depósito dérmico de microcristales de urea 'escarcha urémica' que simulan piel pastosa."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Fisiopatologia_Deshidratacion_Hipernatremica",
+      "gpc_algorithm_step": "Sospecha clínica de deshidratación hipernatrémica ante antecedentes de soluciones hiperosmolares caseras o fórmulas concentradas, piel de textura pastosa/acartonada al tacto, fiebre de origen central, irritabilidad neurológica extrema, hipertonía e hiperreflexia, con preservación relativa del volumen intravascular hasta estadios muy avanzados.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir la irritabilidad extrema y la fiebre alta con una infección primaria del sistema nervioso central (meningitis) sin reconocer la semiología clásica de la piel pastosa de la hipernatremia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los datos clínicos cardinales de la deshidratación hipernatrémica en lactantes?",
+        "back": "Piel pastosa o acartonada al tacto, sed intensa/voraz, irritabilidad neurológica extrema, llanto agudo, fiebre, hipertonía e hiperreflexia. El volumen intravascular se preserva más tiempo por gradiente osmótico.",
+        "tags": "D07 EDA Deshidratacion Hipernatremia Clinica GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Deshidratación Hipernatrémica y Corrección Hidroelectrolítica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Se procesan electrólitos séricos urgentes para el paciente de 7 meses: Sodio sérico 168 mEq/L, Potasio 4.1 mEq/L, Cloro 134 mEq/L, Glucosa 98 mg/dL, Creatinina 0.6 mg/dL, Osmolaridad sérica calculada en 348 mOsm/kg. Los pulsos periféricos se mantienen palpables y la presión arterial es de 90/55 mmHg (no se encuentra en choque circulatorio).",
+      "question_text": "De acuerdo con las guías de práctica clínica mexicanas y consensos de terapia hidroelectrolítica pediátrica, ¿cuál es el límite estricto de la velocidad de descenso del sodio sérico en 24 horas y cuál es la complicación letal de corregirlo con mayor velocidad?",
+      "options": {
+        "A": "Velocidad máxima de descenso de 0.5 mEq/L/hora (no descender más de 10 a 12 mEq/L en 24 horas); un descenso más rápido induce edema cerebral agudo masivo, convulsiones, herniación cerebral y muerte.",
+        "B": "Velocidad de descenso acelerada de al menos 2 mEq/L/hora (descender al menos 30 mEq/L en 24 horas); un descenso más lento induce mielinolisis póntica central irreversible.",
+        "C": "Descenso obligado de 15 mEq/L en las primeras 2 horas mediante infusión de agua libre intravenosa; el riesgo de lentitud es necrosis tubular aguda osmótica.",
+        "D": "No existe límite de descenso siempre que se mantenga diuresis forzada con furosemida; el riesgo principal es hiperpotasemia por intercambio catiónico transmembrana."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Velocidad_Descenso_Hipernatremia",
+      "gpc_algorithm_step": "En hipernatremia (Na >150 mEq/L), el cerebro sintetiza osmoles idiogénicos para protegerse del encogimiento celular. La corrección del sodio debe ser muy lenta: velocidad no mayor a 0.5 mEq/L/hora (máximo 10-12 mEq/L en 24 horas). Una reducción acelerada ocasiona entrada masiva de agua a las neuronas, edema cerebral grave y muerte.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Confusión Mielinolisis vs Edema",
+        "explanation": "El evaluado confunde el riesgo de corregir rápido la hiponatremia (que produce mielinolisis pontina) con el de corregir rápido la hipernatremia (que produce edema cerebral fatal)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la velocidad máxima segura de corrección del sodio en deshidratación hipernatrémica?",
+        "back": "Máximo 0.5 mEq/L/hora o no más de 10 a 12 mEq/L en 24 horas (corrección en 48 horas). Una corrección más rápida provoca edema cerebral grave, convulsiones y herniación uncal.",
+        "tags": "D07 EDA Deshidratacion Hipernatremia Correccion GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Deshidratación Hipernatrémica y Corrección Hidroelectrolítica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Para el mismo lactante de 7 meses (peso 7.4 kg) con sodio sérico de 168 mEq/L, sin datos de choque descompensado pero con déficit de agua libre y deshidratación hipernatrémica severa calculada al 10%, el médico pediatra a cargo indica la programación de los líquidos parenterales para alcanzar la meta de corrección segura.",
+      "question_text": "De acuerdo con los algoritmos pediátricos normados, ¿cuál es el esquema de fluidoterapia de elección para este paciente?",
+      "options": {
+        "A": "Infundir solución de Agua Inyectable pura libre de electrolitos a 20 mL/kg/hora durante las primeras 6 horas para reponer rápidamente el agua intracelular perdida.",
+        "B": "Administrar el esquema convencional de Plan C a 100 mL/kg en 3 horas utilizando Solución Hartmann para asegurar una rápida dilución plasmática.",
+        "C": "Calcular la reposición del déficit de líquidos sumado a los requerimientos basales y pérdidas continuas para ser administrados de forma continua y gradual a lo largo de 48 horas con soluciones hipotónicas balanceadas (ej. Solución Salina al 0.45% o 0.3% con Dextrosa al 5% y potasio una vez que orine).",
+        "D": "Iniciar gastroclisis continua con agua destilada a 50 gotas por minuto sin aporte de sodio ni potasio durante 24 horas continuas."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Fluidoterapia_Hipernatremia_48_Horas",
+      "gpc_algorithm_step": "En hipernatremia severa sin choque, la fluidoterapia parenteral debe planearse para 48 horas continuas (nunca en 3 ni en 24 horas), empleando soluciones que contengan concentraciones moderadas de sodio (entre 40 y 77 mEq/L de Na, como Cloruro de Sodio al 0.3% o 0.45% con Dextrosa al 5%), vigilando la natremia cada 4 a 6 horas.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Aplicar el Plan C estándar de 3 horas o administrar soluciones puras de agua libre (que causan hemólisis y edema cerebral fulminante) en un paciente con hipernatremia sin choque circulatorio."
+      },
+      "anki_flashcard": {
+        "front": "¿En cuánto tiempo se calcula la rehidratación en un lactante con deshidratación hipernatrémica sin choque?",
+        "back": "En 48 horas (o hasta 72 horas si Na > 170 mEq/L) con soluciones con sodio de 40 a 77 mEq/L (NaCl 0.3% o 0.45% + SG 5%), monitorizando electrolitos cada 4 a 6 horas.",
+        "tags": "D07 EDA Deshidratacion Hipernatremia Fluidoterapia GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Deshidratación Hipernatrémica y Corrección Hidroelectrolítica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Durante el turno nocturno, por un error de calibración en la bomba de infusión, el lactante de 7 meses recibió un volumen inadvertido de solución glucosada al 5% sin electrolitos al triple del goteo prescrito. A las 5 horas del ingreso, el sodio sérico descendió abruptamente de 168 mEq/L a 147 mEq/L (caída precipitada de 21 mEq/L en 5 horas). Súbitamente, el paciente presenta alteración profunda del estado de alerta, pupilas intermedias hiporreactivas, desviación de la mirada hacia arriba y una crisis convulsiva tónico-clónica generalizada de 3 minutos de duración que no cede espontáneamente.",
+      "question_text": "Ante la confirmación de edema cerebral agudo iatrogénico con hipertensión endocraneal y crisis convulsiva secundaria a descenso hiperbólico del sodio, ¿cuál es el tratamiento farmacológico intravenoso de rescate inmediato?",
+      "options": {
+        "A": "Infundir un bolo rápido de Solución Glucosada al 5% pura a 20 mL/kg para expandir el compartimento glial y proteger contra la isquemia focal.",
+        "B": "Administrar Solución Salina Hipertónica al 3% a dosis de 3 a 5 mL/kg en infusión intravenosa rápida en 10 a 15 minutos para elevar transitoriamente el sodio plasmático y revertir el gradiente osmótico cerebral.",
+        "C": "Administrar furosemida en bolo a 2 mg/kg intravenosa y colocar al paciente en posición de Trendelenburg para optimizar el flujo sanguíneo cerebral.",
+        "D": "Infundir bicarbonato de sodio al 8.4% a 5 mEq/kg e iniciar impregnación con ácido valproico como único tratamiento antiepiléptico de elección."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Manejo_Edema_Cerebral_Hipertonica",
+      "gpc_algorithm_step": "El edema cerebral sintomático por corrección rápida de hipernatremia (o en hiponatremia aguda severa sintomática) es una emergencia letal. El tratamiento específico consiste en administrar Solución Salina al 3% (3 a 5 mL/kg IV en 10 a 15 minutos) para elevar rápidamente el sodio sérico de 3 a 5 mEq/L, revirtiendo el gradiente osmótico y cesando las convulsiones.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio / Fármaco de Rescate en Hipertensión Endocraneal Osmótica",
+        "explanation": "El evaluado se enfoca erróneamente en anticonvulsivantes tradicionales o diuréticos de asa sin corregir la causa molecular subyacente: el edema osmótico astrocitario que exige osmoles intravasculares urgentes (Salina al 3%)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de urgencia ante convulsiones por edema cerebral secundario a descenso rápido de sodio?",
+        "back": "Solución Salina al 3% a dosis de 3 a 5 mL/kg IV en 10 a 15 minutos. Eleva el sodio sérico 3 a 5 mEq/L, reduce el edema cerebral y yugula la crisis convulsiva.",
+        "tags": "D07 EDA Deshidratacion Edema_Cerebral Salina_3% GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Deshidratación en Desnutrición Aguda Severa",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Preescolar masculino de 20 meses de edad, residente de una comunidad rural con muy alta marginación social, llevado a consulta hospitalaria por presentar cuadro de 5 días de evolución con diarrea acuosa (7 a 9 evacuaciones líquidas diarias) y letargia progresiva. A la exploración física: peso 7.100 kg, talla 78 cm, peso para la longitud por debajo de -3 desviaciones estándar (desnutrición aguda severa); emaciación muscular marcada en cintura escapular y pélvica con costillas prominentes y facies de 'viejito' (marasmática), pero con presencia de edema bilateral con fóvea que abarca ambos pies y tercio distal de miembros inferiores (fenotipo mixto marasmo-kwashiorkor); cabello ralo y despigmentado con signo de la bandera. La madre refiere que el niño orina muy poco y llora con poca fuerza.",
+      "question_text": "De acuerdo con las directrices de la OMS y la GPC mexicana para el manejo del paciente con desnutrición aguda severa, ¿cuál es la razón primordial por la cual los signos clásicos de deshidratación como el signo del pliegue y los ojos hundidos resultan ENGAÑOSOS en este paciente?",
+      "options": {
+        "A": "La pérdida sustancial del tejido celular subcutáneo y elastina confiere una piel laxa que retiene el pliegue de forma basal ('falso pliegue positivo'), y la atrofia de la grasa orbitaria confiere ojos hundidos basales, mientras que el edema periférico puede ocultar hipovolemia grave; los signos más fiables son la avidez para beber, la frialdad acral y la alteración del estado de alerta.",
+        "B": "La hipoalbuminemia extrema causa vasoconstricción cutánea permanente que acelera artificialmente el retorno del pliegue cutáneo a menos de un segundo en todos los pacientes con kwashiorkor.",
+        "C": "Los pacientes con marasmo presentan hipervolemia fisiológica compensatoria con hipertensión arterial, por lo que nunca sufren deshidratación verdadera a pesar de diarrea de alto gasto.",
+        "D": "El signo del pliegue solo es confiable si se realiza en la región interescapular en lugar del abdomen debido a la presencia de esteatosis hepática masiva."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Semiologia_Deshidratacion_Desnutrido_Grave",
+      "gpc_algorithm_step": "En el paciente con desnutrición aguda grave (DAG), los signos cutáneos y oculares clásicos son engañosos debido a la atrofia del tejido graso y conectivo basal (ojos hundidos y pliegue cutáneo lento normales en el desnutrido). La OMS y GPC destacan que los signos diagnósticos cardinales y confiables son la sed intensa/avidez para beber, la frialdad periférica, el llenado capilar prolongado y la letargia.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Interpretar el pliegue cutáneo lento y los ojos hundidos como deshidratación estándar sin considerar la patología de base nutricional, lo que conduce a sobrediagnóstico de choque y sobrecarga hídrica letal."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué el signo del pliegue y los ojos hundidos son poco fiables en el niño con desnutrición aguda severa?",
+        "back": "Por la atrofia del panículo adiposo subcutáneo y grasa retroorbitaria basal (falso pliegue lento y ojos hundidos basales). Signos confiables: sed/avidez, frialdad acral, letargia y llenado capilar.",
+        "tags": "D07 EDA Deshidratacion Desnutricion_Grave Semiologia GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Deshidratación en Desnutrición Aguda Severa",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El médico residente de guardia evalúa al mismo preescolar de 20 meses con desnutrición aguda severa (peso 7.100 kg), nota mucosas secas, oliguria y pulso acelerado, e indica de inmediato en la hoja de órdenes: 'Iniciar Plan C intravenoso con Solución Hartmann a 100 mL/kg en 3 horas (710 mL)'. El médico adscrito de pediatría revisa la indicación y la suspende inmediatamente antes de que se conecte el suero.",
+      "question_text": "¿Cuál es la justificación fisiopatológica y el riesgo mortal que fundamenta la CONTRAINDICACIÓN absoluta de administrar el Plan C intravenoso convencional o cargas rápidas habituales en un niño con desnutrición aguda grave?",
+      "options": {
+        "A": "El cloruro de sodio parenteral bloquea la síntesis de transferrina produciendo acumulación tóxica de hierro libre en los hepatocitos y falla hepática fulminante.",
+        "B": "Presentan hipoplasia medular aguda que provoca hemólisis intravascular masiva y hemoglobinuria letal inducida por el lactato de la solución de Hartmann.",
+        "C": "Tienen hiperfiltración glomerular acelerada que agota completamente el sodio plasmático en menos de 30 minutos, provocando hernia amigdalina.",
+        "D": "Presentan atrofia miocárdica con adelgazamiento ventricular, disminución crítica del gasto cardíaco y retención corporal total de sodio; la infusión rápida de cargas parenterales convencionales provoca sobrecarga de volumen intravascular, falla cardíaca aguda y edema agudo pulmonar fatal."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Contraindicacion_Plan_C_Desnutricion_Grave",
+      "gpc_algorithm_step": "En niños con desnutrición aguda grave (marasmo/kwashiorkor), el corazón está atrófico y la bomba Na/K-ATPasa celular disfuncional acumula sodio intracelular. La administración de cargas rápidas habituales o Plan C convencional causa sobrecarga de volumen, insuficiencia cardíaca aguda y edema pulmonar mortal.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Esta es una de las trampas de mayor calibre del ENARM: aplicar el Plan C estándar de rehidratación en un paciente desnutrido grave, lo cual está terminantemente proscrito por la GPC y la OMS."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué está contraindicado el Plan C intravenoso habitual en desnutrición aguda grave?",
+        "back": "Tienen atrofia miocárdica con masa cardíaca reducida y retención de sodio. Las cargas rápidas o Plan C convencional causan sobrecarga hídrica, falla cardíaca congestiva aguda y edema pulmonar mortal.",
+        "tags": "D07 EDA Deshidratacion Desnutricion_Grave Plan_C_Contraindicado GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Deshidratación en Desnutrición Aguda Severa",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A la revaloración clínica del paciente desnutrido de 20 meses: se constata que NO se encuentra en choque circulatorio (FC 138 lpm, pulsos radiales palpables y rítmicos, llenado capilar de 2.5 segundos, extremidades tibias), pero presenta sed moderada y bebe cuando se le ofrece líquido con cuchara. Se confirma que presenta deshidratación sin choque.",
+      "question_text": "De acuerdo con los protocolos específicos de la OMS y la GPC mexicana, ¿cuál es la solución de rehidratación de elección y el esquema normado para este paciente?",
+      "options": {
+        "A": "Vida Suero Oral estándar de la OMS a 100 mL/kg en 4 horas por vía oral fraccionado cada 30 minutos según Plan B ordinario.",
+        "B": "Solución ReSoMal (Rehydration Solution for Malnutrition) por vía oral o sonda nasogástrica a dosis de 5 mL/kg cada 30 minutos durante las primeras 2 horas, luego 5 a 10 mL/kg/hora durante las siguientes 4 a 10 horas alternando con fórmula F-75.",
+        "C": "Solución Glucosada al 10% con 60 mEq/L de NaCl por vía intravenosa central a 25 mL/kg/hora durante 6 horas continuas.",
+        "D": "Agua purificada libre a libre demanda complementada con jugo de naranja natural sin diluir por vía oral."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Solucion_ReSoMal_Desnutricion_Grave",
+      "gpc_algorithm_step": "El paciente desnutrido severo con deshidratación sin choque debe rehidratarse con Solución ReSoMal por vía oral o SNG a 5 mL/kg cada 30 min en las primeras 2 h, y luego 5-10 mL/kg/h hasta completar 10 horas. ReSoMal contiene menor concentración de sodio (~45 mEq/L) y mayor concentración de potasio (~40 mEq/L) y magnesio, adaptada a su fisiopatología.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Uso de VSO estándar",
+        "explanation": "El evaluado elige el Vida Suero Oral estándar (75 mEq/L de Na), el cual contiene un tenor excesivo de sodio para un paciente con miocardio debilitado y sobrecarga corporal de sodio basal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la solución de rehidratación de elección en el desnutrido grave con deshidratación sin choque y sus características?",
+        "back": "ReSoMal (Rehydration Solution for Malnutrition): oral/SNG a 5-10 mL/kg/h. Tiene menor sodio (~45 mEq/L) y más potasio (~40 mEq/L) y magnesio para evitar sobrecarga y falla cardíaca.",
+        "tags": "D07 EDA Deshidratacion Desnutricion_Grave ReSoMal GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Deshidratación en Desnutrición Aguda Severa",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Tras 8 horas de manejo con ReSoMal y vigilancia estrecha, el preescolar se encuentra hidratado, reactivo, con uresis presente y sin datos de sobrecarga cardiopulmonar. Se planifica la fase de estabilización nutricional inicial hospitalaria y el aporte de micronutrientes esenciales.",
+      "question_text": "De acuerdo con los lineamientos de la GPC y la OMS para el manejo hospitalario de la desnutrición aguda severa en su fase inicial (estabilización), ¿cuál de las siguientes opciones representa la indicación nutricional y farmacológica correcta?",
+      "options": {
+        "A": "Indicar ayuno absoluto por 5 días para desinflamar la mucosa colónica e iniciar nutrición parenteral total con aminoácidos ramificados y hierro dextrán intravenoso.",
+        "B": "Iniciar fórmula F-100 a libre demanda para lograr ganancia de peso acelerada y administrar sulfato ferroso oral a 6 mg/kg/día desde el día 1 de hospitalización.",
+        "C": "Iniciar fórmula F-75 (100 kcal/kg/día y 1 a 1.5 g/kg/día de proteína), suplementar con Vitamina A, Ácido Fólico y Zinc, y CONTRAINDICAR formalmente el sulfato ferroso durante esta fase inicial.",
+        "D": "Administrar fórmula láctea entera sin diluir adicionada con miel de maíz y suplementación con hierro elemental para corregir la anemia microcítica basal."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Fase_Estabilizacion_F75_Hierro_Contraindicado",
+      "gpc_algorithm_step": "En la fase de estabilización (días 1 a 7) de la desnutrición severa se usa F-75 (75 kcal/100 mL); la F-100 se reserva para la fase de rehabilitación. Se debe suplementar vitamina A, ácido fólico y zinc. El HIERRO está estrictamente CONTRAINDICADO en la fase de estabilización porque el hierro libre favorece la proliferación bacteriana y sepsis fulminante; se introduce solo cuando el niño ya come bien y gana peso.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El médico novato ve anemia en el laboratorio y comete el gravísimo error de prescribir hierro oral o intravenoso en la fase aguda del desnutrido grave, desatando bacteriemia y muerte."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué está contraindicado el hierro en la fase de estabilización de la desnutrición aguda grave?",
+        "back": "Porque el hierro libre en plasma promueve la proliferación bacteriana patógena y precipita sepsis bacteriana fulminante. Solo se prescribe en fase de rehabilitación/ganancia ponderal.",
+        "tags": "D07 EDA Desnutricion_Grave Hierro_Contraindicado F75 GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Lactante masculino de 18 meses de edad, previamente sano y con esquema de vacunación al corriente, acude a urgencias pediátricas por presentar cuadro de 36 horas con fiebre de 39.5 °C, dolor cólico abdominal intenso manifestado por llanto y pujo, seguido de evacuaciones mucosanguinolentas escasas y frecuentes (más de 10 al día), con pujo y tenesmo rectal evidente. El coprológico reporta: moco ++, eritrocitos incontables y más de 50 leucocitos por campo con 90% de polimorfonucleares. El coprocultivo preliminar orienta a bacilos gramnegativos inmóviles, no fermentadores de lactosa (sospecha de Shigella flexneri).",
+      "question_text": "De acuerdo con la GPC IMSS-156-08 y la NOM-031-SSA2-1999, ¿cuál es el tratamiento antimicrobiano empírico de primera línea recomendado para la disentería bacilar en pediatría?",
+      "options": {
+        "A": "Azitromicina oral (10 a 12 mg/kg/día el día 1, seguido de 5 mg/kg/día durante 4 días) o Ciprofloxacino oral como alternativa de segunda línea en casos resistentes.",
+        "B": "Trimetoprima con Sulfametoxazol oral a 8 mg/kg/día durante 7 días como fármaco de primera línea de elección empírica.",
+        "C": "Ampicilina oral a 100 mg/kg/día durante 10 días combinada con loperamida para reducir el pujo rectal.",
+        "D": "Metronidazol oral a 40 mg/kg/día durante 10 días asociado a neomicina con caolín-pectina cada 8 horas."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tratamiento_Disenteria_Shigella",
+      "gpc_algorithm_step": "En diarrea con sangre y moco (disentería) acompañada de fiebre alta y leucocitos fecales abundantes, la causa bacteriana más común es Shigella spp. Debido a las tasas de resistencia a TMP/SMX y ampicilina superiores al 70-80% en México, la GPC y OMS indican como primera línea Azitromicina oral (o Ciprofloxacino oral como alternativa).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Resistencia Antimicrobiana Antigua",
+        "explanation": "Elegir Trimetoprima con sulfametoxazol o Ampicilina basándose en textos desactualizados, ignorando que las guías mexicanas actuales indican Azitromicina o fluorocinolonas por resistencia masiva."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento antimicrobiano de primera línea en disentería por Shigella en niños según GPC?",
+        "back": "Azitromicina oral (10-12 mg/kg día 1, luego 5 mg/kg/día por 4 días) o Ciprofloxacino oral (15 mg/kg c/12h por 3 días). TMP/SMX y Ampicilina tienen alta resistencia en México.",
+        "tags": "D07 EDA Disenteria Shigella Azitromicina GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Preescolar femenina de 3 años y medio de edad, previamente sana, que hace 3 días asistió a una reunión familiar donde consumió carne de hamburguesa poco cocida. Inicia con dolor abdominal cólico intenso y diarrea acuosa que a las 48 horas se transforma en evacuaciones francamente sanguinolentas ('en agua de lavar carne'), sin fiebre (temperatura axilar 36.6 °C) y sin datos de deshidratación grave. La madre solicita la prescripción de antibióticos y antidiarreicos para detener el sangrado. El médico sospecha infección por Escherichia coli enterohemorrágica (STEC / O157:H7).",
+      "question_text": "¿Cuál es la conducta médica obligatoria normada y cuál es la justificación estricta para PROHIBIR de forma absoluta los antibióticos y los fármacos antimotilidad en este escenario?",
+      "options": {
+        "A": "Prescribir Ceftriaxona intravenosa inmediata a 100 mg/kg/día para esterilizar la luz colónica y evitar la invasión a la vena porta y bacteriemia secundaria.",
+        "B": "Manejo conservador con hidratación y vigilancia hematológica/renal ambulatoria o intrahospitalaria; los antibióticos y antimotilidad inducen lisis bacteriana masiva con liberación sistémica de toxina Shiga (Stx), multiplicando drásticamente el riesgo de desarrollar Síndrome Urémico Hemolítico (SUH).",
+        "C": "Administrar ciprofloxacino combinado con loperamida a dosis plenas para detener la hemorragia de la mucosa ileal y acortar la estancia hospitalaria.",
+        "D": "Indicar colonoscopia urgente con infusión tópica de vancomicina y carbón activado para quelar la toxina directamente en la superficie epitelial."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Contraindicacion_Antibioticos_STEC_SUH",
+      "gpc_algorithm_step": "En sospecha de E. coli enterohemorrágica / productora de toxina Shiga (diarrea con sangre afebril tras consumo de carne molida), los antibióticos (especialmente betalactámicos y fluoroquinolonas) y los antimotilidad están ABSOLUTAMENTE CONTRAINDICADOS, ya que inducen la expresión de fagos líticos y liberación masiva de toxina Shiga tipo 1 y 2, desencadenando Síndrome Urémico Hemolítico (anemia hemolítica microangiopática, trombocitopenia y lesión renal aguda).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La tentación médica universal de administrar antibióticos ante heces con sangre abundante. En STEC, dar antibióticos quintuplica el riesgo de inducir SUH potencialmente mortal."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué están prohibidos los antibióticos y antimotilidad en sospecha de E. coli enterohemorrágica (STEC)?",
+        "back": "Porque la lisis bacteriana por antibióticos aumenta la liberación y absorción sistémica de toxina Shiga (Stx), multiplicando el riesgo de Síndrome Urémico Hemolítico (SUH).",
+        "tags": "D07 EDA STEC SUH Antibioticos_Contraindicados GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Lactante masculino de 6 meses de edad, eutrófico y previamente sano, con cuadro de infección respiratoria alta y deposiciones diarreicas líquidas leves autolimitadas hace 4 días. El día de hoy inicia de forma súbita con episodios paroxísticos de llanto intenso e inconsolable, encogimiento y flexión de las piernas sobre el abdomen, diaforesis y palidez cutánea marcada que duran 10 a 15 minutos, alternando con periodos de somnolencia y calma total. Dos horas después presenta vómito de contenido gastroalimentario y evacua heces con moco y sangre de aspecto en 'jalea de grosella'. A la palpación abdominal en periodo intercrisis se percibe una masa alargada cilíndrica en forma de 'salchicha' en hipocondrio derecho y sensación de fosa ilíaca derecha vacía (signo de Dance).",
+      "question_text": "¿Cuál es el diagnóstico clínico más probable y cuál es el estudio de imagen de primera elección para confirmar el diagnóstico según la GPC mexicana?",
+      "options": {
+        "A": "Divertículo de Meckel sangrante; Gammagrafía con tecnecio-99m pertecnetato de mucosa gástrica ectópica.",
+        "B": "Apendicitis aguda complicada; Tomografía computarizada de abdomen contrastada con visualización de apendicolito calcificado.",
+        "C": "Vólvulo de intestino medio por malrotación intestinal; Serie esofagogastroduodenal con signo del 'sacacorchos' o tirabuzón.",
+        "D": "Invaginación intestinal (intususcepción); Ultrasonido abdominal (con hallazgo clásico de imagen en 'diana' o 'pseudoriñón')."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Diagnostico_Invaginacion_Intestinal_USG",
+      "gpc_algorithm_step": "La causa más frecuente de obstrucción intestinal en lactantes de 3 a 12 meses es la invaginación intestinal (asociada frecuentemente a hiperplasia de placas de Peyer tras enteritis viral). Tríada clásica: dolor abdominal cólico paroxístico, masa palpable en morcilla/salchicha y heces en jalea de grosella. Estudio de elección: Ultrasonido abdominal (sensibilidad y especificidad >98%, signos de diana/tiro al blanco o pseudoriñón).",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir la diarrea sanguinolenta con disentería infecciosa bacteriana ordinaria, ignorando los accesos de dolor con encogimiento de piernas, la masa palpable y el aspecto clásico en 'jalea de grosella'."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estudio de imagen de elección y hallazgo ecográfico en invaginación intestinal?",
+        "back": "Ultrasonido abdominal. Hallazgo: imagen en 'diana' o 'tiro al blanco' (corte transversal) y 'pseudoriñón' (corte longitudinal).",
+        "tags": "D07 EDA Invaginacion_Intestinal Ultrasonido GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Lactante femenino de 8 meses de edad, traída en ambulancia a urgencias pediátricas en estado posictal inmediato tras presentar una crisis convulsiva tónico-clónica generalizada de 5 minutos de duración. La madre refiere que la niña llevaba 3 días con diarrea acuosa profusa y que, por recomendación comunitaria, suspendió por completo la leche y le administró únicamente té de manzanilla con agua hervida y agua embotellada sin electrolitos en volúmenes superiores a 1,800 mL al día. Signos vitales: FC 130 lpm, FR 28 rpm, afebril (36.7 °C), sin choque. Laboratorio urgente tomado a su ingreso reporta: Sodio sérico 114 mEq/L, Potasio 3.9 mEq/L, Cloro 84 mEq/L, Glucosa 92 mg/dL, Calcio sérico 9.4 mg/dL.",
+      "question_text": "Ante la confirmación de una hiponatremia severa sintomática con neurotoxicidad aguda refractaria, ¿cuál es el tratamiento farmacológico intravenoso de emergencia normado por la GPC para yugular el riesgo de daño encefálico?",
+      "options": {
+        "A": "Administrar bolo de fenitoína intravenosa a 20 mg/kg como monoterapia antiepiléptica, manteniendo restricción hídrica estricta sin aporte de electrolitos parenterales.",
+        "B": "Infundir Solución Salina al 0.9% en bolo a 50 mL/kg en 30 minutos para elevar de forma inmediata el sodio sérico a 135 mEq/L en menos de 1 hora.",
+        "C": "Administrar Solución Salina al 3% (hipertónica) a dosis de 3 a 5 mL/kg en infusión intravenosa para 10 a 15 minutos, con la meta de elevar rápidamente el sodio sérico entre 3 y 5 mEq/L y cesar la actividad convulsiva.",
+        "D": "Infundir Solución Glucosada al 5% con furosemida a 1 mg/kg para estimular natriuresis controlada y proteger la corteza renal de daño osmolar."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Manejo_Hiponatremia_Severa_Salina_3%",
+      "gpc_algorithm_step": "En hiponatremia sintomática severa (Na <120 mEq/L con convulsiones o alteración del estado de alerta), la indicación urgente es Solución Salina al 3% a 3-5 mL/kg IV en 10-15 minutos (puede repetirse si persisten convulsiones). El objetivo agudo es elevar el sodio sérico 3 a 5 mEq/L para reducir el edema cerebral, limitando la corrección total a no más de 8-10 mEq/L en las primeras 24 horas para prevenir la mielinolisis central pontina.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Manejo Anticonvulsivante Erróneo",
+        "explanation": "El evaluado intenta tratar la convulsión exclusivamente con fármacos antiepilépticos convencionales sin corregir la causa molecular que perpetúa el edema cerebral y la despolarización neuronal: la hiponatremia severa."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de rescate inmediato en un niño con convulsiones secundarias a hiponatremia severa (<120 mEq/L)?",
+        "back": "Solución Salina al 3% a 3-5 mL/kg IV en 10-15 minutos. Eleva el sodio sérico 3-5 mEq/L de forma aguda, resolviendo el edema cerebral y las crisis.",
+        "tags": "D07 EDA Hiponatremia Salina_3% Convulsiones GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "En la consulta del niño sano de una Unidad de Medicina Familiar, una madre acude con su hijo de 16 semanas de vida (4 meses cumplidos) quien no cuenta con ninguna vacuna previa por desabasto en su localidad de origen. La madre solicita que se le aplique la primera dosis de la vacuna contra rotavirus, ya que en su guardería le advirtieron del riesgo de contraer gastroenteritis aguda deshidratante.",
+      "question_text": "De acuerdo con los lineamientos oficiales de la Cartilla Nacional de Vacunación de México y el Manual de Vacunación del CENSIA, ¿cuál es la conducta correcta respecto a la aplicación de la primera dosis de la vacuna contra rotavirus y cuál es la razón de esta restricción temporal estricta?",
+      "options": {
+        "A": "Debe indicarse la aplicación de la vacuna contra rotavirus pero de forma intramuscular profunda para neutralizar el riesgo gastrointestinal local.",
+        "B": "Debe aplicarse de inmediato la primera dosis sin ningún inconveniente; la primera dosis puede administrarse con seguridad hasta los 8 meses de edad cumplidos.",
+        "C": "Debe aplicarse la primera dosis pero duplicando el volumen oral para vencer la interferencia de los anticuerpos maternos circulantes.",
+        "D": "NO debe aplicarse la primera dosis de vacuna contra rotavirus; la edad máxima reglamentaria para la primera dosis es antes de las 15 semanas (14 semanas y 6 días), debido a que su administración posterior incrementa de forma estadísticamente significativa el riesgo de invaginación intestinal."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Edad_Limite_Vacuna_Rotavirus",
+      "gpc_algorithm_step": "El esquema oficial mexicano establece vacuna pentavalente (RV5 a los 2, 4 y 6 meses) o monovalente (RV1 a los 2 y 4 meses). Límite estricto normado: 1ª dosis antes de las 15 semanas (máximo 14 semanas y 6 días); última dosis antes de los 8 meses (máximo 7 meses y 29 días). La razón epidemiológica es el incremento comprobado de invaginación intestinal al aplicar la primera dosis a mayor edad.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El evaluado conoce la vacuna pero desconoce el límite normativo estricto de la primera dosis (14 semanas y 6 días), administrando una vacuna contraindicada por edad que expone al lactante a invaginación intestinal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las edades límite normadas en México para la vacuna contra Rotavirus?",
+        "back": "Primera dosis: máximo antes de las 15 semanas (14 semanas 6 días). Última dosis: máximo antes de los 8 meses (7 meses 29 días). Razón del límite: riesgo de invaginación intestinal.",
+        "tags": "D07 EDA Rotavirus Vacuna Limite_Edad NOM_031"
+      }
+    },
+    {
+      "id": "d07_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5 (Medical English): Severe Pediatric Dehydration, Resuscitation and Algorithmic Discharge",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A 10-month-old male infant (pre-illness weight recorded 5 days ago: 9.600 kg; current emergency triage weight: 8.400 kg, documenting a 12.5% acute body weight loss) is rushed to the pediatric emergency department with a 4-day history of profuse watery diarrhea (10 to 12 voluminous non-bloody stools daily) and repeated postprandial vomiting. Physical examination reveals: heart rate 188 bpm, respiratory rate 44 bpm (deep and rapid acidotic breathing), blood pressure 64/38 mmHg (mean arterial pressure 46 mmHg). The infant is stuporous and lethargic, only moaning to noxious stimuli. His eyes are deeply sunken with open conjunctivae, anterior fontanelle is severely depressed, oral mucous membranes are parched without saliva, crying is completely tearless, and he is unable to drink liquids. Peripheral radial and pedal pulses are faint and thready, distal extremities are cold and mottled, capillary refill time is 4.5 seconds, and an abdominal skin pinch retracts in more than 3 seconds.",
+      "question_text": "According to the Mexican Official Standard NOM-031-SSA2-1999 and the Mexican Clinical Practice Guideline GPC IMSS-156-08, what is the definitive clinical classification of dehydration and the mandated immediate intervention?",
+      "options": {
+        "A": "Severe dehydration with hypovolemic shock; establish immediate peripheral or intraosseous vascular access and initiate intravenous Plan C resuscitation using Ringer's lactate (Hartmann solution) or 0.9% normal saline.",
+        "B": "Moderate dehydration (some dehydration); insert a nasogastric tube to administer oral rehydration salts under Plan B at 100 mL/kg over 4 hours because the oral route is impaired.",
+        "C": "Mild dehydration without circulatory compromise; prescribe Plan A ambulatory rehydration at home with 75 mL of oral rehydration solution after each loose stool and age-appropriate diet.",
+        "D": "Hypernatremic dehydration without hypovolemia; admit to the pediatric ward for slow intravenous hydration over 72 hours using hypotonic dextrose without sodium."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Plan_C_Classification_English",
+      "gpc_algorithm_step": "Clinical diagnosis of 'Severe Dehydration with Hypovolemic Shock' based on lethargy/stupor, thready/absent peripheral pulses, delayed capillary refill (>3 s), hypotension, and prolonged skin pinch (>2 s). Mandated immediate intervention: Plan C intravenous resuscitation with Ringer's lactate or 0.9% normal saline.",
+      "distractor_trap": {
+        "trap_type": "Premature Closure (Anchoring)",
+        "explanation": "Downplaying hypovolemic shock indicators (thready pulses, delayed CRT of 4.5s, hypotension) and erroneously attempting enteral rehydration (Plan B) via nasogastric tube in a comatose infant at high risk for fatal pulmonary aspiration."
+      },
+      "anki_flashcard": {
+        "front": "What are the core clinical criteria defining Severe Dehydration with Shock (Plan C) in pediatric patients?",
+        "back": "Lethargy/unconsciousness, deeply sunken eyes, inability to drink, thready/absent peripheral pulses, capillary refill time > 3 seconds, hypotension, and skin pinch > 2 seconds. Management: IV Plan C.",
+        "tags": "D07 EDA Dehydration Plan_C Shock English GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5 (Medical English): Severe Pediatric Dehydration, Resuscitation and Algorithmic Discharge",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "An intraosseous line is rapidly secured in the proximal tibia of the 10-month-old infant (weight: 8.400 kg) after peripheral venous access failed within the first 60 seconds. The clinical team prepares the infusion system to deliver intravenous Plan C fluid resuscitation in strict accordance with the Mexican Clinical Practice Guideline GPC IMSS-156-08 and NOM-031 guidelines.",
+      "question_text": "What is the exact volume distribution and infusion timeline for the 3-hour intravenous Plan C protocol in this patient using Hartmann solution (Ringer's lactate)?",
+      "options": {
+        "A": "Total volume of 100 mL/kg (840 mL) delivered over 6 hours: 1st hour: 30 mL/kg (252 mL); remaining 5 hours: 70 mL/kg (588 mL).",
+        "B": "Total volume of 100 mL/kg (840 mL) delivered over 3 hours: 1st hour: 50 mL/kg (420 mL); 2nd hour: 25 mL/kg (210 mL); 3rd hour: 25 mL/kg (210 mL).",
+        "C": "Rapid single uncalibrated bolus of 100 mL/kg (840 mL) pushed over 15 minutes, followed by 12 hours of total fluid restriction.",
+        "D": "Total volume of 60 mL/kg (504 mL) over 3 hours divided into three equal hourly infusions of 20 mL/kg using 5% dextrose in 0.2% sodium chloride."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Plan_C_Infusion_Schedule_English",
+      "gpc_algorithm_step": "Under NOM-031 and GPC IMSS-156-08 standard Plan C protocol: 100 mL/kg total over 3 hours divided into 50 mL/kg in the first hour, 25 mL/kg in the second hour, and 25 mL/kg in the third hour. Reassessment of pulse, perfusion, and sensorium is required at the end of each hour.",
+      "distractor_trap": {
+        "trap_type": "The American Guideline Trap",
+        "explanation": "Confusing the standardized Mexican NOM-031 3-hour distribution (50-25-25 mL/kg) with international 6-hour infant schedules or non-standard maintenance protocols like Holliday-Segar."
+      },
+      "anki_flashcard": {
+        "front": "What is the volume and time schedule for pediatric intravenous Plan C according to NOM-031 / Mexican GPC?",
+        "back": "100 mL/kg of Ringer's lactate (Hartmann) or 0.9% normal saline over 3 hours:\n• 1st hour: 50 mL/kg\n• 2nd hour: 25 mL/kg\n• 3rd hour: 25 mL/kg",
+        "tags": "D07 EDA Dehydration Plan_C Schedule English GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5 (Medical English): Severe Pediatric Dehydration, Resuscitation and Algorithmic Discharge",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "At the completion of the 1st hour of Plan C (420 mL of Hartmann solution infused), the infant's heart rate improves to 142 bpm and blood pressure rises to 82/50 mmHg. Urgent admission laboratory results are reported: Arterial blood gas: pH 7.22, pCO2 28 mmHg, pO2 88 mmHg, HCO3 11.0 mEq/L, Base Excess -14.8 mEq/L, Lactate 3.6 mmol/L. Serum chemistry: Sodium 136 mEq/L, Potassium 2.9 mEq/L, Chloride 108 mEq/L, Creatinine 0.85 mg/dL, Blood Urea Nitrogen 24 mg/dL. The nursing staff notes that the infant has produced zero urine output since arrival (anuria of 70 minutes). A junior resident suggests immediately pushing a sodium bicarbonate bolus to treat metabolic acidosis and adding 40 mEq/L of potassium chloride to the running IV crystalloid bag to correct hypokalemia.",
+      "question_text": "In accordance with pediatric emergency principles and GPC IMSS-156-08 recommendations, what is the mandatory medical decision regarding potassium supplementation and sodium bicarbonate at this stage?",
+      "options": {
+        "A": "Discontinue crystalloid resuscitation completely and perform immediate placement of a peritoneal dialysis catheter due to intrinsic acute tubular necrosis with anuria.",
+        "B": "Immediately administer an intravenous bolus of 8.4% sodium bicarbonate at 2 mEq/kg and add 40 mEq/L of potassium chloride to the IV bag despite anuria to avoid hypokalemic ventricular arrhythmias.",
+        "C": "Continue the scheduled 2nd hour of Plan C with Hartmann solution; routine sodium bicarbonate is contraindicated because acidosis resolves with volume expansion, and potassium MUST NOT be added until adequate spontaneous urinary output (>1 mL/kg/h) is clinically documented.",
+        "D": "Switch IV fluid to 10% dextrose with free water without electrolytes to stimulate osmotic diuresis before continuing with sodium-containing fluids."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Potassium_Bicarbonate_Safety_English",
+      "gpc_algorithm_step": "In severe hypovolemic dehydration, metabolic acidosis is primarily driven by intestinal bicarbonate loss and tissue hypoperfusion (lactic acidosis), resolving with volume expansion; bicarbonate therapy is contraindicated. Potassium administration is strictly contraindicated during anuria/oliguria due to the high risk of fatal hyperkalemic cardiac arrest.",
+      "distractor_trap": {
+        "trap_type": "Laboratory Noise",
+        "explanation": "Overreacting to a laboratory potassium of 2.9 mEq/L and administering IV potassium to an anuric patient with acute prerenal azotemia, causing lethal iatrogenic hyperkalemia and ventricular fibrillation."
+      },
+      "anki_flashcard": {
+        "front": "When can potassium chloride be added to intravenous fluids in a rehydrated pediatric patient?",
+        "back": "Only after documenting adequate spontaneous urinary output (>1 mL/kg/h). Potassium infusion during anuria/oliguria carries a fatal risk of hyperkalemic cardiac arrest.",
+        "tags": "D07 EDA Dehydration Potassium Anuria English GPC"
+      }
+    },
+    {
+      "id": "d07_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5 (Medical English): Severe Pediatric Dehydration, Resuscitation and Algorithmic Discharge",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The infant successfully completes the 3-hour Plan C resuscitation (total 840 mL infused) followed by 4 hours of Plan B oral rehydration consolidation. The patient is now interactive, alert, smiling, oral mucous membranes are moist, tears are present with crying, skin turgor is instantaneous, capillary refill time is 1.5 seconds, and he has produced 35 mL of clear urine (urinary output 2.5 mL/kg/h). He greedily tolerates oral fluids and breast milk without vomiting. The attending physician prepares the patient for hospital discharge under home Plan A management.",
+      "question_text": "Under Mexican Official Standard NOM-031-SSA2-1999 and WHO guidelines, which of the following represents the correct home management bundle, including essential micronutrient supplementation and strict counter-indications?",
+      "options": {
+        "A": "Prescribe daily multivitamin drops with high-dose elemental iron starting immediately, discontinue oral rehydration solution at home, and advise fasting until stools are solid.",
+        "B": "Prescribe prophylactic oral trimethoprim-sulfamethoxazole for 5 days, discontinue breastfeeding for 72 hours in favor of soy-based lactose-free formula, and administer bismuth subsalicylate.",
+        "C": "Prescribe oral loperamide at 0.1 mg/kg every 8 hours to stop residual watery stools, withhold all milk feeds for 48 hours, and advise the mother to offer clear commercial soft drinks.",
+        "D": "Prescribe oral elemental Zinc supplementation (10 mg/day for <6 months, 20 mg/day for ≥6 months) for 10 to 14 days, continue regular feeding including uninterrupted breastfeeding, administer 75 mL of oral rehydration solution after each loose stool, and strictly contraindicate antimotility agents (loperamide), antispasmodics, and routine antibiotics."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Discharge_Plan_A_Zinc_English",
+      "gpc_algorithm_step": "Official Plan A discharge mandates the ABC triad: Alimentación continua (uninterrupted feeding, continued breastfeeding), Bebidas abundantes (oral rehydration salts: 75 mL post-stool in <1 year, 150 mL in >1 year), and Consulta oportuna (clear danger signs). Mandatory co-therapy: Zinc for 10-14 days. Formal contraindications: antimotility agents (loperamide), antispasmodics, and unindicated antibiotics.",
+      "distractor_trap": {
+        "trap_type": "The American Guideline Trap / Obsolete Practices",
+        "explanation": "Selecting obsolete or harmful practices such as formula withholding/dilution, breastfeeding cessation, antimotility agents (loperamide), or unindicated antibiotic prophylaxis, all prohibited by NOM-031."
+      },
+      "anki_flashcard": {
+        "front": "What are the key elements of Plan A discharge for pediatric acute diarrhea under NOM-031?",
+        "back": "Continued feeding + breastfeeding; Oral Rehydration Salts after each stool (75 mL in <1 yr, 150 mL in ≥1 yr); Zinc supplementation (10 mg <6 mo, 20 mg ≥6 mo for 10-14 days); and strictly NO antimotility drugs or antispasmodics.",
+        "tags": "D07 EDA Dehydration Plan_A Zinc NOM_031 English GPC"
+      }
+    }
+  ]
+}

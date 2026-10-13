@@ -3,6 +3,9 @@
 // Sin reactivos, ni flashcards, ni resúmenes inventados.
 // Queda listo para recibir el material real que proporciones.
 
+import d01Pretest from "../data/pretests/D01_pretest.json";
+import { getBundledSimulator } from "../data/simulators/index.js";
+
 export const DEFAULT_TOPIC = {
   id: "D01_MI_Diabetes_Mellitus_CAD_EHH",
   code: "D01",
@@ -14,16 +17,13 @@ export const DEFAULT_TOPIC = {
   drRePdfs: [
     { name: "ENDOCRINO_ocred.pdf", label: "📑 Flashcards Endocrino" }
   ],
-  summary: "Tema D01 correspondiente al temario de pretemporada. Contenido oficial pendiente de ser cargado.",
+  summary: "Tema D01 correspondiente al temario de pretemporada. Diabetes Mellitus Tipo 2, Cetoacidosis Diabética y Estado Hiperosmolar Hiperglicémico.",
   resources: [],
   flashcards: [],
-  pretest: {
-    duration_minutes: 20,
-    questions: []
-  },
-  simulation: {
-    duration_minutes: 20,
-    seconds_per_question: 60,
+  pretest: d01Pretest,
+  simulation: getBundledSimulator("D01") || {
+    duration_minutes: 30,
+    seconds_per_question: 72,
     questions: []
   }
 };

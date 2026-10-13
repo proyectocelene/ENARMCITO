@@ -1,0 +1,392 @@
+{
+  "topic_code": "D18",
+  "title": "Pre-Test Psicométrico: Politraumatizado (ATLS: ABCDE) y Quemaduras",
+  "normativa_origen": "Manual ATLS 10ª Edición / GPC Atención Integral del Paciente Quemado CENETEC",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d18_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "Manual ATLS 10ª Edición",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Hombre de 28 años, motociclista sin casco, es impactado a alta velocidad por un vehículo de carga. Es trasladado al centro de trauma con collarín cervical rígido colocado por los paramédicos. A la recepción en la sala de choque, durante la evaluación primaria (A - Vía aérea con control cervical): el paciente emite ruidos respiratorios estertorosos y gorgoteo, observándose abundante sangre fresca y piezas dentales fracturadas en la cavidad oral. Al estímulo doloroso presenta apertura ocular (2 puntos), emite quejidos incomprensibles (2 puntos) y localiza con retirada flexora (4 puntos), sumando una puntuación en la Escala de Coma de Glasgow de 8 puntos. Signos vitales: TA 105/70 mmHg, FC 118 lpm, FR 28 rpm, SatO2 88% con mascarilla simple.",
+      "question_text": "De acuerdo con el algoritmo ABCDE de la 10ª Edición del Manual ATLS, ¿cuál es la conducta inmediata de primera línea para el aseguramiento de la vía aérea en este paciente?",
+      "options": {
+        "A": "Realizar cricotiroidotomía quirúrgica de emergencia como primer procedimiento ante la presencia de traumatismo dental y sangrado oral activo.",
+        "B": "Retirar el collarín cervical e hiperextender el cuello con maniobra de inclinación de cabeza para facilitar la laringoscopia directa convencional.",
+        "C": "Intubación orotraqueal mediante técnica de secuencia rápida manteniendo estabilización manual bimanual en línea de la columna cervical sin tracción.",
+        "D": "Colocación de mascarilla laríngea de segunda generación y vigilancia estrecha en sala de choque sin proceder a intubación endotraqueal."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Escala de Coma de Glasgow ≤ 8 puntos e incapacidad para proteger la vía aérea con hipoxemia: indicación mandataria de vía aérea definitiva mediante intubación orotraqueal con estabilización bimanual en línea de columna cervical.",
+      "justificacion_gpc": "El Manual ATLS (10ª Edición) establece de forma estricta que una puntuación en la Escala de Coma de Glasgow ≤ 8 puntos, la presencia de compromiso mecánico de la vía aérea o la insuficiencia respiratoria severa constituyen indicaciones mandatorias de vía aérea definitiva. La técnica de elección de primera línea es la intubación orotraqueal mediante secuencia rápida, abriendo el collarín y manteniendo estabilización bimanual en línea de la columna cervical por un segundo operador para evitar movimientos de flexión, extensión o rotación cervical durante la laringoscopia.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Comorbilidad",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón Quirúrgico Prematuro]: La cricotiroidotomía quirúrgica es una vía aérea de rescate reservada para la situación de 'no se puede intubar, no se puede ventilar' o ante destrucción maxilofacial masiva que imposibilite la visualización de la glotis, no el abordaje primario.",
+        "B": "[Distractor Iatrogénico por Lesión Medular]: La hiperextensión cervical está absolutamente contraindicada en traumatismo craneoencefálico o politrauma cerrado por el riesgo inminente de transección o lesión medular secundaria en una fractura cervical oculta.",
+        "D": "[Distractor de Dispositivo Supraglótico Inadecuado]: Los dispositivos supraglóticos (mascarilla laríngea) no constituyen una vía aérea definitiva ni ofrecen protección hermética contra la aspiración de sangre o contenido gástrico en un paciente con Glasgow de 8 puntos."
+      }
+    },
+    {
+      "id": "d18_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "Manual ATLS 10ª Edición",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "En el paciente del caso anterior, se logra intubación orotraqueal atraumática con tubo 8.0 mm fijado a 22 cm a nivel de la comisura labial, insuflándose el manguito. Durante la reevaluación inmediata del componente B (Ventilación y Oxigenación) en la ventilación mecánica asistida, el paciente presenta deterioro hemodinámico súbito: la SatO2 desciende rápidamente a 74%, la TA cae a 68/40 mmHg y la FC se eleva a 144 lpm con ritmo sinusal. A la exploración torácica se constata ausencia total de ruidos respiratorios en el hemitórax derecho, timpanismo marcado a la percusión ipsilateral, desviación de la tráquea hacia la izquierda e ingurgitación de las venas yugulares cervicales.",
+      "question_text": "Con base en las prioridades de reanimación del Manual ATLS (10ª Edición), ¿cuál es la conducta diagnóstica y terapéutica inmediata que debe ejecutarse?",
+      "options": {
+        "A": "Solicitar radiografía portátil de tórax urgente en proyección anteroposterior para confirmar la presencia de neumotórax antes de intervenir.",
+        "B": "Descompresión inmediata con aguja gruesa (catéter 14-16G) en el 5º espacio intercostal línea axilar anterior derecha, seguida inmediatamente de toracostomía con tubo pleural.",
+        "C": "Reposicionar el tubo orotraqueal retirándolo 3 cm bajo la sospecha de intubación selectiva al bronquio principal izquierdo.",
+        "D": "Realizar punción pericárdica subxifoidea de urgencia sospechando taponamiento cardíaco agudo por la tríada de Beck."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Neumotórax a tensión: diagnóstico 100% clínico (ausencia de murmullo unilateral, timpanismo, ingurgitación yugular, desviación traqueal contralateral y colapso circulatorio). Prohibido retrasar el tratamiento con estudios radiológicos.",
+      "justificacion_gpc": "El neumotórax a tensión es una emergencia médica cuyo diagnóstico es estrictamente clínico; el Manual ATLS (10ª Edición) prohíbe categóricamente solicitar radiografías de tórax ante este cuadro por el riesgo de paro cardiorrespiratorio inminente. El tratamiento inmediato de primera línea es la descompresión con aguja gruesa (catéter calibre 14 o 16G, preferentemente en el 5º espacio intercostal ligeramente por delante de la línea axilar media o en el 2º EIC línea medioclavicular), seguida inmediatamente de la colocación de un tubo pleural (28-32 Fr) conectado a sello de agua.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Retraso Letal]: Solicitar o esperar una placa de tórax en un neumotórax a tensión con colapso hemodinámico conduce al colapso cardiovascular por abolición del retorno venoso y asistolia.",
+        "C": "[Distractor de Error Mecánico]: La intubación selectiva bronquial produce atelectasia del pulmón no ventilado con matidez o murmullo disminuido, pero nunca causa hipertensión intratorácica con timpanismo, ingurgitación yugular ni desviación traqueal.",
+        "D": "[Distractor de Espectro Hemodinámico]: Aunque el taponamiento cardíaco comparte hipotensión e ingurgitación yugular, los campos pulmonares ventilan simétricamente con sonoridad normal; el timpanismo ipsilateral descarta el taponamiento como causa primaria."
+      }
+    },
+    {
+      "id": "d18_q3",
+      "index": 3,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "Manual ATLS 10ª Edición / Ensayo CRASH-2",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Tras descomprimir y colocar el tubo torácico derecho en el paciente del CASO-1, se ausculta murmullo vesicular bilateral y la SatO2 sube al 94%. Al avanzar a C (Circulación y Control de Hemorragia), se observa palidez mucocutánea generalizada intensa, diaforesis fría y llenado capilar de 4 segundos. Signos vitales: TA 82/54 mmHg, FC 126 lpm, presión de pulso disminuida (28 mmHg). La gasometría arterial reporta: pH 7.21, pCO2 31 mmHg, HCO3 13 mEq/L, lactato 5.2 mmol/L y un déficit de base de -9 mEq/L. Han transcurrido exactamente 45 minutos desde el siniestro vial.",
+      "question_text": "De acuerdo con la clasificación del choque hemorrágico del Manual ATLS (10ª Edición), ¿en qué clase de choque se encuentra el paciente y cuál es la pauta correcta respecto a la administración de Ácido Tranexámico?",
+      "options": {
+        "A": "Choque Clase II (pérdida 15-30%); no amerita ácido tranexámico y debe reanimarse exclusivamente con 2 litros de cristaloides isotónicos.",
+        "B": "Choque Clase III (pérdida 30-40% del volumen, déficit de base -6 a -10 mEq/L); debe administrarse bolo de 1 g de ácido tranexámico IV en 10 minutos seguido de infusión de 1 g para 8 horas dentro de las primeras 3 horas del trauma.",
+        "C": "Choque Clase IV (pérdida > 40%); el ácido tranexámico está contraindicado por riesgo elevado de coagulación intravascular diseminada y trombosis coronaria.",
+        "D": "Choque neurogénico primario por traumatismo medular cervical; el manejo prioritario es infusión continua de norepinefrina omitiendo hemoderivados."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Choque hemorrágico Clase III (ATLS 10ª Ed): taquicardia > 120 lpm, hipotensión marcada, presión de pulso estrecha, déficit de base entre -6 y -10 mEq/L. El ácido tranexámico (esquema CRASH-2: 1 g bolo + 1 g infusión en 8 h) reduce mortalidad si se inicia antes de 3 horas.",
+      "justificacion_gpc": "La 10ª Edición de ATLS clasifica el choque hipovolémico hemorrágico en cuatro clases: Clase I (pérdida < 15%, déficit de base 0 a -2), Clase II (15-30%, déficit base -2 a -6), Clase III (30-40%, taquicardia > 120, hipotensión, déficit base -6 a -10 mEq/L) y Clase IV (> 40%, déficit base < -10). En trauma con hemorragia activa o riesgo de hemorragia masiva (Clase III o IV), la administración de Ácido Tranexámico (1 g IV en 10 min, seguido de infusión de 1 g para 8 horas) es mandataria y debe iniciarse dentro de las primeras 3 horas del trauma; administrado después de 3 horas aumenta la mortalidad por eventos trombóticos.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Subestimación de Severidad]: En la Clase II la presión arterial sistólica se mantiene normal; la presencia de hipotensión franca (82/54 mmHg) y déficit de base de -9 mEq/L define de forma inequívoca al choque Clase III.",
+        "C": "[Distractor Falso de Seguridad Farmacológica]: El ensayo CRASH-2 demostró reducción de la mortalidad por sangrado sin aumento de complicaciones trombóticas o CIV cuando el ácido tranexámico se administra dentro de las 3 horas del evento.",
+        "D": "[Distractor de Espectro Distributivo]: El choque neurogénico cursa característicamente con bradicardia relativa y extremidades calientes y vasodilatadas por pérdida del tono simpático, lo opuesto a la taquicardia y vasoconstricción periférica fría observadas aquí."
+      }
+    },
+    {
+      "id": "d18_q4",
+      "index": 4,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC Atención Integral del Paciente Quemado CENETEC / Manual ATLS 10ª Edición",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 35 años (peso corporal: 70 kg) es rescatado de una explosión por solventes en un espacio confinado y llega al área de urgencias 2 horas después del evento. A la exploración física: presenta quemaduras con flictenas rotas, dermis húmeda, rojo brillante y muy hiperalgésica en toda la superficie anterior del tórax y abdomen. En la totalidad circunferencial de ambos miembros superiores se aprecian lesiones blanquecinas, acartonadas, secas, de consistencia apergaminada e insensibles al pinchazo. En cabeza, cara y cuello se observa eritema cutáneo seco, muy doloroso y sin ampollas. Miembros inferiores y periné íntegros.",
+      "question_text": "Con base en la Regla de los Nueves de Wallace y la GPC CENETEC para el paciente quemado, ¿cuál es el porcentaje de Superficie Corporal Total Quemada (% SCTQ) computable para la reanimación hídrica y la clasificación de profundidad?",
+      "options": {
+        "A": "45% SCTQ: sumando 9% de cabeza/cuello, 18% de tronco anterior y 18% de ambos miembros superiores.",
+        "B": "36% SCTQ: 18% de 2º grado superficial en tórax y abdomen anterior + 18% de 3º grado en ambos miembros superiores circunferenciales (excluyendo el eritema de 1º grado de cabeza y cuello).",
+        "C": "27% SCTQ: considerando 18% de tórax anterior y 9% de un solo miembro superior por descartar lesiones profundas.",
+        "D": "54% SCTQ: computando tronco anterior y posterior completo con ambos brazos en su totalidad."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Regla de los Nueves: las quemaduras de primer grado (eritema epidérmico de cara/cuello) NO se incluyen en el cálculo del % SCTQ para fluidoterapia. Se computan tórax y abdomen anterior (9% + 9% = 18%) y ambos miembros superiores (9% + 9% = 18%), totalizando 36% SCTQ.",
+      "justificacion_gpc": "La GPC CENETEC y el Manual ATLS establecen que para el cálculo de la reanimación con líquidos únicamente se contabilizan las quemaduras de 2º grado (dérmicas superficiales o profundas) y 3º grado (espesor total); las quemaduras de 1º grado (eritematosas, epidérmicas) deben excluirse estrictamente del cálculo. Según la Regla de los Nueves de Wallace en el adulto: tórax anterior (9%) + abdomen anterior (9%) = 18%; miembro superior derecho (9%) + miembro superior izquierdo (9%) = 18%. El total computable es de 18% + 18% = 36% SCTQ.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Inclusión Errónea de 1º Grado]: Incluir el 9% de cabeza y cuello con quemadura epidérmica (1º grado) sobreestima el cálculo hídrico y predispone a edema tisular masivo y sobrecarga iatrogénica ('fluid creep').",
+        "C": "[Distractor por Subestimación Anatómica]: Olvidar computar la segunda extremidad superior conduce a una subestimación crítica del volumen de reanimación y falla renal prerrenal.",
+        "D": "[Distractor por Duplicación de Superficie]: El paciente solo tiene compromiso del segmento anterior del tronco, por lo que adjudicarle 36% al tórax y abdomen completo es un error grave de cálculo."
+      }
+    },
+    {
+      "id": "d18_q5",
+      "index": 5,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "Manual ATLS 10ª Edición / GPC CENETEC Paciente Quemado",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "En el paciente del CASO-2 (varón de 70 kg con 36% de SCTQ computable de 2º y 3º grado), el equipo médico programa la reposición hídrica intravenosa empleando la fórmula de Parkland actualizada por ATLS (2 mL de Ringer Lactato / Hartmann por kg de peso por % SCTQ). Se enfatiza que han transcurrido exactamente 2 horas desde el momento del accidente hasta el inicio formal de la fluidoterapia en urgencias.",
+      "question_text": "De acuerdo con el Manual ATLS (10ª Edición) y la GPC CENETEC, ¿cuál es el volumen total de solución cristaloide calculado para 24 horas y cuál debe ser el ritmo de infusión horario durante las próximas 6 horas?",
+      "options": {
+        "A": "Volumen total de 5,040 mL en 24 horas; la primera mitad (2,520 mL) debe infundirse en las siguientes 8 horas a partir del ingreso hospitalario (315 mL/hora).",
+        "B": "Volumen total de 5,040 mL en 24 horas; la primera mitad (2,520 mL) debe administrarse en las 6 horas restantes para completar las primeras 8 horas desde el momento del siniestro (420 mL/hora).",
+        "C": "Volumen total de 10,080 mL en 24 horas; administrando la mitad en las primeras 4 horas a una tasa de 1,260 mL/hora.",
+        "D": "Volumen total de 5,040 mL en 24 horas administrado en infusión continua homogénea a razón de 210 mL/hora durante las 24 horas."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Cronología de Parkland: el 50% del volumen debe completarse dentro de las primeras 8 horas DESDE EL MOMENTO DEL ACCIDENTE (no desde el ingreso). Si ya pasaron 2 horas, los 2,520 mL iniciales deben pasarse en las 6 horas restantes (2,520 / 6 = 420 mL/h).",
+      "justificacion_gpc": "La fórmula de Parkland / Baxter modificada por ATLS establece: Volumen = 2 mL × peso (kg) × % SCTQ (70 × 36 × 2 = 5,040 mL de Ringer Lactato en 24 horas). La regla de oro psicométrica es que el 50% de este volumen (2,520 mL) debe infundirse durante las primeras 8 horas contabilizadas a partir del momento exacto de la quemadura, NO desde la llegada a urgencias. Como transcurrieron 2 horas previas a la atención, el tiempo disponible para completar la primera mitad son 6 horas: 2,520 mL / 6 horas = 420 mL/hora. El 50% restante (2,520 mL) se infunde en las siguientes 16 horas (157.5 mL/hora).",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Error Cronológico Clásico]: Contabilizar las 8 horas a partir del ingreso al hospital en lugar del momento de la quemadura genera subreanimación crítica en las horas pico de permeabilidad capilar alterada.",
+        "C": "[Distractor por Fórmula Antigua Sobreestimada]: Utilizar 4 mL/kg/% SCTQ como cálculo basal general en quemaduras térmicas de adultos duplica innecesariamente los líquidos, generando edema pulmonar y síndrome compartimental intraabdominal.",
+        "D": "[Distractor de Infusión Plana]: La infusión homogénea en 24 horas ignora el pico máximo de fuga capilar que ocurre en las primeras 8 horas postquemadura, llevando a falla multiorgánica precoz."
+      }
+    },
+    {
+      "id": "d18_q6",
+      "index": 6,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC Atención Integral del Paciente Quemado CENETEC / Manual ATLS 10ª Edición",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A las 4 horas de haber iniciado la reanimación hídrica en el paciente del CASO-2, durante la evaluación seriada de los miembros superiores (que sufrieron quemaduras de espesor total circunferenciales), el médico observa que las manos se encuentran frías y cianóticas. A la palpación, el pulso radial es imperceptible y la señal con ultrasonido Doppler en la arteria radial es débil y monofásica. La consistencia muscular del antebrazo es leñosa y a la movilización pasiva de los dedos el paciente manifiesta dolor desproporcionado acompañado de parestesias distales progresivas.",
+      "question_text": "De acuerdo con la GPC CENETEC y el Manual ATLS, ¿cuál es el procedimiento quirúrgico de urgencia mandatario para salvaguardar la viabilidad de la extremidad?",
+      "options": {
+        "A": "Fasciotomía compartimental quirúrgica profunda formal en quirófano incidiendo epimisio y masa muscular bajo anestesia general.",
+        "B": "Escarotomía descompresiva longitudinal medial y lateral de urgencia a través del tejido quemado hasta alcanzar el plano del tejido celular subcutáneo viable no quemado a la cabecera del paciente.",
+        "C": "Incrementar la tasa de infusión de cristaloides en un 50% y colocar apósitos térmicos tibios en las manos para revertir el vasoespasmo hipotérmico.",
+        "D": "Infusión intravenosa urgente de vasodilatadores periféricos (alprostadil) e inicio de heparina no fraccionada a dosis anticoagulante."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Quemadura circunferencial de 3º grado con compromiso neurovascular isquémico: indicación inmediata de escarotomía descompresiva longitudinal medial y lateral incidiendo la escara correosa hasta el tejido subcutáneo no quemado (sin requerir anestesia general por ser tejido insensible).",
+      "justificacion_gpc": "La GPC CENETEC y el Manual ATLS indican que las quemaduras circunferenciales de 3º grado en extremidades provocan pérdida de elasticidad tisular (escara rígida) que, sumada al edema por reanimación, incrementa la presión tisular intersticial produciendo síndrome compartimental e isquemia distal. El tratamiento de urgencia de elección es la escarotomía descompresiva, realizada a la cabecera del paciente mediante incisiones longitudinales en las caras medial y lateral de la extremidad a través de la escara insensible hasta exponer el tejido celular subcutáneo viable y observar la separación de los bordes. La fasciotomía muscular profunda formal solo se reserva si la presión compartimental permanece > 30 mmHg tras una escarotomía adecuada o en trauma eléctrico.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón Invasivo Prematuro]: La fasciotomía muscular requiere quirófano y sección de la fascia muscular; en quemaduras térmicas la constricción primaria reside en la dermis coagulada (escara), por lo que la escarotomía es el primer procedimiento obligado.",
+        "C": "[Distractor Iatrogénico]: Incrementar líquidos empeora de forma catastrófica el edema intersticial compartimental y acelera la necrosis isquémica neuromuscular irreversible.",
+        "D": "[Distractor Farmacológico Ineficaz]: El origen del síndrome compartimental es mecánico-obstructivo extrínseco por la escara correosa inelástica; los vasodilatadores o anticoagulantes carecen de utilidad y retrasan la descompresión mecánica."
+      }
+    },
+    {
+      "id": "d18_q7",
+      "index": 7,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "GPC Atención Integral del Paciente Quemado CENETEC / Manual ATLS 10ª Edición",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 42 años ingresa a la unidad de choque tras sufrir quemaduras por flama de 2º y 3º grado que abarcan el 40% de la superficie corporal total, con un peso seco documentado de 60 kg. Se encuentra bajo aporte hídrico protocolizado con solución Ringer Lactato calculada por fórmula de Parkland. El equipo de guardia evalúa la respuesta hemodinámica para modular dinámicamente la velocidad de la bomba de infusión hora con hora y prevenir el edema visceral masivo.",
+      "question_text": "De acuerdo con las metas fisiológicas descritas en la GPC CENETEC y el Manual ATLS (10ª Edición), ¿cuál es el objetivo estándar de gasto urinario horario que debe mantenerse en este paciente adulto para titular el aporte de líquidos?",
+      "options": {
+        "A": "Gasto urinario de 0.1 a 0.2 mL/kg/hora (alrededor de 10 a 15 mL/hora en este paciente).",
+        "B": "Gasto urinario entre 0.5 mL/kg/hora (aproximadamente 30 a 50 mL/hora en adultos), ajustando la infusión un 20-30% hacia arriba o abajo según dicho parámetro.",
+        "C": "Gasto urinario supranormal de 1.0 a 2.0 mL/kg/hora (60 a 120 mL/hora) como meta mínima universal para todo paciente adulto.",
+        "D": "Gasto urinario no cuantificado, titulando la velocidad de infusión exclusivamente según las cifras de Presión Venosa Central (meta: 14 a 18 mmHg)."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Meta estándar de perfusión renal en paciente quemado adulto: 0.5 mL/kg/hora (30 a 50 mL/h). Metas de 1.0 a 2.0 mL/kg/hora están reservadas para niños o quemaduras eléctricas con hemoglobinuria/mioglobinuria.",
+      "justificacion_gpc": "La GPC CENETEC y el Manual ATLS señalan que el gasto urinario medido mediante sonda Foley horaria es el parámetro clínico más fidedigno y accesible para guiar la fluidoterapia en el paciente quemado. En adultos, la meta hemodinámica estricta es de 0.5 mL/kg/hora (equivalente a 30-50 mL/hora). Si la diuresis cae por debajo de 0.5 mL/kg/h se incrementa el aporte de cristaloides un 20-30%; si supera los 50 mL/h se reduce la velocidad de infusión en la misma proporción para evitar el fenómeno de 'fluid creep' y sus complicaciones (edema pulmonar, síndrome compartimental ocular y abdominal).",
+      "distractor_roles": {
+        "A": "Distractor_Espectro",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Hipoperfusión Crítica]: Un gasto de 0.1 a 0.2 mL/kg/h representa oliguria severa y refleja choque hipovolémico no compensado con necrosis tubular aguda inminente.",
+        "C": "[Distractor de Meta Pediátrica / Eléctrica]: La meta de 1.0 a 2.0 mL/kg/h (o 100 mL/h) es exclusiva para quemaduras eléctricas de alto voltaje con sospecha de mioglobinuria o pacientes pediátricos; mantenerla en un adulto con quemadura térmica ordinaria conduce a sobrecarga hídrica masiva.",
+        "D": "[Distractor de Parámetro Estático]: La PVC es sumamente imprecisa en el paciente quemado por las alteraciones de la distensibilidad toracoabdominal y fuga capilar, no recomendándose como guía primaria de reanimación."
+      }
+    },
+    {
+      "id": "d18_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "Manual ATLS 10ª Edición",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 38 años ingresa a la sala de reanimación tras un choque automovilístico frontal contra un muro de contención. A la valoración inicial de la circulación (C): facies pálida, diaforesis, TA 80/50 mmHg, FC 130 lpm, FR 24 rpm, SatO2 94%. El abdomen se encuentra ligeramente distendido, con equimosis por cinturón de seguridad y resistencia muscular involuntaria difusa. Tras la administración rápida de un bolo de 1,000 mL de solución Hartmann tibia, la TA persiste en 84/52 mmHg.",
+      "question_text": "De acuerdo con el algoritmo de evaluación y reanimación inicial del Manual ATLS (10ª Edición), ¿cuál es el estudio de imagen inicial de elección a la cabecera del paciente y qué cuatro ventanas acústicas anatómicas deben evaluarse?",
+      "options": {
+        "A": "Ultrasonido FAST (Evaluación Ecográfica Focalizada para Trauma), explorando saco pericárdico (subxifoidea), fosa hepatorrenal (Morison), fosa esplenorrenal y fondo de saco pélvico (suprapúbica).",
+        "B": "Tomografía axial computarizada abdominal contrastada trifásica de cráneo a pelvis en sala de radiología.",
+        "C": "Lavado peritoneal diagnóstico (LPD) con infusión inmediata de 1,000 mL de solución salina tibia como primer abordaje antes de cualquier ultrasonido.",
+        "D": "Serie radiográfica de abdomen en dos posiciones (proyección anteroposterior en decúbito y tangencial con rayo horizontal)."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Paciente politraumatizado hemodinámicamente inestable con abdomen doloroso: el ultrasonido FAST es el estudio inicial de elección a la cabecera del paciente; permite detectar hemoperitoneo o hemopericardio en segundos sin trasladar al paciente.",
+      "justificacion_gpc": "El Manual ATLS (10ª Edición) establece que en el paciente con traumatismo cerrado de abdomen con inestabilidad hemodinámica persistente o respuesta transitoria a líquidos, el estudio de imagen inicial de elección a la cabecera del paciente es el ultrasonido FAST (o e-FAST). Evalúa cuatro regiones anatómicas clave: 1) subxifoidea (pericardio), 2) cuadrante superior derecho (espacio hepatorrenal o de Morison), 3) cuadrante superior izquierdo (espacio esplenorrenal) y 4) región pélvica/suprapúbica (fondo de saco de Douglas o rectovesical). Si el FAST resulta positivo en este contexto de inestabilidad, la indicación inmediata es laparotomía exploradora de emergencia.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Traslado Mortal]: La tomografía contrastada es el estándar de oro en trauma abdominal pero está absolutamente contraindicada en pacientes inestables (la 'sala de tomografía es la sala de la muerte' si el paciente se descompensa fuera de choque).",
+        "C": "[Distractor Invasivo Rezagado]: El LPD es un procedimiento invasivo útil si el ultrasonido no está disponible o es inconcluso, pero fue desplazado como primer escalón diagnóstico por el ultrasonido FAST.",
+        "D": "[Distractor Inútil en Trauma]: Las radiografías simples de abdomen no detectan hemoperitoneo temprano con sensibilidad adecuada y retrasan la toma de decisiones quirúrgicas críticas."
+      }
+    },
+    {
+      "id": "d18_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "Manual ATLS 10ª Edición",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 26 años, conductora con cinturón de seguridad puesto, sufre colisión vehicular lateral. Al llegar a urgencias sus signos vitales son estables: TA 120/75 mmHg, FC 82 lpm, FR 16 rpm, SatO2 98% al aire ambiente, Glasgow 15 puntos. A la exploración física dirigida se detecta equimosis en hipocondrio izquierdo y dolor moderado a la palpación profunda en cuadrante superior izquierdo sin defensa peritoneal ni rebote. El rastreo ecográfico FAST inicial a la cabecera del paciente muestra una mínima lámina de líquido libre anecoico en el espacio esplenorrenal, manteniéndose en todo momento la estabilidad hemodinámica.",
+      "question_text": "Conforme al algoritmo de trauma abdominal cerrado del Manual ATLS (10ª Edición), ¿cuál es el estudio estándar de oro (Gold Standard) para caracterizar la lesión orgánica, graduar el daño anatómico y definir la viabilidad del manejo no operatorio?",
+      "options": {
+        "A": "Laparotomía exploradora de urgencia para empaquetamiento hemostático y esplenectomía de control de daños.",
+        "B": "Tomografía computarizada abdominopélvica contrastada con medio de contraste intravenoso.",
+        "C": "Resonancia magnética de abdomen y pelvis de alta resolución sin contraste por riesgo nefrotóxico.",
+        "D": "Ecografía abdominal seriada cada 2 horas en sala de observación omitiendo tomografía."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Trauma abdominal cerrado con estabilidad hemodinámica demostrada y sospecha de lesión visceral (FAST positivo o dolor localizado): la tomografía computarizada con contraste intravenoso es el estándar de oro mandatario para clasificar el grado anatómico de lesión y normar manejo no operatorio.",
+      "justificacion_gpc": "El Manual ATLS (10ª Edición) establece que la Tomografía Computarizada de abdomen y pelvis con contraste intravenoso es el estándar de oro (Gold Standard) para la evaluación de pacientes con traumatismo abdominal cerrado hemodinámicamente estables. Permite determinar con precisión milimétrica la presencia de lesiones de órganos sólidos (hígado, bazo, riñón), graduar la extensión de las laceraciones, evaluar el retroperitoneo (inaccesible al FAST) y detectar extravasación activa de contraste (blush arterial) susceptible de angioembolización, sustentando el manejo no operatorio exitoso.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor Quirúrgico Innecesario]: La laparotomía exploradora en una paciente hemodinámicamente estable sin peritonitis incrementa la morbilidad quirúrgica; más del 80-90% de las lesiones esplénicas estables se manejan de forma no operatoria.",
+        "C": "[Distractor de Retraso Tecnológico]: La resonancia magnética toma tiempo prolongado, tiene acceso limitado en urgencias y no forma parte del algoritmo estándar de trauma cerrado agudo.",
+        "D": "[Distractor de Imagen Insuficiente]: El FAST seriado solo detecta presencia o ausencia de líquido libre pero no define la gravedad anatómica ni descarta lesiones retroperitoneales o extravasación activa."
+      }
+    },
+    {
+      "id": "d18_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "Manual ATLS 10ª Edición",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Varón de 23 años es atropellado por un camión de transporte urbano. A su ingreso a la sala de trauma presenta traumatismo maxilofacial severo con aplastamiento del tercio medio facial, fractura mandibular conminuta expuesta, hemorragia oral incoercible y distorsión anatómica grave. El paciente emite ruidos de ahogamiento y lucha por respirar; SatO2 de 72%, FC 136 lpm, estuporoso (Glasgow 6). Dos médicos anestesiólogos certificados intentan laringoscopia directa y videolaringoscopia sin éxito debido al sangrado masivo y destrucción de los puntos de referencia. No es posible lograr un sello adecuado para ventilación con mascarilla facial ('no intubo, no ventilo').",
+      "question_text": "De acuerdo con el algoritmo de vía aérea de emergencia de la 10ª Edición de ATLS, ¿cuál es el procedimiento quirúrgico de emergencia de elección para obtener una vía aérea definitiva?",
+      "options": {
+        "A": "Traqueostomía formal reglada en quirófano con sección del istmo tiroideo y colocación de cánula de plata.",
+        "B": "Cricotiroidotomía quirúrgica de emergencia mediante incisión horizontal en la membrana cricotiroidea e inserción de un tubo endotraqueal o de traqueostomía con manguito.",
+        "C": "Tercer intento de intubación orotraqueal a ciegas tras administrar una dosis adicional de relajante muscular.",
+        "D": "Inserción de sonda nasotraqueal a ciegas guiada por sonidos respiratorios para sobrepasar el macizo facial."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Situación de vía aérea fallida ('no se puede intubar, no se puede ventilar') en paciente con traumatismo facial severo: la cricotiroidotomía quirúrgica es la vía aérea quirúrgica de emergencia de elección en el trauma agudo; la traqueostomía formal está contraindicada por su complejidad y tiempo quirúrgico prolongado.",
+      "justificacion_gpc": "El Manual ATLS (10ª Edición) define que ante un escenario catastrófico de 'no se puede intubar, no se puede ventilar', la intervención definitiva de emergencia que salva la vida es la cricotiroidotomía quirúrgica. Se localiza la membrana cricotiroidea (relativamente avascular y superficial), se incide horizontalmente y se dilata para introducir un tubo con globo (endotraqueal calibre 6.0 o cánula de traqueostomía pequeña). La traqueostomía quirúrgica formal no es un procedimiento de urgencia en el trauma agudo debido a que es técnicamente laboriosa, consume demasiado tiempo y conlleva alto riesgo de hemorragia por el lecho tiroideo.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Procedimiento Electivo]: La traqueostomía formal en la fase aguda de urgencia toma entre 15 y 30 minutos y tiene una elevada tasa de complicaciones hemorrágicas; ATLS la contraindica formalmente como técnica de rescate primario.",
+        "C": "[Distractor Iatrogénico Letal]: Persistir con intentos laringoscópicos a ciegas en hipoxia severa perpetúa el daño cerebral anóxico y precipita el paro cardiorrespiratorio inminente.",
+        "D": "[Distractor Catastrófico por Base de Cráneo]: La intubación nasotraqueal está contraindicada en traumatismo facial grave por el riesgo de penetración intracraneal a través de una fractura cribiforme de base de cráneo y exacerbación del sangrado."
+      }
+    },
+    {
+      "id": "d18_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "Manual ATLS 10ª Edición / PROPPR Trial",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 34-year-old male construction worker is brought to the resuscitation bay after falling from a 9-meter scaffold. On arrival: blood pressure is 74/42 mmHg, heart rate is 142 bpm, respiratory rate is 32 bpm, and he is pale, cold, and agitated. The pelvic examination reveals abnormal lateral-to-medial mobility and tenderness on gentle compression of the iliac crests; a commercial pelvic binder is immediately placed centered over the greater trochanters. FAST examination demonstrates large amounts of free intraperitoneal fluid in Morrison's pouch and the pelvis. Despite receiving an initial 1,000 mL bolus of warmed balanced crystalloid, his blood pressure remains at 76/44 mmHg with a base deficit of -12 mEq/L.",
+      "question_text": "According to the 10th Edition of the ATLS guidelines and current Damage Control Resuscitation standards, what is the most appropriate next step in circulatory resuscitation?",
+      "options": {
+        "A": "Rapid intravenous infusion of an additional 2 to 3 liters of 0.9% normal saline solution before considering blood products.",
+        "B": "Activation of the massive transfusion protocol with immediate administration of packed red blood cells, fresh frozen plasma, and platelets in a balanced 1:1:1 ratio, while strictly restricting further crystalloids.",
+        "C": "Continuous high-dose infusion of norepinephrine and vasopressin to maintain a mean arterial pressure > 75 mmHg without administering blood products.",
+        "D": "Immediate administration of recombinant activated factor VIIa and 20% human albumin as primary first-line hemostatic resuscitation."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Severe hemorrhagic shock refractory to initial limited crystalloids (1 L) in polytrauma: early activation of massive transfusion protocol in a 1:1:1 balanced ratio (pRBCs, FFP, Platelets) to prevent and treat trauma-induced coagulopathy.",
+      "justificacion_gpc": "ATLS 10th Edition and modern damage control resuscitation protocols recommend limiting initial crystalloid resuscitation to no more than 1 liter of warmed balanced solution. For patients in severe hemorrhagic shock (transient or non-responders) with evidence of massive bleeding, early activation of the massive transfusion protocol using a balanced 1:1:1 ratio of Packed Red Blood Cells (pRBCs), Fresh Frozen Plasma (FFP), and Platelets is mandatory. Aggressive crystalloid over-resuscitation exacerbates dilutional coagulopathy, hypothermia, and acidosis ('the lethal triad') and increases mortality.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor of Outdated Resuscitation]: The traditional strategy of infusing 2 to 3 liters of crystalloids has been completely abandoned by ATLS 10th Edition because it induces dilutional coagulopathy and worsens mortality.",
+        "C": "[Distractor of Harmful Vasopressors]: Using vasopressors in unresuscitated hemorrhagic shock causes severe splanchnic and peripheral ischemia while masking ongoing intravascular volume depletion.",
+        "D": "[Distractor of Off-Label High-Cost Agent]: Recombinant factor VIIa is not a first-line agent and carries significant thromboembolic risks; balanced blood component therapy remains the cornerstone."
+      }
+    },
+    {
+      "id": "d18_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "CIR",
+      "normativa_origen": "Manual ATLS 10ª Edición / GPC Paciente Quemado CENETEC",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 48-year-old woman is rescued from an enclosed domestic kitchen fire where she was trapped for 25 minutes. On arrival at the emergency department, she presents with severe hoarseness, stridor, singed nasal vibrissae, and carbonaceous sputum. Vital signs: blood pressure 135/85 mmHg, heart rate 112 bpm, respiratory rate 28 bpm. Standard fingertip pulse oximetry displays an SpO2 of 99% on ambient air. Arterial blood gas co-oximetry confirms a carboxyhemoglobin (COHb) level of 32%.",
+      "question_text": "Based on ATLS (10th Edition) and burn trauma guidelines, why is standard pulse oximetry misleadingly normal in this patient, and what is the definitive initial therapeutic management for both her airway and toxic exposure?",
+      "options": {
+        "A": "Standard pulse oximeters cannot differentiate carboxyhemoglobin from oxyhemoglobin, falsely overestimating oxygen saturation; she requires immediate high-flow 100% oxygen via a non-rebreather mask and early prophylactic endotracheal intubation before upper airway edema worsens.",
+        "B": "The pulse oximeter is accurate because carbon monoxide directly enhances oxygen release to peripheral tissues; she should be managed with low-flow nasal cannula (2 L/min) and observation without intubation.",
+        "C": "Pulse oximetry fails due to severe peripheral vasoconstriction; the patient requires intravenous methylene blue infusion and emergency surgical tracheostomy under local anesthesia.",
+        "D": "The pulse oximeter reading indicates adequate tissue oxygenation; she only requires nebulized beta-2 agonists and systemic high-dose corticosteroids, withholding oxygen therapy."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Carbon monoxide has 200x greater affinity for hemoglobin than oxygen; standard pulse oximetry reads COHb as oxyhemoglobin yielding a falsely elevated 99% SpO2. Treatment: 100% high-flow O2 (reduces COHb half-life from 300 to 60-90 min) and early prophylactic intubation for inhalation airway edema.",
+      "justificacion_gpc": "ATLS (10th Edition) and CENETEC burn guidelines highlight that standard two-wavelength pulse oximetry cannot distinguish oxyhemoglobin from carboxyhemoglobin (which shares identical light absorption at 660 nm), producing falsely reassuring normal or elevated SpO2 readings. Diagnosis requires arterial blood gas with co-oximetry. The immediate life-saving treatments are: 1) 100% normobaric oxygen via a tight-fitting non-rebreather mask (which decreases the half-life of carboxyhemoglobin from ~320 minutes on room air to ~60-90 minutes), and 2) early prophylactic endotracheal intubation, because airway edema secondary to thermal and chemical smoke injury progresses rapidly over hours and can result in total airway obstruction.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor of Fatal Misconception]: Carbon monoxide shifts the oxyhemoglobin dissociation curve to the left (Haldane effect), impairing oxygen release to tissues; withholding high-flow oxygen leads to severe cellular hypoxia.",
+        "C": "[Distractor of Incorrect Antidote]: Methylene blue is the specific treatment for methemoglobinemia, not carbon monoxide toxicity; and surgical tracheostomy is not indicated when early orotracheal intubation is feasible.",
+        "D": "[Distractor of Prohibited Corticosteroids]: Prophylactic systemic steroids are contraindicated in smoke inhalation injury because they significantly increase the incidence of fatal pulmonary infections and bacteremia without improving airway survival."
+      }
+    }
+  ]
+}

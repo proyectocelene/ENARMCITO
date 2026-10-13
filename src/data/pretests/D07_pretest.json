@@ -1,0 +1,395 @@
+{
+  "topic_code": "D07",
+  "title": "Pre-Test Psicométrico: Desnutrición Aguda y Deshidratación en Pediatría (Planes A, B y C)",
+  "normativa_origen": "GPC IMSS-156-18 / NOM-031",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d07_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-156-18 / NOM-031",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Lactante masculino de 10 meses de edad, previamente sano y con esquema de vacunación completo, es llevado a la consulta de urgencias de su Unidad de Medicina Familiar por presentar un cuadro de 48 horas de evolución caracterizado por fiebre de 38.2 °C, vómitos de contenido gastroalimentario en 3 ocasiones y 7 evacuaciones líquidas abundantes, de color amarillento, sin moco ni sangre. Su peso previo registrado hace dos semanas era de 8.800 kg; el peso actual registrado en báscula calibrada es de 8.100 kg (pérdida ponderal aproximada del 8%). A la exploración física: FC 148 lpm, FR 32 rpm, temperatura 37.6 °C; se observa irritable, inconsolable, fontanela anterior discretamente deprimida, mucosas orales secas, saliva filante, ojos hundidos, llanto con lágrimas escasas y busca con avidez el vaso de agua bebiendo con desesperación. El llenado capilar distal es de 2 segundos, pulsos periféricos palpables y simétricos, y el signo del pliegue cutáneo abdominal se deshace en menos de 2 segundos.",
+      "question_text": "¿De acuerdo con los criterios clínicos de la NOM-031 y la GPC IMSS-156-18, en qué categoría del estado de hidratación se clasifica a este paciente y cuál es el plan de rehidratación indicado?",
+      "options": {
+        "A": "Sin deshidratación clínica evidente; requiere inicio inmediato de Plan A de rehidratación en el hogar",
+        "B": "Con deshidratación (algún grado de deshidratación); requiere inicio inmediato de Plan B en la unidad médica ambulatoria",
+        "C": "Deshidratación grave con choque hipovolémico; requiere inicio inmediato de Plan C con cargas intravenosas rápidas",
+        "D": "Deshidratación hipernatrémica severa; requiere hospitalización para infusión intravenosa lenta de solución glucosada a 48 horas"
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Presencia de dos o más signos cardinales de la escala OMS/NOM-031 (irritabilidad, ojos hundidos, sed intensa/bebe con avidez y saliva seca) sin alteración profunda del estado de alerta ni choque.",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-156-18 y la NOM-031-SSA2-1999 para el control de las enfermedades diarreicas, el diagnóstico de 'Con Deshidratación' (antiguamente moderada o algún grado) se establece ante la presencia de dos o más de los siguientes signos: inquietud o irritabilidad, ojos hundidos, llanto sin lágrimas, boca y lengua secas, saliva espesa, sed aumentada (bebe con avidez) y pliegue cutáneo que desaparece con lentitud (< 2 segundos). La presencia de estos signos determina de forma inequívoca el inicio del Plan B en la unidad médica.",
+      "distractor_roles": {
+        "A": "Distractor_Espectro",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Espectro Leve]: El Plan A se reserva exclusivamente para niños 'Sin deshidratación' (alerta, lágrimas presentes, boca húmeda, sed normal); manejar a este paciente en casa provocaría progresión rápida a choque hipovolémico.",
+        "C": "[Distractor de Escalón Superior]: El Plan C se reserva para deshidratación grave o choque hipovolémico caracterizado por letargia, inconsciencia, incapacidad para beber, pulsos ausentes/filiformes y llenado capilar > 3 segundos, datos ausentes en este momento.",
+        "D": "[Distractor de Comorbilidad / Conducta Injustificada]: No hay evidencia clínica ni bioquímica de deshidratación hipernatrémica (que cursa con piel pastosa, hiperreflexia y letargia extrema), por lo que no está indicada la reposición parenteral lenta."
+      }
+    },
+    {
+      "id": "d07_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-156-18 / NOM-031",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "El mismo lactante masculino de 10 meses de edad con peso actual de 8.100 kg se encuentra en el área de hidratación oral de la unidad médica bajo supervisión de enfermería y del médico de guardia. Se calcula su dosis para Plan B con Vida Suero Oral (VSO). A los 35 minutos de iniciada la administración mediante taza y cuchara a ritmo constante, el lactante presenta un vómito de aproximadamente 30 mL de contenido gástrico, pero mantiene su interés y avidez por continuar bebiendo.",
+      "question_text": "De acuerdo con la normativa oficial mexicana rectora (NOM-031 y GPC IMSS-156-18), ¿cuál es el volumen total de Vida Suero Oral que debe recibir en 4 horas y cuál es la conducta médica inmediata obligada ante la presencia del vómito?",
+      "options": {
+        "A": "Administrar un volumen total de 800 mL (aproximadamente 100 mL/kg) en 4 horas fraccionado cada 30 minutos; suspender la vía oral por 10 minutos tras el vómito y reiniciar a cucharadas a un ritmo más lento",
+        "B": "Administrar un volumen total de 400 mL (50 mL/kg) en 4 horas; tras el vómito, suspender inmediatamente la vía oral e iniciar gastroclisis continua a 30 gotas por minuto",
+        "C": "Administrar un volumen total de 800 mL en 2 horas; tras el vómito, declarar falla al Plan B y canalizar acceso venoso para pasar a Plan C con Solución Hartmann a 60 mL/kg",
+        "D": "Administrar 1,200 mL (150 mL/kg) en 6 horas; tras el vómito, prescribir ondansetrón intramuscular a 0.15 mg/kg y duplicar la velocidad de infusión oral"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Dosis normada de Plan B: 100 mL/kg en 4 horas (8.1 kg x 100 = ~800 mL, es decir 25 mL/kg/hora o 200 mL por hora fraccionados cada 30 min) y regla de oro ante vómito aislado: pausar 10 minutos y reiniciar más lento.",
+      "justificacion_gpc": "La GPC IMSS-156-18 y la NOM-031 establecen que el Plan B consiste en administrar Vida Suero Oral a razón de 100 mL/kg durante un período de 4 horas, dividido en 8 tomas cada 30 minutos (aproximadamente 25 mL/kg/hora). Ante la presencia de vómito durante el procedimiento, la conducta estricta consiste en suspender la administración durante 10 minutos para permitir el reposo gástrico y posteriormente reiniciar la rehidratación oral con la misma solución a cucharadas o sorbos más lentos. La falla al Plan B solo se declara si los vómitos son incoercibles (tres o más en una hora) o si hay distensión abdominal progresiva.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Subdosificación y Gastroclisis Precoz]: La dosis de 50 mL/kg es insuficiente para el Plan B; la gastroclisis no está indicada ante un vómito aislado, sino únicamente ante rechazo absoluto perseverante o vómito repetido que impida el uso de cuchara.",
+        "C": "[Distractor de Escalón Prematuro]: Un solo vómito no define falla del Plan B ni justifica el paso al Plan C intravenoso; escalar a vía parenteral sin agotar la pausa de 10 minutos contraviene frontalmente la norma.",
+        "D": "[Distractor de Antiemético y Sobredosis]: Los antieméticos de rutina no están recomendados por la NOM-031 en primer nivel, y acelerar la velocidad duplica el riesgo de emesis reactiva."
+      }
+    },
+    {
+      "id": "d07_q3",
+      "index": 3,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-156-18 / NOM-031",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A pesar de reiniciar la rehidratación oral con técnica lenta, en las siguientes dos horas el lactante presenta 5 evacuaciones diarreicas líquidas explosivas de gran volumen y 4 vómitos incoercibles, rechazando por completo la cuchara. A la reevaluación médica inmediata: somnoliento, estuporoso, difícil de despertar con estímulos táctiles, ojos profundamente hundidos sin lágrimas, mucosas completamente secas, pulsos periféricos filiformes y taquicárdicos con FC de 182 lpm, llenado capilar distal prolongado de 4 segundos, extremidades distales frías con livedo reticularis y signo del pliegue cutáneo que tarda más de 2 segundos en regresar a su posición normal.",
+      "question_text": "Ante la progresión a deshidratación grave con choque hipovolémico (Plan C) en este paciente menor de 1 año de edad, ¿cuál es el esquema exacto de infusión intravenosa y la meta temporal normada por la GPC mexicana y la NOM-031?",
+      "options": {
+        "A": "Solución Hartmann o Salina al 0.9% a 100 mL/kg administrados en 6 horas: 1ª hora 30 mL/kg, 2ª hora 30 mL/kg y 3ª a 6ª horas 40 mL/kg (10 mL/kg/hora)",
+        "B": "Solución Hartmann a 100 mL/kg administrados en 3 horas: 1ª hora 60 mL/kg, 2ª hora 20 mL/kg y 3ª hora 20 mL/kg",
+        "C": "Solución Mixta (Glucosada al 5% con Salina al 0.9%) a 150 mL/kg para 24 horas con infusión continua en bomba",
+        "D": "Tres cargas rápidas consecutivas de albúmina humana al 5% a 20 mL/kg en 15 minutos seguidas de furosemida intravenosa"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Edad del paciente: 10 meses (< 1 año). En menores de 1 año el Plan C se distribuye en 6 horas (30, 30 y 40 mL/kg), a diferencia de los mayores de 1 año donde se administra en 3 horas (60, 20 y 20 mL/kg).",
+      "justificacion_gpc": "La GPC IMSS-156-18 y la NOM-031 señalan una diferencia crítica basada en la edad para el Plan C: en pacientes menores de 1 año de edad, el esquema intravenoso de 100 mL/kg con Solución Hartmann o Solución Salina al 0.9% debe administrarse en 6 horas (1ª hora: 30 mL/kg; 2ª hora: 30 mL/kg; y 40 mL/kg distribuidos en las siguientes 4 horas, es decir a 10 mL/kg/hora). La infusión acelerada en 3 horas (60/20/20 mL/kg) está reservada exclusivamente para niños mayores de 1 año, debido a que en lactantes menores existe mayor riesgo de sobrecarga hídrica, insuficiencia cardíaca y edema cerebral por redistribución osmolar rápida.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón por Grupo de Edad]: El esquema 60 mL/kg (1ª h), 20 mL/kg (2ª h) y 20 mL/kg (3ª h) en 3 horas es la regla de oro para niños mayores de 1 año de edad; aplicarlo en un lactante de 10 meses contraviene la GPC y satura su capacitancia cardiovascular.",
+        "C": "[Distractor de Mantenimiento Desfasado]: La solución mixta a 24 horas es un esquema de mantenimiento basal, completamente inútil para la reanimación hídrica urgente de un paciente en choque hipovolémico descompensado.",
+        "D": "[Distractor Iatrogénico Letal]: Los coloides como albúmina y el uso de diuréticos no tienen indicación en el choque hipovolémico por diarrea y aumentan la morbimortalidad."
+      }
+    },
+    {
+      "id": "d07_q4",
+      "index": 4,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-156-18 / NOM-031",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Niño de 23 meses de edad es traído por su madre a la consulta comunitaria rural. Proviene de una familia con marginación económica severa. Su alimentación desde los 5 meses de edad ha consistido casi en su totalidad en atoles de maíz sin leche, agua de arroz y caldos de verduras diluidos, con nulo consumo de productos de origen animal. A la exploración física: peso actual de 8.9 kg, talla 80 cm. Se observa marcadamente apático, letárgico, con cara abotagada (facies de 'luna llena') e indiferente al medio. Presenta edema bilateral blando con fóvea (++) en dorso de pies y piernas que asciende hasta el tercio medio de los muslos. El abdomen se encuentra globoso, prominente, palpándose hepatomegalia no dolorosa a 3.5 cm por debajo del reborde costal. La piel exhibe placas hiperpigmentadas, eritematosas, descamativas y exudativas en zonas de presión semejando 'pintura descascarada'; el cabello es fino, seco, quebradizo, ralo y presenta bandas alternas claras y oscuras.",
+      "question_text": "¿Cuál es el diagnóstico clínico-nutricional de certeza de acuerdo con las manifestaciones fenotípicas y la clasificación de Wellcome/OMS?",
+      "options": {
+        "A": "Desnutrición aguda grave de tipo Kwashiorkor (forma edematosa hipoproteinémica)",
+        "B": "Desnutrición crónica de tipo Marasmo por balance energético negativo primario",
+        "C": "Síndrome nefrótico corticosensible del lactante en anasarca",
+        "D": "Insuficiencia hepática fulminante con esteatohepatitis metabólica"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Edema bilateral simétrico ascendente, esteatosis hepática marcada (hepatomegalia), signo de la bandera en cabello y dermatosis en pintura descascarada en el contexto de una dieta con deficiencia proteica pura.",
+      "justificacion_gpc": "El cuadro clínico descrito es patognomónico de Kwashiorkor (desnutrición proteica grave o edematosa). Se caracteriza por ingesta calórica adecuada o limítrofe pero con déficit casi absoluto de proteínas de alto valor biológico. El sello distintivo indispensable es el edema periférico simétrico secundario a hipoalbuminemia grave (< 2.5 g/dL), preservación relativa de panículo adiposo, facies de luna llena, apatía/irritabilidad, hepatomegalia secundaria a infiltración grasa (esteatosis por déficit de apolipoproteínas transportadoras de lípidos), alteraciones en el cabello ('signo de la bandera') y dermatosis pelagroide en 'pintura descascarada'. En la clasificación de Wellcome, la presencia de edema con peso entre 60 y 80% del percentil 50 define formalmente el Kwashiorkor.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Espectro Clínico]: El Marasmo es una deficiencia calórica y proteica global que cursa con consunción extrema, ausencia total de grasa subcutánea, 'facies de viejo o de simio', sin edema y sin hepatomegalia esteatósica.",
+        "C": "[Distractor de Comorbilidad Renal]: Aunque el síndrome nefrótico produce edema e hipoalbuminemia, no cursa con la dermatosis en pintura descascarada, signo de la bandera capilar ni hepatomegalia esteatósica nutricional.",
+        "D": "[Distractor de Falla Orgánica Primaria]: La hepatomegalia en el Kwashiorkor es por acúmulo de triglicéridos no exportables en hepatocitos viables, no una falla hepática necrótica fulminante."
+      }
+    },
+    {
+      "id": "d07_q5",
+      "index": 5,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-156-18 / NOM-031",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "El mismo niño de 23 meses con Kwashiorkor ingresa al área de hospitalización pediátrica para manejo integral. Se documenta una temperatura axilar de 35.2 °C (hipotermia), glucemia capilar de 46 mg/dL (hipoglucemia) y hemoglobina de 7.8 g/dL. El médico de guardia propone administrar una carga intravenosa rápida de Solución Salina al 0.9% a 20 mL/kg para 'reanimar la volemia', prescribir sulfato ferroso oral a 6 mg/kg/día para la anemia e iniciar de inmediato una fórmula láctea hiperproteica e hipercalórica a 150 kcal/kg/día.",
+      "question_text": "De acuerdo con los 10 pasos normativos de la OMS y la GPC para el manejo hospitalario de la desnutrición aguda grave en su Fase de Estabilización (días 1 a 7), ¿cuál es la conducta terapéutica correcta?",
+      "options": {
+        "A": "Corregir inmediatamente hipoglucemia e hipotermia, iniciar alimentación cautelosa con fórmula F-75 (80-100 kcal/kg/día), restringir sodio, y contraindicar estrictamente el hierro en esta fase",
+        "B": "Avalar la indicación: pasar la carga rápida de solución salina, dar hierro oral a dosis altas e iniciar fórmula hipercalórica concentrada",
+        "C": "Administrar bolos de albúmina humana intravenosa al 20% asociada a furosemida para eliminar el edema antes de iniciar cualquier fórmula enteral",
+        "D": "Indicar ayuno absoluto por 72 horas con nutrición parenteral total rica en sodio y fósforo para reposición metabólica celular"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Regla cardinal de la Fase de Estabilización en DNT grave: Prohibido dar hierro en los primeros días (estrés oxidativo y bacteriemia fulminante), aporte calórico inicial bajo con F-75 (evitar síndrome de realimentación e insuficiencia cardíaca) y contraindicación de cargas intravenosas rápidas en pacientes no chocados.",
+      "justificacion_gpc": "En la Fase de Estabilización de la desnutrición grave (pasos OMS / GPC CENETEC), el miocardio del paciente está atrófico y sobrecargado de sodio intracelular. La administración de cargas intravenosas rápidas o exceso de sodio precipita insuficiencia cardíaca congestiva y muerte. El hierro está formalmente proscrito durante la fase de estabilización porque el hierro libre no fijado a transferrina favorece la proliferación de enterobacterias patógenas, sepsis letal y daño oxidativo; el hierro solo se inicia en la fase de rehabilitación cuando el niño recupera el apetito. La alimentación debe iniciarse lentamente con fórmula F-75 (75 kcal y 0.9 g de proteína por 100 mL, a razón de 80-100 kcal/kg/día) para prevenir el síndrome de realimentación.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor Iatrogénico Fatal]: Las cargas rápidas sin choque causan falla cardíaca aguda por atrofia miocárdica del desnutrido, el hierro precipita sepsis letal y las fórmulas hipercalóricas iniciales desencadenan síndrome de realimentación.",
+        "C": "[Distractor Peligroso de Albúmina]: El edema del Kwashiorkor se resuelve espontáneamente al estabilizar el metabolismo hepático con F-75; dar albúmina y diuréticos provoca colapso circulatorio hipovolémico y muerte.",
+        "D": "[Distractor de Ayuno Injustificado]: El ayuno prolongado perpetúa la hipoglucemia, atrofia vellositaria intestinal y traslocación bacteriana; la nutrición enteral trófica fraccionada debe iniciarse desde el día 1."
+      }
+    },
+    {
+      "id": "d07_q6",
+      "index": 6,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-156-18 / NOM-031",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Niña de 2 años y 6 meses de edad es llevada por sus padres a consulta de medicina familiar por presentar diarrea acuosa aguda de 24 horas de evolución, con 4 evacuaciones en el día, líquidas, sin moco ni sangre. La niña se encuentra alerta, reactiva, sonriente, llora con lágrimas abundantes, su mucosa oral está húmeda, bebe agua con avidez normal y su signo del pliegue cutáneo es negativo con llenado capilar de 1 segundo. No ha presentado vómitos ni fiebre.",
+      "question_text": "De acuerdo con las recomendaciones normadas en la estrategia ABC del Plan A (NOM-031 y GPC IMSS-156-18), ¿cuál es la prescripción de líquidos y la indicación dietética exacta para su manejo domiciliario?",
+      "options": {
+        "A": "Ofrecer media taza (75 mL) de Vida Suero Oral tras cada evacuación, suspender la leche entera y ayuno de sólidos por 24 horas para dar reposo al tracto digestivo",
+        "B": "Administrar una taza (150 mL) de Vida Suero Oral a cucharadas o sorbos lentos tras cada evacuación o vómito, continuar con la alimentación habitual y capacitar a la madre en signos de alarma",
+        "C": "Administrar solución rehidratante comercial con sabor a libre demanda y diluir los alimentos a la mitad de su concentración habitual",
+        "D": "Prescribir trimetoprima con sulfametoxazol profiláctico por 5 días e indicar Vida Suero Oral únicamente si la niña presenta sed intensa"
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Edad de la paciente (2 años y 6 meses, es decir > 1 año): dosis de Plan A = 150 mL (una taza) por evacuación. En < 1 año la dosis es de 75 mL (media taza). La alimentación habitual nunca debe interrumpirse.",
+      "justificacion_gpc": "La GPC IMSS-156-18 y la NOM-031 sintetizan el Plan A en la regla 'ABC': Alimentación continua (no suspender lactancia ni comida habitual; evitar azúcares simples), Bebidas abundantes (Vida Suero Oral después de cada evacuación líquida o vómito: 75 mL / media taza en menores de un año, y 150 mL / una taza en mayores de un año, administrado a cucharadas o sorbos lentos) y Consulta oportuna (capacitación en datos de alarma: sed intensa, poca ingesta de líquidos, vómitos frecuentes, más de 3 evacuaciones en una hora o heces con sangre).",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Subdosificación y Ayuno Iatrogénico]: 75 mL es la dosis para lactantes menores de 1 año; además, la suspensión de la vía oral o el reposo digestivo está formalmente contraindicado porque induce atrofia de enterocitos y prolonga la diarrea.",
+        "C": "[Distractor de Bebidas Hiperosmolares]: Las soluciones comerciales o bebidas hidratantes comunes tienen osmolaridad excesiva (> 350 mOsm/L) y alto contenido de fructosa/sacarosa, lo que agrava la diarrea osmótica.",
+        "D": "[Distractor de Antimicrobiano Injustificado]: Los antibióticos profilácticos están proscritos en la diarrea acuosa aguda viral/autolimitada, generan disbiosis bacteriana y resistencia antimicrobiana."
+      }
+    },
+    {
+      "id": "d07_q7",
+      "index": 7,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-156-18 / NOM-031",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Lactante masculino de 14 meses es traído a urgencias por distensión abdominal severa, ausencia de evacuaciones en las últimas 12 horas, letargia y vómitos biliosos. Había iniciado diarrea acuosa profusa hace 36 horas. Al interrogar a los padres, mencionan que acudieron a una farmacia privada donde les prescribieron gotas de loperamida combinadas con butilhioscina para 'cortar la diarrea'. A la exploración física: ruidos hidroaéreos totalmente abolidos (silencio abdominal), timpanismo generalizado a la percusión y taquicardia sin datos de peritonismo franco. La radiografía de abdomen muestra importante distensión de asas de colon e intestino delgado con niveles hidroaéreos y ausencia de gas en recto, compatible con íleo paralítico secundario.",
+      "question_text": "¿Cuál es la postura oficial de la GPC IMSS-156-18 respecto a los fármacos antidiarreicos antimotilidad en pediatría y cuál es el micronutriente coadyuvante con sólida evidencia que sí debe prescribirse?",
+      "options": {
+        "A": "Los antimotilidad (loperamida) están formalmente contraindicados por riesgo de íleo paralítico, sobrecrecimiento bacteriano y megacolon tóxico; el coadyuvante normado es el sulfato de zinc oral (20 mg/día por 10 a 14 días)",
+        "B": "La loperamida es segura si se ajusta a 0.1 mg/kg; el coadyuvante indicado es el subsalicilato de bismuto junto con colestiramina",
+        "C": "Los antimotilidad solo se indican en mayores de 6 meses; el micronutriente obligado de primera línea es la suplementación con hierro elemental parenteral",
+        "D": "La butilhioscina es de elección para el cólico intestinal; el coadyuvante avalado es metoclopramida intravenosa para acelerar el vaciamiento gástrico"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Prescripción de loperamida en un lactante que deriva en íleo paralítico; la GPC contraindica formalmente inhibidores de motilidad y establece que el sulfato de zinc (10 mg en < 6 m, 20 mg en > 6 m) reduce la duración y gravedad de la diarrea.",
+      "justificacion_gpc": "La GPC IMSS-156-18 y la OMS prohíben taxativamente el uso de fármacos antimotilidad (loperamida, difenoxilato) y antiespasmódicos en niños con enfermedad diarreica aguda. La loperamida paraliza el peristaltismo, retiene toxinas y líquidos en la luz intestinal (tercer espacio no visible) y precipita complicaciones graves como íleo paralítico, perforación intestinal y megacolon tóxico. En contraste, el suplemento con Zinc oral (10 mg/día en menores de 6 meses y 20 mg/día en mayores de 6 meses durante 10 a 14 días) es una recomendación prioritaria que regenera la mucosa intestinal, disminuye la severidad, duración y previene episodios en los siguientes 3 meses.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor Falso de Seguridad]: La loperamida carece de margen seguro en pediatría y está proscrita en cualquier dosis por la OMS y la normativa mexicana; el subsalicilato de bismuto acarrea riesgo de toxicidad por salicilatos y síndrome de Reye.",
+        "C": "[Distractor de Edad y Micronutriente Proscrito]: Los antimotilidad están contraindicados en cualquier edad pediátrica; el hierro parenteral o enteral agrava la diarrea y favorece la virulencia bacteriana intestinal.",
+        "D": "[Distractor Iatrogénico]: Los antiespasmódicos ocultan cuadros abdominales agudos y la metoclopramida produce reacciones extrapiramidales severas sin beneficio en la diarrea."
+      }
+    },
+    {
+      "id": "d07_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-156-18",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Niño de 3 años de edad acude a valoración por cuadro de 3 días de evolución caracterizado por picos febriles de hasta 39.5 °C, dolor cólico abdominal intenso que provoca llanto, tenesmo rectal marcado y 10 evacuaciones al día de escaso volumen compuestas predominantemente por moco espeso y estrías de sangre fresca (cuadro disentérico). A la exploración: irritable, con signos leves de deshidratación, abdomen blando con dolor difuso a la palpación profunda pero sin signos de irritación peritoneal. El coprocitograma reporta más de 60 leucocitos por campo con 90% de polimorfonucleares y eritrocitos abundantes.",
+      "question_text": "De acuerdo con la GPC IMSS-156-18, ¿cuál es el agente etiológico bacteriano primario a sospechar y cuál es el tratamiento antimicrobiano empírico de primera línea recomendado en nuestro medio?",
+      "options": {
+        "A": "Shigella spp.; iniciar tratamiento antimicrobiano empírico con azitromicina por vía oral (o ceftriaxona parenteral en caso de intolerancia oral o toxicidad)",
+        "B": "Escherichia coli enterotoxigénica (ETEC); iniciar tratamiento antimicrobiano con trimetoprima/sulfametoxazol por vía oral por 10 días",
+        "C": "Entamoeba histolytica; iniciar tratamiento antiamebiano empírico inmediato con metronidazol intravenoso a 50 mg/kg/día",
+        "D": "Campylobacter jejuni; contraindicar formalmente cualquier antibiótico e indicar únicamente probióticos a base de Saccharomyces boulardii"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Cuadro disentérico franco (fiebre alta, pujo, tenesmo, heces con moco y sangre, coprocitograma con predominio de PMN): etiología bacteriana invasiva por Shigella sensible a macrólidos de nueva generación (azitromicina).",
+      "justificacion_gpc": "La GPC IMSS-156-18 dictamina que todo niño con síndrome disentérico (diarrea con sangre visible, pujo, tenesmo y fiebre) tiene indicación formal de tratamiento antimicrobiano empírico dirigido contra Shigella dysenteriae / flexneri, que representa la causa bacteriana más frecuente y de mayor morbimortalidad invasiva. El fármaco de primera línea de elección en la normativa mexicana es la azitromicina por vía oral (12 mg/kg el primer día y 6 mg/kg/día los siguientes 4 días, o 10 mg/kg/día por 3 días). En pacientes con compromiso sistémico o intolerancia oral, la ceftriaxona parenteral (50 a 100 mg/kg/día) es la alternativa de elección.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Resistencia Bacteriana]: ETEC produce diarrea acuosa del viajero sin moco ni sangre, y trimetoprima/sulfametoxazol presenta tasas de resistencia bacteriana superiores al 70-80% para enteropatógenos en México.",
+        "C": "[Distractor de Parasitosis Sobrediagnosticada]: La amebiasis intestinal es rara en menores de 5 años y solo se trata si se confirman trofozoítos hematófagos en examen directo en fresco; tratarla de rutina retrasa el manejo bactericida de Shigella.",
+        "D": "[Distractor de Omisión Terapéutica]: Omitir el tratamiento antibiótico en un síndrome disentérico bacteriano grave expone al niño a bacteriemia, perforación intestinal, crisis convulsivas metabólicas y síndrome urémico hemolítico."
+      }
+    },
+    {
+      "id": "d07_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "NOM-031 / GPC CENETEC",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Lactante femenino de 8 meses de edad es llevada a su consulta de control de niño sano. A la evaluación antropométrica: peso actual de 5.300 kg, longitud actual de 68 cm. No presenta edema periférico en ninguna región anatómica. Se revisan las tablas percentilares de referencia de la OMS para edad y sexo: el peso esperado para su edad (percentil 50) es de 8.000 kg; el peso esperado para su talla actual de 68 cm (percentil 50) es de 7.900 kg; y la talla esperada para su edad es de 70.0 cm. Se calculan los índices antropométricos: Peso/Edad = (5.3 / 8.0) x 100 = 66.25% (déficit del 33.7%); Peso/Talla = (5.3 / 7.9) x 100 = 67.08% (déficit del 32.9%); Talla/Edad = (68.0 / 70.0) x 100 = 97.14%.",
+      "question_text": "Al integrar las clasificaciones antropométricas clásicas de Gómez (Peso para la Edad) y de Waterlow (Peso para la Talla y Talla para la Edad), ¿cuál es el diagnóstico nutricional exacto del paciente?",
+      "options": {
+        "A": "Gómez: Desnutrición Grado II (Moderada); Waterlow: Desnutrición Aguda o Emaciación Severa (< 70%) sin Desmedro o Cronicidad (Talla para la Edad normal > 95%)",
+        "B": "Gómez: Desnutrición Grado I (Leve); Waterlow: Desnutrición Crónica Recuperada con Desmedro Moderado",
+        "C": "Gómez: Desnutrición Grado III (Grave); Waterlow: Desnutrición Crónica Agudizada con Talla Baja Marcada",
+        "D": "Gómez: Paciente eutrófico normal; Waterlow: Emaciación leve secundaria a detención ponderal transitoria"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Gómez Peso/Edad entre 60 y 74% = Grado II (Moderada). Waterlow Peso/Talla < 70% = Desnutrición Aguda Severa (Emaciación Severa). Waterlow Talla/Edad > 95% = Sin alteración de talla (aguda pura sin cronicidad).",
+      "justificacion_gpc": "La NOM-031 y los manuales del ENARM evalúan dos escalas históricas indispensables: 1) Clasificación de Gómez (Peso para la Edad): Normal (90-110%), Grado I o Leve (75-89%), Grado II o Moderada (60-74%), y Grado III o Severa (< 60% o presencia de edema). Con 66.25% se ubica en Grado II. 2) Clasificación de Waterlow: a) Peso para la Talla (evalúa agudeza/emaciación o 'wasting'): Normal (> 90%), Desnutrición Leve (81-90%), Moderada (70-80%), Severa (< 70%). Con 67.08% es Desnutrición Aguda Severa; b) Talla para la Edad (evalúa cronicidad/desmedro o 'stunting'): Normal (> 95%), Leve (90-95%), Moderada (85-89%), Severa (< 85%). Con 97.14% se descarta afectación lineal crónica.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Subestimación y Cronicidad Inexistente]: Clasificar en Grado I (requiere 75-89%) subestima peligrosamente el riesgo de este paciente; además, con Talla/Edad > 95% es imposible clasificarlo con desmedro.",
+        "C": "[Distractor de Exceso de Severidad en Gómez]: El Grado III de Gómez exige peso < 60% o presencia de edema clínico; clasificarlo como crónica agudizada ignora que la talla está completamente conservada para su edad.",
+        "D": "[Distractor de Error Aritmético]: Considerar normal a un paciente con pérdida mayor al 30% del peso esperado para la talla ignora la definición universal de emaciación severa."
+      }
+    },
+    {
+      "id": "d07_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-156-18",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Lactante femenino de 7 meses de edad con antecedente de haber sido pesada desnuda en su control pediátrico hace 24 horas, registrando exactamente 7.500 kg. Inicia de manera súbita con diarrea acuosa profusa y vómitos. A su ingreso al servicio de urgencias es pesada en la misma báscula electrónica calibrada, registrando un peso corporal actual de 6.900 kg. A la exploración física: llanto irritable, mucosa oral seca, ojos moderadamente hundidos, saliva espesa y llenado capilar de 2 segundos.",
+      "question_text": "¿Cuál es el estándar de oro ('gold standard') normativo y fisiológico para determinar la magnitud real del déficit hídrico en pediatría, y cuál es el porcentaje de deshidratación calculado en esta paciente?",
+      "options": {
+        "A": "El porcentaje de pérdida ponderal aguda entre el peso previo inmediato y el peso actual [(Peso previo - Peso actual) / Peso previo x 100], que corresponde a un 8.0% de déficit hídrico",
+        "B": "La cuantificación del hematocrito central y las cifras de nitrógeno ureico (BUN), que define un 15% de deshidratación",
+        "C": "La medición de la osmolaridad sérica y urinaria mediante osmometría por punto de congelación, que reporta un 4% de deshidratación",
+        "D": "La monitorización de la presión venosa central mediante cateterismo venoso central subclavio, que indica un 12% de deshidratación"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Cálculo matemático directo: (7.500 kg - 6.900 kg) = 0.600 kg. (0.600 / 7.500) x 100 = 8.0%. El peso corporal agudo es el parámetro de mayor precisión para cuantificar la pérdida neta de agua corporal.",
+      "justificacion_gpc": "Tanto la GPC IMSS-156-18 como la literatura pediátrica rectora para el ENARM establecen que el estándar de oro absoluto para cuantificar el grado de deshidratación en pediatría es la determinación del porcentaje agudo de pérdida de peso corporal: % Deshidratación = [(Peso previo - Peso actual) / Peso previo] x 100. En este caso: [(7.5 - 6.9) / 7.5] x 100 = 8.0%, lo cual se correlaciona con deshidratación de grado moderado (rango del 6% al 9%), validando de forma objetiva la indicación del Plan B.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Laboratorio Inespecífico]: El hematocrito y BUN se alteran por hemoconcentración pero carecen de la sensibilidad y exactitud milimétrica de la pérdida ponderal aguda.",
+        "C": "[Distractor de Cálculo Indirecto]: La osmolaridad orienta sobre el tipo osmolar (iso, hipo o hipernatrémica), pero no cuantifica el volumen corporal de líquido perdido.",
+        "D": "[Distractor Invasivo e Injustificado]: La presión venosa central es un parámetro hemodinámico para choque refractario o terapia intensiva, nunca un estándar diagnóstico ambulatorio de déficit de agua libre."
+      }
+    },
+    {
+      "id": "d07_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-156-18 / NOM-031",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "An 11-month-old infant is brought to the pediatric urgent care clinic with a 36-hour history of copious watery diarrhea (8 stools per day) and low-grade fever. On clinical examination: weight 8.2 kg, heart rate 142 bpm, respiratory rate 30 bpm, rectal temperature 37.9 °C. The child is distinctly irritable, crying continuously, but tears are scarce. The oral mucosa and tongue are dry with thick saliva, and the anterior fontanelle is noticeably depressed. When offered a cup of water, the infant drinks eagerly and greedily, clutching the cup. Capillary refill time is 2 seconds, radial and femoral pulses are easily palpable, and an abdominal skin pinch test shows skin fold retraction taking just under 2 seconds. The junior resident orders emergency blood electrolytes, venous blood gas, and stool culture before determining fluid therapy.",
+      "question_text": "According to Mexican Clinical Practice Guidelines (GPC IMSS-156-18) and international pediatric standards, what is the mandatory initial diagnostic approach and clinical management plan for this patient?",
+      "options": {
+        "A": "Diagnostic classification is strictly clinical based on validated physical examination signs; routine laboratory investigations are unnecessary and should not delay immediate initiation of Plan B oral rehydration with low-osmolarity ORS",
+        "B": "Serum electrolyte panel and blood gas analysis are strictly required prior to initiating any fluid rehydration protocol to rule out hypernatremic dehydration",
+        "C": "Stool microscopy, viral panel PCR, and complete blood count are mandatory initial diagnostic tests to justify the use of empirical antibiotics",
+        "D": "Abdominal ultrasonography is the initial test of choice to rule out secondary intussusception before any fluid administration"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Evaluación clínica pura (sed aumentada/bebe con avidez, irritabilidad, mucosas secas, lágrimas escasas) que define deshidratación moderada (Plan B) sin necesidad de diferir el tratamiento por paraclínicos.",
+      "justificacion_gpc": "According to GPC IMSS-156-18 and WHO guidelines, the assessment of dehydration in uncomplicated acute gastroenteritis is entirely clinical. Routine laboratory tests (serum electrolytes, venous blood gas, renal function tests, and stool cultures) are strictly NOT recommended for initial decision-making in mild-to-moderate dehydration because they do not alter immediate management, increase healthcare costs, and cause unnecessary delays in starting oral rehydration therapy. Immediate implementation of Plan B using low-osmolarity Oral Rehydration Salts (100 mL/kg over 4 hours) must be initiated without laboratory workup.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor of Unnecessary Workup]: Serum electrolytes are only reserved for severe dehydration (Plan C), suspected severe dysnatremia, or cases failing oral rehydration therapy; waiting for labs delays lifesaving rehydration.",
+        "C": "[Distractor of Inappropriate Testing]: Stool cultures and viral testing are unnecessary in uncomplicated acute watery diarrhea because the vast majority are viral (e.g., rotavirus, norovirus) and self-limiting.",
+        "D": "[Distractor of Irrelevant Imaging]: Ultrasonography is indicated for suspected intussusception (target sign, red-currant jelly stools, intermittent colicky pain), not for classic acute watery gastroenteritis with dehydration."
+      }
+    },
+    {
+      "id": "d07_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-156-18 / NOM-031",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 16-month-old girl with severe acute malnutrition (weight-for-height Z-score < -3 SD, bilateral pitting pretibial edema, generalized muscle wasting) is admitted to the pediatric nutritional recovery unit. During her initial Stabilization Phase (Days 1 to 5), the clinical team is structuring her therapeutic diet and micronutrient replacement protocol. The patient is clinically stable, afebril, without respiratory distress or signs of systemic shock.",
+      "question_text": "Which of the following nutritional guidelines and micronutrient protocols is strictly compliant with WHO and Mexican clinical practice standards during this critical stabilization phase?",
+      "options": {
+        "A": "Initiate low-protein starter formula (F-75 at 80-100 kcal/kg/day), provide high-dose Vitamin A, zinc, and folic acid, and strictly withhold elemental iron supplementation until the rehabilitation phase is reached",
+        "B": "Immediately prescribe oral elemental iron at 6 mg/kg/day along with high-calorie catch-up formula (F-100 at 150 kcal/kg/day) to reverse microcytic anemia rapidly",
+        "C": "Administer total parenteral nutrition containing 4 g/kg/day of amino acids and maintain complete bowel rest for the first 5 days",
+        "D": "Prescribe intravenous loop diuretics (furosemide) every 8 hours combined with normal saline boluses to accelerate edema clearance before feeding"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Contraindicación estricta de suplementación con hierro en la fase de estabilización de la desnutrición aguda grave y requerimiento de dieta trófica baja en proteínas (fórmula F-75).",
+      "justificacion_gpc": "Under WHO and Mexican pediatric guidelines for severe acute malnutrition (SAM), the initial Stabilization Phase focuses on restoring cellular homeostasis without metabolic overload. Therapeutic starter feeds must use F-75 formula (75 kcal and 0.9 g protein/100 mL, providing 80-100 kcal/kg/day) to prevent refeeding syndrome and cardiac decompensation. Micronutrients such as Vitamin A (empiric mega-dose), zinc (for mucosal repair), and folic acid must be supplemented immediately. Critically, iron supplementation is strictly CONTRAINDICATED during the stabilization phase because non-transferrin-bound free iron promotes severe bacteremia, septic shock, and oxidative tissue damage; iron is only introduced once catch-up growth begins (Rehabilitation Phase with F-100 formula).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor of Dangerous Premature Phase]: Iron supplementation and F-100 formula belong strictly to the Rehabilitation Phase (catch-up growth); administering them during early stabilization triggers fatal refeeding syndrome and fulminant septicemia.",
+        "C": "[Distractor of Parenteral Injury]: TPN produces gut mucosal atrophy, bacterial translocation, and hepatic dysfunction; enteral starter feeding with small, frequent volumes of F-75 is the universal standard.",
+        "D": "[Distractor of Lethal Iatrogenic Intervention]: Diuretics in nutritional edema cause severe hypovolemic collapse, worsening electrolyte depletion, and death; nutritional edema resolves spontaneously as hepatic protein synthesis recovers."
+      }
+    }
+  ],
+  "code": "D07",
+  "topic_id": "D07_PED_Deshidratacion_Enfermedad_Diarreica_Aguda",
+  "topic": "Deshidratación y EDA (Planes A, B y C)"
+}

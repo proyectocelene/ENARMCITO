@@ -1,0 +1,395 @@
+{
+  "topic_code": "D06",
+  "title": "Pre-Test Psicométrico: Exantemáticas de la Infancia y Enfermedad de Kawasaki",
+  "normativa_origen": "GPC IMSS-047 (Exantemáticas) / IMSS-302 (Kawasaki)",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d06_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-302 (Kawasaki)",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Lactante masculino de 2 años 4 meses de edad, previamente sano con esquema de vacunación completo, es traído al servicio de urgencias pediátricas por presentar fiebre de 39.2 °C de 6 días de evolución que no remite de forma duradera a pesar del uso horario de paracetamol e ibuprofeno. La madre refiere además irritabilidad extrema e inapetencia. A la exploración física: peso 13 kg, FC 142 lpm, FR 28 rpm, Temp 38.9 °C, SpO2 97%. Se observa inyección conjuntival bulbar bilateral intensa sin secreción purulenta ni exudado, labios eritematosos secos con fisuras sangrantes y lengua con papilas prominentes de aspecto aframbuesado («lengua en fresa»). En cuello se palpa una adenomegalia en el triángulo cervical anterior derecho de 2.0 cm de diámetro, firme, dolorosa, no fluctuante. Las manos y los pies presentan eritema palmo-plantar difuso con edema indurado no foveolar en el dorso. En tronco y región perineal se aprecia un exantema maculopapular eritematoso polimorfo no vesicular.",
+      "question_text": "¿Cuál es el diagnóstico clínico definitivo de acuerdo con los criterios diagnósticos rectores de la GPC IMSS-302 y la American Heart Association?",
+      "options": {
+        "A": "Enfermedad de Kawasaki clásica o completa, al cumplir fiebre ≥ 5 días más 4 criterios clínicos principales.",
+        "B": "Escarlatina estreptocócica complicada con adenitis cervical bacteriana supurativa por Streptococcus pyogenes.",
+        "C": "Sarampión en fase eruptiva florada con respuesta inflamatoria sistémica severa por paramixovirus.",
+        "D": "Síndrome de Stevens-Johnson secundario al uso de antiinflamatorios no esteroideos con compromiso mucocutáneo."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Fiebre persistente ≥ 5 días sumada a 4 de los 5 criterios clínicos clásicos (inyección conjuntival no exudativa, alteraciones en labios y cavidad oral con lengua en fresa, adenopatía cervical unilateral > 1.5 cm, cambios en extremidades con eritema/edema indurado y exantema polimorfo sin vesículas), lo que establece formalmente el diagnóstico de Enfermedad de Kawasaki completa.",
+      "justificacion_gpc": "La GPC IMSS-302 y las guías de la AHA establecen que el diagnóstico de Enfermedad de Kawasaki clásica o completa requiere la presencia de fiebre persistente de al menos 5 días de evolución asociada a por lo menos 4 de los siguientes 5 criterios clínicos: 1) Inyección conjuntival bulbar bilateral no exudativa respetando el limbo; 2) Cambios en labios y mucosa oral (eritema, fisuras, lengua en frambuesa); 3) Cambios en extremidades periféricas (eritema palmar/plantar y edema indurado agudo, descamación periungueal tardía); 4) Exantema polimorfo en tronco; 5) Linfadenopatía cervical aguda no purulenta, habitualmente unilateral y > 1.5 cm de diámetro.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Espectro Cercano]: Aunque la escarlatina presenta lengua en fresa y exantema, cursa con faringoamigdalitis exudativa con exudado pultáceo, exantema micropapular en papel de lija con líneas de Pastia, responde rápidamente a penicilina y no produce edema indurado de manos y pies ni conjuntivitis no exudativa.",
+        "C": "[Distractor de Espectro Cercano]: El sarampión cursa con pródromo catarral prominente (las 'tres C': tos, coriza, conjuntivitis con fotofobia intensa), manchas patognomónicas de Koplik en mucosa yugal y exantema confluente cefalocaudal descendente, sin edema indurado distal de extremidades.",
+        "D": "[Distractor por Supuesta Reacción Farmacológica]: El síndrome de Stevens-Johnson produce necrosis epidérmica con desprendimiento dermoepidérmico franco (signo de Nikolsky positivo), ampollas flácidas y erosión mucosa grave con costras hemorrágicas, no edema indurado ni la constelación típica de Kawasaki."
+      }
+    },
+    {
+      "id": "d06_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-302 (Kawasaki)",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "En el mismo lactante de 2 años 4 meses con diagnóstico confirmado de Enfermedad de Kawasaki clásica en su 6° día de fiebre, se obtienen los siguientes paraclínicos: Hb 10.2 g/dL, Leucocitos 18,400/mm3 (Neutrófilos 81%, Linfocitos 14%), Plaquetas 480,000/mm3, Proteína C Reactiva 92 mg/L (normal < 5), Velocidad de Sedimentación Globular 74 mm/h, Alanina aminotransferasa (ALT) 68 UI/L, Albúmina sérica 2.9 g/dL. El examen general de orina revela piuria estéril (14 leucocitos por campo sin bacterias). El paciente se hospitaliza en el área de pediatría médica.",
+      "question_text": "¿Cuál es el esquema farmacológico de primera línea que debe administrarse de inmediato para frenar el proceso inflamatorio vascular y reducir la morbimortalidad según la GPC IMSS-302?",
+      "options": {
+        "A": "Inmunoglobulina intravenosa (IGIV) a dosis única de 2 g/kg en infusión continua de 10 a 12 horas más Ácido Acetilsalicílico (AAS) a dosis antiinflamatoria.",
+        "B": "Bolos intravenosos de Metilprednisolona a 30 mg/kg/día durante 3 días asociados a Enoxaparina subcutánea a dosis profiláctica.",
+        "C": "Infliximab intravenoso en infusión única a 5 mg/kg asociado a dipiridamol oral como terapia biológica primaria.",
+        "D": "Ácido Acetilsalicílico en monoterapia a dosis antiagregante plaquetaria de 3 a 5 mg/kg/día difiriendo la inmunoglobulina hasta observar la evolución a 14 días."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "El tratamiento estándar de oro y de primera línea indiscutible para la Enfermedad de Kawasaki en fase aguda (primeros 10 días) es la combinación sinérgica de Inmunoglobulina intravenosa (IGIV 2 g/kg DU) junto con Ácido Acetilsalicílico a dosis altas antiinflamatorias (30-50 mg/kg/día o hasta 80-100 mg/kg/día repartidas en 4 tomas).",
+      "justificacion_gpc": "La GPC IMSS-302 establece con máxima evidencia que el tratamiento de primera línea de la Enfermedad de Kawasaki es la administración de Inmunoglobulina Intravenosa (IGIV) a 2 g/kg en infusión única durante 10 a 12 horas, combinada con Ácido Acetilsalicílico (AAS) a dosis antiinflamatoria (30 a 50 mg/kg/día, o 80 a 100 mg/kg/día según escuela clínica, dividida cada 6 horas) hasta que el paciente permanezca afebril por 48 a 72 horas, momento en que se reduce a dosis antiagregante (3 a 5 mg/kg/día) por 6 a 8 semanas.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón de Rescate]: Los pulsos de esteroides (metilprednisolona) no son de primera línea universal; se reservan para casos refractarios a una segunda infusión de IGIV o en pacientes con puntaje de muy alto riesgo de resistencia (ej. escala de Kobayashi elevada).",
+        "C": "[Distractor de Escalón Biológico Avanzado]: Los inhibidores del TNF-alfa como infliximab constituyen terapia de rescate para la Enfermedad de Kawasaki refractaria a inmunoglobulina, nunca de primera línea inicial.",
+        "D": "[Distractor por Subdosificación Letal]: Administrar AAS a dosis bajas antiagregantes y omitir la IGIV eleva el riesgo de formación de aneurismas coronarios del 4% al 20-25%; la IGIV jamás debe retrasarse."
+      }
+    },
+    {
+      "id": "d06_q3",
+      "index": 3,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-302 (Kawasaki)",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "En el paciente del caso seriado previo, mientras se prepara la infusión de inmunoglobulina intravenosa en el servicio de hospitalización, el médico adscrito solicita la valoración cardiovascular inicial obligatoria para documentar el estado anatómico coronario basal y descartar complicaciones precoces (como miocarditis, derrame pericárdico o ectasia coronaria temprana).",
+      "question_text": "¿Cuál es el estudio de imagen y gabinete inicial de elección para la evaluación cardiovascular de acuerdo con la GPC IMSS-302?",
+      "options": {
+        "A": "Ecocardiograma transtorácico bidimensional con Doppler a color en cuanto se sospeche el diagnóstico y al momento del ingreso.",
+        "B": "Angiotomografía computarizada coronaria multicorte de 128 cortes con reconstrucción tridimensional inmediata.",
+        "C": "Cateterismo cardíaco izquierdo con angiografía coronaria selectiva diagnóstica urgente en sala de hemodinamia.",
+        "D": "Resonancia magnética cardíaca con protocolo de realce tardío con gadolinio para valorar fibrosis miocárdica."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "El ecocardiograma transtorácico bidimensional es el estudio inicial, no invasivo, de elección y de seguimiento obligado en Kawasaki, debiendo realizarse al momento del diagnóstico para calcular el Z-score de las arterias coronarias y evaluar función sistólica ventricular y pericardio.",
+      "justificacion_gpc": "La GPC IMSS-302 y las recomendaciones de la AHA indican que se debe realizar un ecocardiograma transtorácico bidimensional con Doppler a color de manera basal tan pronto como se establezca la sospecha clínica de Enfermedad de Kawasaki. Este estudio permite medir las dimensiones internas luminales de las arterias coronarias (descendente anterior izquierda y coronaria derecha principal) normalizadas por superficie corporal (Z-score), así como evaluar la contractilidad miocárdica y detectar pericarditis.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Innecesario en Agudo]: La angiotomografía coronaria expone al paciente pediátrico a radiación ionizante y medio de contraste nefrotóxico; se reserva para anomalías complejas no definibles por ecografía en fase de seguimiento tardío.",
+        "C": "[Distractor Invasivo Avanzado]: La coronariografía invasiva es una técnica intervencionista reservada para evaluar estenosis isquémica o trombosis coronaria en pacientes con aneurismas gigantes en fase crónica, no como estudio inicial diagnóstico.",
+        "D": "[Distractor de Espectro Diferencial]: La resonancia magnética requiere sedación profunda en lactantes y no está disponible para valoración urgente de cabecera como el ecocardiograma."
+      }
+    },
+    {
+      "id": "d06_q4",
+      "index": 4,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-047 (Exantemáticas)",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Niño de 3 años de edad cuyos padres rechazaron la aplicación de vacunas por creencias personales. Acude a la consulta externa de pediatría por presentar un cuadro de 4 días de evolución con fiebre cuantificada en 39.6 °C, tos seca traqueal muy intensa, coriza serosa abundante y conjuntivitis bilateral severa con fotofobia y lagrimeo. A la exploración física se observan en la mucosa yugal, a la altura de los segundos molares inferiores, lesiones milimétricas blanco-azuladas puntiformes sobre una base eritematosa viva («manchas de Koplik»). En piel presenta un exantema maculopapular eritematoso rojizo-violáceo confluente que inició detrás de los pabellones auriculares y en la línea de inserción capilar facial, y que en las últimas 24 horas se ha extendido cefalocaudalmente al cuello, tórax y abdomen superior.",
+      "question_text": "Ante la sospecha inequívoca de sarampión y la notificación epidemiológica inmediata correspondiente, ¿cuál es el estudio estándar de oro (Gold Standard) microbiológico y molecular avalado por el InDRE y la GPC IMSS-047 para la confirmación diagnóstica?",
+      "options": {
+        "A": "Reacción en Cadena de la Polimerasa con Transcriptasa Inversa (RT-PCR) para ARN del virus del sarampión en exudado faríngeo u orina.",
+        "B": "Cultivo viral en líneas celulares continuas de riñón de mono verde africano (células Vero) con reporte a 21 días.",
+        "C": "Frotis citológico de Tzanck de raspado de lesiones mucosas para documentar células gigantes multinucleadas.",
+        "D": "Detección rápida de antígeno de superficie mediante inmunocromatografía de flujo lateral en saliva."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "La presencia de manchas de Koplik confirma clínicamente el pródromo patognomónico de sarampión, pero normativamente la confirmación etiológica oficial ante el SINAVE y el InDRE requiere RT-PCR para ARN viral en exudado faríngeo/nasofaríngeo u orina (asociado a serología IgM por ELISA).",
+      "justificacion_gpc": "Conforme a la GPC IMSS-047 y los lineamientos de vigilancia epidemiológica de la Secretaría de Salud e InDRE, el sarampión es una enfermedad de notificación inmediata obligatoria. La confirmación por laboratorio de máxima sensibilidad y especificidad (estándar de oro) se efectúa mediante RT-PCR para la detección del ARN del virus del sarampión (morfotipo Morbillivirus, familia Paramyxoviridae) en muestras de exudado faríngeo/nasofaríngeo o sedimento urinario tomadas en los primeros días del exantema, conjuntamente con la determinación de anticuerpos séricos IgM específicos.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor Histórico / No Disponible]: El aislamiento en cultivo viral es lento, técnicamente complejo, requiere bioseguridad nivel 3 y ha sido reemplazado en la práctica normativa por la biología molecular (RT-PCR).",
+        "C": "[Distractor de Espectro Viral Herpes]: El frotis de Tzanck identifica células gigantes multinucleadas con inclusiones en infecciones por Virus del Herpes Simple o Varicela-Zóster, careciendo de especificidad diagnóstica para confirmar sarampión.",
+        "D": "[Distractor Inexistente / No Normativo]: Las pruebas rápidas de antígeno en saliva no forman parte del algoritmo diagnóstico normativo avalado por el InDRE para la certificación epidemiológica del sarampión en México."
+      }
+    },
+    {
+      "id": "d06_q5",
+      "index": 5,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-047 (Exantemáticas)",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Se confirma el diagnóstico clínico y serológico de sarampión en el paciente del caso anterior (niño de 3 años no vacunado). A la evaluación nutricional presenta peso para la edad en percentil 5 y peso para la talla en percentil 10 (desnutrición proteico-calórica leve). No presenta datos de dificultad respiratoria, estridor ni focalización neurológica. Además del aislamiento por gotas/vía aérea, hidratación oral fraccionada y antipiréticos, la normativa nacional mexicana y la OMS establecen una medida terapéutica farmacológica coadyuvante específica indispensable.",
+      "question_text": "¿Cuál es la intervención farmacológica especial obligatoria que debe administrarse según la GPC IMSS-047 para reducir la morbimortalidad, ceguera y complicaciones del sarampión?",
+      "options": {
+        "A": "Suplementación con Vitamina A (palmitato de retinol) a dosis de 200,000 UI por vía oral en dos dosis consecutivas (días 1 y 2).",
+        "B": "Administración de Ribavirina por vía oral a 15 mg/kg/día fraccionada cada 8 horas durante 10 días continuos.",
+        "C": "Aciclovir intravenoso a 15 mg/kg cada 8 horas en infusión de una hora durante 7 días para limitar la replicación.",
+        "D": "Corticoterapia sistémica con dexametasona oral a 0.6 mg/kg/día por 5 días para suprimir la inflamación bronquial."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "En sarampión, la suplementación con Vitamina A es mandataria en todos los casos pediátricos (200,000 UI VO en niños ≥ 1 año; 100,000 UI entre 6 y 11 meses; 50,000 UI en < 6 meses) en dos dosis consecutivas para regenerar epitelios y abatir la mortalidad respiratoria y queratitis.",
+      "justificacion_gpc": "La GPC IMSS-047 y las directrices de la OMS estipulan que todo niño diagnosticado con sarampión debe recibir suplementación con Vitamina A por vía oral en dos dosis (inmediatamente al diagnóstico y al día siguiente). La dosis recomendada es de 200,000 UI para niños de 12 meses o mayores (100,000 UI para lactantes de 6 a 11 meses; 50,000 UI para menores de 6 meses). Esta intervención reduce significativamente la incidencia de neumonía, diarrea, úlcera corneal (ceguera por xeroftalmía) y disminuye la mortalidad global hasta en un 50%.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor Teórico Experimental]: La ribavirina no cuenta con indicación sistemática ni evidencia robusta en sarampión no complicado y no forma parte del esquema normativo en la GPC mexicana.",
+        "C": "[Distractor Erróneo de Familia Viral]: El aciclovir inhibe la ADN polimerasa de herpesvirus (VHS, VVZ), siendo totalmente ineficaz frente a virus ARN como el morbillivirus del sarampión.",
+        "D": "[Distractor por Contraindicación Inmunológica]: Los esteroides sistémicos inmunodeprimen al huésped y favorecen la proliferación de la neumonía de células gigantes de Hecht y sobreinfecciones bacterianas letales."
+      }
+    },
+    {
+      "id": "d06_q6",
+      "index": 6,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-047 (Exantemáticas)",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Escolar masculino de 6 años de edad, previamente sano y sin antecedentes de alergias a medicamentos, inicia hace 48 horas con fiebre de 39.3 °C de inicio brusco, odinofagia intensa que le impide deglutir sólidos, escalofríos y cefalea. A la exploración física se aprecia faringe intensamente congestiva con amígdalas hipertróficas grado III/IV cubiertas de exudado purulento blanco-amarillento confluente y petequias en el paladar blando. La lengua muestra papilas hipertróficas eritematosas que protruyen sobre una base denudada roja brillante («lengua en fresa roja»). En cuello se palpan adenopatías submandibulares dolorosas bilaterales. En tórax, axilas e ingles se palpa un exantema eritematoso micropapular fino confluente que confiere una textura rugosa similar a «papel de lija», con hiperpigmentación transversal en los pliegues antecubitales que no palidece a la presión («líneas de Pastia») y marcada palidez perioral («facies de Filatow»).",
+      "question_text": "¿Cuál es el tratamiento antimicrobiano de primera línea indicado según la GPC IMSS-047 para erradicar el patógeno causal y prevenir oportunamente la fiebre reumática aguda?",
+      "options": {
+        "A": "Penicilina V oral por 10 días (o Amoxicilina oral 50 mg/kg/día por 10 días, o Penicilina G Benzatínica intramuscular en dosis única).",
+        "B": "Ceftriaxona intramuscular a 50 mg/kg/día cada 24 horas durante 5 días consecutivos.",
+        "C": "Azitromicina oral a 10 mg/kg/día en dosis única diaria durante 3 días consecutivos.",
+        "D": "Trimetoprima con Sulfametoxazol oral a 8 mg/kg/día (en base a trimetoprima) cada 12 horas por 7 días."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Cuadro patognomónico de Escarlatina producida por Streptococcus pyogenes (Streptococcus beta-hemolítico del grupo A productor de exotoxina pirogénica). El tratamiento de primera línea sin alergia es Penicilina V / Amoxicilina por 10 días para lograr erradicación bacteriana faríngea y prevenir fiebre reumática.",
+      "justificacion_gpc": "La GPC IMSS-047 y las guías pediátricas mexicanas indican que el tratamiento de elección para la escarlatina por Streptococcus pyogenes es la Penicilina V oral por 10 días, o Amoxicilina oral a 50 mg/kg/día dividida en 2 o 3 tomas durante 10 días completos (por mejor biodisponibilidad y adherencia), o bien Penicilina G Benzatínica intramuscular en dosis única (600,000 UI en < 27 kg o 1,200,000 UI en ≥ 27 kg). La duración de 10 días con betalactámicos es crítica para prevenir la fiebre reumática aguda posestreptocócica.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Innecesario]: Las cefalosporinas de tercera generación parenterales no son fármaco de primera línea para faringoamigdalitis estreptocócica o escarlatina en pacientes no complicados; generan presión selectiva y resistencia bacteriana.",
+        "C": "[Distractor de Segunda Línea]: Los macrólidos como azitromicina se reservan exclusivamente para pacientes con alergia confirmada a la penicilina; su tasa creciente de resistencia y menor tasa de erradicación microbiológica desaconsejan su uso en no alérgicos.",
+        "D": "[Distractor Ineficaz]: Trimetoprima-sulfametoxazol no erradica adecuadamente a Streptococcus pyogenes en el tejido amigdalino y NO previene la fiebre reumática aguda según la normativa de CENETEC."
+      }
+    },
+    {
+      "id": "d06_q7",
+      "index": 7,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-047 (Exantemáticas)",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Niña de 7 años de edad con cuadro clásico de escarlatina caracterizado por fiebre alta, odinofagia, lengua en fresa y exantema micropapular en papel de lija con líneas de Pastia. Al revisar el expediente clínico y antecedentes heredofamiliares, la madre refiere enfáticamente que a los 4 años de edad, tras ingerir la primera dosis de amoxicilina por una otitis, la menor presentó urticaria generalizada gigante, broncoespasmo con estridor laríngeo, edema facial y choque anafiláctico que ameritó intubación orotraqueal y epinefrina en terapia intensiva pediátrica (reacción de hipersensibilidad tipo I anafiláctica mediada por IgE confirmada).",
+      "question_text": "¿Cuál es el antimicrobiano oral de elección para tratar la escarlatina en esta paciente con antecedente fidedigno de anafilaxia grave a betalactámicos según la GPC IMSS-047?",
+      "options": {
+        "A": "Azitromicina oral a 12 mg/kg/día por 5 días (o Claritromicina oral / Clindamicina por 10 días).",
+        "B": "Cefalexina oral a 50 mg/kg/día dividida cada 8 horas durante 10 días continuos.",
+        "C": "Amoxicilina con ácido clavulánico oral fraccionada cada 12 horas por 10 días.",
+        "D": "Cefuroxima axetilo oral a 30 mg/kg/día dividida cada 12 horas por 10 días."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Antecedente de hipersensibilidad inmediata mediada por IgE grave (anafilaxia / estridor / choque) a penicilinas: contraindicación absoluta de cualquier betalactámico (incluyendo cefalosporinas por reactividad cruzada de hasta 10%). La alternativa obligatoria de elección son macrólidos (azitromicina/claritromicina) o clindamicina.",
+      "justificacion_gpc": "La GPC IMSS-047 y las guías de alergia a antibióticos señalan que en pacientes con historia comprobada de alergia anafiláctica grave (hipersensibilidad tipo I con angioedema, broncoespasmo o anafilaxia) a penicilinas, TODAS las cefalosporinas y carbapenémicos están contraindicados debido al riesgo de reactividad cruzada fatal. En estos pacientes, los antimicrobianos de elección son los macrólidos (Azitromicina 12 mg/kg/día por 5 días o Claritromicina 15 mg/kg/día por 10 días) o la Clindamicina (20 mg/kg/día dividida en 3 dosis por 10 días).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Comorbilidad",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor por Riesgo Anafiláctico Fatal]: La cefalexina comparte similitudes estructurales en su cadena lateral con ampicilina/amoxicilina y presenta riesgo de reactividad cruzada de hasta el 5-10%; en anafilaxia previa mediada por IgE está proscrita.",
+        "C": "[Distractor con Contraindicación Absoluta]: La amoxicilina es exactamente el fármaco causante del choque anafiláctico previo; administrarla nuevamente provocaría una reacción anafiláctica fatal inmediata.",
+        "D": "[Distractor por Riesgo de Reactividad Cruzada]: Aunque las cefalosporinas de segunda generación tienen menor reactividad cruzada que las de primera, en un choque anafiláctico documentado con compromiso de vía aérea se prohíbe cualquier betalactámico en atención ambulatoria."
+      }
+    },
+    {
+      "id": "d06_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-047 (Exantemáticas)",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Lactante femenina de 10 meses de edad, previamente sana, que es llevada al servicio de urgencias médicas por sus padres. Refieren que durante los últimos 3 días la paciente cursó con fiebre continua muy elevada (39.5 °C a 40.1 °C) que generó angustia severa familiar, sin síntomas respiratorios ni digestivos evidentes. Durante el periodo febril se mantuvo relativamente activa entre picos. Hace 6 horas, la fiebre remitió bruscamente («en crisis») alcanzando 36.8 °C; simultáneamente con el cese de la fiebre, apareció un exantema maculopapular eritematoso rosado tenue, no pruriginoso, distribuido principalmente en tronco y cuello, con escaso compromiso en cara y extremidades. A la exploración física: eutrófica, alerta, afebril, fontanela anterior normotensa, faringe con escasas pápulas eritematosas en la úvula («manchas de Nagayama»), ruidos cardíacos y respiratorios limpios, abdomen blando.",
+      "question_text": "Considerando la cronología patognomónica de la enfermedad, ¿cuál es el diagnóstico clínico y la conducta de abordaje inicial adecuada según la GPC IMSS-047?",
+      "options": {
+        "A": "Exantema Súbito (Roséola infantil por Virus Herpes Humano 6); no requiere paraclínicos invasivos y se indica manejo ambulatorio sintomático y datos de alarma.",
+        "B": "Meningococemia fulminante aguda; requiere punción lumbar inmediata, hemocultivos y ceftriaxona intravenosa de urgencia.",
+        "C": "Reacción alérgica secundaria a antipiréticos; suspender paracetamol e iniciar dexametasona intramuscular y difenhidramina.",
+        "D": "Rubéola atípica con bacteriemia oculta; solicitar biometría hemática completa, hemocultivo y prescribir amoxicilina profiláctica."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Lactante menor de 1 año con fiebre muy alta de 3 días que desaparece de forma brusca en crisis, momento en el cual brota súbitamente un exantema maculopapular rosado en tronco (manchas de Nagayama en úvula): patrón clásico del Exantema Súbito (Roséola / 6ta enfermedad / VHH-6 y 7), de curso benigno y autolimitado sin requerir estudios invasivos.",
+      "justificacion_gpc": "La GPC IMSS-047 describe al Exantema Súbito (Roséola infantil / Sexta Enfermedad) causado primordialmente por el Virus Herpes Humano tipo 6 (VHH-6). Afecta típicamente a lactantes de 6 a 18 meses, presentándose con fiebre muy alta de 3 a 5 días de duración con buen estado general relativo. El dato clínico capital es la defervescencia térmica abrupta («en crisis») inmediatamente seguida por la aparición de un exantema maculopapular rosado morbiliforme no confluente en el tronco. El diagnóstico es puramente clínico y no amerita exámenes de laboratorio ni antibioticoterapia.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Extremo Clínico Injustificado]: La meningococemia cursa con fiebre persistente, aspecto tóxico severo, compromiso hemodinámico y petequias o púrpura fulminante palpable rápidamente progresiva, lo opuesto a una lactante feliz y afebril.",
+        "C": "[Distractor por Falsa Culpa Farmacológica]: Atribuir el exantema a alergia a antipiréticos pasa por alto el cuadro biológico exacto del exantema súbito y somete innecesariamente al lactante a corticoterapia y antihistamínicos sedantes.",
+        "D": "[Distractor de Escalón Errático]: La rubéola cursa con adenopatías retroauriculares prominentes dolorosas y el exantema aparece con la fiebre, no al caer la misma; prescribir amoxicilina en una viriasis autolimitada puede desencadenar un exantema por fármacos."
+      }
+    },
+    {
+      "id": "d06_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-047 (Exantemáticas)",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Niño de 8 años de edad con diagnóstico conocido de Esferocitosis Hereditaria desde los 2 años (basal de hemoglobina entre 9.5 y 10.5 g/dL). Acude a la unidad médica por presentar desde hace 3 días un eritema facial marcado brillante en ambas mejillas, caliente, con palidez peribucal («aspecto de bofetada»), seguido de un exantema reticular eritematoso violáceo en tronco y extremidades que adopta un patrón en «encaje». El día de hoy la madre lo nota con palidez de tegumentos profunda, astenia extrema, mareo al ponerse de pie y disnea de pequeños esfuerzos. Signos vitales: FC 142 lpm, FR 26 rpm, TA 90/55 mmHg, afebril, SpO2 96%. A la auscultación cardíaca se detecta un soplo sistólico eyectivo grado II/VI holosistólico en foco pulmonar por hiperdinamia. La biometría hemática de urgencia reporta: Hemoglobina 4.6 g/dL, Hematocrito 14%, Reticulocitos 0.1% (anormalmente deprimidos), Plaquetas 210,000/mm3, Leucocitos 5,800/mm3.",
+      "question_text": "¿Cuál es la complicación hematológica potencialmente letal desencadenada por este virus y la indicación prioritaria de referencia y manejo hospitalario según la GPC?",
+      "options": {
+        "A": "Crisis aplásica transitoria por tropismo del Parvovirus B19 sobre precursores eritroides medulares; requiere referencia urgente a segundo/tercer nivel para transfusión de concentrado eritrocitario.",
+        "B": "Crisis de secuestro esplénico masivo hiperagudo; requiere referencia inmediata para laparotomía exploradora con esplenectomía de urgencia.",
+        "C": "Reacción hemolítica autoinmune fulminante por anticuerpos calientes; requiere administración inmediata de bolos de metilprednisolona e inmunoglobulina.",
+        "D": "Púrpura trombocitopénica trombótica pediátrica; requiere referencia urgente para inicio de recambio plasmático terapéutico (plasmaféresis)."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Paciente con anemia hemolítica crónica previa (esferocitosis) + signos patognomónicos de Eritema Infeccioso (5ta enfermedad / Parvovirus B19: bofetada y exantema en encaje) que desarrolla anemia grave (< 5 g/dL) con reticulocitopenia profunda (0.1%): define una Crisis Aplásica Transitoria por lisis viral de progenitores eritroides, urgencia que amerita transfusión de eritrocitos y referencia.",
+      "justificacion_gpc": "La GPC IMSS-047 destaca que el Parvovirus B19 (agente causal del Eritema Infeccioso / Quinta Enfermedad) se une al antígeno P del eritrocito y destruye selectivamente a los precursores eritroides en médula ósea. En pacientes sanos pasa desapercibido, pero en individuos con recambio eritrocitario acelerado (anemias hemolíticas como esferocitosis, anemia de células falciformes o talasemia) causa una Crisis Aplásica Transitoria letal con cese de la eritropoyesis, anemia sintomática profunda y reticulocitopenia severa (< 1%). Estos pacientes requieren referencia inmediata para transfusión sanguínea de soporte.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor por Ausencia de Reticulocitosis y Fisiopatología]: En el secuestro esplénico los reticulocitos están masivamente elevados por respuesta medular preservada y el bazo se vuelve gigante y doloroso; aquí la médula ósea está apagada por el parvovirus (0.1% de reticulocitos).",
+        "C": "[Distractor Inmunológico Erróneo]: La hemólisis autoinmune cursa con hiperreticulocitosis marcada y Coombs directo positivo, no con reticulocitopenia pura tras un exantema en bofetada.",
+        "D": "[Distractor Hematológico Distante]: La PTT se caracteriza por trombocitopenia grave con esquistocitos y anemia hemolítica microangiopática; en este caso las plaquetas son completamente normales (210,000/mm3)."
+      }
+    },
+    {
+      "id": "d06_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-047 (Exantemáticas)",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Preescolar masculino de 4 años de edad, no vacunado contra la varicela, presenta desde hace 4 días fiebre de 38.6 °C, malestar general y un exantema pleomórfico intensamente pruriginoso con lesiones en diferentes estadios de evolución («cielo estrellado»): máculas eritematosas, pápulas, vesículas translúcidas con umbilicación central («gotas de rocío sobre pétalo de rosa»), pústulas y costras secas distribuidas en cuero cabelludo, cara, tronco y extremidades. El día de hoy la madre lo revalora en consulta porque una lesión vesicular en el muslo derecho se tornó intensamente dolorosa, con eritema perilesional expansivo de 5 cm de diámetro, induración local, calor marcado, exudado purulento costroso amarillento (mielicérico) y adenitis inguinal ipsilateral dolorosa.",
+      "question_text": "¿Cuál es la complicación más frecuente de la varicela que presenta este paciente y cuáles son los agentes bacterianos etiológicos típicamente responsables según la GPC IMSS-047?",
+      "options": {
+        "A": "Sobreinfección bacteriana secundaria de piel y tejidos blandos (impétigo / celulitis) por Streptococcus pyogenes y Staphylococcus aureus.",
+        "B": "Ataxia cerebelosa aguda posinfecciosa secundaria a invasión directa del cerebelo por el Virus de Varicela-Zóster.",
+        "C": "Neumonía varicelosa intersticial primaria por diseminación hematógena visceral con daño alveolar difuso.",
+        "D": "Fascitis necrosante fulminante tipo I polimicrobiana anaerobia con trombosis microvascular cutánea profunda."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "La varicela presenta lesiones polimórficas en diferentes estadios (cielo estrellado). Su complicación más común en pediatría es la sobreinfección bacteriana cutánea por rascado, causada por Staphylococcus aureus y Streptococcus pyogenes (EBHGA), requiriendo antibióticos antiestafilocócicos.",
+      "justificacion_gpc": "La GPC IMSS-047 establece que la complicación más común de la varicela en la edad pediátrica es la sobreinfección bacteriana de la piel y tejidos blandos (impétigo, celulitis, abscesos), propiciada por la pérdida de la barrera cutánea secundaria a las vesículas y el rascado intenso por prurito. Los agentes etiológicos aislados con mayor frecuencia son Streptococcus pyogenes (Streptococcus beta-hemolítico del grupo A) y Staphylococcus aureus. El tratamiento requiere medidas higiénicas y antimicrobianos dirigidos (ej. dicloxacilina, cefalexina o clindamicina).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor Neurológico Clásico]: La ataxia cerebelosa es la complicación neurológica benigna más frecuente de la varicela (1 en 4,000 casos), pero se manifiesta por marcha atáxica, dismetría y temblor sin relación con eritema cutáneo purulento localizado.",
+        "C": "[Distractor Visceral de Adultos]: La neumonía varicelosa es la complicación más grave en adultos y mujeres embarazadas, pero es sumamente rara en preescolares inmunocompetentes y cursa con taquipnea, tos y estertores.",
+        "D": "[Distractor de Severidad Extrema]: La fascitis necrosante es una complicación letal devastadora pero infrecuente que cursa con dolor desproporcionado, flictenas hemorrágicas, anestesia cutánea y crepitación con toxicidad sistémica extrema."
+      }
+    },
+    {
+      "id": "d06_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-302 (Kawasaki)",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 16-month-old male infant is brought to the hospital on day 7 of persistent, high-spiking fevers (up to 39.7 °C). Physical examination shows bilateral non-purulent conjunctival injection with limbic sparing, erythematous cracked lips, strawberry tongue, firm and tender left anterior cervical lymph node measuring 2.2 cm, non-pitting indurated edema of the dorsal hands and feet with vivid palmar erythema, and a diffuse perineal desquamating maculopapular rash. A definitive diagnosis of complete Kawasaki disease is confirmed according to Mexican CENETEC GPC IMSS-302 and American Heart Association guidelines. The admitting resident discusses the management goals with the medical team.",
+      "question_text": "According to the GPC IMSS-302 and international pediatric guidelines, what is the critical therapeutic time window for administering high-dose Intravenous Immunoglobulin (IVIG) to reduce the risk of developing coronary artery aneurysms from 25% down to less than 4-5%?",
+      "options": {
+        "A": "Within the first 10 days from the onset of fever (optimally between the 5th and 10th day of illness).",
+        "B": "Strictly within the first 48 hours of fever onset, as efficacy drops to zero beyond day 3 of illness.",
+        "C": "Exclusively after day 14 of fever once subacute periungual desquamation has fully established.",
+        "D": "Only when coronary ectasia (Z-score > 2.5) is documented on two consecutive echocardiograms separated by 7 days."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "La ventana terapéutica ideal para la administración de IGIV (2 g/kg) en Enfermedad de Kawasaki es dentro de los primeros 10 días de inicio de la fiebre (días 5 a 10), reduciendo drásticamente la tasa de aneurismas coronarios de 25% a < 4%. Si persiste fiebre o marcadores inflamatorios elevados después del día 10, aún debe administrarse.",
+      "justificacion_gpc": "Both GPC IMSS-302 and AHA guidelines state that intravenous immunoglobulin (IVIG, 2 g/kg as a single infusion) combined with acetylsalicylic acid should be administered as early as possible within the first 10 days of fever onset, ideally between days 5 and 10. Administering IVIG within this optimal therapeutic window suppresses systemic vasculitis and reduces the incidence of coronary artery lesions/aneurysms from 20-25% to under 4-5%. If the patient presents after day 10 with ongoing systemic inflammation (persistent fever, elevated ESR/CRP), IVIG is still strongly indicated.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor by Unrealistic Window]: Diagnosing Kawasaki disease within 48 hours is almost impossible clinically (fever must last at least 5 days for classical criteria), and the effective window comfortably covers the first 10 days.",
+        "C": "[Distractor by Fatal Delay]: Waiting until day 14 allows irreversible coronary arteritis, internal elastic lamina destruction, and aneurysm formation to occur during the acute inflammatory phase.",
+        "D": "[Distractor by Reactive Harm]: Withholding IVIG until coronary aneurysms are already present negates the primary cardioprotective purpose of the therapy, which is aneurysm prevention."
+      }
+    },
+    {
+      "id": "d06_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-047 (Exantemáticas)",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A 5-year-old unimmunized girl presents with low-grade fever (38.0 °C), headache, mild non-exudative conjunctivitis, and tender prominent lymphadenopathy. Physical examination reveals exquisite retroauricular, suboccipital, and posterior cervical lymph node enlargement, as well as tiny rose-colored petechial macules on the soft palate (Forchheimer spots). A pale pink, fine maculopapular non-confluent rash appeared on her forehead and face, spreading rapidly downwards to her trunk within 24 hours without significant desquamation. Her 27-year-old mother is currently in her 9th week of gestation with an unconfirmed immunization history and is deeply anxious about potential congenital risks.",
+      "question_text": "According to Mexican epidemiologic norms (InDRE) and GPC IMSS-047, which is the gold standard diagnostic testing strategy to confirm this rubella virus infection, and what is the catastrophic fetal consequence of primary maternal infection during this first trimester?",
+      "options": {
+        "A": "Detection of Rubella virus RNA by RT-PCR in nasopharyngeal swab/urine and specific serum IgM; the highest risk is Congenital Rubella Syndrome (Gregg triad: sensorineural deafness, cataracts, and cardiac defects like patent ductus arteriosus).",
+        "B": "Heterophile antibody Monospot test; the primary risk is severe fetal hemolytic disease due to anti-D maternal alloimmunization.",
+        "C": "Rapid throat antigen detection for Group A Streptococcus; the primary risk is intrauterine fetal demise secondary to congenital rheumatic carditis.",
+        "D": "Serial IgG avidity titers performed exclusively after 6 months postpartum; the primary maternal risk is acute symmetrical polyarthritis with chronic joint destruction."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Clínica de rubéola (adenopatías retroauriculares/suboccipitales dolorosas + manchas de Forchheimer en paladar + exantema rosado centrífugo rápido). Confirmación normativa InDRE: RT-PCR en exudado nasofaríngeo/orina + IgM específica. Riesgo materno en 1er trimestre (< 12 semanas): Síndrome de Rubéola Congénita (Tríada de Gregg: hipoacusia neurosensorial, cataratas/retinopatía en sal y pimienta, cardiopatía congénita como conducto arterioso persistente o estenosis pulmonar periférica).",
+      "justificacion_gpc": "Under GPC IMSS-047 and Mexican epidemiological surveillance (InDRE), laboratory confirmation of rubella is accomplished through RT-PCR viral RNA detection in nasopharyngeal swabs or urine alongside specific anti-rubella IgM serology. The greatest public health threat of rubella is transplacental transmission during early pregnancy (especially within the first 11-12 gestational weeks, where fetal damage approaches 85-90%), leading to Congenital Rubella Syndrome (Gregg syndrome triad: sensorineural hearing loss, ocular abnormalities such as cataracts or microphthalmia, and congenital cardiac malformations like patent ductus arteriosus or branch pulmonary stenosis).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor of Incorrect Viral Pathogen]: The Monospot heterophile test evaluates Epstein-Barr virus (infectious mononucleosis), not rubella, and Rh alloimmunization is unrelated to togavirus teratogenicity.",
+        "C": "[Distractor of Incorrect Bacterial Entity]: Rapid strep tests assess Streptococcus pyogenes, and acute rheumatic fever is a post-streptococcal sequela that does not cross the placenta as a congenital malformation triad.",
+        "D": "[Distractor of Inadmissible Delay]: Waiting 6 months postpartum completely misses the critical window for prenatal counseling, fetal ultrasound monitoring, and immediate epidemiological containment required by Mexican health authorities."
+      }
+    }
+  ],
+  "code": "D06",
+  "topic_id": "D06_PED_Vacunacion_Nacional_Enfermedades_Exantematicas",
+  "topic": "Vacunación Nacional y Exantemáticas"
+}

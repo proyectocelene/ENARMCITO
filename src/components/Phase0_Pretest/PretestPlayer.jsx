@@ -34,13 +34,17 @@ import {
   Link2,
   Globe
 } from "lucide-react";
+import { getBundledPretest } from "../../data/pretests/index.js";
 
 export function PretestPlayer({ topic, onFinishTest, onBackToHub }) {
   const { currentUserId, theme } = useUser();
   const { showToast } = useToast();
   const isDark = theme === "dark";
 
-  const questions = topic.pretest?.questions || [];
+  const bundledFallback = getBundledPretest(topic.code);
+  const questions = (Array.isArray(topic.pretest?.questions) && topic.pretest.questions.length > 0)
+    ? topic.pretest.questions
+    : (bundledFallback?.questions || []);
   const storageKey = `enarmcito_pretest_answers_${currentUserId}_${topic.id}`;
 
   // Estado del importador JSON / Generador de Prompt

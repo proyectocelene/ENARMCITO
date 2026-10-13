@@ -12,6 +12,7 @@ import { Copy, Check, Layers } from "lucide-react";
 
 function CodeBlockBox({ language, codeText, onImportTsvCards }) {
   const [copied, setCopied] = useState(false);
+  const [saved, setSaved] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(codeText).then(() => {
@@ -27,6 +28,14 @@ function CodeBlockBox({ language, codeText, onImportTsvCards }) {
 
   const isTsvBlock = language === "tsv" || language === "anki" || tsvLines.length > 0;
 
+  const handleImport = async () => {
+    if (saved || !onImportTsvCards) return;
+    try {
+      await onImportTsvCards(codeText, tsvLines.length);
+      setSaved(true);
+    } catch {}
+  };
+
   return (
     <div className="relative my-2.5 rounded-xl border-2 border-slate-300 dark:border-slate-700 bg-slate-900 text-slate-100 overflow-hidden shadow-xs group">
       {/* Botones de acción flotantes en la esquina superior derecha */}
@@ -34,11 +43,16 @@ function CodeBlockBox({ language, codeText, onImportTsvCards }) {
         {isTsvBlock && tsvLines.length > 0 && onImportTsvCards && (
           <button
             type="button"
-            onClick={() => onImportTsvCards(codeText, tsvLines.length)}
-            className="px-2 py-1 rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-bold text-[10px] flex items-center gap-1 transition-all cursor-pointer shadow-xs"
+            disabled={saved}
+            onClick={handleImport}
+            className={`px-2.5 py-1 rounded-lg text-white font-bold text-[10px] flex items-center gap-1 transition-all shadow-xs ${
+              saved
+                ? "bg-emerald-600 cursor-default opacity-95"
+                : "bg-purple-600 hover:bg-purple-500 cursor-pointer active:scale-95"
+            }`}
           >
-            <Layers className="w-3 h-3" />
-            <span>Guardar {tsvLines.length} en Anki</span>
+            {saved ? <Check className="w-3 h-3 text-white" /> : <Layers className="w-3 h-3" />}
+            <span>{saved ? "✓ Guardado en Anki" : `Guardar ${tsvLines.length} en Anki`}</span>
           </button>
         )}
 

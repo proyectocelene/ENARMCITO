@@ -21,7 +21,20 @@ import { GlobalDeckView } from "./components/AnkiDeck/GlobalDeckView";
 import { savePretestAttempt } from "./firebase/firestoreService";
 
 function AppContent() {
-  const { topic, currentUserId, currentUser, loading, theme, setScheduleModalOpen, setCourseSidebarOpen } = useUser();
+  const { 
+    topic, 
+    currentUserId, 
+    currentUser, 
+    loading, 
+    theme, 
+    setScheduleModalOpen, 
+    setCourseSidebarOpen,
+    getDayStatus,
+    activeDayCode
+  } = useUser();
+
+  // Configuración de la sesión de estudio activa para Anki (Hoy, Vencidas FSRS, Acumulado, Aleatorio)
+  const [ankiStudySession, setAnkiStudySession] = useState({ mode: "today", title: null });
 
   // Vista activa sincronizada con Hash de la URL para que no se pierda al recargar
   const [activeView, setActiveView] = useState(() => {
@@ -47,6 +60,11 @@ function AppContent() {
     setActiveView(viewName);
     window.location.hash = `#/${viewName}`;
     localStorage.setItem("enarmcito_last_view", viewName);
+  };
+
+  const handleStartAnkiStudy = (sessionConfig = { mode: "today" }) => {
+    setAnkiStudySession(sessionConfig);
+    navigateToView("anki");
   };
 
   // Escuchar botón atrás / adelante del navegador
@@ -100,14 +118,18 @@ function AppContent() {
   // Navegar a una fase específica desde el Hub
   const handleSelectPhase = (phaseNumber) => {
     switch (phaseNumber) {
-      case 0:
-        // Si ya completó el Pre-Test y tiene reactivos cargados, abrir su Auditoría; si no, ir al reproductor / cargador JSON
-        if (currentUser.today_status?.phase0_done && (topic.pretest?.questions?.length || 0) > 0) {
+      case 0: {
+        const dayCode = topic?.code || activeDayCode || "D01";
+        const dayStatus = typeof getDayStatus === "function" ? getDayStatus(dayCode) : {};
+        const savedAnswers = getSavedPretestAnswers();
+        const hasAnswers = Object.keys(savedAnswers || {}).length > 0;
+        if (dayStatus.phase0_done && hasAnswers) {
           navigateToView("pretest_audit");
         } else {
           navigateToView("pretest_play");
         }
         break;
+      }
       case 1:
         navigateToView("resources");
         break;
@@ -137,6 +159,9 @@ function AppContent() {
 
   // Reiniciar el Pre-Test para volver a contestarlo desde cero
   const handleRetakePretest = () => {
+    const storageKey = `enarmcito_pretest_answers_${currentUserId}_${topic.id}`;
+    localStorage.removeItem(storageKey);
+    localStorage.removeItem(`${storageKey}_idx`);
     navigateToView("pretest_play");
   };
 
@@ -170,6 +195,7 @@ function AppContent() {
             onGoToTodayTopic={() => navigateToView("topic_day")}
             onOpenCourses={() => setCourseSidebarOpen(true)}
             onOpenSchedule={() => setScheduleModalOpen(true)}
+            onStartAnkiStudy={handleStartAnkiStudy}
           />
         )}
 
@@ -196,7 +222,7 @@ function AppContent() {
         {/* VISTA 5: PANTALLA GENERAL DE MAZOS ANKI FSRS */}
         {activeView === "global_anki" && (
           <GlobalDeckView 
-            onStartStudyDeck={() => navigateToView("anki")} 
+            onStartStudyDeck={handleStartAnkiStudy} 
           />
         )}
 
@@ -229,6 +255,8 @@ function AppContent() {
         {activeView === "anki" && (
           <AnkiCardViewer
             topic={topic}
+            studySession={ankiStudySession}
+            onChangeStudySession={setAnkiStudySession}
             onBackToHub={() => navigateToView("hub")}
             onProceedToSimulator={() => navigateToView("simulator")}
           />

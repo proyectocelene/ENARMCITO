@@ -1,0 +1,709 @@
+{
+  "topic_code": "D08",
+  "title": "Simulador Post-Estudio: OMA, Faringitis, Crup, Bronquiolitis y NAC",
+  "normativa_origen": "GPC IMSS-080 / IMSS-062",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d08_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Otitis Media Aguda Recurrente y Complicación Mastoiditis",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Lactante masculino de 14 meses de edad, acude a guardería desde los 6 meses. Antecedente de cuadro catarral de vías aéreas superiores hace 4 días. Inicia hace 24 horas con irritabilidad extrema, llanto nocturno que empeora en decúbito dorsal, fiebre cuantificada en 38.9 °C y manipulación frecuente con tracción del pabellón auricular derecho. A la exploración física: T 38.8 °C, FC 130 lpm, faringe con eritema leve sin exudados. Otoscopía neumática derecha: membrana timpánica marcadamente eritematosa, opaca, con pérdida del triángulo luminoso y de la visualización de la apófisis corta del martillo, disminución crítica de la movilidad timpánica y abombamiento franco de la pars tensa con líquido purulento retrotimpánico visible a tensión. El oído izquierdo presenta membrana timpánica íntegra y translúcida.",
+      "question_text": "De acuerdo con la GPC IMSS-062 y los criterios de la Academia Mexicana de Pediatría, ¿cuál es el signo otoscópico cardinal que confiere mayor especificidad y valor predictivo positivo para establecer el diagnóstico definitivo de Otitis Media Aguda (OMA)?",
+      "options": {
+        "A": "La presencia de eritema aislado de la membrana timpánica sin alteración en su relieve ni posición.",
+        "B": "La visualización exclusiva de niveles hidroaéreos retrotimpánicos con membrana en posición neutra.",
+        "C": "El abombamiento evidente de la membrana timpánica asociado a movilidad timpánica reducida o ausente.",
+        "D": "La retracción timpánica severa con acentuación del relieve de los huesecillos y timpanoesclerosis."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Diagnostico_Clinico_Otoscopico",
+      "gpc_algorithm_step": "Evaluación otoscópica neumática obligatoria: el abombamiento timpánico es el parámetro con mayor correlación bacteriana y especificidad diagnóstica (sensibilidad 83-90%, especificidad 97%). El eritema aislado suele ser reactivo al llanto o fiebre.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El eritema de la membrana timpánica aislado es altamente inespecífico y frecuentemente inducido por llanto vigoroso o fiebre en lactantes; no permite diferenciar miringitis o catarro de OMA verdadera sin abombamiento."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el signo otoscópico cardinal con mayor especificidad y VPP para diagnóstico de OMA en pediatría según la GPC IMSS-062?",
+        "back": "Abombamiento evidente de la membrana timpánica (asociado a movilidad disminuida en otoscopía neumática y eritema/opacidad).",
+        "tags": "D08 PED OMA Diagnostico GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Otitis Media Aguda Recurrente y Complicación Mastoiditis",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En el mismo paciente de 14 meses, la madre aporta su carnet de citas y refiere que hace apenas 20 días completó un esquema de amoxicilina oral a dosis habitual (45 mg/kg/día por 7 días) por una OMA del oído izquierdo. Además, reitera que el menor permanece en guardería 8 horas al día. El lactante tolera adecuadamente la vía oral, no presenta vómitos y no tiene antecedentes conocidos de alergias a medicamentos.",
+      "question_text": "Tomando en cuenta los factores de riesgo microbiológicos para cepas de Streptococcus pneumoniae resistente a penicilina y bacterias productoras de betalactamasas (Haemophilus influenzae y Moraxella catarrhalis), ¿cuál es el régimen antimicrobiano de primera línea normado por la GPC IMSS-062?",
+      "options": {
+        "A": "Amoxicilina sola a dosis bajas (40 a 50 mg/kg/día dividida en 3 tomas) para evitar diarrea por antibióticos.",
+        "B": "Amoxicilina con ácido clavulánico a dosis de 80 a 90 mg/kg/día (componente amoxicilina) cada 12 horas en formulación 14:1 por 10 días.",
+        "C": "Azitromicina oral a dosis de 10 mg/kg/día el día 1, seguida de 5 mg/kg/día por 4 días como esquema estándar ambulatorio.",
+        "D": "Ceftriaxona intramuscular en monodosis única de 50 mg/kg sin requerir seguimiento ni vía oral."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Primera_Linea_Tx_Resistencia",
+      "gpc_algorithm_step": "En lactantes menores de 2 años con asistencia a guardería o uso de betalactámicos en los 30 días previos, la GPC recomienda amoxicilina con ácido clavulánico a dosis alta (80-90 mg/kg/día de amoxicilina con 6.4 mg/kg/día de clavulanato, relación 14:1) para superar resistencia por PBPs alteradas y betalactamasas.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La amoxicilina a dosis habitual (40-50 mg/kg) es la primera línea en niños sin factores de riesgo; prescribirla en este lactante que tomó betalactámicos hace <30 días y va a guardería garantiza falla terapéutica por neumococo resistente o H. influenzae productor de betalactamasas."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo está indicada amoxicilina/ácido clavulánico a dosis altas (90 mg/kg/día) como primera línea en OMA pediátrica?",
+        "back": "Ante uso de betalactámicos en los últimos 30 días, asistencia a guardería, menores de 2 años con OMA grave/bilateral o síndrome otitis-conjuntivitis.",
+        "tags": "D08 PED OMA Tratamiento Resistencia GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Otitis Media Aguda Recurrente y Complicación Mastoiditis",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A las 72 horas de haber iniciado el tratamiento antimicrobiano ambulatorio, la madre acude nuevamente al servicio de urgencias pediátricas. El lactante persiste con picos febriles de 39.3 °C, llanto incesante e irritabilidad marcada. A la exploración física se aprecia tumefacción retroauricular derecha dolorosa a la palpación, con piel eritematosa, calor local, fluctuación tisular y desplazamiento anteroinferior evidente del pabellón auricular derecho. El conducto auditivo externo presenta estenosis por edema de la pared posterior.",
+      "question_text": "Ante la sospecha clínica fundamentada de mastoiditis aguda coalescente con absceso subperióstico, ¿cuál es el estudio de imagen de elección de acuerdo con la GPC IMSS-062 para evaluar la extensión ósea e intracraneal?",
+      "options": {
+        "A": "Radiografía simple de cráneo en proyecciones mastoideas de Schüller y Towne.",
+        "B": "Ecografía Doppler de tejidos blandos de la región retroauricular y cervical.",
+        "C": "Gammagrafía ósea con Tecnecio 99 para detección metabólica de osteomielitis.",
+        "D": "Tomografía computarizada contrastada de hueso temporal y peñascos con ventana ósea y encefálica."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Estudio_Imagen_Confirmatorio",
+      "gpc_algorithm_step": "La TC de peñascos/oídos contrastada es el estudio de elección ante sospecha de mastoiditis o complicaciones intratemporales/intracraneales de OMA, permitiendo valorar destrucción de trabéculas óseas, erosión cortical y descartar trombosis de seno sigmoideo o absceso epidural.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Estudio Anticuado",
+        "explanation": "Las radiografías simples de mastoides (Schüller) tienen bajísima sensibilidad, no discriminan osteólisis trabecular de velamiento mucoso y están obsoletas para la toma de decisiones quirúrgicas de urgencia según la GPC."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estudio de imagen de elección ante sospecha de mastoiditis aguda o complicación de OMA según la GPC IMSS-062?",
+        "back": "Tomografía computarizada contrastada de hueso temporal / peñascos con ventana ósea y para parénquima cerebral.",
+        "tags": "D08 PED OMA Mastoiditis TC GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Otitis Media Aguda Recurrente y Complicación Mastoiditis",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La tomografía computarizada de peñascos confirma coalescencia de las celdillas mastoideas derechas, erosión de la cortical externa con colección líquida subperióstica de 15 mm, sin afección del seno sigmoideo ni de la fosa craneal posterior. El paciente se encuentra febril (39.0 °C), pero sin datos de focalización neurológica ni meningismo.",
+      "question_text": "¿Cuál es la conducta terapéutica integral e inmediata normada por la GPC IMSS-062 y guías pediátricas para esta complicación supurativa?",
+      "options": {
+        "A": "Hospitalización urgente, cefalosporina de tercera generación parenteral (Ceftriaxona o Cefotaxima IV), miringotomía con colocación de tubo de timpanostomía e incisión/drenaje del absceso subperióstico.",
+        "B": "Manejo ambulatorio incrementando la dosis de amoxicilina/clavulanato oral y revaloración en consulta externa en 7 días.",
+        "C": "Prescripción exclusiva de gotas óticas con polimixina B, neomicina e hidrocortisona, manteniendo al menor en observación domiciliaria.",
+        "D": "Mastoidectomía radical inmediata con timpanoplastia en quirófano de urgencias sin necesidad de antibióticos intravenosos previos."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tratamiento_Complicacion_Grave",
+      "gpc_algorithm_step": "El manejo de mastoiditis coalescente con absceso subperióstico requiere hospitalización, antibiótico IV de amplio espectro (Ceftriaxona o Cefotaxima +/- Vancomicina si se sospecha S. aureus/MRSA o neumococo muy resistente) y drenaje quirúrgico que incluye miringotomía y drenaje del absceso; la mastoidectomía se reserva para falla o complicaciones graves.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El manejo ambulatorio o tópico es negligente ante una complicación supurativa con osteólisis; la mastoidectomía radical inmediata de entrada es excesiva y mutilante como primer escalón antes de intentar miringotomía y drenaje del absceso con cefalosporinas parenterales."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento de primera línea de la mastoiditis aguda coalescente con absceso subperióstico?",
+        "back": "Hospitalización + Ceftriaxona/Cefotaxima IV + miringotomía con tubo de ventilación + drenaje quirúrgico del absceso subperióstico.",
+        "tags": "D08 PED OMA Mastoiditis Manejo GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Faringoamigdalitis Estreptocócica y Complicación Supurativa",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Escolar masculino de 7 años de edad, previamente sano, es llevado al centro de salud por presentar cuadro de 36 horas de evolución con inicio súbito de odinofagia intensa que le impide deglutir sólidos, fiebre cuantificada en 39.4 °C, cefalea holocraneana y náuseas. La madre enfatiza que el menor NO presenta rinorrea, tos, conjuntivitis ni disfonía. Signos vitales: T 39.2 °C, FC 112 lpm, FR 20 rpm. A la exploración física orofaríngea: amígdalas palatinas aumentadas de tamaño (grado III), intensamente hiperémicas y congestivas, con placas de exudado blanquecino pultáceo confluente en criptas y petequias en el paladar blando. A la palpación de cuello se identifican adenomegalias cervicales anteriores bilaterales de 2 cm, firmes y muy dolorosas.",
+      "question_text": "Al aplicar la escala de Centor modificada por McIsaac para estratificar la probabilidad de infección por Streptococcus pyogenes (Estreptococo beta-hemolítico del Grupo A - EBHGA), ¿cuántos puntos acumula el paciente y cuál es la conducta clínica normada por la GPC IMSS-073?",
+      "options": {
+        "A": "1 punto; cuadro atribuible con certeza a etiología viral (rinovirus), indicándose únicamente antipiréticos y reposo.",
+        "B": "2 puntos; probabilidad intermedia (10%), debiéndose omitir tratamiento hasta obtener urocultivo y exudado nasal en 5 días.",
+        "C": "5 puntos; alta probabilidad bacteriana (50%), justificando realizar prueba rápida de antígeno estreptocócico / cultivo e iniciar tratamiento antimicrobiano dirigido.",
+        "D": "3 puntos; sospecha obligada de mononucleosis infecciosa por virus de Epstein-Barr, ameritando iniciar aciclovir oral de urgencia."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Estratificacion_Centor_McIsaac",
+      "gpc_algorithm_step": "Criterios de McIsaac: Fiebre >38°C (+1), Ausencia de tos (+1), Adenopatía cervical anterior dolorosa (+1), Exudado amigdalino (+1), Edad 3-14 años (+1). Puntuación total = 5 puntos. La GPC IMSS-073 indica prueba rápida de detección de antígeno estreptocócico o inicio de antibioticoterapia empírica dirigida.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir la presencia de exudado purulento como patognomónico exclusivo de mononucleosis o considerar erróneamente que a los 7 años la causa siempre es viral ignora el pico epidemiológico del EBHGA (5 a 15 años) y la puntuación máxima de McIsaac."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los 5 criterios de McIsaac para sospecha de faringoamigdalitis por EBHGA en pediatría?",
+        "back": "1) Fiebre >38°C, 2) Ausencia de tos, 3) Adenopatías cervicales anteriores dolorosas, 4) Exudado amigdalino, 5) Edad 3-14 años (+1; 15-44: 0; ≥45: -1).",
+        "tags": "D08 PED Faringitis McIsaac Centor GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Faringoamigdalitis Estreptocócica y Complicación Supurativa",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Se confirma el diagnóstico clínico de faringoamigdalitis aguda estreptocócica en el paciente de 7 años. Su peso corporal es de 28 kg. La madre manifiesta no conocer antecedentes alérgicos en el niño y se compromete a cumplir el tratamiento para evitar secuelas a largo plazo.",
+      "question_text": "De acuerdo con la GPC IMSS-073 / IMSS-080 y la NOM oficial en el sistema de salud mexicano, ¿cuál es el régimen antimicrobiano de primera elección para erradicar S. pyogenes y prevenir eficazmente la fiebre reumática aguda?",
+      "options": {
+        "A": "Azitromicina oral a dosis de 10 mg/kg/día por 3 días como esquema primario universal.",
+        "B": "Trimetoprim con sulfametoxazol oral (8/40 mg/kg/día) cada 12 horas durante 5 días.",
+        "C": "Ciprofloxacino oral a dosis de 20 mg/kg/día cada 12 horas por 7 días.",
+        "D": "Penicilina G benzatínica intramuscular en dosis única de 1,200,000 UI (o Amoxicilina oral 50 mg/kg/día fraccionada cada 8 horas durante 10 días)."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Primera_Linea_Tx_Penicilina",
+      "gpc_algorithm_step": "La GPC IMSS-073 establece como tratamiento de elección Penicilina G benzatínica IM: 600,000 UI en niños <27 kg y 1,200,000 UI en niños ≥27 kg en dosis única, o Amoxicilina oral 50 mg/kg/día dividida cada 8 horas por 10 días obligatorios para garantizar la erradicación de S. pyogenes y prevención de fiebre reumática.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "El uso de macrólidos cortos (azitromicina 3 días) o quinolonas no es primera línea institucional en ausencia de alergia demostrada; TMP-SMX no erradica el EBHGA ni previene la fiebre reumática."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la dosis y antibiótico de elección institucional para faringoamigdalitis por S. pyogenes en niños ≥27 kg?",
+        "back": "Penicilina G benzatínica 1,200,000 UI IM en dosis única (en <27 kg: 600,000 UI DU), o Amoxicilina oral 50 mg/kg/día por 10 días.",
+        "tags": "D08 PED Faringitis Penicilina FiebreReumatica GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Faringoamigdalitis Estreptocócica y Complicación Supurativa",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Antes de aplicar el medicamento, la abuela del menor llega a la consulta y presenta un informe médico previo: a los 4 años de edad, tras ingerir una dosis de amoxicilina por otitis, el niño presentó broncoespasmo grave con estridor, angioedema labial y facial severo y choque anafiláctico que requirió epinefrina intramuscular e intubación en terapia intensiva.",
+      "question_text": "Ante el antecedente fidedigno de reacción anafiláctica severa mediada por IgE (hipersensibilidad tipo I) a penicilinas, ¿cuál es el tratamiento antimicrobiano de elección estipulado por la GPC IMSS-073?",
+      "options": {
+        "A": "Eritromicina oral (30 a 50 mg/kg/día dividida en 3 o 4 tomas por 10 días) o Claritromicina oral (15 mg/kg/día en 2 tomas por 10 días).",
+        "B": "Cefalexina oral a dosis de 50 mg/kg/día en 4 tomas por 10 días, por carecer de cualquier riesgo de reactividad cruzada.",
+        "C": "Amoxicilina con ácido clavulánico a dosis reducida asociada a difenhidramina oral previa.",
+        "D": "Penicilina procaínica intramuscular con previa prueba cutánea de penicilina en el antebrazo."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Alergia_Penicilina_Tipo_I",
+      "gpc_algorithm_step": "En hipersensibilidad tipo I (anafilaxia/angioedema) a penicilina, los betalactámicos y las cefalosporinas están formalmente CONTRAINDICADOS por riesgo de reactividad cruzada fatal. La alternativa de elección según la GPC IMSS-073 son los macrólidos (Eritromicina, Claritromicina o Azitromicina) o Clindamicina.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Las cefalosporinas de primera generación (Cefalexina) pueden usarse en reacciones leves no mediadas por IgE (exantema maculopapular tardío), pero están estrictamente contraindicadas tras anafilaxia demostrada por reactividad cruzada en su anillo betalactámico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el fármaco de elección en faringoamigdalitis estreptocócica con antecedente de anafilaxia (reacción tipo I) a penicilina?",
+        "back": "Eritromicina oral (30-50 mg/kg/día por 10 días) o Claritromicina / Azitromicina (macrólidos) o Clindamicina. Cefalosporinas contraindicadas.",
+        "tags": "D08 PED Faringitis AlergiaPenicilina Macrolidos GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Faringoamigdalitis Estreptocócica y Complicación Supurativa",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En un escenario evolutivo alterno, la familia decidió no adquirir el antibiótico y administró únicamente paracetamol con té de manzanilla. Cinco días después, el paciente acude a urgencias en condiciones de deterioro marcado: odinofagia unilateral derecha intolerable, incapacidad para tragar la propia saliva con sialorrea continua, fiebre de 39.7 °C, voz apagada y gangosa (\"en papa caliente\") y trismo mandibular marcado que impide abrir la boca más de 1.5 cm. A la inspección de la cavidad oral con lámpara se aprecia abombamiento y desplazamiento del pilar amigdalino anterior derecho hacia la línea media, con la úvula intensamente edematosa y desviada hacia el lado contralateral izquierdo.",
+      "question_text": "¿Cuál es el diagnóstico clínico definitivo y cuál es la conducta terapéutica integral de primera línea normada por la GPC IMSS-073 y consensos quirúrgicos pediátricos?",
+      "options": {
+        "A": "Angina de Vincent; enjuagues orales con peróxido de hidrógeno y cefalexina ambulatoria.",
+        "B": "Absceso periamigdalino; hospitalización, punción-aspiración diagnóstica/terapéutica con aguja o incisión y drenaje, más antibioticoterapia intravenosa de amplio espectro (Ceftriaxona más Clindamicina o Ampicilina/Sulbactam).",
+        "C": "Mononucleosis infecciosa con obstrucción de vía aérea; administración de dexametasona intravenosa aislada y reposo absoluto.",
+        "D": "Amigdalitis hipertrófica bacteriana refractaria; programación electiva de amigdalectomía en frío en 3 meses sin necesidad de drenaje agudo."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Complicacion_Supurativa_Absceso",
+      "gpc_algorithm_step": "La tríada de trismo, voz en papa caliente y desviación contralateral de la úvula con abombamiento periamigdalino es diagnóstica de absceso periamigdalino. Requiere drenaje de la colección (aspiración con aguja o incisión) y cobertura antimicrobiana parenteral frente a EBHGA, S. aureus y anaerobios orales.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir el trismo y la voz gangosa con una simple hipertrofia amigdalina severa y no realizar el drenaje urgente condiciona riesgo inminente de diseminación al espacio parafaríngeo, mediastinitis descendente o asfixia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la tríada clínica diagnóstica del absceso periamigdalino y su manejo de primera línea?",
+        "back": "Trismo + voz en papa caliente + úvula desviada contralateralmente. Manejo: drenaje quirúrgico (aspiración/incisión) + antibióticos IV (Ampicilina/sulbactam o Ceftriaxona + Clindamicina).",
+        "tags": "D08 PED AbscesoPeriamigdalino Manejo GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Laringotraqueítis Aguda (Crup) y Diagnósticos Diferenciales de la Vía Aérea",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Lactante masculino de 16 meses de edad, con esquema de vacunación completo, es traído al servicio de urgencias a las 2:30 am. Sus padres informan que hace 48 horas inició con coriza hialina y febrícula, pero súbitamente despertó tosiendo de forma seca, ronca y metálica (\"tos perruna\" o traqueal), con llanto disfónico y dificultad respiratoria. A la exploración física: T 37.8 °C, FC 126 lpm, FR 36 rpm, SatO2 94% al aire ambiente. El menor se encuentra reactivo, hidratado, con estridor inspiratorio claramente audible en reposo sin fonendoscopio, y tiraje subcostal e intercostal leve-moderado, manteniendo una adecuada entrada de aire bilateral sin cianosis ni alteración del estado de alerta.",
+      "question_text": "Aplicando la escala de severidad de Westley, ¿cómo se clasifica el cuadro de este paciente y cuál es el tratamiento farmacológico inmediato de elección normado por la GPC IMSS-071?",
+      "options": {
+        "A": "Crup Leve; indicación de nebulizaciones de agua fría en casa y jarabe mucolítico con dextrometorfano sin esteroide.",
+        "B": "Crup Grave; intubación traqueal urgente inmediata con tubo con globo y traslado directo a unidad de cuidados intensivos.",
+        "C": "Traqueítis bacteriana; administración de vancomicina intravenosa y nebulizaciones continuas con salbutamol al 0.5%.",
+        "D": "Crup Moderado; administración inmediata de Dexametasona (0.6 mg/kg dosis única oral o IM) más L-adrenalina nebulizada (1:1000 a 0.5 mL/kg, máximo 5 mL)."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Escala_Westley_Tratamiento",
+      "gpc_algorithm_step": "Westley: Estridor en reposo (2 pts) + Tiraje leve-moderado (1-2 pts) + Entrada de aire normal (0 pts) + Cianosis ausente (0 pts) + Conciencia normal (0 pts) = 3 a 5 puntos (Crup Moderado). El manejo normado es Dexametasona (0.15 a 0.6 mg/kg DU) más L-adrenalina nebulizada (1:1000).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Manejo Incompleto",
+        "explanation": "En el crup moderado con estridor en reposo NO basta el esteroide oral solo ni el vapor frío; omitir la adrenalina nebulizada retrasa la desinflamación urgente del edema subglótico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento farmacológico de elección en Crup Moderado (estridor en reposo con tiraje leve-moderado) según la GPC IMSS-071?",
+        "back": "Dexametasona (0.15-0.6 mg/kg DU oral/IM) + L-adrenalina nebulizada (1:1000, 0.5 mL/kg hasta 5 mL con oxígeno a 4-6 L/min).",
+        "tags": "D08 PED Crup Westley Dexametasona Adrenalina GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Laringotraqueítis Aguda (Crup) y Diagnósticos Diferenciales de la Vía Aérea",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A los 25 minutos de haber recibido la micronebulización con L-adrenalina y la dosis oral de dexametasona, el paciente experimenta una mejoría clínica sustancial: el estridor en reposo desaparece por completo, el tiraje remite, la FR disminuye a 26 rpm y se le observa tranquilo en brazos de su madre. Los padres solicitan el alta inmediata manifestando que el niño \"ya está completamente curado\".",
+      "question_text": "De acuerdo con las recomendaciones de la GPC IMSS-071 y los principios de seguridad clínica en urgencias pediátricas, ¿cuál es la conducta correcta respecto a la observación médica y cuál es su sustento fisiopatológico?",
+      "options": {
+        "A": "Autorizar el alta a domicilio de inmediato, pues la adrenalina erradica de forma definitiva el edema subglótico viral.",
+        "B": "Ingresar de forma forzosa al área de terapia intensiva pediátrica por 72 horas para monitorización invasiva arterial.",
+        "C": "Mantener en observación obligatoria durante un periodo mínimo de 2 a 4 horas en urgencias, debido al riesgo de \"efecto de rebote\" por el cese de la vasoconstricción adrenérgica antes del pico genómico del corticoide.",
+        "D": "Mantener en ayuno absoluto y aplicar micronebulizaciones profilácticas de adrenalina cada 60 minutos de manera programada continua."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Efecto_Rebote_Adrenalina",
+      "gpc_algorithm_step": "La L-adrenalina tiene una vida media corta (efecto vasoconstrictor alfa-1 máximo a los 30 min, disipándose a las 2 horas). La dexametasona inicia su acción antiinflamatoria a las 1-2 horas y alcanza su pico a las 4-6 horas. El paciente debe vigilarse al menos 2 a 4 horas para descartar reaparición de estridor (\"efecto rebote\").",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El alta prematura tras la aparente resolución rápida con adrenalina nebulizada es una causa frecuente y potencialmente mortal de reingreso por insuficiencia respiratoria aguda aguda en el domicilio."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué es obligatorio mantener en observación al menos 2 a 4 horas a un niño con Crup tras micronebulizar adrenalina?",
+        "back": "Por el riesgo de 'efecto rebote' (la vasoconstricción de la adrenalina dura ~2 horas, mientras el corticoide tarda 1-2 horas en iniciar su acción génica).",
+        "tags": "D08 PED Crup Adrenalina EfectoRebote GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Laringotraqueítis Aguda (Crup) y Diagnósticos Diferenciales de la Vía Aérea",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Durante la estancia en observación del paciente con laringotraqueítis aguda, el médico interno de pregrado propone realizar una radiografía simple anteroposterior y lateral de cuello para buscar el signo del \"campanario\" o \"punta de lápiz\", y prescribe jarabe de difenhidramina con dextrometorfano para inhibir los accesos residuales de tos.",
+      "question_text": "¿Cuál es la recomendación formal establecida en la GPC IMSS-071 respecto a los estudios radiológicos y al uso de antitusígenos/sedantes en el crup típico?",
+      "options": {
+        "A": "El diagnóstico de crup es estrictamente CLÍNICO; la radiografía de cuello no debe ser rutinaria (solo ante duda diagnóstica o evolución atípica) y los sedantes/antitusígenos están formalmente contraindicados por el riesgo de depresión respiratoria y alteración del aclaramiento de secreciones.",
+        "B": "La radiografía anteroposterior de cuello es el estándar de oro confirmatorio obligatorio y debe anteceder a la dexametasona.",
+        "C": "Los antitusígenos y antihistamínicos son el pilar del tratamiento ambulatorio para suprimir el reflejo laríngeo nocivo.",
+        "D": "Se debe complementar de manera indispensable con tomografía helicoidal laríngea contrastada en todo paciente menor de 2 años."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Diagnostico_Clinico_Contraindicaciones",
+      "gpc_algorithm_step": "La GPC IMSS-071 estipula que el diagnóstico de crup es clínico; no se requiere radiografía cervical rutinaria (el signo del campanario solo aparece en 50% de los casos). Los antitusígenos, mucolíticos, descongestionantes y sedantes están formalmente desaconsejados.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio / Estudio Innecesario",
+        "explanation": "Retrasar el tratamiento médico por enviar al paciente a rayos X o sedar a un paciente con estridor son errores graves que aumentan la agitación y comprometen la ventilación alveolar."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el rol de la radiografía de cuello y los antitusígenos en el Crup según la GPC IMSS-071?",
+        "back": "Diagnóstico es CLÍNICO (Rx solo ante duda/atípicos con signo del campanario). Antitusígenos y sedantes están CONTRAINDICADOS.",
+        "tags": "D08 PED Crup Radiografia Campanario Contraindicaciones GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Laringotraqueítis Aguda (Crup) y Diagnósticos Diferenciales de la Vía Aérea",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A la sala de choque de urgencias ingresa un preescolar de 3 años, cuyos padres decidieron no aplicarle ninguna vacuna. Inicia hace 6 horas de forma súbita y fulminante con fiebre de 40.1 °C, aspecto séptico y letárgico, disnea progresiva, estridor inspiratorio apagado y afonía. El paciente se encuentra sentado e inclinado hacia adelante con el cuello en hiperextensión y la boca entreabierta, presentando sialorrea continua profusa (babeo) por incapacidad para deglutir la saliva (posición de \"trípode\").",
+      "question_text": "Ante la altísima sospecha de epiglotitis aguda bacteriana (infección supraglótica habitualmente por Haemophilus influenzae tipo b), ¿cuál de las siguientes intervenciones representa una CONTRAINDICACIÓN ABSOLUTA en el abordaje inicial?",
+      "options": {
+        "A": "Permitir que el niño permanezca en la posición que adopte espontáneamente en los brazos de sus padres para evitar el llanto.",
+        "B": "Forzar la visualización orofaríngea directa con abatelenguas o manipular la lengua sin disponer de equipo de intubación y personal experto en quirófano.",
+        "C": "Administrar oxígeno suplementario no invasivo con mascarilla sostenida suavemente por los padres sin generar agitación.",
+        "D": "Activar la alerta inmediata para movilización conjunta a quirófano con anestesiología pediátrica y otorrinolaringología."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Epiglotitis_Contraindicacion_Maniobra",
+      "gpc_algorithm_step": "En epiglotitis aguda (tríada: fiebre alta + aspecto tóxico + sialorrea/posición de trípode sin tos perruna), la inspección con abatelenguas o cualquier procedimiento invasivo que provoque agitación o llanto está estrictamente CONTRAINDICADA por el riesgo de provocar espasmo laríngeo reflejo total y paro respiratorio inmediato.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Maniobra Peligrosa",
+        "explanation": "El examen orofaríngeo con abatelenguas rutinario en faringitis o crup se convierte en un procedimiento letal cuando se realiza en una epiglotitis aguda sin vía aérea quirúrgica asegurada."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la maniobra formalmente CONTRAINDICADA en sospecha de epiglotitis aguda pediátrica?",
+        "back": "La inspección orofaríngea directa con abatelenguas o cualquier maniobra invasiva sin vía aérea asegurada en quirófano (riesgo de laringoespasmo y paro).",
+        "tags": "D08 PED Epiglotitis Contraindicacion Abatelenguas GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Bronquiolitis Aguda en el Lactante Menor",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Lactante masculino de 3 meses de edad, nacido a término, previamente sano y alimentado con fórmula. Es traído en el mes de diciembre a urgencias por presentar cuadro de 3 días de evolución caracterizado por rinorrea hialina, estornudos y febrícula de 38.0 °C. En las últimas 24 horas presenta dificultad respiratoria progresiva, taquipnea e irritabilidad con disminución del 60% en la ingesta de biberón. Signos vitales: T 37.9 °C, FC 162 lpm, FR 68 rpm, SatO2 88% al aire ambiente. A la exploración física: aleteo nasal, tiraje intercostal y subcostal moderado; a la auscultación pulmonar se aprecian sibilancias espiratorias e inspiratorias bilaterales difusas y estertores crepitantes finos bilaterales. Se trata de su primer episodio con sibilancias en la vida.",
+      "question_text": "Con base en la GPC IMSS-032 / IMSS-041, ¿cuál es el diagnóstico nosológico de certeza y cuáles son los criterios clínicos que determinan su hospitalización inmediata?",
+      "options": {
+        "A": "Crisis asmática del lactante; no amerita hospitalización y debe enviarse a domicilio con broncodilatador oral.",
+        "B": "Neumonía por Staphylococcus aureus; amerita hospitalización exclusiva por la presencia de leucocitosis periférica.",
+        "C": "Coqueluche o síndrome coqueluchoide; indicación de hospitalización solo si el menor presenta apneas registradas en UCI.",
+        "D": "Bronquiolitis aguda típica; requiere hospitalización obligada por edad menor de 6 meses, taquipnea marcada (FR >60 rpm) y desaturación de oxígeno (SatO2 <92%)."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Criterios_Hospitalizacion_Bronquiolitis",
+      "gpc_algorithm_step": "Definición de bronquiolitis: primer episodio de sibilancias precedido de síntomas catarrales en <2 años (etiología principal: VSR 75%). Criterios de hospitalización según GPC IMSS-032: edad <3-6 meses, FR >60 rpm, SatO2 <92%, dificultad respiratoria moderada a severa (Wood-Downes), rechazo al alimento/deshidratación o factores sociales.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Diagnosticar asma en un lactante de 3 meses en su primer episodio confunde la enfermedad; no hospitalizar a un menor de 3 meses con FR 68 rpm y SatO2 88% pone en riesgo crítico su vida por fatiga respiratoria."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios clínicos de hospitalización en bronquiolitis aguda según la GPC IMSS-032?",
+        "back": "Edad <3-6 meses, SatO2 <92%, FR >60 rpm, dificultad respiratoria moderada-grave (Wood-Downes), rechazo a tomas/deshidratación o apneas.",
+        "tags": "D08 PED Bronquiolitis CriteriosHospitalizacion GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Bronquiolitis Aguda en el Lactante Menor",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El paciente es ingresado al área de hospitalización de pediatría. El médico adscrito indica monitorización cardiorrespiratoria continua. La madre pregunta angustiada qué sueros o medicamentos específicos por la vena se le administrarán para \"desinflamar los bronquios y matar el virus sincitial respiratorio\".",
+      "question_text": "De acuerdo con la GPC IMSS-032 / IMSS-041 y las guías de la AAP, ¿cuál es la piedra angular del tratamiento intrahospitalario con evidencia demostrada para mejorar la morbimortalidad en este lactante?",
+      "options": {
+        "A": "Ceftriaxona intravenosa más eritromicina oral profiláctica para prevenir sobreinfección bacteriana.",
+        "B": "Nebulizaciones continuas de bromuro de ipratropio al 0.025% asociadas a hidrocortisona intravenosa.",
+        "C": "Oxigenoterapia suplementaria para mantener SatO2 ≥92%, aseo nasal suave con solución salina y soporte hidroelectrolítico (líquidos IV fraccionados debido a taquipnea >60 rpm para prevenir broncoaspiración).",
+        "D": "Fisioterapia pulmonar intensiva con vibración torácica y aspiración traqueal profunda cada hora."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Piedra_Angular_Soporte",
+      "gpc_algorithm_step": "La GPC IMSS-032 y guías internacionales enfatizan que el manejo de la bronquiolitis es de SOPORTE: 1) Oxígeno suplementario humidificado si SatO2 <92%, 2) Aspiración suave de narinas y permeabilización de vía aérea, 3) Hidratación enteral fraccionada o líquidos IV si FR >60 rpm por riesgo de broncoaspiración.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Terapia Inútil",
+        "explanation": "No existen antivirales ni antibióticos útiles de rutina en bronquiolitis típica; la sobrecarga de medicamentos nebulizados o antibióticos solo incrementa efectos adversos y costos hospitalarios."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la piedra angular del tratamiento de la bronquiolitis aguda según la GPC IMSS-032?",
+        "back": "SOPORTE: Oxígeno si SatO2 <92%, aseo nasal superficial y soporte hidroelectrolítico (ayuno y líquidos IV si FR >60 rpm para evitar broncoaspiración).",
+        "tags": "D08 PED Bronquiolitis TratamientoSoporte GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Bronquiolitis Aguda en el Lactante Menor",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Durante el pase de visita vespertino, el médico residente sugiere indicar ciclos de rescate con salbutamol en aerosol con mascarilla cada 4 horas, agregar dexametasona oral a 0.3 mg/kg/día e indicar fisioterapia torácica con percusión (\"clapping\").",
+      "question_text": "¿Cuál es la postura oficial y el nivel de evidencia sustentado por la GPC IMSS-032 respecto al empleo rutinario de broncodilatadores beta-2 agonistas, corticosteroides sistémicos y fisioterapia pulmonar en la bronquiolitis aguda?",
+      "options": {
+        "A": "Están DESACONSEJADOS de rutina; los broncodilatadores y corticoides no modifican la evolución natural, la necesidad de oxígeno ni los días de estancia hospitalaria (la fisiopatología es necrosis y taponamiento mucoso, no broncoespasmo muscular), y la fisioterapia genera estrés y desaturación.",
+        "B": "Los broncodilatadores inhalados y la dexametasona están altamente recomendados con nivel de evidencia 1A para reducir admisiones a UTI.",
+        "C": "Los corticosteroides sistémicos son de indicación obligada en todo paciente menor de 6 meses con antecedentes familiares de rinitis.",
+        "D": "La fisioterapia pulmonar percusiva es la única intervención que ha demostrado acortar la estancia hospitalaria en más del 50%."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Fisiopatologia_y_No_Uso_Esteroides_Broncodilatadores",
+      "gpc_algorithm_step": "GPC IMSS-032: En bronquiolitis NO se recomienda el uso rutinario de broncodilatadores (salbutamol), esteroides sistémicos ni fisioterapia torácica. La obstrucción bronquiolar es por detritus celulares, edema y moco (no por espasmo del músculo liso bronquial), por lo que estos fármacos carecen de eficacia y conllevan toxicidad.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El salbutamol y los esteroides son esenciales en la crisis asmática del niño mayor, pero en la bronquiolitis viral del lactante menor están formalmente desaconsejados."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué NO se recomiendan broncodilatadores ni corticoides en bronquiolitis según la GPC IMSS-032?",
+        "back": "Porque la lesión es necrosis epitelial y taponamiento mucoso bronquiolar (no broncoespasmo primario); no reducen hospitalización ni oxigenoterapia.",
+        "tags": "D08 PED Bronquiolitis Fisiopatologia SalbutamolEsteroides GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Bronquiolitis Aguda en el Lactante Menor",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "La madre del lactante comenta que su cuñada tiene un bebé de 2 meses de edad, nacido a las 28 semanas de gestación, con diagnóstico de displasia broncopulmonar (enfermedad pulmonar crónica de la prematuridad) y oxígeno domiciliario. Pregunta si existe algún método biológico disponible en el sector salud para proteger a dicho prematuro contra cuadros graves por el Virus Sincitial Respiratorio durante el invierno.",
+      "question_text": "De acuerdo con la normatividad técnica del Consejo de Salubridad General y la GPC IMSS-032, ¿cuál es el agente inmunoprofiláctico pasivo de elección y sus indicaciones clínicas de cobertura?",
+      "options": {
+        "A": "Vacuna recombinante viva atenuada contra VSR aplicada por vía intranasal al momento del nacimiento.",
+        "B": "Inmunoglobulina intravenosa humana inespecífica en infusión bimensual durante todo el periodo neonatal.",
+        "C": "Ribavirina en aerosol administrada de forma profiláctica semanal durante el primer año de vida.",
+        "D": "Palivizumab (anticuerpo monoclonal IgG1 humanizado anti-proteína F del VSR), administrado mensualmente (15 mg/kg IM, máx 5 dosis) en prematuros <32 SDG o con displasia broncopulmonar / cardiopatía congénita hemodinámicamente significativa."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Inmunoprofilaxis_Palivizumab",
+      "gpc_algorithm_step": "Palivizumab es un anticuerpo monoclonal específico contra la proteína F de fusión del VSR. Indicaciones GPC/CENETEC: lactantes prematuros <29-32 semanas de gestación, niños con displasia broncopulmonar que requirieron tratamiento en los últimos 6 meses, y cardiopatías congénitas con cortocircuito o hipertensión pulmonar significativa.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Falso Biológico",
+        "explanation": "No existe vacuna de virus vivos atenuados contra VSR en lactantes menores en la cartilla; la inmunoglobulina inespecífica no ha demostrado eficacia protectora específica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las indicaciones de Palivizumab para prevención de infección severa por VSR en México?",
+        "back": "Prematuros <32 SDG, lactantes con displasia broncopulmonar en tratamiento y cardiopatías congénitas hemodinámicamente significativas.",
+        "tags": "D08 PED Palivizumab VSR Profilaxis GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Preescolar masculino de 3 años de edad, con esquema de vacunación completo para la edad (incluyendo antineumocócica conjugada 13-valente). Es llevado a la consulta de medicina familiar por cuadro de 3 días de evolución caracterizado por fiebre cuantificada de 38.8 °C, tos productiva y decaimiento. A la exploración física: peso 15 kg, T 38.6 °C, FC 118 lpm, FR 46 rpm (taquipnea confirmada para el rango de edad de 1 a 5 años según la OMS: corte ≥40 rpm), SatO2 95% al aire ambiente. A la auscultación torácica se aprecian estertores crepitantes y signos focales de consolidación (aumento de vibraciones vocales y soplo tubario) en lóbulo inferior derecho. El paciente se encuentra hidratado, tolera adecuadamente la vía oral, no presenta tiraje severo ni cianosis, y cuenta con una red de apoyo familiar confiable.",
+      "question_text": "De acuerdo con el algoritmo terapéutico de la GPC IMSS-234 para Neumonía Adquirida en la Comunidad (NAC) no complicada de manejo ambulatorio, ¿cuál es el tratamiento antimicrobiano empírico de primera elección y su posología adecuada?",
+      "options": {
+        "A": "Azitromicina oral a dosis de 10 mg/kg/día en toma única diaria durante 3 días.",
+        "B": "Amoxicilina oral a dosis altas de 80 a 90 mg/kg/día dividida cada 8 horas durante 7 a 10 días.",
+        "C": "Amoxicilina oral a dosis habitual de 40 a 50 mg/kg/día en 2 tomas por 5 días para evitar toxicidad.",
+        "D": "Cefuroxima axetilo oral a dosis de 30 mg/kg/día fraccionada cada 12 horas por 14 días."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Primera_Linea_NAC_Ambulatoria_Dosis_Alta",
+      "gpc_algorithm_step": "En niños de 3 meses a 5 años con NAC ambulatoria típica (S. pneumoniae es el principal agente bacteriano), la primera elección es Amoxicilina a dosis alta (80-90 mg/kg/día). Esta posología es mandataria para saturar las PBPs alteradas de cepas de S. pneumoniae con sensibilidad disminuida a penicilina.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Subdosificación",
+        "explanation": "La amoxicilina a dosis convencionales (40-50 mg/kg) fracasa con frecuencia frente a neumococo resistente; los macrólidos como azitromicina tienen >30-40% de resistencia neumocócica en México y no son primera línea en NAC lobar típica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el antibiótico y dosis de primera línea en NAC típica no complicada ambulatoria en preescolares según GPC IMSS-234?",
+        "back": "Amoxicilina oral a dosis altas: 80 a 90 mg/kg/día dividida cada 8 horas por 7 a 10 días (para vencer resistencia a PBPs de S. pneumoniae).",
+        "tags": "D08 PED NAC Amoxicilina DosisAlta Neumococo GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Lactante femenino de 7 semanas de vida (mes y medio), obtenida por parto eutócico vaginal sin complicaciones a término. Es traída a consulta por presentar cuadro respiratorio subagudo de 14 días de evolución con taquipnea progresiva y accesos de tos espasmódica entrecortada (\"tos en staccato\" o en salvas cortas seguidas de pausas), pero sin fiebre en ningún momento (temperatura registrada máxima de 37.1 °C). Como antecedente relevante, presentó a los 12 días de vida secreción ocular purulenta bilateral que resolvió parcialmente con colirios. Signos vitales: FR 58 rpm, FC 144 lpm, SatO2 93% al aire ambiente. A la auscultación pulmonar se perciben estertores crepitantes bilaterales sin sibilancias. La biometría hemática muestra leucocitos de 14,200/mm³ con eosinofilia periférica del 13% (1,846 eosinófilos absolutos/mm³). La radiografía de tórax revela infiltrados intersticiales bilaterales difusos e hiperinsuflación.",
+      "question_text": "Integrando la clínica de neumonía afebril, el antecedente de conjuntivitis perinatal, la tos en staccato y la eosinofilia, ¿cuál es el agente etiológico causal más probable y el tratamiento antimicrobiano normado?",
+      "options": {
+        "A": "Virus Sincitial Respiratorio; manejo exclusivamente conservador con hidratación y oxígeno suplementario sin antimicrobianos.",
+        "B": "Bordetella pertussis; manejo urgente con ampicilina parenteral más gentamicina por 10 días.",
+        "C": "Chlamydia trachomatis; tratamiento de elección con un macrólido oral (Azitromicina 10 mg/kg/día el día 1, luego 5 mg/kg/día por 4 días, o Eritromicina 50 mg/kg/día por 14 días).",
+        "D": "Citomegalovirus congénito; indicación de ganciclovir intravenoso durante 6 semanas con monitorización de neutrófilos."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Neumonia_Afebril_Chlamydia_Trachomatis",
+      "gpc_algorithm_step": "El síndrome de neumonía afebril del lactante (1 a 3 meses) se caracteriza clásicamente por: adquisición por canal de parto, antecedente de conjuntivitis neonatal por inclusión, tos 'en staccato', ausencia de fiebre, infiltrados intersticiales y eosinofilia periférica (≥300-400/mm³). El agente patognomónico es Chlamydia trachomatis y el tratamiento de elección son los macrólidos orales.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje) / Ruido de Laboratorio",
+        "explanation": "Confundir la tos paroxística con coqueluche (tos ferina) omite el dato pivotal del antecedente de conjuntivitis neonatal, la eosinofilia marcada y la ausencia absoluta de estridor inspiratorio tipo 'whoop' o leucocitosis extrema con linfocitosis típica de Bordetella."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la tétrada clínica clásica de la neumonía por Chlamydia trachomatis en lactantes de 1 a 3 meses?",
+        "back": "1) Tos en staccato (afebril), 2) Antecedente de conjuntivitis neonatal, 3) Infiltrados intersticiales, 4) Eosinofilia periférica. Tx: Macrólidos (Azitromicina/Eritromicina).",
+        "tags": "D08 PED NAC ChlamydiaTrachomatis NeumoniaAfebril Macrolidos GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Escolar femenina de 10 años de edad, previamente sana, que inicia hace 12 días con cuadro insidioso de cefalea holocraneana, dolor faríngeo, febrícula y malestar general, al que se agregó hace 6 días tos seca persistente, espasmódica e irritativa que le impide dormir. Recibió amoxicilina oral prescrita en una farmacia durante 5 días sin ninguna mejoría. A la exploración física: aspecto general conservado, consciente, T 37.5 °C, FC 86 lpm, FR 22 rpm, SatO2 97% al aire ambiente. A la auscultación de tórax se detectan mínimos estertores subcrepitantes bilaterales teleinspiratorios y sibilancias finas aisladas. Sin embargo, la radiografía de tórax revela extensos infiltrados reticulonodulares y bronconeumónicos bilaterales difusos de predominio perihiliar y basales (evidente disociación clínico-radiológica).",
+      "question_text": "¿Cuál es el microorganismo patógeno etiológico más probable y cuál es el fármaco de elección recomendado por la GPC IMSS-234?",
+      "options": {
+        "A": "Mycoplasma pneumoniae; tratamiento de primera línea con un macrólido oral (Claritromicina 15 mg/kg/día por 10 días o Azitromicina 10 mg/kg/día por 5 días).",
+        "B": "Streptococcus pneumoniae multirresistente; indicación de Vancomicina intravenosa en hospitalización pediátrica.",
+        "C": "Staphylococcus aureus meticilino-resistente (MRSA); indicación de Linezolid oral por 14 días.",
+        "D": "Klebsiella pneumoniae adquirida en la comunidad; indicación de Amikacina intramuscular más ceftriaxona."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "NAC_Atipica_Mycoplasma_Macrolidos",
+      "gpc_algorithm_step": "En escolares y adolescentes (>5 años) con neumonía atípica, evolución subaguda/insidiosa, tos seca refractaria a betalactámicos y marcada disociación clínico-radiológica, el agente más frecuente es Mycoplasma pneumoniae (carece de pared de peptidoglucano). Los betalactámicos son intrínsecamente ineficaces y los macrólidos constituyen el tratamiento de elección.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Falla Terapéutica por Betalactámicos",
+        "explanation": "La falta de respuesta a amoxicilina no debe interpretarse como neumococo multirresistente invasor requiriendo vancomicina, sino como infección atípica por gérmenes sin pared celular (Mycoplasma) donde los betalactámicos no tienen diana farmacológica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el agente etiológico de NAC en escolares con marcada disociación clínico-radiológica y falla a amoxicilina, y su tratamiento?",
+        "back": "Mycoplasma pneumoniae. Tratamiento de elección: Macrólidos orales (Azitromicina o Claritromicina).",
+        "tags": "D08 PED NAC Mycoplasma Atipica Macrolidos GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Lactante masculino de 9 meses acude a consulta traído por sus padres por cuadro de 48 horas de fiebre de 39.1 °C, irritabilidad extrema y llanto continuo que cesó de manera súbita hace 3 horas, apareciendo inmediatamente una secreción purulenta cremosa profusa en la concha auricular y conducto auditivo externo derecho. A la otoscopía se confirma perforación timpánica pequeña central en la pars tensa con exudado purulento pulsátil. El médico pasante prescribe gotas óticas comerciales de neomicina con polimixina B y dexametasona para aplicar en el oído perforado.",
+      "question_text": "De acuerdo con las guías de práctica clínica de OMA (GPC IMSS-062) y la farmacovigilancia pediátrica, ¿cuál es la conducta terapéutica sistémica adecuada y qué advertencia estricta aplica para el oído con membrana timpánica perforada?",
+      "options": {
+        "A": "Suspender cualquier antibiótico sistémico y aplicar exclusivamente gotas óticas de gentamicina por 14 días.",
+        "B": "Realizar lavado del conducto auditivo con solución fisiológica a chorro para desimpactar la perforación y colocar tapón de gasa.",
+        "C": "Indicar timpanoplastia quirúrgica de urgencia antes de 24 horas para evitar hipoacusia neurosensorial permanente.",
+        "D": "Administrar Amoxicilina con ácido clavulánico oral a dosis altas (90 mg/kg/día) por 10 días, y CONTRAINDICAR formalmente gotas óticas que contengan aminoglucósidos (neomicina, gentamicina) debido al riesgo demostrado de ototoxicidad cocleovestibular irreversible a través de la ventana redonda."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "OMA_Perforada_Ototoxicidad_Aminoglucosidos",
+      "gpc_algorithm_step": "En OMA supurada perforada se debe mantener tratamiento antimicrobiano sistémico (Amoxicilina/clavulanato por 10 días). Está estrictamente PROHIBIDO instilar preparados óticos que contengan sustancias potencialmente ototóxicas como aminoglucósidos (neomicina, tobramicina, gentamicina) o alcohol por el riesgo de penetración directa al oído interno a través de la ventana redonda con sordera neurosensorial irreversible.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Fármaco Ototóxico",
+        "explanation": "Las gotas óticas tópicas con neomicina/polimixina están indicadas en la otitis externa con tímpano íntegro, pero su empleo en un tímpano perforado constituye una iatrogenia grave que induce sordera cocleovestibular definitiva."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué grupo de antibióticos tópicos está estrictamente contraindicado en la otitis media aguda con perforación timpánica?",
+        "back": "Aminoglucósidos tópicos (neomicina, gentamicina) por riesgo de ototoxicidad irreversible del oído interno a través de la ventana redonda.",
+        "tags": "D08 PED OMA Perforacion Ototoxicidad Aminoglucosidos GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Preescolar masculino de 4 años de edad, hospitalizado hace 72 horas por neumonía lobar derecha tratada con ampicilina intravenosa a dosis calculada. En el pase de visita matutino se constata deterioro respiratorio progresivo: persiste con fiebre de 39.5 °C, taquipnea (FR 50 rpm), aleteo nasal, tiraje intercostal y dolor de tipo pleurítico en hemitórax derecho. A la exploración física: abolición del murmullo vesicular y matidez marcada a la percusión en los dos tercios inferiores del hemitórax derecho. El ultrasonido torácico evidencia abundante colección pleural anecoica con tabicaciones fibrinosas incipientes. Se realiza toracocentesis diagnóstica obteniendo líquido turbio cuyo análisis muestra: pH 7.06, glucosa 22 mg/dL, DHL 1,940 UI/L, leucocitos 48,000/mm³ (88% neutrófilos) y tinción de Gram positiva con diplococos Gram positivos en cadenas.",
+      "question_text": "De acuerdo con los criterios bioquímicos y la GPC IMSS-234, ¿cómo se clasifica este líquido pleural y cuál es la conducta terapéutica invasiva y antimicrobiana inmediata de elección?",
+      "options": {
+        "A": "Derrame paraneumónico simple no complicado; mantener únicamente la ampicilina intravenosa y conducta expectante.",
+        "B": "Derrame paraneumónico complicado / Empiema (pH <7.20, glucosa <40 mg/dL, DHL >1000 UI/L y bacterias visibles); indicación de colocación de sonda de pleurostoma (drenaje torácico cerrado) más escalonamiento antimicrobiano parenteral con Cefotaxima o Ceftriaxona IV más Vancomicina o Clindamicina.",
+        "C": "Trasudado paraneumónico reactivo; inicio de furosemida intravenosa y restricción hídrica estricta a tercios de mantenimiento.",
+        "D": "Quilotórax bacteriano espontáneo; indicación de ayuno con nutrición parenteral total exclusiva y toracocentesis evacuadora única con aguja cada 48 horas."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Empiema_Derrame_Complicado_Pleurostomia",
+      "gpc_algorithm_step": "Criterios de derrame complicado/empiema en pediatría: pH <7.20, glucosa <40 mg/dL, DHL >1,000 UI/L, pus franco o Gram/cultivo positivo. El manejo obligatorio consiste en colocación inmediata de tubo de drenaje pleural (sonda de pleurostoma) o videotoracoscopia (VATS) y escalonamiento a cefalosporina de 3a generación IV más cobertura antineumocócica/antiestafilocócica.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Mantener solo ampicilina o realizar punciones repetidas con aguja en un derrame complicado tabicado (pH 7.06, glucosa 22) condiciona engrosamiento pleural fibroblástico (corteza) y secuelas restrictivas pulmonares permanentes."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios citoquímicos de derrame paraneumónico complicado/empiema pediátrico y su conducta?",
+        "back": "pH <7.20, glucosa <40 mg/dL, DHL >1000 UI/L, o Gram positivo. Conducta: Sonda de pleurostoma (drenaje torácico) + Ceftriaxona/Cefotaxima IV + Vancomicina.",
+        "tags": "D08 PED NAC Empiema Pleurostomia GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Severe Pediatric Community-Acquired Pneumonia and Complications",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "A 22-month-old female toddler, with an up-to-date immunization card according to the Mexican National Vaccination Scheme (including 13-valent pneumococcal conjugate vaccine and Pentavalent vaccine), is brought to the pediatric emergency triage. Her mother reports a 4-day history of high-grade fever reaching 39.5 °C, progressive productive cough, tachypnea, and poor oral intake. Physical examination reveals: body weight 11.8 kg, HR 152 bpm, RR 54 bpm (tachypnea confirmed for age >12 months: threshold ≥40 bpm), SpO2 88% on ambient air, and temperature 39.3 °C. The child is irritable, pale, and displays prominent nasal flaring, subcostal and intercostal retractions, and expiratory grunting. Pulmonary auscultation reveals tubular bronchial breathing and localized inspiratory crackles over the right lower hemithorax.",
+      "question_text": "According to the Mexican Clinical Practice Guideline (GPC IMSS-234) and World Health Organization (WHO) pediatric guidelines, what is the clinical severity categorization and required management disposition for this patient?",
+      "options": {
+        "A": "Mild community-acquired pneumonia; eligible for outpatient management with oral antipyretics and home hydration.",
+        "B": "Moderate viral bronchitis; discharge home with bronchodilator inhalers and close follow-up in 48 hours.",
+        "C": "Airway foreign body aspiration; immediate rigid bronchoscopy under general anesthesia without stabilization.",
+        "D": "Severe Community-Acquired Pneumonia with respiratory failure criteria (SpO2 <92%, expiratory grunting, severe retractions, and tachypnea >40 bpm); requiring immediate pediatric hospital admission and supplemental oxygen."
+      },
+      "correctAnswer": "D",
+      "pivot_concept": "Triage_Severity_Criteria_CAP",
+      "gpc_algorithm_step": "Under GPC IMSS-234 and WHO criteria, presence of cough/fever plus tachypnea (>40 bpm in children 1-5 years) establishes pneumonia. Presence of chest indrawing, expiratory grunting, or SpO2 <92% defines SEVERE pneumonia, demanding immediate hospitalization, supplemental oxygen therapy, and parenteral antimicrobial treatment.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Underestimating danger signs such as expiratory grunting or SpO2 88% and attempting outpatient management exposes the patient to rapid respiratory muscle exhaustion and life-threatening hypoxemia."
+      },
+      "anki_flashcard": {
+        "front": "What are the hallmark criteria defining SEVERE Community-Acquired Pneumonia in a child aged 1-5 years according to GPC IMSS-234?",
+        "back": "Tachypnea (>40 bpm) PLUS SpO2 <92%, marked chest indrawing/retractions, expiratory grunting, or inability to drink/feed. Mandatory hospitalization.",
+        "tags": "D08 PED CAP SeverePneumonia Triage English GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Severe Pediatric Community-Acquired Pneumonia and Complications",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "The toddler is promptly admitted to the pediatric intermediate care unit. Humidified low-flow oxygen is administered via nasal cannula at 2 L/min, successfully improving oxygen saturation to 95%. Intravenous access is established. The attending pediatric team is planning the diagnostic imaging and laboratory workup.",
+      "question_text": "According to the Mexican GPC IMSS-234 guidelines, which diagnostic workup is formally indicated as the initial standard of care for a pediatric patient hospitalized with severe community-acquired pneumonia?",
+      "options": {
+        "A": "High-resolution computed tomography (HRCT) of the chest with intravenous contrast as the mandatory initial screening modality.",
+        "B": "Serum procalcitonin alone without any radiological examination to avoid radiation exposure in toddlers.",
+        "C": "Standard posteroanterior (PA) and lateral chest radiography, along with two sets of blood cultures obtained prior to initiating parenteral antimicrobials.",
+        "D": "Routine bronchoscopy with bronchoalveolar lavage in all non-intubated pediatric hospital admissions."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Initial_Diagnostic_Imaging_Microbiology",
+      "gpc_algorithm_step": "GPC IMSS-234 indicates chest radiography (PA and lateral views) in all hospitalized pediatric patients to confirm alveolar consolidation, detect lobar collapse, and rule out parapneumonic complications. Blood cultures are formally recommended in patients hospitalized with severe pneumonia prior to starting parenteral antibiotics.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Estudio Inadecuado",
+        "explanation": "Ordering chest CT scan as the initial imaging modality exposes the pediatric patient to excessive unnecessary ionizing radiation without clinical justification, as conventional chest radiography is the established first-line modality."
+      },
+      "anki_flashcard": {
+        "front": "Which initial imaging study and microbiological test are recommended for pediatric patients hospitalized with severe CAP according to GPC IMSS-234?",
+        "back": "Posteroanterior (PA) and lateral chest radiography + blood cultures (hemocultivos) prior to intravenous antibiotic administration.",
+        "tags": "D08 PED CAP Radiography BloodCultures English GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Severe Pediatric Community-Acquired Pneumonia and Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The chest radiograph confirms a dense lobar consolidation in the right middle and lower lobes without pleural effusion, pneumothorax, or pneumatoceles. The complete blood count reveals a leukocyte count of 22,400/mm³ with 82% neutrophils and 8% band forms. The patient has no history of drug allergies or prior hospital admissions, and her immunization record includes the complete pneumococcal vaccine series.",
+      "question_text": "In accordance with the Mexican GPC IMSS-234 institutional algorithm, what is the parenteral first-line antimicrobial regimen of choice for a fully immunized toddler hospitalized with severe, uncomplicated typical lobar pneumonia?",
+      "options": {
+        "A": "Intravenous Ampicillin (150 to 200 mg/kg/day divided every 6 hours) or intravenous crystalline Penicillin G (200,000 to 250,000 IU/kg/day divided every 4 to 6 hours).",
+        "B": "Oral Azithromycin (10 mg/kg/day once daily for 3 days) monotherapy as the standard inpatient regimen.",
+        "C": "Intravenous Vancomycin monotherapy combined with oral Ciprofloxacin in all pediatric cases.",
+        "D": "Intravenous Meropenem plus Amikacin as universal empirical coverage for community-acquired respiratory infections."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "First_Line_Parenteral_Antimicrobial_CAP",
+      "gpc_algorithm_step": "In fully vaccinated children hospitalized with severe CAP without complications or signs of sepsis/shock, GPC IMSS-234 strongly recommends IV Ampicillin or crystalline Penicillin G as first-line therapy. Streptococcus pneumoniae remains highly susceptible to high-dose parenteral aminopenicillins, reserving cephalosporins (cefotaxime/ceftriaxone) for incomplete vaccination, unresponsiveness, or empyema.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Sobretratamiento",
+        "explanation": "Jumping directly to broad-spectrum cephalosporins, vancomycin, or carbapenems in a fully vaccinated child with uncomplicated lobar pneumonia violates institutional stewardship protocols and drives multidrug resistance."
+      },
+      "anki_flashcard": {
+        "front": "What is the first-line intravenous antibiotic recommended by GPC IMSS-234 for fully vaccinated children hospitalized with severe lobar CAP?",
+        "back": "Intravenous Ampicillin (150-200 mg/kg/day div q6h) or crystalline Penicillin G (200,000-250,000 IU/kg/day).",
+        "tags": "D08 PED CAP Ampicillin Parenteral Inpatient English GPC"
+      }
+    },
+    {
+      "id": "d08_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Severe Pediatric Community-Acquired Pneumonia and Complications",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Seventy-two hours after hospital admission and continuous intravenous ampicillin therapy at optimal doses, the patient fails to show clinical improvement. She exhibits persistent high-grade spikes of fever (39.4 °C), worsening tachypnea (RR 56 bpm), and new-onset asymmetrical right hemithorax expansion with dullness to percussion and absent vesicular breath sounds over the entire right hemithorax. Point-of-care thoracic ultrasound reveals a massive, loculated pleural collection with thick fibrin septations. Diagnostic thoracentesis yields frank purulent cloudy fluid: pH 7.04, glucose 18 mg/dL, LDH 2,450 IU/L, and Gram stain demonstrates Gram-positive diplococci in pairs and short chains (Streptococcus pneumoniae).",
+      "question_text": "According to the Mexican GPC IMSS-234 and pediatric thoracic surgery consensus guidelines, what is the mandatory escalation strategy (both procedural drainage and antimicrobial regimen)?",
+      "options": {
+        "A": "Maintain ampicillin monotherapy unchanged and perform daily therapeutic needle aspiration until the effusion resolves spontaneously.",
+        "B": "Urgent chest tube thoracostomy (pleurostomy) drainage combined with intrapleural fibrinolytic therapy (alteplase/urokinase) or video-assisted thoracoscopic surgery (VATS) decortication, along with antimicrobial escalation to a third-generation cephalosporin (Ceftriaxone or Cefotaxime IV) plus Vancomycin or Clindamycin.",
+        "C": "Immediate emergency open pneumonectomy and discontinuation of all chest tube placement attempts.",
+        "D": "Discharge home on oral amoxicillin/clavulanic acid with outpatient chest ultrasound in 3 weeks."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Pediatric_Empyema_Management_Escalation",
+      "gpc_algorithm_step": "Treatment failure at 48-72h in pediatric CAP mandates ruling out parapneumonic empyema. Frank purulence or pH <7.20, glucose <40 mg/dL, and LDH >1000 IU/L confirms empyema. Management requires definitive pleural evacuation (chest tube thoracostomy with fibrinolytics or early VATS decortication) and escalating antibiotics to a 3rd-generation cephalosporin (Ceftriaxone/Cefotaxime) plus anti-staphylococcal/pneumococcal coverage (Vancomycin/Clindamycin).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Falla Terapéutica",
+        "explanation": "Persisting with ampicillin or relying on repeated needle taps in a loculated, septated empyema with pH 7.04 leads to pleural thickening, pulmonary entrapment, and permanent restrictive lung disease."
+      },
+      "anki_flashcard": {
+        "front": "What is the definitive therapeutic escalation for pediatric loculated parapneumonic empyema failing initial beta-lactam therapy?",
+        "back": "Chest tube pleurostomy with intrapleural fibrinolytics (or early VATS decortication) + antimicrobial escalation to Ceftriaxone/Cefotaxime IV + Vancomycin/Clindamycin.",
+        "tags": "D08 PED CAP Empyema VATS Ceftriaxone English GPC"
+      }
+    }
+  ]
+}

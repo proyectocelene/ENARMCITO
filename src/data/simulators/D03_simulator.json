@@ -1,0 +1,709 @@
+{
+  "topic_code": "D03",
+  "title": "Simulador Post-Estudio: IAMCEST / Síndromes Coronarios Agudos",
+  "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d03_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: IAMCEST Anteroseptal en Segundo Nivel sin Hemodinamia y Estrategia Farmacoinvasiva",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 76 años, con antecedentes de diabetes mellitus tipo 2 de 15 años de evolución e hipertensión arterial sistémica, acude al servicio de urgencias de un Hospital General de Zona (HGZ de segundo nivel) refiriendo dolor retroesternal opresivo de 70 minutos de evolución, intensidad 9/10, irradiado a mandíbula y brazo izquierdo, acompañado de diaforesis profusa y náuseas. Signos vitales: TA 155/90 mmHg, FC 88 lpm, FR 20 rpm, SpO2 94% al aire ambiente, glucemia capilar 210 mg/dL. El electrocardiograma de 12 derivaciones obtenido a los 6 minutos del ingreso muestra elevación del segmento ST de 3 mm en derivaciones V1 a V4 con ondas T acuminadas hiperagudas e infradesnivel especular en DII, DIII y aVF. El hospital no cuenta con sala de hemodinamia. El centro hospitalario de tercer nivel con capacidad de Intervención Coronaria Percutánea (ICP) disponible las 24 horas se encuentra a 130 km, estimándose un tiempo de traslado en ambulancia y apertura de vaso de 160 minutos.",
+      "question_text": "De acuerdo con el algoritmo del Código Infarto IMSS (GPC IMSS-357-21), ¿cuál es la conducta de reperfusión prioritaria y su ventana de tiempo meta institucional?",
+      "options": {
+        "A": "Fibrinólisis farmacológica intravenosa inmediata con tiempo meta puerta-aguja ≤ 30 minutos",
+        "B": "Traslado urgente en ambulancia para ICP primaria con meta puerta-balón ≤ 120 minutos",
+        "C": "Toma seriada de troponina I ultrasensible esperando confirmación a los 60 minutos antes de definir reperfusión",
+        "D": "Administración de bolo de heparina no fraccionada y realización de angiotomografía coronaria de urgencia"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Ventana_Reperfusion_Fibrinolisis_vs_ICP",
+      "gpc_algorithm_step": "GPC IMSS-357-21: Si el paciente se presenta en un hospital sin capacidad para ICP y el tiempo estimado desde el primer contacto médico (PCM) hasta el inflado del balón supera los 120 minutos, la estrategia de elección es la fibrinólisis farmacológica inmediata, con tiempo meta puerta-aguja ≤ 30 minutos.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La ICP primaria es el tratamiento ideal cuando está disponible en ≤ 120 minutos; sin embargo, retrasar la reperfusión por un traslado de 160 minutos incrementa drásticamente la necrosis transmural y la mortalidad en comparación con la fibrinólisis inmediata in situ."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo se indica fibrinólisis inmediata con meta puerta-aguja ≤ 30 min en IAMCEST según GPC IMSS-357-21?",
+        "back": "Cuando el paciente se encuentra en una unidad sin hemodinamia y el tiempo estimado para lograr la apertura del vaso mediante ICP primaria es > 120 minutos desde el primer contacto médico.",
+        "tags": "D03 IAMCEST Fibrinólisis GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: IAMCEST Anteroseptal en Segundo Nivel sin Hemodinamia y Estrategia Farmacoinvasiva",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Se decide administrar fibrinólisis farmacológica en este paciente (76 años, peso estimado 70 kg, creatinina sérica 1.3 mg/dL, TFG calculada 52 mL/min/1.73m²). El agente fibrinolítico disponible en el carro rojo de la unidad es Tenecteplasa (TNK-tPA). El médico pasante prepara los fármacos coadyuvantes y solicita la confirmación de las dosis exactas para iniciar el protocolo institucional de Código Infarto.",
+      "question_text": "Considerando la edad y las directrices de seguridad de la GPC IMSS-357-21 para prevenir hemorragia intracraneal, ¿cuál es el esquema farmacológico de fibrinólisis y coadyuvancia indicado?",
+      "options": {
+        "A": "Tenecteplasa 35 mg bolo IV completo, bolo IV de enoxaparina 30 mg seguido de 1 mg/kg SC cada 12 h, y clopidogrel 300 mg dosis de carga",
+        "B": "Tenecteplasa 17.5 mg bolo IV (reducción al 50% de la dosis), enoxaparina 0.75 mg/kg SC cada 12 h sin bolo IV, y clopidogrel 75 mg sin dosis de carga",
+        "C": "Alteplasa 100 mg infusión en 90 min, enoxaparina 1 mg/kg SC cada 24 h y dosis de carga de prasugrel 60 mg",
+        "D": "Tenecteplasa 17.5 mg bolo IV, fondaparinux 2.5 mg bolo IV y dosis de carga de clopidogrel 600 mg"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Ajuste_Dosis_Anciano_Fibrinolisis",
+      "gpc_algorithm_step": "GPC IMSS-357-21: En pacientes ≥ 75 años: 1) La dosis de Tenecteplasa se reduce al 50% para abatir el riesgo de hemorragia intracraneal (estudio STREAM). 2) La Enoxaparina se inicia a 0.75 mg/kg SC cada 12 h (máx 75 mg) OMITIENDO el bolo IV de 30 mg. 3) El Clopidogrel se inicia con dosis de mantenimiento de 75 mg/día OMITIENDO la dosis de carga de 300 mg.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El esquema de bolo completo de TNK (35 mg), bolo IV de enoxaparina de 30 mg y carga de clopidogrel de 300 mg es el estándar para < 75 años, pero administrarlo en un anciano de 76 años dispara la incidencia de EVC hemorrágico fatal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los 3 ajustes farmacológicos obligatorios en pacientes ≥ 75 años que reciben fibrinólisis en IAMCEST?",
+        "back": "1. Tenecteplasa: reducción de dosis al 50%.\n2. Enoxaparina: 0.75 mg/kg SC c/12h SIN bolo IV.\n3. Clopidogrel: 75 mg VO SIN dosis de carga de 300 mg.",
+        "tags": "D03 IAMCEST Farmacología Ancianos GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: IAMCEST Anteroseptal en Segundo Nivel sin Hemodinamia y Estrategia Farmacoinvasiva",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "A los 90 minutos de haber finalizado la administración del fibrinolítico, el paciente refiere alivio sustancial del dolor precordial (disminución de 9/10 a 1/10). El electrocardiograma de control muestra un descenso del 65% en la elevación del segmento ST en las derivaciones V1-V4 en comparación con el trazo basal. En el monitor de telemetría se observa de forma transitoria un ritmo idioventricular acelerado (RIVA) a 78 lpm autolimitado. El paciente se encuentra hemodinámicamente estable con TA 130/80 mmHg y FC 76 lpm.",
+      "question_text": "De acuerdo con los criterios de reperfusión de la GPC IMSS-357-21, ¿cuál es la interpretación clínica y la conducta asistencial subsecuente?",
+      "options": {
+        "A": "Fibrinólisis fallida por presencia de ectopia ventricular; amerita traslado de emergencia para ICP de rescate inmediata",
+        "B": "Fibrinólisis exitosa; se debe programar coronariografía rutinaria (estrategia farmacoinvasiva) en una ventana de 2 a 24 horas",
+        "C": "Reoclusión coronaria aguda; requiere administración inmediata de una segunda dosis de tenecteplasa",
+        "D": "Reperfusión definitiva curativa; el paciente puede ser egresado a domicilio en 24 horas sin requerir cateterismo"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Criterios_Reperfusion_Exitosa_Estrategia_Farmacoinvasiva",
+      "gpc_algorithm_step": "GPC IMSS-357-21: Los criterios de reperfusión exitosa a los 60-90 min son: resolución del ST > 50%, alivio del dolor y arritmias de reperfusión (RIVA). Ante una lisis exitosa, la indicación obligatoria es la estrategia farmacoinvasiva: traslado para coronariografía diagnóstica e intervención de rutina entre las 2 y 24 horas posteriores.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Considerar que el éxito clínico y electrocardiográfico exime al paciente del cateterismo coronario es un error grave; la placa rota inestable persiste y requiere angioplastia rutinaria dentro de las 24 horas para evitar la reoclusión."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios de fibrinólisis exitosa a los 60-90 min y cuál es la conducta siguiente según GPC?",
+        "back": "Criterios: Descenso de elevación del ST > 50%, alivio del dolor y arritmias de reperfusión (RIVA).\nConducta: Estrategia farmacoinvasiva (coronariografía e ICP de rutina en 2 a 24 horas).",
+        "tags": "D03 IAMCEST Reperfusión Farmacoinvasiva GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: IAMCEST Anteroseptal en Segundo Nivel sin Hemodinamia y Estrategia Farmacoinvasiva",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Durante la preparación del traslado en ambulancia hacia el centro de tercer nivel para la realización de la estrategia farmacoinvasiva dentro de la ventana de 24 horas, el monitor de signos vitales registra salvas de extrasístoles ventriculares monomórficas asintomáticas (4 por minuto). El paciente se mantiene consciente, orientado, con TA 128/78 mmHg, FC 74 lpm y SpO2 96%. El médico del servicio de traslado pregunta qué antiarrítmico profiláctico intravenoso debe indicarse durante el trayecto.",
+      "question_text": "¿Cuál es la recomendación explícita de la GPC IMSS-357-21 respecto al empleo de fármacos antiarrítmicos profilácticos en esta condición?",
+      "options": {
+        "A": "Bolo intravenoso de lidocaína a 1 mg/kg seguido de infusión a 2 mg/min para erradicar las extrasístoles",
+        "B": "Infusión continua de amiodarona a 1 mg/min durante las primeras 6 horas de traslado",
+        "C": "Vigilancia electrocardiográfica continua y corrección electrolítica; los antiarrítmicos profilácticos están contraindicados",
+        "D": "Administración de sulfato de magnesio 2 g IV en bolo lento e iniciar flecainida oral"
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Contraindicacion_Antiarritmicos_Profilacticos",
+      "gpc_algorithm_step": "GPC IMSS-357-21: Se contraindica formalmente el uso profiláctico de fármacos antiarrítmicos (lidocaína, amiodarona, etc.) en pacientes con IAMCEST para suprimir extrasístoles ventriculares o arritmias de reperfusión asintomáticas, debido a que aumentan la mortalidad por asistolia y bradicardia extrema sin prevenir eventos letales.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "El empleo de lidocaína profiláctica fue una práctica empírica histórica común; sin embargo, los ensayos clínicos contemporáneos demostraron incremento en la mortalidad por colapso hemodinámico y bloqueo AV."
+      },
+      "anki_flashcard": {
+        "front": "¿Está indicado el uso de antiarrítmicos profilácticos (ej. lidocaína o amiodarona) para extrasístoles asintomáticas en IAMCEST?",
+        "back": "NO, están contraindicados. No reducen la mortalidad y aumentan el riesgo de asistolia y bloqueo auriculoventricular letal.",
+        "tags": "D03 IAMCEST Arritmias Contraindicaciones GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: IAM de Cara Inferior con Extensión a Ventrículo Derecho y Trastornos de Conducción",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Hombre de 63 años, sin antecedentes crónicos conocidos, ingresa al área de choque con dolor precordial opresivo de 2 horas de evolución, náusea intensa y sensación de mareo. A la exploración física: TA 85/50 mmHg, FC 52 lpm, FR 18 rpm, SpO2 93% al aire ambiente. Ruidos cardíacos rítmicos, hipofonéticos, sin soplos. Se aprecia marcada ingurgitación yugular visible a 45 grados (ingurgitación yugular grado III) que se incrementa paradójicamente durante la inspiración profunda (signo de Kussmaul positivo). A la auscultación pulmonar: murmullo vesicular completamente limpio y simétrico bilateralmente, sin estertores crepitantes ni sibilancias. El ECG estándar de 12 derivaciones muestra elevación del segmento ST de 3 mm en DII, DIII y aVF, con infradesnivel en DI y aVL.",
+      "question_text": "Ante la tríada clínica de hipotensión, ingurgitación yugular y campos pulmonares limpios asociada a IAM inferior, ¿cuál es el estudio electrocardiográfico obligatorio inmediato según la GPC IMSS-357-21?",
+      "options": {
+        "A": "Registro inmediato de derivaciones precordiales derechas (V3R y V4R)",
+        "B": "Registro exclusivo de derivaciones precordiales posteriores (V7, V8 y V9)",
+        "C": "Ecocardiograma transesofágico urgente para valorar contractilidad tricuspídea",
+        "D": "Colocación de catéter venoso central para medir presión venosa central antes del ECG"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Diagnostico_Extension_Ventriculo_Derecho",
+      "gpc_algorithm_step": "GPC IMSS-357-21: En todo paciente con IAM de cara inferior con hipotensión arterial o bajo gasto, es obligatorio realizar de inmediato un ECG con derivaciones derechas (V3R y V4R); una elevación del segmento ST ≥ 1 mm (o ≥ 0.5 mm) en V4R confirma afección hemodinámica del ventrículo derecho.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Solicitar derivaciones posteriores V7-V9 cuando el cuadro clínico exhibe la clásica tríada de Kussmaul (ventrículo derecho) retrasa la toma de V3R-V4R, que es la acción diagnóstica determinante para el manejo hidroelectrolítico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la tríada clínica del infarto de ventrículo derecho y qué estudio electrocardiográfico lo confirma?",
+        "back": "Tríada: Hipotensión arterial + Ingurgitación yugular + Campos pulmonares limpios.\nConfirmación: Elevación del segmento ST ≥ 1 mm (o ≥ 0.5 mm) en derivación V4R (derivaciones derechas).",
+        "tags": "D03 IAM-Inferior Ventrículo-Derecho Diagnóstico GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: IAM de Cara Inferior con Extensión a Ventrículo Derecho y Trastornos de Conducción",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El médico de guardia, al recibir al paciente con dolor torácico isquémico agudo, le administró un comprimido de nitroglicerina 0.5 mg sublingual y 3 mg de morfina IV. A los 4 minutos, la presión arterial se desploma a 60/30 mmHg, el paciente presenta palidez extrema, diaforesis fría, letargo y los pulsos periféricos se vuelven apenas perceptibles. La derivación V4R confirma una elevación de 2 mm del segmento ST.",
+      "question_text": "¿Cuál es la intervención de rescate hemodinámico prioritaria indicada por la GPC IMSS-357-21 y cuál es su sustento fisiopatológico?",
+      "options": {
+        "A": "Administración rápida de solución salina al 0.9% en cargas de 500 a 1000 mL para restaurar la precarga ventricular derecha",
+        "B": "Bolo intravenoso de furosemida a 40 mg para disminuir la presión retrógrada venosa yugular",
+        "C": "Infusión inmediata de nitroprusiato de sodio para disminuir la postcarga ventricular sistémica",
+        "D": "Administración de propranolol IV para reducir el consumo miocárdico de oxígeno"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo_Hemodinamico_Infarto_VD",
+      "gpc_algorithm_step": "GPC IMSS-357-21: En el infarto de ventrículo derecho, el gasto cardíaco depende estrictamente de la precarga. Los vasodilatadores (nitratos, morfina) y diuréticos están CONTRAINDICADOS. Ante hipotensión inducida por vasodilatadores, la medida terapéutica urgente de primera línea es la carga de volumen con solución salina isotónica al 0.9%.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La nitroglicerina y los diuréticos son estándar en el infarto anterior congestivo, pero en el infarto de ventrículo derecho provocan vasodilatación venosa masiva, caída crítica del llenado diastólico de VD y choque por colapso de precarga."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué están contraindicados los nitratos y diuréticos en el infarto de ventrículo derecho y cuál es el tratamiento de rescate?",
+        "back": "Contraindicados porque abaten la precarga (de la cual depende el gasto del VD colapsado) causando hipotensión profunda.\nTratamiento: Cargas de volumen con solución salina al 0.9%.",
+        "tags": "D03 Infarto-VD Fisiopatología Cristaloides GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: IAM de Cara Inferior con Extensión a Ventrículo Derecho y Trastornos de Conducción",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Tras recibir 1500 mL de solución salina al 0.9%, la TA mejora parcialmente a 82/50 mmHg, pero el paciente continúa obnubilado. En el monitor se observa frecuencia cardíaca en 32 lpm; el trazo electrocardiográfico demuestra ondas P a una frecuencia de 80 lpm totalmente disociadas de complejos QRS anchos que laten a 32 lpm (bloqueo auriculoventricular completo / de tercer grado). Se administra atropina 1 mg IV en bolo en dos ocasiones sin mejoría alguna de la frecuencia cardíaca ni de la presión arterial.",
+      "question_text": "De acuerdo con las guías de práctica clínica mexicanas (GPC IMSS-357-21), ¿cuál es la conducta de soporte cardiovascular indicada de manera urgente?",
+      "options": {
+        "A": "Colocación inmediata de marcapasos transitorio (transcutáneo provisional seguido de transvenoso)",
+        "B": "Cardioversión eléctrica sincronizada a 100 Joules",
+        "C": "Administración de bolo intravenoso de amiodarona 300 mg en infusión rápida",
+        "D": "Digitalización rápida intravenosa con digoxina 0.5 mg"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo_Bloqueo_AV_Completo_IAM",
+      "gpc_algorithm_step": "GPC IMSS-357-21: El bloqueo auriculoventricular de alto grado o completo asociado a IAM inferior con inestabilidad hemodinámica y refractariedad a atropina tiene indicación de clase I para estimulación eléctrica cardíaca de urgencia mediante marcapasos transitorio (transcutáneo como puente inmediato al transvenoso).",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "La cardioversión eléctrica está indicada para taquiarritmias inestables; en una bradiarritmia con BAVC está formalmente contraindicada. La amiodarona y la digoxina deprimirían aún más la conducción AV."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta de primera línea ante bloqueo AV completo inestable refractario a atropina en IAM inferior?",
+        "back": "Colocación inmediata de marcapasos transitorio (transcutáneo provisional seguido de transvenoso definitivo transitorio).",
+        "tags": "D03 BAVC Marcapasos IAM-Inferior GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: IAM de Cara Inferior con Extensión a Ventrículo Derecho y Trastornos de Conducción",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Se analiza exhaustivamente el electrocardiograma basal de ingreso del paciente: elevación del segmento ST en DIII (4.0 mm) notablemente superior a la elevación del ST en DII (1.5 mm), asociado a infradesnivel del segmento ST de 2.0 mm en DI y aVL, e infradesnivel del ST en derivaciones precordiales V1-V2 menor que la elevación en V4R.",
+      "question_text": "Con base en estos criterios electrocardiográficos descritos en la GPC IMSS-357-21 para identificar el territorio coronario anatómico, ¿cuál es la arteria coronaria responsable y el nivel de oclusión más probable?",
+      "options": {
+        "A": "Arteria circunfleja izquierda en su segmento proximal",
+        "B": "Arteria coronaria derecha en su segmento proximal (previo al origen de ramas ventriculares derechas)",
+        "C": "Arteria descendente anterior con anatomía recurrente (lesión tipo Wrap-around)",
+        "D": "Rama descendente posterior originada de la circunfleja en un sistema con dominancia izquierda"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Arteria_Culpable_Coronaria_Derecha_Proximal",
+      "gpc_algorithm_step": "GPC IMSS-357-21: Criterios electrocardiográficos de oclusión proximal de Coronaria Derecha (CD): 1) Elevación del ST en DIII > DII; 2) Infradesnivel del ST en DI y aVL (> 1 mm); 3) Elevación del ST en derivaciones derechas (V1, V3R, V4R). Si la responsable fuera la Circunfleja, la elevación del ST en DII sería ≥ DIII y aVL mostraría elevación o isodifasismo.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Confundir la afección de la coronaria derecha con la arteria circunfleja en un IAM inferior; el signo distintivo clave es que la CD produce DIII > DII e infradesnivel especular en DI y aVL, además del compromiso del VD."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué datos del ECG diferencian la oclusión de la Coronaria Derecha proximal frente a la Circunfleja en el IAM inferior?",
+        "back": "Coronaria Derecha proximal: ST en DIII > DII, infradesnivel en DI y aVL, y elevación en V4R.\nCircunfleja: ST en DII ≥ DIII, DI y aVL normales o con elevación del ST.",
+        "tags": "D03 IAM-Inferior ECG Arteria-Culpable GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Complicaciones Mecánicas Post-IAM y Choque Cardiogénico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 68 años con hipertensión arterial sistémica mal controlada. Refiere que hace 4 días presentó opresión precordial opresiva que duró varias horas, pero no solicitó atención médica. El día de hoy es traída a urgencias por disnea de reposo súbita, ortopnea extrema y agitación psicomotriz de 3 horas de evolución. Signos vitales: TA 80/50 mmHg, FC 124 lpm, FR 34 rpm, SpO2 82% con oxígeno suplementario por mascarilla reservorio. A la exploración física: extremidades frías, diaforesis, ingurgitación yugular a 45 grados. A la auscultación pulmonar se detectan estertores crepitantes húmedos bilaterales diseminados en ambos hemitórax ('marea montante'). A la auscultación cardíaca se ausculta ritmo de galope por tercer ruido (R3) y la presencia de un soplo holosistólico nuevo grado IV/VI, de tonalidad áspera, con epicentro en el ápex y notable irradiación hacia la línea axilar anterior. No se palpa frémito torácico paraesternal.",
+      "question_text": "¿Cuál es la complicación mecánica aguda post-infarto que explica con mayor exactitud el cuadro clínico de esta paciente?",
+      "options": {
+        "A": "Rotura aguda de músculo papilar con insuficiencia mitral masiva",
+        "B": "Rotura del tabique interventricular con cortocircuito izquierda a derecha",
+        "C": "Rotura de la pared libre del ventrículo izquierdo con hemopericardio a tensión",
+        "D": "Aneurisma ventricular izquierdo crónico con insuficiencia cardíaca descompensada"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Complicacion_Mecanica_Rotura_Papilar",
+      "gpc_algorithm_step": "GPC IMSS-357-21: La rotura aguda de músculo papilar se presenta típicamente entre los días 2 a 7 post-IAM (con mayor frecuencia el posteromedial); cursa con insuficiencia mitral masiva, nuevo soplo holosistólico apical irradiado a la axila SIN frémito táctil, y edema agudo pulmonar súbito con choque cardiogénico (Killip-Kimball III-IV).",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "La rotura del tabique interventricular (CIV) produce un soplo holosistólico en borde paraesternal izquierdo bajo que típicamente se acompaña de FRÉMITO palpable, dato que está ausente en la rotura de músculo papilar."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se diferencia clínicamente la rotura de músculo papilar de la rotura de tabique interventricular post-IAM?",
+        "back": "Rotura de papilar: Soplo holosistólico en ÁPEX irradiado a AXILA, SIN frémito.\nRotura de tabique (CIV): Soplo holosistólico en BORDE PARAESTERNAL IZQUIERDO, CON FRÉMITO táctil.",
+        "tags": "D03 Complicaciones-Mecánicas Soplo Frémito GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Complicaciones Mecánicas Post-IAM y Choque Cardiogénico",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "La paciente del caso anterior se encuentra en choque cardiogénico evidente (Killip-Kimball IV). El equipo médico de urgencias requiere confirmar de inmediato el defecto anatómico para coordinar la intervención con cirugía cardiovascular.",
+      "question_text": "De acuerdo con la GPC IMSS-357-21, ¿cuál es el estudio de imagen y gabinete prioritario a la cabecera del paciente con mayor rendimiento diagnóstico?",
+      "options": {
+        "A": "Ecocardiograma transtorácico urgente con Doppler color",
+        "B": "Angiotomografía de tórax de alta resolución contrastada",
+        "C": "Resonancia magnética cardíaca urgente con gadolinio",
+        "D": "Coronariografía percutánea diagnóstica sin estudios de imagen no invasivos"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Estudio_Diagnostico_Complicaciones_Mecanicas",
+      "gpc_algorithm_step": "GPC IMSS-357-21: El ecocardiograma transtorácico urgente a la cabecera del enfermo (PoCUS / ETT) es la herramienta de primera línea indiscutible para el diagnóstico de complicaciones mecánicas post-IAM; identifica el flail o prolapso de la valva mitral, la rotura del cuerpo del papilar y la severidad del jet de regurgitación.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "La resonancia magnética cardíaca o angio-TAC son inviables y peligrosas en un paciente en choque cardiogénico e inestabilidad ventilatoria extrema."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estudio de elección inmediato para diagnosticar una complicación mecánica post-IAM a la cabecera del paciente?",
+        "back": "Ecocardiograma transtorácico urgente con Doppler color (ETT / PoCUS).",
+        "tags": "D03 Ecocardiograma Complicaciones-Mecánicas GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Complicaciones Mecánicas Post-IAM y Choque Cardiogénico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El ecocardiograma transtorácico confirma la rotura completa de la cabeza posteromedial del músculo papilar con insuficiencia mitral masiva excéntrica y aurícula izquierda no dilatada sometida a hipertensión venocapilar extrema. La paciente persiste con TA 78/45 mmHg y acidosis láctica progresiva a pesar de intubación orotraqueal e infusión de norepinefrina.",
+      "question_text": "Según la GPC IMSS-357-21, ¿cuál es el dispositivo de asistencia circulatoria mecánica de primera línea indicado como puente hemodinámico hacia la resolución definitiva?",
+      "options": {
+        "A": "Balón de Contrapulsación Intraaórtico (BCIAo), ya que reduce la poscarga sistólica e incrementa la perfusión miocárdica diastólica",
+        "B": "Oxigenación por membrana extracorpórea veno-venosa (ECMO VV) para corrección exclusiva de la hipoxemia",
+        "C": "Asistencia ventricular izquierda tipo dispositivo de flujo continuo axial (Impella) exclusivamente, por estar contraindicado el balón intraaórtico",
+        "D": "Filtro en vena cava inferior para prevención de trombosis venosa profunda secundaria al choque"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Balon_Contrapulsacion_Intraaortico_Indicacion",
+      "gpc_algorithm_step": "GPC IMSS-357-21: En choque cardiogénico secundario a complicaciones mecánicas (como insuficiencia mitral aguda por rotura papilar o defecto septal ventricular), el Balón de Contrapulsación Intraaórtico (BCIAo) es el dispositivo mecánico de primera elección recomendado como puente a la cirugía: disminuye la poscarga sistólica ventricular izquierda (reduciendo el volumen regurgitante) y optimiza el flujo coronario diastólico.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Las guías europeas restringieron el uso de rutina del BCIAo en choque cardiogénico isquémico no mecánico (estudio IABP-SHOCK II); sin embargo, en complicaciones mecánicas agudas (insuficiencia mitral aguda o CIV), el BCIAo mantiene una indicación clase I/IIa formal en la normativa mexicana."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la indicación formal del Balón de Contrapulsación Intraaórtico (BCIAo) en el contexto de IAM según la GPC?",
+        "back": "Choque cardiogénico secundario a complicaciones mecánicas (rotura de músculo papilar / insuficiencia mitral aguda o CIV) como puente a la cirugía de urgencia.",
+        "tags": "D03 BCIAo Soporte-Mecánico Complicaciones GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Complicaciones Mecánicas Post-IAM y Choque Cardiogénico",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Con la inserción del BCIAo y soporte vasopresor se logra una PAM transitoria de 65 mmHg. El médico internista evalúa la conducta definitiva para revertir el pronóstico letal de la rotura de músculo papilar.",
+      "question_text": "¿Cuál es el tratamiento definitivo indiscutible indicado para esta complicación según la GPC IMSS-357-21?",
+      "options": {
+        "A": "Manejo médico conservador en la UCI durante 4 a 6 semanas para permitir la fibrosis y cicatrización del tejido antes de operar",
+        "B": "Cirugía cardiovascular de emergencia para reemplazo o reparación valvular mitral con revascularización coronaria concomitante",
+        "C": "Administración de infusión continua de levosimendán y suspensión de toda intervención quirúrgica",
+        "D": "Fibrinólisis intravenosa de rescate para desobstruir el vaso coronario nativo causante de la isquemia papilar"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Tratamiento_Definitivo_Rotura_Papilar_Cirugia",
+      "gpc_algorithm_step": "GPC IMSS-357-21: La rotura de músculo papilar tiene una mortalidad médica superior al 90% sin cirugía. El tratamiento definitivo es la intervención quirúrgica de urgencia (reemplazo valvular mitral o plastia valvular combinada con bypass aortocoronario).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Diferir la cirugía para 'esperar fibrosis del miocardio' es un concepto erróneo que condena al paciente a la muerte por falla multiorgánica refractaria en cuestión de horas o días."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento definitivo de la rotura aguda de músculo papilar post-IAM según GPC?",
+        "back": "Cirugía cardiovascular de emergencia (reemplazo o reparación valvular mitral con revascularización concomitante). Mortalidad médica sin cirugía > 90%.",
+        "tags": "D03 Cirugía-Cardiovascular Insuficiencia-Mitral GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome Coronario Agudo Sin Elevación del ST (SCASEST) y Estratificación Dinámica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 64 años, con antecedentes de hipertensión arterial y tabaquismo activo, acude a urgencias por dolor precordial opresivo en reposo que inició hace 3 horas, duró 40 minutos y se irradiaba al cuello. Al ingreso se encuentra asintomático, con TA 130/80 mmHg, FC 74 lpm, FR 16 rpm, SpO2 97%. El ECG de 12 derivaciones muestra ritmo sinusal, sin elevación del segmento ST, pero con infradesnivel horizontal del ST de 1.5 mm en derivaciones V4, V5 y V6, e inversión asimétrica de la onda T en aVL. A las 2 horas de su llegada se recibe reporte de Troponina I ultrasensible en 480 pg/mL (valor de referencia < 14 pg/mL). Creatinina 1.0 mg/dL.",
+      "question_text": "Al estratificar el riesgo clínico de este paciente con SCASEST mediante las escalas TIMI y GRACE conforme a la GPC IMSS-357-21, ¿en qué categoría de riesgo se clasifica?",
+      "options": {
+        "A": "Riesgo Bajo, candidato a prueba de esfuerzo ambulatoria",
+        "B": "Riesgo Intermedio, tributario de ecocardiograma electivo a la semana",
+        "C": "Riesgo Alto, debido a la elevación de biomarcadores cardíacos y cambios dinámicos del segmento ST ≥ 1 mm",
+        "D": "Riesgo Mínimo, dado que la ausencia de elevación del ST descarta necrosis transmural activa"
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Estratificacion_Riesgo_SCASEST_TIMI_GRACE",
+      "gpc_algorithm_step": "GPC IMSS-357-21: En el SCASEST, la elevación confirmada de troponinas cardíacas o los cambios dinámicos del segmento ST (infradesnivel ≥ 1 mm) clasifican automáticamente al paciente en la categoría de ALTO RIESGO isquémico según las escalas TIMI y GRACE.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Asumir que la ausencia de elevación del ST clasifica al paciente como de 'bajo riesgo' ignora que la necrosis celular demostrada por troponinas elevadas confiere alto riesgo de infarto recurrente y muerte."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué hallazgos clasifican a un paciente con SCASEST en la categoría de ALTO RIESGO según la GPC?",
+        "back": "Elevación confirmada de troponinas cardíacas, cambios dinámicos del ST (depresión ≥ 1 mm) o puntuación de GRACE > 140.",
+        "tags": "D03 SCASEST Estratificación-Riesgo GRACE TIMI GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome Coronario Agudo Sin Elevación del ST (SCASEST) y Estratificación Dinámica",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "El paciente del caso anterior permanece sin dolor en la cama de observación de urgencias, habiendo recibido doble antiagregación plaquetaria (AAS 100 mg + Clopidogrel 300 mg) y anticoagulación parenteral. El médico adscrito solicita establecer el tiempo meta para la realización de la coronariografía invasiva diagnóstica.",
+      "question_text": "De acuerdo con el algoritmo de abordaje de SCASEST de la GPC IMSS-357-21 para pacientes en categoría de ALTO RIESGO, ¿cuál es el tiempo meta institucional para la estrategia invasiva?",
+      "options": {
+        "A": "Estrategia invasiva urgente en menos de 2 horas desde el ingreso",
+        "B": "Estrategia invasiva temprana dentro de las primeras 24 horas del ingreso",
+        "C": "Estrategia invasiva electiva diferida entre las 72 y 96 horas posteriores",
+        "D": "Estrategia no invasiva inicial con prueba de estrés farmacológico previo al alta"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Tiempo_Meta_Cateterismo_SCASEST_Alto_Riesgo",
+      "gpc_algorithm_step": "GPC IMSS-357-21: Los pacientes con SCASEST de Alto Riesgo (troponina positiva, cambios del ST, GRACE > 140) deben someterse a una estrategia invasiva temprana dentro de las primeras 24 horas. La estrategia urgente (< 2 h) se reserva para pacientes de Muy Alto Riesgo.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Confundir el tiempo de la estrategia invasiva temprana (< 24 h) para Alto Riesgo con la estrategia invasiva urgente (< 2 h) que está reservada para pacientes inestables de Muy Alto Riesgo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la ventana de tiempo para el cateterismo cardíaco en SCASEST de Alto Riesgo vs Muy Alto Riesgo?",
+        "back": "Alto Riesgo (troponina +, depresión ST, GRACE > 140): Estrategia temprana < 24 horas.\nMuy Alto Riesgo (choque, dolor refractario, arritmias TV/FV, falla cardíaca aguda): Estrategia urgente < 2 horas.",
+        "tags": "D03 SCASEST Tiempos-Invasivos Cateterismo GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome Coronario Agudo Sin Elevación del ST (SCASEST) y Estratificación Dinámica",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mientras el paciente espera su turno en la sala de hemodinamia dentro de las 24 horas programadas, se debe mantener el tratamiento antitrombótico óptimo. El paciente tiene 64 años, pesa 78 kg y su función renal es normal (Cr 1.0 mg/dL, TFG 82 mL/min).",
+      "question_text": "¿Cuál es el régimen de anticoagulación parenteral recomendado por las guías clínicas debido a su perfil de seguridad o la alternativa institucional estándar de la GPC IMSS-357-21?",
+      "options": {
+        "A": "Fondaparinux 2.5 mg vía subcutánea cada 24 horas (o Enoxaparina 1 mg/kg SC cada 12 horas como estándar institucional)",
+        "B": "Warfarina sódica 5 mg VO cada 24 horas ajustando con base en INR meta de 2.0 a 3.0",
+        "C": "Rivaroxabán 20 mg VO cada 24 horas combinado con infusión de heparina no fraccionada",
+        "D": "Estreptocinasa intravenosa a dosis bajas en infusión continua durante 24 horas"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Anticoagulacion_Parenteral_SCASEST",
+      "gpc_algorithm_step": "GPC IMSS-357-21: En el SCASEST, Fondaparinux (2.5 mg SC c/24h) presenta el perfil de eficacia/seguridad más favorable; en el entorno institucional del IMSS, la Enoxaparina a dosis ajustada por peso (1 mg/kg SC cada 12 horas) es el estándar institucional habitual.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Los anticoagulantes orales directos (DOACs como rivaroxabán) o antagonistas de vitamina K (warfarina) no están indicados en la fase aguda intrahospitalaria del SCASEST en ausencia de indicación por fibrilación auricular."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los esquemas de anticoagulación parenteral de elección en SCASEST según la GPC?",
+        "back": "Fondaparinux 2.5 mg SC cada 24 h (menor riesgo de sangrado) o Enoxaparina 1 mg/kg SC cada 12 h (estándar institucional IMSS).",
+        "tags": "D03 SCASEST Anticoagulación Enoxaparina Fondaparinux GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome Coronario Agudo Sin Elevación del ST (SCASEST) y Estratificación Dinámica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A las 6 horas de su ingreso a piso de observación, el paciente presenta bruscamente recurrencia de dolor torácico opresivo 10/10 con diaforesis profusa. La presión arterial cae a 85/55 mmHg, la frecuencia cardíaca sube a 118 lpm y el monitor de telemetría evidencia rachas de taquicardia ventricular no sostenida. El nuevo ECG demuestra una elevación transitoria del segmento ST de 2.5 mm en derivaciones V2 a V5.",
+      "question_text": "Ante este cambio en la evolución clínica, ¿en qué categoría se reclasifica el paciente y cuál es la conducta invasiva inmediata según la GPC IMSS-357-21?",
+      "options": {
+        "A": "Se mantiene en Alto Riesgo; continuar con manejo médico y esperar el cateterismo a las 24 horas programadas",
+        "B": "Reclasificación a Muy Alto Riesgo; traslado de emergencia inmediato a sala de hemodinamia para coronariografía en menos de 2 horas",
+        "C": "Reclasificación a falla farmacológica; administrar fibrinólisis intravenosa con tenecteplasa en la cama de piso",
+        "D": "Solicitar tomografía torácica urgente para descartar tromboembolia pulmonar antes de cualquier intervención"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Reclasificacion_Muy_Alto_Riesgo_Cateterismo_Emergencia",
+      "gpc_algorithm_step": "GPC IMSS-357-21: Los pacientes con SCASEST que desarrollan inestabilidad hemodinámica (hipotensión), arritmias ventriculares potencialmente mortales o dolor torácico recurrente refractario con cambios dinámicos del ST se reclasifican como de MUY ALTO RIESGO, lo cual exige una estrategia invasiva urgente inmediata (< 2 horas).",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Permanecer pasivo y anclado al plan de cateterismo en 24 horas a pesar de que el paciente evolucionó a inestabilidad hemodinámica y dolor refractario, ignorando el criterio de reclasificación urgente < 2 horas."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios de MUY ALTO RIESGO en SCASEST que obligan a cateterismo urgente en < 2 horas?",
+        "back": "Inestabilidad hemodinámica o choque cardiogénico, dolor torácico refractario recurrente, arritmias ventriculares malignas (TV/FV) o insuficiencia cardíaca aguda descompensada.",
+        "tags": "D03 SCASEST Muy-Alto-Riesgo Cateterismo-Urgente GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 71 años con diabetes mellitus tipo 2 de 20 años de evolución acude a urgencias por astenia marcada, náuseas, diaforesis y disnea de medianos esfuerzos de 2 horas de evolución, negando dolor precordial clásico. Signos vitales: TA 110/70 mmHg, FC 92 lpm, FR 22 rpm, SpO2 93%. El ECG de 12 derivaciones muestra ritmo sinusal y un Bloqueo Completo de Rama Izquierda del Haz de His (BCRIHH) con QRS de 145 ms conocido previamente. El médico evalúa el trazo aplicando los criterios electrocardiográficos de Sgarbossa modificados para identificar infarto agudo transmural.",
+      "question_text": "¿Cuál de los siguientes criterios electrocardiográficos es el de mayor especificidad (> 98%) para diagnosticar infarto transmural agudo en presencia de BCRIHH?",
+      "options": {
+        "A": "Elevación concordante del segmento ST ≥ 1 mm (0.1 mV) en al menos una derivación con complejo QRS positivo",
+        "B": "Infradesnivel descordante del segmento ST de 0.5 mm en derivaciones periféricas con complejo QRS negativo",
+        "C": "Ondas T picudas y simétricas mayores de 10 mm en derivaciones V1 y V2",
+        "D": "Prolongación del intervalo PR superior a 240 ms en derivaciones bipolares estándar"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Criterios_Sgarbossa_BCRIHH_IAM",
+      "gpc_algorithm_step": "GPC IMSS-357-21: En presencia de BCRIHH (previo o nuevo), el criterio con mayor especificidad para infarto agudo es la elevación del segmento ST concordante ≥ 1 mm en derivaciones con QRS predominantemente positivo (criterio A de Sgarbossa, valor de 5 puntos).",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Asumir que un BCRIHH previo imposibilita el diagnóstico de infarto agudo transmural, o confundir las ondas T picudas (que son parte de la repolarización normal en el bloqueo) con datos de isquemia activa."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el criterio de Sgarbossa más específico (> 98%) para IAM agudo en presencia de Bloqueo de Rama Izquierda?",
+        "back": "Elevación del segmento ST concordante ≥ 1 mm en derivaciones con polaridad positiva del QRS (5 puntos).",
+        "tags": "D03 Sgarbossa BCRIHH IAMCEST Diagnóstico GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 58 años en su primer día pos-IAM anterior extenso presenta deterioro hemodinámico progresivo. Signos vitales: TA 72/40 mmHg (PAM 50 mmHg), FC 118 lpm, FR 28 rpm, SpO2 88% con puntas nasales a 3 L/min. A la exploración física: paciente obnubilado, extremidades frías con livedo reticularis, llenado capilar de 4 segundos y gasto urinario de 12 mL/h en las últimas 2 horas. La gasometría arterial reporta: pH 7.22, pCO2 28 mmHg, HCO3 11 mEq/L, lactato sérico en 4.8 mmol/L. Se clasifica en choque cardiogénico Killip-Kimball IV.",
+      "question_text": "Mientras se traslada de emergencia a la sala de hemodinamia para revascularización, ¿cuál es el agente vasoactivo de primera elección recomendado por la GPC IMSS-357-21 para restaurar la presión arterial media y la perfusión sistémica?",
+      "options": {
+        "A": "Dopamina en infusión a dosis de 2 a 5 mcg/kg/min",
+        "B": "Norepinefrina en infusión continua titulada para mantener una PAM ≥ 65 mmHg",
+        "C": "Fenilefrina en bolos intravenosos repetidos",
+        "D": "Isoproterenol en infusión continua"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Vasoactivo_Eleccion_Choque_Cardiogenico",
+      "gpc_algorithm_step": "GPC IMSS-357-21: En el choque cardiogénico, la norepinefrina es el vasopresor de primera línea para restaurar la presión de perfusión tisular (PAM ≥ 65 mmHg), demostrando menor tasa de eventos arrítmicos y menor mortalidad en comparación con la dopamina.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "El concepto de la dopamina 'a dosis renal o vasodilatadora esplácnica' es un mito farmacológico erradicado; la dopamina demostró mayor mortalidad por taquiarritmias graves en choque cardiogénico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el vasopresor de primera elección en el choque cardiogénico post-IAM según la GPC?",
+        "back": "Norepinefrina titulada para mantener PAM ≥ 65 mmHg (menor mortalidad y arritmias que la dopamina).",
+        "tags": "D03 Choque-Cardiogénico Norepinefrina Farmacología GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Hombre de 54 años acude a un centro de salud rural con 90 minutos de dolor precordial opresivo típico y elevación de 4 mm del ST en DII, DIII y aVF (IAMCEST inferior). La sala de hemodinamia más cercana está a 4 horas de distancia. El médico se dispone a administrar fibrinólisis intravenosa con Tenecteplasa y evalúa los antecedentes patológicos del paciente para descartar contraindicaciones.",
+      "question_text": "¿Cuál de las siguientes condiciones constituye una CONTRAINDICACIÓN ABSOLUTA para la administración de terapia fibrinolítica según la GPC IMSS-357-21?",
+      "options": {
+        "A": "Antecedente de hemorragia intracraneal o EVC hemorrágico en cualquier momento de la vida",
+        "B": "Hipertensión arterial sistólica al ingreso de 172 mmHg y diastólica de 104 mmHg",
+        "C": "Cirugía abdominal mayor realizada hace 4 semanas sin complicaciones",
+        "D": "Úlcera péptica diagnosticada y tratada médicamente hace 1 año sin sangrado activo"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Contraindicaciones_Absolutas_Fibrinolisis",
+      "gpc_algorithm_step": "GPC IMSS-357-21: Son contraindicaciones absolutas de fibrinólisis: cualquier antecedente de hemorragia intracraneal previa, lesión vascular estructural conocida (MAV), neoplasia intracraneal maligna, EVC isquémico en los últimos 3 meses, sospecha de disección aórtica o diátesis hemorrágica activa.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Cifras de TA > 180/110 mmHg o cirugías en < 3 semanas son contraindicaciones relativas; sin embargo, cualquier sangrado intracraneal previo en la historia de la vida es una contraindicación ABSOLUTA e irreversible."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las contraindicaciones absolutas de fibrinólisis en IAMCEST según la GPC?",
+        "back": "1. Antecedente de hemorragia intracraneal previa (en cualquier momento).\n2. EVC isquémico < 3 meses.\n3. Neoplasia o MAV intracraneal.\n4. Sospecha de disección aórtica.\n5. Sangrado activo (excepto menstruación).",
+        "tags": "D03 Fibrinólisis Contraindicaciones-Absolutas GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 55 años, con antecedente de diabetes mellitus tipo 2, egresa del servicio de cardiología al séptimo día pos-IAMCEST anterior tratado exitosamente con ICP primaria y colocación de stent liberador de fármaco en la arteria descendente anterior. El ecocardiograma de control previo al alta reporta acinesia anteroapical con fracción de eyección del ventrículo izquierdo (FEVI) del 34%. Signos vitales: TA 122/74 mmHg, FC 64 lpm. Laboratorios: Creatinina sérica 0.9 mg/dL, Potasio sérico 4.2 mEq/L, LDL-C 138 mg/dL.",
+      "question_text": "De acuerdo con la GPC IMSS-357-21 sobre prevención secundaria post-infarto, ¿cuál es el esquema farmacológico integral obligatorio al egreso?",
+      "options": {
+        "A": "AAS 100 mg/día + Clopidogrel 75 mg/día por 12 meses + Atorvastatina 80 mg/día + Metoprolol succinato + Enalapril + Espironolactona 25 mg/día",
+        "B": "AAS 100 mg/día en monoterapia + Pravastatina 20 mg/día + Verapamilo 80 mg cada 8 horas + Furosemida 40 mg/día",
+        "C": "Clopidogrel 75 mg/día en monoterapia por 3 meses + Rosuvastatina 10 mg/día + Amlodipino 5 mg/día + Losartán 50 mg/día",
+        "D": "Anticoagulación oral formal con Warfarina (INR 2-3) en monoterapia suspendiendo toda antiagregación plaquetaria"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Prevencion_Secundaria_Post_IAM_Terapia_Medica_Optima",
+      "gpc_algorithm_step": "GPC IMSS-357-21: La terapia séxtuple de prevención secundaria en paciente post-IAM con FEVI ≤ 40% y diabetes incluye: 1) DAPT (AAS + Clopidogrel o Ticagrelor) por 12 meses; 2) Estatina de alta intensidad (Atorvastatina 80 mg); 3) Betabloqueador con evidencia en falla cardíaca (Metoprolol succinato, Carvedilol o Bisoprolol); 4) IECA o ARA-II; y 5) Antagonista del receptor mineralocorticoide (Espironolactona o Eplerenona) al tener FEVI ≤ 40% y diabetes/IC.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El uso de calcioantagonistas no dihidropiridínicos (verapamilo o diltiazem) está formalmente contraindicado en presencia de FEVI reducida (≤ 40%) por riesgo de descompensación hemodinámica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la terapia médica óptima al egreso de un paciente post-IAMCEST con FEVI reducida (≤ 40%) y diabetes?",
+        "back": "1. DAPT (AAS + Clopidogrel) por 12 meses.\n2. Estatina de alta intensidad (Atorvastatina 80 mg).\n3. Betabloqueador (Metoprolol succinato/Carvedilol).\n4. IECA o ARA-II.\n5. Antagonista mineralocorticoide (Espironolactona 25 mg).",
+        "tags": "D03 Prevención-Secundaria Farmacología Egreso GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 62 años que cursó con IAM anterior extenso con angioplastia e implante de stent farmacológico en arteria descendente anterior hace 5 días. En el ecocardiograma transtorácico de control previo al alta se observa acinesia apical extensa y se identifica un trombo mural apical intraventricular izquierdo adherido de 18 x 12 mm, no pediculado. La paciente no presenta datos de focalización neurológica ni hemorragias activas. Recibe actualmente AAS 100 mg/día y Clopidogrel 75 mg/día. Plaquetas 240,000/mcL, Hb 13.5 g/dL, TFG 68 mL/min.",
+      "question_text": "Conforme a los consensos de manejo de trombosis intraventricular post-infarto avalados por la GPC IMSS, ¿cuál es la conducta terapéutica antitrombótica indicada?",
+      "options": {
+        "A": "Suspender clopidogrel y mantener únicamente aspirina a dosis bajas de por vida",
+        "B": "Iniciar anticoagulación oral formal (antagonista de vitamina K con meta de INR 2.0-3.0 o anticoagulante oral directo) durante 3 a 6 meses, asociada a antiagregación, con ecocardiograma de control",
+        "C": "Realizar trombectomía quirúrgica urgente de ventrículo izquierdo a corazón abierto en las siguientes 24 horas",
+        "D": "Administrar una dosis completa de alteplasa intravenosa en infusión durante 90 minutos para disolver el trombo"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Manejo_Trombo_Ventricular_Izquierdo_Post_IAM",
+      "gpc_algorithm_step": "GPC IMSS-357-21 y consensos cardiológicos: En presencia de un trombo mural en ventrículo izquierdo post-infarto, se indica anticoagulación oral formal (con antagonista de vitamina K meta INR 2-3 o DOAC) durante 3 a 6 meses asociada a la terapia antiplaquetaria, guiando la duración final según la resolución ecocardiográfica.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "La trombectomía quirúrgica o la fibrinólisis sistémica conllevan un riesgo prohibitivo de hemorragia masiva o embolización y no están indicadas para trombos murales estables no pediculados."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el tratamiento del trombo mural en ventrículo izquierdo detectado post-IAM?",
+        "back": "Anticoagulación oral formal (AVK con INR 2.0-3.0 o DOAC) durante 3 a 6 meses, sumada a antiagregación plaquetaria, con reevaluación ecocardiográfica.",
+        "tags": "D03 Trombo-Ventricular Anticoagulación Ecocardiograma GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5 (English Block): STEMI Management, Reperfusion Failure, and Malignant Arrhythmias",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A 56-year-old male tourist with a 15-year history of cigarette smoking and hypertension presents to the emergency room of a rural secondary-care Mexican hospital (without a cardiac catheterization laboratory) experiencing acute crushing retrosternal chest pain radiating to his jaw and left shoulder for 80 minutes. Vital signs on admission: BP 142/88 mmHg, HR 84 bpm, RR 18 bpm, SpO2 96% on ambient air. The admission 12-lead ECG obtained 7 minutes after arrival reveals ST-segment elevation of 3.5 mm in leads II, III, and aVF with reciprocal ST depression in leads I and aVL. The closest tertiary hospital equipped with a 24/7 catheterization laboratory is located 110 kilometers away, with an estimated ambulance transfer and door-to-balloon time of 150 minutes.",
+      "question_text": "According to the Mexican Clinical Practice Guideline GPC IMSS-357-21 (Código Infarto), what is the optimal primary reperfusion strategy and its institutional target timeline?",
+      "options": {
+        "A": "Immediate transfer for primary percutaneous coronary intervention (PCI) with an acceptable door-to-balloon window of 180 minutes",
+        "B": "Intravenous pharmacological fibrinolysis with a weight-adjusted fibrin-specific agent and a target door-to-needle time of ≤ 30 minutes",
+        "C": "Administration of unfractionated heparin infusion while awaiting high-sensitivity cardiac troponin results at 60 minutes",
+        "D": "Urgent coronary computed tomography angiography before initiating any reperfusion therapy"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "English_STEMI_Fibrinolysis_Indication",
+      "gpc_algorithm_step": "Mexican Clinical Practice Guideline GPC IMSS-357-21 mandates that when primary PCI cannot be accomplished within 120 minutes from first medical contact in non-PCI capable centers, intravenous fibrinolysis is the definitive first-line strategy with a strict door-to-needle time target of ≤ 30 minutes.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Waiting for primary PCI when the anticipated transfer delay exceeds 120 minutes leads to unacceptable ischemic necrosis and sharply higher mortality compared to immediate in situ fibrinolysis."
+      },
+      "anki_flashcard": {
+        "front": "According to Mexican GPC IMSS-357-21, when is IV fibrinolysis mandatory over primary PCI in STEMI?",
+        "back": "When presenting at a non-PCI center and the expected time from first medical contact to PCI wire crossing exceeds 120 minutes (Target door-to-needle ≤ 30 min).",
+        "tags": "D03 English STEMI Fibrinolysis Reperfusion GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5 (English Block): STEMI Management, Reperfusion Failure, and Malignant Arrhythmias",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "The patient receives weight-adjusted intravenous tenecteplase along with dual antiplatelet therapy and subcutaneous enoxaparin. Ninety minutes after the completion of the fibrinolytic bolus, the patient continues to experience intense oppressive chest pain (8/10 on visual analog scale). A follow-up 12-lead ECG shows persistent ST-segment elevation in lead III with only a 15% reduction compared to baseline, and no reperfusion arrhythmias are observed. Blood pressure is 100/65 mmHg and heart rate is 92 bpm.",
+      "question_text": "Based on the assessment of reperfusion criteria according to GPC IMSS-357-21, what is the mandatory immediate management strategy?",
+      "options": {
+        "A": "Administration of a second full-dose bolus of tenecteplase to achieve enzymatic vessel clearance",
+        "B": "Immediate emergency transfer to a PCI-capable center for rescue percutaneous coronary intervention (Rescue PCI)",
+        "C": "Elective coronary angiography scheduled within the next 48 to 72 hours",
+        "D": "Conservative medical observation in the intensive care unit with intravenous nitroglycerin titration alone"
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "English_Failed_Fibrinolysis_Rescue_PCI",
+      "gpc_algorithm_step": "Failed fibrinolysis is defined as < 50% ST-segment resolution in the lead with the highest elevation at 60-90 minutes post-thrombolysis accompanied by persistent chest pain. The mandatory evidence-based strategy per GPC IMSS-357-21 is immediate transfer for rescue PCI. Re-administering fibrinolytics is strictly contraindicated due to prohibitive bleeding risk.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Administering a repeat dose of tenecteplase is a hazardous pitfall that dramatically elevates fatal intracranial bleeding risk without improving patency."
+      },
+      "anki_flashcard": {
+        "front": "What defines failed fibrinolysis at 60-90 minutes and what is the mandatory next step in STEMI?",
+        "back": "Definition: < 50% ST-segment resolution and persistent chest pain.\nNext Step: Immediate transfer for RESCUE PCI (repeat thrombolysis is contraindicated).",
+        "tags": "D03 English Failed-Fibrinolysis Rescue-PCI GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5 (English Block): STEMI Management, Reperfusion Failure, and Malignant Arrhythmias",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "While awaiting immediate critical care ambulance transfer for rescue PCI, the patient suddenly becomes lightheaded, confused, and severely pale. The cardiac monitor displays wide-complex regular tachycardia at a rate of 175 bpm consistent with sustained monomorphic ventricular tachycardia (VT). On immediate assessment, carotid and femoral pulses are easily palpable, blood pressure is 78/46 mmHg, and respirations are 24 bpm.",
+      "question_text": "According to ACLS protocols and Mexican cardiology guidelines, what is the immediate first-line electrical therapy indicated for this unstable ventricular arrhythmia?",
+      "options": {
+        "A": "Immediate synchronized electrical cardioversion starting at 100 Joules",
+        "B": "Unsynchronized electrical defibrillation at maximum energy (360 Joules biphasic)",
+        "C": "Intravenous amiodarone infusion of 150 mg administered slowly over 10 minutes",
+        "D": "Intravenous adenosine 6 mg rapid push via peripheral antecubital vein"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "English_Unstable_Ventricular_Tachycardia_Cardioversion",
+      "gpc_algorithm_step": "In sustained ventricular tachycardia WITH a palpable pulse but presenting with hemodynamically unstable features (hypotension, altered mental status, signs of shock), the immediate treatment of choice is synchronized electrical cardioversion. Unsynchronized defibrillation is reserved for pulseless VT or ventricular fibrillation.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro (Anclaje)",
+        "explanation": "Selecting unsynchronized defibrillation for a patient with a pulse can trigger ventricular fibrillation via the R-on-T phenomenon; medical antiarrhythmic infusions are reserved for hemodynamically STABLE ventricular tachycardia."
+      },
+      "anki_flashcard": {
+        "front": "What is the immediate therapy for sustained monomorphic ventricular tachycardia WITH a pulse and hemodynamic instability?",
+        "back": "Synchronized electrical cardioversion (starting at 100 Joules). Unsynchronized defibrillation is only for pulseless VT/VF.",
+        "tags": "D03 English Cardioversion Ventricular-Tachycardia ACLS GPC-IMSS-357-21"
+      }
+    },
+    {
+      "id": "d03_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5 (English Block): STEMI Management, Reperfusion Failure, and Malignant Arrhythmias",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Electrical cardioversion successfully restores normal sinus rhythm. The patient arrives at the catheterization laboratory and undergoes successful rescue PCI with implantation of a second-generation drug-eluting stent (DES) in the proximal right coronary artery with TIMI 3 flow. His predischarge echocardiogram demonstrates a left ventricular ejection fraction (LVEF) of 36% with inferior and posterior wall hypokinesia. Serum creatinine is 1.0 mg/dL and potassium is 4.3 mEq/L.",
+      "question_text": "According to Mexican Clinical Practice Guidelines (GPC IMSS-357-21) and international cardiovascular standards, which comprehensive discharge prescription optimizes long-term survival and prevents secondary adverse remodeling?",
+      "options": {
+        "A": "Dual antiplatelet therapy (Aspirin 100 mg/day + Clopidogrel 75 mg/day) for 12 months, Atorvastatin 80 mg/day, Metoprolol succinate, Enalapril, and Spironolactone 25 mg/day",
+        "B": "Aspirin 100 mg/day monotherapy, Simvastatin 20 mg/day, Diltiazem 60 mg three times daily, and Furosemide 20 mg/day",
+        "C": "Warfarin anticoagulation (target INR 2.0-3.0) monotherapy, Rosuvastatina 5 mg/day, and Amlodipine 10 mg/day",
+        "D": "Clopidogrel 75 mg/day monotherapy for 1 month, Pravastatin 40 mg/day, Digoxin 0.25 mg/day, and Losartan 25 mg/day"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "English_Secondary_Prevention_Heart_Failure_Post_MI",
+      "gpc_algorithm_step": "Guideline-directed medical therapy for secondary prevention in patients with reduced LVEF (≤ 40%) post-STEMI consists of: DAPT for at least 12 months, high-intensity statin (Atorvastatin 80 mg), beta-blocker proven for HFrEF (Metoprolol succinate, Carvedilol, or Bisoprolol), ACE inhibitor (Enalapril or Ramipril), and a mineralocorticoid receptor antagonist (Spironolactone or Eplerenone) when LVEF ≤ 40% and eGFR/potassium are acceptable.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Non-dihydropyridine calcium channel blockers (diltiazem/verapamil) are contraindicated in systolic heart failure post-MI due to negative inotropic effects; low-potency statins fail to achieve the required LDL target < 55 mg/dL."
+      },
+      "anki_flashcard": {
+        "front": "What is the guideline-directed 5-drug medical therapy at discharge for post-STEMI patients with LVEF ≤ 40%?",
+        "back": "1. DAPT (Aspirin + P2Y12 inhibitor) for 12 months.\n2. High-intensity statin (Atorvastatin 80 mg).\n3. Beta-blocker (Metoprolol succinate/Carvedilol).\n4. ACE inhibitor or ARB.\n5. Mineralocorticoid antagonist (Spironolactone 25 mg).",
+        "tags": "D03 English Secondary-Prevention STEMI HFrEF GPC-IMSS-357-21"
+      }
+    }
+  ]
+}

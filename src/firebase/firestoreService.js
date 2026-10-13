@@ -63,6 +63,28 @@ export const INITIAL_USERS_STATE = {
 
 import { PRESEASON_SCHEDULE, getScheduleDay, generateTopicFromSchedule } from "../data/preseasonSchedule";
 
+function mergeWithCleanTopic(cleanData, incomingData) {
+  if (!incomingData) return cleanData;
+  const merged = {
+    ...cleanData,
+    ...incomingData
+  };
+
+  // Preservar siempre el Pre-Test empaquetado si el de Firestore/LocalStorage viene vacío o sin preguntas
+  const hasIncomingPretest = Array.isArray(incomingData.pretest?.questions) && incomingData.pretest.questions.length > 0;
+  if (!hasIncomingPretest && cleanData.pretest?.questions?.length > 0) {
+    merged.pretest = cleanData.pretest;
+  }
+
+  // Preservar siempre el Simulador empaquetado si el de Firestore/LocalStorage viene vacío o sin preguntas
+  const hasIncomingSim = Array.isArray(incomingData.simulation?.questions) && incomingData.simulation.questions.length > 0;
+  if (!hasIncomingSim && cleanData.simulation?.questions?.length > 0) {
+    merged.simulation = cleanData.simulation;
+  }
+
+  return merged;
+}
+
 /**
  * Obtiene el tema del día (por código ej. 'D01' o por topicId)
  */
@@ -83,10 +105,7 @@ export async function getTopic(topicId = "D01_MI_Diabetes_Mellitus_CAD_EHH") {
       const snap = await getDoc(docRef);
       if (snap.exists()) {
         const firestoreTopic = snap.data();
-        const merged = {
-          ...cleanData,
-          ...firestoreTopic
-        };
+        const merged = mergeWithCleanTopic(cleanData, firestoreTopic);
         localStorage.setItem(storageKey, JSON.stringify(merged));
         return merged;
       }
@@ -100,10 +119,9 @@ export async function getTopic(topicId = "D01_MI_Diabetes_Mellitus_CAD_EHH") {
   if (localSaved) {
     try {
       const parsed = JSON.parse(localSaved);
-      return {
-        ...cleanData,
-        ...parsed
-      };
+      const merged = mergeWithCleanTopic(cleanData, parsed);
+      localStorage.setItem(storageKey, JSON.stringify(merged));
+      return merged;
     } catch (e) {}
   }
 
@@ -181,10 +199,14 @@ export async function updateUserData(userId, partialData) {
  * Guarda el intento completo del Pre-Test con telemetría
  */
 export async function savePretestAttempt(userId, topicId, stats) {
+  const scheduleItem = getScheduleDay(topicId);
+  const dayCode = scheduleItem ? scheduleItem.code : topicId;
+
   const attempt = {
     id: `attempt_${userId}_${Date.now()}`,
     userId,
     topicId,
+    dayCode,
     timestamp: new Date().toISOString(),
     stats
   };
@@ -196,13 +218,25 @@ export async function savePretestAttempt(userId, topicId, stats) {
     localStorage.setItem(STORAGE_KEY_ATTEMPTS, JSON.stringify(history.slice(0, 50)));
   } catch (e) {}
 
+  const allUsers = await getUsersState();
+  const current = allUsers[userId] || INITIAL_USERS_STATE[userId];
+  const dayProgress = current.day_progress || {};
+  const newDayStatus = {
+    ...(dayProgress[dayCode] || {}),
+    phase0_done: true,
+    phase0_score: stats.grossScorePercent
+  };
+
+  const isToday = dayCode === "D01";
+
   // Actualizar estado del usuario (+100 XP por completar el Pre-test)
   await updateUserData(userId, {
-    xp: (await getUsersState())[userId].xp + 100,
-    today_status: {
-      phase0_done: true,
-      phase0_score: stats.grossScorePercent
-    }
+    xp: (current.xp || 0) + 100,
+    day_progress: {
+      ...dayProgress,
+      [dayCode]: newDayStatus
+    },
+    today_status: isToday ? newDayStatus : (current.today_status || {})
   });
 
   if (isFirebaseConfigured && db) {
@@ -815,10 +849,7 @@ export function subscribeToTopic(topicId, callback) {
       unsubFirestore = onSnapshot(doc(db, "curriculum", resolvedId), (docSnap) => {
         if (docSnap.exists()) {
           const firestoreTopic = docSnap.data();
-          const merged = {
-            ...cleanData,
-            ...firestoreTopic
-          };
+          const merged = mergeWithCleanTopic(cleanData, firestoreTopic);
           localStorage.setItem(storageKey, JSON.stringify(merged));
           callback(merged);
         }
@@ -831,10 +862,8 @@ export function subscribeToTopic(topicId, callback) {
   const handleStorage = (e) => {
     if (e.key === storageKey && e.newValue) {
       try {
-        callback({
-          ...cleanData,
-          ...JSON.parse(e.newValue)
-        });
+        const merged = mergeWithCleanTopic(cleanData, JSON.parse(e.newValue));
+        callback(merged);
       } catch {}
     }
   };

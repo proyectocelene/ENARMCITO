@@ -1,0 +1,709 @@
+{
+  "topic_code": "D15",
+  "title": "Simulador Post-Estudio: Apendicitis Aguda (Escala de Alvarado)",
+  "normativa_origen": "GPC IMSS-031-08 / GPC Apendicitis Aguda CENETEC",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d15_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Apendicitis Aguda Clásica y Estratificación Quirúrgica en el Adulto Joven",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Hombre de 22 años, previamente sano, acude al servicio de urgencias por dolor abdominal de 16 horas de evolución. El cuadro inició en la región periumbilical como un malestar sordo y cólico que se acompañó de náuseas, hiporexia total y un episodio de vómito gastroalimentario. Refiere que hace 8 horas el dolor migró y se localizó en la fosa ilíaca derecha, volviéndose constante y acentuándose al caminar o toser. Signos vitales: TA 120/75 mmHg, FC 92 lpm, FR 18 rpm, Temperatura axilar 37.8 °C, SpO2 98%. A la exploración física: abdomen plano, con dolor exquisito a la palpación en el punto de McBurney, signo de Blumberg (rebote) positivo, signo de Rovsing positivo y signo del psoas positivo. En sus paraclínicos urgentes: leucocitos 13,800/mm³ con 82% de neutrófilos y 6% de bandas; examen general de orina con densidad 1.020, pH 6.0, 1-2 leucocitos por campo, sin bacterias ni nitritos.",
+      "question_text": "Al calcular el puntaje de la Escala de Alvarado (nemotecnia MANTRELS) de conformidad con la GPC IMSS-031-08, ¿cuántos puntos acumula este paciente y cuál es la conducta clínica resolutiva mandatoria?",
+      "options": {
+        "A": "6 puntos (riesgo intermedio); mantener en ayuno y solicitar ultrasonido abdominal urgente antes de interconsultar a cirugía general.",
+        "B": "10 puntos (muy alta probabilidad / certeza diagnóstica); ayuno, canalización venosa y pase expedito a quirófano para apendicectomía sin retrasar el manejo con estudios de gabinete.",
+        "C": "8 puntos; mantener en observación hospitalaria por 24 horas y repetir biometría hemática con frotis de sangre periférica.",
+        "D": "4 puntos (baja probabilidad); egreso a domicilio con butilhioscina vía oral y datos de alarma en 48 horas."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Escala_Alvarado_Estratificacion",
+      "gpc_algorithm_step": "Cálculo riguroso de MANTRELS: Migración del dolor (1) + Anorexia (1) + Náusea/vómito (1) + Dolor en cuadrante inferior derecho (2) + Rebote/Blumberg (1) + Elevación térmica ≥37.3°C (1) + Leucocitosis >10,000 (2) + Neutrofilia >75% (1) = 10 puntos. La GPC IMSS-031-08 establece que en varones adultos con puntaje de Alvarado ≥7-9 puntos (alta probabilidad/certeza), la conducta es pase inmediato a quirófano para apendicectomía sin perder tiempo en estudios de imagen que incrementan la tasa de perforación y los costos institucionales.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Asumir que en todos los sistemas de salud se requiere TAC contrastada de gabinete antes de entrar a quirófano; la GPC IMSS-031-08 proscribe demorar la cirugía en varones jóvenes con alta sospecha clínica y Alvarado ≥7 puntos."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta indicada según la GPC IMSS-031-08 en un varón joven con sospecha de apendicitis y Escala de Alvarado ≥ 7-9 puntos?",
+        "back": "Pase directo a quirófano para apendicectomía sin requerir estudios de imagen complementarios (que solo retrasan la cirugía y aumentan el riesgo de perforación).",
+        "tags": "D15 CIR Apendicitis Escala_Alvarado GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Apendicitis Aguda Clásica y Estratificación Quirúrgica en el Adulto Joven",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El paciente de 22 años del caso previo se encuentra en camilla de urgencias aguardando el turno quirúrgico. Refiere dolor abdominal intenso calificado como 9/10 en la escala visual análoga. Un médico interno propone suspender cualquier analgésico bajo la premisa tradicional de que «la analgesia borra los signos de irritación peritoneal y confunde al cirujano», y recomienda aplicar la profilaxis antimicrobiana únicamente tras concluir el cierre de la aponeurosis.",
+      "question_text": "Con base en la GPC IMSS-031-08 y las recomendaciones de analgesia y profilaxis quirúrgica de CENETEC, ¿cuál es la conducta correcta respecto al control del dolor y la cobertura antimicrobiana?",
+      "options": {
+        "A": "Administrar analgesia intravenosa oportuna (AINE o paracetamol/opioides titulados) ya que no enmascara la peritonitis ni afecta la decisión quirúrgica, y aplicar profilaxis antibiótica intravenosa de 30 a 60 minutos antes de la incisión de piel.",
+        "B": "Mantener al paciente estrictamente sin analgésicos hasta que la cavidad sea explorada en quirófano, e iniciar antibióticos terapéuticos por 7 días tras el cierre cutáneo.",
+        "C": "Administrar ketorolaco intravenoso pero omitir toda profilaxis antimicrobiana, ya que en apendicitis no perforada los antibióticos preoperatorios incrementan la resistencia bacteriana.",
+        "D": "Administrar profilaxis antimicrobiana por vía oral con ciprofloxacino en tabletas 2 horas antes de la inducción anestésica junto con un relajante muscular."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Analgesia_Profilaxis_Preoperatoria",
+      "gpc_algorithm_step": "La GPC IMSS-031-08 ratifica que la administración de analgésicos preoperatorios es segura, eficaz y humanitaria; no enmascara los hallazgos de irritación peritoneal ni altera la certeza diagnóstica. Asimismo, la profilaxis antibiótica preoperatoria intravenosa (cefalosporina de 2ª generación o cefazolina + metronidazol) administrada dentro de los 30-60 minutos previos a la incisión cutánea reduce en más del 50% las infecciones del sitio quirúrgico.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Anclarse al dogma médico obsoleto de 'no dar analgesia para no enmascarar el cuadro agudo', práctica refutada por evidencia clase I en guías mexicanas e internacionales."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la recomendación de la GPC sobre el uso de analgesia preoperatoria y profilaxis antibiótica en apendicitis aguda?",
+        "back": "1) Analgesia IV oportuna inmediata (no enmascara peritonitis ni cambia la decisión quirúrgica). 2) Profilaxis antibiótica IV aplicada 30 a 60 minutos antes de la incisión de piel.",
+        "tags": "D15 CIR Apendicitis Analgesia Profilaxis GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Apendicitis Aguda Clásica y Estratificación Quirúrgica en el Adulto Joven",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "El paciente ingresa al quirófano de un Hospital General de Zona que cuenta con torre de laparoscopía funcional y equipo quirúrgico capacitado. El equipo médico evalúa si realizar la apendicectomía mediante técnica laparoscópica o mediante abordaje abierto convencional (incisión de McBurney o Rocky-Davis).",
+      "question_text": "De acuerdo con la GPC IMSS-031-08 y los estándares de CENETEC, ¿cuál es el abordaje quirúrgico de primera elección y su sustento clínico?",
+      "options": {
+        "A": "La apendicectomía abierta por incisión media xifopubiana es obligatoria para garantizar la inspección completa de todo el intestino delgado.",
+        "B": "La apendicectomía laparoscópica es el abordaje preferente cuando se cuenta con el recurso y personal capacitado, debido a que disminuye el dolor postoperatorio, reduce las infecciones de herida quirúrgica y acorta la estancia hospitalaria.",
+        "C": "El abordaje abierto por incisión de McBurney es la primera elección insustituible debido a que la técnica laparoscópica incrementa la mortalidad en adultos jóvenes.",
+        "D": "El tratamiento médico exclusivo sin cirugía mediante antibióticos intravenosos durante 14 días en piso de hospitalización."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Abordaje_Laparoscopico_Eleccion",
+      "gpc_algorithm_step": "La GPC IMSS-031-08 y CENETEC establecen que la apendicectomía laparoscópica es la técnica de elección siempre que se disponga de la infraestructura y experiencia quirúrgica necesaria. Sus beneficios probados frente al abordaje abierto incluyen menor dolor postoperatorio, menor tasa de infección del sitio quirúrgico superficial, menor tiempo de estancia intrahospitalaria y un retorno más rápido a las actividades laborales cotidianas.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Asumir que la técnica abierta clásica sigue siendo el estándar invariable institucional o creer erróneamente que la laparoscopía aumenta la mortalidad global."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las ventajas demostradas de la apendicectomía laparoscópica vs abierta según la GPC IMSS-031-08?",
+        "back": "Menor dolor postoperatorio, menor tasa de infección de herida quirúrgica superficial, menor estancia intrahospitalaria y retorno laboral precoz.",
+        "tags": "D15 CIR Apendicectomia Laparoscopia GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Apendicitis Aguda Clásica y Estratificación Quirúrgica en el Adulto Joven",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Se concluye la apendicectomía laparoscópica del paciente. El reporte operatorio describe: apéndice de 7.5 cm, congestivo, eritematoso, con aumento de calibre y exudado fibrinoso seroso fino periapendicular, sin datos de gangrena ni perforación (apendicitis aguda flegmonosa no complicada). En piso de recuperación, el paciente se encuentra hemodinámicamente estable, afebril, tolerando líquidos orales a las 6 horas postquirúrgicas.",
+      "question_text": "Conforme a las directrices de la GPC IMSS-031-08 respecto al manejo antimicrobiano en apendicitis aguda no complicada, ¿cuál es la conducta postoperatoria indicada?",
+      "options": {
+        "A": "Descontinuar los antibióticos en las primeras 24 horas del postoperatorio (la dosis profiláctica preoperatoria suele ser suficiente) y programar egreso precoz.",
+        "B": "Continuar triple esquema antimicrobiano parenteral (ceftriaxona + metronidazol + amikacina) durante 7 días continuos para asegurar esterilidad.",
+        "C": "Administrar fluoroquinolonas más metronidazol vía oral durante 14 días ambulatorios para erradicar foco cecal.",
+        "D": "Mantener cefalosporinas intravenosas de tercera generación durante un mínimo de 96 horas y egresar únicamente con hemograma normal."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Duracion_Antibioticos_No_Complicada",
+      "gpc_algorithm_step": "En apendicitis aguda no complicada (catarral o flegmonosa), la GPC IMSS-031-08 indica que la cobertura antibiótica debe suspenderse en el postoperatorio inmediato (no más de 24 horas); en la mayoría de los casos no se requiere ninguna dosis adicional a la profilaxis preoperatoria. Prolongar los antibióticos más allá de 24 horas no previene infecciones y favorece resistencia antimicrobiana y diarrea por C. difficile.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Sobretratamiento",
+        "explanation": "Prescribir esquemas prolongados de antibióticos por 7 a 10 días en casos no complicados basándose en falsas creencias de 'esterilizar la cavidad', lo cual viola la norma oficial mexicana."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la duración recomendada de los antibióticos postoperatorios en apendicitis aguda NO complicada según la GPC?",
+        "back": "Suspender dentro de las primeras 24 horas postoperatorias (habitualmente solo se requiere la dosis profiláctica preoperatoria única).",
+        "tags": "D15 CIR Apendicitis Antibioticos Postoperatorio GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Apendicitis en Paciente Pediátrico y Diagnóstico Diferencial",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Escolar masculino de 6 años es traído a urgencias pediátricas por sus padres por dolor abdominal de 20 horas de evolución. Inició difuso y mal delimitado en mesogastrio, asociándose a dos vómitos gastroalimentarios, hiporexia e irritabilidad marcada. Hace 6 horas el dolor se concentró en el cuadrante inferior derecho y el niño adoptó marcha claudicante antálgica («camina doblado»). Signos vitales: FC 124 lpm, FR 24 rpm, Temperatura axilar 38.2 °C. Exploración: abdomen tenso con resistencia muscular voluntaria e involuntaria en fosa ilíaca derecha, signo de Blumberg francamente positivo y dolor al saltar en un pie. Laboratorio: leucocitos 16,800/mm³ con 84% de neutrófilos y 8% de bandas; PCR 42 mg/L.",
+      "question_text": "¿Cuál es la característica anatomo-fisiopatológica que condiciona que los pacientes pediátricos preescolares y escolares tempranos presenten una tasa significativamente más alta de perforación temprana y peritonitis difusa?",
+      "options": {
+        "A": "Epiplón mayor corto e hipoplásico que no logra bloquear o limitar el foco infeccioso apendicular, aunado a una pared apendicular proporcionalmente más delgada.",
+        "B": "Longitud apendicular superior a 15 cm que condiciona duplicación del flujo vascular retrógrado.",
+        "C": "Incompetencia congénita permanente de la válvula ileocecal con sobrepresión retrógrada bacteriana masiva.",
+        "D": "Ausencia completa de folículos linfoides submucosos apendiculares en menores de 8 años."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Fisiopatologia_Pediatrica_Perforacion",
+      "gpc_algorithm_step": "En niños pequeños y escolares tempranos, el epiplón mayor es corto, delgado y poco desarrollado (hipoplásico), lo que le impide migrar y circunscribir el apéndice inflamado como plastrón natural; esto, sumado a una pared apendicular más delgada y a la dificultad para expresar síntomas precozmente, condiciona que la perforación ocurra con frecuencia antes de las 24-36 horas con peritonitis purulenta generalizada.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Atribuir la mayor severidad pediátrica a factores mecánicos anatómicos inexistentes en lugar de la inmadurez del epiplón mayor y la pared apendicular delgada."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué los pacientes pediátricos presentan mayor tasa de perforación apendicular y peritonitis difusa temprana?",
+        "back": "Por tener un epiplón mayor corto e hipoplásico que no puede bloquear la infección, y una pared apendicular proporcionalmente más delgada.",
+        "tags": "D15 CIR Pediatria Apendicitis Perforacion GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Apendicitis en Paciente Pediátrico y Diagnóstico Diferencial",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En el escolar de 6 años del caso previo, el médico residente sugiere solicitar inmediatamente una tomografía computarizada contrastada de abdomen para 'asegurar el diagnóstico con sensibilidad superior al 98% antes de molestar al cirujano'. El médico adscrito interviene citando el principio ALARA y el algoritmo oficial de imagen de la GPC IMSS-031-08.",
+      "question_text": "Conforme a la GPC IMSS-031-08 y CENETEC, ¿cuál es el estudio de imagen de primera elección en la sospecha de apendicitis en pediatría y cuáles son sus criterios ecográficos de confirmación?",
+      "options": {
+        "A": "Ultrasonido abdominal; visualización de apéndice aperistáltico no compresible con diámetro transversal externo > 6 mm, pared engrosada > 2 mm y aumento de ecogenicidad de la grasa periapendicular.",
+        "B": "Tomografía computarizada helicoidal contrastada de entrada en todos los niños para evitar falsos negativos.",
+        "C": "Radiografía simple de abdomen de pie y decúbito; presencia obligada de neumoperitoneo subdiafragmático para autorizar cirugía.",
+        "D": "Gammagrafía con leucocitos marcados con tecnecio 99m en fase dinámica y estática."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Imagen_Eleccion_Pediatria_USG",
+      "gpc_algorithm_step": "La GPC IMSS-031-08 establece categóricamente al ultrasonido abdominal como el estudio de imagen de primera elección en niños con sospecha de apendicitis aguda para prevenir la exposición a radiación ionizante (principio ALARA). Los criterios ecográficos diagnósticos son: diámetro transverso máximo > 6 mm, apéndice en fondo ciego no compresible con la sonda, engrosamiento de pared > 2 mm, signo del tiro al blanco o doble halo y presencia de apendicolito o líquido libre adyacente.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Indicar tomografía computarizada de primera línea en niños; las guías institucionales mexicanas mandatan iniciar siempre con ultrasonido para reducir el riesgo oncogénico derivado de la radiación ionizante."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estudio de imagen de primera elección en pediatría para sospecha de apendicitis aguda y sus hallazgos clave?",
+        "back": "Ultrasonido abdominal: diámetro > 6 mm, no compresible, pared > 2 mm, grasa periapendicular hiperecógena y eventual apendicolito.",
+        "tags": "D15 CIR Pediatria Apendicitis Ultrasonido GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Apendicitis en Paciente Pediátrico y Diagnóstico Diferencial",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Se practica el ultrasonido abdominal en el niño de 6 años. El médico radiólogo reporta: «Apéndice cecal visualizado completamente de 4.5 mm de diámetro, compresible, con flujo Doppler periférico normal; se identifican múltiples ganglios linfáticos mesentéricos agrandados en racimo en la fosa ilíaca derecha, el mayor de 12 mm en eje corto, de morfología ovalada conservada, sin colecciones líquidas». Al reinterrogar a los padres, refieren que el niño cursó con odinofagia, rinorrea y fiebre tratada como faringoamigdalitis viral hace 4 días.",
+      "question_text": "¿Cuál es el diagnóstico más probable y la conducta médica correcta indicada por la GPC?",
+      "options": {
+        "A": "Adenitis mesentérica aguda; manejo conservador con hidratación, antipiréticos/analgésicos y observación clínica hospitalaria estrecha sin realizar apendicectomía.",
+        "B": "Invaginación intestinal ileocólica; colocación de sonda nasogástrica y reducción urgente mediante enema neumático guiado por fluoroscopía.",
+        "C": "Apendicitis aguda catarral incipiente con reacción ganglionar; pase urgente a quirófano para apendicectomía profiláctica.",
+        "D": "Divertículo de Meckel perforado; laparotomía exploradora urgente por línea media infraumbilical."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Diagnostico_Diferencial_Adenitis_Mesenterica",
+      "gpc_algorithm_step": "La adenitis mesentérica es el principal diagnóstico diferencial de apendicitis aguda en la edad pediátrica. Se define ecográficamente por la presencia de 3 o más ganglios mesentéricos aumentados de tamaño (eje corto ≥8 mm) en fosa ilíaca derecha con visualización de un apéndice normal (<6 mm y compresible). Habitualmente está precedida por una infección respiratoria viral o gastrointestinal; el manejo es estrictamente conservador y sintomático, proscribiéndose la cirugía innecesaria.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Insistir en intervenir quirúrgicamente al niño desestimando el hallazgo ecográfico de un apéndice sano y la tríada clásica de adenitis mesentérica secundaria a infección respiratoria reciente."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se confirma ecográficamente la adenitis mesentérica y cuál es su manejo según la GPC?",
+        "back": "3 o más ganglios mesentéricos en FID con eje corto ≥ 8 mm y apéndice cecal normal (< 6 mm y compresible). Manejo conservador sintomático.",
+        "tags": "D15 CIR Pediatria Adenitis_Mesenterica Diferencial GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Apendicitis en Paciente Pediátrico y Diagnóstico Diferencial",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En otro paciente pediátrico de 8 años con cuadro franco de apendicitis aguda complicada confirmada por ultrasonido, se realiza apendicectomía laparoscópica. En el acto operatorio se constata apéndice gangrenado y perforado en su tercio medio con 60 mL de pus fétido acumulado en la fosa ilíaca derecha y hueco pélvico. Tras la exéresis del apéndice, el cirujano debate sobre la técnica de limpieza de cavidad y la colocación de drenajes.",
+      "question_text": "Conforme a la GPC IMSS-031-08 y la evidencia quirúrgica de CENETEC para apendicitis complicada con peritonitis purulenta en pediatría, ¿cuál es la conducta operatoria y postoperatoria indicada?",
+      "options": {
+        "A": "Lavado peritoneal extenso con 6 a 8 litros de solución salina tibia más antibióticos tópicos, colocación de 2 drenajes tipo Penrose y antibióticos orales ambulatorios.",
+        "B": "Aspiración meticulosa del exudado purulento sin irrigación peritoneal masiva difusa para no diseminar la infección a espacios subfrénicos, omitir drenajes profilácticos rutinarios y continuar antibióticos parenterales terapéuticos durante 3 a 5 días.",
+        "C": "Irrigación continua a través de catéter intraperitoneal durante 72 horas y suspensión inmediata de antibióticos sistémicos al salir de quirófano.",
+        "D": "Conversión inmediata a laparotomía media e ileostomía protectora de desfuncionalización para proteger la base cecal."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Manejo_Cavidad_Apendicitis_Complicada",
+      "gpc_algorithm_step": "En apendicitis perforada con peritonitis localizada o purulenta, la GPC y ensayos clínicos demuestran que la irrigación peritoneal de grandes volúmenes no reduce los abscesos postoperatorios y, por el contrario, disemina las bacterias a los recesos subfrénicos y parietocólicos. Se recomienda aspiración prolija del pus, apendicectomía, no colocar drenajes profilácticos rutinarios (no previenen colecciones y favorecen fístulas) y mantener antibióticos intravenosos terapéuticos (ej. ceftriaxona + metronidazol) por 3 a 5 días hasta remisión clínica y paraclínica.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Dogma Quirúrgico Clásico",
+        "explanation": "Creer en el dogma clásico de 'lavar abundantemente con litros de solución salina y dejar drenaje de Penrose en cavidad'; la evidencia moderna demuestra que disemina la sepsis abdominal y no evita abscesos residuales."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el manejo de la cavidad abdominal en apendicitis perforada con pus según la GPC?",
+        "back": "Aspiración meticulosa del pus sin lavado masivo difuso (evita diseminar bacterias a espacios subfrénicos), sin drenajes de rutina, y antibióticos IV por 3 a 5 días.",
+        "tags": "D15 CIR Apendicitis Perforada Lavado_Peritoneal Drenaje GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Apendicitis Aguda en la Mujer Embarazada",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mujer de 27 años, primigesta con embarazo normoevolutivo de 26 semanas de gestación por ultrasonido de primer trimestre, acude a urgencias obstétricas por dolor abdominal de 24 horas de evolución. Refiere que el dolor inició de manera difusa en epigastrio y posteriormente se concentró en el flanco derecho y cuadrante superior derecho (hipocondrio derecho), acompañado de anorexia y dos episodios de vómito alimentario. Signos vitales: TA 110/70 mmHg, FC 98 lpm, Temperatura axilar 37.9 °C. Fondo uterino acorde a 25 cm, FCF 144 lpm normal y sin dinámica uterina. A la palpación abdominal: dolor bien localizado en flanco derecho y punto subcostal derecho, con signo de Bryan positivo y signo de Alder positivo (el dolor a la palpación no se alivia al lateralizar a la paciente a decúbito lateral izquierdo).",
+      "question_text": "¿A qué fenómeno anatómico se debe la localización atípica del dolor en esta paciente y cuál es la interpretación del signo de Alder explorado?",
+      "options": {
+        "A": "Desplazamiento del ciego y apéndice en sentido cefálico y hacia afuera por el crecimiento del útero grávido; el signo de Alder positivo orienta a patología apendicular/extrauterina al persistir el dolor en decúbito lateral izquierdo.",
+        "B": "Torsión mecánica del ligamento redondo derecho hacia el reborde costal; el signo de Alder positivo confirma sufrimiento fetal agudo.",
+        "C": "Rotación gástrica secundaria al influjo de progesterona; el signo de Alder positivo es patognomónico de colecistitis aguda litiásica.",
+        "D": "Herniación interna del apéndice a través del foramen de Winslow inducida por la lordosis gestacional; signo de Alder positivo indica ruptura hepática."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Semiologia_Apendicitis_Embarazo",
+      "gpc_algorithm_step": "Conforme el útero crece durante el 2° y 3° trimestre, el ciego y el apéndice son desplazados progresivamente hacia arriba y hacia afuera (llegando a ubicarse en flanco derecho o hipocondrio derecho hacia el final del embarazo). El signo de Bryan (exacerbación del dolor al lateralizar a decúbito lateral derecho) y el signo de Alder (persistencia o empeoramiento del dolor al colocar a la paciente en decúbito lateral izquierdo al separar el útero de la pared) permiten diferenciar etiologías extrauterinas/apendiculares de patologías ginecológicas.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir el cuadro con colecistitis aguda o síndrome HELLP debido a la localización alta del dolor en hipocondrio derecho, ignorando la migración anatómica cefálica normal del apéndice gestacional."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué el dolor apendicular se localiza en flanco o hipocondrio derecho en el 2° y 3° trimestre de la gestación y qué indica el signo de Alder?",
+        "back": "Por desplazamiento cefálico y lateral del ciego/apéndice por el útero grávido. Signo de Alder: dolor que persiste en decúbito lateral izquierdo indica patología extrauterina/apendicular.",
+        "tags": "D15 CIR Embarazo Apendicitis Anatomia Alder GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Apendicitis Aguda en la Mujer Embarazada",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Se realiza ultrasonido obstétrico y de hemiabdomen superior en la paciente de 26 semanas. El radiólogo reporta: «Embarazo de 26 SDG con producto único vivo y placenta fúndica sin hematomas; vesícula biliar de paredes delgadas sin litos; apéndice cecal no visualizado por interposición de asas intestinales distendidas con gas y volumen del útero grávido (estudio de gabinete no concluyente)». La paciente persiste con dolor moderado y leucocitosis de 15,600/mm³ con 82% neutrófilos.",
+      "question_text": "En estricto apego al algoritmo diagnóstico de la GPC IMSS-031-08 y CENETEC para mujeres embarazadas con sospecha de apendicitis y ultrasonido no concluyente, ¿cuál es el estudio de imagen de elección a solicitar?",
+      "options": {
+        "A": "Resonancia magnética nuclear abdominal sin contraste de gadolinio.",
+        "B": "Tomografía computarizada helicoidal abdominopélvica con contraste oral e intravenoso a dosis convencional.",
+        "C": "Radiografía simple de abdomen con doble proyección en bipedestación y decúbito dorsal.",
+        "D": "Gammagrafía con anticuerpos monoclonales antigranulocito marcados con radioisótopos."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Algoritmo_Imagen_Embarazo_RMN",
+      "gpc_algorithm_step": "La GPC IMSS-031-08 establece que ante la sospecha de apendicitis aguda en una mujer embarazada, el ultrasonido es el estudio inicial; si este resulta negativo o no concluyente, el siguiente estudio de elección obligatorio es la Resonancia Magnética (RMN) abdominal sin medio de contraste (gadolinio proscrito por atravesar la barrera placentaria y acumularse en líquido amniótico), evitando la exposición fetal a radiaciones ionizantes.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar tomografía computarizada directa en una gestante de segundo trimestre sin intentar previamente Resonancia Magnética sin contraste, exponiendo innecesariamente al feto a dosis biológicamente activas de radiación ionizante."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estudio de imagen de elección en una embarazada con sospecha de apendicitis aguda tras un ultrasonido no concluyente?",
+        "back": "Resonancia Magnética (RMN) abdominal sin contraste de gadolinio.",
+        "tags": "D15 CIR Embarazo Apendicitis Resonancia GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Apendicitis Aguda en la Mujer Embarazada",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La Resonancia Magnética corrobora apendicitis aguda no complicada con apéndice retrocecal ascendente de 11 mm de diámetro y engrosamiento mural en hipocondrio derecho. El equipo de cirugía general y ginecología se prepara para la intervención quirúrgica en esta paciente de 26 semanas de gestación.",
+      "question_text": "Con base en la GPC IMSS-031-08 respecto al abordaje quirúrgico y precauciones anestésicas en el segundo trimestre de embarazo, ¿cuál es la conducta adecuada?",
+      "options": {
+        "A": "Apendicectomía laparoscópica realizada por personal experimentado, con colocación de trócares adaptada a la altura del fondo uterino, neumoperitoneo controlado a baja presión (10-12 mmHg) y monitoreo de la FCF pre y postoperatorio.",
+        "B": "Laparotomía exploradora xifopubiana mandatoria con cesárea segmentaria de urgencia concomitante para evitar sufrimiento fetal por el neumoperitoneo.",
+        "C": "Tratamiento conservador no quirúrgico exclusivo con ampicilina intravenosa hasta alcanzar las 37 semanas de gestación para no estimular el útero.",
+        "D": "Apendicectomía laparoscópica con presión de insuflación alta (18 a 20 mmHg) en posición forzada de Trendelenburg para rechazar el útero hacia el diafragma."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Abordaje_Quirurgico_Embarazo",
+      "gpc_algorithm_step": "La GPC IMSS-031-08 avala la apendicectomía laparoscópica durante el 1° y 2° trimestre del embarazo como un procedimiento seguro y eficaz en centros con experiencia quirúrgica. Se debe adaptar la inserción de los puertos (trócar abierto o técnica de Hasson por encima del fondo uterino), mantener una presión de insuflación de CO2 baja (10-12 mmHg para evitar acidosis fetal e hipoperfusión uteroplacentaria) y realizar monitorización fetal continua o pre/postoperatoria.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar cesárea injustificada en un feto pretérmino de 26 semanas o asumir que la laparoscopía está contraindicada en el embarazo; la laparoscopía con presiones bajas (10-12 mmHg) es el estándar aceptado."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las condiciones para realizar apendicectomía laparoscópica en una paciente embarazada en segundo trimestre?",
+        "back": "Trócar abierto por arriba del fondo uterino, presión de neumoperitoneo baja (10-12 mmHg) y monitoreo de FCF pre y postoperatorio.",
+        "tags": "D15 CIR Embarazo Apendicectomia Laparoscopia GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Apendicitis Aguda en la Mujer Embarazada",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Durante el pase de visita prequirúrgico, el médico adscrito interroga al equipo sobre las complicaciones de demorar la resolución quirúrgica en la embarazada y la conveniencia de indicar tocolíticos de rutina.",
+      "question_text": "¿Cuál es el impacto demostrado de la perforación apendicular sobre la morbimortalidad feto-materna y qué postura establece la GPC sobre el uso profiláctico de tocolíticos?",
+      "options": {
+        "A": "La perforación apendicular incrementa el riesgo de pérdida fetal hasta un 20-35% y de parto pretérmino; la GPC no recomienda el uso rutinario de tocolíticos profilácticos en ausencia de dinámica uterina objetiva.",
+        "B": "La perforación apendicular no modifica el pronóstico fetal; los tocolíticos están estrictamente indicados de manera profiláctica en toda paciente embarazada operada.",
+        "C": "La pérdida fetal se mantiene constante en 1% independientemente del estadio apendicular; los tocolíticos deben administrarse en infusión continua por 14 días.",
+        "D": "Toda apendicectomía en el embarazo requiere sulfato de magnesio intravenoso a dosis de neuroprotección durante 7 días continuos."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Pronostico_Fetal_Tocoliticos_Embarazo",
+      "gpc_algorithm_step": "En apendicitis no perforada, la tasa de pérdida fetal es del 1.5 al 4%; sin embargo, si ocurre perforación y peritonitis, la pérdida fetal se dispara dramáticamente al 20-35% y la mortalidad materna se incrementa significativamente. La GPC IMSS-031-08 señala que los agentes tocolíticos no deben administrarse de forma rutinaria profiláctica, reservándose únicamente ante amenaza de parto pretérmino o contracciones uterinas documentadas con cambios cervicales.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio / Manejo No Indicado",
+        "explanation": "Indicar tocolíticos de rutina en toda paciente quirúrgica gestante sin evidencia de trabajo de parto pretérmino, exponiendo a la paciente a riesgos hemodinámicos y edema pulmonar innecesarios."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el riesgo de pérdida fetal ante perforación apendicular en el embarazo y qué indica la GPC sobre tocolíticos profilácticos?",
+        "back": "Pérdida fetal se eleva al 20-35% (vs <4% no perforada). NO se recomiendan tocolíticos de rutina profiláctica (solo si hay dinámica uterina documentada).",
+        "tags": "D15 CIR Embarazo Apendicitis Perdida_Fetal Tocoliticos GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Apendicitis en el Paciente Geriátrico y Masa en Fosa Ilíaca Derecha (Plastrón)",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Hombre de 74 años, hipertenso controlado con losartán, acude a la consulta externa de cirugía general por astenia, hiporexia, dolor abdominal insidioso de 7 días de evolución localizado en fosa ilíaca derecha y estreñimiento. No ha presentado picos febriles francos, únicamente febrícula vespertina intermitente. Signos vitales: TA 130/80 mmHg, FC 82 lpm, FR 18 rpm, Temperatura axilar 37.3 °C. Exploración: abdomen blando, depresible, con palpación de una masa de bordes mal delimitados, consistencia firme, fija y discretamente dolorosa de aproximadamente 6 x 5 cm en la fosa ilíaca derecha, sin rebote franco. Laboratorio: leucocitos 11,200/mm³ con 74% de neutrófilos y 3% de bandas; Hb 12.5 g/dL; creatinina 1.0 mg/dL.",
+      "question_text": "En este paciente adulto mayor con cuadro insidioso y masa palpable en fosa ilíaca derecha, ¿cuál es el estudio de imagen de elección según la GPC IMSS-031-08 y cuál es su objetivo principal?",
+      "options": {
+        "A": "Tomografía computarizada abdominopélvica con contraste intravenoso; permite confirmar plastrón apendicular vs absceso coleccionado y descartar adenocarcinoma cecal o diverticulitis del colon derecho.",
+        "B": "Radiografía simple de abdomen con trago de bario baritado para descartar estenosis de la luz del íleon terminal.",
+        "C": "Ultrasonido de partes blandas de pared abdominal para descartar hematoma de la vaina del recto.",
+        "D": "Laparotomía exploradora urgente sin estudios de imagen para realizar resección en bloque de la masa."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Imagen_Eleccion_Geriatria_TAC",
+      "gpc_algorithm_step": "En pacientes ancianos, la apendicitis aguda suele ser paucisintomática (temperatura normal o febrícula, dolor vago y menor respuesta leucocitaria por inmunosenescencia), debutando frecuentemente de forma tardía como plastrón o absceso. La GPC IMSS-031-08 establece que en adultos mayores o pacientes con presentación atípica/masa palpable, la Tomografía Computarizada con contraste intravenoso es el estudio de elección (sensibilidad y especificidad >95%) para caracterizar la masa y realizar diagnóstico diferencial con neoplasia colorrectal.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Escalón Innecesario",
+        "explanation": "Indicar estudios radiológicos contrastados orales obsoletos con bario o llevar a laparotomía ciega sin TAC contrastada previa en un adulto mayor con masa ileocecal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estudio de imagen de elección en el paciente geriátrico con sospecha de apendicitis aguda o masa en FID según la GPC?",
+        "back": "Tomografía computarizada (TAC) abdominopélvica con contraste intravenoso (diferencia plastrón, absceso y adenocarcinoma cecal).",
+        "tags": "D15 CIR Geriatria Plastron TAC_Contrastada GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Apendicitis en el Paciente Geriátrico y Masa en Fosa Ilíaca Derecha (Plastrón)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La tomografía computarizada abdominopélvica con contraste intravenoso informa: «Apéndice cecal engrosado con fecalito en su base, envuelto por un conglomerado inflamatorio de epiplón y asas de íleon terminal (plastrón apendicular), en cuyo interior se identifica una colección líquida hipodensa con realce periférico en anillo que mide 5.4 x 4.8 cm, compatible con absceso apendicular delimitado en fosa ilíaca derecha». El paciente se encuentra hemodinámicamente estable, afebril, tolerando dieta blanda y sin datos de abdomen agudo generalizado.",
+      "question_text": "De acuerdo con el algoritmo terapéutico de la GPC IMSS-031-08 para el absceso apendicular delimitado (> 3-4 cm) sin peritonitis difusa, ¿cuál es la conducta de primera línea recomendada?",
+      "options": {
+        "A": "Drenaje percutáneo guiado por imagen (ultrasonido o TAC) más antibioticoterapia intravenosa de amplio espectro y reposo intestinal.",
+        "B": "Apendicectomía abierta de urgencia inmediata con resección ileocecal obligada en todos los casos.",
+        "C": "Manejo ambulatorio exclusivo con analgesia oral y cita a consulta externa en 4 semanas.",
+        "D": "Colonoscopía urgente con descompresión transileal del absceso mediante esfinterotomía."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tratamiento_Plastron_Absceso_Drenaje",
+      "gpc_algorithm_step": "En plastrón apendicular con absceso organizado bien delimitado mayor de 3 a 4 cm en un paciente sin peritonitis generalizada, la GPC IMSS-031-08 recomienda el abordaje conservador inicial con antibioticoterapia intravenosa de amplio espectro y drenaje percutáneo guiado por imagen (TAC o USG). La cirugía inmediata en este escenario presenta una morbimortalidad tres veces mayor, con alto riesgo de lesión fecal inadvertida, fístulas estercoráceas y resecciones intestinales extensas innecesarias.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar cirugía inmediata agresiva en un plastrón abscedado delimitado estable; el intento de disección sobre tejido edematoso y friable conduce frecuentemente a hemicolectomías derechas y fístulas cecales que se evitan con drenaje percutáneo y antibióticos."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el manejo inicial de elección para un plastrón apendicular con absceso delimitado > 3-4 cm según la GPC?",
+        "back": "Drenaje percutáneo guiado por imagen (USG/TAC) + antibióticos intravenosos de amplio espectro (evita la alta morbimortalidad de la cirugía inmediata).",
+        "tags": "D15 CIR Plastron Absceso Drenaje_Percutaneo GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Apendicitis en el Paciente Geriátrico y Masa en Fosa Ilíaca Derecha (Plastrón)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El paciente responde con éxito al drenaje percutáneo por TAC y a la cobertura antibiótica con ceftriaxona más metronidazol. El gasto purulento disminuye progresivamente y se retira el catéter al séptimo día tras un ultrasonido de control sin colecciones residuales y biometría hemática normal. El paciente egresa asintomático. El cirujano general programa su seguimiento ambulatorio a mediano plazo.",
+      "question_text": "Debido a la edad del paciente (74 años) y la presentación como masa ileocecal de evolución prolongada, ¿cuál es el estudio mandatorio a realizar a las 6 a 8 semanas del egreso según las directrices clínicas?",
+      "options": {
+        "A": "Colonoscopía total para descartar adenocarcinoma de ciego o patología neoplásica subyacente que haya debutado clínicamente como plastrón.",
+        "B": "Tomografía por emisión de positrones (PET-CT) con 18-FDG inmediata de cuerpo entero.",
+        "C": "Laparoscopía diagnóstica exploratoria con toma de biopsias aleatorias de ganglios retroperitoneales.",
+        "D": "Serie esofagogastroduodenal con doble contraste y prueba de guayaco seriada."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Seguimiento_Colonoscopia_Adulto_Mayor",
+      "gpc_algorithm_step": "En todo paciente adulto mayor de 40-50 años que haya presentado un plastrón o masa periapendicular tratada de forma conservadora, es mandatorio realizar una colonoscopía total a las 6 a 8 semanas posteriores a la resolución del cuadro agudo. El objetivo primordial es descartar un adenocarcinoma de ciego, pólipos avanzados o enfermedad de Crohn, ya que hasta un 10-15% de estos casos albergan una neoplasia maligna subyacente responsable del cuadro.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Dar de alta definitiva al paciente creyendo que se trató de un evento benigno puramente apendicular, pasando por alto un cáncer colorrectal derecho que se manifestó inicialmente como un plastrón inflamatorio."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué estudio es mandatorio a las 6-8 semanas en adultos > 40-50 años tras resolver un plastrón apendicular?",
+        "back": "Colonoscopía total (obligatoria para descartar adenocarcinoma de ciego o neoplasia colónica subyacente).",
+        "tags": "D15 CIR Plastron Colonoscopia Adenocarcinoma GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Apendicitis en el Paciente Geriátrico y Masa en Fosa Ilíaca Derecha (Plastrón)",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "A las 8 semanas de seguimiento, la colonoscopía total reporta mucosa colónica e ileal completamente normal, sin neoplasias, pólipos ni estenosis. El paciente permanece asintomático, realizando sus actividades habituales. El residente pregunta si está indicada la 'apendicectomía de intervalo' rutinaria.",
+      "question_text": "Respecto a la realización sistemática de apendicectomía de intervalo tras la resolución no operatoria exitosa de un plastrón apendicular en adultos, ¿cuál es la recomendación sustentada por la GPC y la evidencia quirúrgica actual?",
+      "options": {
+        "A": "No se recomienda de forma rutinaria y sistemática en adultos asintomáticos, reservándose únicamente ante recurrencia de síntomas o presencia documentada de fecalito persistente.",
+        "B": "Es un procedimiento quirúrgico obligatorio e ineludible en el 100% de los pacientes a las 12 semanas para evitar recurrencia fatal inevitable.",
+        "C": "Debe programarse exclusivamente si el paciente presenta niveles séricos persistentemente elevados de antígeno carcinoembrionario (ACE).",
+        "D": "Está formalmente contraindicada de por vida porque el apéndice sufre atrofia y auto-amputación cicatrizal en la totalidad de los pacientes."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Apendicectomia_Intervalo_Indicaciones",
+      "gpc_algorithm_step": "La necesidad de una apendicectomía de intervalo rutinaria tras el éxito del tratamiento conservador de un plastrón apendicular ha sido reevaluada. La tasa de recurrencia de apendicitis en adultos es baja (alrededor del 5 al 12%). Por lo tanto, la GPC y revisiones sistemáticas establecen que en adultos asintomáticos con colonoscopía normal no se justifica la apendicectomía de intervalo rutinaria, limitándose a pacientes con dolor recurrente, síntomas crónicos o detección de un apendicolito retenido.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Dogma Quirúrgico Clásico",
+        "explanation": "Asumir como dogma histórico que todos los plastrones deben someterse obligatoriamente a apendicectomía de intervalo a los 3 meses; en la práctica actual con colonoscopía normal se reserva solo a sintomáticos o con fecalito."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la recomendación actual sobre la apendicectomía de intervalo en adultos tras resolución de plastrón con colonoscopía normal?",
+        "back": "NO se recomienda de rutina en pacientes asintomáticos. Se reserva para casos con síntomas recurrentes o fecalito persistente.",
+        "tags": "D15 CIR Plastron Apendicectomia_Intervalo GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 35 años acude al servicio de urgencias por dolor agudo en fosa ilíaca derecha de 24 horas de evolución, tipo cólico continuo, acompañado de fiebre de 38.3 °C, náuseas y dos vómitos. A la exploración física: abdomen plano, dolor intenso a la palpación media en punto de McBurney con rebote positivo y defensa involuntaria. En fosa ilíaca derecha se aprecia una cicatriz quirúrgica oblicua antigua. El paciente refiere antecedente de apendicectomía abierta hace 3 años en otra unidad hospitalaria. Los paraclínicos muestran leucocitosis de 15,800/mm³ con 86% neutrófilos. El médico de guardia descarta apendicitis por el antecedente quirúrgico y cataloga el cuadro como probable cólico ureteral.",
+      "question_text": "Con base en la sospecha clínica de Apendicitis del Muñón (Stump appendicitis), ¿cuál es el factor anatómico determinante de esta entidad y el estudio de confirmación de elección?",
+      "options": {
+        "A": "Longitud residual excesiva del muñón apendicular (> 0.5 cm) tras la apendicectomía previa que permite la obstrucción luminal recurrente; estudio de elección: Tomografía computarizada contrastada.",
+        "B": "Regeneración de tejido linfoide a partir de células madre de la válvula de Bauhin; estudio de elección: Colonoscopía con tinción de índigo carmín.",
+        "C": "Infección latente del granuloma de sutura por Mycobacterium tuberculosis; estudio de elección: Tinción de Ziehl-Neelsen en orina.",
+        "D": "Presencia de un segundo apéndice cecal supernumerario congénito en el 15% de la población; estudio de elección: Radiografía simple de abdomen."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Apendicitis_Munon_Stump_Appendicitis",
+      "gpc_algorithm_step": "La apendicitis del muñón (stump appendicitis) ocurre cuando se deja un remanente apendicular mayor a 0.5 cm en una apendicectomía previa, el cual se obstruye nuevamente por un fecalito. Presenta idéntico cuadro clínico y con frecuencia se asocia a retraso diagnóstico y mayor tasa de perforación (hasta 70%) por desestimarse el diagnóstico ante la cicatriz previa. El estudio confirmatorio es la Tomografía computarizada abdominopélvica contrastada y el tratamiento es la resección quirúrgica del muñón (re-apendicectomía).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Descartar de tajo la apendicitis por la presencia de una cicatriz previa de apendicectomía; el muñón residual >0.5 cm es susceptible a reinflamación y perforación grave."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué es la apendicitis del muñón (stump appendicitis), cuál es su causa y cómo se confirma?",
+        "back": "Inflamación recurrente del remanente apendicular que quedó > 0.5 cm en cirugía previa. Se confirma con TAC contrastada.",
+        "tags": "D15 CIR Apendicitis Munon Stump_Appendicitis TAC GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 38 años intervenida de apendicectomía laparoscópica por apendicitis aguda no complicada. El reporte histopatológico definitivo recibido en la consulta externa informa: «Tumor neuroendocrino bien diferenciado (tumor carcinoide apendicular) de 2.3 cm de diámetro mayor, localizado en la base del apéndice cecal, con infiltración transmural, invasión vascular y al mesoapéndice, con márgenes quirúrgicos en la base comprometidos por células neoplásicas; índice de proliferación Ki-67 del 2%».",
+      "question_text": "Conforme a los criterios oncológicos y las guías de manejo de neoplasias apendiculares, ¿cuál es la conducta terapéutica indicada en esta paciente?",
+      "options": {
+        "A": "Programar hemicolectomía derecha oncológica con linfadenectomía regional formal.",
+        "B": "Alta definitiva del servicio de cirugía ya que el Ki-67 es < 3% y los tumores neuroendocrinos apendiculares nunca producen metástasis.",
+        "C": "Iniciar quimioterapia sistémica con cisplatino más etopósido sin necesidad de nuevos procedimientos quirúrgicos.",
+        "D": "Fulguración endoscópica de la base cecal mediante colonoscopía terapéutica."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tumor_Neuroendocrino_Apendicular_Hemicolectomia",
+      "gpc_algorithm_step": "El tumor neuroendocrino (carcinoide) es la neoplasia más común del apéndice. La apendicectomía simple es curativa solo si el tumor mide < 1 cm, se ubica en la punta apendicular y los márgenes están libres. Por el contrario, está indicada la Hemicolectomía derecha oncológica cuando el tumor mide > 2 cm, se localiza en la base apendicular con margen positivo, invade el mesoapéndice (>3 mm), presenta invasión angiolinfática o histología atípica.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Asumir que la apendicectomía simple siempre cura el carcinoide apendicular; cuando mide >2 cm o compromete la base apendicular, la conducta obligada es la hemicolectomía derecha con vaciamiento ganglionar."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las indicaciones de Hemicolectomía Derecha ante un Tumor Neuroendocrino (carcinoide) apendicular?",
+        "back": "Tamaño > 2 cm, localización en la base apendicular con margen positivo, invasión al mesoapéndice (>3 mm) o invasión angiolinfática.",
+        "tags": "D15 CIR Tumor_Neuroendocrino Carcinoide Hemicolectomia GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Hombre de 44 años, con obesidad grado I, acude por dolor focalizado y punzante en la fosa ilíaca derecha de 36 horas de evolución. No refiere fiebre, náuseas, vómitos ni hiporexia (refiere apetito completamente normal). Signos vitales: TA 128/82 mmHg, FC 74 lpm, FR 16 rpm, Temperatura axilar 36.6 °C. A la palpación abdominal: abdomen blando con dolor muy circunscrito a nivel de flanco y fosa ilíaca derecha, sin rebote peritoneal ni resistencia involuntaria. Biometría hemática: leucocitos 7,800/mm³, neutrófilos 60%, PCR 14 mg/L. La TAC contrastada de abdomen reporta: «Lesión ovalada de densidad grasa de 2.2 cm contigua a la serosa anterior del colon ascendente, con anillo periférico hiperdenso y punto hiperatenuante central (central dot), con apéndice cecal de 5 mm y características anatómicas normales».",
+      "question_text": "¿Cuál es el diagnóstico más probable y el manejo terapéutico de primera línea indicado?",
+      "options": {
+        "A": "Apendicitis epiploica (apendagitis); tratamiento médico conservador ambulatorio con antiinflamatorios no esteroideos (AINEs) y analgesia oral, sin intervención quirúrgica.",
+        "B": "Apendicitis aguda retrocecal incipiente; laparoscopía exploradora de urgencia para apendicectomía.",
+        "C": "Trombosis aguda de la arteria mesentérica superior; laparotomía urgente con embolectomía vascular.",
+        "D": "Adenocarcinoma de ciego con perforación cubierta; colectomía derecha de urgencia."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Apendagitis_Epiploica_Manejo_Conservador",
+      "gpc_algorithm_step": "La apendagitis epiploica (o apendicitis epiploica) es una entidad benigna y autolimitada causada por la torsión o trombosis venosa espontánea de un apéndice epiploico del colon. El paciente suele no tener anorexia ni leucocitosis. En la TAC contrastada presenta hallazgos patognomónicos: masa ovalada con atenuación grasa pericólica, anillo hiperatenuante periférico y punto central denso (trombosis venosa central), con apéndice cecal normal. Su manejo es estrictamente conservador con AINEs y reposo ambulatorio; la cirugía es innecesaria.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir el cuadro con apendicitis aguda e intervenir quirúrgicamente al paciente; la apendicitis epiploica es un simulador benigno que cura espontáneamente con AINEs."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los signos tomográficos de la apendicitis epiploica (apendagitis) y cuál es su tratamiento?",
+        "back": "Lesión oval con atenuación grasa pericólica, anillo hiperdenso periférico y punto central ('central dot'). Tratamiento: conservador con AINEs (sin cirugía).",
+        "tags": "D15 CIR Apendagitis Apendicitis_Epiploica TAC AINEs GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Varón de 19 años es llevado a quirófano por sospecha diagnóstica de apendicitis aguda. Durante la laparoscopía, el cirujano inspecciona exhaustivamente el apéndice cecal y constata que se encuentra completamente sano, de 4 mm de diámetro, compresible, sin eritema ni fibrina. Ante este hallazgo, el cirujano decide revisar sistemáticamente el íleon terminal desde la válvula ileocecal en sentido proximal. A los 65 cm de la válvula ileocecal, sobre el borde antimesentérico, identifica una evaginación sacular ciega de 4.5 cm de longitud, intensamente edematosa, violácea y con fibrina en su extremo distal.",
+      "question_text": "¿Cuál es el origen embriológico de esta patología y la conducta quirúrgica correspondiente?",
+      "options": {
+        "A": "Persistencia del conducto onfalomesentérico (vitelino); diverticulectomía de Meckel con o sin resección segmentaria de íleon más apendicectomía incidental.",
+        "B": "Obliteración incompleta del uraco; cistectomía parcial con resección del cordón fibroso vesical.",
+        "C": "Defecto en la rotación intestinal del mesenterio primitivo dorsal; procedimiento de Ladd con fijación cólica.",
+        "D": "Duplicación del ciego primitivo con tejido gástrico ectópico; cierre por invaginación con sutura en bolsa de tabaco."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Diverticulo_Meckel_Hallazgo_Intraoperatorio",
+      "gpc_algorithm_step": "Cuando en una laparoscopía por sospecha de apendicitis se encuentra un apéndice macroscópicamente sano, es mandatorio explorar los últimos 100 cm de íleon terminal para descartar un divertículo de Meckel (remanente del conducto onfalomesentérico en el borde antimesentérico). Si se encuentra inflamado, ulcerado o sangrante, la conducta es su resección (diverticulectomía con resección de la base o resección segmentaria ileal si la base es ancha) asociada a apendicectomía para evitar confusiones diagnósticas futuras.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Confundir el divertículo de Meckel con anomalías del uraco o malrotación intestinal, o limitarse a cerrar la cavidad sin resecar el divertículo inflamado."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta obligatoria si durante una cirugía por sospecha de apendicitis se encuentra un apéndice macroscópicamente normal?",
+        "back": "Explorar sistemáticamente los últimos 100 cm de íleon terminal para buscar divertículo de Meckel (persistencia del conducto onfalomesentérico) y resecarlo si está inflamado.",
+        "tags": "D15 CIR Diverticulo_Meckel Ileorresina Apendice_Normal GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 69 años con nefropatía diabética y enfermedad renal crónica avanzada estadio 4 (TFG estimada de 22 mL/min/1.73m², creatinina basal 2.7 mg/dL, urea 85 mg/dL) ingresa a urgencias con cuadro clínico clásico de apendicitis aguda de 20 horas de evolución y Alvarado de 8 puntos. Se programa para apendicectomía de urgencia.",
+      "question_text": "En el manejo preoperatorio integral de esta paciente con falla renal severa, ¿cuál es la conducta adecuada respecto al control del dolor y la profilaxis antibiótica?",
+      "options": {
+        "A": "Administrar paracetamol intravenoso u opioides titulados como analgesia evitando estrictamente los AINEs (como ketorolaco), y administrar cefalosporina ajustada a la función renal.",
+        "B": "Administrar ketorolaco intravenoso a dosis máxima (60 mg en bolo) junto con amikacina intravenosa a dosis de 15 mg/kg para control enérgico del foco.",
+        "C": "Posponer la intervención quirúrgica hasta realizar tres sesiones consecutivas de hemodiálisis urgente independientemente del estado hemodinámico y de electrolitos.",
+        "D": "Prescribir aspirina a dosis antiinflamatoria vía oral y descontinuar cualquier antibiótico profiláctico por riesgo de nefritis intersticial."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Ajuste_Farmacos_Enfermedad_Renal_Apendicitis",
+      "gpc_algorithm_step": "En pacientes con enfermedad renal crónica avanzada (TFG < 30 mL/min), los antiinflamatorios no esteroideos (AINEs como ketorolaco, diclofenaco o metamizol a dosis altas) y los aminoglucósidos están fuertemente contraindicados por el riesgo inminente de precipitar necrosis tubular aguda, hemorragia digestiva y pérdida irreversible de la función renal residual. Se debe usar paracetamol IV u opioides (fentanilo, buprenorfina o tramadol ajustado) y profilaxis con cefalosporinas dosificadas al aclaramiento de creatinina.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar ketorolaco parenteral o amikacina rutinaria en un paciente con TFG de 22 mL/min; este error iatrogénico común precipita diálisis de urgencia por nefrotoxicidad severa."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué analgésicos deben evitarse en un paciente con ERC estadio 4 (TFG < 30 mL/min) con apendicitis aguda?",
+        "back": "Evitar estrictamente AINEs (como ketorolaco) por riesgo de fallo renal anúrico. Usar paracetamol IV u opioides titulados, y ajustar antibióticos.",
+        "tags": "D15 CIR Falla_Renal Apendicitis AINEs_Contraindicacion GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Case Series 5: Female of Childbearing Age with Acute Abdomen and Diagnostic Dilemma",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "A 24-year-old sexually active female presents to the Emergency Department with a 22-hour history of lower abdominal pain. The pain began in the periumbilical region and later shifted to the right lower quadrant, accompanied by low-grade fever (37.8 °C), anorexia, and two episodes of vomiting. Her last menstrual period occurred 3 weeks ago. Vital signs: BP 115/72 mmHg, HR 90 bpm, RR 18 bpm, Temp 37.8 °C. Abdominal exam shows localized tenderness in the right iliac fossa with mild guarding and rebound. Laboratory workup reveals: WBC 12,200/mm³ with 79% neutrophils, urine dipstick negative for leukocytes and nitrites, and serum beta-hCG is negative. Her calculated Alvarado score is 6 points (intermediate probability).",
+      "question_text": "According to Mexican Clinical Practice Guidelines (GPC IMSS-031-08) for females of reproductive potential with an indeterminate Alvarado score (5-6 points), which initial diagnostic imaging modality is indicated to distinguish between acute appendicitis and gynecologic conditions?",
+      "options": {
+        "A": "Pelvic and abdominal ultrasound (transabdominal and/or transvaginal) as the initial imaging modality of choice.",
+        "B": "Non-contrast abdominopelvic Computed Tomography (CT scan) directly to prevent surgical delays.",
+        "C": "Immediate exploratory laparotomy via midline incision without preoperative imaging.",
+        "D": "Barium enema examination to evaluate appendiceal filling defects."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Imaging_Reproductive_Age_Female",
+      "gpc_algorithm_step": "Mexican Clinical Practice Guideline GPC IMSS-031-08 explicitly establishes that in females of reproductive age with suspected appendicitis and an indeterminate clinical score (Alvarado 5-6), ultrasonography (abdominal and/or transvaginal) is the mandatory initial imaging study. It allows accurate differential diagnosis of gynecologic emergencies (such as ruptured ovarian cyst, pelvic inflammatory disease, or twisted adnexa) while preventing unnecessary ionizing radiation to the ovaries and pelvis.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Ordering an immediate CT scan in a young female without first performing an ultrasound; Mexican institutional guidelines require ultrasound first in women of childbearing age to minimize radiation and rule out pelvic gynecological diseases."
+      },
+      "anki_flashcard": {
+        "front": "What is the initial diagnostic imaging modality of choice for a woman of childbearing potential with suspected appendicitis and indeterminate Alvarado score (5-6)?",
+        "back": "Pelvic and abdominal ultrasound (rules out gynecological mimics and avoids unnecessary ionizing radiation).",
+        "tags": "D15 CIR English Appendicitis Ultrasound Female GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Case Series 5: Female of Childbearing Age with Acute Abdomen and Diagnostic Dilemma",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "In the 24-year-old female from the previous case, the pelvic and abdominal ultrasound is reported as inconclusive: 'The appendix could not be identified due to extensive bowel gas artifact and body habitus; uterus and adnexa appear sonographically normal without free fluid or adnexal masses'. The patient's pain continues to intensify in the right iliac fossa, with worsening involuntary muscular defense and repeat WBC rising to 15,200/mm³.",
+      "question_text": "Following the diagnostic algorithm of the Mexican GPC when ultrasonography is inconclusive in a non-pregnant adult patient with persistent abdominal pain, what is the next imaging study of choice with the highest diagnostic accuracy?",
+      "options": {
+        "A": "Contrast-enhanced abdominopelvic Computed Tomography (CT scan with IV contrast).",
+        "B": "Plain abdominal radiographs in supine and erect projections.",
+        "C": "Upper gastrointestinal barium swallow series.",
+        "D": "Magnetic resonance cholangiopancreatography (MRCP)."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "CT_Scan_Indication_Inconclusive_USG",
+      "gpc_algorithm_step": "Under GPC IMSS-031-08, when the initial ultrasound is negative or inconclusive in a non-pregnant patient and clinical suspicion of acute appendicitis persists, abdominopelvic Computed Tomography (CT) with intravenous contrast is the gold standard imaging modality. It demonstrates diagnostic sensitivity and specificity exceeding 95-98%, accurately identifying appendiceal diameter > 6 mm, wall enhancement, periappendiceal fat stranding, appendicoliths, and complications.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Relying on plain abdominal radiographs (which have negligible sensitivity <15%) or prematurely discharging the patient after a non-diagnostic ultrasound; contrast-enhanced CT is the mandatory next step."
+      },
+      "anki_flashcard": {
+        "front": "What is the imaging study of choice when abdominal ultrasound is inconclusive in a non-pregnant patient with suspected appendicitis?",
+        "back": "Abdominopelvic Computed Tomography (CT scan) with intravenous contrast (sensitivity and specificity > 95%).",
+        "tags": "D15 CIR English Appendicitis CT_Scan Inconclusive_USG GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Case Series 5: Female of Childbearing Age with Acute Abdomen and Diagnostic Dilemma",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The IV contrast-enhanced CT scan reveals an enlarged appendix measuring 11 mm in diameter with a calcified appendicolith at its base, mural discontinuation, extraluminal air bubbles, and a localized 40 mL fluid collection in the rectouterine pouch. The patient is promptly taken to the operating room for laparoscopic appendectomy. Surgical inspection confirms gangrenous, perforated appendicitis with foul-smelling localized purulent peritonitis.",
+      "question_text": "According to Mexican Clinical Practice Guidelines GPC IMSS-031-08 and CENETEC recommendations regarding peritoneal cavity management during appendectomy for complicated appendicitis, which surgical step is evidence-based?",
+      "options": {
+        "A": "Suction of purulent fluid and localized exudate without extensive high-volume irrigation, avoiding routine prophylactic peritoneal drains.",
+        "B": "Metronomic peritoneal lavage with 10 liters of warm saline solution mixed with topical aminoglycosides.",
+        "C": "Mandatory conversion to an open midline laparotomy to place three bilateral suction drains.",
+        "D": "Creation of a temporary protective loop ileostomy to protect the cecal base in all perforated cases."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Peritoneal_Cavity_Management_Complicated",
+      "gpc_algorithm_step": "In complicated perforated appendicitis, both GPC IMSS-031-08 and international guidelines indicate that meticulous suction of pus without generalized high-volume irrigation is the preferred technique, as high-volume flushing spreads bacteria into the subphrenic spaces. Furthermore, routine placement of prophylactic abdominal drains is not recommended because drains do not prevent intra-abdominal abscesses, increase postoperative pain, prolong hospital stay, and can cause fecal fistulae.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa / Surgical Dogma",
+        "explanation": "Falling for the surgical dogma of massive peritoneal irrigation (liters of saline) and leaving prophylactic drains; clinical trials show this spreads bacterial contamination and does not reduce abscess formation."
+      },
+      "anki_flashcard": {
+        "front": "What is the recommended peritoneal management in perforated appendicitis according to GPC guidelines?",
+        "back": "Meticulous suction of pus WITHOUT high-volume irrigation (prevents bacterial spread) and NO routine prophylactic drains.",
+        "tags": "D15 CIR English Appendicitis Peritoneal_Lavage Drains GPC_IMSS"
+      }
+    },
+    {
+      "id": "d15_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Case Series 5: Female of Childbearing Age with Acute Abdomen and Diagnostic Dilemma",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Laparoscopic appendectomy is completed successfully without intraoperative complications. The patient is extubated and transferred to the surgical inpatient floor. The surgical team is establishing the postoperative antimicrobial regimen for this complicated perforated appendicitis.",
+      "question_text": "According to the GPC IMSS-031-08 guidelines, what is the appropriate postoperative antibiotic regimen and duration for complicated (perforated) acute appendicitis?",
+      "options": {
+        "A": "Intravenous therapeutic broad-spectrum antibiotics covering gram-negative bacilli and anaerobes (e.g., ceftriaxone plus metronidazole) for 3 to 5 days, until clinical recovery, defervescence, and normalization of leukocyte count.",
+        "B": "Discontinuation of all antimicrobials within 24 hours of surgery, exactly as in uncomplicated catarrhal appendicitis.",
+        "C": "Continuous intravenous meropenem plus linezolid for a strict minimum of 21 days regardless of clinical course.",
+        "D": "Oral amoxicillin monotherapy starting on postoperative day 1 for 14 outpatient days."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Postoperative_Antibiotic_Duration_Complicated",
+      "gpc_algorithm_step": "GPC IMSS-031-08 dictates that for complicated acute appendicitis (gangrenous, perforated, or with peritonitis), intravenous therapeutic antibiotics covering enteric Gram-negative bacilli and anaerobes (such as a 3rd generation cephalosporin plus metronidazole, or ampicillin/sulbactam) should be administered for 3 to 5 days postoperatively, guided by clinical improvement (patient afebrile, tolerating oral diet, normal white blood cell count). Prolonging treatment beyond 5 days in a clinically resolved patient offers no benefit.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto / Inadequate Duration",
+        "explanation": "Stopping antibiotics at 24 hours in a perforated gangrenous case (which is appropriate only for non-perforated uncomplicated cases) or overtreating with 3 weeks of carbapenems; 3 to 5 days of targeted IV coverage is the GPC recommendation."
+      },
+      "anki_flashcard": {
+        "front": "What is the recommended antibiotic duration for complicated (perforated) appendicitis under GPC guidelines?",
+        "back": "3 to 5 days of therapeutic IV broad-spectrum antibiotics (covering Gram-negatives and anaerobes) until clinical resolution and defervescence.",
+        "tags": "D15 CIR English Appendicitis Antibiotics Complicated GPC_IMSS"
+      }
+    }
+  ]
+}

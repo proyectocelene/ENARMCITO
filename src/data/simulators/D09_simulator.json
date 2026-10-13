@@ -1,0 +1,709 @@
+{
+  "topic_code": "D09",
+  "title": "Simulador Post-Estudio: RENEO (Minuto de Oro), Sepsis Neonatal y Síndrome de Dificultad Respiratoria",
+  "normativa_origen": "NOM-007-SSA2 / GPC Reanimación Neonatal CENETEC / GPC Sepsis Neonatal / GPC SDR",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d09_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Reanimación Neonatal Avanzada y Algoritmo del Paro Neonatal",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Recién nacido masculino obtenido por cesárea de emergencia a las 38 semanas de gestación debido a desprendimiento prematuro de placenta normoinserta (DPPNI) con bradicardia fetal severa (65 lpm). Al momento del alumbramiento el producto se encuentra hipotónico, pálido, apneico y sin respuesta a estímulos. El equipo de reanimación lo coloca inmediatamente bajo cuna de calor radiante, seca la superficie corporal, retira campos húmedos, posiciona la vía aérea en olfateo, despeja secreciones con perilla y aplica estimulación táctil vigorosa en planta de los pies durante los primeros 30 segundos de vida extrauterina. Al reevaluar: el neonato persiste en apnea secundaria y la auscultación precordial revela una frecuencia cardíaca de 42 latidos por minuto.",
+      "question_text": "¿Cuál es la conducta terapéutica inmediata y prioritaria que debe iniciarse dentro del \"minuto de oro\" de acuerdo con la GPC CENETEC y los consensos internacionales de reanimación neonatal?",
+      "options": {
+        "A": "Iniciar ventilación con presión positiva (VPP) con bolsa y mascarilla facial anatómica con FiO2 al 21% (aire ambiente) a 40-60 respiraciones por minuto y colocar oxímetro de pulso preductal",
+        "B": "Iniciar de inmediato compresiones torácicas coordinadas con ventilación en relación 3:1 debido a que la frecuencia cardíaca es menor de 60 latidos por minuto",
+        "C": "Administrar ventilación con presión positiva con bolsa-mascarilla utilizando oxígeno al 100% (FiO2 1.0) por tratarse de un neonato con bradicardia extrema y palidez",
+        "D": "Realizar laringoscopia directa urgente con intubación orotraqueal e instilación directa de adrenalina por tubo traqueal"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC Reanimación Neonatal CENETEC / NRP: En todo recién nacido que tras los primeros 30 segundos (pasos iniciales de secar, calentar, posicionar, permeabilizar y estimular) persista en apnea, con boqueo (gasping) o con FC < 100 lpm, la intervención cardinal y prioritaria es comenzar ventilación con presión positiva (VPP) dentro del primer minuto de vida ('minuto de oro'). En neonatos de término (≥ 35 SDG), la VPP se inicia estrictamente con aire ambiente (FiO2 21%), colocando un pulsioxímetro en la muñeca derecha (sitio preductal). Jamás deben iniciarse compresiones cardíacas sin haber otorgado al menos 30 segundos de VPP efectiva que logre expandir el tórax.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El clínico observa FC < 60 lpm y salta impulsivamente a dar masaje cardíaco o adrenalina, violando el principio básico de que la bradicardia neonatal es casi universalmente de origen hipóxico-asfíctico y revierte con ventilación efectiva."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta prioritaria si un neonato de término a los 30 s de vida persiste en apnea y con FC < 100 lpm (incluso < 60 lpm) tras pasos iniciales?",
+        "back": "Iniciar VPP con bolsa-mascarilla a 40-60 rpm con FiO2 al 21% (aire ambiente) y colocar pulsioxímetro preductal. NUNCA dar masaje sin 30 s previos de VPP efectiva.",
+        "tags": "D09 Pediatría RENEO Minuto_de_Oro GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Reanimación Neonatal Avanzada y Algoritmo del Paro Neonatal",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuación del caso seriado 1. Se inicia VPP con bolsa autoinflable y máscara anatómica al 21% a ritmo constante. Quince segundos después, el segundo reanimador informa: no se observa expansión del tórax, el paciente permanece cianótico y la frecuencia cardíaca continúa en 42 latidos por minuto. Se ejecutan inmediatamente los primeros pasos correctivos de la mnemotecnia MR. SOPA: se reajusta la Máscara garantizando sello hermético (M) y se Reposiciona la cabeza en olfateo neutral (R); al reintentar la VPP por 15 segundos el tórax sigue sin moverse. Se procede a Succionar secreciones en boca y nariz (S) y se abre la Boca del paciente (O); se incrementa la Presión de insuflación progresivamente hasta 30 cmH2O (P). A pesar de estas maniobras combinadas, el tórax del paciente persiste inmóvil y la FC permanece en 40 lpm.",
+      "question_text": "¿Cuál es el siguiente paso mandatario en el algoritmo correctivo MR. SOPA y de la GPC antes de considerar cualquier otra intervención?",
+      "options": {
+        "A": "Colocar una vía aérea alternativa (A): realizar intubación endotraqueal inmediata con tubo traqueal sin globo o colocar una máscara laríngea",
+        "B": "Suspender los intentos de ventilación e iniciar compresiones torácicas con técnica de dos pulgares",
+        "C": "Administrar una dosis de naloxona intravenosa para revertir la depresión respiratoria central",
+        "D": "Aumentar la presión de la bolsa autoinflable a 50 cmH2O para vencer la resistencia de la vía aérea"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC CENETEC / NRP: El algoritmo correctivo MR. SOPA culmina con la letra 'A' (Vía Aérea Alternativa). Si tras ajustar Máscara, Reposicionar, Succionar, Abrir boca y aumentar Presión (M-R-S-O-P) no se logra movimiento torácico ni ascenso de la FC, la conducta obligada es colocar una vía aérea avanzada (intubación orotraqueal con tubo calibre 3.5 para un neonato de término o máscara laríngea si la intubación es difícil o no exitosa). Es un error crítico iniciar masaje cardíaco si no se ha asegurado una vía aérea permeable que logre insuflar los pulmones.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Iniciar compresiones torácicas sin vía aérea permeable es inútil: las compresiones cardíacas en el neonato dependen absolutamente del intercambio gaseoso pulmonar para oxigenar las coronarias."
+      },
+      "anki_flashcard": {
+        "front": "En el algoritmo MR. SOPA de reanimación neonatal, si M, R, S, O y P fallan en expandir el tórax, ¿cuál es el paso inmediato?",
+        "back": "A: Colocar Vía Aérea Alternativa (intubación endotraqueal o máscara laríngea).",
+        "tags": "D09 Pediatría RENEO MRSOPA GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Reanimación Neonatal Avanzada y Algoritmo del Paro Neonatal",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuación del caso seriado 1. El neonatólogo realiza intubación orotraqueal exitosa con tubo traqueal calibre 3.5 mm fijado a 9 cm en labio superior. Se verifica ventilación bilateral simétrica mediante auscultación en ambas axilas y epigastrio, detección de CO2 espirado y adecuada excursión torácica. Se administra VPP efectiva por el tubo traqueal durante 30 segundos completos, incrementando la fracción inspirada de oxígeno (FiO2) al 100%. Al cabo de estos 30 segundos de ventilación traqueal efectiva verificada, se reevalúa el ritmo precordial: la frecuencia cardíaca se encuentra en 48 latidos por minuto con pulso femoral apenas perceptible.",
+      "question_text": "¿Cuál es la conducta terapéutica indicada en este momento según el algoritmo de reanimación neonatal?",
+      "options": {
+        "A": "Iniciar compresiones torácicas con técnica de los dos pulgares en tercio inferior del esternón coordinadas con VPP en relación 3:1 (90 compresiones y 30 ventilaciones por minuto)",
+        "B": "Continuar únicamente con VPP al 100% durante 60 segundos adicionales antes de considerar compresiones cardíacas",
+        "C": "Administrar un bolo de bicarbonato de sodio a 2 mEq/kg por vía endotraqueal para corregir la acidosis láctica",
+        "D": "Iniciar compresiones torácicas continuas a 120 por minuto sin sincronizar con la ventilación mecánica asistida"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC CENETEC / NRP: Las compresiones torácicas están indicadas cuando la frecuencia cardíaca permanece menor de 60 latidos por minuto a pesar de al menos 30 segundos de VPP que ventile los pulmones de manera efectiva (idealmente a través de tubo endotraqueal o máscara laríngea). La técnica de elección es la de 'los dos pulgares rodeando el tórax' en el tercio inferior del esternón (justo por debajo de la línea intermamilar), con una profundidad de un tercio del diámetro anteroposterior. La relación de sincronización es 3:1 (3 compresiones seguidas de 1 ventilación), logrando 90 compresiones y 30 ventilaciones (120 eventos por minuto) con FiO2 al 100%.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Confundir la técnica y relación de RCP neonatal (3:1 coordinado con técnica de 2 pulgares) con el soporte vital pediátrico PALS (15:2) o RCP del adulto (compresiones continuas)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la indicación, relación de compresión:ventilación y técnica de elección para masaje cardíaco en reanimación neonatal?",
+        "back": "Indicación: FC < 60 lpm tras ≥ 30 s de VPP efectiva. Relación: 3:1 (90 compresiones : 30 ventilaciones/min). Técnica: dos pulgares sobre tercio inferior del esternón.",
+        "tags": "D09 Pediatría RENEO Masaje_Cardiaco GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Reanimación Neonatal Avanzada y Algoritmo del Paro Neonatal",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuación del caso seriado 1. Se administran 60 segundos ininterrumpidos de compresiones torácicas de alta calidad coordinadas 3:1 con VPP con FiO2 al 100% a través del tubo endotraqueal bien posicionado. Al pausar brevemente para reevaluación: la frecuencia cardíaca persiste en 44 latidos por minuto. El paciente impresiona marcadamente pálido, con llenado capilar > 5 segundos, hipotónico y con sospecha clínica fundada de choque hipovolémico hemorrágico secundario al DPPNI materno masivo. Se decide colocación de acceso vascular urgente y administración de fármacos.",
+      "question_text": "¿Cuál es la vía vascular de elección, el fármaco inotrópico y el expansor de volumen indicados según la GPC?",
+      "options": {
+        "A": "Cateterismo de vena umbilical de emergencia; Adrenalina IV a 0.02 mg/kg (0.2 mL/kg de dilución 1:10,000) y solución salina al 0.9% a 10 mL/kg en 5 a 10 minutos",
+        "B": "Punción intraósea tibial inmediata; Atropina IV a 0.02 mg/kg y solución glucosada al 10% a 20 mL/kg en bolo rápido",
+        "C": "Administración de adrenalina por tubo endotraqueal a 0.02 mg/kg y albúmina al 5% a 20 mL/kg por vía periférica",
+        "D": "Canalización de arteria umbilical; Adrenalina a 0.1 mg/kg pura sin diluir y solución Ringer lactato a 20 mL/kg en infusión rápida"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC CENETEC / NRP: Cuando la FC permanece < 60 lpm tras 60 segundos de masaje cardíaco coordinado con VPP al 100%, está indicada la administración de adrenalina. La vía de elección primaria y más rápida es la vena umbilical (catéter umbilical introducido 2-4 cm hasta obtener retorno venoso). Dosis IV de adrenalina: 0.02 mg/kg (rango 0.01 a 0.03 mg/kg), lo que equivale a 0.2 mL/kg (0.1 a 0.3 mL/kg) de la preparación 1:10,000 (0.1 mg/mL). Ante evidencia o sospecha de hipovolemia (DPPNI, sangrado agudo, palidez, pulsos débiles), el expansor de volumen de elección es la solución fisiológica (NaCl al 0.9%) a 10 mL/kg en 5-10 minutos (o sangre O Rh negativo si se confirma hemorragia masiva). La albúmina no se recomienda por mayor morbimortalidad.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Utilizar albúmina o soluciones hipotónicas como expansor, o administrar adrenalina por vía endotraqueal a la misma dosis IV (la dosis endotraqueal requiere 0.05 a 0.1 mg/kg y tiene absorción errática, siendo solo temporal mientras se asegura el acceso umbilical)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la dosis y vía de elección de Adrenalina y del expansor de volumen en choque/paro neonatal según la GPC?",
+        "back": "Adrenalina IV/Umbilical: 0.02 mg/kg (0.2 mL/kg de dilución 1:10,000). Expansor: Solución salina al 0.9% a 10 mL/kg en 5-10 min vía vena umbilical.",
+        "tags": "D09 Pediatría RENEO Adrenalina Choque GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Síndrome de Dificultad Respiratoria Tipo I (Enfermedad de Membrana Hialina)",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Neonato femenino prematuro de 29 semanas de gestación obtenido por cesárea debido a preeclampsia materna con criterios de severidad. La madre únicamente recibió una dosis única de betametasona intramuscular 4 horas antes del nacimiento. Peso al nacer: 1,100 g. A los 25 minutos de vida extrauterina, la paciente desarrolla taquipnea (FR 78 rpm), quejido espiratorio audible a distancia sin estetoscopio, tiraje intercostal acentuado, retracción xifoidea visible y aleteo nasal severo con disociación toracoabdominal (Puntuación de Silverman-Anderson: 8 puntos). La pulsioximetría con aire ambiente registra SatO2 de 76%.",
+      "question_text": "¿Cuál es la sospecha diagnóstica principal y el patrón radiológico patognomónico que se espera encontrar en la radiografía de tórax según la GPC?",
+      "options": {
+        "A": "Enfermedad de Membrana Hialina (SDR tipo I); patrón reticulogranular difuso bilateral (\"en vidrio despulido\") con broncograma aéreo y bajo volumen pulmonar (< 8 espacios intercostales)",
+        "B": "Taquipnea Transitoria del Recién Nacido (SDR tipo II); hiperinsuflación pulmonar (> 9 espacios intercostales), aplanamiento diafragmático y líquido en cisuras",
+        "C": "Síndrome de Aspiración de Meconio (SAM); infiltrados algodonosos gruesos bilaterales en parches alternados con áreas de enfisema compensatorio",
+        "D": "Neumonía congénita nosocomial precoz; consolidación lobar unilateral densa con derrame pleural paraneumónico masivo asociado"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Gold_Standard",
+      "gpc_algorithm_step": "GPC Diagnóstico y Tratamiento del Síndrome de Dificultad Respiratoria en el Recién Nacido CENETEC: La Enfermedad de Membrana Hialina (EMH o SDR tipo I) es la causa más común de dificultad respiratoria en prematuros < 34 SDG (y especialmente < 32 SDG) por deficiencia cuantitativa y cualitativa de surfactante alveolar. La radiografía anteroposterior de tórax revela típicamente disminución del volumen pulmonar (hipoexpansión con < 8 espacios intercostales), patrón reticulogranular difuso y homogéneo finamente moteado (\"vidrio esmerilado\" o \"vidrio despulido\") y broncograma aéreo que se extiende hacia la periferia en casos moderados a severos (grados II a IV).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir la hipoexpansión con vidrio despulido de la EMH con la hiperinsuflación y cisuritis de la TTRN o los parches algodonosos del SAM."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los hallazgos radiológicos característicos de la Enfermedad de Membrana Hialina (EMH / SDR tipo I)?",
+        "back": "Patrón reticulogranular fino bilateral ('vidrio despulido'), broncograma aéreo visible y bajo volumen pulmonar (hipoexpansión < 8 espacios intercostales).",
+        "tags": "D09 Pediatría SDR EMH Radiografia GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Síndrome de Dificultad Respiratoria Tipo I (Enfermedad de Membrana Hialina)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuación del caso seriado 2. La prematura de 29 SDG con EMH se encuentra hemodinámicamente estable (FC 148 lpm, TA media 34 mmHg). Se toma gasometría capilar arterializada que muestra: pH 7.28, PaCO2 51 mmHg, PaO2 48 mmHg, HCO3 21 mEq/L, lactato 2.1 mmol/L. Se discute en el servicio de neonatología la estrategia óptima de abordaje respiratorio.",
+      "question_text": "¿Cuál es la modalidad inicial de soporte respiratorio no invasivo recomendada por la GPC para reducir la necesidad de intubación endotraqueal y displasia broncopulmonar?",
+      "options": {
+        "A": "CPAP nasal temprano (Continuous Positive Airway Pressure) con presión positiva al final de la espiración (PEEP) de 5 a 6 cmH2O y titulación de FiO2",
+        "B": "Intubación orotraqueal mandatoria de rescate con ventilación mecánica convencional controlada por presión desde los primeros minutos de vida",
+        "C": "Administración de oxígeno indirecto por campana cefálica al 100% con flujo de 10 litros por minuto",
+        "D": "Cánula nasal simple a 0.5 litros por minuto con aire ambiente sin presión positiva"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC SDR CENETEC: La recomendación de primera línea en neonatos con respiración espontánea y dificultad respiratoria por sospecha o confirmación de EMH es el uso temprano de CPAP nasal con PEEP de 5 a 6 cmH2O. El CPAP temprano estabiliza la capacidad residual funcional (CRF), evita el colapso alveolar telespiratorio, reduce el trabajo respiratorio y disminuye significativamente la necesidad de ventilación mecánica invasiva y la incidencia de displasia broncopulmonar (DBP). La intubación de rutina profiláctica por el mero hecho de ser prematuro está formalmente contraindicada.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Asumir que todo prematuro < 32 semanas debe ser intubado de inmediato en sala de partos para ventilación mecánica rutinaria."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el soporte ventilatorio inicial de elección en prematuros con EMH que presentan respiración espontánea?",
+        "back": "CPAP nasal temprano con PEEP de 5 a 6 cmH2O. Evita el colapso alveolar y reduce la tasa de intubación y displasia broncopulmonar.",
+        "tags": "D09 Pediatría SDR CPAP EMH GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Síndrome de Dificultad Respiratoria Tipo I (Enfermedad de Membrana Hialina)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuación del caso seriado 2. La prematura de 29 SDG y 1,100 g es colocada en CPAP nasal con PEEP de 6 cmH2O. A las 2 horas de vida, a pesar de optimización del dispositivo de CPAP, presenta empeoramiento clínico: la puntuación de Silverman-Anderson es de 7 puntos y para mantener una saturación de oxígeno meta entre 90-94% requiere un incremento progresivo de la fracción inspirada de oxígeno (FiO2) a 45% (0.45). La gasometría de control revela pH 7.21, PaCO2 58 mmHg, PaO2 45 mmHg.",
+      "question_text": "¿Cuál es la conducta terapéutica indicada de acuerdo con los criterios de administración de surfactante de la GPC?",
+      "options": {
+        "A": "Administración temprana de surfactante exógeno natural (poractant alfa a 200 mg/kg o beractant a 100 mg/kg) mediante técnica mínimamente invasiva (LISA/MIST) o INSURE",
+        "B": "Incrementar el PEEP del CPAP a 12 cmH2O y mantener vigilancia expectante durante 12 horas más sin administrar surfactante",
+        "C": "Iniciar infusión de dexametasona intravenosa a dosis altas para acelerar la maduración pulmonar posnatal",
+        "D": "Administrar teofilina intravenosa como broncodilatador de primera línea y mantener en CPAP nasal"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC SDR CENETEC: La indicación de surfactante de rescate temprano en neonatos en CPAP nasal con EMH se establece cuando el paciente requiere FiO2 > 30% (en < 30-32 SDG) para mantener SatO2 meta, o ante fallo de CPAP con acidosis respiratoria. El surfactante natural (porcino - poractant alfa a 200 mg/kg o bovino - beractant a 100 mg/kg) es superior al sintético. Se recomienda su administración temprana mediante métodos que eviten o minimicen la ventilación mecánica prolongada, tales como la técnica mínimamente invasiva (LISA/MIST: instilación por catéter delgado en respiración espontánea con CPAP) o técnica INSURE (INtubar, SURfactante, Extubar a CPAP).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Retrasar el surfactante esperando a que el paciente requiera FiO2 > 60% o intubarlo para dejarlo permanentemente acoplado a ventilador invasivo sin intentar extubación inmediata (INSURE)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el criterio de rescate temprano para administrar surfactante exógeno en prematuros en CPAP y la técnica de elección?",
+        "back": "Criterio: Falla de CPAP o requerimiento de FiO2 > 30% (en prematuros < 32 SDG). Técnica: Mínimamente invasiva (LISA/MIST) o INSURE con surfactante natural porcino (200 mg/kg).",
+        "tags": "D09 Pediatría SDR Surfactante INSURE GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Síndrome de Dificultad Respiratoria Tipo I (Enfermedad de Membrana Hialina)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuación del caso seriado 2. Dos horas después de la administración exitosa de surfactante por técnica INSURE, la paciente se encuentra en CPAP nasal. Súbitamente, la alarma del monitor se activa: la saturación cae a 65%, la frecuencia cardíaca desciende a 88 lpm y la presión arterial media cae a 20 mmHg. A la exploración física dirigida: se observa palidez y cianosis, hemitórax derecho notablemente abombado con hipomovilidad, abolición completa del murmullo vesicular en hemitórax derecho y desplazamiento de los ruidos cardíacos hacia la izquierda. La transiluminación torácica derecha muestra una marcada hiperlucencia que cruza la línea media.",
+      "question_text": "¿Cuál es el diagnóstico de la complicación aguda y la intervención médica inmediata que debe realizarse sin demora?",
+      "options": {
+        "A": "Neumotórax a tensión derecho; punción y descompresión pleural inmediata con catéter o aguja en el 2º espacio intercostal sobre la línea medioclavicular derecha",
+        "B": "Hemorragia pulmonar masiva; aspiración endotraqueal vigorosa e instilación de adrenalina tópica",
+        "C": "Persistencia del conducto arterioso con robo diastólico; inicio de indometacina o ibuprofeno intravenoso urgente",
+        "D": "Atelectasia masiva izquierda por tapón de moco; fibrobroncoscopia urgente con lavado broncoalveolar"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC SDR CENETEC: El neumotórax a tensión es una complicación aguda y potencialmente letal del soporte ventilatorio con presión positiva en prematuros con EMH (barotrauma/volutrauma). Clínicamente produce colapso cardiopulmonar agudo: hipotensión súbita, bradicardia, asimetría torácica, ausencia de murmullo vesicular unilateral y choque obstructivo por compresión mediastínica. El diagnóstico es clínico (apoyado por transiluminación positiva urgente). La conducta inmediata es la punción-descompresión con catéter calibre 22-24G en el segundo espacio intercostal línea medioclavicular (o 4º-5º espacio línea axilar anterior), seguida de colocación de sello de agua pleural. Jamás debe retrasarse la descompresión para solicitar radiografía en un paciente inestable.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio",
+        "explanation": "Indicar la toma de una radiografía de tórax portátil urgente antes de actuar, lo cual retrasa la descompresión y causa paro cardiorrespiratorio por taponamiento fisiológico mediastínico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta inmediata ante un neumotórax a tensión en un neonato con colapso hemodinámico?",
+        "back": "Punción y descompresión pleural urgente inmediata en el 2º espacio intercostal línea medioclavicular. NUNCA esperar la radiografía de tórax.",
+        "tags": "D09 Pediatría SDR Neumotorax Descompresion GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Taquipnea Transitoria del Recién Nacido (TTRN / SDR Tipo II)",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Recién nacido masculino obtenido a las 38.4 semanas de gestación mediante cesárea electiva programada sin trabajo de parto previo. La madre es una primigesta de 26 años con diabetes gestacional controlada con dieta. El neonato nace vigoroso con Apgar de 8 y 9 al minuto 1 y 5 respectivamente. Sin embargo, a las 2 horas de vida extrauterina, el personal de cuneros detecta respiración rápida y superficial: frecuencia respiratoria de 86 respiraciones por minuto, quejido espiratorio inconstante, tiraje intercostal leve y aleteo nasal discreto. La puntuación en la escala de Silverman-Anderson es de 3 puntos. El paciente se encuentra rosado, normotérmico y reactivo.",
+      "question_text": "¿Cuál es la alteración fisiopatológica primaria que origina este cuadro clínico según la GPC?",
+      "options": {
+        "A": "Retraso en la reabsorción y depuración del líquido pulmonar fetal por falta de activación de los canales epiteliales de sodio (ENaC) ante la ausencia del pico de catecolaminas del trabajo de parto",
+        "B": "Destrucción enzimática acelerada de las moléculas de fosfatidilglicerol por la hiperglucemia fetal crónica",
+        "C": "Inactivación del surfactante alveolar por aspiración química de sales biliares intraútero",
+        "D": "Inmadurez del centro respiratorio del tallo cerebral con persistencia de pausas respiratorias centrales"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Gold_Standard",
+      "gpc_algorithm_step": "GPC Diagnóstico y Manejo de la Taquipnea Transitoria del Recién Nacido IMSS-044-08 / CENETEC: La Taquipnea Transitoria del Recién Nacido (TTRN o SDR tipo II) se produce por una falla o retraso en la reabsorción del líquido pulmonar fetal. Durante el trabajo de parto fisiológico, las catecolaminas y el cortisol inducen un cambio funcional en el epitelio alveolar: los canales de cloro se inactivan y se expresan masivamente los canales epiteliales de sodio (ENaC), transportando sodio y arrastrando líquido hacia el intersticio para su drenaje linfático y venoso. En la cesárea electiva sin trabajo de parto se pierde este estímulo hormonal, provocando retención de líquido pulmonar, edema intersticial y disminución de la distensibilidad pulmonar transitoria.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Atribuir el cuadro a deficiencia primaria de surfactante por ser hijo de madre diabética, ignorando que el neonato es de término (38.4 SDG) nacido por cesárea electiva sin trabajo de parto con dificultad respiratoria leve a moderada de inicio precoz."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la causa fisiopatológica y el principal factor de riesgo para Taquipnea Transitoria del Recién Nacido (TTRN)?",
+        "back": "Fisiopatología: Falla de reabsorción del líquido pulmonar fetal por inhibición de canales ENaC. Factor de riesgo: Nacimiento por cesárea electiva sin trabajo de parto previo.",
+        "tags": "D09 Pediatría TTRN Fisiopatologia ENaC GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Taquipnea Transitoria del Recién Nacido (TTRN / SDR Tipo II)",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Continuación del caso seriado 3. Se traslada al neonato de 38.4 SDG a la sala de transición neonatal y se le toma radiografía anteroposterior y lateral de tórax para esclarecer la etiología de la taquipnea.",
+      "question_text": "¿Cuáles son los hallazgos radiológicos característicos de la Taquipnea Transitoria del Recién Nacido según la GPC?",
+      "options": {
+        "A": "Hiperinsuflación pulmonar (> 8-9 espacios intercostales visibles), aplanamiento de hemidiafragmas, líquido en cisuras interlobares (cisuritis), trama vascular pulmonar prominente perihiliar (\"corazón velloso\") y cardiomegalia aparente",
+        "B": "Patrón reticulogranular difuso y homogéneo bilateral con bajo volumen pulmonar y broncograma aéreo",
+        "C": "Infiltrados alveolares algodonosos gruesos diseminados en parches con zonas focales de consolidación y neumotórax espontáneo",
+        "D": "Campos pulmonares con hipoflujo vascular severo, oligohemia periférica y silueta cardíaca en forma de bota (\"zueco\")"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Gold_Standard",
+      "gpc_algorithm_step": "GPC TTRN IMSS-044 / CENETEC: Los hallazgos radiológicos clásicos de la TTRN reflejan hiperinsuflación y sobrecarga hídrica intersticial: 1) Rectificación y aumento de espacios intercostales (> 8-9 posteriores), 2) Aplanamiento o abatimiento diafragmático, 3) Cisuritis (líquido acumulado en cisuras interlobares menor y mayor), 4) Congestión perihiliar bilateral radiante con engrosamiento peribronquial ('corazón velloso' o 'sol radiante'), y 5) Cardiomegalia leve o aparente secundaria a sobrecarga hídrica transitoria. Suelen resolverse en 24 a 72 horas.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Confundir la radiografía con el patrón de la EMH (hipoinsuflación y reticulogranular) o del SAM (infiltrados en parches algodonosos gruesos)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los hallazgos radiológicos clásicos de la TTRN (SDR tipo II) en la GPC?",
+        "back": "Hiperinsuflación (> 8-9 espacios), aplanamiento diafragmático, cisuritis (líquido en cisuras), refuerzo perihiliar ('corazón velloso') y cardiomegalia transitoria.",
+        "tags": "D09 Pediatría TTRN Radiografia Cisuritis GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Taquipnea Transitoria del Recién Nacido (TTRN / SDR Tipo II)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuación del caso seriado 3. El neonato con TTRN tiene 4 horas de vida. Se encuentra con FR de 74 rpm, Silverman-Anderson de 3 puntos y pulsioximetría al aire ambiente en 84%. Se toma gasometría arterial que reporta: pH 7.34, PaCO2 42 mmHg, PaO2 54 mmHg, HCO3 22 mEq/L, SatO2 85%, lactato 1.5 mmol/L.",
+      "question_text": "¿Cuál es el esquema terapéutico de soporte oxigenatorio de primera línea indicado por la GPC para mantener las metas de saturación?",
+      "options": {
+        "A": "Administrar oxígeno suplementario mediante casco cefálico o puntas nasales con FiO2 mínima necesaria para mantener saturación meta entre 88-92% (o 90-95%), escalando a CPAP nasal si requiere FiO2 > 40%",
+        "B": "Iniciar ventilación mecánica invasiva inmediata con tubo orotraqueal para lavado rápido de CO2",
+        "C": "Administrar furosemida a 1 mg/kg IV para forzar la diuresis del líquido pulmonar acumulado",
+        "D": "Administrar una dosis de surfactante exógeno endotraqueal por técnica INSURE para mejorar la distensibilidad"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC TTRN IMSS-044 / CENETEC: El tratamiento de la TTRN es esencialmente de soporte, dado que se trata de un proceso benigno y autolimitado (resolución habitual en 24-72 horas). El objetivo oxigenatorio es mantener la saturación de oxígeno entre 88-92% (o 90-95% según consenso institucional) utilizando la FiO2 más baja posible mediante puntas nasales u oxígeno cefálico (casco/hood). Si con FiO2 > 40% no se alcanzan las metas de saturación o persiste Silverman ≥ 4, se debe escalar a CPAP nasal con PEEP de 4-6 cmH2O. Los diuréticos (furosemida) y los antibióticos rutinarios NO han demostrado beneficio y están contraindicados como manejo de rutina.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar diuréticos (furosemida) creyendo erróneamente que 'sacarán el líquido del pulmón', práctica formalmente proscrita en la GPC."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el manejo oxigenatorio y farmacológico de la TTRN según la GPC?",
+        "back": "Oxígeno por casco cefálico o puntas nasales para meta 88-92% (CPAP si FiO2 > 40%). Diuréticos (furosemida) y antibióticos de rutina están CONTRAINDICADOS.",
+        "tags": "D09 Pediatría TTRN Manejo Diureticos_No GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Taquipnea Transitoria del Recién Nacido (TTRN / SDR Tipo II)",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuación del caso seriado 3. El neonato con TTRN tiene 6 horas de vida. La enfermera de cuneros solicita indicaciones nutricionales para el paciente. Al evaluar sus signos vitales: frecuencia respiratoria de 84 respiraciones por minuto, Silverman-Anderson de 3 puntos y tolerancia a puntas nasales de oxígeno al 30% manteniendo saturación en 93%.",
+      "question_text": "¿Cuál es la conducta de alimentación indicada para este neonato de acuerdo con el algoritmo normativo de la GPC basado en la frecuencia respiratoria?",
+      "options": {
+        "A": "Ayuno absoluto con aporte hídrico y calórico por soluciones intravenosas (glucosa al 10%) debido a que la frecuencia respiratoria es mayor de 80 rpm",
+        "B": "Alimentación por succión directa al seno materno a libre demanda para favorecer el vínculo y la lactancia temprana",
+        "C": "Alimentación con fórmula de término fraccionada mediante succión con biberón cada 3 horas",
+        "D": "Alimentación por sonda orogástrica a gravedad (gavage) debido a que el Silverman es menor de 4 puntos"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Escala_Severidad",
+      "gpc_algorithm_step": "GPC TTRN IMSS-044 / CENETEC: El algoritmo oficial de alimentación en recién nacidos con dificultad respiratoria y taquipnea establece tres categorías estrictas basadas en la frecuencia respiratoria y la escala de Silverman: 1) FR < 60 rpm y Silverman ≤ 2: Alimentación normal por succión al seno materno. 2) FR entre 60 y 80 rpm y Silverman ≤ 3: Alimentación enteral por sonda orogástrica (gavage) para evitar el agotamiento por succión. 3) FR > 80 rpm o Silverman ≥ 4: AYUNO COMPLETO con aporte de líquidos y electrolitos por vía intravenosa, debido al elevadísimo riesgo de broncoaspiración y fatiga respiratoria.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar sonda orogástrica (gavage) cuando la FR es > 80 rpm. La sonda solo se permite con FR de 60-80 rpm; por arriba de 80 rpm la regla absoluta es ayuno con soluciones IV."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios de alimentación según la frecuencia respiratoria en la dificultad respiratoria neonatal (GPC TTRN)?",
+        "back": "FR < 60 rpm: Succión (seno materno). FR 60-80 rpm: Sonda orogástrica (gavage). FR > 80 rpm: AYUNO con líquidos IV.",
+        "tags": "D09 Pediatría TTRN Alimentacion Criterios_FR GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome de Aspiración Meconial (SAM) e Hipertensión Pulmonar Persistente",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Recién nacido masculino postérmino de 41.5 semanas de gestación obtenido por parto eutócico institucional complicado con desaceleraciones tardías persistentes (registro cardiotocográfico categoría III). Al romper membranas se observa líquido amniótico teñido de meconio espeso, con consistencia de \"puré de chícharos\". El producto nace impregnado de meconio en piel, uñas y cordón umbilical, hipotónico y en apnea. Tras pasos iniciales y VPP se logra estabilización inicial. A la hora de vida en la UCIN presenta dificultad respiratoria grave: FR 75 rpm, quejido espiratorio intenso audible sin estetoscopio, tiraje intercostal severo, aleteo nasal y marcado tórax \"en tonel\" con aumento del diámetro anteroposterior. Silverman-Anderson: 7 puntos.",
+      "question_text": "¿Cuál es el patrón radiográfico característico que confirma el diagnóstico de Síndrome de Aspiración de Meconio severo según la GPC?",
+      "options": {
+        "A": "Infiltrados nodulares algodonosos gruesos bilaterales irregulares (\"en parches\"), alternados con áreas de atelectasia y zonas de hiperinsuflación compensatoria, con diafragmas aplanados y riesgo de fuga aérea",
+        "B": "Patrón reticulogranular difuso y homogéneo en vidrio despulido bilateral con broncograma aéreo y campos hipoexpandidos",
+        "C": "Cisuritis prominente con cardiomegalia transitoria y líneas B de Kerley sin zonas de atelectasia",
+        "D": "Campos pulmonares completamente radiolúcidos con elevación bilateral de ambos hemidiafragmas y tráquea estrechada"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Gold_Standard",
+      "gpc_algorithm_step": "GPC Prevención, Diagnóstico y Manejo del Síndrome de Aspiración de Meconio CENETEC / IMSS-230-18: El SAM es típico de neonatos de término o postérmino sometidos a estrés hipóxico intrauterino que induce evacuación de meconio y jadeos (gasping) intrauterinos. El meconio genera obstrucción mecánica de vías aéreas (con efecto de válvula de bola que produce hiperinsuflación y atrapamiento aéreo), neumonitis química mediada por citocinas e inactivación del surfactante. Radiológicamente se aprecian densidades algodonosas gruesas e irregulares 'en parches' que se extienden desde los hilios, alternando con atelectasias subsegmentarias e hiperinsuflación compensatoria (tórax en tonel), con un riesgo de fuga de aire (neumotórax o neumomediastino) de hasta un 20-30%.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir la imagen heterogénea en parches del SAM con la imagen homogénea difusa de la membrana hialina o la cisuritis limpia de la TTRN."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la triada fisiopatológica y la imagen radiológica del Síndrome de Aspiración Meconial (SAM)?",
+        "back": "Fisiopatología: Obstrucción mecánica (válvula), neumonitis química e inactivación de surfactante. Rx: Infiltrados algodonosos en parches heterogéneos, atelectasias e hiperinsuflación.",
+        "tags": "D09 Pediatría SAM Fisiopatologia Radiografia GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome de Aspiración Meconial (SAM) e Hipertensión Pulmonar Persistente",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuación del caso seriado 4. El neonato con SAM se encuentra intubado y en ventilación mecánica invasiva con parámetros altos y FiO2 al 100%. A las 12 horas de vida presenta desaturación progresiva refractaria y labilidad extrema ante cualquier manipulación mínima. El equipo de enfermería coloca dos oxímetros de pulso simultáneos: en la muñeca derecha (sitio preductal) la saturación de oxígeno marca 92%, mientras que en el pie izquierdo (sitio postductal) la saturación marca 77% (diferencial de 15%). La gasometría arterial preductal muestra PaO2 de 58 mmHg y la postductal muestra PaO2 de 41 mmHg.",
+      "question_text": "¿Cuál es el diagnóstico confirmatorio de esta complicación hemodinámica y el mecanismo cardiovascular subyacente?",
+      "options": {
+        "A": "Hipertensión Pulmonar Persistente del Recién Nacido (HPPRN); persistencia de resistencia vascular pulmonar elevada con cortocircuito de derecha a izquierda a través del conducto arterioso y foramen oval",
+        "B": "Coartación de aorta yuxtaductal crítica aislada; obstrucción mecánica al flujo anterógrado sistémico con hipoperfusión distal",
+        "C": "Transposición de las grandes arterias; circuitos en paralelo con necesidad de septostomía urgente de Rashkind",
+        "D": "Tronco arterioso común tipo I; mezcla bidireccional completa obligada en tronco arterial único"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Gold_Standard",
+      "gpc_algorithm_step": "GPC SAM CENETEC / GPC HPPRN: La Hipertensión Pulmonar Persistente del Recién Nacido (HPPRN) es una complicación mayor del SAM (ocurre en 15-20% de casos graves) debido al remodelado vascular pulmonar hipóxico y vasoconstricción intensa. El hallazgo clínico diagnóstico pivote es la presencia de un gradiente de saturación preductal (mano derecha) vs postductal (miembros inferiores) mayor al 10% (o un gradiente de PaO2 > 15-20 mmHg), el cual demuestra la existencia de un cortocircuito extrapulmonar de derecha a izquierda a través del conducto arterioso permeable. El estándar de oro confirmatorio es el ecocardiograma Doppler color.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Confundir el gradiente pre y postductal por cortocircuito D-I con cardiopatías congénitas cianógenas complejas, olvidando el contexto de SAM severo con hipoxemia lábil."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el signo clínico pivote que sospecha y confirma clínicamente Hipertensión Pulmonar Persistente del Recién Nacido (HPPRN)?",
+        "back": "Gradiente de saturación preductal (mano derecha) vs postductal (pie) > 10% (por cortocircuito de derecha a izquierda en conducto arterioso). Estándar de oro: Ecocardiograma.",
+        "tags": "D09 Pediatría HPPRN Gradiente_Preductal Ecocardiograma GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome de Aspiración Meconial (SAM) e Hipertensión Pulmonar Persistente",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuación del caso seriado 4. El ecocardiograma confirma HPPRN severa con presión sistólica de la arteria pulmonar suprasistémica y cortocircuito derecha a izquierda ductal. Los parámetros en ventilador convencional son: Presión Media de la Vía Aérea (PAM) de 16 cmH2O, FiO2 al 100% (1.0), y la PaO2 arterial es de 42 mmHg. Se calcula el Índice de Oxigenación (IO): [IO = (PAM x FiO2 x 100) / PaO2 = (16 x 1.0 x 100) / 42 = 38]. El neonato presenta acidosis metabólica con lactato en 4.5 mmol/L.",
+      "question_text": "¿Cuál es el fármaco vasodilatador pulmonar selectivo de primera línea recomendado por la GPC para este paciente?",
+      "options": {
+        "A": "Óxido Nítrico Inhalado (iNO) a dosis inicial de 20 partes por millón (ppm)",
+        "B": "Sildenafilo intravenoso en bolo rápido a 2 mg/kg cada 4 horas",
+        "C": "Infusión de nitroprusiato de sodio intravenoso a 5 mcg/kg/min",
+        "D": "Bosentán oral administrado por sonda nasogástrica cada 12 horas"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC CENETEC / Consenso de Hipertensión Pulmonar Neonatal: El Óxido Nítrico Inhalado (iNO) es el tratamiento de primera línea de elección para la HPPRN en recién nacidos de término o cercanos al término con Índice de Oxigenación (IO) ≥ 20 o hipoxemia refractaria severa. Actúa relajando selectivamente el músculo liso vascular pulmonar en las zonas ventiladas, disminuyendo la resistencia vascular pulmonar sin causar hipotensión sistémica ni vasodilatación sistémica indiscriminada. La dosis inicial recomendada es de 20 partes por millón (ppm). El sildenafilo se considera como coadyuvante o cuando el iNO no está disponible.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar vasodilatadores sistémicos no selectivos (nitroprusiato) o usar sildenafilo de primera línea teniendo indicación formal de óxido nítrico inhalado a 20 ppm."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el vasodilatador pulmonar de primera línea y dosis de elección en HPPRN con Índice de Oxigenación ≥ 20?",
+        "back": "Óxido Nítrico Inhalado (iNO) a 20 partes por millón (ppm). Dilata selectivamente la vasculatura pulmonar sin hipotensión sistémica.",
+        "tags": "D09 Pediatría HPPRN Oxido_Nitrico iNO GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Síndrome de Aspiración Meconial (SAM) e Hipertensión Pulmonar Persistente",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuación del caso seriado 4. Se conecta el paciente a Ventilación de Alta Frecuencia Oscilatoria (VAFO) y se titula óxido nítrico inhalado a 20 ppm. Cuatro horas después de iniciada esta terapia combinada, el neonato persiste profundamente hipoxémico: PAM en vía aérea de 22 cmH2O, FiO2 al 100%, PaO2 de 39 mmHg. El nuevo Índice de Oxigenación calculado es de 56 persistente por más de 4 horas, acompañado de acidosis mixta refractaria (pH 7.10, PaCO2 62, HCO3 16, exceso de base -14) e inestabilidad hemodinámica dependiente de dosis altas de adrenalina.",
+      "question_text": "¿Cuál es la terapia de rescate terminal indicada por la GPC ante el fallo del tratamiento médico máximo?",
+      "options": {
+        "A": "Oxigenación por Membrana Extracorpórea (ECMO) veno-arterial",
+        "B": "Administración seriada de bolos de bicarbonato de sodio al 8.4% hasta alcanzar alcalosis forzada (pH > 7.60)",
+        "C": "Septostomía auricular quirúrgica de urgencia a corazón abierto",
+        "D": "Infusión continua de relajante muscular con pancuronio y suspensión del soporte inotrópico"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Meta_Referencia",
+      "gpc_algorithm_step": "GPC CENETEC / Neonatología: Cuando la HPPRN y la insuficiencia respiratoria aguda hipoxémica son refractarias al tratamiento médico óptimo máximo (VAFO + iNO a 20 ppm + soporte inotrópico), la terapia de rescate de elección es la Oxigenación por Membrana Extracorpórea (ECMO, típicamente veno-arterial). Los criterios clásicos para ECMO son: Índice de Oxigenación (IO) ≥ 40 persistente por más de 4 horas consecutivas, o gradiente alvéolo-arterial de O2 > 610 durante 8 horas, o acidosis metabólica refractaria incontrolable. La alcalinización extrema forzada con bicarbonato está proscrita por producir daño neurológico y arritmias.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Indicar alcalinización forzada sistémica (hiperventilación o bicarbonato en bolos para forzar pH > 7.55), práctica histórica abandonada por inducir vasoconstricción cerebral e hipoperfusión tisular."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el criterio y terapia de rescate definitivo ante falla de iNO y ventilación mecánica en HPPRN/SAM?",
+        "back": "Criterio: Índice de Oxigenación (IO) ≥ 40 persistente por > 4 horas. Terapia: Oxigenación por Membrana Extracorpórea (ECMO veno-arterial).",
+        "tags": "D09 Pediatría HPPRN ECMO Criterios IO GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Recién nacido masculino de 36.2 semanas de gestación nacido de madre multigesta de 29 años. Durante el trabajo de parto la madre presentó picos febriles de hasta 38.9 °C, dolor a la palpación uterina, taquicardia fetal intraparto (175 lpm) y antecedente de ruptura prematura de membranas de 22 horas de evolución sin haber recibido profilaxis antimicrobiana intraparto. Al nacimiento el producto tiene Apgar 7/8. A las 8 horas de vida extrauterina el neonato presenta inestabilidad térmica con hipotermia (35.6 °C axilar), rechazo al alimento, pobre succión, letargia alterna con irritabilidad, llenado capilar de 4 segundos y distensión abdominal. Los laboratorios iniciales reportan: Leucocitos 3,800/mm3, neutrófilos totales 1,200/mm3, bandas 32% (índice I/T = 0.35) y plaquetas 110,000/mm3.",
+      "question_text": "¿Cuál es el esquema antimicrobiano empírico intravenoso de primera línea recomendado por la GPC mexicana para este paciente con sospecha de Sepsis Neonatal Temprana?",
+      "options": {
+        "A": "Ampicilina más Gentamicina (o Amikacina) por vía intravenosa",
+        "B": "Ceftriaxona más Vancomicina por vía intravenosa",
+        "C": "Ciprofloxacino más Metronidazol por vía intravenosa",
+        "D": "Meropenem más Teicoplanina por vía intravenosa"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC Diagnóstico y Tratamiento de la Sepsis Neonatal CENETEC / NOM-007: La Sepsis Neonatal Temprana (SNT, primeros 3 días o < 72 horas de vida) es adquirida por vía vertical transplacentaria o canal de parto. Los agentes etiológicos principales son Streptococcus agalactiae (Estreptococo del Grupo B - EGB), Escherichia coli y Listeria monocytogenes. El esquema de primera línea institucional según la GPC es la combinación de una aminopenicilina (Ampicilina a 100-150 mg/kg/día) más un aminoglucósido (Gentamicina a 4-5 mg/kg/día o Amikacina). La ampicilina cubre EGB, Listeria y Enterococo, mientras que el aminoglucósido proporciona sinergia bactericida contra bacilos gramnegativos entéricos (E. coli). Las cefalosporinas de 3ª generación (como cefotaxima) no se usan de rutina en sepsis temprana sin meningitis para evitar emergencia de resistencia bacteriana.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Indicar Ceftriaxona en el periodo neonatal: la ceftriaxona está contraindicada en neonatos porque desplaza la bilirrubina de la albúmina (aumentando riesgo de kernicterus) y precipita con sales de calcio en vesícula biliar y riñones ('lodo biliar')."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el esquema antibiótico empírico de primera línea en Sepsis Neonatal Temprana y qué patógenos cubre según la GPC?",
+        "back": "Ampicilina + Gentamicina (o Amikacina) IV. Cubre Streptococcus agalactiae (EGB), Listeria monocytogenes y Escherichia coli.",
+        "tags": "D09 Pediatría Sepsis_Temprana Ampicilina Gentamicina GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Recién nacido prematuro de 28 semanas de gestación que se encuentra en su día 18 de vida hospitalizado en la Unidad de Cuidados Intensivos Neonatales (UCIN). Cuenta con catéter venoso percutáneo central para infusión de nutrición parenteral total (NPT) y antecedentes de ventilación mecánica prolongada. Súbitamente presenta incremento en la frecuencia y duración de episodios de apnea y bradicardia, hipoactividad, residuo gástrico bilioso, palidez terrosa y requerimiento de oxígeno suplementario previamente no necesario. Biometría hemática: leucocitos 18,500/mm3, plaquetas 48,000/mm3 (plaquetopenia severa) y Proteína C Reactiva en 58 mg/L (normal < 5).",
+      "question_text": "¿Cuál es el agente etiológico nosocomial más frecuente implicado y el esquema empírico inicial indicado en la GPC para Sepsis Neonatal Tardía nosocomial?",
+      "options": {
+        "A": "Staphylococcus epidermidis (estafilococo coagulasa negativo); esquema con Vancomicina más un aminoglucósido (Amikacina) o Cefepima",
+        "B": "Streptococcus pneumoniae; esquema con Penicilina G cristalina en monoterapia",
+        "C": "Candida albicans; esquema empírico inicial obligatorio con Anfotericina B desoxicolato en monoterapia",
+        "D": "Chlamydia trachomatis; esquema con Claritromicina oral en monoterapia"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC Sepsis Neonatal CENETEC: La Sepsis Neonatal Tardía nosocomial (después de las 72 horas de vida, especialmente en UCIN con dispositivos invasivos como catéteres venosos centrales y ventilador) tiene como agente causal número uno a las bacterias grampositivas, destacando Staphylococcus epidermidis (estafilococo coagulasa negativo) en más del 50-60% de los aislamientos, seguido de bacilos gramnegativos entéricos multirresistentes (Klebsiella pneumoniae, Pseudomonas aeruginosa, Serratia). El tratamiento empírico de elección es Vancomicina (para estafilococos meticilino-resistentes productores de biofilm) combinada con un aminoglucósido (Amikacina) o una cefalosporina antipseudomónica (Cefepima). Los antifúngicos no se inician a ciegas a menos que existan factores de riesgo adicionales refractarios.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Asumir que por tener NPT el paciente tiene inmediatamente candidiasis invasiva e iniciar anfotericina B sin cubrir la causa más prevalente (Staphylococcus coagulasa negativo)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el agente causal más frecuente de Sepsis Neonatal Tardía en UCIN con catéter central y el tratamiento empírico de elección?",
+        "back": "Agente: Staphylococcus epidermidis (coagulasa negativo). Esquema: Vancomicina + Amikacina (o Cefepima) IV.",
+        "tags": "D09 Pediatría Sepsis_Tardia Estafilococo Vancomicina GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Recién nacido masculino de 39 semanas de gestación nacido de urgencia por prolapso de cordón umbilical con bradicardia fetal sostenida de 50 lpm. El Apgar fue de 2 al minuto 1, 4 a los 5 minutos y 6 a los 10 minutos, requiriendo intubación orotraqueal y compresiones torácicas durante la reanimación inicial. La gasometría de sangre arterial de cordón umbilical reportó: pH 6.92, Déficit de Base de -19 mEq/L y PaO2 18 mmHg. A las 2 horas de vida en la UCIN, la evaluación neurológica (clasificación de Sarnat) revela: estupor, hipotonía generalizada severa, ausencia de reflejo de succión y de Moro, pupilas mióticas con respuesta lenta a la luz y episodios de convulsiones clínicas sutiles (movimientos de pedaleo y parpadeo rítmico).",
+      "question_text": "¿Cuáles son los criterios de indicación y la ventana terapéutica estricta para el inicio de hipotermia terapéutica según la GPC?",
+      "options": {
+        "A": "Iniciar antes de las 6 horas de vida en neonatos ≥ 35 SDG con Encefalopatía Hipóxico-Isquémica moderada o severa y evidencia de asfixia perinatal; mantener temperatura central entre 33.5 °C y 34.5 °C durante 72 horas",
+        "B": "Iniciar a las 12 a 24 horas de vida para permitir la estabilización hemodinámica; enfriar a 28 °C durante 24 horas",
+        "C": "Iniciar en cualquier recién nacido menor de 32 semanas de gestación sin importar la edad posnatal; temperatura de 35 °C por 48 horas",
+        "D": "Administrar fenobarbital a 20 mg/kg e inducir hipotermia a 30 °C únicamente si el electroencefalograma convencional es normal"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Meta_Referencia",
+      "gpc_algorithm_step": "GPC Diagnóstico y Manejo de la Encefalopatía Hipóxico-Isquémica CENETEC: La hipotermia terapéutica (corporal total o selectiva craneal) es la única estrategia neuroprotectora con evidencia de reducir muerte y discapacidad neurológica mayor a los 18-24 meses en neonatos con asfixia perinatal. Sus criterios de inclusión estrictos son: 1) Edad gestacional ≥ 35 semanas, 2) Evidencia de asfixia (pH de cordón ≤ 7.00 o déficit de base ≥ -16 mEq/L, o evento centinela agudo con Apgar ≤ 5 a los 10 min o VPP ≥ 10 min), 3) Evidencia de EHI moderada o grave (Sarnat estadio II o III) o crisis convulsivas, y 4) INICIO DENTRO DE LAS PRIMERAS 6 HORAS DE VIDA (ventana terapéutica previa al daño secundario neuronal irreversible). El protocolo dura exactamente 72 horas con temperatura diana de 33.5 °C a 34.5 °C, seguido de recalentamiento lento a 0.5 °C por hora.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar hipotermia en prematuros menores de 35 SDG (la hipotermia en < 35 SDG no está aprobada por alta tasa de hemorragia intraventricular masiva y muerte) o iniciarla después de la ventana de 6 horas."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios de edad gestacional, ventana de tiempo y temperatura para hipotermia terapéutica en EHI?",
+        "back": "EG ≥ 35 semanas; inicio estricto antes de las 6 horas de vida; temperatura central 33.5 - 34.5 °C durante 72 horas continuas.",
+        "tags": "D09 Pediatría EHI Hipotermia_Terapeutica Sarnat GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Recién nacido prematuro de 30 semanas de gestación que se encuentra en su 6° día de vida en cuneros de crecimiento, con peso de 1,250 g. Presenta pausas respiratorias espontáneas de más de 20 segundos de duración, acompañadas de caída de la frecuencia cardíaca a 75 lpm y saturación de oxígeno a 78%. Al recibir estimulación táctil suave el paciente recupera la ventilación y la frecuencia cardíaca. Se descartan razonablemente mediante laboratorio y exploración física: infección sistémica, hipoglucemia, alteraciones hidroelectrolíticas, anemia y persistencia del conducto arterioso con repercusión hemodinámica.",
+      "question_text": "¿Cuál es el fármaco de primera línea de elección para el tratamiento y prevención de las apneas de la prematurez según la GPC?",
+      "options": {
+        "A": "Citrato de cafeína por vía intravenosa u oral (dosis de impregnación de 20 mg/kg seguida de mantenimiento a 5-10 mg/kg/día)",
+        "B": "Aminofilina en infusión continua a 0.5 mg/kg/hora con monitoreo de niveles séricos",
+        "C": "Teofilina oral a 4 mg/kg cada 8 horas con bolos de salbutamol inhalado",
+        "D": "Dexametasona intravenosa a 0.5 mg/kg cada 12 horas por 3 días"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC Prevención, Diagnóstico y Tratamiento de la Apnea de la Prematurez CENETEC: La apnea de la prematurez se define como el cese de la respiración por más de 20 segundos, o menos si se acompaña de bradicardia (< 100 lpm) o cianosis/desaturación (< 80%), debida a la inmadurez funcional del centro respiratorio del tallo encefálico. Las metilxantinas son la piedra angular del tratamiento farmacológico. El Citrato de Cafeína es el fármaco de primera elección indiscutible sobre la teofilina o aminofilina debido a su vida media prolongada (permite una sola dosis al día), mayor índice terapéutico, mejor penetración al sistema nervioso central y menor tasa de efectos adversos cardiovasculares (taquicardia, reflujo). Dosis: Impregnación 20 mg/kg (equivalente a 10 mg de cafeína base) y mantenimiento de 5 a 10 mg/kg/día.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Elegir aminofilina o teofilina por memoria histórica farmacológica, desconociendo que el citrato de cafeína es la primera línea obligatoria por seguridad y eficacia en la GPC."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el fármaco de primera línea y su esquema de dosificación para el tratamiento de la apnea de la prematurez?",
+        "back": "Citrato de cafeína: Carga 20 mg/kg IV/VO, luego mantenimiento 5-10 mg/kg/día. Superior a teofilina por mayor vida media y seguridad.",
+        "tags": "D09 Pediatría Apnea_Prematurez Cafeina Metilxantinas GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Recién nacido femenino de 39 semanas de gestación nacido de parto eutócico institucional sin complicaciones, peso 3,200 g, Apgar 9/9, actualmente a las 36 horas de vida extrauterina recibiendo lactancia materna exclusiva con adecuada tolerancia. Previo al alta hospitalaria conjunta con su madre, el médico interno de pregrado pregunta cuáles son las pruebas de tamizaje neonatal que deben programarse o realizarse en apego estricto a las normas oficiales mexicanas NOM-034-SSA2 y NOM-007-SSA2.",
+      "question_text": "¿Cuál es la recomendación normativa oficial respecto al momento de realización del Tamiz Cardiológico Crítico y del Tamiz Metabólico Neonatal?",
+      "options": {
+        "A": "Tamiz Cardiológico (pulsioximetría pre y postductal) entre las 24 y 48 horas de vida antes del alta; Tamiz Metabólico Neonatal (punción de talón) idealmente entre el 3er y 5° día de vida (72 a 120 horas de vida)",
+        "B": "Tamiz Cardiológico al momento inmediato del nacimiento en sala de partos; Tamiz Metabólico exclusivamente en sangre de cordón umbilical al alumbramiento",
+        "C": "Tamiz Cardiológico a las 2 horas de vida; Tamiz Metabólico después de los 30 días de vida en la consulta de control del niño sano",
+        "D": "Ambos tamizajes deben realizarse obligatoriamente en las primeras 6 horas de vida utilizando sangre venosa periférica"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Meta_Referencia",
+      "gpc_algorithm_step": "NOM-034-SSA2 / NOM-007-SSA2 / Lineamiento Técnico Tamiz Neonatal Secretaría de Salud: 1) El Tamizaje de Cardiopatías Congénitas Críticas (Tamiz Cardiológico mediante oximetría de pulso en mano derecha y cualquier pie) debe realizarse de manera universal entre las 24 y 48 horas de vida (o antes si egresa antes de las 24h pero > 24h es ideal para evitar falsos positivos por transición fisiológica y cierre del conducto). 2) El Tamiz Metabólico Neonatal para hipotiroidismo congénito, hiperplasia suprarrenal, fenilcetonuria, etc. debe tomarse por punción del talón en papel filtro entre el 3er y 5° día de vida (72 a 120 horas de vida extrauterina), habiendo iniciado alimentación proteica para la detección confiable de aminoacidopatías. La toma de sangre de cordón solo se acepta para TSH en ciertas instituciones pero el talón al 3er-5º día es el estándar de oro normativo.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio",
+        "explanation": "Creer que el tamiz metabólico debe tomarse inmediatamente en las primeras horas o en sangre de cordón para todas las patologías, lo cual produce falsos negativos en errores innatos del metabolismo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la ventana temporal normativa en México para el Tamiz Cardiológico (oximetría) y el Tamiz Metabólico Neonatal?",
+        "back": "Tamiz Cardiológico: 24 a 48 horas de vida (pre y postductal). Tamiz Metabólico: 3er al 5° día de vida (72 a 120 horas) en papel filtro.",
+        "tags": "D09 Pediatría Tamizaje Tamiz_Metabolico Cardiopatias NOM034 GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Early-Onset Neonatal Sepsis and Septic Shock in a Preterm Infant",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A 33-week gestational age male preterm infant is delivered via emergency cesarean section due to acute fetal distress and suspected chorioamnionitis. The 24-year-old primigravida mother presented with persistent fever (39.2 °C), foul-smelling amniotic fluid, maternal leukocytosis of 21,500/mm3 with 18% bands, and premature rupture of membranes of 26 hours duration without intrapartum antimicrobial prophylaxis. At birth, the infant has Apgar scores of 6 at 1 minute and 7 at 5 minutes, requiring CPAP with 30% FiO2. At 8 hours of life in the neonatal intensive care unit, the newborn exhibits profound lethargy, hypothermia (rectal temperature 35.4 °C), respiratory grunting, severe mottling of the extremities, weak peripheral pulses, and a capillary refill time of 5 seconds. Blood pressure is 44/22 mmHg with a Mean Arterial Pressure (MAP) of 24 mmHg (below the 10th percentile for gestational age).",
+      "question_text": "Which of the following diagnostic workup sequences is the most appropriate initial management before administering antimicrobial therapy according to clinical practice guidelines?",
+      "options": {
+        "A": "Obtain two separate blood culture sets from peripheral sites, complete blood count with differential, C-reactive protein, and perform a lumbar puncture for CSF analysis prior to starting antibiotics, provided the infant is clinically stable to tolerate positioning",
+        "B": "Delay all laboratory cultures and immediately start broad-spectrum oral antibiotics while waiting 24 hours for spontaneous clinical resolution",
+        "C": "Perform solely a gastric aspirate culture and urine culture by bag collection, deferring blood cultures due to neonatal anemia risks",
+        "D": "Administer high-dose intramuscular dexamethasone and wait for repeat vital signs before drawing any blood samples"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Estudio_Inicial",
+      "gpc_algorithm_step": "GPC Sepsis Neonatal CENETEC / International Pediatric Sepsis Guidelines: In any newborn with high-risk maternal factors (chorioamnionitis, prolonged ROM > 18h) and clinical signs of systemic infection or hemodynamic instability, blood cultures are mandatory prior to antimicrobial administration. A lumbar puncture (LP) to examine cerebrospinal fluid (cytochemical, Gram stain, and culture) is strongly indicated in suspected early-onset neonatal sepsis whenever the patient's respiratory and hemodynamic status allows safe positioning, because up to 15-30% of neonates with bacteremia or negative blood cultures can harbor meningitis. If severe hemodynamic collapse precludes immediate LP, first-dose parenteral antibiotics must NEVER be delayed; LP should be performed as soon as stabilization is achieved.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Omitting lumbar puncture under the false assumption that early-onset sepsis never affects the central nervous system, risking undertreatment of neonatal meningitis."
+      },
+      "anki_flashcard": {
+        "front": "What is the mandatory initial diagnostic workup before antibiotic therapy in suspected early-onset neonatal sepsis?",
+        "back": "Blood culture (peripheral puncture), CBC with differential, CRP/procalcitonin, and Lumbar Puncture (CSF analysis) if clinically stable. Do NOT delay antibiotics if LP is temporarily postponed.",
+        "tags": "D09 Pediatría English Sepsis Diagnostic_Workup CSF GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Early-Onset Neonatal Sepsis and Septic Shock in a Preterm Infant",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuation of Serial Case 5. Blood samples are drawn and a atraumatic lumbar puncture is successfully performed at L4-L5 interspace. Initial CSF analysis reveals: cloudy appearance, WBC count 480/mm3 with 82% polymorphonuclear leukocytes, protein concentration 210 mg/dL, and glucose 14 mg/dL with a concurrent serum glucose of 76 mg/dL (CSF-to-serum glucose ratio of 0.18). Gram stain of the CSF demonstrates Gram-positive cocci in pairs and short chains.",
+      "question_text": "Which of the following empiric intravenous antimicrobial combinations is the first-line therapy of choice according to Mexican GPC and international neonatal guidelines?",
+      "options": {
+        "A": "Ampicillin (at meningeal dosing: 200-300 mg/kg/day) plus Cefotaxime (150-200 mg/kg/day IV) [or an Aminoglycoside]",
+        "B": "Ceftriaxone (100 mg/kg/day) plus Vancomycin (15 mg/kg/dose every 8 hours)",
+        "C": "Chloramphenicol oral suspension plus Trimethoprim-Sulfamethoxazole intravenously",
+        "D": "Ciprofloxacin intravenously in monotherapy at low doses"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC CENETEC Sepsis Neonatal / Meningitis Neonatal: When neonatal sepsis is complicated by confirmed or highly suspected meningitis, the empiric regimen must penetrate the blood-brain barrier at therapeutic bactericidal concentrations. Ampicillin (at meningeal dose: 200-300 mg/kg/day divided every 6-8h) is required to cover Streptococcus agalactiae (Group B Streptococcus) and Listeria monocytogenes. Cefotaxime (a 3rd-generation cephalosporin with excellent CNS penetration, dosed at 150-200 mg/kg/day) or Gentamicin is added to provide synergy against Gram-negative bacilli such as Escherichia coli. Ceftriaxone is STRICTLY CONTRAINDICATED in neonates due to biliary pseudolithiasis (sludge) and displacement of bilirubin from albumin leading to bilirubin encephalopathy (kernicterus). Chloramphenicol is contraindicated due to 'gray baby syndrome'.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Selecting Ceftriaxone as a third-generation cephalosporin, forgetting that Ceftriaxone is absolutely contraindicated in neonates due to hyperbilirubinemia/kernicterus displacement."
+      },
+      "anki_flashcard": {
+        "front": "What is the empiric antibiotic regimen for neonatal meningitis and why is Ceftriaxone strictly contraindicated in neonates?",
+        "back": "Regimen: Ampicillin (meningeal dose) + Cefotaxime (or Gentamicin) IV. Ceftriaxone is contraindicated: displaces bilirubin from albumin (causes kernicterus) and precipitates with calcium.",
+        "tags": "D09 Pediatría English Meningitis Ampicillin Cefotaxime Ceftriaxone_Contraindicated GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Early-Onset Neonatal Sepsis and Septic Shock in a Preterm Infant",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuation of Serial Case 5. While antibiotics are being infused, the infant's hemodynamic status deteriorates into decompensated septic shock: heart rate 188 bpm, MAP drops to 20 mmHg, peripheral pulses are thready, capillary refill time is prolonged to 6 seconds, and serum lactate rises to 5.2 mmol/L. The patient does not present crackles on lung auscultation, and the liver margin is palpable 1 cm below the right costal margin.",
+      "question_text": "According to pediatric/neonatal septic shock guidelines and the Mexican GPC, what is the initial fluid resuscitation and inotropic strategy of choice?",
+      "options": {
+        "A": "Administer an initial isotonic crystalloid bolus (0.9% Normal Saline) at 10 to 20 mL/kg over 20-30 minutes, reassess for signs of fluid overload; if hypotension and poor perfusion persist after 20 mL/kg, promptly initiate vasoactive support with Dopamine or Epinephrine",
+        "B": "Rapidly infuse 60 mL/kg of 5% Albumin as a rapid push over 5 minutes followed by high-dose furosemide",
+        "C": "Avoid any fluid administration due to preterm brain edema risks and initiate nitroprusside infusion as sole therapy",
+        "D": "Administer 40 mL/kg of 10% Dextrose in water as a rapid push followed by oral digoxin"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "GPC Sepsis Neonatal CENETEC / ACCM Pediatric and Neonatal Septic Shock Guidelines: Neonatal myocardium has limited compliance and high sensitivity to volume overload. Initial fluid resuscitation consists of conservative isotonic crystalloid boluses (0.9% Normal Saline) of 10 to 20 mL/kg administered over 20 to 30 minutes (not rapid push), with meticulous reassessment for hepatomegaly and pulmonary crackles after each aliquot. If perfusion or blood pressure does not normalize after 20-30 mL/kg (fluid-refractory shock), inotropic therapy must be started immediately without further fluid overloading. Dopamine (5-10 mcg/kg/min) or Epinephrine (0.05-0.3 mcg/kg/min) is the vasoactive agent of choice in neonatal septic shock with cold shock/myocardial dysfunction.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Applying aggressive adult fluid resuscitation protocols (30 mL/kg rapid boluses up to 60-80 mL/kg in the first hour), which in preterm infants causes severe pulmonary hemorrhage, reopening of patent ductus arteriosus, and intracranial hemorrhage."
+      },
+      "anki_flashcard": {
+        "front": "What is the initial fluid and vasoactive management of septic shock in a preterm neonate according to guidelines?",
+        "back": "Isotonic saline (0.9%) bolus: 10-20 mL/kg over 20-30 min. If fluid-refractory after 20 mL/kg, initiate inotropes early (Dopamine or Epinephrine). Avoid fluid overload.",
+        "tags": "D09 Pediatría English Neonatal_Shock Fluid_Resuscitation Inotropes GPC"
+      }
+    },
+    {
+      "id": "d09_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Early-Onset Neonatal Sepsis and Septic Shock in a Preterm Infant",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Continuation of Serial Case 5. The patient responds favorably to fluid boluses and inotropic support with dopamine at 7.5 mcg/kg/min, achieving a MAP of 36 mmHg and normal capillary refill (2 seconds). At 48 hours of life, microbiological blood and CSF cultures confirm heavy growth of Streptococcus agalactiae (Group B Streptococcus), pan-susceptible to penicillin and ampicillin. The neonate has achieved clinical stability, normal temperature, and resolution of lethargy.",
+      "question_text": "What is the recommended targeted antibiotic adjustment and the minimum total duration of antimicrobial therapy for confirmed GBS neonatal meningitis according to the GPC?",
+      "options": {
+        "A": "De-escalate to IV Ampicillin (or Penicillin G at meningeal doses) for a minimum total duration of 14 to 21 days, repeating lumbar puncture at 48-72 hours if clinical response is sluggish",
+        "B": "Discontinue all antimicrobial therapy immediately at day 7 because blood pressure and clinical markers have normalized",
+        "C": "Switch to oral cephalexin for 5 days to facilitate early discharge to rooming-in",
+        "D": "Maintain broad-spectrum triple therapy with Vancomycin, Meropenem, and Cefepima for 6 weeks regardless of susceptibility"
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Meta_Referencia",
+      "gpc_algorithm_step": "GPC Sepsis y Meningitis Neonatal CENETEC / AAP Guidelines: Once microbiological cultures and susceptibility results confirm Streptococcus agalactiae (Group B Streptococcus), antimicrobial therapy should be streamlined to high-dose IV Ampicillin or aqueous Penicillin G (250,000 to 450,000 U/kg/day). The mandatory minimum duration of targeted parenteral therapy for uncomplicated GBS neonatal meningitis is 14 to 21 days (compared to 7-10 days for uncomplicated bacteremia without meningitis and 21 days for Gram-negative meningitis like E. coli). Premature discontinuation (e.g., at 7 days) carries a high risk of relapse, ventriculitis, and catastrophic neurodevelopmental sequelae.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Discontinuing antibiotics at 7-10 days (which is the duration for bacteremia without CNS invasion), ignoring that documented meningitis mandates at least 14 to 21 days of IV bactericidal therapy."
+      },
+      "anki_flashcard": {
+        "front": "What is the targeted antibiotic and minimum duration of therapy for confirmed Group B Streptococcus (GBS) neonatal meningitis?",
+        "back": "Targeted therapy: IV Ampicillin (or Penicillin G at meningeal doses). Duration: Minimum 14 to 21 days (compared to 7-10 days for bacteremia without meningitis).",
+        "tags": "D09 Pediatría English GBS_Meningitis Penicillin Treatment_Duration GPC"
+      }
+    }
+  ]
+}

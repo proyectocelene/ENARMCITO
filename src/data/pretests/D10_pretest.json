@@ -1,0 +1,395 @@
+{
+  "topic_code": "D10",
+  "title": "Pre-Test Psicométrico: Control del Niño Sano, Vacunas e Hitos del Desarrollo",
+  "normativa_origen": "NOM-031-SSA2 / GPC IMSS-028 / Cartilla Nacional de Vacunación",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d10_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "NOM-031-SSA2 / Manual de Vacunación CENSIA",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Recién nacido a término (39 semanas de gestación por ultrasonido de primer trimestre), obtenido por parto eutócico vaginal sin complicaciones, con peso al nacer de 3,100 g, talla 50 cm, perímetro cefálico 34.5 cm, y calificación Apgar de 8/9 al minuto y 5 minutos. La madre es una primigesta de 24 años cuyo expediente prenatal documenta positividad confirmada para Antígeno de Superficie del Virus de la Hepatitis B (HBsAg positivo) detectado en el tercer trimestre de la gestación. El neonato se encuentra en alojamiento conjunto, clínicamente estable, reactivo, afebril y con adecuado reflejo de succión. La madre tiene dudas sobre qué vacunas debe recibir su hijo y si puede amamantarlo.",
+      "question_text": "De acuerdo con la NOM-031-SSA2 y las directrices del Programa de Vacunación Universal en México, ¿cuál es la conducta profiláctica inmediata de primera línea que debe indicarse en este recién nacido?",
+      "options": {
+        "A": "Aplicar únicamente la dosis estándar de vacuna recombinante contra Hepatitis B al nacimiento y programar la inmunoglobulina si el lactante desarrolla elevación de transaminasas al primer mes.",
+        "B": "Administrar de forma simultánea la vacuna recombinante contra Hepatitis B (0.5 mL IM) y la Inmunoglobulina específica contra Hepatitis B (IGHB 0.5 mL / 100 UI IM) en sitios anatómicos separados dentro de las primeras 12 horas de vida.",
+        "C": "Contraindicar formalmente la lactancia materna y postergar toda vacunación biológica hasta los 6 meses de vida tras cuantificar la carga viral del neonato.",
+        "D": "Administrar exclusivamente Inmunoglobulina específica contra Hepatitis B (IGHB) en las primeras 12 horas, omitiendo la vacuna recombinante para prevenir el fenómeno de interferencia inmunológica pasivo-activa."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Recién nacido hijo de madre con HBsAg positivo: requiere inmunoprofilaxis combinada urgente (vacuna HepB + Inmunoglobulina específica IGHB) en sitios anatómicos distintos dentro de las primeras 12 horas de vida, logrando una eficacia protectora > 95% contra la transmisión perinatal. La lactancia materna puede iniciarse de inmediato una vez administrada la profilaxis.",
+      "justificacion_gpc": "La NOM-031-SSA2 para la atención a la salud de la infancia y los Lineamientos del Programa de Vacunación Universal señalan con contundencia que todo neonato hijo de madre con HBsAg positivo debe recibir la primera dosis de vacuna contra hepatitis B (0.5 mL por vía intramuscular en la cara anterolateral del muslo) más Inmunoglobulina contra Hepatitis B (IGHB, 0.5 mL / 100 UI IM en el muslo contralateral) dentro de las primeras 12 horas posteriores al nacimiento. Esta inmunización activa y pasiva simultánea reduce el riesgo de transmisión vertical del 90% a menos del 5%. Además, la lactancia materna no está contraindicada una vez iniciada la profilaxis adecuada.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón Incompleto]: Administrar solo la vacuna sin la inmunoglobulina en un hijo de madre HBsAg positiva reduce drásticamente la tasa de protección temprana y expone al neonato a infección crónica con riesgo de cirrosis y hepatocarcinoma.",
+        "C": "[Distractor por Contraindicación Inexistente]: La lactancia materna no está contraindicada en madres infectadas por VHB una vez que el recién nacido recibe la vacuna y la inmunoglobulina específica en las primeras 12 horas de vida.",
+        "D": "[Distractor de Espectro Inmune]: La administración aislada de anticuerpos pasivos (IGHB) solo confiere protección transitoria de corta duración; la inmunización activa concomitante con vacuna en un sitio separado es indispensable para generar memoria inmunológica sin interferencia neutralizante."
+      }
+    },
+    {
+      "id": "d10_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-028 / NOM-031-SSA2",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "El mismo recién nacido del caso anterior acude a su primera consulta de control del niño sano a los 6 días de vida extrauterina. La madre refiere que se alimenta con seno materno exclusivo cada 2 a 3 horas a libre demanda, con adecuado patrón de micción (6 pañales húmedos al día) y evacuaciones transicionales amarillentas pastosas. A la exploración física: signos vitales normales, activo, reactivo, mucosas orales húmedas, llenado capilar de 2 segundos, fontanela anterior normotensa de 2.5 x 2.5 cm y fontanela posterior puntiforme de 0.5 cm. Se realiza pesaje en báscula pesa-bebé digital previamente calibrada, registrándose 2,870 g (pérdida de 230 g respecto a su peso al nacer de 3,100 g, lo que equivale a un descenso ponderal del 7.4%). La madre se encuentra sumamente angustiada y el personal de enfermería le sugiere iniciar fórmula lánea sucedánea.",
+      "question_text": "Con base en la GPC IMSS-028 para el Control del Niño Sano y la somatometría fisiológica neonatal, ¿cuál es la interpretación clínica y la conducta correcta?",
+      "options": {
+        "A": "Pérdida ponderal fisiológica normal (esperada hasta un 10% en los primeros 7 a 10 días de vida); se debe tranquilizar a la madre, reforzar la técnica de lactancia materna exclusiva y programar cita de seguimiento entre el día 10 y 14 de vida para constatar la recuperación del peso al nacer.",
+        "B": "Pérdida de peso patológica temprana sugestiva de hipogalactia materna severa; suspender la lactancia al seno materno e indicar fórmula de inicio con técnica de vaso y jeringa.",
+        "C": "Deshidratación hipernatrémica moderada; solicitar de urgencia electrolitos séricos, biometría hemática e iniciar reposición hídrica intravenosa.",
+        "D": "Fallo de medro neonatal secundario a transmisión vertical del virus de la hepatitis B; tramitar referencia urgente a tercer nivel de atención pediátrica."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Pérdida ponderal del 7.4% a los 6 días de vida en un neonato con mucosas húmedas y diuresis normal: corresponde a la pérdida fisiológica de líquido extracelular (hasta 10% en recién nacidos de término durante los primeros 7-10 días), con meta cronológica de recuperación del peso al nacer entre los 10 y 14 días de vida.",
+      "justificacion_gpc": "La GPC IMSS-028 y los manuales rectores del ENARM establecen que en los recién nacidos a término es fisiológica una pérdida de peso de hasta el 10% (en prematuros hasta el 15%) durante los primeros 7 a 10 días de vida extrauterina, secundaria a contracción del espacio extracelular y eliminación de meconio. El peso al nacer debe recuperarse cabalmente entre los 10 y 14 días de vida. Ante una pérdida del 7.4% con datos clínicos de adecuada hidratación y diuresis, la conducta es preservar y apoyar la lactancia materna exclusiva, evitando la introducción injustificada de sucedáneos.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor por Prescripción Injustificada]: La introducción de fórmula sucedánea por una pérdida ponderal < 10% rompe la lactancia materna exclusiva, altera la microbiota neonatal y es un error común derivado de la inexperiencia médica.",
+        "C": "[Distractor de Espectro Extremo]: La deshidratación hipernatrémica se sospecha ante pérdidas ponderales superiores al 10-12% acompañadas de mucosas secas, letargo, llanto débil o fiebre por sed; no en un niño con examen físico e hidratación normales.",
+        "D": "[Distractor por Sesgo Diagnóstico]: La infección por VHB en el periodo neonatal no produce fallo de medro agudo en la primera semana; atribuirle la pérdida fisiológica representa un sesgo de anclaje absurdo."
+      }
+    },
+    {
+      "id": "d10_q3",
+      "index": 3,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "NOM-031-SSA2 / Manual de Vacunación CENSIA",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Recién nacido masculino prematuro de 33 semanas de gestación por ultrasonido temprano, obtenido por cesárea urgente debido a desprendimiento prematuro de placenta normoinserta. Peso al nacer: 1,820 g, talla: 42 cm. Actualmente cursa su quinto día de vida extrauterina en la unidad de cuidados intermedios neonatales; se encuentra clínicamente estable en cuna de calor radiante, afebril, tolerando volúmenes crecientes de leche materna por sonda orogástrica y ganando 15 g al día. La enfermera de medicina preventiva acude a la sala con los biológicos del recién nacido y solicita autorización médica para aplicar la vacuna BCG.",
+      "question_text": "De acuerdo con la NOM-031-SSA2 y las normas oficiales de vacunación en México, ¿cuál es la conducta normativa obligatoria respecto a la aplicación de la vacuna BCG en este paciente?",
+      "options": {
+        "A": "Aplicar la vacuna BCG inmediatamente a dosis completa de 0.1 mL por vía intradérmica en la región deltoidea derecha, ya que el paciente se encuentra afebril y clínicamente estable.",
+        "B": "Administrar la vacuna BCG a media dosis (0.05 mL) por vía subcutánea profunda para prevenir necrosis cutánea y linfadenitis regional por su prematurez.",
+        "C": "Diferir la aplicación de la vacuna BCG hasta que el paciente alcance un peso corporal mínimo de 2,000 gramos, momento en el cual se administrará su dosis única de 0.1 mL intradérmica.",
+        "D": "Contraindicar de manera definitiva la vacuna BCG de por vida debido al antecedente de nacimiento prematuro menor a 34 semanas de gestación."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Peso corporal actual de 1,820 g (< 2,000 g): criterio de contraindicación temporal absoluta para la aplicación de la vacuna BCG; la norma mexicana obliga a posponer su administración hasta que el neonato alcance al menos 2,000 gramos de peso.",
+      "justificacion_gpc": "La NOM-031-SSA2 y los manuales de vacunación de la Secretaría de Salud / CENSIA establecen con absoluta claridad que la vacuna BCG (bacilo de Calmette-Guérin, cepa viva atenuada de Mycobacterium bovis) tiene como contraindicación temporal un peso al nacer o al momento de la aplicación inferior a 2,000 gramos, así como inmunodeficiencias congénitas o adquiridas y fiebre > 38.5 °C. En recién nacidos con peso menor a 2,000 g debe diferirse la vacunación hasta que alcancen dicho peso. La dosis estándar es siempre de 0.1 mL por vía intradérmica estricta en el deltoides derecho; no se fracciona ni se cambia la vía.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Distractor_Espectro",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Violación Normativa]: Aplicar BCG en niños con peso < 2,000 g incrementa el riesgo de reactogenicidad local severa, ulceración tórpida, becegeítis diseminada y pobre respuesta inmune.",
+        "B": "[Distractor Técnico Peligroso]: La BCG jamás se administra por vía subcutánea ni a media dosis; la vía subcutánea predispone a abscesos fríos y linfadenitis supurativa masiva.",
+        "D": "[Distractor de Severidad Desproporcionada]: La prematurez por sí misma no es una contraindicación permanente de la BCG; es únicamente una contraindicación temporal que cesa al alcanzar los 2,000 gramos."
+      }
+    },
+    {
+      "id": "d10_q4",
+      "index": 4,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "NOM-031-SSA2 / CENSIA Lineamientos EDI",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Lactante masculino de 4 meses de edad cumplidos traído a la consulta de medicina familiar para valoración integral del niño sano. Nacido a término sin complicaciones neonatales. A la exploración física: peso 6,500 g (adecuado para la edad, duplicando su peso al nacer de 3,200 g), talla 63 cm. Signos vitales normales. Durante la evaluación neurológica: en decúbito ventral sostiene firmemente la cabeza levantando el pecho con apoyo en los antebrazos; al sentarlo con apoyo mantiene la cabeza erguida sin oscilaciones; en decúbito dorsal mantiene las manos abiertas y las junta en la línea media jugando con sus dedos; sonríe socialmente y balbucea guturalmente en respuesta a la voz de la madre; sigue objetos visuales en un arco completo de 180 grados. Fontanela anterior normotensa de 2.0 x 2.0 cm y fontanela posterior cerrada.",
+      "question_text": "¿Cuál es la herramienta clínica inicial de tamizaje estandarizada y validada que debe aplicar el médico en el primer nivel de atención en México para evaluar el neurodesarrollo en esta consulta?",
+      "options": {
+        "A": "Prueba de Evaluación del Desarrollo Infantil (EDI), validada por CENSIA para la detección oportuna de problemas del neurodesarrollo en menores de 5 años.",
+        "B": "Escala de Inteligencia de Wechsler para Niveles Preescolar y Primario (WPPSI-IV) bajo sedación ambulatoria.",
+        "C": "Escala de Coma de Glasgow pediátrica modificada para lactantes en reposo.",
+        "D": "Resonancia magnética de encéfalo con secuencias volumétricas de difusión para documentar el mapa de mielinización."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Evaluación del desarrollo en el primer nivel de atención en México: la prueba EDI (Evaluación del Desarrollo Infantil) es el instrumento oficial normado de tamizaje poblacional que clasifica a los menores de 5 años mediante un sistema de semáforo.",
+      "justificacion_gpc": "La NOM-031-SSA2 y los lineamientos del CENSIA (Centro Nacional para la Salud de la Infancia y de la Adolescencia) establecen que la prueba de Evaluación del Desarrollo Infantil (EDI) es el instrumento oficial de tamizaje en México para evaluar los dominios motor grueso, motor fino, lenguaje, socioemocional y cognitivo en menores de 5 años. Se aplica en cada consulta de control del niño sano para clasificar al menor en Desarrollo Normal (Verde), Rezago en el Desarrollo (Amarillo) o Riesgo de Retraso en el Desarrollo (Rojo).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón y Edad]: El WPPSI es una escala psicométrica compleja de coeficiente intelectual aplicada a partir de los 2 años y medio a 7 años, totalmente inaplicable en un lactante de 4 meses.",
+        "C": "[Distractor de Espectro Urgente]: La escala de Glasgow pediátrica evalúa nivel de conciencia y coma en trauma o neuroinfección aguda, no es una prueba de tamizaje de neurodesarrollo.",
+        "D": "[Distractor de Paraclínico Desproporcionado]: Los estudios de neuroimagen avanzada no son herramientas de tamizaje para niños sanos; se reservan para patología estructural o retraso severo confirmado."
+      }
+    },
+    {
+      "id": "d10_q5",
+      "index": 5,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "Cartilla Nacional de Vacunación / NOM-031-SSA2",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "En el mismo lactante de 4 meses de edad del caso anterior, el médico de la unidad de medicina familiar revisa la Cartilla Nacional de Salud del menor y comprueba que a los 2 meses de vida recibió oportunamente: primera dosis de Hexavalente acelular, primera dosis de Rotavirus y primera dosis de Neumococo conjugada 13-valente. Hoy el paciente se encuentra completamente afebril (temperatura axilar 36.6 °C), sin diarrea, vómito ni síntomas respiratorios. La madre acude al módulo de medicina preventiva para continuar el esquema.",
+      "question_text": "De acuerdo con el Esquema Nacional de Vacunación oficial vigente en México, ¿qué biológicos le corresponde recibir con precisión en esta consulta de los 4 meses?",
+      "options": {
+        "A": "Segunda dosis de Hexavalente acelular únicamente, difiriendo la vacuna de Rotavirus y Neumococo hasta los 6 meses para evitar sobrecarga antigénica.",
+        "B": "Segunda dosis de vacuna Hexavalente acelular (DPaT+VIP+Hib+HepB), segunda dosis de vacuna contra Rotavirus y segunda dosis de vacuna Neumocócica conjugada 13-valente.",
+        "C": "Segunda dosis de Hexavalente acelular, vacuna Sabin oral bivalente (bOPV) y primera dosis de vacuna Triple Viral (SRP).",
+        "D": "Tercera dosis de vacuna Hexavalente acelular y dosis de refuerzo de vacuna DPT celular de células enteras."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Cita de los 4 meses de edad con esquema de 2 meses completo: le corresponde de manera simultánea la 2da dosis de Hexavalente acelular, la 2da dosis de Rotavirus y la 2da dosis de Neumococo conjugada 13-valente.",
+      "justificacion_gpc": "Conforme a la Cartilla Nacional de Vacunación y la NOM-031-SSA2, el esquema oficial mexicano estipula a los 4 meses de edad la administración de tres biológicos: 1) Segunda dosis de vacuna Hexavalente acelular (que cubre difteria, tos ferina acelular, tétanos, poliomielitis inactivada VIP, Haemophilus influenzae tipo b y hepatitis B), 2) Segunda dosis de vacuna contra Rotavirus (vía oral), y 3) Segunda dosis de vacuna Neumocócica conjugada 13-valente (intramuscular en muslo contralateral).",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Escalon",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Oportunidad Perdida]: Diferir las vacunas de rotavirus y neumococo genera oportunidades perdidas de inmunización y viola el esquema nacional; no existe el concepto de sobrecarga antigénica en vacunas simultáneas reglamentadas.",
+        "C": "[Distractor de Escalón Temporal]: La vacuna SRP se aplica a los 12 meses (no a los 4 meses) y la vacuna oral Sabin fue sustituida en el esquema primario por la VIP contenida en la Hexavalente.",
+        "D": "[Distractor de Esquema Avanzado]: La tercera dosis de Hexavalente corresponde a los 6 meses y la DPT de células enteras es un refuerzo que se aplica hasta los 4 años de edad."
+      }
+    },
+    {
+      "id": "d10_q6",
+      "index": 6,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "NOM-031-SSA2 / CENSIA Lineamientos EDI",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Lactante femenino de 8 meses de edad que es llevada por su madre a la consulta externa de pediatría en un Centro de Salud con Servicios Ampliados (CESSA). La madre refiere preocupación porque 'siente a su hija muy aguada y no se mueve como otros niños'. A la exploración física: no logra sostén cefálico estable en posición vertical (cabeza pendular con caída posterior en la maniobra de tracción para sentarse), no realiza sedestación ni con apoyo y colapsa hacia el frente; en extremidades inferiores presenta marcada hipertonía con postura espástica en tijera y pies en equino, con reflejos osteotendinosos patelares ++/++++ y reflejo de Moro persistentemente presente y exaltado de manera bilateral. Al aplicar la prueba de Evaluación del Desarrollo Infantil (EDI), reprueba todos los ítems del grupo de edad y presenta tres señales de alarma neurológica.",
+      "question_text": "Con base en el sistema de calificación estandarizado de la prueba EDI y la NOM-031-SSA2, ¿cómo se clasifica el estado de desarrollo de la paciente y cuál es la conducta médica de referencia obligatoria?",
+      "options": {
+        "A": "Verde (Desarrollo Normal con Factor de Riesgo): citar en 3 meses para control rutinario del niño sano y recomendar ejercicios domiciliarios pasivos.",
+        "B": "Amarillo (Rezago en el Desarrollo): enviar a taller comunitario de estimulación temprana y programar revaloración con prueba EDI en 6 meses antes de cualquier derivación hospitalaria.",
+        "C": "Rojo (Riesgo de Retraso en el Desarrollo): amerita referencia prioritaria a segundo o tercer nivel de atención (Pediatría médica / Neuropediatría o Centro de Rehabilitación y Educación Especial [CREE]) para diagnóstico etiológico e intervención especializada temprana.",
+        "D": "Sin clasificación válida; la prueba EDI no es concluyente antes de los 12 meses de vida, por lo que debe posponerse la valoración hasta que la paciente intente la bipedestación."
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Presencia de signos de alarma neurológica (Moro persistente a los 8 meses, hipertonía espástica en miembros pélvicos, ausencia de sostén cefálico) e ítems reprobados: clasifica invariablemente en semáforo ROJO (Riesgo de Retraso en el Desarrollo), lo que exige envío prioritario inmediato a segundo o tercer nivel.",
+      "justificacion_gpc": "La prueba EDI clasifica a los menores de 5 años en tres categorías: Verde (Desarrollo Normal), Amarillo (Rezago en el Desarrollo, cuando no cumple hitos para su edad pero no tiene signos de alarma ni reflejos primitivos alterados) y Rojo (Riesgo de Retraso en el Desarrollo). La presencia de cualquier señal de alarma neurológica (como la persistencia de reflejos arcaicos más allá de los 6 meses, asimetrías marcadas o espasticidad) o la falla en dos o más áreas del desarrollo asigna automáticamente el semáforo Rojo. Conforme a la NOM-031-SSA2, el semáforo Rojo es un criterio mandatario de referencia urgente a segundo/tercer nivel o a un CREE para manejo interdisciplinario oportuno.",
+      "distractor_roles": {
+        "A": "Distractor_Espectro",
+        "B": "Distractor_Escalon",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor por Subestimación Peligrosa]: Clasificar como normal a un lactante con espasticidad, Moro persistente y pérdida de sostén a los 8 meses representa negligencia diagnóstica catastrófica.",
+        "B": "[Distractor de Escalón Insuficiente]: El semáforo amarillo aplica cuando faltan hitos sin signos de alarma neurológica; ante francos signos neurológicos la estimulación comunitaria sin estudio hospitalario retrasa la atención de una posible parálisis cerebral infantil.",
+        "D": "[Distractor de Ignorancia Metodológica]: La prueba EDI está validada y normada a partir del primer mes de vida extrauterina y hasta los 59 meses de edad."
+      }
+    },
+    {
+      "id": "d10_q7",
+      "index": 7,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "Manual de Vacunación CENSIA / NOM-031-SSA2 / OMS",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Lactante masculino de 8 meses y 3 semanas de vida cronológica (35 semanas de edad) es llevado al centro de salud por sus padres para 'poner al corriente sus vacunas'. La madre explica que debido a problemas de traslado y residencia en una comunidad de difícil acceso, el menor únicamente recibió las vacunas al nacer (BCG y Hepatitis B) y el esquema de los 2 meses (Hexavalente, Rotavirus y Neumococo). El menor no ha recibido ninguna vacuna posterior. Actualmente se encuentra asintomático, afebril y con adecuado estado nutricional. El personal de enfermería solicita indicación médica respecto a la vacuna oral contra Rotavirus que el niño no recibió a los 4 meses.",
+      "question_text": "De acuerdo con los límites cronológicos estrictos de la NOM-031-SSA2, los lineamientos de CENSIA y la OMS, ¿cuál es la indicación médica correcta respecto a la vacuna contra Rotavirus en este paciente?",
+      "options": {
+        "A": "Administrar la segunda dosis de vacuna contra Rotavirus de inmediato, ya que el esquema de biológicos vivos atenuados puede completarse en cualquier momento antes de los 24 meses.",
+        "B": "Administrar la vacuna contra Rotavirus pero fraccionando la dosis a la mitad para disminuir la reactogenicidad sobre la mucosa ileal.",
+        "C": "Cambiar la vía de administración de la vacuna contra Rotavirus a vía intramuscular profunda para evitar el riesgo de replicación intestinal.",
+        "D": "Contraindicar formalmente la administración de la vacuna contra Rotavirus; la edad biológica máxima e inapelable para aplicar la última dosis es antes de cumplir los 8 meses de edad (7 meses y 29 días) debido al riesgo de invaginación intestinal."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Edad de 8 meses y 3 semanas (> 8 meses y 0 días cumplidos): límite cronológico superado. La vacuna contra Rotavirus no debe administrarse a lactantes de 8 meses o mayores bajo ninguna circunstancia debido a la elevación del riesgo atribuible de invaginación intestinal (intususcepción).",
+      "justificacion_gpc": "Tanto los lineamientos nacionales de CENSIA (Secretaría de Salud de México) como las directrices de la OMS y los CDC fijan edades límites estrictas e improrrogables para la vacuna contra el rotavirus (virus vivo atenuado): la primera dosis no debe aplicarse después de las 14 semanas con 6 días de vida, y la última dosis (sea la segunda en esquemas monovalentes o la tercera en pentavalentes) NO debe administrarse a niños con 8 meses y 0 días de edad o más. Exceder este límite aumenta de forma estadísticamente significativa el riesgo de invaginación intestinal (intususcepción). Al tener 8 meses y 3 semanas, la oportunidad de recibir rotavirus ha precluido definitivamente.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Violación de Límite de Seguridad]: Extender la vacuna contra rotavirus más allá de los 8 meses pone en grave peligro la vida del paciente por riesgo de invaginación intestinal obstructiva y necrosis ileocólica.",
+        "B": "[Distractor Falso de Dosificación]: Las vacunas virales orales no se fraccionan; reducir la dosis no confiere protección y mantiene el riesgo biológico.",
+        "C": "[Distractor Absurdo de Vía]: La vacuna de rotavirus es de formulación y tropismo exclusivamente oral; inyectarla por vía intramuscular destruiría el antígeno y provocaría abscesos o anafilaxia."
+      }
+    },
+    {
+      "id": "d10_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-570 / NOM-031-SSA2",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Lactante de 12 meses de edad sin antecedentes perinatales patológicos es llevado a consulta para revisión de desarrollo. La madre refiere que el niño no voltea cuando lo llaman por su nombre desde otra habitación, no se asusta ante ruidos fuertes del entorno cotidiano y su repertorio vocal se limita a sonidos vocálicos inarticulados monocordes sin balbuceo consonántico (carece de sílabas como 'ma-ma' o 'pa-pa'). La prueba EDI reporta rezago aislado en el área de lenguaje. La otoscopia bilateral muestra conductos auditivos externos permeables y membranas timpánicas íntegras con reflejo luminoso conservado. En su historial clínico no cuenta con registro de tamiz auditivo neonatal.",
+      "question_text": "Conforme a la GPC mexicana para el Diagnóstico Temprano de la Hipoacusia en el Paciente Pediátrico, ¿cuál es el estudio estándar de oro (Gold Standard) para confirmar, determinar el tipo y cuantificar el umbral electrofisiológico de la función auditiva en este menor?",
+      "options": {
+        "A": "Potenciales Evocados Auditivos del Tallo Cerebral (PEATC / BERA) de registro electrofisiológico.",
+        "B": "Emisiones Otoacústicas Evocadas (EOA) transitorias en consultorio.",
+        "C": "Audiometría tonal convencional por juego con diapasón de 512 Hz en cabina sonoamortiguada.",
+        "D": "Tomografía computarizada de alta resolución de peñascos y conducto auditivo interno con contraste endovenoso."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Sospecha de hipoacusia en lactante de 12 meses con ausencia de tamizaje neonatal y retraso del lenguaje: las Emisiones Otoacústicas son la prueba de tamizaje rápido inicial, pero los Potenciales Evocados Auditivos del Tallo Cerebral (PEATC) son el estándar de oro confirmatorio definitivo para cuantificar umbrales auditivos.",
+      "justificacion_gpc": "La GPC IMSS-570 establece que en pacientes pediátricos lactantes que fallan el tamizaje auditivo o en quienes se sospecha hipoacusia, el estándar de oro (Gold Standard) para confirmar el diagnóstico y medir cuantitativamente los umbrales auditivos en decibeles son los Potenciales Evocados Auditivos del Tallo Cerebral (PEATC / BERA). A diferencia de las Emisiones Otoacústicas (que solo evalúan la integridad de las células ciliadas externas cocleares y son de cribado inicial), los PEATC evalúan la conducción de la vía auditiva retrococlear y del tallo cerebral de manera objetiva.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón de Tamizaje]: Las Emisiones Otoacústicas (EOA) son la herramienta de cribado neonatal primario inicial; ante sospecha clínica fundamentada en un lactante de 1 año, una prueba de EOA normal no descarta neuropatía auditiva ni cuantifica umbrales.",
+        "C": "[Distractor Inaplicable para la Edad]: La audiometría tonal convencional requiere cooperación consciente y respuestas condicionadas que no pueden obtenerse de forma fidedigna en un niño de 12 meses.",
+        "D": "[Distractor Estructural]: La tomografía evalúa malformaciones óseas anatómicas (como displasia de Mondini), pero no aporta información sobre la función neurosensorial auditiva ni el umbral auditivo electrofisiológico."
+      }
+    },
+    {
+      "id": "d10_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "Cartilla Nacional de Vacunación / NOM-031-SSA2",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Lactante masculino de 12 meses cumplidos que es llevado a su cita de control del niño sano en la Unidad de Medicina Familiar. Antecedentes perinatales sin alteraciones. A la somatometría: peso de 9,700 g (triplicó de forma exacta su peso de nacimiento de 3,200 g), talla 75 cm (ganancia acumulada de 25 cm durante el primer año respecto a sus 50 cm natales), fontanela anterior permeable normotensa de 1.0 x 1.0 cm. Su Cartilla Nacional de Salud avala esquemas previos completos recibidos oportunamente hasta los 6 meses de edad. El paciente se encuentra afebril, activo y asintomático.",
+      "question_text": "De acuerdo con el Esquema Nacional de Vacunación oficial vigente en México, ¿cuáles son los biológicos normados de primera línea que deben aplicarse obligatoriamente en esta visita de los 12 meses?",
+      "options": {
+        "A": "Vacuna DPT celular de refuerzo y vacuna Sabin bivalente contra la poliomielitis.",
+        "B": "Segunda dosis de vacuna Hexavalente acelular y vacuna contra la Hepatitis A inactivada.",
+        "C": "Vacuna Doble Viral (SR: Sarampión y Rubéola) y refuerzo de vacuna contra Rotavirus.",
+        "D": "Primera dosis de vacuna Triple Viral (SRP: Sarampión, Rubéola, Parotiditis) y dosis de refuerzo de la vacuna Neumocócica conjugada 13-valente."
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Cita de los 12 meses de edad (cumple 1 año): el esquema oficial mexicano estipula de forma mandataria la 1ra dosis de la vacuna Triple Viral (SRP: Sarampión, Rubéola y Parotiditis) y el refuerzo de la vacuna Neumocócica conjugada (13-valente).",
+      "justificacion_gpc": "La Cartilla Nacional de Vacunación y la NOM-031-SSA2 estipulan que a los 12 meses de edad cumplidos corresponden: 1) La primera dosis de la vacuna Triple Viral (SRP: virus vivos atenuados contra sarampión, rubéola y parotiditis, 0.5 mL subcutánea en el brazo izquierdo), y 2) El refuerzo de la vacuna Neumocócica conjugada 13-valente (0.5 mL intramuscular). Además, la viñeta describe la somatometría normal de oro para el primer año: triplica el peso al nacer y aumenta 25 cm de talla.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón de los 4 Años]: La vacuna DPT celular de refuerzo se administra a los 4 años de edad, nunca al año cumplido.",
+        "B": "[Distractor de Esquema Erróneo]: A los 12 meses no se aplica Hexavalente acelular (cuyo esquema primario concluyó a los 6 meses) y la Hepatitis A no forma parte del esquema universal básico gratuito de la cartilla general de primer nivel.",
+        "C": "[Distractor por Biológico Inadecuado]: La vacuna Doble Viral (SR) se usa para adolescentes o adultos en campañas o bloqueos epidemiológicos; en el niño de 1 año la formulación oficial es la Triple Viral (SRP). Rotavirus está contraindicada a los 12 meses."
+      }
+    },
+    {
+      "id": "d10_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "GPC IMSS-028 / Manual Dr. Re / Manual Dr. Prieto",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Niño de 18 meses de edad que acude a consulta médica preventiva con su madre en el primer nivel de atención. A la exploración física: peso y talla en percentil 50 de las tablas de la OMS, fontanela anterior completamente cerrada (concreción del cierre bregmático dentro de la ventana fisiológica de 9 a 18 meses). Al evaluar las conductas del neurodesarrollo: el niño camina solo con estabilidad, corre con base ligeramente amplia, sube escalones tomado de una sola mano, utiliza una cuchara para alimentarse aunque derrama algo de contenido, emite entre 10 y 15 palabras con significado e identifica tres partes de su cuerpo.",
+      "question_text": "¿Cuál de las siguientes conductas representa el hito psicomotor motor fino y de coordinación visomotora esperado normativamente a los 18 meses de vida?",
+      "options": {
+        "A": "Construir un puente utilizando 3 cubos y copiar un círculo perfecto con lápiz.",
+        "B": "Construir una torre de al menos 3 a 4 cubos y realizar garabateo espontáneo sobre el papel.",
+        "C": "Utilizar tijeras infantiles para cortar papel y abotonar prendas de vestir por sí mismo.",
+        "D": "Realizar pinza fina con índice y pulgar pasando un objeto de una mano a otra sin soltarlo."
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Hito motor fino característico de los 18 meses de edad: construcción de una torre de 3 a 4 cubos y garabateo espontáneo. (A los 12 meses hace torre de 2 cubos, a los 24 meses torre de 6 cubos, a los 3 años torre de 9-10 cubos o puente con 3 cubos).",
+      "justificacion_gpc": "De acuerdo con el Manual Dr. Re, el Manual Dr. Prieto y las escalas validadas de desarrollo infantil reconocidas por la GPC IMSS-028: a los 18 meses el lactante mayor es capaz de apilar 3 a 4 cubos, realiza trazos o garabatos espontáneos si se le facilita un lápiz, sube escaleras tomado de la mano, camina hacia atrás o corre, tiene un vocabulario de 10 a 20 palabras y la fontanela anterior debe encontrarse cerrada (ventana de cierre: 9 a 18 meses).",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón de 3 Años]: El puente con 3 cubos y la copia de un círculo se adquieren habitualmente a los 3 años (36 meses) de edad.",
+        "C": "[Distractor de Escalón Preescolar]: El uso de tijeras y abotonar prendas corresponde a los hitos de motricidad fina y autonomía de los 4 a 5 años de edad.",
+        "D": "[Distractor de Escalón de Lactante Menor]: La pinza fina y transferir objetos de una mano a otra se consolida entre los 9 y 10 meses de vida extrauterina."
+      }
+    },
+    {
+      "id": "d10_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "Cartilla Nacional de Vacunación / Lineamientos CENSIA",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A healthy 18-month-old toddler is brought by his mother to the primary health care clinic (Unidad de Medicina Familiar) for his routine well-child assessment. Review of his Mexican National Vaccination Card (Cartilla Nacional de Salud) reveals that he received his primary immunization series timely, including the first dose of the measles, mumps, and rubella (MMR / SRP) vaccine at 12 months of age. The child has no acute complaints, is afebrile (36.7 °C), and physical examination shows normal growth and development. The mother inquires about the current official Mexican recommendations regarding the second dose (booster) of the MMR vaccine.",
+      "question_text": "According to the updated Mexican Universal Vaccination Program guidelines (CENSIA / NOM-031-SSA2), at what age should the second dose of the MMR (SRP) vaccine be routinely administered?",
+      "options": {
+        "A": "At 18 months of age, during this well-child visit.",
+        "B": "At 6 years of age, exclusively upon entering elementary primary school.",
+        "C": "At 4 years of age, combined with the DTP booster vaccine.",
+        "D": "At 12 years of age, during the early adolescent transition visit."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Actualización oficial del Programa de Vacunación Universal en México (CENSIA): la segunda dosis de la vacuna Triple Viral (SRP / MMR) se administra a los 18 meses de vida (modificación implementada para niños nacidos a partir de julio de 2020 para prevenir brotes tempranos de sarampión), reemplazando el esquema antiguo de los 6 años.",
+      "justificacion_gpc": "Conforme a los Lineamientos Generales del Programa de Vacunación Universal emitidos por el Centro Nacional para la Salud de la Infancia y la Adolescencia (CENSIA) y la actualización de la Cartilla Nacional de Salud en México, la segunda dosis de la vacuna SRP (Sarampión, Rubéola y Parotiditis) se aplica actualmente a los 18 meses de edad para todos los niños que recibieron su primera dosis a los 12 meses. Esta modificación normativa tuvo como objetivo cerrar la brecha de susceptibles frente a brotes epidémicos de sarampión antes de la etapa escolar. En cohortes nacidas previamente a la reforma aún se contemplaba a los 6 años, pero la normativa vigente actual marca los 18 meses.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Esquema Histórico]: La aplicación a los 6 años corresponde al esquema mexicano previo a 2020; mantener este concepto en el ENARM actual genera reprobación ante la actualización oficial de CENSIA que la adelantó a los 18 meses.",
+        "C": "[Distractor de Biológico No Relacionado]: A los 4 años se aplica el refuerzo de DPT (difteria, tos ferina y tétanos), pero no la vacuna triple viral SRP.",
+        "D": "[Distractor de Cohorte Diferente]: A los 12 años o en la adolescencia se aplica la vacuna contra el VPH en niñas escolares, no el esquema primario ni el refuerzo infantil de SRP."
+      }
+    },
+    {
+      "id": "d10_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "PED",
+      "normativa_origen": "WHO Child Growth Standards / GPC IMSS-028 / NOM-031-SSA2",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 7-month-old male infant is brought to the rural health center by his grandmother due to progressive weight loss, frequent watery stools, and lack of energy over the past 2 months following early cessation of breastfeeding. Anthropometric evaluation using the World Health Organization (WHO) Child Growth Standards demonstrates: Length-for-age is at the 35th percentile (Z-score -0.4 SD), Head circumference-for-age is at the 40th percentile, but Weight-for-length is located below -3 standard deviations (Z-score < -3 SD). On physical examination: body temperature 36.4 °C, heart rate 110 bpm. The infant appears severely wasted, with profound loss of subcutaneous adipose tissue in the buttocks and axillary folds ('baggy pants' sign), visible ribs, sunken eyes, and an irritable, withered facial appearance ('old man' / monkey-like facies). There is no bilateral pedal or pretibial pitting edema, and no hepatomegaly is noted.",
+      "question_text": "According to the WHO classification of malnutrition and Mexican Clinical Practice Guidelines (NOM-031-SSA2 / GPC IMSS-028), which of the following is the correct diagnosis and severity categorization for this patient?",
+      "options": {
+        "A": "Severe Acute Malnutrition (Non-edematous / Marasmus), defined by a Weight-for-length Z-score < -3 SD and severe visible muscle wasting without edema.",
+        "B": "Moderate Chronic Malnutrition (Stunting), defined strictly by a Length-for-age Z-score below -2 SD without acute tissue wasting.",
+        "C": "Severe Edematous Malnutrition (Kwashiorkor), characterized by generalized hypoalbuminemic edema, skin dermatosis, and hepatomegaly.",
+        "D": "Mild Acute Malnutrition, categorized by a Weight-for-length Z-score between -1 and -2 SD, managed exclusively with outpatient home feeding counseling."
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Peso para la longitud con puntaje Z < -3 DE, emaciación severa y ausencia total de edema: cumple con la definición estricta de Desnutrición Aguda Severa (Marasmo) según la OMS y la NOM-031-SSA2, requiriendo manejo terapéutico intensivo.",
+      "justificacion_gpc": "De acuerdo con los estándares de la Organización Mundial de la Salud (OMS) y la NOM-031-SSA2 para la evaluación del estado nutricional en pediatría, la Desnutrición Aguda Severa se define por cualquiera de los siguientes tres criterios: 1) Puntaje Z de peso para la longitud/talla menor a -3 desviaciones estándar (Z < -3 SD), 2) Presencia de emaciación visible severa, o 3) Presencia de edema bilateral de origen nutricional. La ausencia de edema en presencia de pérdida marcada de grasa subcutánea y masa muscular ('facies de viejo o de mono', signo de pantalones holgados) clasifica específicamente al fenotipo clínico de Marasmo (déficit energético global crónico-agudo), a diferencia del Kwashiorkor (déficit proteico con edema con fóvea y esteatosis).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Espectro",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Espectro Cronológico]: La desnutrición crónica (stunting) se define por talla baja para la edad (longitud para la edad Z < -2 SD); este paciente tiene una longitud normal para su edad (percentil 35, Z -0.4 SD) y un compromiso agudo severo del peso para la longitud.",
+        "C": "[Distractor por Hallazgo Clínico Ausente]: El Kwashiorkor requiere obligatoriamente la presencia de edema bilateral con fóvea en extremidades inferiores (edema nutricional), ausente en este caso.",
+        "D": "[Distractor de Severidad Errónea]: Un Z-score de peso para la longitud inferior a -3 DE nunca es leve; constituye una emergencia pediátrica de desnutrición aguda severa con alto riesgo de mortalidad por hipoglucemia e hipotermia."
+      }
+    }
+  ],
+  "code": "D10",
+  "topic_id": "D10_PED_Crecimiento_Neurodesarrollo_Tamiz_Metabolico",
+  "topic": "Hitos del Desarrollo, Tanner y Tamiz"
+}

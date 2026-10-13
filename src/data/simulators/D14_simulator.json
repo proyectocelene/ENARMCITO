@@ -1,0 +1,709 @@
+{
+  "topic_code": "D14",
+  "title": "Simulador Post-Estudio: Patología Mamaria (BI-RADS, CaMa) y DMG",
+  "normativa_origen": "GPC IMSS-232-09 / GPC IMSS-320 / NOM-041-SSA2",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d14_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Nódulo Mamario Sospechoso, BI-RADS y Cáncer de Mama Luminal B",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 43 años, contadora pública, acude a su primera mastografía de tamizaje en su unidad de medicina familiar. Es nuligesta, con antecedente de menarca temprana a los 11 años, sobrepeso con IMC de 29.4 kg/m² y uso de anticonceptivos hormonales combinados orales durante 12 años. Niega antecedentes familiares de neoplasias de mama u ovario. La mastografía diagnóstica revela en el cuadrante superior externo de la mama izquierda una masa espiculada hiperdensa de 22 x 18 mm, asociada a distorsión de la arquitectura tisular y microcalcificaciones pleomórficas agrupadas, catalogada como BI-RADS 4C. A la exploración física dirigida se palpa nódulo firme de aproximadamente 2 cm, poco móvil, no doloroso y sin retracción de piel; no se palpan adenopatías axilares ni supraclaviculares. El ultrasonido mamario confirma nódulo hipoecoico de bordes angulados, más alto que ancho, con sombra acústica posterior.",
+      "question_text": "De acuerdo con la NOM-041-SSA2 y la GPC IMSS-232 para el diagnóstico de cáncer de mama, ¿cuál es el procedimiento confirmatorio de elección (estándar de oro) que debe indicarse en este momento?",
+      "options": {
+        "A": "Biopsia percutánea con aguja de corte (Tru-Cut) guiada por ultrasonido para estudio histopatológico e inmunohistoquímica.",
+        "B": "Biopsia por aspiración con aguja fina (BAAF) en consultorio para frotis citológico convencional inmediato.",
+        "C": "Resonancia magnética mamaria bilateral con contraste dinámico antes de programar cualquier toma de biopsia.",
+        "D": "Mastectomía total simple izquierda urgente con biopsia transoperatoria por congelación."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Procedimiento_Diagnostico_Eleccion",
+      "gpc_algorithm_step": "Ante una lesión mamaria sospechosa clasificada como BI-RADS 4 (4A, 4B, 4C) o BI-RADS 5, la GPC IMSS-232 y la NOM-041-SSA2 dictan que el método confirmatorio de primera línea de elección es la biopsia percutánea con aguja de corte (Tru-Cut) guiada por imagen (ultrasonido o estereotaxia). Este procedimiento permite obtener cilindros tisulares para evaluar la arquitectura histológica, distinguir invasión estromal de carcinoma in situ y cuantificar receptores hormonales (RE, RP), HER2 y Ki-67 mediante inmunohistoquímica.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "La biopsia por aspiración con aguja fina (BAAF) solo provee frotis citológicos que no diferencian carcinoma in situ de invasor ni garantizan tejido suficiente para inmunohistoquímica completa; además tiene alta tasa de falsos negativos. La resonancia magnética jamás sustituye la toma histológica de una lesión BI-RADS 4C."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estándar de oro y método de elección para la confirmación diagnóstica de una lesión mamaria BI-RADS 4 o 5 según la GPC IMSS-232?",
+        "back": "Biopsia percutánea con aguja de corte (Tru-Cut) guiada por imagen (USG o estereotaxia), ya que distingue invasión tisular y permite inmunohistoquímica completa (RE, RP, HER2, Ki-67).",
+        "tags": "D14 CaMa BI-RADS Biopsia TruCut GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Nódulo Mamario Sospechoso, BI-RADS y Cáncer de Mama Luminal B",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la paciente de 43 años del caso anterior, el reporte histopatológico definitivo de la biopsia Tru-Cut confirma un carcinoma ductal infiltrante (carcinoma invasor sin tipo especial) grado histológico 2 de Nottingham. El panel de inmunohistoquímica revela: Receptores de Estrógeno (RE) positivos en 45%, Receptores de Progesterona (RP) positivos en 5%, HER2 negativo (score 1+ por HercepTest), y un índice de proliferación celular Ki-67 del 40% (subtipo molecular Luminal B HER2-negativo). Los estudios de extensión (tomografía computarizada toracoabdominopélvica y gammagrafía ósea) descartan metástasis a distancia. La estadificación clínica es cT2 cN0 M0 (Estadio IIA). La paciente mantiene ciclos menstruales regulares y se confirma su estado premenopáusico.",
+      "question_text": "Con base en la GPC IMSS-232 y los consensos oncológicos para el subtipo Luminal B HER2-negativo con alto Ki-67 en mujer premenopáusica, ¿cuál es la estrategia terapéutica sistémica adyuvante de primera línea indicada?",
+      "options": {
+        "A": "Poliquimioterapia sistémica adyuvante con esquema de antraciclinas y taxanos (ej. AC seguido de Paclitaxel), seguida secuencialmente de hormonoterapia adyuvante con Tamoxifeno con/sin supresión ovárica.",
+        "B": "Monoterapia endocrina exclusiva con Tamoxifeno 20 mg/día durante 5 años, omitiendo la quimioterapia por tener receptores de estrógeno positivos.",
+        "C": "Terapia biológica dirigida con Trastuzumab intravenoso durante 12 meses asociado a Tamoxifeno oral.",
+        "D": "Inhibidor de aromatasa oral (Letrozol 2.5 mg/día) como fármaco único durante 5 años sin supresión ovárica ni quimioterapia."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tratamiento_Sistemico_Luminal_B",
+      "gpc_algorithm_step": "A diferencia del Luminal A (de bajo riesgo proliferativo), el cáncer de mama subtipo Luminal B (caracterizado por Ki-67 ≥ 20%, baja expresión de receptores de progesterona < 20% o alto grado tumoral) tiene mayor riesgo de recurrencia y alta quimiosensibilidad; por ello, la GPC IMSS-232 y las guías de oncología indican poliquimioterapia adyuvante (antraciclinas + taxanos) seguida secuencialmente de hormonoterapia con Tamoxifeno por 5 a 10 años (asociada o no a supresión ovárica con análogos GnRH).",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La hormonoterapia exclusiva con Tamoxifeno solo es apropiada para tumores Luminal A con Ki-67 bajo (< 14-20%) y receptores de progesterona altos. Los inhibidores de aromatasa solos sin análogos de GnRH están contraindicados en premenopáusicas porque la reactivación del eje gonadotrópico induce estimulación ovárica masiva. Trastuzumab carece de diana biológica al ser HER2 negativo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta terapéutica sistémica adyuvante en una paciente premenopáusica con cáncer de mama Luminal B HER2-negativo (Ki-67 > 20%, RP bajo)?",
+        "back": "Poliquimioterapia adyuvante (antraciclinas y taxanos) seguida secuencialmente de terapia endocrina con Tamoxifeno (+/- supresión ovárica).",
+        "tags": "D14 CaMa LuminalB Quimioterapia Tamoxifeno GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Nódulo Mamario Sospechoso, BI-RADS y Cáncer de Mama Luminal B",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente completa su esquema de quimioterapia adyuvante y es programada para tratamiento quirúrgico. Se le realiza cirugía conservadora de mama (tumorectomía amplia con márgenes quirúrgicos histológicos libres de tinta china > 2 mm) y biopsia de ganglio centinela (BGC) guiada por doble marcaje con tecnecio-99 y azul patente, extrayéndose 2 ganglios centinelas axilares que resultan libres de invasión tumoral (pT2 pN0(sn) M0). En la consulta posquirúrgica de control, la paciente manifiesta que se siente aliviada por tener ganglios limpios y bordes negativos, por lo que solicita no recibir radioterapia para evitar radiodermitis y retrasar su incorporación laboral.",
+      "question_text": "Con base en la GPC IMSS-232 y los estándares internacionales de cirugía oncológica mamaria, ¿cuál es la conducta médica normativa respecto a la radioterapia locorregional en este escenario?",
+      "options": {
+        "A": "La radioterapia adyuvante sobre toda la glándula mamaria remanente es obligatoria e ineludible tras cirugía conservadora, ya que es el componente que garantiza equivalencia en supervivencia global y control local frente a la mastectomía radical.",
+        "B": "Aceptar la solicitud de omitir la radioterapia, ya que el ganglio centinela resultó histológicamente negativo (pN0) y los márgenes quirúrgicos fueron mayores a 2 mm.",
+        "C": "Sustituir la radioterapia por duplicar la dosis de Tamoxifeno a 40 mg cada 24 horas durante los primeros 3 años del posoperatorio.",
+        "D": "Indicar que la radioterapia solo está indicada cuando se realiza mastectomía total, siendo contraproducente en parénquima mamario preservado."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo_Locorregional_Cirugia_Conservadora",
+      "gpc_algorithm_step": "La GPC IMSS-232 y la NOM-041-SSA2 establecen como principio rector inquebrantable que la cirugía conservadora de mama DEBE combinarse siempre con radioterapia adyuvante a la glándula mamaria completa (con o sin sobredosis en el lecho tumoral). Omitir la radioterapia incrementa la tasa de recurrencia local ipsilateral hasta 3 o 4 veces. La equivalencia terapéutica entre cirugía conservadora y mastectomía radical depende obligatoriamente de la radioterapia.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "El desescalamiento con omisión de radioterapia solo ha sido evaluado en guías extranjeras para mujeres muy ancianas (≥ 65-70 años) con tumores Luminal A muy pequeños (T1 < 2 cm), N0 y comorbilidades graves. En una paciente de 43 años con tumor de 2.2 cm y Luminal B, la omisión de radioterapia es una negligencia oncológica mayor."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué es obligatoria la radioterapia adyuvante tras una cirugía conservadora de mama según la GPC IMSS-232?",
+        "back": "Porque reduce drásticamente la tasa de recurrencia local y es el componente que iguala la supervivencia global de la cirugía conservadora con la de la mastectomía total.",
+        "tags": "D14 CaMa CirugiaConservadora Radioterapia GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Nódulo Mamario Sospechoso, BI-RADS y Cáncer de Mama Luminal B",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "A la consulta médica acude la hija biológica de la paciente, de 27 años de edad, nulípara, sin sintomatología mamaria ni hallazgos anormales a la autoexploración. Se encuentra sumamente angustiada tras el diagnóstico de su madre a los 43 años y solicita orientación clínica sobre cuándo y con qué estudio de gabinete debe iniciar su protocolo formal de tamizaje para cáncer de mama de acuerdo con la normativa mexicana de salud pública.",
+      "question_text": "De acuerdo con la NOM-041-SSA2 y la GPC IMSS-232 para el tamizaje en mujeres con antecedente de familiar de primer grado con cáncer de mama premenopáusico, ¿cuál es la conducta de tamizaje indicada?",
+      "options": {
+        "A": "Iniciar tamizaje mamográfico anual a los 33 años de edad (10 años antes de la edad de diagnóstico del familiar más joven de primer grado), complementado con ultrasonido mamario.",
+        "B": "Iniciar de inmediato mastografía diagnóstica anual a los 27 años de edad de manera bilateral.",
+        "C": "Esperar a los 40 años para iniciar la mastografía bienal rutinaria establecida para la población general con riesgo habitual.",
+        "D": "Indicar mastectomía profiláctica bilateral con reconstrucción inmediata por vía laparoscópica sin estudios de imagen previos."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tamizaje_Alto_Riesgo_Familiar",
+      "gpc_algorithm_step": "La NOM-041-SSA2 y la GPC IMSS-232 estipulan que en mujeres con antecedente heredofamiliar de cáncer de mama en un familiar de primer grado (madre, hermana o hija) diagnosticado en etapa premenopáusica (o antes de los 50 años), el tamizaje debe iniciarse 10 años antes de la edad en que se diagnosticó el caso índice más joven, o bien a los 30 años (lo que ocurra primero), utilizando mastografía complementada con ultrasonido debido a la densidad mamaria de la paciente joven.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Indicar mastografía a los 27 años expone a radiación innecesaria en tejido mamario denso con baja sensibilidad diagnóstica. Por otro lado, esperar hasta los 40 años ignora el riesgo elevado por el antecedente directo a los 43 años. La regla de oro oficial es '10 años antes del familiar más joven'."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo y cómo inicia el tamizaje de cáncer de mama en mujeres con familiar de primer grado con cáncer mamario premenopáusico según la NOM-041-SSA2?",
+        "back": "Inicia 10 años antes de la edad al diagnóstico del familiar de primer grado (o a partir de los 30 años), mediante mastografía anual complementada con ultrasonido.",
+        "tags": "D14 CaMa Tamizaje AltoRiesgo NOM041 GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Carcinoma Mamario Inflamatorio y Abordaje Multimodal",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 47 años acude a valoración ginecológica en segundo nivel de atención. Refiere que hace 4 semanas comenzó con aumento rápido de volumen, enrojecimiento difuso y sensación de pesadez urente en la mama derecha. En su clínica de adscripción le indicaron dicloxacilina oral 500 mg cada 6 horas durante 14 días bajo la presunción de mastitis infecciosa; sin embargo, no hubo mejoría y el cuadro empeoró. A la exploración física: glándula mamaria derecha con volumen duplicado respecto a la contralateral, piel con eritema violáceo difuso, calor local y engrosamiento marcado en 'piel de naranja' (peau d'orange) que involucra más del 65% de la superficie mamaria, induración leñosa difusa y pezón retraído. A la palpación axilar derecha se detecta un conglomerado ganglionar duro, pétreo y fijo a planos profundos de 3.5 cm de diámetro. No hay zonas de fluctuación ni salida de secreción por pezón.",
+      "question_text": "De acuerdo con la GPC IMSS-232 y la NOM-041-SSA2, ¿cuál es el diagnóstico de sospecha más probable y cuál es el procedimiento confirmatorio mandatorio de primera línea?",
+      "options": {
+        "A": "Carcinoma mamario inflamatorio (T4d); debe realizarse biopsia de piel en sacabocados (punch) de espesor total y biopsia percutánea con aguja de corte (Tru-Cut) del parénquima mamario para documentar invasión tumoral de vasos linfáticos dérmicos.",
+        "B": "Absceso mamario subagudo no puerperal tabicado; debe realizarse drenaje quirúrgico a cielo abierto en quirófano de forma urgente.",
+        "C": "Mastitis de células plasmáticas refractaria; debe solicitarse cultivo bacteriológico del parénquima mamario e iniciar vancomicina intravenosa.",
+        "D": "Ectasia ductal complicada con flemón periareolar; debe programarse resección microquirúrgica de conductos galactóforos principales."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Diagnostico_Carcinoma_Inflamatorio",
+      "gpc_algorithm_step": "El carcinoma mamario inflamatorio (clasificado como T4d, localmente avanzado por definición, mínimo estadio IIIB) se manifiesta clínicamente como eritema y edema difuso en piel de naranja que compromete al menos un tercio de la mama, de progresión rápida (semanas a meses) y refractario a antibióticos. El método de confirmación histopatológica característico y mandatorio es la biopsia cutánea en sacabocados (punch), donde se documenta la presencia de émbolos de células malignas ocluyendo los conductos linfáticos de la dermis reticular y papilar, combinada con biopsia Tru-Cut del tejido mamario subyacente.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confundir una neoplasia inflamatoria T4d con un proceso infeccioso refractario y ordenar un drenaje quirúrgico abierto produce diseminación tumoral cutánea y retardo catastrófico del inicio del tratamiento oncológico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se define y cómo se confirma histopatológicamente el Carcinoma Mamario Inflamatorio (T4d) según la GPC IMSS-232?",
+        "back": "Clínica: eritema y piel de naranja en > 1/3 de la mama, progresión rápida (< 6 meses). Confirmación: biopsia cutánea en sacabocados (punch) que demuestra émbolos tumorales en linfáticos dérmicos + biopsia Tru-Cut mamaria.",
+        "tags": "D14 CaMa CarcinomaInflamatorio T4d BiopsiaPunch GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Carcinoma Mamario Inflamatorio y Abordaje Multimodal",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La biopsia de piel en sacabocados de la paciente anterior confirma infiltración de adenocarcinoma con abundantes émbolos tumorales en los vasos linfáticos dérmicos, y la biopsia Tru-Cut reporta carcinoma ductal invasor de alto grado histológico (cT4d cN2 M0, Estadio IIIB). El cirujano general de guardia en turno vespertino propone llevar a la paciente a quirófano de urgencia al día siguiente para realizar una Mastectomía Radical Modificada tipo Madden inmediata con la finalidad de 'remover todo el tejido tumoral antes de que genere metástasis viscerales'.",
+      "question_text": "Conforme a la GPC IMSS-232 y los consensos oncológicos nacionales e internacionales, ¿cuál es la conducta terapéutica correcta que debe implementarse ante esta propuesta quirúrgica?",
+      "options": {
+        "A": "Rechazar categóricamente la cirugía inmediata de entrada; el carcinoma inflamatorio es inoperable de inicio y la primera línea obligatoria es la quimioterapia sistémica neoadyuvante intensiva basada en antraciclinas y taxanos.",
+        "B": "Aceptar la mastectomía radical modificada de urgencia, ya que el control locorregional quirúrgico inmediato previene la siembra hematógena a hígado y hueso.",
+        "C": "Realizar cirugía conservadora de mama urgente con colocación de drenaje cerrado al vacío, complementando con radioterapia intraoperatoria.",
+        "D": "Indicar radioterapia de haz externo como monoterapia exclusiva inicial, suspendiendo cualquier intento de manejo quirúrgico o farmacológico sistémico."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Abordaje_Terapeutico_Carcinoma_Inflamatorio",
+      "gpc_algorithm_step": "La GPC IMSS-232 y los consensos oncológicos universales contraindican la cirugía oncológica como primer paso en el carcinoma inflamatorio de mama. Operar de inicio a una paciente con T4d resulta en márgenes positivos masivos, recurrencia locorregional precoz y empeoramiento del pronóstico vital. El tratamiento estándar obligado es el abordaje trimodal: 1) Quimioterapia neoadyuvante intensiva basada en antraciclinas y taxanos; 2) Mastectomía radical modificada (si hay respuesta tumoral); y 3) Radioterapia locorregional adyuvante obligatoria.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La mastectomía radical modificada es el procedimiento quirúrgico correcto, pero en el momento INCORRECTO. Ejecutarla de inicio en carcinoma inflamatorio es una mala práctica oncológica; debe antecederle siempre la quimioterapia neoadyuvante."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la secuencia terapéutica trimodal obligatoria en Carcinoma Mamario Inflamatorio (T4d) según la GPC IMSS-232?",
+        "back": "1° Quimioterapia neoadyuvante sistémica (antraciclinas + taxanos) -> 2° Mastectomía radical modificada -> 3° Radioterapia locorregional adyuvante.",
+        "tags": "D14 CaMa CarcinomaInflamatorio Neoadyuvancia Secuencia GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Carcinoma Mamario Inflamatorio y Abordaje Multimodal",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El estudio de inmunohistoquímica de la paciente con carcinoma inflamatorio reporta: Receptores de Estrógeno negativos (0%), Receptores de Progesterona negativos (0%), y sobreexpresión de la oncoproteína HER2 con score 3+ (tinción de membrana circunferencial completa intensa en > 10% de las células neoplásicas). El comité de oncología médica programa el régimen de quimioterapia neoadyuvante incorporando terapia anti-HER2 con Trastuzumab intravenoso asociado a Paclitaxel.",
+      "question_text": "De acuerdo con la GPC IMSS-232 y las normas de farmacovigilancia oncológica, ¿cuál es el estudio de gabinete obligatorio previo a la primera infusión de Trastuzumab y cuál es el criterio que contraindica o posterga su administración?",
+      "options": {
+        "A": "Ecocardiograma transtorácico bidimensional para evaluar la fracción de eyección del ventrículo izquierdo (FEVI); se contraindica o posterga si la FEVI basal es menor al 50% o cae más de 10-15 puntos porcentuales.",
+        "B": "Espirometría forzada con prueba de reversibilidad broncodilatadora; se contraindica si la capacidad vital forzada (CVF) es menor al 65% del predicho.",
+        "C": "Gammagrafía renal dinámica con DTPA; se contraindica si la tasa de filtración glomerular calculada es menor a 45 mL/min/1.73 m².",
+        "D": "Serie esofagogastroduodenal con doble contraste; se contraindica si se documenta hernia hiatal sintomática o gastritis erosiva."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Toxicidad_Cardiaca_Trastuzumab",
+      "gpc_algorithm_step": "El Trastuzumab es un anticuerpo monoclonal humanizado dirigido contra el dominio extracelular de HER2. Su principal efecto adverso grave es la cardiotoxicidad (disfunción miocárdica ventricular y disminución de la fracción de eyección, mediada por bloqueo de las vías neuregulina/ErbB2 en cardiomiocitos). La GPC IMSS-232 estipula que debe realizarse un ecocardiograma transtorácico basal para determinar la FEVI previo al inicio y repetirse periódicamente (cada 3 meses). Una FEVI basal < 50% o una caída absoluta ≥ 10-15 puntos respecto al valor basal contraindica temporalmente su inicio o amerita su suspensión inmediata.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "El Trastuzumab no induce toxicidad pulmonar ni renal dosis-limitante típica; su toxicidad característica de alta evaluación en el ENARM es la insuficiencia cardiaca reversible no dependiente de dosis acumulada (a diferencia de la toxicidad por doxorrubicina que es dosis-dependiente e irreversible por daño estructural por radicales libres)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la toxicidad característica de Trastuzumab y qué monitoreo obligatorio exige según la GPC IMSS-232?",
+        "back": "Cardiotoxicidad (disfunción ventricular izquierda/caída de FEVI). Monitoreo: Ecocardiograma basal y trimestral; suspender o no iniciar si FEVI < 50% o caída ≥ 10-15%.",
+        "tags": "D14 CaMa Trastuzumab Cardiotoxicidad FEVI Ecocardiograma GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Carcinoma Mamario Inflamatorio y Abordaje Multimodal",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente concluye 6 ciclos de quimioterapia neoadyuvante con excelente tolerancia y normalidad de la función ventricular. A la reevaluación clínica e imaginológica se documenta una respuesta patológica mayor espectacular: resolución completa del eritema, desaparición del edema cutáneo en piel de naranja, reducción del volumen mamario a la normalidad y regresión completa de las adenopatías axilares a nódulos menores a 5 mm. El médico residente sugiere realizar tumorectomía conservadora con biopsia de ganglio centinela para preservar la glándula mamaria.",
+      "question_text": "Con base en la GPC IMSS-232 y los principios de cirugía oncológica para carcinoma inflamatorio de mama, ¿cuál es la conducta quirúrgica y adyuvante normada de elección?",
+      "options": {
+        "A": "Mastectomía radical modificada con vaciamiento axilar completo (niveles I y II) obligatoria, seguida de radioterapia locorregional adyuvante a pared torácica y áreas ganglionares, contraindicando la cirugía conservadora.",
+        "B": "Cirugía conservadora de la mama (tumorectomía) con biopsia de ganglio centinela exclusiva, omitiendo la radioterapia para evitar radiodermitis.",
+        "C": "Mastectomía con preservación de piel y pezón con colocación inmediata de expansor tisular sin radioterapia adyuvante.",
+        "D": "Vigilancia clínica y mastográfica semestral sin intervención quirúrgica alguna, dado que la paciente alcanzó remisión clínica completa."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Manejo_Quirurgico_Carcinoma_Inflamatorio",
+      "gpc_algorithm_step": "En el carcinoma mamario inflamatorio (T4d), la cirugía conservadora de mama y las técnicas de preservación cutánea están FORMALMENTE CONTRAINDICADAS, incluso en pacientes que logran respuesta clínica o radiológica completa. La afectación linfática difusa de la dermis condiciona un riesgo prohibitivo de recurrencia locorregional cutánea. El procedimiento quirúrgico normativo es la Mastectomía Radical Modificada con vaciamiento axilar de niveles I y II, seguida invariablemente de Radioterapia Locorregional a la pared torácica y cadenas ganglionares.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "El espejismo de la respuesta clínica completa no anula la biología agresiva del T4d. Intentar preservar la mama o preservar piel es una falla terapéutica grave penada en el examen."
+      },
+      "anki_flashcard": {
+        "front": "¿Está permitida la cirugía conservadora de mama en carcinoma inflamatorio (T4d) si la paciente tuvo respuesta clínica completa a la neoadyuvancia?",
+        "back": "NO. La cirugía conservadora y la preservación de piel están contraindicadas en T4d. Se debe realizar Mastectomía Radical Modificada + Radioterapia locorregional obligatoria.",
+        "tags": "D14 CaMa CarcinomaInflamatorio MastectomiaRadical Contraindicacion GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Patología Mamaria Benigna y Diagnóstico Diferencial",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mujer de 21 años, estudiante de arquitectura, sin antecedentes médicos crónicos ni historia heredofamiliar de cáncer de mama. Acude a la consulta externa de medicina familiar por notar desde hace un mes una 'bolita' en la mama derecha durante el baño. Refiere que no es dolorosa y que no cambia de tamaño con su ciclo menstrual. A la exploración física: glándula mamaria derecha con nódulo palpable en cuadrante superior externo de 1.8 cm de diámetro mayor, consistencia elástica, bordes completamente nítidos y regulares, superficie lisa, extraordinariamente móvil y no adherido a la piel ni a planos musculares profundos; no se palpan adenopatías axilares. El ultrasonido mamario reporta nódulo ovalado de 18 x 9 mm, márgenes circunscritos, ecotextura hipoecoica homogénea con orientación paralela a la piel, clasificado como BI-RADS 3.",
+      "question_text": "De acuerdo con la GPC de Diagnóstico y Tratamiento de la Patología Mamaria Benigna y la NOM-041-SSA2, ¿cuál es el diagnóstico clínico más probable y cuál es la conducta de manejo inicial de elección?",
+      "options": {
+        "A": "Fibroadenoma mamario simple; manejo conservador con vigilancia clínica y ultrasonográfica semestral a los 6 meses (seguimiento hasta por 2 años).",
+        "B": "Tumor filodes maligno; escisión quirúrgica urgente con márgenes libres de 1 cm sin esperar estudios adicionales.",
+        "C": "Carcinoma medular de mama; biopsia por congelación y cuadrantectomía inmediata con vaciamiento axilar.",
+        "D": "Condición fibroquística compleja; prescripción de tamoxifeno 10 mg/día por 6 meses y restricción absoluta de líquidos."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Fibroadenoma_Manejo_Conservador",
+      "gpc_algorithm_step": "El fibroadenoma es la neoplasia benigna más común de la mama en mujeres jóvenes (< 30 años, pico entre 15 y 25 años). Se caracteriza por un nódulo elástico, indoloro, circunscrito y de alta movilidad. En mujeres menores de 25-30 años con nódulos menores a 2 cm y ultrasonido con datos típicamente benignos (BI-RADS 3), la GPC recomienda vigilancia semestral con ultrasonido hasta por 2 años. La escisión quirúrgica se reserva para lesiones > 2 a 3 cm, crecimiento rápido, dolor persistente o duda diagnóstica.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Ordenar una biopsia o cirugía de entrada en un fibroadenoma típico < 2 cm en una paciente de 21 años constituye sobretratamiento iatrogénico. La categoría BI-RADS 3 tiene un riesgo de malignidad menor al 2% y su conducta normativa es seguimiento a los 6 meses."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta recomendada ante un fibroadenoma mamario típico < 2 cm (BI-RADS 3) en una mujer joven (< 25-30 años) según la GPC?",
+        "back": "Manejo conservador con seguimiento clínico y ultrasonográfico semestral a los 6 meses (hasta por 24 meses). No requiere biopsia ni cirugía inmediata.",
+        "tags": "D14 PatologiaBenigna Fibroadenoma BIRADS3 Seguimiento GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Patología Mamaria Benigna y Diagnóstico Diferencial",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 45 años, sin antecedentes oncológicos, acude a consulta por presentar desde hace 8 semanas secreción serosanguinolenta espontánea a través del pezón derecho que mancha su ropa interior. Niega dolor o nódulos palpables. A la exploración física: mamas simétricas, sin retracción de piel ni lesiones eccematosas en la areola; a la palpación suave periareolar en el radio de las 11 horas, se reproduce salida franca de líquido hemático brillante a través de un único orificio galactóforo (secreción unilateral, uniorificial y espontánea). No se palpan masas mamarias dominantes ni adenopatías axilares. La mastografía bilateral no muestra nódulos espiculados ni microcalcificaciones sospechosas (BI-RADS 1), y el ultrasonido mamario muestra únicamente dilatación focal de un conducto subareolar de 2.8 mm sin masa sólida evidente (BI-RADS 2).",
+      "question_text": "Con base en la GPC de Patología Mamaria Benigna y los algoritmos para estudio de telorrea patológica, ¿cuál es la etiología más frecuente de este cuadro y cuál es la conducta de elección?",
+      "options": {
+        "A": "Papiloma intraductal solitario; escisión quirúrgica del conducto terminal comprometido (microdoquectomía / resección de conductos terminales) para confirmación histológica y alivio definitivo.",
+        "B": "Carcinoma ductal in situ avanzado; mastectomía simple total derecha urgente con reconstrucción inmediata con dorsal ancho.",
+        "C": "Ectasia ductal perimenopáusica; tratamiento médico con bromocriptina oral 2.5 mg al día y compresión mamaria con vendaje elástico.",
+        "D": "Prolactinoma microadenomatoso; indicación de resonancia magnética de hipófisis e inicio de cabergolina sin procedimiento mamario."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Telorrea_Patologica_Papiloma_Intraductal",
+      "gpc_algorithm_step": "La causa más frecuente de telorrea patológica (definida como unilateral, uniorificial, serosanguinolenta o sanguinolenta y espontánea) es el papiloma intraductal solitario (responsable del 50% al 70% de los casos). Aunque la mastografía y el ultrasonido no detecten masa neoplásica (por ser lesiones milimétricas endoluminales), la telorrea patológica exige diagnóstico tisular para descartar malignidad oculta. El procedimiento de elección diagnóstica y terapéutica es la escisión selectiva del conducto galactóforo responsable (microdoquectomía de Urban).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "La ectasia ductal produce secreción pluriorificial, bilateral, espesa, amarillenta, verdosa o blanquecina, no telorrea sanguinolenta uniorificial. Los prolactinomas causan galactorrea bilateral pluriorificial lechosa. El papiloma intraductal es la respuesta correcta para telorrea sanguinolenta uniorificial."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la causa más frecuente de telorrea serosanguinolenta unilateral uniorificial espontánea y cuál es su tratamiento según la GPC?",
+        "back": "Papiloma intraductal solitario (50-70% de los casos). Tratamiento: resección quirúrgica del conducto terminal (microdoquectomía / técnica de Urban).",
+        "tags": "D14 PatologiaBenigna PapilomaIntraductal Telorrea Microdoquectomia GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Patología Mamaria Benigna y Diagnóstico Diferencial",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer primípara de 26 años, en el día 20 posparto de un recién nacido a término sano con lactancia materna exclusiva, acude al servicio de urgencias por presentar desde hace 24 horas fiebre cuantificada en 38.8 °C, escalofríos, mialgias y dolor intenso punzante en la mama izquierda. A la exploración física: glándula mamaria izquierda con área indurada, caliente, marcadamente eritematosa y exquisitamente dolorosa a la palpación en el cuadrante superior externo; no se aprecian zonas de fluctuación ni reblandecimiento. El pezón presenta una pequeña grieta superficial en su base, sin salida de material purulento a la expresión suave. Se establece el diagnóstico de mastitis puerperal aguda.",
+      "question_text": "De acuerdo con la GPC mexicana para el diagnóstico y tratamiento de la mastitis puerperal, ¿cuál es el agente etiológico más común y cuál es la pauta integral de manejo indicada?",
+      "options": {
+        "A": "Staphylococcus aureus; antibioticoterapia oral con Dicloxacilina (o Cefalexina) y recomendación categórica de CONTINUAR la lactancia materna asegurando el vaciamiento mamario completo y frecuente.",
+        "B": "Streptococcus agalactiae; antibioticoterapia oral con Ampicilina e indicación inmediata de SUSPENDER definitivamente la lactancia administrando Cabergolina para inhibir prolactina.",
+        "C": "Escherichia coli; antibioticoterapia con Ciprofloxacino oral y contraindicación absoluta de alimentación al seno materno por riesgo de toxicidad cartilaginosa neonatal.",
+        "D": "Candida albicans; tratamiento tópico con Nistatina en el pezón y drenaje quirúrgico exploratorio del parénquima mamario."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Mastitis_Puerperal_Manejo_Lactancia",
+      "gpc_algorithm_step": "El agente causal más frecuente de la mastitis puerperal aguda es Staphylococcus aureus (adquirido por colonización nasofaríngea del neonato a través de grietas del pezón). El tratamiento antimicrobiano empírico de primera línea consiste en penicilinas resistentes a penicilinasa (Dicloxacilina 500 mg VO cada 6 horas) o cefalosporinas de primera generación (Cefalexina) durante 10 a 14 días. La GPC destaca que la medida más crítica es CONTINUAR la lactancia materna y asegurar el vaciamiento completo del seno afecto para evitar la estasis láctea, la cual perpetúa la infección y acelera la formación de un absceso.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Suspender la lactancia materna en una mastitis puerperal no complicada es un error clásico. La estasis resultante favorece la progresión hacia un absceso mamario. La leche infectada no daña al lactante y el vaciamiento regular es terapéutico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el agente etiológico más común de la mastitis puerperal y cuál es la indicación respecto a la lactancia según la GPC?",
+        "back": "Staphylococcus aureus (cepas meticilino-sensibles habituales). Manejo: Dicloxacilina o Cefalexina oral y CONTINUAR enfáticamente la lactancia materna con vaciamiento completo.",
+        "tags": "D14 MastitisPuerperal StaphylococcusAureus Dicloxacilina Lactancia GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Patología Mamaria Benigna y Diagnóstico Diferencial",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente del reactivo anterior acude a revaloración médica 5 días después. Refiere que cumplió con la toma de dicloxacilina pero persiste con picos febriles de 38.4 °C y empeoramiento del dolor localizado en la mama izquierda. A la reexploración, en el cuadrante superior externo izquierdo se palpa una masa intensamente dolorosa de aproximadamente 4.5 cm de diámetro, con induración periférica pero con un área central francamente fluctuante, eritematosa y caliente. El ultrasonido mamario confirma una colección anecoica loculada de 44 x 36 mm con detritos ecogénicos móviles internos y sombra acústica lateral, compatible con absceso mamario establecido.",
+      "question_text": "Con base en la GPC de Diagnóstico y Tratamiento de la Patología Mamaria Infecciosa, ¿cuál es la conducta terapéutica resolutiva de elección en este momento?",
+      "options": {
+        "A": "Evacuación de la colección mediante aspiración con aguja guiada por ultrasonido (o incisión y drenaje quirúrgico), envío de muestra a cultivo con antibiograma, ajuste antimicrobiano y extracción láctea continua.",
+        "B": "Duplicar la dosis de Dicloxacilina oral a 1 gramo cada 6 horas y mantener manejo expectante durante 7 días más sin procedimientos invasivos.",
+        "C": "Resección en bloque del cuadrante superior externo de la mama izquierda bajo anestesia general para prevenir sepsis.",
+        "D": "Aplicación exclusiva de compresas calientes con sulfato de magnesio tópico y prescripción de agonistas dopaminérgicos para ablación láctea."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Absceso_Mamario_Drenaje",
+      "gpc_algorithm_step": "El absceso mamario es una colección purulenta encapsulada que complica el 3% al 11% de las mastitis puerperales no tratadas o refractarias. La GPC señala que la presencia de fluctuación o colección ultrasonográfica obliga a la evacuación física inmediata. La aspiración con aguja guiada por ultrasonido (repetida cada 2-3 días si es necesario) es el método de primera línea en colecciones < 3-5 cm con piel íntegra; la incisión y drenaje quirúrgico formal está indicada ante colecciones grandes (> 5 cm), loculadas complejas o necrosis dérmica. Debe tomarse cultivo y continuar la antibioticoterapia y el vaciamiento mamario (extracción mecánica si el dolor o incisión impiden la succión directa).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Confiar exclusivamente en aumentar antibióticos ante una colección fluctuante encapsulada viola el aforismo quirúrgico 'Ubi pus, ibi evacua'. El antibiótico no penetra el centro necrótico avascular del absceso sin drenaje físico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta de elección ante la confirmación clínica o ultrasonográfica de un absceso mamario puerperal según la GPC?",
+        "back": "Drenaje físico de la colección (aspiración con aguja guiada por USG o incisión y drenaje quirúrgico) + cultivo bacteriano + ajuste de antibiótico + mantener vaciamiento mamario.",
+        "tags": "D14 AbscesoMamario DrenajeAspiracion Cultivo GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Diabetes Gestacional, Metas Glucémicas y Conducta Obstétrica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 31 años, primigesta, cursando embarazo de 26 semanas por fecha de última menstruación confiable y ultrasonido de primer trimestre. Antecedentes: sobrepeso pregestacional con IMC de 28.2 kg/m², ganancia ponderal de 9 kg en lo que va del embarazo y antecedente familiar de primer grado con diabetes mellitus tipo 2 (padre y madre). En su primera consulta de control prenatal en la semana 9 tuvo una glucemia plasmática en ayuno de 83 mg/dL. Actualmente se encuentra asintomática. Como parte del tamizaje prenatal de rutina en el segundo trimestre, se realiza Curva de Tolerancia a la Glucosa Oral (CTGO) con carga de 75 gramos de glucosa anhidra (estrategia de un paso IADPSG / GPC IMSS-320). Los resultados reportan: Glucemia basal en ayuno: 97 mg/dL; Glucemia a la hora: 174 mg/dL; Glucemia a las 2 horas: 146 mg/dL.",
+      "question_text": "De acuerdo con la GPC IMSS-320 y los criterios de la IADPSG adoptados en México, ¿cuál es la interpretación diagnóstica normativa y fundamentada de estos resultados?",
+      "options": {
+        "A": "Diabetes Gestacional confirmada, debido a que la glucemia en ayuno es ≥ 92 mg/dL (un solo valor alterado de los tres es suficiente para el diagnóstico).",
+        "B": "Prueba normal, ya que solo el valor basal está discretamente alterado y la normativa exige al menos dos valores fuera de meta para hacer diagnóstico.",
+        "C": "Intolerancia a carbohidratos no gestacional; amerita repetir la prueba con carga de 100 gramos de glucosa anhidra a la semana 32.",
+        "D": "Diabetes Mellitus Pregestacional manifiesta, ya que cualquier elevación en ayuno por encima de 95 mg/dL califica automáticamente como DM previa al embarazo."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Diagnostico_DMG_Estrategia_Un_Paso",
+      "gpc_algorithm_step": "La GPC IMSS-320 y las recomendaciones de la IADPSG/ADA avaladas en México establecen que con la estrategia de un paso utilizando CTGO de 75 g entre las semanas 24 y 28 de gestación, los puntos de corte diagnósticos son: Ayuno ≥ 92 mg/dL; 1 hora ≥ 180 mg/dL; 2 horas ≥ 153 mg/dL. La alteración de UN SOLO VALOR igual o por encima de estos umbrales es suficiente e indispensable para establecer el diagnóstico definitivo de Diabetes Mellitus Gestacional (DMG), sin requerir pruebas adicionales confirmatorias.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Confundir la estrategia de un paso (IADPSG: 75 g, 1 valor basta: 92/180/153) con la estrategia de dos pasos (Carpenter-Coustan: tamizaje con 50 g y confirmación con 100 g, donde se requieren 2 valores alterados). En la estrategia de 75 g, un solo valor hace el diagnóstico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los puntos de corte para diagnosticar Diabetes Gestacional con la CTGO de 75 g (un paso) según la GPC IMSS-320 y cuántos valores alterados se requieren?",
+        "back": "Ayuno ≥ 92 mg/dL, 1h ≥ 180 mg/dL, 2h ≥ 153 mg/dL. Se requiere UN SOLO valor alterado para establecer el diagnóstico definitivo.",
+        "tags": "D14 DMG Diagnostico CTGO75g CriteriosIADPSG GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Diabetes Gestacional, Metas Glucémicas y Conducta Obstétrica",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Tras confirmarse el diagnóstico de Diabetes Mellitus Gestacional, la paciente acude a consulta de medicina materno-fetal y nutrición para establecer su plan de abordaje inicial. Se le prescribe un plan de alimentación individualizado normocalórico con restricción de hidratos de carbono refinados (40-45% carbohidratos complejos, 20% proteínas, 35% grasas saludables, fraccionado en 3 comidas principales y 2-3 colaciones) y 30 minutos de actividad física aeróbica diaria de bajo impacto. Se le proporciona un glucómetro para automonitoreo glucémico capilar.",
+      "question_text": "Con base en la GPC IMSS-320 y los consensos perinatales de control metabólico en diabetes gestacional, ¿cuáles son las metas de control glucémico capilar ambulatorio que deben lograrse?",
+      "options": {
+        "A": "Glucosa en ayuno entre 60 y 95 mg/dL (o < 95 mg/dL), glucosa a la 1 hora postprandial < 140 mg/dL, y glucosa a las 2 horas postprandial < 120 mg/dL.",
+        "B": "Glucosa en ayuno menor a 130 mg/dL y glucosa a las 2 horas postprandial menor a 180 mg/dL (metas estándar del adulto con diabetes no gestacional).",
+        "C": "Glucosa en ayuno menor a 70 mg/dL y glucosa a la 1 hora postprandial menor a 100 mg/dL, tolerando eventos de hipoglucemia asintomática.",
+        "D": "Exclusivamente una cifra de hemoglobina glucosilada (HbA1c) menor a 7.5%, prescindiendo del automonitoreo diario con glucómetro."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Metas_Control_Glucemico_DMG",
+      "gpc_algorithm_step": "La GPC IMSS-320 estipula metas estrictas de control glucémico en la paciente con diabetes gestacional para minimizar el riesgo de macrosomía, hipoglucemia neonatal y preeclampsia: Glucosa capilar en ayuno: < 95 mg/dL (rango ideal 60-95 mg/dL); Glucosa a la 1 hora postprandial: < 140 mg/dL; y Glucosa a las 2 horas postprandial: < 120 mg/dL. La HbA1c meta es < 6.0% (o < 6.5% si hay riesgo de hipoglucemia).",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Aplicar las metas de DM2 del adulto general (< 130 mg/dL en ayuno y < 180 mg/dL posprandial) en una gestante es una trampa muy común en el ENARM. En el feto, glucemias maternas mayores a 95 en ayuno o 120-140 posprandial disparan la secreción fetal de insulina y el anabolismo macrosómico."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son las metas de glucosa capilar ambulatoria en Diabetes Gestacional según la GPC IMSS-320?",
+        "back": "Ayuno: < 95 mg/dL (60-95 mg/dL); 1 hora postprandial: < 140 mg/dL; 2 horas postprandial: < 120 mg/dL.",
+        "tags": "D14 DMG MetasGlucemicas Ayuno Postprandial GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Diabetes Gestacional, Metas Glucémicas y Conducta Obstétrica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente acude a su consulta de control en la semana 28 de gestación tras completar 2 semanas con el plan de terapia médica nutricional y ejercicio. Presenta su bitácora de automonitoreo capilar con 28 tomas registradas: 6 de 14 valores de ayuno oscilan entre 102 y 110 mg/dL, y 6 de 14 valores a las 2 horas postprandiales se sitúan entre 132 y 144 mg/dL (aproximadamente el 43% de las mediciones están por encima de las metas terapéuticas), a pesar de un apego dietético estricto comprobado por el servicio de nutrición. El ultrasonido de control muestra un feto acorde con circunferencia abdominal en percentil 78.",
+      "question_text": "De acuerdo con el algoritmo farmacológico de la GPC IMSS-320, ¿cuál es la conducta terapéutica de primera línea que debe indicarse de inmediato?",
+      "options": {
+        "A": "Iniciar insulinoterapia humana (insulina NPH en combinación con insulina rápida/regular) a dosis calculada por peso actual y trimestre de gestación, por ser el fármaco de primera línea de elección.",
+        "B": "Iniciar Glibenclamida por vía oral a dosis de 5 mg cada 12 horas como fármaco oral de primera elección institucional.",
+        "C": "Prescribir Empagliflozina combinada con Pioglitazona por vía oral para revertir la resistencia periférica a la insulina placentaria.",
+        "D": "Mantener exclusivamente el plan de alimentación y ejercicio durante 4 semanas adicionales antes de autorizar cualquier tratamiento farmacológico."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Tratamiento_Farmacologico_Primera_Linea_DMG",
+      "gpc_algorithm_step": "La GPC IMSS-320 dicta que si después de 2 semanas de terapia médica nutricional y actividad física la paciente presenta más del 20% de las cifras de glucemia capilar fuera de meta (> 95 mg/dL en ayuno o > 120 mg/dL a las 2 horas postprandiales), debe iniciarse tratamiento farmacológico. La INSULINA es el tratamiento farmacológico de PRIMERA ELECCIÓN en diabetes gestacional, ya que no cruza la barrera placentaria y reduce eficazmente la morbilidad perinatal. Las sulfonilureas como glibenclamida NO se recomiendan de primera línea por mayor riesgo de hipoglucemia neonatal severa y macrosomía.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Algunas guías norteamericanas antiguas consideraban sulfonilureas o metformina de entrada, pero la GPC mexicana ratifica a la Insulina humana como el estándar de oro y primera línea indiscutible. Los inhibidores de SGLT2 y las glitazonas están terminantemente contraindicados en el embarazo."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo y con qué fármaco de primera línea se inicia el tratamiento farmacológico en Diabetes Gestacional según la GPC IMSS-320?",
+        "back": "Se inicia cuando > 20% de las glucemias están fuera de meta tras 2 semanas de dieta/ejercicio. Fármaco de 1ª elección: INSULINA humana (NPH + rápida).",
+        "tags": "D14 DMG TratamientoFarmacologico Insulina Criterios GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Diabetes Gestacional, Metas Glucémicas y Conducta Obstétrica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente es tratada con insulina NPH e insulina rápida, alcanzando un excelente control metabólico durante las semanas siguientes. Cursa actualmente la semana 38.3 de gestación. Acude a valoración en el servicio de tococirugía. El ultrasonido obstétrico de tercer trimestre reporta: feto único vivo en presentación cefálica, peso fetal estimado (PFE) por fórmula de Hadlock de 4,550 gramos (percentil > 97), asimetría toracoabdominal con circunferencia abdominal desproporcionadamente aumentada, índice de líquido amniótico (ILA) de 23 cm (polihidramnios leve), y perfil biofísico fetal 8/8. Al examen pélvico: cuello uterino posterior, firme, sin borramiento y cerrado (puntuación de Bishop de 1 punto), polo cefálico libre por encima del estrecho superior de la pelvis.",
+      "question_text": "Con base en la GPC IMSS-320 y las directrices para la prevención de trauma obstétrico en embarazos complicados con diabetes, ¿cuál es la conducta obstétrica de elección para la resolución del embarazo?",
+      "options": {
+        "A": "Programar cesárea electiva debido a un peso fetal estimado mayor o igual a 4,500 gramos en madre diabética, para prevenir la distocia de hombros y el traumatismo obstétrico grave.",
+        "B": "Iniciar inducción inmediata de trabajo de parto con infusión de oxitocina a dosis altas hasta lograr parto vaginal forzado.",
+        "C": "Inducir maduración cervical con prostaglandinas e intentar extracción vaginal instrumentada con fórceps de Kielland profilácticos.",
+        "D": "Manejo expectante ambulatorio hasta la semana 41.5 de gestación para esperar el inicio espontáneo del trabajo de parto."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Resolucion_Obstetrica_Macrosomia_DMG",
+      "gpc_algorithm_step": "En mujeres embarazadas con diabetes (gestacional o pregestacional), la macrosomía fetal se asocia con depósito selectivo y desproporcionado de grasa en el tronco y hombros fetales (hiperinsulinismo fetal), lo que dispara exponencialmente el riesgo de distocia de hombros, parálisis braquial (Erb-Duchenne) y asfixia perinatal durante el parto vaginal. La GPC IMSS-320 y consensos internacionales recomiendan programar CESÁREA ELECTIVA cuando el peso fetal estimado por ultrasonido sea ≥ 4,500 gramos (o ≥ 4,000 g si se asocia a marcada asimetría y cérvix desfavorable).",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Intentar parto vaginal o inducción forzada con Bishop desfavorable en un feto de 4,550 g de madre diabética es la principal causa de distocia de hombros catastrófica y fractura clavicular o lesión neurológica irreversible."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la indicación de cesárea electiva por peso fetal estimado en una paciente con Diabetes Gestacional según la GPC IMSS-320?",
+        "back": "Peso fetal estimado (PFE) ≥ 4,500 gramos (o ≥ 4,000 g con asimetría fetal severa) para prevenir distocia de hombros y trauma obstétrico.",
+        "tags": "D14 DMG ResolucionObstetrica Macrosomia Cesarea GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 34 años, con antecedente de obesidad grado II (IMC 36.2 kg/m²), acude a su primera consulta de control prenatal cursando la semana 8 de gestación calculada por fecha de última menstruación y corroborada por ultrasonido temprano que muestra embrión con frecuencia cardiaca presente. Refiere polidipsia, poliuria y astenia desde hace 3 meses previos al embarazo. Los estudios basales de laboratorio solicitados en esta primera consulta reportan: glucosa plasmática en ayuno de 146 mg/dL y hemoglobina glucosilada (HbA1c) de 8.4%. El examen general de orina muestra glucosuria +++ sin cetonuria ni proteinuria.",
+      "question_text": "De acuerdo con la GPC IMSS-320 y la clasificación normativa de los trastornos metabólicos en el embarazo, ¿cuál es el diagnóstico correcto de esta paciente y cuál es el riesgo embrionario/fetal crítico característico en comparación con la diabetes gestacional clásica?",
+      "options": {
+        "A": "Diabetes Mellitus Pregestacional (tipo 2) no diagnosticada; confiere un riesgo marcadamente incrementado de malformaciones congénitas estructurales mayores (defectos del tubo neural, cardiopatías congénitas y síndrome de regresión caudal) por hiperglucemia durante el periodo de organogénesis.",
+        "B": "Diabetes Mellitus Gestacional temprana; no confiere riesgo alguno de malformaciones estructurales ya que el embrión temprano es metabólicamente refractario al exceso de glucosa.",
+        "C": "Glucosuria fisiológica transitoria del embarazo por abatimiento del umbral de reabsorción tubular renal; amerita únicamente vigilancia médica sin tratamiento.",
+        "D": "Diabetes insípida gestacional por degradación acelerada de vasopresina por la aminopeptidasa placentaria; requiere prueba de deshidratación urgente."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Diabetes_Pregestacional_vs_Gestacional",
+      "gpc_algorithm_step": "La GPC IMSS-320 diferencia claramente: 1) Diabetes Pregestacional: aquella que se diagnostica antes del embarazo o en el primer trimestre (antes de las 13 semanas) cumpliendo criterios de diabetes en el adulto no gestante (glucosa en ayuno ≥ 126 mg/dL, glucosa al azar ≥ 200 mg/dL con síntomas o HbA1c ≥ 6.5%). 2) Diabetes Gestacional: diagnosticada a partir del segundo trimestre (semanas 24-28). La implicación biológica fundamental es que la hiperglucemia de la diabetes pregestacional ocurre durante la organogénesis embrionaria (semanas 3 a 8), elevando drásticamente el riesgo de malformaciones congénitas (cardiopatías como transposición de grandes vasos, defectos del tubo neural y síndrome de regresión caudal). La DMG NO causa malformaciones porque se instaura cuando los órganos ya están formados.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Rotular erróneamente cualquier glucemia elevada durante el embarazo como 'diabetes gestacional'. En el primer trimestre, glucemias ≥ 126 mg/dL o HbA1c ≥ 6.5% corresponden a Diabetes Pregestacional previa no identificada."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se distingue la Diabetes Pregestacional de la Gestacional en el 1er trimestre y cuál es su principal riesgo embrionario según la GPC IMSS-320?",
+        "back": "Pregestacional: detectada en 1er trimestre (ayuno ≥ 126 mg/dL o HbA1c ≥ 6.5%). Riesgo exclusivo: Malformaciones congénitas mayores (cardiopatías, tubo neural, regresión caudal) por hiperglucemia en la organogénesis.",
+        "tags": "D14 DiabetesPregestacional MalformacionesCongenitas Organogenesis GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 46 años con diagnóstico de carcinoma ductal invasor de mama Luminal A (RE 95%, RP 85%, HER2 negativo), postoperada de cuadrantectomía con ganglio centinela negativo y radioterapia complementaria. Se encuentra recibiendo terapia endocrina adyuvante con Tamoxifeno a dosis de 20 mg cada 24 horas desde hace 8 meses. Acude a consulta de medicina familiar presentando un episodio depresivo mayor clínicamente severo con insomnio de conciliación, pérdida del apetito, anhedonia e ideación de desesperanza, desencadenado por el impacto biopsicosocial de la enfermedad. El médico tratante decide prescribir un antidepresivo inhibidor selectivo de la recaptura de serotonina (ISRS).",
+      "question_text": "Con base en la farmacología oncológica y las advertencias de la GPC IMSS-232, ¿cuál de los siguientes antidepresivos está FORMALMENTE CONTRAINDICADO por inducir una potente inhibición del citocromo CYP2D6 impidiendo la conversión de tamoxifeno en su metabolito activo terapéutico?",
+      "options": {
+        "A": "Paroxetina (o Fluoxetina), debido a que su potente inhibición enzimática del citocromo CYP2D6 bloquea la biotransformación de tamoxifeno en endoxifeno, aumentando significativamente el riesgo de recurrencia tumoral y muerte por cáncer.",
+        "B": "Venlafaxina, porque acelera de forma incontrolada la bioactivación de tamoxifeno causando acumulación tóxica de endoxifeno.",
+        "C": "Citalopram, porque interactúa con los receptores de estrógeno en la glándula mamaria inactivando la unión de tamoxifeno.",
+        "D": "Sertralina a dosis bajas, debido a que inhibe selectivamente la absorción intestinal del tamoxifeno a nivel de la mucosa duodenal."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Interaccion_Farmacologica_Tamoxifeno_CYP2D6",
+      "gpc_algorithm_step": "El Tamoxifeno es un profármaco que requiere metabolización hepática mediante la isoenzima CYP2D6 del citocromo P450 para convertirse en su metabolito activo primordial, el ENDOXIFENO (el cual tiene una afinidad hasta 100 veces mayor por el receptor estrogénico). La GPC IMSS-232 y las guías de oncología advierten que el uso concomitante de inhibidores potentes de CYP2D6 como Paroxetina y Fluoxetina reduce drásticamente los niveles circulantes de endoxifeno, duplicando el riesgo de recurrencia del cáncer de mama. Si se requiere un antidepresivo en pacientes con tamoxifeno, se debe optar por agentes con nula o mínima inhibición de CYP2D6 como Venlafaxina, Desvenlafaxina o Escitalopram.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La paroxetina es un antidepresivo excelente para la depresión general o los bochornos menopáusicos, pero en la paciente con tamoxifeno es potencialmente letal oncológicamente debido al antagonismo farmacocinético sobre CYP2D6."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué están formalmente contraindicadas la Paroxetina y Fluoxetina en mujeres tratadas con Tamoxifeno según la GPC IMSS-232?",
+        "back": "Porque son inhibidores potentes del CYP2D6 e impiden la activación metabólica de tamoxifeno a endoxifeno, aumentando drásticamente la tasa de recurrencia de cáncer mamario.",
+        "tags": "D14 CaMa Tamoxifeno CYP2D6 Paroxetina Endoxifeno GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Recién nacido masculino de 38 semanas de gestación, obtenido mediante cesárea electiva con peso de 4,480 gramos (macrosómico, percentil > 97) y calificación de Apgar 8/9. Su madre es una mujer de 33 años diagnosticada con Diabetes Mellitus Gestacional en la semana 27 que presentó cifras persistentemente elevadas de glucemia durante todo el tercer trimestre debido a falta de adherencia al esquema de insulina. A los 35 minutos de vida extrauterina, el neonato presenta temblores finos distales en las cuatro extremidades, diaforesis fría, irritabilidad alternada con letargia, dificultad para acoplarse al seno materno y llanto débil. La prueba rápida de glucemia capilar en el talón reporta 24 mg/dL.",
+      "question_text": "Con base en la fisiopatología perinatal descrita en la GPC del hijo de madre con diabetes (Hipótesis de Pedersen), ¿cuál es el mecanismo patogénico directo que explica la hipoglucemia neonatal severa en este paciente?",
+      "options": {
+        "A": "Hiperinsulinismo fetal persistente por hiperplasia e hipertrofia de los islotes de células beta pancreáticas inducida por la hiperglucemia materna crónica, con cese súbito del aporte transplacentario de glucosa al pinzar el cordón umbilical.",
+        "B": "Agenesia de la corteza suprarrenal fetal provocada por el paso masivo de insulina exógena materna a través de los receptores placentarios sincitiotrofoblásticos.",
+        "C": "Deficiencia congénita de las enzimas hepáticas glucosa-6-fosfatasa y fosforilasa activadas exclusivamente en el primer mes de vida.",
+        "D": "Consumo cerebral masivo y descontrolado de glucosa como consecuencia del estrés hemodinámico por la cesárea programada."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Fisiopatologia_Hipoglucemia_Hijo_Madre_Diabetica",
+      "gpc_algorithm_step": "La hipótesis de Jørgen Pedersen fundamenta que la glucosa materna cruza libremente la placenta por difusión facilitada mediada por transportadores GLUT-1, pero la insulina materna NO atraviesa la barrera placentaria. La hiperglucemia materna crónica somete al feto a sobrecarga continua de glucosa, desencadenando hipertrofia e hiperplasia de las células beta de los islotes de Langerhans fetales y secreción desmedida de insulina fetal (hiperinsulinismo fetal). Al nacer, el pinzamiento del cordón umbilical corta abruptamente el suministro materno de glucosa, pero el hiperinsulinismo neonatal autónomo persiste durante las primeras horas y días, provocando hipoglucemia neonatal sintomática severa.",
+      "distractor_trap": {
+        "trap_type": "El Ruido de Laboratorio",
+        "explanation": "Creer que la insulina materna cruza la placenta hacia el feto es un error recurrente. La placenta es impermeable a la molécula de insulina; toda la insulina en el feto es de origen endógeno fetal estimulada por el flujo de glucosa materna."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el mecanismo fisiopatológico de la hipoglucemia neonatal en el hijo de madre con diabetes (Hipótesis de Pedersen)?",
+        "back": "La glucosa materna cruza la placenta (la insulina materna no), induciendo hiperplasia de células beta e hiperinsulinismo fetal. Al cortar el cordón, cesa la glucosa pero persiste el hiperinsulinismo fetal.",
+        "tags": "D14 DMG Pediatria HijoMadreDiabetica HipoglucemiaNeonatal Pedersen GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 29 años, primigesta, con antecedente de Diabetes Mellitus Gestacional diagnosticada a las 26 semanas de gestación que requirió tratamiento con insulina humana NPH (18 UI/día) para lograr las metas metabólicas durante el tercer trimestre. Tiene un parto eutócico institucional a las 39.2 semanas sin complicaciones, obteniéndose un recién nacido vivo de 3,350 gramos sano. En el puerperio inmediato y mediato (primeras 24 horas), la paciente se encuentra completamente asintomática, tolerando la vía oral, y los controles seriados de glucosa capilar en ayuno reportan 86 mg/dL y 92 mg/dL.",
+      "question_text": "De acuerdo con la GPC IMSS-320 y las directrices de salud reproductiva para el puerperio, ¿cuál es la conducta inmediata respecto a la terapia insulínica y la pauta obligatoria para la reclasificación metabólica de la paciente?",
+      "options": {
+        "A": "Suspender la insulina inmediatamente tras el alumbramiento placentario y citar a la paciente entre las 6 y 12 semanas posparto para realizar una Curva de Tolerancia a la Glucosa Oral (CTGO) con carga de 75 g evaluada con criterios de adulto no gestante.",
+        "B": "Continuar con la dosis completa de insulina NPH de manera indefinida para prevenir la progresión fulminante hacia cetoacidosis diabética posparto.",
+        "C": "Reducir la insulina NPH a la mitad durante los primeros 6 meses de lactancia y reclasificar únicamente mediante examen general de orina.",
+        "D": "Realizar una prueba de sobrecarga con 100 g de glucosa a las 24 horas del posparto para decretar el alta médica definitiva sin necesidad de seguimiento."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Reclasificacion_Metabolica_Posparto_DMG",
+      "gpc_algorithm_step": "Con la expulsión de la placenta en el alumbramiento cesa de forma fulminante la producción de las hormonas diabetógenas placentarias (lactógeno placentario humano, progesterona, cortisol y hormona de crecimiento placentaria), restaurándose abruptamente la sensibilidad materna a la insulina. Por tanto, en pacientes con DMG pura la insulina DEBE SUSPENDERSE DE INMEDIATO tras el parto para evitar hipoglucemias maternas graves. Asimismo, la GPC IMSS-320 y la ADA dictan que toda mujer con antecedente de DMG debe reclasificarse entre las 6 y 12 semanas del posparto mediante una CTGO con 75 g de glucosa utilizando criterios de adulto no gestante (normal, prediabetes o diabetes mellitus tipo 2), debido a que hasta el 50% desarrollará DM2 en los siguientes 5 a 10 años.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Mantener la insulina en el posparto bajo la idea equivocada de que la paciente 'sigue siendo diabética' precipita hipoglucemias severas. La resistencia a la insulina desaparece al salir la placenta. La reclasificación posparto se realiza entre las 6 y 12 semanas, jamás a las 24 horas."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta con la insulina en el puerperio inmediato y cómo se realiza la reclasificación metabólica tras una Diabetes Gestacional según la GPC IMSS-320?",
+        "back": "Insulina: suspenderla inmediatamente tras el parto. Reclasificación: CTGO con 75 g a las 6-12 semanas posparto evaluada con criterios de adulto no gestante.",
+        "tags": "D14 DMG Posparto Reclasificacion CTGO75g Insulina GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mujer de 33 años, secretaria, acude a consulta externa ginecológica por presentar desde hace 6 meses mastalgia bilateral recurrente de intensidad moderada a severa (EVA 7/10). Refiere que el dolor inicia invariablemente 7 a 10 días antes del inicio de la menstruación, se describe como pesadez y tumefacción mamaria bilateral, y cede casi por completo al concluir el sangrado catamenial (dolor mamario de patrón cíclico). Niega telorrea, masas palpables dominantes o antecedentes heredofamiliares de cáncer de mama. A la exploración física: ambas mamas con tejido glandular discretamente nodular difuso en cuadrantes superiores externos, móvil, doloroso a la compresión, sin retracción de piel ni adenopatías axilares palpables. El ultrasonido mamario muestra tejido fibroglandular heterogéneo con múltiples microquistes simples bilaterales de 3 a 6 mm, catalogado como BI-RADS 2 (hallazgos benignos).",
+      "question_text": "De acuerdo con la GPC de Diagnóstico y Tratamiento de la Patología Mamaria Benigna, ¿cuál es la conducta terapéutica integral de primera línea que debe indicarse a esta paciente?",
+      "options": {
+        "A": "Tranquilizar a la paciente explicándole la benignidad del cuadro, recomendar uso de sostén deportivo ajustado sin varillas con soporte adecuado, medidas dietéticas (reducción de cafeína y metilxantinas) y analgésicos tipo AINEs por vía oral o tópica durante los días de dolor.",
+        "B": "Punción-aspiración con aguja de todos los microquistes guiada por ultrasonido en consultorio para descompresión inmediata.",
+        "C": "Prescripción de Danazol a dosis de 200 mg cada 12 horas o Tamoxifeno oral como tratamiento médico de primera línea de elección.",
+        "D": "Mastectomía subcutánea bilateral con reconstrucción mediante implantes de gel de silicona para erradicación definitiva del dolor."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Mastalgia_Ciclica_Manejo_Primera_Linea",
+      "gpc_algorithm_step": "La mastalgia cíclica es la forma más común de dolor mamario (asociada a cambios hormonales en la fase lútea y mastopatía fibroquística benigna). La GPC establece que el 85% de las pacientes responden adecuadamente a medidas de primera línea: 1) Tranquilización médica fundamentada (descartar cáncer de mama disipa la ansiedad que amplifica el dolor); 2) Uso de sostén con soporte adecuado y sin varillas (como sostén deportivo ajustado); 3) Medidas higiénico-dietéticas (disminución del consumo de metilxantinas, café, chocolate y grasas saturadas); y 4) AINEs tópicos (gel de diclofenaco o piroxicam) o sistémicos por periodos breves premenstruales. Agentes hormonales potentes como Danazol o Tamoxifeno son terapias de rescate de segunda o tercera línea para casos severos refractarios e incapacitantes debido a sus efectos adversos.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar Danazol o Tamoxifeno de primera línea para una mastalgia cíclica simple con ultrasonido BI-RADS 2 es un error grave de sobretratamiento farmacológico farmacológico, exponiendo a la paciente a virilización, trombosis y disfunción hepática."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el manejo de primera línea para la mastalgia cíclica benigna asociada a condición fibroquística según la GPC?",
+        "back": "Tranquilización y descarte de malignidad + soporte mecánico (sostén adecuado sin varillas) + disminución de metilxantinas + AINEs orales o tópicos. (Danazol/tamoxifeno solo en casos severos refractarios).",
+        "tags": "D14 PatologiaBenigna MastalgiaCiclica Fibroquistica AINEs GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Pregnancy-Associated Breast Cancer and Gestational Diabetes Mellitus",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A 36-year-old woman, G2P1 at 15 weeks of gestation by a confirmed first-trimester ultrasound, presents to the obstetrics and gynecology clinic after noticing a progressively enlarging, painless lump in her right breast over the past two months. Physical examination reveals a 3.2 cm firm, non-tender, poorly mobile mass in the upper outer quadrant of the right breast with subtle skin dimpling. Palpation of the right axilla reveals a discrete, firm, mobile lymph node measuring 1.5 cm. A dedicated bilateral breast ultrasound identifies a 32 x 22 mm solid, hypoechoic mass with microlobulated margins, internal microcalcifications, and marked posterior acoustic shadowing (classified as BI-RADS 5), along with an abnormal ipsilateral axillary lymph node displaying asymmetric cortical thickening of 4.5 mm.",
+      "question_text": "According to Mexican Clinical Practice Guidelines (GPC IMSS-232) and international oncologic standards for pregnancy-associated breast cancer, which of the following is the most appropriate and safe confirmatory diagnostic procedure that must be performed at this time?",
+      "options": {
+        "A": "Ultrasound-guided core needle biopsy (Tru-Cut) of the breast mass and fine-needle aspiration or core biopsy of the abnormal axillary lymph node for definitive histological and immunohistochemical grading.",
+        "B": "Fine-needle aspiration biopsy (FNAB) of the breast mass in the office setting without axillary assessment, delaying formal tissue core sampling until after delivery.",
+        "C": "Dynamic bilateral breast magnetic resonance imaging (MRI) with intravenous gadolinium-based contrast to establish local tumor extent before attempting any invasive biopsy.",
+        "D": "Immediate diagnostic modified radical mastectomy under general anesthesia without prior tissue biopsy to minimize fetal anesthetic exposure time."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Procedimiento_Diagnostico_CaMa_Embarazo",
+      "gpc_algorithm_step": "In pregnant patients presenting with a suspicious breast mass (BI-RADS 4 or 5), pregnancy-associated breast cancer must be urgently investigated. The diagnostic procedure of choice is an ultrasound-guided core needle biopsy (Tru-Cut) under local anesthesia. Core biopsy is completely safe in all trimesters of pregnancy, provides adequate tissue architecture to distinguish in situ from invasive carcinoma, and allows complete receptor analysis (ER, PR, HER2, Ki-67). Conversely, dynamic MRI with gadolinium is strictly contraindicated during pregnancy because gadolinium crosses the placenta, enters fetal circulation, and is associated with rheumatologic, inflammatory, and fetal demise risks.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Recommending contrast-enhanced breast MRI with gadolinium during pregnancy is a critical pitfall: gadolinium is a known teratogen/toxic agent that accumulates in amniotic fluid. Ultrasound-guided Tru-Cut biopsy is the undisputed gold standard."
+      },
+      "anki_flashcard": {
+        "front": "What is the gold standard confirmatory diagnostic procedure for a suspicious breast mass in a pregnant patient according to GPC IMSS-232?",
+        "back": "Ultrasound-guided core needle biopsy (Tru-Cut) under local anesthesia. (Gadolinium-enhanced MRI is contraindicated in pregnancy).",
+        "tags": "D14 BreastCancer Pregnancy CoreBiopsy TruCut GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Pregnancy-Associated Breast Cancer and Gestational Diabetes Mellitus",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The ultrasound-guided core needle biopsy from the 36-year-old pregnant patient confirms Nottingham histologic grade 3 invasive ductal carcinoma. Immunohistochemical staining demonstrates: Estrogen Receptor negative (0%), Progesterone Receptor negative (0%), and HER2 negative (score 0), diagnostic of Triple-Negative Breast Cancer (TNBC). Core needle biopsy of the ipsilateral axillary lymph node confirms metastatic adenocarcinoma (cT2 cN1 M0, Stage IIB). The patient is currently at 17 weeks of gestation (early second trimester). A multidisciplinary tumor board is convened to establish the systemic treatment strategy.",
+      "question_text": "Based on GPC IMSS-232 and oncologic guidelines regarding systemic chemotherapy during pregnancy, which of the following is the recommended therapeutic approach for this patient at this gestational age?",
+      "options": {
+        "A": "Neoadjuvant systemic polychemotherapy utilizing an anthracycline-based regimen (such as Doxorubicin and Cyclophosphamide - AC) initiated during the second trimester, avoiding antimetabolites and postponing radiotherapy until the postpartum period.",
+        "B": "Postponement of all oncologic therapies until after delivery at term to completely eliminate any fetal pharmacologic exposure, regardless of tumor progression risk.",
+        "C": "Immediate initiation of Methotrexate, Vinblastine, and Fluorouracil combination chemotherapy, as folate antagonists are the safest class across all trimesters.",
+        "D": "External beam megavoltage radiotherapy directed to the breast and axilla as the primary local modality, since ionizing radiation has zero chemical transplacental passage."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Quimioterapia_CaMa_Durante_Embarazo",
+      "gpc_algorithm_step": "While systemic chemotherapy is strictly contraindicated during the first trimester (weeks 2 to 10) due to catastrophic teratogenic risks and spontaneous abortion during organogenesis, clinical guidelines (GPC IMSS-232) establish that polychemotherapy with anthracycline-based regimens (e.g., Doxorubicin + Cyclophosphamide [AC]) can be safely administered during the second and third trimesters. Teratogenicity rates in the 2nd and 3rd trimesters are comparable to baseline (approx. 1-2%), primarily carrying risks of intrauterine growth restriction or transient neonatal neutropenia. Methotrexate (folate antagonist) is strictly contraindicated due to fetal death and aminopterin-syndrome malformations. Radiotherapy is contraindicated throughout pregnancy due to scatter radiation risks to the fetus.",
+      "distractor_trap": {
+        "trap_type": "El Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Methotrexate is an absolute contraindication in pregnancy (potent abortifacient and teratogen). Radiotherapy delivers dangerous scatter dose to the fetus. Delaying chemotherapy in high-grade Triple-Negative breast cancer leads to rapid maternal systemic dissemination and fatal outcome."
+      },
+      "anki_flashcard": {
+        "front": "When and what chemotherapy regimen can be safely administered for breast cancer during pregnancy according to GPC IMSS-232?",
+        "back": "During the 2nd and 3rd trimesters (strictly avoided in 1st trimester). Regimen of choice: Anthracycline-based regimens (e.g., Doxorubicin + Cyclophosphamide [AC]). Methotrexate and Radiotherapy are strictly contraindicated.",
+        "tags": "D14 BreastCancer Chemotherapy Pregnancy SecondTrimester Anthracyclines GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Pregnancy-Associated Breast Cancer and Gestational Diabetes Mellitus",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "While successfully tolerating neoadjuvant AC chemotherapy during her 26th week of gestation, the patient undergoes routine gestational diabetes screening with a 75-g oral glucose tolerance test (OGTT). Laboratory values demonstrate: Fasting plasma glucose: 96 mg/dL; 1-hour glucose: 186 mg/dL; and 2-hour glucose: 158 mg/dL (confirming Gestational Diabetes Mellitus). Despite strict adherence to medical nutrition therapy and supervised physical activity for 14 days, her self-monitoring blood glucose log reveals that 40% of fasting readings range from 99 to 108 mg/dL and 2-hour postprandial values exceed 132 mg/dL. The fetus shows biometric parameters appropriate for gestational age.",
+      "question_text": "According to Mexican Clinical Practice Guidelines (GPC IMSS-320) and obstetric standards, which of the following is the first-line pharmacologic therapy of choice to achieve strict glycemic targets in this pregnant patient?",
+      "options": {
+        "A": "Subcutaneous human insulin therapy (such as NPH and regular insulin or approved analogs) titrated to target glucose levels, as it does not cross the placenta.",
+        "B": "Oral Glyburide (glibenclamide) at high doses, as it represents the institutional first-line agent over injectable therapy.",
+        "C": "Oral Dapagliflozin combined with Semaglutide to enhance renal excretion of glucose and mitigate excessive weight gain.",
+        "D": "Immediate cessation of carbohydrate intake and substitution with high-dose intravenous magnesium sulfate infusion."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Farmacoterapia_DMG_Insulina",
+      "gpc_algorithm_step": "In pregnant patients with Gestational Diabetes Mellitus failing to achieve glycemic targets (< 95 mg/dL fasting, < 120 mg/dL 2-hour postprandial) with lifestyle modifications within 2 weeks, GPC IMSS-320 mandates the initiation of pharmacotherapy. Subcutaneous HUMAN INSULIN (NPH and rapid/regular insulin) is the definitive first-line gold standard of choice. Insulin does not cross the placental barrier, ensuring complete fetal safety while rapidly achieving euglycemia. Oral sulfonylureas (Glyburide) cross the placenta and carry higher risks of fetal hyperinsulinism, macrosomia, and severe neonatal hypoglycemia.",
+      "distractor_trap": {
+        "trap_type": "La Trampa de la Guía Gringa",
+        "explanation": "Oral sulfonylureas (glibenclamide) are considered inferior and not recommended as first-line in GPC IMSS-320 due to neonatal morbidity. SGLT-2 inhibitors and GLP-1 receptor agonists are embryotoxic and contraindicated in pregnancy."
+      },
+      "anki_flashcard": {
+        "front": "What is the first-line pharmacologic agent of choice for Gestational Diabetes Mellitus failing dietary management according to GPC IMSS-320?",
+        "back": "Subcutaneous human insulin (NPH + regular/analog), because it does not cross the placenta and prevents neonatal hypoglycemia and macrosomia.",
+        "tags": "D14 DMG Insulin Pharmacotherapy Pregnancy FirstLine GPC"
+      }
+    },
+    {
+      "id": "d14_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Serial Case 5: Pregnancy-Associated Breast Cancer and Gestational Diabetes Mellitus",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The patient achieves optimal glycemic control on insulin therapy. Neoadjuvant chemotherapy is completed and safely halted at week 34 to allow maternal and fetal bone marrow recovery. At 37.2 weeks of gestation, she undergoes an uncomplicated scheduled cesarean delivery due to obstetric cephalopelvic disproportion, delivering a male neonate weighing 3,890 g with Apgar scores of 8 and 9. At 18 hours of life, routine pediatric examination identifies a soft grade II/VI systolic ejection murmur at the left sternal border. An urgent neonatal echocardiogram reveals asymmetric septal hypertrophy with an interventricular septum thickness of 7.2 mm (Z-score > +3), without fixed structural cardiac defects or severe left ventricular outflow tract obstruction. The neonate remains asymptomatic, eupneic, with normal peripheral pulses and pre-ductal/post-ductal SpO2 of 98%.",
+      "question_text": "Based on the pathophysiology of diabetic embryopathy and fetopathy (GPC IMSS-320), what is the underlying mechanism and expected natural clinical course of this echocardiographic finding in the infant of a diabetic mother?",
+      "options": {
+        "A": "Transient hypertrophic cardiomyopathy caused by fetal hyperinsulinism stimulating glycogen deposition and myocardial cellular hyperplasia in the interventricular septum; it is self-limiting and characteristically undergoes spontaneous resolution within 6 to 12 months.",
+        "B": "Irreversible genetic hypertrophic obstructive cardiomyopathy (sarcomeric mutation) that will require lifelong beta-blocker therapy and future surgical septal myectomy.",
+        "C": "Anthracycline-induced irreversible fetal dilated cardiomyopathy requiring emergent listed heart transplantation in the neonatal intensive care unit.",
+        "D": "Anatomic equivalent of tetralogy of Fallot with infundibular stenosis that mandates urgent placement of a modified Blalock-Taussig shunt within the first 48 hours."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Miocardiopatia_Hipertrofica_Hijo_Madre_Diabetica",
+      "gpc_algorithm_step": "Hypertrophic cardiomyopathy in the infant of a diabetic mother occurs in approximately 10-30% of cases and is mediated by fetal hyperinsulinism. Insulin acts as an anabolic and growth factor on cardiac insulin receptors, which are particularly abundant in the fetal interventricular septum, driving massive glycogen deposition, protein synthesis, and cellular hyperplasia. In the vast majority of cases, it is an entirely benign, self-limiting condition: as maternal glucose ceases and neonatal insulin levels normalize, septal hypertrophy regresses spontaneously over the subsequent 6 to 12 months without permanent myocardial sequelae.",
+      "distractor_trap": {
+        "trap_type": "El Cierre Prematuro (Anclaje)",
+        "explanation": "Mistaking transient diabetic septal hypertrophy for a permanent genetic cardiomyopathy (sarcomeric MYH7/MYBPC3 mutation) or irreversible anthracycline toxicity. The diabetic septal hypertrophy is benign and resolves spontaneously."
+      },
+      "anki_flashcard": {
+        "front": "What is the pathophysiology and natural prognosis of asymmetric septal hypertrophy in an infant of a diabetic mother according to GPC IMSS-320?",
+        "back": "Pathophysiology: Fetal hyperinsulinism inducing glycogen deposition and myocardial hyperplasia in the septum. Prognosis: Benign and transient; resolves spontaneously within 6 to 12 months.",
+        "tags": "D14 DMG InfantOfDiabeticMother HypertrophicCardiomyopathy Prognosis GPC"
+      }
+    }
+  ]
+}

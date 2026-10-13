@@ -1,0 +1,709 @@
+{
+  "topic_code": "D12",
+  "title": "Simulador Post-Estudio: Hemorragias de 1ra y 2da Mitad del Embarazo y Atonía Uterina (4T)",
+  "normativa_origen": "GPC IMSS-162-09 / IMSS-436-19 / IMSS-244-09 / IMSS-387-09 / NOM-007-SSA2-2016",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d12_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Hemorragia de la Primera Mitad - Aborto Espontáneo y Manejo Quirúrgico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 24 años, primigesta con embarazo de 9.3 semanas por amenorrea confiable, acude al servicio de urgencias gineco-obstétricas por cuadro de 6 horas de evolución con cólico hipogástrico progresivo y sangrado transvaginal rojo rutilante abundante con coágulos. A la exploración física: TA 110/70 mmHg, FC 84 lpm, FR 18 rpm, afebril. Abdomen doloroso en hipogastrio sin datos de irritación peritoneal. Especuloscopia: sangrado activo transendocervical con protrusión visible de tejido ovular en canal endocervical. Tacto bimanual: orificio cervical interno (OCI) dilatado y permeable a un dedo (10 mm), fondo uterino de 9 cm blando y doloroso. Ultrasonido endovaginal: cavidad endometrial ocupada por ecos heterogéneos mixtos con grosor endometrial de 24 mm, ausencia de saco gestacional íntegro y sin líquido libre en fondo de saco de Douglas.",
+      "question_text": "De acuerdo con la edad gestacional, la dilatación cervical y las recomendaciones de la GPC IMSS-162-09, ¿cuál es el diagnóstico definitivo y el procedimiento quirúrgico de primera línea indicado?",
+      "options": {
+        "A": "Aborto incompleto; Aspiración Manual Endouterina (AMEU) bajo anestesia local o bloqueo paracervical.",
+        "B": "Aborto diferido; Legrado Uterino Instrumental (LUI) con cureta cortante bajo anestesia general balanceada.",
+        "C": "Amenaza de aborto; reposo absoluto y progesterona natural micronizada 400 mg vaginal cada 24 horas.",
+        "D": "Aborto completo; manejo médico expectante con analgésicos orales sin instrumentación cavitaria."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Criterios_AMEU_vs_LUI",
+      "gpc_algorithm_step": "Diagnóstico de aborto incompleto (< 12 SDG con OCI permeable y grosor endometrial > 15 mm). Algoritmo GPC IMSS-162-09: AMEU es de primera elección si gestación < 12 SDG y dilatación cervical ≤ 11 mm.",
+      "distractor_trap": {
+        "trap_type": "Escalón Terapéutico Saltado",
+        "explanation": "El LUI no es la primera opción rutinaria en gestaciones menores a 12 semanas. La GPC reserva el LUI para > 12 SDG, dilatación > 11 mm o falta de equipo de AMEU, dado que el AMEU reduce significativamente la pérdida hemática, el dolor y las secuelas como perforación y síndrome de Asherman."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios de la GPC IMSS-162-09 para indicar AMEU de primera elección en aborto incompleto?",
+        "back": "1) Edad gestacional < 12 semanas.\n2) Dilatación cervical ≤ 11 mm (o fondo uterino ≤ 11-12 cm).\nVentajas: Menor riesgo de perforación uterina (< 0.5% vs 2%), menor sangrado y prevención de sinequias intrauterinas (síndrome de Asherman).",
+        "tags": "D12 GYO Aborto AMEU GPC-IMSS-162-09"
+      }
+    },
+    {
+      "id": "d12_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Hemorragia de la Primera Mitad - Aborto Espontáneo y Manejo Quirúrgico",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "En la misma paciente de 24 años programada para AMEU por aborto incompleto de 9.3 semanas, se reciben los exámenes preoperatorios: Hb 11.8 g/dL, plaquetas 230,000/mm³, tiempos de coagulación normales. El grupo sanguíneo y factor Rh reportan: 'O' negativo, con prueba de Coombs indirecto negativa (no sensibilizada). Su pareja es 'O' positivo. La paciente no tiene antecedentes de embarazos previos ni de administración previa de hemoderivados o inmunoglobulinas.",
+      "question_text": "Con base en la GPC IMSS-162-09 y la NOM-007-SSA2-2016, ¿cuál es la intervención inmunoprofiláctica obligatoria a implementar?",
+      "options": {
+        "A": "Diferir la profilaxis y realizar prueba de Coombs indirecto de control a las 4 semanas post-AMEU.",
+        "B": "Omitir la administración de inmunoglobulina anti-D por tratarse de un aborto espontáneo de primer trimestre con escaso volumen eritrocitario fetal.",
+        "C": "Administrar Inmunoglobulina Humana Anti-D (150 a 300 mcg IM) dentro de las primeras 72 horas posteriores a la evacuación uterina.",
+        "D": "Indicar infusión de plasma fresco congelado con ácido tranexámico profiláctico antes del procedimiento."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Inmunoprofilaxis_Anti_D",
+      "gpc_algorithm_step": "Madre Rh negativa no sensibilizada con aborto espontáneo o procedimiento de instrumentación uterina requiere inmunoglobulina anti-D dentro de las primeras 72 horas.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Algunas guías extranjeras debaten la necesidad de anti-D en pérdidas muy precoces sin instrumentación; sin embargo, la normativa mexicana (GPC IMSS-162-09 y NOM-007) establece mandatoriamente la aplicación de 150 a 300 mcg IM en toda paciente Rh negativa no sensibilizada con aborto o evacuación instrumental dentro de las 72 horas."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo y a qué dosis se indica la inmunoglobulina Anti-D en una paciente Rh negativa con aborto según la GPC mexicana?",
+        "back": "Dosis de 150 a 300 mcg IM (o microdosis de 50-150 mcg si < 12 SDG) dentro de las primeras 72 horas tras el evento obstétrico o evacuación uterina, siempre que la prueba de Coombs indirecto sea negativa.",
+        "tags": "D12 GYO Anti-D Isoinmunizacion GPC-IMSS-162-09 NOM-007"
+      }
+    },
+    {
+      "id": "d12_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Hemorragia de la Primera Mitad - Aborto Espontáneo y Manejo Quirúrgico",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Previo al inicio del AMEU en la paciente con aborto incompleto, el médico interno de pregrado pregunta sobre el régimen de profilaxis antimicrobiana indicado para prevenir endometritis o enfermedad pélvica inflamatoria post-evacuación, considerando que la paciente no presenta datos clínicos ni de laboratorio de infección activa.",
+      "question_text": "¿Cuál es el esquema antibiótico profiláctico preoperatorio de elección recomendado por la GPC IMSS-162-09?",
+      "options": {
+        "A": "Doxiciclina 100 mg vía oral 1 hora antes del procedimiento (o Doxiciclina 200 mg VO dosis única).",
+        "B": "Ceftriaxona 1 g IV en infusión única más metronidazol 500 mg IV durante el procedimiento.",
+        "C": "Amoxicilina con ácido clavulánico 500/125 mg vía oral cada 8 horas por 7 días postoperatorios.",
+        "D": "No administrar ningún antibiótico profiláctico, reservándolo exclusivamente para casos con fiebre transoperatoria."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Profilaxis_Antimicrobiana_Evacuacion",
+      "gpc_algorithm_step": "Prevención de infecciones en aborto incompleto instrumentado: profilaxis con doxiciclina pre-procedimiento reduce significativamente la incidencia de infección pélvica posaborto.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Prescribir esquemas de amplio espectro como ceftriaxona + metronidazol o cursos orales prolongados por 7 días es un error frecuente de sobretratamiento; la profilaxis estandarizada de la GPC es dosis corta prequirúrgica con doxiciclina (o azitromicina)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la profilaxis antibiótica preoperatoria recomendada en AMEU por aborto incompleto no complicado?",
+        "back": "Doxiciclina 100 mg VO 1 hora antes del procedimiento (o 200 mg VO monodosis), o azitromicina 500 mg VO, reduciendo el riesgo de infección posaborto en más del 40%.",
+        "tags": "D12 GYO Profilaxis AMEU Doxiciclina GPC-IMSS-162-09"
+      }
+    },
+    {
+      "id": "d12_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Hemorragia de la Primera Mitad - Aborto Espontáneo y Manejo Quirúrgico",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la misma unidad médica ingresa una paciente de 19 años con antecedente de manipulación uterina clandestina con tallo vegetal hace 72 horas. Presenta fiebre de 39.2 °C, escalofríos, diaforesis, taquicardia de 118 lpm, TA 95/60 mmHg y taquipnea de 24 rpm. A la exploración ginecológica: dolor pélvico exquisito con hipersensibilidad a la movilización cervical, orificio cervical abierto con salida de secreción hematopurulenta fétida y útero subinvolucionado muy doloroso. Laboratorio: leucocitosis de 22,400/mm³ con 16% de bandas (neutrofilia con desviación a la izquierda), plaquetas 160,000/mm³, lactato sérico 2.4 mmol/L. Se integra diagnóstico de Aborto Séptico.",
+      "question_text": "De acuerdo con el algoritmo terapéutico de la GPC IMSS-162-09 para Aborto Séptico, ¿cuál es la conducta secuencial inmediata mandatoria?",
+      "options": {
+        "A": "Realizar legrado uterino instrumental inmediato de urgencia antes de iniciar antibióticos para eliminar el foco infeccioso.",
+        "B": "Iniciar reanimación con cristaloides y esquema parenteral de amplio espectro (clindamicina + gentamicina), programando la evacuación uterina tras 4 a 6 horas de iniciados los antimicrobianos.",
+        "C": "Administrar antibioticoterapia oral ambulatoria y esperar la resolución espontánea del cuadro infeccioso sin instrumentar la cavidad.",
+        "D": "Programar laparotomía con histerectomía total abdominal inmediata en todas las pacientes con aborto séptico como primera línea institucional."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Aborto_Septico_Algoritmo",
+      "gpc_algorithm_step": "Estabilización hemodinámica + inicio inmediato de triple esquema/doble esquema parenteral (clindamicina + gentamicina +/- ampicilina) -> evacuación cavitaria uterina a las 4-6 horas de cobertura antimicrobiana.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Evacuar el útero inmediatamente sin impregnación antibiótica mínima desencadena bacteriemia masiva, choque séptico refractario y CID. La GPC estipula una ventana de impregnación antibiótica de 4 a 6 horas antes de la instrumentación cavitaria, salvo hemorragia exanguinante incoercible."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la ventana de impregnación antibiótica previa a la evacuación uterina en aborto séptico según la GPC?",
+        "back": "Iniciar cobertura antibiótica parenteral de amplio espectro (ej. clindamicina + gentamicina) y evacuar la cavidad uterina (AMEU/LUI) 4 a 6 horas después de iniciados los antibióticos y estabilizada la paciente.",
+        "tags": "D12 GYO Aborto-Septico Antimicrobianos GPC-IMSS-162-09"
+      }
+    },
+    {
+      "id": "d12_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Hemorragia de la Primera Mitad - Embarazo Ectópico y Toma de Decisiones Terapéuticas",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mujer de 27 años, primigesta con antecedente de Enfermedad Pélvica Inflamatoria tratada hace 2 años. Acude por amenorrea de 6.2 semanas, dolor punzante en fosa ilíaca derecha de intensidad moderada y sangrado transvaginal café oscuro escaso en 'posos de café'. Signos vitales: TA 118/72 mmHg, FC 78 lpm, FR 16 rpm, temperatura 36.7 °C. Especuloscopia: escaso sangrado café en fondo de saco vaginal, cérvix cerrado. Tacto bimanual: cérvix doloroso a la lateralización derecha, útero discretamente aumentado de tamaño pero menor que amenorrea. El ultrasonido transvaginal reporta: endometrio trilaminar engrosado de 11 mm sin saco gestacional intrauterino; en anexo derecho se identifica masa paraovárica heterogénea de 2.6 cm sin líquido libre en fondo de saco de Douglas. La cuantificación de b-hCG sérica reporta 2,750 mUI/mL.",
+      "question_text": "Aplicando el concepto de 'zona de discriminación ecográfica' de la GPC IMSS-244-09, ¿cuál es la interpretación clínica diagnóstica más precisa?",
+      "options": {
+        "A": "Embarazo intrauterino muy temprano; la b-hCG debe superar 10,000 mUI/mL para visualizar saco vitelino por vía transvaginal.",
+        "B": "Alta certeza diagnóstica de Embarazo Ectópico; la concentración de b-hCG supera la zona discriminatoria transvaginal (1,500 - 2,000 mUI/mL) en ausencia de saco gestacional intrauterino.",
+        "C": "Embarazo anembrionario intrauterino confirmado; requiere inicio inmediato de misoprostol 800 mcg vaginal.",
+        "D": "Enfermedad trofoblástica gestacional en etapa inicial; requiere programación inmediata para aspiración manual endouterina."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Zona_Discriminatoria_bhCG",
+      "gpc_algorithm_step": "Zona de discriminación por USG transvaginal: b-hCG sérica ≥ 1,500 - 2,000 mUI/mL debe mostrar saco gestacional intrauterino; si el útero está vacío y hay masa anexial, se establece diagnóstico de embarazo ectópico.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Confundir la zona discriminatoria transvaginal (1,500-2,000 mUI/mL) con la transabdominal (6,000 mUI/mL) conduce a retrasos diagnósticos críticos. Al superar 1,500-2,000 mUI/mL con útero vacío por vía transvaginal, se confirma la patología ectópica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la zona de discriminación de b-hCG por ultrasonido transvaginal para embarazo ectópico?",
+        "back": "1,500 a 2,000 mUI/mL (por USG abdominal es 6,000 mUI/mL). Con b-hCG > 1,500-2,000 y ausencia de saco intrauterino por vía transvaginal, se debe sospechar firmemente embarazo ectópico.",
+        "tags": "D12 GYO Ectopico Zona-Discriminacion bhCG GPC-IMSS-244-09"
+      }
+    },
+    {
+      "id": "d12_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Hemorragia de la Primera Mitad - Embarazo Ectópico y Toma de Decisiones Terapéuticas",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la misma paciente de 27 años (estable, TA 118/72 mmHg, FC 78 lpm, masa anexial derecha de 2.6 cm sin embriocardia visible, b-hCG sérica de 2,750 mUI/mL, sin líquido libre en Douglas), se solicitan estudios complementarios: hemoglobina 12.4 g/dL, plaquetas 245,000/mm³, leucocitos 6,800/mm³, creatinina sérica 0.7 mg/dL, ALT 22 UI/L, AST 24 UI/L. La paciente externa su deseo expreso de preservar su fertilidad tubárica a futuro.",
+      "question_text": "De acuerdo con los criterios de selección de la GPC IMSS-244-09, ¿cuál es el abordaje terapéutico de primera elección indicado?",
+      "options": {
+        "A": "Manejo médico con Metotrexato intramuscular a dosis única (50 mg/m² SC).",
+        "B": "Laparotomía exploradora de urgencia con salpingectomía total derecha inmediata.",
+        "C": "Salpingostomía lineal por laparoscopia de urgencia el mismo día sin intentar terapia médica previa.",
+        "D": "Manejo expectante ambulatorio citando a control ecográfico en 2 semanas sin medicación."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Criterios_Metotrexato_Ectopico",
+      "gpc_algorithm_step": "Candidata a manejo médico con Metotrexato: estabilidad hemodinámica, b-hCG < 5,000 mUI/mL, masa anexial < 3.5 - 4 cm, ausencia de actividad cardíaca embrionaria, función hepática/renal y biometría hemática normales.",
+      "distractor_trap": {
+        "trap_type": "Escalón Terapéutico Saltado",
+        "explanation": "Llevar a quirófano a una paciente que cumple todos los criterios ideales para manejo médico conservador con metotrexato incrementa la morbilidad quirúrgica innecesariamente y disminuye su potencial reproductivo futuro en comparación con el éxito del 90% del fármaco."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios de la GPC para manejo médico con Metotrexato en embarazo ectópico?",
+        "back": "1) Estabilidad hemodinámica.\n2) b-hCG < 5,000 mUI/mL.\n3) Masa anexial < 3.5 a 4.0 cm.\n4) Ausencia de actividad cardíaca embrionaria.\n5) Pruebas de función renal/hepática y biometría hemática normales.",
+        "tags": "D12 GYO Ectopico Metotrexato Criterios GPC-IMSS-244-09"
+      }
+    },
+    {
+      "id": "d12_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Hemorragia de la Primera Mitad - Embarazo Ectópico y Toma de Decisiones Terapéuticas",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A la paciente se le administró Metotrexato monodosis (50 mg/m² IM). Acude a sus controles seriados de laboratorio: la b-hCG del día 1 (basal) fue 2,750 mUI/mL; en el día 4 post-tratamiento la b-hCG se reporta en 3,100 mUI/mL. La paciente se encuentra asintomática, con signos vitales normales y sin signos de irritación peritoneal.",
+      "question_text": "Según el protocolo de vigilancia farmacológica de la GPC IMSS-244-09, ¿cuál es la conducta correcta ante el resultado de b-hCG del día 4 y qué parámetro definirá el éxito al día 7?",
+      "options": {
+        "A": "Catalogar como falla terapéutica y proceder de inmediato a salpingectomía laparoscópica de urgencia.",
+        "B": "Tranquilizar a la paciente explicando que el incremento en día 4 es un fenómeno transitorio esperado; citar al día 7 y confirmar un descenso de b-hCG ≥ 15% respecto al día 4.",
+        "C": "Administrar una segunda dosis inmediata de metotrexato en el día 4 más leucovorina cálcica oral.",
+        "D": "Suspender el seguimiento de b-hCG y solicitar tomografía abdomino-pélvica con contraste de urgencia."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Monitorizacion_Metotrexato_Dia4_Dia7",
+      "gpc_algorithm_step": "En el protocolo de dosis única de MTX, la b-hCG puede elevarse transitoriamente entre los días 1 y 4 por lisis trofoblástica. El éxito terapéutico se define como un descenso ≥ 15% entre los días 4 y 7.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Interpretar la elevación de b-hCG del día 4 como fracaso terapéutico es un error clásico de anclaje. La elevación precoz en el día 4 ocurre en hasta el 70% de los casos por liberación de b-hCG del trofoblasto lisado; la comparación clave es entre el día 4 y el día 7."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se interpreta el protocolo de b-hCG en el día 4 y día 7 tras Metotrexato monodosis para ectópico?",
+        "back": "Día 4: La b-hCG puede elevarse respecto al día 1 (fisiológico por lisis celular).\nDía 7: Debe descender ≥ 15% comparado con el valor del DÍA 4 para considerarse éxito. Si no desciende ≥ 15%, se indica segunda dosis de MTX o cirugía.",
+        "tags": "D12 GYO Ectopico Metotrexato Dia-4 Dia-7 GPC-IMSS-244-09"
+      }
+    },
+    {
+      "id": "d12_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Hemorragia de la Primera Mitad - Embarazo Ectópico y Toma de Decisiones Terapéuticas",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Considere la siguiente variante clínica: una paciente con embarazo ectópico ampular derecho de 7 semanas acude al triage obstétrico refiriendo inicio súbito de dolor pélvico de intensidad 10/10 tipo puñalada, seguido de mareo intenso y síncope. A la exploración física: facies pálida y sudorosa, somnolienta, TA 75/45 mmHg, FC 134 lpm, pulsos periféricos filiformes, abdomen con rigidez muscular involuntaria y signo de rebote (Blumberg) positivo en los 4 cuadrantes. El ultrasonido a la cabecera del paciente (FAST) revela líquido libre anecoico abundante en fondo de saco de Douglas y correderas parietocólicas (> 500 mL) con masa anexial desestructurada.",
+      "question_text": "De acuerdo con el algoritmo de choque hipovolémico por embarazo ectópico roto de la GPC IMSS-244-09, ¿cuál es la conducta quirúrgica mandatoria inmediata?",
+      "options": {
+        "A": "Realizar culdocentesis diagnóstica en sala de choque para confirmar sangre no coagulable antes de llamar al quirófano.",
+        "B": "Activar Código Mater, iniciar reanimación hemostática vigorosa y realizar laparoscopia urgente o laparotomía exploradora inmediata con salpingectomía.",
+        "C": "Administrar metotrexato 100 mg IV en infusión rápida y colocar balón de taponamiento pélvico vaginal.",
+        "D": "Administrar analgésicos opioides y solicitar resonancia magnética pélvica contrastada para localizar el vaso sangrante."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Ectopico_Roto_Choque_Manejo",
+      "gpc_algorithm_step": "Inestabilidad hemodinámica / hemoperitoneo significativo = Contraindicación absoluta de manejo médico. Indicación de cirugía inmediata (salpingectomía por laparoscopia o laparotomía según condición materna).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La culdocentesis o estudios de imagen avanzados en un paciente con choque franco y hemoperitoneo retrasan fatalmente la intervención hemostática. La paciente tiene un choque hemorrágico grado III/IV por ectópico roto que requiere quirófano inmediato."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta de elección en embarazo ectópico roto con inestabilidad hemodinámica según la GPC?",
+        "back": "Activación de Código Mater, reanimación hemostática inmediata y abordaje quirúrgico de urgencia (laparoscopia o laparotomía exploradora) con salpingectomía para hemostasia definitiva.",
+        "tags": "D12 GYO Ectopico-Roto Salpingectomia Choque GPC-IMSS-244-09"
+      }
+    },
+    {
+      "id": "d12_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Hemorragia de la Primera Mitad - Enfermedad Trofoblástica Gestacional y Neoplasia Persistente",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Primigesta de 22 años acude a urgencias por sangrado transvaginal intermitente rojo oscuro de 2 semanas de evolución con expulsión de material vesicular con aspecto en 'racimos de uva', acompañado de náuseas y vómitos intensos e intolerancia a la vía oral. A la exploración física: TA 145/95 mmHg, FC 98 lpm. Fondo uterino palpable a 18 cm (discordante con las 10 semanas de amenorrea calculada), consistencia blanda, sin partes fetales palpables ni foco fetal audible por Doppler. Ultrasonido pélvico: cavidad uterina distendida con ecotextura heterogénea difusa con múltiples ecos anecoicos puntiformes (patrón en 'tormenta de nieve' o 'panal de abejas'), ausencia total de embrión o saco amniótico, y presencia en ambos ovarios de quistes tecaluteínicos multiloculares bilaterales de 5 y 6 cm de diámetro. b-hCG sérica cuantitativa: 210,000 UI/L.",
+      "question_text": "De acuerdo con la GPC IMSS-387-09, ¿cuál es el diagnóstico más probable y cuál es la constitución citogenética característica más frecuente de esta entidad?",
+      "options": {
+        "A": "Mola hidatidiforme completa; cariotipo diploide 46,XX de origen 100% paterno (androgenético).",
+        "B": "Mola hidatidiforme parcial; cariotipo triploide 69,XXY secundario a diandria con embrión presente.",
+        "C": "Coriocarcinoma primario ovárico; cariotipo haploide 23,X de origen materno exclusivo.",
+        "D": "Mola invasora miometrial; cariotipo tetraploide 92,XXXX sin tejido trofoblástico proliferante."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Mola_Completa_Citogenetica",
+      "gpc_algorithm_step": "Diagnóstico de Mola Hidatidiforme Completa: útero mayor a amenorrea, b-hCG > 100,000, hiperémesis, preeclampsia temprana, quistes tecaluteínicos, patrón en tormenta de nieve sin tejido fetal; 46,XX paterno.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "La mola parcial presenta tejido fetal, b-hCG moderadamente elevada (< 100,000) y cariotipo triploide (69,XXX o 69,XXY). El cuadro florido con quistes tecaluteínicos, preeclampsia precoz y tormenta de nieve sin embrión es patognomónico de Mola Completa diploide 46,XX."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la citogenética y la clínica clásica de la Mola Hidatidiforme Completa según la GPC?",
+        "back": "Citogenética: 46,XX (90%) o 46,XY (10%), 100% de origen paterno (fertilización de óvulo enucleado).\nClínica: Fondo uterino > amenorrea, b-hCG > 100,000 UI/L, imagen en 'tormenta de nieve', quistes tecaluteínicos bilaterales, preeclampsia antes de semana 20.",
+        "tags": "D12 GYO Mola-Completa Citogenetica GPC-IMSS-387-09"
+      }
+    },
+    {
+      "id": "d12_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Hemorragia de la Primera Mitad - Enfermedad Trofoblástica Gestacional y Neoplasia Persistente",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la misma paciente con Mola Hidatidiforme Completa (fondo uterino a nivel umbilical, b-hCG 210,000 UI/L, quistes tecaluteínicos), se programa la evacuación uterina. El residente de ginecología propone iniciar una infusión continua de oxitocina a dosis altas antes del procedimiento para inducir contracciones que expulsen el tejido molar y luego realizar un legrado cortante enérgico.",
+      "question_text": "De acuerdo con las recomendaciones explícitas de la GPC IMSS-387-09, ¿cuál es el procedimiento de elección para la evacuación y cuál es la regla estricta sobre el uso de oxitocina?",
+      "options": {
+        "A": "Legrado Uterino Instrumental cortante vigoroso; la oxitocina debe iniciarse 4 horas antes para reducir el riesgo de hemorragia.",
+        "B": "Aspiración Manual Endouterina (AMEU) o por vacío; la infusión de oxitocina debe administrarse DURANTE o DESPUÉS de la evacuación, NUNCA antes, por riesgo de embolización trofoblástica pulmonar.",
+        "C": "Histerectomía obstétrica abdominal en bloque obligatoria independientemente de la edad o deseos de paridad futura.",
+        "D": "Inducción farmacológica con misoprostol 800 mcg cada 3 horas hasta la expulsión completa sin instrumentación mecánica."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Evacuacion_Mola_Oxitocina_Riesgo",
+      "gpc_algorithm_step": "Evacuación de mola: AMEU o aspiración eléctrica de elección. La oxitocina previa está contraindicada para evitar embolismo pulmonar trofoblástico; se infunde una vez iniciada la aspiración.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Administrar oxitocina antes de iniciar la aspiración de una cavidad distendida por mola puede causar contracciones miometriales que fuercen fragmentos trofoblásticos hacia los plexos venosos uterinos abiertos, desencadenando embolismo trofoblástico pulmonar agudo potencialmente mortal."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué la GPC IMSS-387-09 prohíbe administrar oxitocina antes de la evacuación por aspiración en una mola hidatidiforme?",
+        "back": "Porque las contracciones uterinas inducidas antes de descomprimir la cavidad pueden ocasionar embolismo trofoblástico hacia la vasculatura pulmonar y síndrome de insuficiencia respiratoria aguda materno.",
+        "tags": "D12 GYO Mola AMEU Oxitocina Embolismo GPC-IMSS-387-09"
+      }
+    },
+    {
+      "id": "d12_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Hemorragia de la Primera Mitad - Enfermedad Trofoblástica Gestacional y Neoplasia Persistente",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La evacuación de la mola se realizó satisfactoriamente mediante AMEU sin complicaciones transquirúrgicas. En la consulta de egreso se planifica el seguimiento estricto para monitorear la remisión o la progresión a Neoplasia Trofoblástica Gestacional (NTG). La paciente solicita un método anticonceptivo de alta eficacia y pide que le coloquen un Dispositivo Intrauterino con levonorgestrel (DIU-LNG).",
+      "question_text": "Con base en la GPC IMSS-387-09, ¿cuál es el protocolo de seguimiento bioquímico de b-hCG y la recomendación mandatoria respecto a la anticoncepción?",
+      "options": {
+        "A": "b-hCG semanal hasta 3 determinaciones negativas consecutivas, luego mensual por 6 meses; los anticonceptivos orales combinados son de elección y el DIU está estrictamente CONTRAINDICADO.",
+        "B": "b-hCG trimestral durante 2 años; se debe colocar el DIU inmediatamente para asegurar cero riesgo de nuevo embarazo.",
+        "C": "b-hCG diaria por 14 días y egreso definitivo si es negativa; permitiendo el embarazo inmediato al siguiente ciclo menstrual.",
+        "D": "b-hCG mensual por 3 meses; contraindicando todo método hormonal y recomendando únicamente método del ritmo o coito interrumpido."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Seguimiento_Mola_Anticoncepcion",
+      "gpc_algorithm_step": "Seguimiento postmolar: b-hCG semanal hasta negativización (3 semanas consecutivas) y luego mensual por 6 meses. Anticoncepción hormonal (ACOs) por al menos 6 a 12 meses; DIU contraindicado por riesgo de perforación y sangrado que confunde el seguimiento.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "El DIU es un excelente anticonceptivo de alta eficacia en la población general, pero en seguimiento posmolar está formalmente contraindicado por el riesgo de perforación en un miometrio adelgazado/reblandecido y porque el sangrado intermenstrual que puede provocar confunde el diagnóstico temprano de NTG."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el esquema de vigilancia de b-hCG y la regla de anticoncepción post-evacuación molar según la GPC?",
+        "back": "1) b-hCG sérica semanal hasta 3 valores negativos consecutivos.\n2) Luego b-hCG mensual durante 6 meses.\n3) Anticoncepción estricta con ACOs o implante por 6-12 meses.\n4) DIU CONTRAINDICADO formalmente (riesgo de perforación y sangrado distractor).",
+        "tags": "D12 GYO Mola bhCG Anticoncepcion DIU GPC-IMSS-387-09"
+      }
+    },
+    {
+      "id": "d12_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Hemorragia de la Primera Mitad - Enfermedad Trofoblástica Gestacional y Neoplasia Persistente",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A las 8 semanas posteriores a la evacuación por AMEU, durante su seguimiento ambulatorio, se revisa la curva de b-hCG sérica de la paciente: semana 5: 3,400 UI/L; semana 6: 3,550 UI/L; semana 7: 3,600 UI/L; semana 8: 3,580 UI/L (niveles en meseta durante 4 determinaciones consecutivas a lo largo de 3 semanas). La paciente refiere sangrado transvaginal irregular escaso. Se descarta un nuevo embarazo intrauterino mediante ultrasonido endovaginal.",
+      "question_text": "De acuerdo con los criterios diagnósticos internacionales de la FIGO y la GPC IMSS-387-09, ¿cuál es el diagnóstico integrado y la conducta de manejo indicada?",
+      "options": {
+        "A": "Embarazo anembrionario precoz no visible por USG; repetir cuantificación de b-hCG en 30 días.",
+        "B": "Neoplasia Trofoblástica Gestacional (NTG) / Enfermedad Trofoblástica Persistente; requiere estratificación pronóstica según escala FIGO/OMS y referencia a tercer nivel para inicio de quimioterapia.",
+        "C": "Remanente decidual inerte; programar segundo AMEU electivo y dar de alta a la paciente sin más estudios.",
+        "D": "Falso positivo por anticuerpos heterófilos (b-hCG fantasma); suspender el seguimiento oncológico."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Criterios_FIGO_NTG_Quimioterapia",
+      "gpc_algorithm_step": "Criterios de NTG postmolar: meseta de b-hCG en 4 determinaciones por 3 semanas, o incremento > 10% en 3 determinaciones por 2 semanas, o persistencia > 6 meses. Requiere estadificación y quimioterapia (MTX agente único en bajo riesgo).",
+      "distractor_trap": {
+        "trap_type": "Escalón Terapéutico Saltado",
+        "explanation": "Realizar legrados o AMEUs repetitivos ante una meseta persistente de b-hCG está contraindicado porque incrementa el riesgo de perforación uterina y no trata la invasión trofoblástica miometrial o micrometástasis. El tratamiento de la NTG es quimioterapia guiada por la escala FIGO/OMS."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los criterios de la FIGO/GPC para diagnosticar Neoplasia Trofoblástica Gestacional postmolar?",
+        "back": "1) Meseta de b-hCG en 4 mediciones durante 3 semanas.\n2) Aumento de b-hCG > 10% en 3 mediciones durante 2 semanas.\n3) Persistencia de b-hCG detectable > 6 meses post-evacuación.\n4) Diagnóstico histopatológico de coriocarcinoma.\nConducta: Estadificación FIGO/OMS y quimioterapia.",
+        "tags": "D12 GYO NTG FIGO Criterios Quimioterapia GPC-IMSS-387-09"
+      }
+    },
+    {
+      "id": "d12_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Hemorragia de la Segunda Mitad - Diagnóstico Diferencial y Resolución Obstétrica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Multigesta de 32 semanas de gestación acude al área de urgencias de toco-cirugía por sangrado transvaginal abundante que inició repentinamente mientras descansaba en su cama. Refiere que no presenta dolor alguno y no ha tenido contracciones. A la exploración física: TA 112/68 mmHg, FC 76 lpm, afebril. Abdomen blando, depresible, no doloroso a la palpación; tono uterino completamente normal (sin hipertonía). El trazo cardiotocográfico fetal muestra frecuencia cardíaca fetal basal de 144 lpm, con variabilidad moderada y reactividad presente sin desaceleraciones.",
+      "question_text": "Ante la sospecha diagnóstica cardinal según la GPC IMSS-436-19, ¿cuál es la maniobra exploratoria que está TERMINANTEMENTE CONTRAINDICADA y cuál es el estudio de imagen confirmatorio de elección?",
+      "options": {
+        "A": "Contraindicado el tacto vaginal digital sin visualización previa; el estudio de elección es el Ultrasonido Transvaginal.",
+        "B": "Contraindicada la colocación de espejo vaginal; el estudio de elección es la Pelvimetría por Rayos X.",
+        "C": "Contraindicado el monitoreo fetal electrónico continuo; el estudio de elección es la Tomografía Computarizada pélvica.",
+        "D": "Contraindicada la palpación abdominal de Leopold; el estudio de elección es la Amniocentesis descompresiva."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Placenta_Previa_Contraindicacion_USG",
+      "gpc_algorithm_step": "Sospecha de placenta previa (sangrado rojo rutilante, indoloro, útero relajado): proscrito el tacto vaginal digital por riesgo de inducir sangrado masivo exanguinante. El ultrasonido transvaginal es el estándar de oro seguro.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Muchos clínicos temen realizar el ultrasonido transvaginal asumiendo que la sonda toca la placenta; sin embargo, la GPC y la evidencia demuestran que el USG transvaginal es superior al transabdominal y totalmente seguro al introducir la sonda solo en el tercio distal de la vagina sin entrar al canal cervical."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué está contraindicado el tacto vaginal digital en sangrado de la segunda mitad y cuál es el USG de elección para placenta previa?",
+        "back": "Contraindicación: El tacto digital puede desgarrar los vasos placentarios sobre el orificio cervical y provocar hemorragia cataclísmica inmediata.\nEstudio de elección: Ultrasonido TRANSVAGINAL (alta sensibilidad y especificidad, superior al transabdominal y completamente seguro).",
+        "tags": "D12 GYO Placenta-Previa USG-Transvaginal Contraindicacion GPC-IMSS-436-19"
+      }
+    },
+    {
+      "id": "d12_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Hemorragia de la Segunda Mitad - Diagnóstico Diferencial y Resolución Obstétrica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la cama contigua se encuentra una mujer de 33 años, primigesta de 34.2 semanas con diagnóstico de Preeclampsia con datos de severidad no controlada. Presenta de forma brusca dolor abdominal intenso, terebrante y continuo en fondo uterino, acompañado de sangrado transvaginal rojo oscuro escaso. A la exploración física: TA 160/110 mmHg, FC 110 lpm, diaforética. A la palpación abdominal: útero intensamente doloroso, rígido, con hipertonía marcada y consistencia pétrea ('útero de madera / en tabla') que no se relaja entre contracciones. El registro cardiotocográfico muestra bradicardia fetal severa persistente de 90 lpm con desaceleraciones tardías profundas.",
+      "question_text": "De acuerdo con el cuadro clínico clásico y los algoritmos de la GPC IMSS-436-19, ¿cuál es el diagnóstico definitivo y la conducta obstétrica inmediata?",
+      "options": {
+        "A": "Placenta previa oclusiva total; iniciar tocolisis con indometacina y reposo absoluto.",
+        "B": "Desprendimiento Prematuro de Placenta Normoinserta (DPPNI) grave; estabilización materna e interrupción urgente del embarazo mediante Cesárea de emergencia.",
+        "C": "Rotura de vasa previa; realizar amniotomía artificial inmediata para acelerar el parto vaginal.",
+        "D": "Amenaza de parto pretérmino idiopática; administrar sulfato de magnesio y esperar 48 horas para completar maduración pulmonar con betametasona."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "DPPNI_Clinica_Cesarea_Urgencia",
+      "gpc_algorithm_step": "Diagnóstico clínico de DPPNI grave (hipertensión, dolor continuo intenso, hipertonía uterina en tabla, sangrado rojo oscuro y compromiso fetal). La cesárea urgente es mandatoria con feto viable.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Pretender diferir la resolución para completar esquema de esteroides o tocolisis en presencia de desprendimiento grave y sufrimiento fetal agudo ocasiona la muerte fetal intrauterina y coagulopatía de consumo materna irreversible."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la tétrada clásica del Desprendimiento Prematuro de Placenta Normoinserta (DPPNI)?",
+        "back": "1) Sangrado transvaginal rojo oscuro (puede ser escaso u oculto en 20%).\n2) Dolor abdominal súbito, constante y severo.\n3) Hipertonía uterina ('útero leñoso' o en tabla).\n4) Sufrimiento fetal agudo (bradicardia / desaceleraciones tardías).\nAsociación principal: Hipertensión / Preeclampsia.",
+        "tags": "D12 GYO DPPNI Clinica Hipertonia Cesarea GPC-IMSS-436-19"
+      }
+    },
+    {
+      "id": "d12_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Hemorragia de la Segunda Mitad - Diagnóstico Diferencial y Resolución Obstétrica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Durante la cesárea de urgencia de la paciente con DPPNI grave, tras la extracción de un recién nacido deprimido que pasa a reanimación neonatal y el alumbramiento de un coágulo retroplacentario de 800 mL, el cirujano exterioriza el útero. Se observa una superficie serosa miometrial con intensa coloración azulada, equimótica y moteada en parche violáceo, debida a extravasación e infiltración difusa de sangre hacia el miometrio y debajo del peritoneo uterino. Tras administrar oxitocina en infusión y realizar masaje bimanual, el útero adquiere un tono firme y el sangrado transvaginal se reduce a niveles normales.",
+      "question_text": "De acuerdo con la GPC IMSS-436-19, ¿cómo se denomina este hallazgo morfológico patognomónico y cuál es la conducta quirúrgica normada?",
+      "options": {
+        "A": "Útero de Couvelaire (apoplejía uteroplacentaria); mantener conducta conservadora con uterotónicos y vigilancia, evitando la histerectomía si el útero se contrae adecuadamente.",
+        "B": "Acretismo placentario focal inadvertido; realizar histerectomía total abdominal inmediata obligatoria.",
+        "C": "Rotura uterina encubierta; realizar histerorrafia fúndica con técnica de B-Lynch profiláctica obligatoria.",
+        "D": "Infección puerperal fulminante por Clostridium; realizar histerectomía en bloque con ooforectomía bilateral urgente."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Utero_de_Couvelaire_Conducta",
+      "gpc_algorithm_step": "Útero de Couvelaire secundario a DPPNI: la infiltración hemática del miometrio por sí sola NO es indicación de histerectomía; si el miometrio responde a uterotónicos y logra hemostasia, se preserva el útero.",
+      "distractor_trap": {
+        "trap_type": "Escalón Terapéutico Saltado",
+        "explanation": "El aspecto alarmante y necrótico-aparente del útero de Couvelaire tienta a cirujanos inexpertos a realizar histerectomías innecesarias; la GPC establece con firmeza que si hay respuesta contráctil a uterotónicos y cese del sangrado, la conducta debe ser conservadora."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué es el Útero de Couvelaire y cuál es la conducta quirúrgica si responde a uterotónicos?",
+        "back": "Es la extravasación de sangre en el miometrio y bajo la serosa uterina secundaria a DPPNI grave (apoplejía uteroplacentaria).\nConducta: CONSERVADORA. NO amerita histerectomía de rutina si el útero responde al masaje y uterotónicos logrando hemostasia.",
+        "tags": "D12 GYO Utero-Couvelaire DPPNI Conducta GPC-IMSS-436-19"
+      }
+    },
+    {
+      "id": "d12_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Hemorragia de la Segunda Mitad - Diagnóstico Diferencial y Resolución Obstétrica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Mujer de 31 años, G2C1 (cesárea previa corporal realizada hace 16 meses), ingresa en trabajo de parto espontáneo en fase activa en una clínica comunitaria donde se le administró infusión de oxitocina sin monitorización adecuada. Al alcanzar 8 cm de dilatación refiere súbitamente un dolor lacerante 'como si algo se hubiera desgarrado por dentro', seguido inmediatamente de una desaparición súbita y completa del dolor de las contracciones. A la exploración física inmediata: TA 70/40 mmHg, FC 136 lpm, diaforética y pálida. A la palpación abdominal: contorno uterino deformado, partes fetales que se palpan con extrema facilidad justo debajo de la pared abdominal y pérdida del plano de presentación fetal (la cabeza fetal retrocedió de estación +1 a libre por arriba del estrecho superior). Foco cardíaco fetal indetectable.",
+      "question_text": "Con base en la GPC IMSS-436-19, ¿cuál es el diagnóstico sindromático y la conducta quirúrgica mandatoria de rescate?",
+      "options": {
+        "A": "Rotura uterina completa consumada; reanimación hemodinámica inmediata y Laparotomía Exploradora urgente para extracción fetal y hemostasia (histerorrafia o histerectomía).",
+        "B": "Inversión uterina aguda puerperal; realizar maniobra de reposición de Johnson bajo analgesia profunda.",
+        "C": "Embolia de líquido amniótico; intubación orotraqueal inmediata y colocación de balón de Bakri intrauterino.",
+        "D": "Atonía uterina hiperaguda intraparto; aumentar la infusión de oxitocina a 60 mUI/min y aplicar maniobra de Kristeller."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Rotura_Uterina_Clinica_Laparotomia",
+      "gpc_algorithm_step": "Diagnóstico de rotura uterina: dolor desgarrador seguido de cese de contracciones, choque materno, palpación fácil de partes fetales y retroceso de la presentación fetal. Manejo: laparotomía exploradora urgente.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "El antecedente de cicatriz uterina previa aunado al cese súbito de contracciones con partes fetales extrapélvicas superficiales es la tríada patognomónica de rotura uterina; cualquier intento de parto vaginal o instrumentación agravaría el desenlace fatal materno-fetal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los signos cardinales de Rotura Uterina consumada durante el trabajo de parto?",
+        "back": "1) Dolor agudo punzante seguido de cese brusco del trabajo de parto y contracciones.\n2) Hemorragia transvaginal y choque hipovolémico materno.\n3) Retroceso de la presentación fetal (la cabeza sube).\n4) Palpación directa de partes fetales fuera de la cavidad uterina.\n5) Sufrimiento fetal grave o muerte fetal.",
+        "tags": "D12 GYO Rotura-Uterina Laparotomia GPC-IMSS-436-19"
+      }
+    },
+    {
+      "id": "d12_sim_q17",
+      "index": 17,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Paciente de 34 años, G4P1C2 con dos cesáreas previas iterativas, acude a control prenatal a las 32 semanas. El ultrasonido obstétrico de segundo trimestre reportó placenta previa oclusiva total anterior. El ultrasonido Doppler color transvaginal de control de tercer trimestre demuestra pérdida completa de la zona retroplacentaria hipoecoica miometrial, adelgazamiento de la pared vesical anterior (< 1 mm), presencia de múltiples lagunas vasculares intrapalcentarias tortuosas con flujo turbulento de alta velocidad y vasos puente cruzando hacia la serosa uterina y la pared vesical. La paciente se encuentra asintomática.",
+      "question_text": "De acuerdo con la GPC IMSS-436-19 (Hemorragias de la Segunda Mitad y Acretismo Placentario), ¿cuál es el diagnóstico más probable del espectro de acretismo placentario (PAS) y cuál es la estrategia quirúrgica estandarizada de elección?",
+      "options": {
+        "A": "Placenta increta; programar cesárea a las 39 semanas e intentar despegamiento manual vigoroso de la placenta post-alumbramiento.",
+        "B": "Placenta percreta; programación multidisciplinaria de Cesárea-Histerectomía total electiva a las 34.0 a 35.6 semanas en tercer nivel, con incisión corporal/fúndica SIN intentar remover la placenta antes de la histerectomía.",
+        "C": "Placenta acreta simple; inducción de parto vaginal asistido con fórceps a las 36 semanas bajo bloqueo peridural.",
+        "D": "Hematoma retroplacentario organizado; manejo conservador ambulatorio y reposo absoluto hasta el inicio espontáneo del trabajo de parto."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Acretismo_Placenta_Percreta_Manejo",
+      "gpc_algorithm_step": "Espectro de placenta percreta (invasión de serosa y vejiga). Manejo institucional: resolución electiva a las 34-35.6 SDG en 3er nivel con cesárea corporal e histerectomía total con placenta in situ sin manipular el lecho.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Intentar desprender la placenta manualmente en un acretismo/percretismo desencadena una hemorragia masiva catastrófica exanguinante con pérdidas de > 3 a 5 litros en minutos. La regla de oro es realizar histerectomía en bloque con la placenta in situ sin tocar el lecho de inserción."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta quirúrgica de elección ante el espectro de placenta percreta/accreta según la GPC?",
+        "back": "Cesárea programada electiva entre las 34.0 y 35.6 semanas en tercer nivel con equipo multidisciplinario.\nProcedimiento: Cesárea con incisión fúndica/corporal para evitar el tejido placentario, seguida de Histerectomía obstétrica con la placenta *in situ* (NUNCA intentar desprendimiento manual).",
+        "tags": "D12 GYO Acretismo Percreta Histerectomia GPC-IMSS-436-19"
+      }
+    },
+    {
+      "id": "d12_sim_q18",
+      "index": 18,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Primigesta de 38 semanas de gestación ingresa en trabajo de parto activo. A los 6 cm de dilatación cervical y presentación cefálica abocada, el médico realiza amniotomía artificial con gancho de Kelly. Inmediatamente a la rotura de membranas, brota líquido amniótico profusamente teñido de sangre rojo rutilante fresco (volumen estimado de 80 mL). Simultáneamente, el monitor cardiotocográfico muestra bradicardia fetal extrema súbita de 60-70 lpm con patrón sinusoidal agonizante. Los signos vitales de la madre se mantienen normales y estables: TA 118/74 mmHg, FC 74 lpm, SpO2 98%. El tono uterino se mantiene normal y no hay dolor patológico.",
+      "question_text": "De acuerdo con la GPC IMSS-436-19, ¿cuál es el diagnóstico más probable, la prueba rápida confirmatoria y la conducta obstétrica inmediata?",
+      "options": {
+        "A": "Rotura de vasa previa; el sangrado es de origen fetal (prueba de Apt o prueba de Ogita positiva para Hb fetal); requiere Cesárea emergente inmediata.",
+        "B": "DPPNI fulminante; el sangrado es de origen materno (prueba de Kleihauer-Betke); requiere parto vaginal asistido con vacuo-extracción.",
+        "C": "Desgarro de várices cervicales; realizar compresión manual y continuar trabajo de parto vaginal.",
+        "D": "Placenta previa marginal desprendida; administrar sulfato de magnesio intravenoso y esperar 2 horas."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Rotura_Vasa_Previa_Prueba_Apt",
+      "gpc_algorithm_step": "Rotura de vasa previa: sangrado tras amniorrexis con colapso fetal rápido y madre hemodinámicamente sana (sangre 100% fetal). Prueba de Apt (álcali-resistencia) confirma Hb fetal. Cesárea emergente inmediata.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "El médico suele asumir que el sangrado es materno y se confía por la estabilidad hemodinámica de la madre; sin embargo, con una volemia fetal de apenas 250-300 mL, una pérdida de 80-100 mL representa una exanguinación fetal masiva que culmina en muerte en cuestión de minutos si no se opera de inmediato."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la tríada de Rotura de Vasa Previa y qué prueba rápida detecta hemoglobina fetal?",
+        "back": "Tríada: Amniorrexis artificial o espontánea + sangrado transvaginal rojo rutilante + sufrimiento fetal hiperagudo/bradicardia severa con madre estable.\nPrueba rápida: Prueba de Apt (resistencia alcalina con NaOH; la hemoglobina fetal HbF permanece rosada, la del adulto se vuelve café-amarillenta).\nConducta: Cesárea emergente de inmediato.",
+        "tags": "D12 GYO Vasa-Previa Apt-Test Cesarea-Urgencia GPC-IMSS-436-19"
+      }
+    },
+    {
+      "id": "d12_sim_q19",
+      "index": 19,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En una sala de expulsión, tras la salida de un recién nacido a término de 3,900 g, un residente realiza tracción enérgica y continuada del cordón umbilical junto con compresión fúndica simultánea (maniobra de Kristeller) antes de verificar los signos de desprendimiento placentario. Súbitamente, la paciente presenta palidez extrema, diaforesis, hipotensión severa (TA 60/40 mmHg) y bradicardia de 50 lpm (choque neurogénico-hipovolémico). A la inspección perineal, se visualiza en el introito vaginal una masa carnosa, globosa, rojo-violácea con la placenta todavía fuertemente adherida a su superficie.",
+      "question_text": "De acuerdo con la GPC IMSS-162-09 y manuales rectores de urgencias obstétricas, ¿cuál es el diagnóstico y cuál es la regla estricta sobre la secuencia de reposición uterina y la extracción placentaria?",
+      "options": {
+        "A": "Inversión uterina aguda puerperal; se debe realizar la reposición manual inmediata del fondo uterino (maniobra de Johnson) CON la placenta in situ ANTES de administrar uterotónicos y ANTES de despegar la placenta.",
+        "B": "Inversión uterina aguda puerperal; se debe traccionar y desprender enérgicamente la placenta antes de intentar cualquier intento de reducción uterina.",
+        "C": "Prolapso de mioma uterino pediculado puerperal; pinzar la base del pedículo y administrar ergometrina intravenosa.",
+        "D": "Rotura del ligamento ancho; empaquetar la vagina con gasas hemostáticas y trasladar a quirófano sin manipular la masa."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Inversion_Uterina_Maniobra_Johnson",
+      "gpc_algorithm_step": "Inversión uterina aguda: reponer el fondo uterino inmediatamente (Maniobra de Johnson) ANTES de despegar la placenta (despegarla antes causa sangrado torrencial exanguinante) y ANTES de uterotónicos (el anillo de contracción cervical impediría la reducción).",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Desprender la placenta antes de recolocar el útero o administrar uterotónicos antes de la reducción son errores críticos. La administración de uterotónicos antes de reponer el útero contrae el anillo cervical e impide mecánicamente revertir la inversión, requiriendo laparotomía (técnica de Huntington o Haultain)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la regla de oro en el manejo de la Inversión Uterina Aguda (Maniobra de Johnson)?",
+        "back": "Reponer manualmente el útero en su sitio anatómico ANTES de intentar despegar la placenta y ANTES de administrar uterotónicos.\n(Desprender la placenta antes causa hemorragia incontrolable; los uterotónicos antes cerrarían el anillo cervical impidiendo la reducción).",
+        "tags": "D12 GYO Inversion-Uterina Johnson Uterotonicos GPC-IMSS-162-09"
+      }
+    },
+    {
+      "id": "d12_sim_q20",
+      "index": 20,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Puérpera de 22 años, primípara, cursó con parto vaginal instrumentado con fórceps de Simpson y episiotomía mediolateral derecha hace 3 horas por expulsivo prolongado de feto macrosómico (4,150 g). La paciente refiere dolor perineal y rectal lancinante de intensidad 10/10, tenesmo rectal agudo, sensación de pesantez pélvica intensa e incapacidad para mantenerse sentada, no aliviado con ketorolaco IV. A la exploración física: TA 90/60 mmHg, FC 110 lpm. A la palpación abdominal el útero se encuentra firmemente contraído a nivel umbilical y los loquios transvaginales son normales y escasos. A la inspección perineal se observa tumefacción equimótica violácea tensa y fluctuante de 8 cm en fosa isquiorrectal y pared vaginal lateral derecha que abomba hacia la luz vaginal y deprime el recto.",
+      "question_text": "De acuerdo con el algoritmo de complicaciones hemorrágicas puerperales de la GPC IMSS-162-09 (4T: Trauma del canal de parto), ¿cuál es el diagnóstico y la conducta de elección?",
+      "options": {
+        "A": "Espasmo esfinteriano post-episiotomía simple; administración de analgésicos opioides intramusculares y aplicación de hielo local de manera ambulatoria.",
+        "B": "Hematoma puerperal vulvovaginal / isquiorrectal expansivo (> 5 cm); requiere exploración quirúrgica bajo anestesia, incisión, drenaje del coágulo, ligadura de vasos sangrantes y cierre con eventual empaquetamiento.",
+        "C": "Atonía uterina oculta; iniciar infusión de oxitocina a dosis altas y colocar balón de Bakri intrauterino.",
+        "D": "Infección de herida quirúrgica por anaerobios; iniciar clindamicina oral y desbridar en 48 horas."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Hematoma_Puerperal_Manejo_Quirurgico",
+      "gpc_algorithm_step": "Hematomas puerperales > 5 cm o en rápida expansión con compromiso hemodinámico o dolor intratable: exploración quirúrgica obligatoria en quirófano para evacuación y hemostasia de vasos lacerados.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Atribuir el dolor perineal severo e hipotensión a una molestia normal de la episiotomía o espasmo muscular retrasa el tratamiento de un hematoma retroperitoneal o de fosa isquiorrectal que puede secuestrar más de 1 litro de sangre sin exteriorización hemática vaginal evidente."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la clínica y conducta ante un Hematoma Puerperal expansivo (> 5 cm) según la GPC?",
+        "back": "Clínica: Dolor rectal/perineal severo desproporcionado, tenesmo, masa tensa fluctuante equimótica, útero bien contraído y choque hipovolémico.\nConducta: Exploración quirúrgica formal en quirófano, apertura, evacuación de coágulos, hemostasia de vasos lacerados y empaquetamiento compresivo.",
+        "tags": "D12 GYO Hematoma-Puerperal Trauma-Canal 4T GPC-IMSS-162-09"
+      }
+    },
+    {
+      "id": "d12_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Paciente de 29 años cursando hemorragia posparto masiva (pérdida estimada acumulada de 2,300 mL) secundaria a desprendimiento prematuro de placenta normoinserta con choque hipovolémico severo (Código Mater activado). Se han transfundido 4 concentrados eritrocitarios y 4 plasmas frescos congelados con cristaloides tibios. El útero se encuentra actualmente contraído tras compresión con balón intrauterino, pero la paciente continúa con sangrado transvaginal en capa no coagulable por orificios de punción y canal vaginal. Los exámenes de laboratorio de control urgente reportan: Hb 8.1 g/dL, Plaquetas 52,000/mm³, TP 22 segundos, TTPa 58 segundos, INR 2.1, y Fibrinógeno sérico en 110 mg/dL (valor basal < 200 mg/dL).",
+      "question_text": "De acuerdo con la GPC IMSS-162-09 y los protocolos de reanimación hemostática y Código Mater en México (4T: Trombina / Coagulopatía), ¿cuál es el componente hemoterapéutico específico de elección para corregir el fibrinógeno y el antifibrinolítico mandatorio a administrar?",
+      "options": {
+        "A": "Concentrado de fibrinógeno o Crioprecipitados (1 unidad por cada 10 kg de peso para meta > 200 mg/dL) más Ácido Tranexámico 1 g IV en infusión rápida (repetible a los 30 min).",
+        "B": "Infusión exclusiva de albúmina humana al 20% y heparina de bajo peso molecular profiláctica.",
+        "C": "Transfusión de concentrado plaquetario aislado únicamente y suspensión de cualquier antifibrinolítico por riesgo trombótico.",
+        "D": "Administración de sulfato de protamina y plasmaféresis terapéutica urgente."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Coagulopatia_Crioprecipitados_Acido_Tranexamico",
+      "gpc_algorithm_step": "En hemorragia obstétrica, el fibrinógeno < 200 mg/dL predice hemorragia severa incoercible. Indicación: Crioprecipitados (o concentrado de fibrinógeno) + Ácido Tranexámico (1 g IV en los primeros 180 min según estudio WOMAN/GPC).",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Centrarse únicamente en el número de plaquetas (52,000) o tiempos de coagulación olvidando el fibrinógeno sérico (110 mg/dL) es el error letal más común. El fibrinógeno es el factor que cae primero y más drásticamente en coagulopatía obstétrica; reponerlo con crioprecipitados a meta > 200 mg/dL junto con ácido tranexámico es el pivote de supervivencia."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el valor crítico de Fibrinógeno en hemorragia obstétrica y cómo se restituye según la GPC/Código Mater?",
+        "back": "Valor crítico: Fibrinógeno < 200 mg/dL.\nRestitución: Crioprecipitados (1 unidad por cada 10 kg de peso) o concentrado de fibrinógeno.\nAntifibrinolítico mandatorio: Ácido Tranexámico 1 g IV en los primeros 10 minutos (repetir 1 g a los 30 min si persiste sangrado).",
+        "tags": "D12 GYO Fibrinogeno Crioprecipitados Acido-Tranexamico Codigo-Mater GPC-IMSS-162-09"
+      }
+    },
+    {
+      "id": "d12_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Postpartum Hemorrhage - Uterine Atony and Stepped Interventions",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A 28-year-old G3P3 woman delivers a macrosomic infant weighing 4,250 g after a prolonged second stage of labor (3.5 hours) assisted with spontaneous vaginal delivery. Active management of the third stage of labor was performed with 10 IU of prophylactic intramuscular oxytocin upon delivery of the anterior shoulder. Fifteen minutes following complete delivery of the placenta and fetal membranes, continuous copious bright red transvaginal bleeding is observed. Physical examination reveals: blood pressure 85/50 mmHg, heart rate 118 bpm, respiratory rate 22 bpm, oxygen saturation 96%. On abdominal examination, the uterine fundus is palpated 5 cm above the umbilicus, with a markedly soft, boggy, poorly contracted consistency ('flaccid uterus'). Vigorous transabdominal manual expression expels approximately 650 mL of fresh blood and dark clots, with ongoing brisk hemorrhage. Speculum examination confirms an intact cervix and vaginal walls without lacerations.",
+      "question_text": "According to the '4 Ts' etiologic classification and the Mexican Clinical Practice Guideline (GPC IMSS-162-09), what is the most likely etiology and what is the mandatory immediate first-line clinical and pharmacologic resuscitation intervention?",
+      "options": {
+        "A": "Uterine atony (Tone); initiate continuous vigorous bimanual uterine compression and an intravenous infusion of Oxytocin (20 to 40 IU in 1,000 mL crystalloid solution titrated at 125-250 mL/h).",
+        "B": "Retained succenturiate placental lobe (Tissue); perform immediate curettage with a sharp metal curette without administering uterotonics.",
+        "C": "Uterine atony (Tone); administer an immediate rapid undiluted intravenous bolus of 10 IU Oxytocin pushed over 2 seconds.",
+        "D": "Genital tract laceration (Trauma); transfer the patient immediately to the operating room for exploratory laparotomy without bimanual massage."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Uterine_Atony_First_Line_Oxytocin",
+      "gpc_algorithm_step": "First-line management of uterine atony: continuous bimanual uterine massage + Oxytocin infusion (20-40 IU in 1000 mL crystalloid). Rapid IV bolus of undiluted oxytocin is strictly prohibited due to severe hypotension and arrhythmia.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Pushing an undiluted intravenous bolus of oxytocin is a dangerous pitfall: it causes sudden massive peripheral vasodilation, precipitous cardiovascular collapse, severe hypotension, and maternal cardiac arrest. The Mexican GPC strictly mandates slow titrated intravenous infusion."
+      },
+      "anki_flashcard": {
+        "front": "What is the first-line pharmacologic treatment for Uterine Atony and how should Oxytocin be administered according to Mexican GPC?",
+        "back": "1) Bimanual uterine compression.\n2) Oxytocin infusion: 20 to 40 IU in 1,000 mL of crystalloid solution (saline or Hartmann) at 125-250 mL/h.\nNEVER give rapid undiluted IV bolus (causes severe hypotension, coronary ischemia, and cardiac arrest).",
+        "tags": "D12 GYO PPH Uterine-Atony Oxytocin GPC-IMSS-162-09"
+      }
+    },
+    {
+      "id": "d12_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Postpartum Hemorrhage - Uterine Atony and Stepped Interventions",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "In the same 28-year-old patient with persistent uterine atony, brisk bleeding continues despite continuous bimanual compression and oxytocin infusion. Cumulative blood loss is now estimated at 1,150 mL (BP 82/48 mmHg, HR 124 bpm). Past medical history reveals chronic essential hypertension diagnosed 3 years ago and preeclampsia with severe features diagnosed during the 36th gestational week, currently presenting with borderline elevated systolic pressures at baseline. The obstetric team prepares to escalate to second-line uterotonic pharmacotherapy.",
+      "question_text": "In accordance with Mexican GPC IMSS-162-09, which second-line uterotonic agent is STRICTLY CONTRAINDICATED in this hypertensive patient, and which alternative second-line uterotonic should be administered?",
+      "options": {
+        "A": "Methylergonovine / Ergometrine is strictly contraindicated (risk of severe vasoconstriction, hypertensive crisis, and stroke); administer Misoprostol (800 mcg sublingually or rectally) or single-dose Carbetocin (100 mcg IV over 1 minute).",
+        "B": "Misoprostol is strictly contraindicated due to bronchial spasm; administer Methylergonovine 0.2 mg IV direct push.",
+        "C": "Carbetocin is strictly contraindicated; administer oral Ergotamine combined with high-dose magnesium sulfate.",
+        "D": "All uterotonics are contraindicated in hypertension; administer intravenous Furosemide immediately."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Ergonovine_Contraindication_Hypertension",
+      "gpc_algorithm_step": "Escalation in uterine atony: Ergot alkaloids (Methylergonovine) are strictly contraindicated in hypertensive disorders (preeclampsia/chronic hypertension). Choice: Misoprostol (800 mcg rectal/SL) or Carbetocin.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Methylergonovine is a potent second-line uterotonic for uterine atony, but giving it to a woman with preeclampsia or pre-existing hypertension is a classic ENARM high-yield lethal error because it causes severe generalized alpha-adrenergic vasoconstriction, precipitating acute pulmonary edema, intracerebral hemorrhage, and death."
+      },
+      "anki_flashcard": {
+        "front": "Which uterotonic drug is strictly contraindicated in patients with hypertension or preeclampsia during postpartum hemorrhage?",
+        "back": "Methylergonovine (Ergonovine/Methergine): Induces intense peripheral vasoconstriction -> risk of hypertensive crisis, stroke, and myocardial ischemia.\nAlternative 2nd line: Misoprostol (800 mcg SL/rectal) or Carbetocin (100 mcg IV).",
+        "tags": "D12 GYO PPH Ergonovine Contraindication Hypertension GPC-IMSS-162-09"
+      }
+    },
+    {
+      "id": "d12_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Postpartum Hemorrhage - Uterine Atony and Stepped Interventions",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Despite full pharmacological management (titrated oxytocin, sublingual misoprostol 800 mcg, and single-dose carbetocin 100 mcg), the uterus remains atonic and boggy. Cumulative blood loss reaches 1,550 mL. The emergency 'Código Mater' team is activated. The patient is 28 years old, hemodynamically stabilized temporarily with warmed crystalloids and 2 units of packed red blood cells (BP 90/60 mmHg, HR 105 bpm), and explicitly wishes to preserve future childbearing capability. Pelvic examination confirms absence of retained placental fragments or genital tract tears.",
+      "question_text": "According to the sequential management algorithms of Mexican GPC IMSS-162-09, what is the next conservative mechanical intervention that must be executed prior to surgical laparotomy?",
+      "options": {
+        "A": "Immediate emergency peripartum total hysterectomy.",
+        "B": "Placement of an Intrauterine Tamponade Balloon (Bakri balloon or hydrostatic Foley catheter inflated with 300 to 500 mL of warm sterile saline solution) to conduct a 'tamponade test'.",
+        "C": "Blind vigorous digital exploration of the uterine cavity every 10 minutes without intrauterine packing.",
+        "D": "Pelvic radiation therapy to induce ovarian suppression and decrease pelvic blood flow."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Bakri_Balloon_Tamponade_Test",
+      "gpc_algorithm_step": "Failure of medical therapy in uterine atony: Intrauterine balloon tamponade (Bakri balloon filled with 300-500 mL) as conservative mechanical bridge. If tamponade test is positive (bleeding ceases), maintain for 12-24 h; if negative, proceed to surgery.",
+      "distractor_trap": {
+        "trap_type": "Escalón Terapéutico Saltado",
+        "explanation": "Jumping straight to an irreversible mutilating emergency hysterectomy in a young stable patient who wants to preserve fertility before attempting an intrauterine hydrostatic tamponade violates Mexican and international stepped algorithms. The Bakri balloon has an 85-90% success rate in arresting refractory atony."
+      },
+      "anki_flashcard": {
+        "front": "What is the recommended conservative mechanical intervention for postpartum hemorrhage refractory to medical therapy according to the GPC?",
+        "back": "Intrauterine Tamponade Balloon (Bakri balloon) inflated with 300 to 500 mL of sterile warm saline.\n'Tamponade test': If bleeding stops through drainage port and cervix within 15 min -> positive test (leave for 12-24 hours). If bleeding persists -> negative test (proceed to laparotomy).",
+        "tags": "D12 GYO Bakri-Balloon PPH Tamponade GPC-IMSS-162-09"
+      }
+    },
+    {
+      "id": "d12_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Postpartum Hemorrhage - Uterine Atony and Stepped Interventions",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The Bakri balloon is placed and inflated with 400 mL of saline; however, active brisk bleeding pours around the balloon and through the cervical os (negative tamponade test) with an additional 450 mL lost in 10 minutes (total blood loss exceeding 2,000 mL). The patient develops progressive metabolic lactic acidosis and persistent hypotension requiring vasopressor support. The multidisciplinary surgical team transfers the patient to the operating room for emergency exploratory laparotomy. The patient's partner reiterates their deep desire to preserve fertility if safely feasible.",
+      "question_text": "According to Mexican GPC IMSS-162-09 and Código Mater surgical guidelines, which conservative compressive uterine suture technique and surgical devascularization procedure represent the primary stepwise conservative surgical options before deciding on an emergency hysterectomy?",
+      "options": {
+        "A": "B-Lynch compressive uterine brace suture combined with bilateral uterine artery ligation (O'Leary technique).",
+        "B": "Bilateral oophorectomy combined with round ligament transection.",
+        "C": "Immediate ligation of the inferior vena cava and abdominal aorta.",
+        "D": "Exclusive insertion of pelvic drains without compressive sutures or vessel ligation."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Surgical_Compression_BLynch_OLeary",
+      "gpc_algorithm_step": "Refractory PPH at laparotomy: Stepped fertility-preserving surgical interventions include compressive sutures (B-Lynch technique) and step-by-step devascularization (bilateral uterine artery ligation - O'Leary, followed by hypogastric artery ligation). Hysterectomy is the last resort.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Performing immediate bilateral internal iliac (hypogastric) artery ligation without first performing a B-Lynch suture and uterine artery ligation (O'Leary) is technically complex, time-consuming, has higher retroperitoneal complication rates, and has lower success rates than the combination of B-Lynch and O'Leary techniques endorsed by Mexican GPC."
+      },
+      "anki_flashcard": {
+        "front": "What are the first-line conservative surgical interventions for refractory postpartum hemorrhage during laparotomy according to the GPC?",
+        "back": "1) Compressive uterine brace sutures: B-Lynch technique (or Hayman/Pereira).\n2) Stepwise devascularization: Bilateral uterine artery ligation (O'Leary technique), followed by hypogastric (internal iliac) artery ligation if necessary.\nEmergency obstetric hysterectomy is reserved as the ultimate life-saving measure.",
+        "tags": "D12 GYO B-Lynch OLeary Devascularization PPH GPC-IMSS-162-09"
+      }
+    }
+  ]
+}

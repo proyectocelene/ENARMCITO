@@ -1,0 +1,392 @@
+{
+  "topic_code": "D03",
+  "title": "Pre-Test Psicométrico: IAMCEST / Síndromes Coronarios Agudos",
+  "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+  "duration_minutes": 20,
+  "questions": [
+    {
+      "id": "d03_q1",
+      "index": 1,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 58 años, hipertenso de 12 años de diagnóstico y tabaquista con índice tabáquico de 25 paquetes-año, que acude por sus propios medios al servicio de urgencias de un Hospital General de Zona (HGZ de segundo nivel) refiriendo dolor precordial opresivo retroesternal de 45 minutos de evolución, con intensidad 9/10, irradiado al hombro y brazo izquierdo, acompañado de diaforesis profusa, náuseas y sensación de muerte inminente. Signos vitales al ingreso: TA 145/92 mmHg, FC 96 lpm, FR 20 rpm, Temp 36.6 °C, SpO2 95% al aire ambiente. A la auscultación cardíaca ruidos rítmicos sin soplos ni galope, campos pulmonares con adecuado murmullo vesicular bilateral sin estertores. La enfermera de triage solicita indicación sobre el abordaje inmediato en el módulo de choque.",
+      "question_text": "¿Cuál es la acción y estudio diagnóstico inicial prioritario que debe realizarse según la GPC IMSS-357-21?",
+      "options": {
+        "A": "Toma inmediata de biomarcadores cardíacos séricos (troponina I ultrasensible y CK-MB) antes de definir la conducta de reperfusión",
+        "B": "Realización de radiografía de tórax portátil para descartar ensanchamiento mediastínico antes de cualquier maniobra invasiva",
+        "C": "Toma de electrocardiograma de 12 derivaciones e interpretación médica en un tiempo menor o igual a 10 minutos desde el primer contacto",
+        "D": "Solicitar ecocardiograma transtorácico en urgencias para evaluar movilidad segmentaria parietal y fracción de eyección"
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "Dolor torácico isquémico agudo típico en triage que exige obtención e interpretación de ECG de 12 derivaciones en ≤ 10 minutos para activar Código Infarto sin esperar biomarcadores.",
+      "justificacion_gpc": "La GPC IMSS-357-21 (Código Infarto) establece con grado de recomendación fuerte que ante todo paciente con sospecha clínica de síndrome coronario agudo, se debe realizar e interpretar un electrocardiograma de 12 derivaciones en un tiempo ≤ 10 minutos desde el primer contacto médico (PCM). Si el ECG muestra elevación del segmento ST, se activa inmediatamente el protocolo de reperfusión miocárdica sin demoras.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Espectro",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón / Retraso Crítico]: En el IAMCEST, los biomarcadores cardíacos (troponinas) son confirmatorios pero su resultado JAMÁS debe esperarse para tomar decisiones de reperfusión; esperar el laboratorio retrasa fatalmente el tiempo puerta-aguja o puerta-balón.",
+        "B": "[Distractor de Espectro]: La radiografía de tórax se reserva para descartar disección aórtica si hay signos orientadores (dolor transfictivo dorsal, asimetría de pulsos > 20 mmHg), pero nunca debe anteponerse ni demorar la toma del ECG en un cuadro coronario agudo.",
+        "D": "[Distractor de Escalón Avanzado]: El ecocardiograma no forma parte del abordaje inicial urgente para definir la reperfusión en IAMCEST típico cuando el ECG ya evidencia elevación diagnóstica del segmento ST."
+      }
+    },
+    {
+      "id": "d03_q2",
+      "index": 2,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "El electrocardiograma de 12 derivaciones del paciente del caso anterior confirma elevación del segmento ST de 3.5 mm en derivaciones V1 a V4 con ondas T acuminadas hiperagudas, cumpliendo criterios de IAMCEST anteroseptal. El Hospital General de Zona donde se encuentra el paciente NO cuenta con sala de hemodinamia ni servicio de hemodinamia disponible las 24 horas. El centro hospitalario de tercer nivel más cercano con capacidad de Intervención Coronaria Percutánea (ICP) se localiza a 95 km de distancia, con un tiempo estimado de traslado en ambulancia de 140 minutos. El paciente no presenta antecedentes de sangrado ni contraindicaciones aparentes.",
+      "question_text": "De acuerdo con el algoritmo de reperfusión del Código Infarto IMSS (GPC IMSS-357-21), ¿cuál es la conducta de reperfusión de primera línea indicada?",
+      "options": {
+        "A": "Iniciar fibrinólisis farmacológica intravenosa inmediata (tiempo meta puerta-aguja ≤ 30 minutos) con fibrinoespecífico",
+        "B": "Coordinar traslado inmediato al tercer nivel para ICP primaria urgente sin administrar ningún fármaco fibrinolítico",
+        "C": "Administrar infusión continua de heparina no fraccionada y programar coronariografía electiva a las 48 horas",
+        "D": "Solicitar angiotomografía coronaria de urgencia para definir la anatomía de la arteria descendente anterior antes de decidir"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Tiempo estimado de traslado a sala de hemodinamia > 120 minutos en unidad sin ICP: la fibrinólisis farmacológica es obligatoria con meta puerta-aguja ≤ 30 minutos.",
+      "justificacion_gpc": "La GPC IMSS-357-21 y los algoritmos del Código Infarto dictan que cuando un paciente con IAMCEST se presenta en un hospital sin sala de hemodinamia y el tiempo previsto para lograr la apertura del vaso con ICP primaria supera los 120 minutos (tiempo de retraso relacionado con la ICP), la estrategia de reperfusión de primera elección indiscutible es la fibrinólisis farmacológica intravenosa inmediata, debiendo administrarse el fibrinolítico dentro de los primeros 30 minutos del ingreso hospitalario (tiempo puerta-aguja ≤ 30 minutos).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón / Retraso Inaceptable]: La ICP primaria solo es superior a la fibrinólisis si se realiza dentro de los primeros 120 minutos desde el primer contacto médico. Si el traslado demorará 140 minutos, diferir la trombolisis condena al miocardio a necrosis transmural irreversible.",
+        "C": "[Distractor Terapéutico Subóptimo]: La anticoagulación aislada con heparina no reperfunde una arteria ocluida por trombo rico en fibrina; diferir a 48 horas incrementa drásticamente la mortalidad y la falla cardíaca.",
+        "D": "[Distractor Fuera de Norma]: La angiotomografía coronaria no tiene ninguna indicación en IAMCEST agudo; genera retrasos letales y nefrotoxicidad innecesaria."
+      }
+    },
+    {
+      "id": "d03_q3",
+      "index": 3,
+      "case_id": "CASO-1",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Meta_Referencia",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Al paciente del caso anterior se le administró bolo único intravenoso de Tenecteplasa ajustado a su peso corporal (40 mg IV) junto con ácido acetilsalicílico y clopidogrel. A los 90 minutos de haber concluido la administración del fibrinolítico, el paciente continúa refiriendo dolor torácico opresivo con intensidad 8/10. El electrocardiograma de control a los 90 minutos muestra persistencia de la elevación del segmento ST en derivaciones V1 a V4 con un descenso de apenas 20% con respecto al trazo basal previo, sin presencia de arritmias de reperfusión.",
+      "question_text": "¿Cuál es la interpretación clínica y la conducta prioritaria inmediata dictada por la GPC IMSS-357-21?",
+      "options": {
+        "A": "Administrar una segunda dosis completa de Tenecteplasa intravenosa en bolo para consolidar la lisis",
+        "B": "Reperfusión miocárdica exitosa diferida; mantener en observación médica con infusión de nitroglicerina intravenosa",
+        "C": "Cambiar de agente fibrinolítico y administrar infusión continua de Estreptoquinasa durante 60 minutos",
+        "D": "Fibrinólisis fallida; activar traslado urgente e inmediato para Intervención Coronaria Percutánea de rescate"
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Descenso del ST menor al 50% y persistencia de dolor a los 60-90 minutos definen falla de fibrinólisis; la indicación mandatoria es ICP de rescate urgente.",
+      "justificacion_gpc": "De acuerdo con la GPC IMSS-357-21, los criterios electrocardiográficos y clínicos de reperfusión exitosa evaluados a los 60-90 minutos tras el inicio de la fibrinólisis son: descenso del segmento ST > 50% en la derivación con mayor elevación previa y alivio del dolor torácico > 50%. La ausencia de estos criterios (descenso de ST < 50% o persistencia de angina) define fibrinólisis fallida e indica el traslado de emergencia inmediato para Intervención Coronaria Percutánea (ICP) de rescate.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Comorbilidad / Riesgo Iatrogénico]: Está formalmente contraindicado administrar una segunda dosis de fibrinolítico debido al riesgo prohibitivo de hemorragia intracraneal fatal sin beneficio demostrado en permeabilidad vascular.",
+        "B": "[Distractor de Escalón Diagnóstico]: Un descenso del ST de solo 20% con persistencia del dolor indica persistencia de oclusión trombótica completa (falla de reperfusión), no reperfusión exitosa.",
+        "C": "[Distractor de Fármaco Prohibido]: La estreptoquinasa induce anticuerpos neutralizantes y anafilaxia, además de que el cambio a otro trombolítico no está indicado; la conducta obligatoria ante falla farmacológica es mecánica (ICP de rescate)."
+      }
+    },
+    {
+      "id": "d03_q4",
+      "index": 4,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 64 años con antecedente de dislipidemia mixta que acude al servicio de urgencias por dolor epigástrico urente y retroesternal opresivo de 2 horas de evolución, acompañado de náuseas, mareo postural y sensación de desmayo al ponerse de pie. A la exploración física: TA 82/50 mmHg, FC 52 lpm, FR 18 rpm, Temp 36.5 °C, SpO2 96% al aire ambiente. A la inspección de cuello destaca ingurgitación yugular grado III a 45 grados; a la auscultación ruidos cardíacos rítmicos disminuidos de intensidad sin soplos, y campos pulmonares completamente limpios, bien ventilados, sin ningún tipo de estertor crepitante. El electrocardiograma estándar de 12 derivaciones muestra elevación del segmento ST de 2.5 mm en derivaciones DII, DIII y aVF con infradesnivel especular en DI y aVL.",
+      "question_text": "Ante el hallazgo de infarto de cara inferior e inestabilidad hemodinámica con campos pulmonares limpios, ¿cuál es el estudio complementario inmediato indispensable según la GPC?",
+      "options": {
+        "A": "Registro electrocardiográfico con derivaciones posteriores (V7, V8 y V9)",
+        "B": "Registro electrocardiográfico con derivaciones precordiales derechas (V3R y V4R)",
+        "C": "Tomografía computarizada toracoabdominal con contraste intravenoso",
+        "D": "Cateterismo de arteria pulmonar con catéter de Swan-Ganz en urgencias"
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Infarto inferior (DII, DIII, aVF) con tríada de hipotensión, ingurgitación yugular y campos limpios (tríada de Saunders) exige toma de derivaciones derechas V3R-V4R para diagnosticar infarto de ventrículo derecho.",
+      "justificacion_gpc": "La GPC IMSS-357-21 establece que en todo paciente con IAMCEST de cara inferior (DII, DIII y aVF), es obligatorio registrar las derivaciones precordiales derechas (V3R y V4R). Una elevación del segmento ST ≥ 0.5 mm (o ≥ 1.0 mm en V4R) confirma la extensión al ventrículo derecho, la cual se sospecha clínicamente por la clásica tríada de Saunders: hipotensión arterial, ingurgitación yugular y campos pulmonares limpios.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Espectro",
+        "D": "Distractor_Comorbilidad"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón / Localización Anatómica Distinta]: Las derivaciones posteriores (V7-V9) se solicitan ante sospecha de infarto dorsal o de cara posterior (depresión marcada del ST en V1-V3 con ondas R altas), no para evaluar afección de ventrículo derecho.",
+        "C": "[Distractor de Espectro]: La TAC torácica con contraste se indica ante sospecha fundada de síndrome aórtico agudo; en este paciente con elevación inferior típica y bradicardia, demoraría el tratamiento y el contraste lesionaría el riñón en choque.",
+        "D": "[Distractor Invasivo Extemporáneo]: El monitoreo invasivo con catéter de Swan-Ganz no es el estudio inicial; el diagnóstico de infarto de VD es clínico y electrocardiográfico rápido."
+      }
+    },
+    {
+      "id": "d03_q5",
+      "index": 5,
+      "case_id": "CASO-2",
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "El electrocardiograma con derivaciones precordiales derechas del paciente del caso anterior confirma elevación del segmento ST de 1.5 mm en V4R, estableciendo el diagnóstico de infarto agudo de miocardio de cara inferior con extensión a ventrículo derecho. El médico interno de pregrado propone administrar de inmediato nitroglicerina sublingual para aliviar el dolor precordial y una dosis de furosemida intravenosa debido a la presencia de ingurgitación yugular severa.",
+      "question_text": "¿Cuál es la conducta terapéutica prioritaria de soporte hemodinámico y la contraindicación farmacológica crítica que debe señalarse según la GPC?",
+      "options": {
+        "A": "Iniciar nitroglicerina en infusión continua ajustada a presión arterial y furosemida intravenosa en bolo de 40 mg",
+        "B": "Administrar metoprolol intravenoso para disminuir el consumo de oxígeno miocárdico y la poscarga ventricular",
+        "C": "Administración agresiva de soluciones cristaloides intravenosas (solución salina al 0.9%); contraindicación absoluta de nitratos y diuréticos",
+        "D": "Restricción estricta de líquidos intravenosos y colocación emergente de balón de contrapulsación intraaórtico"
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "El ventrículo derecho infartado depende críticamente de la precarga; los nitratos y diuréticos abaten el retorno venoso y causan colapso hemodinámico letal.",
+      "justificacion_gpc": "La GPC IMSS-357-21 y los manuales ENARM enfatizan que el ventrículo derecho isquémico o infartado pierde contractilidad intrínseca y depende rígidamente de la precarga para mantener el llenado pasivo del ventrículo izquierdo. Los nitratos (venodilatadores) y los diuréticos reducen abruptamente la precarga, provocando choque cardiogénico profundo y asistolia. El pilar del tratamiento hemodinámico inicial es la expansión de volumen con cargas de cristaloides intravenosos (solución salina 0.9%) para optimizar la presión venosa central.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Distractor_Espectro",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Escalon"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Comorbilidad / Error Iatrogénico Mortal]: La nitroglicerina y la furosemida en infarto de ventrículo derecho provocan una caída catastrófica del gasto cardíaco y choque refractario al anular la precarga.",
+        "B": "[Distractor de Comorbilidad / Contraindicación]: Los betabloqueadores están formalmente contraindicados ante bradicardia (FC 52 lpm), hipotensión (TA 82/50 mmHg) y falla ventricular derecha aguda.",
+        "D": "[Distractor de Escalón Terapéutico Inverso]: La restricción hídrica empeora de forma letal el bajo gasto del VD; el balón de contrapulsación no es la primera maniobra de reanimación frente a la hipovolemia relativa."
+      }
+    },
+    {
+      "id": "d03_q6",
+      "index": 6,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Mujer de 71 años con antecedente de diabetes mellitus tipo 2 e hipertensión arterial sistémica que ingresa a la unidad coronaria por IAMCEST de cara anterior extensa. A las 6 horas de su evolución presenta disnea súbita de reposo, taquipnea intensa y ortopnea. Signos vitales: TA 138/86 mmHg, FC 118 lpm, FR 32 rpm, Temp 36.8 °C, SpO2 84% con aire ambiente. A la exploración física se ausculta un tercer ruido cardíaco (galope por S3) y estertores crepitantes bilaterales difusos que ocupan más de dos tercios de ambos campos pulmonares (afectación superior al 50% de los hemitórax). Los pulsos periféricos son amplios y no hay palidez ni frialdad distal.",
+      "question_text": "¿Cuál es la clasificación de Killip-Kimball correspondiente y el pronóstico de mortalidad intrahospitalaria estimada según la GPC?",
+      "options": {
+        "A": "Killip-Kimball II (Insuficiencia cardíaca leve a moderada, con una mortalidad intrahospitalaria estimada de 17%)",
+        "B": "Killip-Kimball III (Edema agudo pulmonar, con una mortalidad intrahospitalaria estimada de 38 a 40%)",
+        "C": "Killip-Kimball IV (Choque cardiogénico, con una mortalidad intrahospitalaria estimada de 70 a 80%)",
+        "D": "Killip-Kimball I (Infarto sin insuficiencia cardíaca, con una mortalidad intrahospitalaria estimada menor al 6%)"
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "Estertores crepitantes en más del 50% de los campos pulmonares y disnea severa sin hipotensión definen Killip-Kimball III (Edema Agudo Pulmonar) con ~40% de mortalidad.",
+      "justificacion_gpc": "La escala de Killip-Kimball estratifica el pronóstico en infarto agudo de miocardio: Clase I: Sin insuficiencia cardíaca (mortalidad ~6%); Clase II: Insuficiencia cardíaca con estertores en < 50% de campos pulmonares o galope S3 (mortalidad ~17%); Clase III: Edema agudo de pulmón con estertores en > 50% de campos pulmonares (mortalidad ~38-40%); Clase IV: Choque cardiogénico con TAS < 90 mmHg y signos de hipoperfusión periférica (mortalidad ~70-80%). La paciente tiene edema agudo de pulmón con estertores extensos pero conserva adecuada presión arterial (TA 138/86 mmHg), por lo que corresponde a Killip III.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Escalón Inferior]: Killip II requiere que los estertores ocupen menos del 50% de los campos pulmonares basales; cuando superan el 50% o hay edema agudo franco, pasa automáticamente a clase III.",
+        "C": "[Distractor de Escalón Superior]: Killip IV exige choque cardiogénico manifiesto con hipotensión arterial sistémica (TAS < 90 mmHg o caída > 30 mmHg) y signos de hipoperfusión hística periférica (frialdad, oliguria, acidosis láctica), los cuales no están presentes.",
+        "D": "[Distractor Incompatible]: Killip I se reserva exclusivamente para pacientes sin ningún dato auscultatorio de congestión pulmonar ni tercer ruido cardíaco."
+      }
+    },
+    {
+      "id": "d03_q7",
+      "index": 7,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Hombre de 68 años acude a un centro de salud con servicios ampliados por dolor precordial opresivo de 75 minutos de evolución. El electrocardiograma muestra elevación del segmento ST de 3.0 mm en derivaciones V2 a V5. El hospital con sala de hemodinamia más cercano se encuentra a 180 minutos de traslado. El médico de guardia se dispone a indicar fibrinólisis inmediata con Tenecteplasa. Al interrogar a la familia y revisar notas de contrarreferencia, se constata que hace exactamente 24 días el paciente fue egresado del hospital tras un episodio de hemorragia digestiva alta masiva por úlcera duodenal activa (Forrest Ib) que requirió hemostasia endoscópica con clips y transfusión de 3 paquetes globulares.",
+      "question_text": "¿Cuál es la conducta de reperfusión indicada de acuerdo con las contraindicaciones normativas de la GPC IMSS-357-21?",
+      "options": {
+        "A": "Administrar Tenecteplasa a mitad de dosis asociada a infusión continua de omeprazol a altas dosis",
+        "B": "Proceder con la fibrinólisis farmacológica habitual, ya que el evento hemorrágico ocurrió hace más de 14 días",
+        "C": "Administrar únicamente ácido acetilsalicílico y clopidogrel, contraindicando cualquier intervención de reperfusión mecánica",
+        "D": "Contraindicación absoluta para fibrinólisis; omitir fibrinolítico y coordinar traslado urgente para ICP primaria"
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Hemorragia gastrointestinal en el último mes (< 30 días) es una contraindicación ABSOLUTA para fibrinólisis; ante ella, la única opción es la ICP primaria a pesar del tiempo de traslado.",
+      "justificacion_gpc": "La GPC IMSS-357-21 y los manuales ENARM catalogan como contraindicación ABSOLUTA para fibrinólisis la presencia de hemorragia digestiva o de otra índole activa o ocurrida en el último mes (< 30 días). Ante una contraindicación absoluta, el uso de fibrinolíticos conlleva un riesgo inaceptable de resangrado masivo o muerte, por lo que la reperfusión farmacológica se suspende por completo y el paciente debe ser enviado de inmediato para Intervención Coronaria Percutánea (ICP) primaria independientemente de la distancia.",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Espectro",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Comorbilidad / Mala Práctica]: Reducir la dosis de fibrinolítico a la mitad para evadir una contraindicación absoluta no tiene fundamento científico y mantiene un riesgo hemorrágico letal sin reperfundir la coronaria.",
+        "B": "[Distractor de Escalón Temporal]: La ventana de contraindicación absoluta para hemorragia gastrointestinal mayor es de 1 mes (30 días), no de 14 días.",
+        "C": "[Distractor de Nihilismo Terapéutico]: Omitir la reperfusión mecánica condena al paciente a necrosis miocárdica extensa; la contraindicación de trombolisis es la indicación de peso para coordinar ICP primaria urgente."
+      }
+    },
+    {
+      "id": "d03_q8",
+      "index": 8,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Estudio_Inicial",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "Hombre de 32 años, corredor de fondo aficionado sin comorbilidades crónicas, acude al servicio de urgencias refiriendo dolor torácico retroesternal opresivo de 60 minutos de evolución que inició tras finalizar su entrenamiento. En los primeros 8 minutos se le toma un electrocardiograma de 12 derivaciones que muestra elevación del punto J en la derivación V2 de 2.2 mm y en V3 de 2.1 mm, con concavidad superior y ondas T positivas prominentes, con elevación de 0.5 mm en V4 y sin desnivel en cara inferior. El médico pasante cuestiona si el trazo cumple el criterio normativo para activar el Código Infarto.",
+      "question_text": "De acuerdo con la Cuarta Definición Universal del Infarto y la GPC mexicana, ¿cuál es el punto de corte exacto de elevación del punto J en V2-V3 para diagnosticar IAMCEST en un varón menor de 40 años?",
+      "options": {
+        "A": "Elevación del punto J en derivaciones V2 y V3 ≥ 2.5 mm (0.25 mV)",
+        "B": "Elevación del punto J en derivaciones V2 y V3 ≥ 2.0 mm (0.20 mV)",
+        "C": "Elevación del punto J en derivaciones V2 y V3 ≥ 1.5 mm (0.15 mV)",
+        "D": "Elevación del punto J en derivaciones V2 y V3 ≥ 1.0 mm (0.10 mV)"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "Criterio ECG en V2-V3: varones menores de 40 años exigen ≥ 2.5 mm de elevación para diferenciar IAMCEST del patrón de repolarización precoz habitual a esa edad.",
+      "justificacion_gpc": "La Cuarta Definición Universal del Infarto de Miocardio y la GPC IMSS-357-21 establecen que la elevación del segmento ST medida en el punto J en al menos dos derivaciones contiguas debe ser: en derivaciones V2 y V3, ≥ 2.5 mm (0.25 mV) en varones menores de 40 años; ≥ 2.0 mm (0.20 mV) en varones de 40 años o más; y ≥ 1.5 mm (0.15 mV) en mujeres de cualquier edad. En todas las demás derivaciones el punto de corte estándar es ≥ 1.0 mm (0.10 mV). Por ende, este paciente de 32 años con 2.2 mm en V2 no alcanza el criterio diagnóstico estricto de IAMCEST (requiere ≥ 2.5 mm).",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Etario]: El umbral de ≥ 2.0 mm (0.20 mV) en V2-V3 es exclusivo para varones de 40 años en adelante; en menores de 40 años la norma exige ≥ 2.5 mm.",
+        "C": "[Distractor de Sexo]: El punto de corte de ≥ 1.5 mm (0.15 mV) en V2-V3 corresponde al criterio normativo para mujeres de cualquier edad.",
+        "D": "[Distractor de Localización Estándar]: El umbral de ≥ 1.0 mm (0.10 mV) es el estándar para todas las demás derivaciones precordiales y periféricas (V1, V4-V6, DI, DII, DIII, aVF, aVL), pero no aplica en V2-V3."
+      }
+    },
+    {
+      "id": "d03_q9",
+      "index": 9,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Primera_Linea_Tx",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Mujer de 78 años, con peso de 56 kg y creatinina sérica de 1.0 mg/dL, ingresa al servicio de urgencias de un HGZ sin hemodinamia con IAMCEST de cara inferior de 90 minutos de evolución. Se decide aplicar fibrinólisis farmacológica con Tenecteplasa ajustada al 50% de la dosis por edad. El médico adscrito indica preparar el esquema adyuvante de terapia antiplaquetaria dual con clopidogrel y anticoagulación parenteral con enoxaparina.",
+      "question_text": "¿Cuál es la dosificación correcta de clopidogrel y enoxaparina recomendada por la GPC IMSS-357-21 Código Infarto para esta paciente anciana sometida a fibrinólisis?",
+      "options": {
+        "A": "Clopidogrel 300 mg de carga vía oral y Enoxaparina bolo intravenoso de 30 mg seguido de 1 mg/kg subcutáneo cada 12 horas",
+        "B": "Clopidogrel 600 mg de carga vía oral y Enoxaparina 1 mg/kg subcutáneo cada 24 horas como dosis única",
+        "C": "Clopidogrel 75 mg vía oral (sin dosis de carga) y Enoxaparina 0.75 mg/kg subcutánea cada 12 horas (sin bolo intravenoso)",
+        "D": "Omitir clopidogrel por riesgo de sangrado y administrar únicamente infusión continua de Heparina No Fraccionada"
+      },
+      "correctAnswer": "C",
+      "dato_pivote_oculto": "En pacientes mayores de 75 años sometidos a fibrinólisis, el clopidogrel NO lleva dosis de carga (inicia a 75 mg/día) y la enoxaparina OMITE el bolo IV de 30 mg ajustándose a 0.75 mg/kg SC cada 12 h.",
+      "justificacion_gpc": "La GPC IMSS-357-21 y las guías de Código Infarto señalan que en pacientes mayores de 75 años que reciben terapia fibrinolítica, la dosis de carga de 300 mg de clopidogrel debe OMITIRSE, iniciando directamente con dosis de mantenimiento de 75 mg/día para mitigar el riesgo de sangrado intracraneal. De igual manera, con la enoxaparina se OMITE el bolo inicial de 30 mg IV y la dosis subcutánea se reduce a 0.75 mg/kg cada 12 horas (máximo 75 mg en las dos primeras inyecciones).",
+      "distractor_roles": {
+        "A": "Distractor_Comorbilidad",
+        "B": "Distractor_Escalon",
+        "C": "Respuesta_Correcta",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Comorbilidad / Dosis Estándar de Jóvenes]: La carga de 300 mg de clopidogrel y el bolo IV de 30 mg de enoxaparina son el esquema estándar para pacientes MENORES de 75 años; aplicarlo en mayores de 75 años incrementa exponencialmente la hemorragia intracraneal fatal.",
+        "B": "[Distractor de Procedimiento Percutáneo]: La dosis de carga de clopidogrel de 600 mg se utiliza para pacientes programados a ICP primaria, nunca en esquemas de fibrinólisis farmacológica.",
+        "D": "[Distractor Fuera de Norma]: Omitir la terapia antiplaquetaria dual en IAMCEST aumenta drásticamente las reoclusiones coronarias y no es la conducta indicada."
+      }
+    },
+    {
+      "id": "d03_q10",
+      "index": 10,
+      "case_id": null,
+      "is_english": false,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Escala_Severidad",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "Hombre de 65 años, con antecedentes de diabetes mellitus tipo 2, hipertensión arterial y angioplastia coronaria previa con stent hace 2 años (tratado con ácido acetilsalicílico 100 mg/día). Acude por presentar tres episodios de dolor precordial opresivo en reposo durante las últimas 24 horas, de 20 a 25 minutos de duración cada uno. Signos vitales: TA 130/80 mmHg, FC 76 lpm, FR 16 rpm, SpO2 97%. El electrocardiograma muestra infradesnivel del segmento ST de 1.5 mm en derivaciones V4 a V6 e inversión simétrica de ondas T en DI y aVL. La troponina I ultrasensible se reporta positiva en 240 ng/L (percentil 99: 14 ng/L). Se calcula un puntaje TIMI de 5 puntos y un puntaje GRACE de 152 puntos.",
+      "question_text": "¿Cuál es la estratificación de riesgo y la conducta terapéutica invasiva recomendada por la GPC mexicana para este paciente con SCASEST?",
+      "options": {
+        "A": "Riesgo bajo; tratamiento médico conservador y prueba de esfuerzo ambulatoria guiada por isquemia tras el egreso",
+        "B": "Riesgo alto (GRACE > 140 / TIMI 5-7); estrategia invasiva temprana con coronariografía dentro de las primeras 24 horas",
+        "C": "Riesgo muy alto; estrategia invasiva inmediata con coronariografía emergente dentro de los primeros 120 minutos (< 2 horas)",
+        "D": "Fibrinólisis farmacológica intravenosa inmediata con Tenecteplasa en bolo en el servicio de urgencias"
+      },
+      "correctAnswer": "B",
+      "dato_pivote_oculto": "SCASEST con elevación de troponinas, cambios del ST y puntaje GRACE > 140 clasifica en RIESGO ALTO: indicación formal de coronariografía temprana dentro de las primeras 24 horas.",
+      "justificacion_gpc": "La GPC IMSS-357-21 y los algoritmos de SCA sin elevación del segmento ST (SCASEST) estratifican a los pacientes mediante las escalas TIMI y GRACE. La presencia de elevación de troponinas cardíacas, cambios dinámicos del ST (depresión > 0.5 mm) y una puntuación GRACE > 140 sitúan al paciente en la categoría de RIESGO ALTO, cuya recomendación estricta es someterlo a una estrategia invasiva temprana (cateterismo cardíaco / coronariografía) en un plazo menor a 24 horas.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Respuesta_Correcta",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "A": "[Distractor de Subestimación de Riesgo]: Un paciente con troponinas positivas y cambios del ST tiene necrosis miocárdica en curso; diferir el estudio a prueba de esfuerzo ambulatoria conlleva alto riesgo de reinfarto o muerte súbita.",
+        "C": "[Distractor de Escalón de Muy Alto Riesgo]: La estrategia invasiva inmediata (< 2 horas) se reserva para pacientes de 'muy alto riesgo': inestabilidad hemodinámica, choque cardiogénico, dolor torácico refractario o arritmias ventriculares letales, las cuales no presenta este paciente estable.",
+        "D": "[Distractor de Contraindicación Absoluta]: La fibrinólisis farmacológica está FORMALMENTE CONTRAINDICADA en el SCASEST (angina inestable e IAMSEST); no ofrece beneficio y eleva la mortalidad."
+      }
+    },
+    {
+      "id": "d03_q11",
+      "index": 11,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Tx_Alergicos_Especial",
+      "nivel_cognitivo": "3_Decision_Compleja",
+      "vignette": "A 55-year-old male arrives at the emergency department presenting with acute crushing retrosternal chest pain of 90 minutes duration, radiating to his left jaw and shoulder, accompanied by diaphoresis and nausea. Vital signs on admission: blood pressure 135/85 mmHg, heart rate 82 bpm, respiratory rate 18 bpm, oxygen saturation 96% on room air. The 12-lead electrocardiogram demonstrates 2.5 mm ST-segment elevation in leads V1 through V4. The resident on duty prepares to administer sublingual nitroglycerin 0.5 mg for pain control. During the rapid anamnesis, the patient reveals that he ingested sildenafil 50 mg approximately 16 hours ago for erectile dysfunction.",
+      "question_text": "According to Mexican Clinical Practice Guidelines and international safety standards, what is the most appropriate medical decision regarding nitrate therapy in this patient?",
+      "options": {
+        "A": "Nitrates may be safely administered because more than 12 hours have elapsed since sildenafil ingestion",
+        "B": "Administer intravenous isosorbide dinitrate instead of sublingual nitroglycerin under continuous blood pressure monitoring",
+        "C": "Administer sublingual nitroglycerin concurrently with a 500 mL bolus of 0.9% normal saline to prevent hypotension",
+        "D": "Absolute contraindication to all nitrate formulations due to the high risk of profound, refractory hypotension and cardiovascular collapse"
+      },
+      "correctAnswer": "D",
+      "dato_pivote_oculto": "Use of PDE-5 inhibitors (sildenafil within 24 hours, tadalafil within 48 hours) is an absolute contraindication to nitrates due to severe synergistic vasodilation and fatal shock.",
+      "justificacion_gpc": "According to the GPC IMSS-357-21 and standard acute coronary syndrome protocols, the use of phosphodiesterase-5 (PDE-5) inhibitors represents an absolute contraindication to the administration of any organic nitrate formulation. The safe withholding window is at least 24 hours for sildenafil or vardenafil, and at least 48 hours for tadalafil. Concurrent administration causes excessive accumulation of cyclic guanosine monophosphate (cGMP), leading to massive systemic vasodilation, refractory shock, and coronary hypoperfusion.",
+      "distractor_roles": {
+        "A": "Distractor_Escalon",
+        "B": "Distractor_Comorbilidad",
+        "C": "Distractor_Espectro",
+        "D": "Respuesta_Correcta"
+      },
+      "distractor_autopsies": {
+        "A": "[Timing Distractor / Fatal Misconception]: Sildenafil contraindicates nitrates for at least 24 hours. Administering nitrates at 16 hours can precipitate catastrophic intractable hypotension.",
+        "B": "[Route Distractor]: All organic nitrates (sublingual, oral, intravenous, transdermal) share the same mechanism of action; changing to IV isosorbide dinitrate does not eliminate the risk of cardiovascular collapse.",
+        "C": "[Volume Pre-treatment Distractor]: Pre-loading with crystalloids does not prevent the massive systemic vasodilation and profound drop in systemic vascular resistance caused by nitrate-PDE5i coadministration."
+      }
+    },
+    {
+      "id": "d03_q12",
+      "index": 12,
+      "case_id": null,
+      "is_english": true,
+      "especialidad_troncal": "MI",
+      "normativa_origen": "GPC IMSS-357-21 (Código Infarto)",
+      "concepto_pivote": "Gold_Standard",
+      "nivel_cognitivo": "2_Interpretacion_Clinica",
+      "vignette": "A 62-year-old female presents to the emergency department of a tertiary specialized medical center with 24/7 on-site cardiac catheterization facilities. She complains of severe retrosternal chest pressure lasting 50 minutes. The immediate 12-lead electrocardiogram shows 3.0 mm ST-segment elevation in leads DII, DIII, and aVF. The patient is clinically stable, Killip class I, with no history of bleeding or active comorbidities.",
+      "question_text": "According to the Mexican Clinical Practice Guideline (GPC IMSS-357-21 Código Infarto), what is the gold standard reperfusion strategy and its exact target benchmark time from hospital arrival?",
+      "options": {
+        "A": "Primary Percutaneous Coronary Intervention (PCI) with a target door-to-balloon time of ≤ 90 minutes",
+        "B": "Intravenous fibrinolytic therapy with Tenecteplase with a target door-to-needle time of ≤ 60 minutes",
+        "C": "Primary Percutaneous Coronary Intervention (PCI) with a target door-to-balloon time of ≤ 120 minutes",
+        "D": "Urgent Coronary Artery Bypass Grafting (CABG) within 6 hours of medical contact"
+      },
+      "correctAnswer": "A",
+      "dato_pivote_oculto": "In a tertiary center with on-site cath lab available 24/7, Primary PCI is the gold standard with an exact door-to-balloon benchmark of ≤ 90 minutes.",
+      "justificacion_gpc": "According to the GPC IMSS-357-21 (Código Infarto), Primary Percutaneous Coronary Intervention (PCI) is the gold standard reperfusion strategy for patients with STEMI. When a patient presents directly to a PCI-capable center with an on-site catheterization laboratory, the strict operational benchmark is a door-to-balloon time ≤ 90 minutes. The ≤ 120-minute threshold applies exclusively to patients presenting to a non-PCI center who require inter-hospital transfer.",
+      "distractor_roles": {
+        "A": "Respuesta_Correcta",
+        "B": "Distractor_Escalon",
+        "C": "Distractor_Comorbilidad",
+        "D": "Distractor_Espectro"
+      },
+      "distractor_autopsies": {
+        "B": "[Distractor de Escalón Farmacológico]: In a PCI-capable hospital with 24/7 cath lab, fibrinolysis is not the preferred strategy; furthermore, the benchmark door-to-needle time is ≤ 30 minutes, not 60 minutes.",
+        "C": "[Distractor de Meta de Traslado]: The ≤ 120-minute benchmark represents the maximum acceptable delay when a patient requires transfer from a non-PCI center. For direct arrival to a PCI facility, the target is strictly ≤ 90 minutes.",
+        "D": "[Distractor Quirúrgico]: Emergent coronary artery bypass grafting is not the standard first-line reperfusion procedure in acute STEMI; it is reserved for mechanical complications or failed PCI with favorable surgical anatomy."
+      }
+    }
+  ]
+}

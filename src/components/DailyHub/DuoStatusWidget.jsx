@@ -108,12 +108,12 @@ export function DuoStatusWidget() {
       )}
 
       {/* Encabezado: Meta Cooperativa Dúo */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 pb-2.5 border-b border-slate-200 dark:border-slate-800">
+      <div className="flex items-center justify-between gap-2.5 pb-2.5 border-b border-slate-200 dark:border-slate-800">
         <div className="flex items-center gap-2">
-          <div className="p-1.5 rounded-lg bg-blue-600/10 text-blue-600 dark:text-cyan-400">
+          <div className="p-1.5 rounded-xl bg-blue-600/10 text-blue-600 dark:text-cyan-400">
             <Award className="w-4 h-4" />
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
             <h3 className="font-extrabold text-xs sm:text-sm">
               Meta Cooperativa Dúo
             </h3>
@@ -122,48 +122,10 @@ export function DuoStatusWidget() {
             </span>
           </div>
         </div>
-
-        {/* Botón de Enviar Reacción / Toque */}
-        <div className="relative self-end sm:self-auto">
-          <button
-            type="button"
-            onClick={() => setShowCheerMenu(!showCheerMenu)}
-            className="flex items-center gap-1.5 px-3 py-1 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 hover:opacity-95 text-white text-xs font-bold shadow-sm active:scale-95 transition-all"
-          >
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>Enviar Toque a {partnerUser.name}</span>
-          </button>
-
-          {/* Menú de Reacciones Rápidas */}
-          {showCheerMenu && (
-            <div className="absolute right-0 top-8 z-30 w-64 p-2 bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-2xl shadow-2xl space-y-1 animate-fadeIn">
-              <span className="text-[10px] font-bold opacity-60 block px-2 py-0.5">
-                Elige un mensaje de apoyo:
-              </span>
-              {cheerPresets.map((preset, idx) => (
-                <button
-                  key={idx}
-                  type="button"
-                  onClick={() => handleSendPreset(preset)}
-                  className="w-full p-2 text-left rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-2 text-xs font-semibold text-slate-800 dark:text-slate-200 transition-colors"
-                >
-                  <span className="text-base">{preset.icon}</span>
-                  <span className="truncate">{preset.text}</span>
-                </button>
-              ))}
-            </div>
-          )}
-
-          {justSent && (
-            <span className="absolute right-0 -bottom-5 text-[10px] font-bold text-emerald-600 dark:text-emerald-400 whitespace-nowrap">
-              ¡Enviado a {partnerUser.name}! ✓
-            </span>
-          )}
-        </div>
       </div>
 
-      {/* Comparativa Compacta: Donato vs Sonia */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-2.5">
+      {/* Comparativa Compacta y Limpia: Donato vs Sonia (Sin hora ni ubicación distractora) */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2.5">
         {/* Tu Perfil */}
         <div className="p-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-950/40 flex items-center justify-between gap-2">
           <div className="flex items-center gap-2 min-w-0">
@@ -175,17 +137,6 @@ export function DuoStatusWidget() {
                 </span>
                 <span className="text-[10px] opacity-70">
                   {userRank.icon} {userRank.title.split(" ")[0]}
-                </span>
-              </div>
-              <div className="flex items-center gap-2 text-[10px] text-slate-500 mt-0.5">
-                <span>📍 {currentUser.city || (currentUser.id === "donato" ? "Tijuana, B.C." : "Hermosillo, Son.")}</span>
-                <span>•</span>
-                <span className="font-mono font-bold text-slate-700 dark:text-slate-300">
-                  {new Date().toLocaleTimeString("es-MX", { 
-                    timeZone: currentUser.id === "donato" ? "America/Tijuana" : "America/Hermosillo", 
-                    hour: "2-digit", 
-                    minute: "2-digit" 
-                  })}
                 </span>
               </div>
               <div className="flex items-center gap-2 text-[11px] font-semibold text-blue-600 dark:text-cyan-400 mt-0.5">
@@ -212,17 +163,6 @@ export function DuoStatusWidget() {
                 </span>
                 <span className="text-[10px] opacity-70">
                   {partnerRank.icon} {partnerRank.title.split(" ")[0]}
-                </span>
-              </div>
-              <div className="flex items-center gap-2 text-[10px] text-slate-500 mt-0.5">
-                <span>📍 {partnerUser.city || (partnerUser.id === "donato" ? "Tijuana, B.C." : "Hermosillo, Son.")}</span>
-                <span>•</span>
-                <span className="font-mono font-bold text-slate-700 dark:text-slate-300">
-                  {new Date().toLocaleTimeString("es-MX", { 
-                    timeZone: partnerUser.id === "donato" ? "America/Tijuana" : "America/Hermosillo", 
-                    hour: "2-digit", 
-                    minute: "2-digit" 
-                  })}
                 </span>
               </div>
               <div className="flex items-center gap-2 text-[11px] font-semibold text-slate-500 dark:text-slate-400 mt-0.5">

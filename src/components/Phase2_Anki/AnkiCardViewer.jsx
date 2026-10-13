@@ -21,6 +21,12 @@ import {
 } from "../../firebase/firestoreService";
 import { MarkdownRenderer } from "../Common/MarkdownRenderer";
 import { 
+  loadAllScheduleCards, 
+  filterCardsByStudyMode, 
+  persistCardFSRSReview, 
+  getSeenDayCodes 
+} from "../../services/ankiDeckService";
+import { 
   RotateCw, 
   Download, 
   CheckCircle2, 
@@ -48,7 +54,8 @@ import {
   Upload,
   CheckSquare,
   Square,
-  Layers
+  Layers,
+  Target
 } from "lucide-react";
 
 function mergeTopicAndLocalDeck(topicCards = [], storageKey) {
@@ -86,8 +93,8 @@ function mergeTopicAndLocalDeck(topicCards = [], storageKey) {
   });
 }
 
-export function AnkiCardViewer({ topic, onBackToHub, onProceedToSimulator }) {
-  const { currentUserId, currentUser, markPhaseComplete, theme } = useUser();
+export function AnkiCardViewer({ topic, studySession = null, onChangeStudySession, onBackToHub, onProceedToSimulator }) {
+  const { currentUserId, currentUser, markPhaseComplete, theme, schedule, activeDayCode } = useUser();
   const { showToast, confirmAction } = useToast();
   const isDark = theme === "dark";
 
@@ -97,8 +104,38 @@ export function AnkiCardViewer({ topic, onBackToHub, onProceedToSimulator }) {
   // Modo de visualización: "study" (tarjetas) vs "browser" (Editor y Explorador Anki)
   const [viewMode, setViewMode] = useState("study");
 
-  // Baraja sincronizada entre el tema compartido y el progreso FSRS local del usuario
+  // Modo de estudio estilo Anki Desktop: "today" | "due" | "cumulative" | "random" | "difficult"
+  const [studyMode, setStudyMode] = useState(studySession?.mode || "today");
+
+  // Baraja sincronizada del tema actual
   const [deck, setDeck] = useState(() => mergeTopicAndLocalDeck(rawCards, storageKey));
+
+  // Banco global de tarjetas de todos los temas
+  const [globalCards, setGlobalCards] = useState([]);
+
+  useEffect(() => {
+    if (studySession?.mode && studySession.mode !== studyMode) {
+      setStudyMode(studySession.mode);
+      setCurrentIndex(0);
+      setIsFlipped(false);
+    }
+  }, [studySession]);
+
+  const loadGlobalCards = async () => {
+    try {
+      const cards = await loadAllScheduleCards(schedule, currentUserId);
+      setGlobalCards(cards);
+    } catch (e) {
+      console.error("Error cargando banco global de tarjetas Anki:", e);
+    }
+  };
+
+  useEffect(() => {
+    loadGlobalCards();
+    const handleSync = () => loadGlobalCards();
+    window.addEventListener("enarmcito_anki_sync", handleSync);
+    return () => window.removeEventListener("enarmcito_anki_sync", handleSync);
+  }, [schedule, currentUserId]);
 
   useEffect(() => {
     setDeck(mergeTopicAndLocalDeck(topic.flashcards || [], storageKey));
@@ -165,20 +202,49 @@ export function AnkiCardViewer({ topic, onBackToHub, onProceedToSimulator }) {
   const [isImportTsvOpen, setIsImportTsvOpen] = useState(false);
   const [tsvInputText, setTsvInputText] = useState("");
 
-  // Tarjetas activas para la sesión de estudio
+  // Conteo de tarjetas por modo para los botones del selector
+  const modeCounts = useMemo(() => {
+    const today = deck.length;
+    const now = new Date();
+    const seenCodes = new Set(getSeenDayCodes(schedule, activeDayCode));
+
+    const due = globalCards.filter((c) => {
+      if (!seenCodes.has(c.dayCode)) return false;
+      const st = c.cardState;
+      return st && st.due && new Date(st.due) <= now && (st.reps > 0 || st.state !== "new");
+    }).length;
+
+    const cumulative = globalCards.filter((c) => seenCodes.has(c.dayCode)).length;
+    const difficult = globalCards.filter((c) => {
+      if (!seenCodes.has(c.dayCode)) return false;
+      const st = c.cardState;
+      return st && ((st.lapses && st.lapses > 0) || (st.difficulty && st.difficulty >= 7));
+    }).length;
+
+    return { today, due, cumulative, difficult };
+  }, [deck, globalCards, schedule, activeDayCode]);
+
+  // Tarjetas activas para la sesión de estudio actual
   const activeDeck = useMemo(() => {
-    let result = [...deck];
+    let sourcePool = deck;
+
+    if (studyMode !== "today" && globalCards.length > 0) {
+      const filtered = filterCardsByStudyMode(globalCards, studyMode, activeDayCode, schedule);
+      sourcePool = filtered.cards;
+    }
+
+    let result = [...sourcePool];
     if (customSelectedIds && customSelectedIds.length > 0) {
       result = result.filter(c => customSelectedIds.includes(c.id));
     } else if (studyFilter === "new") {
       result = result.filter(c => !c.cardState || c.cardState.reps === 0 || c.cardState.state === "new");
     } else if (studyFilter === "review") {
       result = result.filter(c => c.cardState && c.cardState.reps > 0);
-    } else if (studyFilter === "random") {
+    } else if (studyFilter === "random" && studyMode === "today") {
       result = [...result].sort(() => Math.random() - 0.5);
     }
-    return result.length > 0 ? result : deck;
-  }, [deck, studyFilter, customSelectedIds]);
+    return result;
+  }, [deck, globalCards, studyMode, activeDayCode, schedule, studyFilter, customSelectedIds]);
 
   // Tarjetas filtradas y ordenadas en el Explorador / Editor Anki
   const filteredBrowserCards = useMemo(() => {
@@ -308,15 +374,28 @@ export function AnkiCardViewer({ topic, onBackToHub, onProceedToSimulator }) {
     ]);
 
     const updatedCardState = scheduleCardFSRS(oldCardState, rating, responseTimeMs);
-    const updatedDeck = deck.map((c) => c.id === currentCard.id ? { ...c, cardState: updatedCardState } : c);
-    updateLocalFSRSDeck(updatedDeck);
+
+    // Persistir siempre en el almacenamiento del tema correspondiente a la tarjeta
+    if (currentCard.topicId || (currentCard.dayCode && currentCard.dayCode !== topic.code)) {
+      persistCardFSRSReview(currentUserId, currentCard, updatedCardState);
+    }
+
+    if (studyMode === "today" || currentCard.dayCode === topic.code || currentCard.topicId === topic.id) {
+      const updatedDeck = deck.map((c) => (c.id === currentCard.id ? { ...c, cardState: updatedCardState } : c));
+      updateLocalFSRSDeck(updatedDeck);
+    }
+
+    setGlobalCards((prev) =>
+      prev.map((c) => (c.id === currentCard.id ? { ...c, cardState: updatedCardState } : c))
+    );
+
     setIsFlipped(false);
 
     if (safeIndex < activeDeck.length - 1) {
       setCurrentIndex((prev) => prev + 1);
     } else {
-      markPhaseComplete(2, { phase2_cards_reviewed: updatedDeck.filter(c => c.cardState?.reps > 0).length });
-      showToast("¡Has completado el repaso del mazo de hoy! (+50 XP)", "success");
+      markPhaseComplete(2, { phase2_cards_reviewed: Math.max(1, activeDeck.length) });
+      showToast("¡Has completado esta sesión de repaso Anki FSRS! (+50 XP)", "success");
     }
   };
 
@@ -651,6 +730,108 @@ export function AnkiCardViewer({ topic, onBackToHub, onProceedToSimulator }) {
             >
               Seleccionarlas en Editor
             </button>
+          </div>
+        </div>
+      )}
+
+      {/* SELECTOR DE MODO DE ESTUDIO ESTILO ANKI DESKTOP */}
+      {viewMode === "study" && (
+        <div className={`p-2 sm:p-2.5 rounded-2xl border-2 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-2 shadow-xs ${
+          isDark ? "bg-slate-900 border-slate-800" : "bg-white border-purple-200"
+        }`}>
+          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0">
+            <button
+              type="button"
+              onClick={() => {
+                setStudyMode("today");
+                setCurrentIndex(0);
+                setIsFlipped(false);
+              }}
+              className={`px-3 py-1.5 rounded-xl text-xs font-black flex items-center gap-1.5 transition-all flex-shrink-0 cursor-pointer ${
+                studyMode === "today"
+                  ? "bg-blue-600 text-white shadow-xs"
+                  : "text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800"
+              }`}
+            >
+              <Target className="w-3.5 h-3.5" />
+              <span>Tema Hoy ({modeCounts.today})</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setStudyMode("due");
+                setCurrentIndex(0);
+                setIsFlipped(false);
+              }}
+              className={`px-3 py-1.5 rounded-xl text-xs font-black flex items-center gap-1.5 transition-all flex-shrink-0 cursor-pointer ${
+                studyMode === "due"
+                  ? "bg-emerald-600 text-white shadow-xs"
+                  : "text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800"
+              }`}
+            >
+              <Clock className="w-3.5 h-3.5" />
+              <span>Vencidas FSRS ({modeCounts.due})</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setStudyMode("cumulative");
+                setCurrentIndex(0);
+                setIsFlipped(false);
+              }}
+              className={`px-3 py-1.5 rounded-xl text-xs font-black flex items-center gap-1.5 transition-all flex-shrink-0 cursor-pointer ${
+                studyMode === "cumulative"
+                  ? "bg-purple-600 text-white shadow-xs"
+                  : "text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800"
+              }`}
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>Temas Vistos ({modeCounts.cumulative})</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setStudyMode("random");
+                setCurrentIndex(0);
+                setIsFlipped(false);
+              }}
+              className={`px-3 py-1.5 rounded-xl text-xs font-black flex items-center gap-1.5 transition-all flex-shrink-0 cursor-pointer ${
+                studyMode === "random"
+                  ? "bg-indigo-600 text-white shadow-xs"
+                  : "text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800"
+              }`}
+            >
+              <Shuffle className="w-3.5 h-3.5" />
+              <span>Aleatorio (Cram)</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setStudyMode("difficult");
+                setCurrentIndex(0);
+                setIsFlipped(false);
+              }}
+              className={`px-3 py-1.5 rounded-xl text-xs font-black flex items-center gap-1.5 transition-all flex-shrink-0 cursor-pointer ${
+                studyMode === "difficult"
+                  ? "bg-amber-600 text-white shadow-xs"
+                  : "text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800"
+              }`}
+            >
+              <AlertTriangle className="w-3.5 h-3.5" />
+              <span>Difíciles ({modeCounts.difficult})</span>
+            </button>
+          </div>
+
+          <div className="text-[11px] text-slate-500 font-semibold px-1 text-right flex-shrink-0">
+            {studyMode === "today" && `Tema activo: ${topic?.code || activeDayCode}`}
+            {studyMode === "due" && "Repasando según curva del olvido"}
+            {studyMode === "cumulative" && "Material acumulado"}
+            {studyMode === "random" && "Práctica intercalada"}
+            {studyMode === "difficult" && "Reactivos con lapsos/fallos"}
           </div>
         </div>
       )}

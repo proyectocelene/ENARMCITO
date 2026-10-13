@@ -1,0 +1,709 @@
+{
+  "topic_code": "D17",
+  "title": "Simulador Post-Estudio: Hernias de Pared Abdominal y Diverticulitis",
+  "normativa_origen": "GPC IMSS-065-08 / GPC IMSS-238-09 / GPC Diverticulitis CENETEC",
+  "duration_minutes": 30,
+  "seconds_per_question": 72,
+  "questions": [
+    {
+      "id": "d17_sim_q1",
+      "index": 1,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Hernia Inguinal Directa vs Indirecta y Plastia Inguinal Libre de Tensión",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Masculino de 57 años, estibador en central de abastos con índice tabáquico de 24 paquetes-año y tos matutina crónica por EPOC leve, acude a consulta de cirugía general por abultamiento en la región inguinal derecha de 7 meses de evolución que protruye de forma evidente tras levantar bultos pesados y desaparece espontáneamente en decúbito dorsal. Niega dolor agudo incapacitante, náuseas o vómitos. Signos vitales: TA 128/82 mmHg, FC 74 lpm, FR 16 rpm, afebril. A la exploración física en bipedestación con maniobra de Valsalva, se aprecia una protrusión semiesférica en la región inguinal derecha. A la palpación introduciendo el dedo índice a través del anillo inguinal externo invaginando la piel escrotal, al solicitar pujo, la masa empuja directamente hacia adelante chocando contra la cara palmar (pulpejo) del dedo a través de la pared posterior del conducto inguinal, medial a los vasos epigástricos inferiores. Al realizar la maniobra de Landívar (ocluir con presión digital firme el orificio inguinal profundo a 1.5-2 cm por arriba del punto medio del ligamento inguinal) y solicitar nuevo pujo, la masa continúa protruyendo con la misma facilidad medial a la compresión.",
+      "question_text": "Con base en los hallazgos topográficos, las maniobras exploratorias y el sistema de clasificación de Nyhus adoptado por la GPC IMSS-065-08, ¿cuál es el tipo de defecto anatómico y su clasificación exacta?",
+      "options": {
+        "A": "Hernia inguinal indirecta por persistencia del proceso vaginal permeable; clasificación de Nyhus Tipo I.",
+        "B": "Hernia inguinal directa originada en el triángulo de Hesselbach por debilidad de la fascia transversalis; clasificación de Nyhus Tipo IIIa.",
+        "C": "Hernia inguinal indirecta con dilatación del anillo inguinal profundo sin afección del piso; clasificación de Nyhus Tipo II.",
+        "D": "Hernia femoral (crural) por protrusión infraligamentaria medial a la vena femoral; clasificación de Nyhus Tipo IIIc."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Diagnostico_Anatomico_Clasificacion",
+      "gpc_algorithm_step": "La GPC IMSS-065-08 establece que la hernia inguinal directa se produce por debilidad adquirida de la fascia transversalis en el piso del conducto inguinal dentro del triángulo de Hesselbach (delimitado medialmente por el borde lateral del músculo recto abdominal, inferiormente por el ligamento inguinal y lateralmente por los vasos epigástricos inferiores). Clínicamente choca contra el pulpejo del dedo a través de la pared posterior y NO se bloquea con la oclusión del anillo interno (maniobra de Landívar negativa para contención). En la clasificación de Nyhus, las alteraciones del piso inguinal o pared posterior corresponden al Tipo III: IIIa es hernia directa, IIIb es hernia indirecta con pared posterior defectuosa / en pantalón / inguinoescrotal, y IIIc es hernia femoral. Nyhus I y II son hernias indirectas con pared posterior sana.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Asumir que toda hernia inguinal en el varón es indirecta sin analizar la relación medial respecto a los vasos epigástricos inferiores y la maniobra de Landívar que no detiene la protrusión."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la clasificación de Nyhus de una hernia inguinal directa en el triángulo de Hesselbach?",
+        "back": "Nyhus Tipo IIIa (debilidad de la fascia transversalis en el triángulo de Hesselbach, medial a los vasos epigástricos inferiores).",
+        "tags": "D17 Cirugia Hernia Nyhus Hesselbach GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q2",
+      "index": 2,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Hernia Inguinal Directa vs Indirecta y Plastia Inguinal Libre de Tensión",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En el paciente de 57 años con hernia inguinal directa derecha sintomática reductible (Nyhus IIIa), riesgo quirúrgico ASA II por EPOC controlado y tabaquismo, se programa reparación quirúrgica electiva ambulatoria. El médico residente propone realizar una reparación tisular anatómica sin material protésico (como la técnica de Bassini o Shouldice) para economizar recursos institucionales. El cirujano adscrito rechaza la propuesta y fundamenta la selección del estándar de oro abierto libre de tensión basado en la GPC IMSS-065-08.",
+      "question_text": "De acuerdo con la GPC IMSS-065-08 y las guías internacionales (HerniaSurge), ¿cuál es la técnica quirúrgica abierta de primera línea (estándar de oro) para la plastia inguinal primaria en este paciente y cuál es su tasa de recurrencia esperada?",
+      "options": {
+        "A": "Reparación tisular anatómica de Bassini aproximando el tendón conjunto al ligamento inguinal; tasa de recurrencia < 1%.",
+        "B": "Reparación abierta libre de tensión con colocación de malla plana de polipropileno según técnica de Lichtenstein; tasa de recurrencia < 1-2%.",
+        "C": "Reparación tisular de McVay fijando el tendón conjunto al ligamento de Cooper bajo tensión; tasa de recurrencia < 0.5%.",
+        "D": "Colocación de tapón (plug) reabsorbible de colágeno biológico sin fijación perióstica; tasa de recurrencia < 2%."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Primera_Linea_Tx",
+      "gpc_algorithm_step": "La GPC IMSS-065-08 establece categóricamente que la plastia inguinal libre de tensión con malla de polipropileno mediante la técnica de Lichtenstein es el estándar de oro (Gold Standard) para la reparación abierta de la hernia inguinal primaria en pacientes adultos. El principio libre de tensión evita la isquemia tisular y desgarros causados por la tracción de los tejidos nativos, reduciendo la recurrencia a menos del 1-2% en comparación con las reparaciones puramente tisulares con tensión (Bassini o Shouldice), las cuales tienen recurrencias de 10-15% en la práctica habitual. McVay se reserva para hernias femorales o contaminación donde la malla esté contraindicada.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Confundir recomendaciones de centros especializados altamente experimentados en Shouldice (que reportan bajas tasas de recidiva pero requieren entrenamiento extremo y generan tensión tisular) con la recomendación universal de primera línea institucional que es Lichtenstein."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estándar de oro quirúrgico abierto para hernia inguinal primaria en adultos según GPC IMSS-065-08?",
+        "back": "Técnica libre de tensión de Lichtenstein con malla plana de polipropileno (recurrencia < 1-2%).",
+        "tags": "D17 Cirugia Hernia Lichtenstein GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q3",
+      "index": 3,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Hernia Inguinal Directa vs Indirecta y Plastia Inguinal Libre de Tensión",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "El paciente de 57 años es sometido con éxito a una plastia de Lichtenstein derecha. A las 12 semanas de la intervención, acude a consulta refiriendo dolor constante de tipo ardoroso y quemante (EVA 6/10) asociado a parestesias e hipersensibilidad al roce de la ropa en la raíz del escroto, base del pene y cara superomedial del muslo derecho. El dolor empeora al caminar o extender la cadera y no mejora con paracetamol. A la exploración no se palpan defectos herniarios residuales ni colecciones, pero se desencadena dolor punzante exquisito al presionar sobre el tubérculo del pubis y trayecto del conducto inguinal.",
+      "question_text": "Con base en la GPC IMSS-065-08 y la anatomía quirúrgica inguinal, ¿cuál es el diagnóstico y la estructura nerviosa con mayor probabilidad de atrapamiento o lesión por fijación de la malla protésica?",
+      "options": {
+        "A": "Orquitis isquémica aguda por trombosis del plexo pampiniforme.",
+        "B": "Inguinodinia crónica neuropática por lesión o atrapamiento del nervio ilioinguinal (o iliohipogástrico / rama genital del genitofemoral).",
+        "C": "Síndrome compartimental del muslo por compresión iatrogénica de la arteria femoral común.",
+        "D": "Meralgia parestésica aislada por compresión del nervio cutáneo femoral lateral en el foramen obturador."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Complicacion_Postoperatoria",
+      "gpc_algorithm_step": "La GPC IMSS-065-08 define la inguinodinia crónica como dolor inguinal persistente que dura más de 3 meses tras la intervención quirúrgica (afecta al 10-12% de los pacientes). En la técnica de Lichtenstein, el nervio ilioinguinal (que discurre sobre el cordón espermático ventral al cremáster) y el nervio iliohipogástrico (que corre por debajo de la aponeurosis del oblicuo mayor) son las estructuras más susceptibles de ser atrapadas por las suturas de fijación de la malla (especialmente en el tubérculo púbico) o por la reacción fibrótica del polipropileno. El nervio genitofemoral (rama genital) también puede lesionarse dentro del cordón. Ocasiona dolor ardoroso y alodinia en base del pene, raíz escrotal y cara medial del muslo.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Confundir el dolor neuropático inguinal crónico con orquitis isquémica; la orquitis se presenta en las primeras 48-72 horas con teste tumefacto y doloroso, mientras que la inguinodinia es crónica (>3 meses) y con distribución sensitiva dermatómica."
+      },
+      "anki_flashcard": {
+        "front": "¿Cómo se define la inguinodinia crónica post-herniorrafia y cuál es el nervio más frecuentemente lesionado?",
+        "back": "Dolor inguinal persistente >3 meses postquirúrgico; nervio ilioinguinal (seguido de iliohipogástrico y rama genital del genitofemoral).",
+        "tags": "D17 Cirugia Hernia Inguinodinia Ilioinguinal GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q4",
+      "index": 4,
+      "case_id": "SERIADO-1",
+      "case_title": "Caso Seriado 1: Hernia Inguinal Directa vs Indirecta y Plastia Inguinal Libre de Tensión",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En el paciente con inguinodinia crónica derecha de 3 meses de evolución tras plastia de Lichtenstein, el ultrasonido inguinal de alta resolución descarta recidiva herniaria, colecciones líquidas o granulomas por cuerpo extraño. Se evalúa el plan terapéutico integral y el tiempo estipulado para su incapacidad laboral antes de poder retomar sus actividades en la central de abastos.",
+      "question_text": "Conforme a las recomendaciones de la GPC IMSS-065-08 para el tratamiento escalonado de la inguinodinia crónica y la incapacidad laboral post-plastia con malla, ¿cuál es la conducta secuencial apropiada?",
+      "options": {
+        "A": "Reexploración quirúrgica inmediata en 24 horas para resección de toda la malla protésica y orquiectomía ipsilateral profiláctica.",
+        "B": "Tratamiento médico inicial escalonado con neuromoduladores (gabapentina/pregabalina), AINEs e infiltración con anestésico local más corticoide; reincorporación a labores no pesadas a los 14-28 días postquirúrgicos iniciales.",
+        "C": "Reposo absoluto en cama por 6 meses con inmovilización pélvica rígida e infusión continua de opioides mayores.",
+        "D": "Laparotomía exploradora de urgencia para neurectomía del nervio vago y simpatectomía lumbar bilateral inmediata."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Manejo_Complicacion_Retorno",
+      "gpc_algorithm_step": "La GPC IMSS-065-08 establece que el manejo de la inguinodinia crónica debe ser inicialmente conservador durante al menos 6 meses a un año: farmacoterapia multimodal con neuromoduladores (gabapentina, pregabalina), AINEs y bloqueos anestésicos locales diagnósticos y terapéuticos con corticoides guiados por ultrasonido. La reintervención quirúrgica (triple neurectomía y retiro de malla) se reserva exclusivamente como último recurso ante fracaso del manejo médico tras 6 a 12 meses. Respecto a la incapacidad laboral, tras una plastia libre de tensión no complicada, el retorno laboral sugerido para trabajos ligeros es de 7 a 14 días y para trabajos de esfuerzo moderado a pesado es de 14 a 28 días, evitando esfuerzos extremos las primeras 4 semanas.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar reoperación inmediata y retiro de malla como paso inicial; la cirugía es la última opción tras agotar neuromoduladores y bloqueos anestésicos durante meses."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el manejo inicial de la inguinodinia crónica y el tiempo de incapacidad laboral tras plastia con malla según GPC?",
+        "back": "Manejo conservador (neuromoduladores + bloqueos anestésicos); retorno laboral habitual a los 14-28 días postoperatorios.",
+        "tags": "D17 Cirugia Hernia Inguinodinia Tratamiento GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q5",
+      "index": 5,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Hernia Femoral (Crural) Estrangulada con Isquemia Intestinal",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mujer de 79 años, delgada (IMC 19.2 kg/m2), multípara (G6 P6), con antecedente de estreñimiento pertinaz crónico, acude a urgencias por presentar desde hace 16 horas dolor súbito y progresivo en la raíz del muslo derecho y región periumbilical (EVA 9/10), náuseas intensas, tres vómitos de contenido porráceo y detención total del tránsito intestinal (sin evacuaciones ni canalización de gases). Signos vitales: TA 114/70 mmHg, FC 104 lpm, FR 22 rpm, Temperatura 37.9 °C. El abdomen muestra distensión moderada con ruidos hidroaéreos metálicos audibles. A la exploración física en la raíz del muslo derecho, por debajo del ligamento inguinal y medial al latido palpable de la arteria femoral, se aprecia una tumoración redondeada de 3 x 2.5 cm, dura, intensamente dolorosa a la palpación, irreductible, con aumento de la temperatura local y eritema violáceo en la piel suprayacente.",
+      "question_text": "Con base en la topografía descrita y la GPC IMSS-065-08, ¿cuál es el diagnóstico de localización anatómica y cuáles son los límites osteo-ligamentarios del anillo a través del cual protruye, que explican su alta tasa de estrangulación (hasta 45%)?",
+      "options": {
+        "A": "Hernia inguinal indirecta (Nyhus II); delimitada por el tendón conjunto superiormente y el músculo oblicuo externo inferiormente.",
+        "B": "Hernia femoral o crural (Nyhus IIIc); anillo delimitado superiormente por el ligamento inguinal, medialmente por el ligamento lacunar (Gimbernat), inferiormente por el ligamento pectíneo (Cooper) y lateralmente por la vena femoral.",
+        "C": "Hernia inguinal directa (Nyhus IIIa); delimitada medialmente por los vasos epigástricos y lateralmente por el ligamento de Cooper.",
+        "D": "Hernia obturatriz (Nyhus IV); delimitada por la membrana obturatriz, el nervio obturador y el músculo recto interno."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Diagnostico_Anatomico_Limites",
+      "gpc_algorithm_step": "La GPC IMSS-065-08 especifica que la hernia femoral (crural) protruye a través del conducto femoral, localizándose estrictamente por debajo del ligamento inguinal (infraligamentaria) y medial a la vena femoral. Sus límites anatómicos rígidos e inextensibles son: superior (ligamento inguinal o de Poupart), medial (ligamento lacunar o de Gimbernat), inferior (ligamento pectíneo o de Cooper) y lateral (vaina de la vena femoral). Debido a la inextensibilidad ósea y ligamentaria del anillo femoral, presenta la tasa más alta de incarceración y estrangulación isquémica (35-45%) entre todas las hernias de la ingle, predominando en mujeres ancianas y multíparas. En Nyhus corresponde al Tipo IIIc.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Asumir que por estar en la región inguinal se trata de una hernia inguinal indirecta; el detalle anatómico clave es su ubicación INFRALIGAMENTARIA (por debajo del ligamento inguinal) y medial a los vasos femorales."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los límites anatómicos del anillo femoral (crural) y cuál es su correlación clínica?",
+        "back": "Superior: lig. inguinal; Medial: lig. lacunar (Gimbernat); Inferior: lig. pectíneo (Cooper); Lateral: vena femoral. Causa rigidez y hasta 45% de estrangulación.",
+        "tags": "D17 Cirugia Hernia Femoral Limites GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q6",
+      "index": 6,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Hernia Femoral (Crural) Estrangulada con Isquemia Intestinal",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En la paciente de 79 años con hernia femoral irreductible, cambios inflamatorios cutáneos (eritema violáceo), taquicardia y 16 horas de evolución con oclusión mecánica intestinal, el médico interno de pregrado propone administrar sedación intravenosa con fentanilo, colocar a la paciente en posición de Trendelenburg e intentar una compresión bimanual vigorosa (maniobra de taxis) para reducir el bulto y permitir programar la cirugía de forma electiva por la mañana.",
+      "question_text": "De acuerdo con la GPC IMSS-065-08 y los principios de urgencias quirúrgicas, ¿por qué está FORMALMENTE CONTRAINDICADA la maniobra de taxis en este paciente y cuál es la conducta médica inmediata?",
+      "options": {
+        "A": "La taxis está contraindicada por riesgo de romper la arteria epigástrica inferior; se debe solicitar TAC contrastada ambulatoria con cita en 4 semanas.",
+        "B": "La taxis está formalmente proscrita porque reducir un asa estrangulada e isquémica/necrótica puede provocar 'reducción en masa' o perforación transmural intraperitoneal libre con peritonitis fecaloidea y choque séptico; se debe proceder a reanimación y laparotomía/exploración quirúrgica de urgencia.",
+        "C": "La taxis está contraindicada únicamente si la paciente tiene hemorroides grado IV; si no las tiene, debe realizarse bajo anestesia general en piso de hospitalización.",
+        "D": "La taxis debe posponerse 48 horas mientras se administra antibioticoterapia oral con amoxicilina simple en domicilio."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Conducta_Urgencia_Contraindicacion",
+      "gpc_algorithm_step": "La GPC IMSS-065-08 y los estándares quirúrgicos mundiales estipulan que la maniobra de reducción manual forzada (taxis) está contraindicada en hernias con más de 4 a 6 horas de incarceración o cuando existen signos clínicos de estrangulación (dolor intenso persistente, taquicardia, fiebre, eritema cutáneo, leucocitosis). Forzar la reducción puede reintroducir un asa intestinal no viable que ya ha sufrido necrosis transmural hacia la cavidad libre peritoneal (o provocar 'reducción en masa', donde el asa se introduce aún comprimida por el anillo constrictor), desencadenando perforación intestinal oculta, peritonitis estercorácea y choque séptico fulminante. La conducta obligada es reanimación hídrica urgente, antibióticos parenterales y cirugía de urgencia inmediata.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La taxis solo puede intentarse con delicadeza en hernias incarceradas tempranas (<2-4 horas) sin datos de sufrimiento de asa, eritema ni respuesta inflamatoria; realizarla con datos de estrangulación de 16 horas es una falta médica grave."
+      },
+      "anki_flashcard": {
+        "front": "¿Por qué está contraindicada la maniobra de taxis en una hernia con sospecha de estrangulación?",
+        "back": "Riesgo de reducción en masa o perforación intraperitoneal de un asa isquémica/necrótica, desencadenando peritonitis fecaloidea y choque séptico.",
+        "tags": "D17 Cirugia Hernia Taxis Contraindicacion GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q7",
+      "index": 7,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Hernia Femoral (Crural) Estrangulada con Isquemia Intestinal",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente es trasladada a quirófano para cirugía de urgencia. Al abrir el saco herniario femoral se objetiva un segmento de 10 cm de íleon terminal encarcelado, de coloración negra negruzca, sin peristalsis ni pulsos mesentéricos y con líquido fétido serohemático. Se secciona el ligamento lacunar de Gimbernat para liberar el anillo constrictor y se coloca el asa en compresas tibias con oxígeno al 100% durante 15 minutos; el asa permanece irreversiblemente desvitalizada (necrosis transmural). Se realiza resección intestinal del segmento isquémico con anastomosis ileo-ileal término-terminal. Se evalúa el método de reparación de la pared para el orificio femoral.",
+      "question_text": "En presencia de contaminación peritoneal por necrosis intestinal y resección de asa delgada, ¿cuál es la técnica de herniorrafia tisular recomendada por la GPC IMSS-065-08 para ocluir el anillo femoral sin colocar material protésico sintético convencional para prevenir infección profunda de malla?",
+      "options": {
+        "A": "Técnica de Lichtenstein con malla gruesa de polipropileno colocada directamente sobre la anastomosis intestinal.",
+        "B": "Técnica de McVay (aproximación del tendón conjunto y fascia transversalis al ligamento de Cooper con incisión de descarga de Tanner).",
+        "C": "Colocación de tapón (plug) sintético permanente intraarterial femoral con pegamento tisular.",
+        "D": "Técnica de Bassini clásica con sutura continua de catgut simple al periostio ilíaco."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Tecnica_Quirurgica_Complicada",
+      "gpc_algorithm_step": "La GPC IMSS-065-08 establece que cuando se presenta una hernia femoral complicada que requiere resección intestinal en un campo quirúrgico contaminado, el uso de mallas protésicas sintéticas estándar (polipropileno no absorbible) debe evitarse por el alto riesgo de infección profunda de la prótesis, formación de fístulas enterocutáneas y extrusion. En este escenario, la técnica anatómica tisular de elección es la técnica de McVay, la cual sutura el tendón conjunto y la fascia transversalis al ligamento de Cooper (pectíneo), ocluyendo tanto el orificio inguinal como el conducto femoral. Para evitar una tensión tisular excesiva que condicione desgarro, es mandatorio realizar una incisión de relajación o descarga en la hoja anterior de la vaina del recto (incisión de Tanner). Bassini no ocluye el conducto femoral.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Indicar malla sintética habitual en un campo contaminado con resección intestinal necrótica en cirugía abierta de urgencia; la GPC prioriza la herniorrafia tisular de McVay para evitar catástrofes infecciosas protésicas."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la técnica quirúrgica tisular de elección para reparar una hernia femoral en un campo contaminado sin malla?",
+        "back": "Técnica de McVay (sutura del tendón conjunto al ligamento de Cooper con incisión de descarga de Tanner).",
+        "tags": "D17 Cirugia Hernia McVay Cooper Femoral GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q8",
+      "index": 8,
+      "case_id": "SERIADO-2",
+      "case_title": "Caso Seriado 2: Hernia Femoral (Crural) Estrangulada con Isquemia Intestinal",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Durante la sesión general de morbimortalidad quirúrgica, el profesor titular interroga al equipo sobre variantes anatómicas complejas. Expone el caso de una paciente anciana con una hernia incarcerada en la que, a pesar de existir estrangulación transmural, necrosis parietal y perforación intestinal localizada en el saco, la paciente NUNCA presentó distensión abdominal ni cuadro clínico de oclusión intestinal mecánica completa (continuó canalizando gases y teniendo evacuaciones líquidas), debido a que el anillo herniario pellizcó únicamente una porción del borde antimesentérico de la circunferencia del asa ileal sin obstruir la totalidad de la luz.",
+      "question_text": "Con base en la nomenclatura quirúrgica tradicional y los síndromes epónimos herniarios frecuentemente evaluados en el ENARM, ¿a cuál entidad corresponde este cuadro?",
+      "options": {
+        "A": "Hernia de Littre (contenido sacular constituido por un divertículo de Meckel).",
+        "B": "Hernia de Amyand (presencia del apéndice cecal dentro del saco herniario inguinal).",
+        "C": "Hernia de Richter (pellizcamiento y estrangulación exclusiva del borde antimesentérico de la pared intestinal sin oclusión completa de la luz).",
+        "D": "Hernia de Maydl (hernia en 'W' con estrangulación retrógrada del asa intestinal intermedia intraabdominal)."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Eponimo_Herniario_Clinico",
+      "gpc_algorithm_step": "La Hernia de Richter es el atrapamiento parcial de la circunferencia de la pared intestinal (típicamente el borde antimesentérico) dentro de un anillo herniario estrecho y rígido (frecuente en hernias femorales y en los puertos laparoscópicos). Su trampa psicométrica clásica en el ENARM radica en que NO produce oclusión intestinal mecánica completa temprana (no hay detención del tránsito de gases ni distensión masiva porque la luz intestinal sigue patente en parte), pero el borde atrapado sufre isquemia, necrosis transmural y perforación peritoneal. Littre es divertículo de Meckel; Amyand es apéndice cecal en saco inguinal (y De Garengeot en saco femoral); Maydl es hernia en W con isquemia retrógrada.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Confundir los epónimos clásicos; recordar que Richter es borde antimesentérico sin obstrucción mecánica luminal completa, Littre es Meckel y Amyand es apéndice."
+      },
+      "anki_flashcard": {
+        "front": "¿Qué caracteriza a la Hernia de Richter y cuál es su trampa clínica clásica?",
+        "back": "Atrapamiento del borde antimesentérico sin obstrucción mecánica completa de la luz; causa isquemia y perforación sin datos clásicos de oclusión.",
+        "tags": "D17 Cirugia Hernia Richter Eponimo GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q9",
+      "index": 9,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Hernia Ventral Incisional Compleja y Pérdida de Domicilio",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Masculino de 62 años, con índice de masa corporal (IMC) de 36.2 kg/m2, antecedente de tabaquismo crónico suspendido hace 3 meses y laparotomía exploradora en línea media hace 2 años por peritonitis secundaria a úlcera perforada, la cual se complicó con infección profunda de sitio quirúrgico y dehiscencia fascial. Acude por una enorme masa abdominal que deforma completamente la pared anterior. A la exploración física en decúbito y bipedestación se palpa un defecto aponeurótico longitudinal en la línea media supra e infraumbilical que mide 14 cm de diámetro transversal por 18 cm de longitud (M2-M4 según EHS), con una masa que protruye de forma masiva. La tomografía computarizada abdominopélvica volumétrica con reconstrucción 3D demuestra que el volumen del saco herniario corresponde al 29% del volumen total de la cavidad abdominal residual.",
+      "question_text": "De acuerdo con la clasificación de la European Hernia Society (EHS) y la GPC IMSS-238-09 para hernias incisionales, ¿cómo se clasifica el ancho del defecto (W) y cuál es el estado anatómico-funcional respecto al volumen visceral herniado?",
+      "options": {
+        "A": "Defecto W1 (< 4 cm) con hernia reducible simple sin riesgo fisiológico.",
+        "B": "Defecto W2 (4 a 10 cm) con hernia incisional moderada sin repercusión volumétrica.",
+        "C": "Defecto W3 (> 10 cm) con hernia incisional compleja y pérdida del derecho de domicilio (volumen sacular > 20-25% de la cavidad abdominal).",
+        "D": "Diástasis de rectos aislada que únicamente requiere ejercicios hipopresivos de pared abdominal."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Estratificacion_EHS_Perdida_Domicilio",
+      "gpc_algorithm_step": "La clasificación de la European Hernia Society (EHS) adoptada por la GPC IMSS-238-09 clasifica las hernias incisionales según su localización (Línea media M1 a M5; Laterales L1 a L4) y el ancho del defecto (W): W1 (< 4 cm), W2 (4 a 10 cm) y W3 (> 10 cm). Cuando el ancho supera los 10 cm se considera defecto W3 (gigante). Además, se define como 'pérdida del derecho de domicilio' (loss of domain) cuando el volumen del saco herniario supera el 20-25% del volumen de la cavidad abdominal en la volumetría por TAC (índice de Tanaka o método de Sabbagh). Esto implica una alteración fisiológica mayor: los músculos de la pared se retraen lateralmente, el diafragma pierde tono y la reintroducción abrupta de las vísceras generará hipertensión intraabdominal fatal.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Subestimar un defecto de 14 cm como W2; los límites de corte de la EHS son estrictos: W1 <4 cm, W2 4-10 cm y W3 >10 cm."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los puntos de corte de ancho (W) en la clasificación EHS de hernia incisional y qué define pérdida de domicilio?",
+        "back": "W1 <4 cm, W2 4-10 cm, W3 >10 cm. Pérdida de domicilio: volumen del saco >20-25% del volumen de la cavidad abdominal en TAC.",
+        "tags": "D17 Cirugia Hernia Incisional EHS Tanaka GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q10",
+      "index": 10,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Hernia Ventral Incisional Compleja y Pérdida de Domicilio",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "En el paciente de 62 años con hernia incisional W3 y pérdida del derecho de domicilio (volumen sacular del 29%), el equipo quirúrgico multidisciplinario evalúa el plan preoperatorio. Se reconoce que intentar cerrar la pared abdominal y reducir las vísceras directamente en quirófano sin preparación acondicionadora desencadenará colapso hemodinámico inmediato, compresión diafragmática severa con falla ventilatoria aguda restrictiva e hipertensión intraabdominal maligna.",
+      "question_text": "Con base en la GPC IMSS-238-09 y los protocolos modernos de reconstrucción de pared abdominal compleja, ¿cuál es la estrategia preoperatoria de acondicionamiento de primera línea indicada para expandir progresivamente la cavidad y elongar los músculos laterales retraídos?",
+      "options": {
+        "A": "Paracentesis evacuadora diaria durante 21 días sin reposición de albúmina sérica.",
+        "B": "Neumoperitoneo progresivo preoperatorio (técnica de Goñi Moreno) mediante insuflación gradual de aire ambiente/CO2 por catéter peritoneal y/o aplicación de toxina botulínica tipo A en la musculatura lateral de la pared.",
+        "C": "Ayuno absoluto con nutrición parenteral periférica hipocalórica durante 4 semanas.",
+        "D": "Vendaje abdominal rígido circunferencial con faja elástica a 60 mmHg durante 3 meses previos al evento quirúrgico."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Preparacion_Preoperatoria_Goni_Moreno",
+      "gpc_algorithm_step": "La GPC IMSS-238-09 y los consensos internacionales de pared abdominal establecen que los pacientes con hernias incisionales con pérdida del derecho de domicilio deben recibir preparación preoperatoria especializada para readaptar la cavidad abdominal y disminuir la tensión fascial. La técnica de Goñi Moreno (neumoperitoneo progresivo preoperatorio) consiste en colocar un catéter en la cavidad peritoneal e insuflar gradualmente aire ambiente o CO2 durante 10 a 20 días (hasta 10-15 litros acumulados). Esto elonga progresivamente los músculos de la pared lateral retraídos, incrementa la capacidad volumétrica intraabdominal y mejora la mecánica diafragmática. La infiltración de toxina botulínica tipo A en los músculos oblicuos y transverso 4 semanas antes induce parálisis flácida temporal, facilitando el cierre fascial en línea media sin tensión.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Colocar vendajes compresivos circunferenciales externos; esto eleva aún más la presión intraabdominal y empeora la función respiratoria en lugar de expandir la cavidad peritoneal."
+      },
+      "anki_flashcard": {
+        "front": "¿En qué consiste la técnica de Goñi Moreno y cuál es su indicación principal en hernias?",
+        "back": "Neumoperitoneo progresivo preoperatorio mediante insuflación gradual de aire en peritoneo para expandir la cavidad en hernias con pérdida de derecho a domicilio.",
+        "tags": "D17 Cirugia Hernia Goni Moreno Perdida Domicilio GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q11",
+      "index": 11,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Hernia Ventral Incisional Compleja y Pérdida de Domicilio",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Tras completar con éxito el protocolo de neumoperitoneo progresivo con excelente tolerancia ventilatoria, el paciente es llevado a plastia incisional electiva. Se debate el plano anatómico idóneo para posicionar la malla de polipropileno de poro ancho. El residente sugiere fijar la prótesis directamente sobre la aponeurosis anterior de los músculos rectos, en el tejido celular subcutáneo (técnica Onlay / supraaponeurótica). El cirujano adscrito rechaza la técnica Onlay basándose en la evidencia de la GPC IMSS-238-09 sobre alta incidencia de seromas e infecciones, e indica la técnica considerada estándar de oro reconstructivo abierto.",
+      "question_text": "De acuerdo con la GPC IMSS-238-09 y los consensos internacionales de pared abdominal, ¿cuál es la técnica quirúrgica reconstructiva abierta de elección (estándar de oro) y cuál es el plano anatómico exacto donde se aloja la malla protésica?",
+      "options": {
+        "A": "Técnica Onlay colocando la malla libre sobre el tejido celular subcutáneo en contacto con la piel sin cobertura fascial.",
+        "B": "Técnica de Rives-Stoppa colocando la malla en el plano retromuscular (retrorectal / prefascial posterior preperitoneal), aislada del contenido visceral por la vaina posterior del recto y peritoneo.",
+        "C": "Técnica Inlay suturando la malla como un puente libre borde a borde entre los extremos del defecto fascial sin solapamiento.",
+        "D": "Cierre simple por planos con sutura absorbente de ácido poliglicólico bajo tensión extrema sin prótesis."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Tecnica_Quirurgica_Rives_Stoppa",
+      "gpc_algorithm_step": "La GPC IMSS-238-09 establece que la técnica de Rives-Stoppa (reparación sublay retromuscular) es el estándar de oro para el tratamiento quirúrgico abierto de las hernias incisionales de la línea media. Consiste en disecar el espacio retromuscular (detrás del músculo recto abdominal y por delante de la vaina posterior del recto y peritoneo). La malla de polipropileno macroporoso se coloca en este lecho ricamente vascularizado, con un traslape (overlap) de al menos 5 cm más allá de los bordes del defecto, y queda completamente excluida de las vísceras peritoneales por la hoja posterior y del tejido subcutáneo por el músculo. Ofrece la menor tasa de recurrencia (<5-10%) y una incidencia de seromas e infecciones significativamente menor que la técnica Onlay.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "La técnica Inlay (en puente) tiene una tasa de recidiva inaceptable (>40%) por falta de solapamiento mecánico; la técnica Onlay genera seromas extensos e infección por contacto con la grasa subcutánea."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el plano anatómico de la técnica de Rives-Stoppa y por qué es el estándar de oro en hernia incisional?",
+        "back": "Plano retromuscular (retrorectal / prefascial posterior). Brinda excelente vascularización, aísla la malla de vísceras y grasa, con menor recurrencia e infección.",
+        "tags": "D17 Cirugia Hernia Rives Stoppa Sublay GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q12",
+      "index": 12,
+      "case_id": "SERIADO-3",
+      "case_title": "Caso Seriado 3: Hernia Ventral Incisional Compleja y Pérdida de Domicilio",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "A las 6 horas de concluida la plastia de Rives-Stoppa, el paciente se encuentra en la unidad de terapia intensiva intubado bajo sedación. La enfermera intensivista alerta que el gasto urinario cayó a 0.2 mL/kg/h en las últimas 3 horas (oliguria severa), la presión meseta ventilatoria aumentó de 20 a 36 cmH2O y la frecuencia cardíaca se elevó a 122 lpm con TA de 95/60 mmHg. El abdomen se palpa tenso y distendido 'en madera'. Se conecta un transductor a la sonda vesical de Foley infundiendo 25 mL de solución salina fisiológica al nivel de la sínfisis del pubis, registrándose una presión intraabdominal (PIA) de 24 mmHg.",
+      "question_text": "Conforme a los criterios internacionales de la WSACS y la GPC, ¿cuál es el diagnóstico y la conducta terapéutica inmediata ante este cuadro?",
+      "options": {
+        "A": "Hipertensión intraabdominal grado I no complicada; indicar furosemida intravenosa y pasar al paciente a piso general.",
+        "B": "Síndrome Compartimental Abdominal (PIA > 20 mmHg asociada a nueva falla orgánica: oliguria e insuficiencia respiratoria restrictiva); optimizar sedación y relajación neuromuscular, descompresión gastrointestinal y, ante refractariedad, laparostomía descompresiva de urgencia.",
+        "C": "Choque hipovolémico simple por deshidratación; infusión enérgica de 4,000 mL de solución Hartmann en bolo sin monitorizar la presión vesical.",
+        "D": "Atelectasia pulmonar aislada; extubación inmediata y suspensión de la monitorización vesical."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Sindrome_Compartimental_Abdominal_Manejo",
+      "gpc_algorithm_step": "La Sociedad Mundial del Síndrome Compartimental Abdominal (WSACS) define Hipertensión Intraabdominal (HIA) como PIA mantenida ≥ 12 mmHg. El Síndrome Compartimental Abdominal (SCA) se define estrictamente como una elevación sostenida de la PIA > 20 mmHg que se asocia con el desarrollo de una NUEVA disfunción o falla orgánica (oliguria < 0.5 mL/kg/h por colapso venoso renal, hipoxemia/hipercapnia con elevación de presiones inspiratorias por elevación diafragmática, o inestabilidad hemodinámica). La conducta médica inmediata incluye: optimizar sedación y bloqueo neuromuscular para relajar la pared, descompresión intraluminal con sonda nasogástrica y rectal, evitar sobrecarga hídrica, y si la PIA permanece refractaria > 20 mmHg con deterioro orgánico, realizar laparostomía descompresiva de urgencia (apertura de la pared y abdomen abierto) para salvar la vida.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Interpretar la oliguria y taquicardia como hipovolemia e indicar sobrecarga masiva de cristaloides; esto aumenta el edema visceral (tercer espacio) e incrementa catastróficamente la PIA, conduciendo a paro cardiorrespiratorio."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la definición formal de Síndrome Compartimental Abdominal y su conducta ante refractariedad?",
+        "back": "PIA sostenida >20 mmHg asociada a nueva disfunción orgánica (renal, respiratoria, cardiovascular). Requiere descompresión médica y laparostomía si es refractario.",
+        "tags": "D17 Cirugia Hipertension Intraabdominal SCA WSACS GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q13",
+      "index": 13,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Enfermedad Diverticular Sigmoidea y Diverticulitis Aguda No Complicada",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Mujer de 53 años, empleada administrativa con estreñimiento de larga evolución y baja ingesta de fibra dietética, acude a urgencias por presentar desde hace 36 horas dolor continuo en la fosa ilíaca izquierda de intensidad 7/10, anorexia, náusea sin vómito y sensación de distensión abdominal. Signos vitales: TA 126/78 mmHg, FC 86 lpm, FR 18 rpm, Temperatura 38.2 °C. El abdomen es doloroso a la palpación media y profunda en fosa ilíaca izquierda, donde se delimita un empastamiento localizado con resistencia muscular voluntaria y rebote focal positivo, sin defensa involuntaria generalizada. Laboratorios: leucocitos 13,900/mcL con 81% de neutrófilos y 3% de bandas; hemoglobina 13.8 g/dL; plaquetas 270,000/mcL; creatinina 0.8 mg/dL; PCR 58 mg/L. Examen general de orina normal.",
+      "question_text": "Con base en la GPC CENETEC para el diagnóstico y tratamiento de la enfermedad diverticular del colon, ¿cuál es el estudio de imagen inicial y estándar de oro para confirmar el diagnóstico y etapificar la enfermedad, y qué procedimiento diagnóstico invasivo se encuentra FORMALMENTE CONTRAINDICADO en esta fase aguda?",
+      "options": {
+        "A": "Radiografía simple de abdomen de pie como estándar de oro; colonoscopia total obligada en las primeras 24 horas.",
+        "B": "Tomografía Computarizada (TAC) abdominopélvica con medio de contraste intravenoso como estudio de elección y confirmatorio; la colonoscopia y el colon por enema están formalmente contraindicados en fase aguda por riesgo de perforación colónica barogénica.",
+        "C": "Resonancia magnética simple de abdomen como estudio de elección; la TAC está contraindicada por radiación ionizante.",
+        "D": "Ecografía pélvica transvaginal con enema de bario de urgencia; la colonoscopia no tiene ninguna contraindicación."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Estudio_Eleccion_Contraindicacion",
+      "gpc_algorithm_step": "La GPC CENETEC dictamina con el más alto nivel de recomendación que la Tomografía Computarizada (TAC) abdominopélvica con medio de contraste intravenoso (y oral/rectal cuando esté disponible) es el estudio de imagen de primera línea y estándar de oro para el diagnóstico y estadificación de la diverticulitis aguda (sensibilidad 94-98% y especificidad 99%). Permite visualizar el engrosamiento parietal, la grasa pericólica y la presencia de abscesos o perforaciones. Asimismo, la GPC subraya que la colonoscopia completa y el colon por enema baritado están FORMALMENTE CONTRAINDICADOS durante la fase aguda del cuadro (primeras 6 a 8 semanas) debido al riesgo crítico de perforación colónica barogénica y extravasación de bario o materia fecal al peritoneo libre.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Indicar colonoscopia en la fase aguda; aunque es vital en el seguimiento tardío para descartar neoplasia, realizarla en agudo sobre una pared inflamada y friable constituye una iatrogenia grave que causa perforación."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el estudio de imagen estándar de oro en diverticulitis aguda y qué estudios están contraindicados en agudo?",
+        "back": "TAC abdominopélvica contrastada (S: 95%, E: 99%). Contraindicados en agudo: colonoscopia y colon por enema (riesgo de perforación barogénica).",
+        "tags": "D17 Cirugia Diverticulitis TAC Colonoscopia Contraindicacion GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q14",
+      "index": 14,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Enfermedad Diverticular Sigmoidea y Diverticulitis Aguda No Complicada",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Se realiza TAC abdominopélvica con contraste IV en la paciente de 53 años. El informe tomográfico describe: múltiples saculaciones diverticulares en colon descendente y sigmoides, con engrosamiento parietal circunferencial del colon sigmoides de 6 mm (límite normal ≤ 3-4 mm), marcada estriación e hiperdensidad de la grasa pericólica adyacente (signo del peine o halo inflamatorio pericólico confinado) y ausencia de colecciones líquidas estructuradas, gas extraluminal o líquido libre en correderas parietocólicas o hueco pélvico.",
+      "question_text": "Conforme a los hallazgos de imagen y la Clasificación de Hinchey modificada por Wasvary/Kaiser adoptada por la GPC mexicana, ¿a qué estadio corresponde el cuadro de la paciente?",
+      "options": {
+        "A": "Estadio 0 (diverticulosis clínicamente no inflamada).",
+        "B": "Estadio Ia (flemón pericólico o inflamación pericolónica confinada sin formación de absceso).",
+        "C": "Estadio Ib (absceso pericólico o mesocólico confinado < 4 cm).",
+        "D": "Estadio II (absceso pélvico a distancia o retroperitoneal)."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Estratificacion_Hinchey_Modificada",
+      "gpc_algorithm_step": "La clasificación de Hinchey modificada por Wasvary y Kaiser (endosada por la GPC CENETEC) estratifica la diverticulitis en: Estadio 0: diverticulitis clínica leve/flemón leve sin cambios tomográficos mayores; Estadio Ia: inflamación pericolónica confinada o flemón pericólico (engrosamiento parietal >4 mm y estriación de la grasa) SIN formación de absceso; Estadio Ib: flemón pericólico con absceso pericólico o mesocólico confinado (< 4-5 cm); Estadio II: absceso distante (pélvico, retroperitoneal o intraabdominal complejo); Estadio III: peritonitis purulenta generalizada; Estadio IV: peritonitis fecaloidea generalizada.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Confundir Estadio Ia (flemón o inflamación confinada sin absceso) con Estadio Ib (microabsceso o absceso pericólico menor de 4 cm)."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la diferencia tomográfica clave entre Hinchey Ia y Hinchey Ib?",
+        "back": "Hinchey Ia = Flemón o inflamación pericólica confinada SIN absceso. Hinchey Ib = Absceso pericólico o mesocólico confinado (<4 cm).",
+        "tags": "D17 Cirugia Diverticulitis Hinchey Wasvary GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q15",
+      "index": 15,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Enfermedad Diverticular Sigmoidea y Diverticulitis Aguda No Complicada",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "La paciente de 53 años con diverticulitis aguda no complicada estadio Hinchey Ia tolera adecuadamente líquidos claros por vía oral sin vómitos, se encuentra hemodinámicamente estable, con dolor leve controlado con analgésicos, cuenta con red de apoyo familiar en su domicilio y no tiene diabetes, nefropatía ni inmunosupresión. El médico interno de pregrado propone ingresarla a sala de hospitalización general para ayuno estricto y programarla para una sigmoidectomía abierta urgente en las próximas 24 horas.",
+      "question_text": "Con base en los algoritmos de la GPC CENETEC (diferenciándola de controversias de guías foráneas que intentan omitir antimicrobianos en todos los casos), ¿cuál es el plan terapéutico de primera línea institucionalmente recomendado en México para este perfil de paciente?",
+      "options": {
+        "A": "Intervención quirúrgica abierta urgente con procedimiento de Hartmann antes de 12 horas.",
+        "B": "Manejo médico ambulatorio con dieta líquida clara a blanda, analgesia oral, reposo relativo y antibioticoterapia oral combinada (ciprofloxacino 500 mg c/12 h + metronidazol 500 mg c/8 h o amoxicilina/ácido clavulánico 875/125 mg c/12 h) por 7-10 días, con cita de revaloración clínica en 48-72 horas.",
+        "C": "Hospitalización en UCI con nutrición parenteral total exclusiva durante 21 días sin fármacos por vía oral.",
+        "D": "Colocación de sonda nasogástrica descompresiva a succión continua y colonoscopia con inyección de fibrina en los orificios diverticulares."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Primera_Linea_Tx_Ambulatorio",
+      "gpc_algorithm_step": "La GPC CENETEC estipula que los pacientes con diverticulitis aguda no complicada (Hinchey Ia), que presenten estabilidad hemodinámica, buena tolerancia a la vía oral, ausencia de comorbilidades graves o inmunosupresión y adecuado soporte familiar, son candidatos a manejo médico ambulatorio. El esquema consiste en dieta líquida clara pasando a blanda, analgésicos (paracetamol o antiespasmódicos) y antibioticoterapia oral con cobertura para bacilos gramnegativos entéricos y anaerobios (ciprofloxacino + metronidazol, o amoxicilina/clavulanato, o cefalosporina oral + metronidazol) durante 7 a 10 días. Debe instruirse sobre datos de alarma (fiebre persistente, vómitos, dolor intolerable) y programar revaloración en 48-72 horas. La cirugía urgente está proscrita.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "En guías estadounidenses o europeas recientes se sugiere manejo sintomático sin antibióticos en casos muy seleccionados, pero la GPC CENETEC y la práctica institucional en México mantienen como estándar formal el esquema antimicrobiano oral ambulatorio para prevenir progresión a flemón abscedado."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el manejo de primera línea para diverticulitis aguda no complicada (Hinchey Ia) de bajo riesgo según GPC CENETEC?",
+        "back": "Manejo ambulatorio: dieta líquida/blanda + analgésicos + antibióticos orales (ciprofloxacino + metronidazol o amoxicilina/clavulanato) por 7-10 días y cita en 48-72 h.",
+        "tags": "D17 Cirugia Diverticulitis Hinchey Ia Ambulatorio GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q16",
+      "index": 16,
+      "case_id": "SERIADO-4",
+      "case_title": "Caso Seriado 4: Enfermedad Diverticular Sigmoidea y Diverticulitis Aguda No Complicada",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "La paciente evoluciona de manera excelente al tratamiento ambulatorio, resolviéndose el dolor abdominal y normalizándose los reactantes de fase aguda a los 7 días. Acude a su cita de seguimiento y expresa dos dudas frecuentes: 1) Cuándo debe realizarse estudios endoscópicos para descartar un cáncer colónico oculto que simule diverticulitis, y 2) Si debe eliminar para siempre de su dieta las semillas de jitomate, cacahuates, nueces y palomitas de maíz para que no se le 'atasquen' en los divertículos.",
+      "question_text": "Con base en la GPC CENETEC y las mejores prácticas en coloproctología, ¿cuál es la recomendación formal respecto al tiempo de diferimiento de la colonoscopia electiva y a la restricción dietética de semillas y nueces?",
+      "options": {
+        "A": "Realizar colonoscopia inmediata a los 10 días de iniciado el cuadro; prohibición vitalicia rigurosa de semillas, cacahuates y nueces.",
+        "B": "Diferir la colonoscopia electiva entre 6 y 8 semanas tras la resolución completa del cuadro agudo para descartar adenocarcinoma de colon; no se recomienda restringir el consumo de nueces, semillas o maíz, aconsejándose un incremento sostenido de fibra dietética (25 a 35 g/día).",
+        "C": "Diferir la colonoscopia 18 meses tras el evento agudo; indicar dieta líquida libre de residuos de por vida.",
+        "D": "Contraindicación definitiva de colonoscopia de por vida en todo paciente con divertículos; indicar colectomía profiláctica de intervalo."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Seguimiento_Colonoscopia_Dieta",
+      "gpc_algorithm_step": "La GPC CENETEC establece que en todo paciente con diverticulitis aguda se debe programar una colonoscopia electiva diferida de 6 a 8 semanas después de la resolución clínica total del episodio agudo. Este intervalo permite que el edema inflamatorio y la fragilidad transmural remitan, disminuyendo drásticamente el riesgo de perforación iatrogénica por el endoscopio, con el objetivo primordial de descartar un adenocarcinoma colorrectal o enfermedad inflamatoria intestinal (el cáncer de colon puede mimetizar diverticulitis en 2-5% de casos). Respecto a la dieta, la evidencia científica y las guías han desmentido el mito de evitar nueces, semillas, palomitas de maíz o frutas con semillas pequeñas (no existe asociación con recurrencia). Por el contrario, se recomienda una dieta rica en fibra soluble e insoluble (25-35 g/día) y abundante agua para regular el tránsito.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Creer en el mito popular de prohibir semillas y nueces; los estudios epidemiológicos de cohorte a gran escala han demostrado que su consumo no aumenta el riesgo de diverticulitis y puede ser protector por su alto contenido en fibra."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuándo se realiza la colonoscopia post-diverticulitis y cuál es la postura sobre semillas y nueces?",
+        "back": "Diferida a las 6-8 semanas post-resolución (descarta cáncer colónico). NO se restringen semillas ni nueces; se indica dieta rica en fibra (25-35 g/día).",
+        "tags": "D17 Cirugia Diverticulitis Colonoscopia Semillas Fibra GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q17",
+      "index": 17,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Diverticulitis Aguda Complicada con Absceso y Peritonitis Séptica",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Masculino de 68 años con antecedente de hipertensión arterial y enfermedad diverticular sigmoidea no complicada hace 2 años, ingresa a urgencias por dolor continuo de 4 días de evolución en cuadrante inferior izquierdo e hipogastrio, fiebre de 39.0 °C, escalofríos y anorexia. A la exploración física: TA 122/78 mmHg, FC 98 lpm, FR 20 rpm. Abdomen blando pero sumamente doloroso en fosa ilíaca izquierda, donde se palpa una masa empastada fija de bordes mal definidos con rebote positivo localizado. Laboratorios: leucocitos 17,600/mcL con 14% de bandas; glucosa 142 mg/dL; creatinina 1.0 mg/dL; PCR 175 mg/L. La TAC abdominopélvica contrastada demuestra diverticulitis sigmoidea severa y una colección líquida hipodensa con gas en su interior y cápsula bien definida con realce en anillo, localizada en el fondo de saco de Douglas (pélvica a distancia), con un diámetro máximo de 5.6 cm. No se observa neumoperitoneo libre subdiafragmático.",
+      "question_text": "Con base en la clasificación de Hinchey modificada y el algoritmo terapéutico de la GPC CENETEC, ¿a qué estadio corresponde este cuadro y cuál es la intervención de elección para el manejo de esta colección en un paciente hemodinámicamente estable?",
+      "options": {
+        "A": "Hinchey Ia (flemón pericólico); antibioticoterapia oral ambulatoria por 7 días sin drenaje.",
+        "B": "Hinchey Ib (microabsceso pericólico < 4 cm); laparotomía de urgencia para hemicolectomía izquierda con anastomosis primaria.",
+        "C": "Hinchey II (absceso pélvico a distancia ≥ 4-5 cm); antibioticoterapia intravenosa de amplio espectro más drenaje percutáneo guiado por TAC o ecografía.",
+        "D": "Hinchey IV (peritonitis fecaloidea generalizada); colocación urgente de stent colónico autoexpandible vía rectal."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Hinchey_II_Drenaje_Percutaneo",
+      "gpc_algorithm_step": "La GPC CENETEC y la clasificación de Hinchey modificada por Wasvary definen como Estadio II la presencia de un absceso a distancia (pélvico, retroperitoneal o intraabdominal). El algoritmo formal de la GPC establece un punto de corte volumétrico crucial: ante abscesos con diámetro ≥ 4 a 5 cm en pacientes hemodinámicamente estables y sin peritonitis difusa, la conducta de primera elección es el drenaje percutáneo guiado por imagen (TAC o ultrasonido) combinado con reposo intestinal y antibioticoterapia intravenosa de amplio espectro. Esta estrategia es exitosa en más del 80-85% de los casos, logrando el control del foco infeccioso y evitando una laparotomía de urgencia mórbida con estoma.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar cirugía abierta urgente en un paciente hemodinámicamente estable con un absceso drenable; someterlo a cirugía abierta innecesaria incrementa la morbimortalidad y suele terminar en un estoma evitable."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es el manejo de elección para un absceso diverticular Hinchey II ≥4-5 cm en paciente estable según GPC?",
+        "back": "Drenaje percutáneo guiado por TAC o ecografía más antibioticoterapia intravenosa de amplio espectro.",
+        "tags": "D17 Cirugia Diverticulitis Hinchey II Absceso Percutaneo GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q18",
+      "index": 18,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Diverticulitis Aguda Complicada con Absceso y Peritonitis Séptica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "El paciente de 68 años con absceso pélvico de 5.6 cm es internado. A las 24 horas, antes de completarse el drenaje intervencionista, presenta deterioro clínico catastrófico: inicio brusco de dolor abdominal generalizado intolerable, colapso circulatorio y alteración del sensorio. Signos vitales: TA 74/46 mmHg (PAM 55 mmHg), FC 138 lpm, FR 30 rpm, Temperatura 39.4 °C, SatO2 88% al aire ambiente. A la exploración física: abdomen en madera (tabla) con rigidez involuntaria y rebote difuso en los cuatro cuadrantes (signo de Gueneau de Mussy). Gasometría arterial: pH 7.19, PaO2 62 mmHg, PaCO2 29 mmHg, HCO3 12 mEq/L, lactato sérico 5.2 mmol/L. Se infunden 30 mL/kg de cristaloides y se inicia infusión de norepinefrina. La radiografía toracoabdominal de pie demuestra neumoperitoneo masivo con aire libre bilateral subdiafragmático (signo de Popper) y peritonitis fecaloidea generalizada por rotura diverticular libre (Hinchey IV).",
+      "question_text": "Con base en la GPC CENETEC y los principios de control de daños y cirugía de urgencia en abdomen agudo séptico descompensado, ¿cuál es el procedimiento quirúrgico de urgencia mandatorio?",
+      "options": {
+        "A": "Sigmoidectomía con colostomía terminal en fosa ilíaca izquierda y cierre del muñón rectal (Procedimiento de Hartmann).",
+        "B": "Resección del segmento colónico afectado con anastomosis primaria término-terminal inmediata sin ostomía.",
+        "C": "Lavado peritoneal laparoscópico simple y colocación de drenajes blandos sin resección del segmento colónico perforado.",
+        "D": "Ileostomía de protección en asa sin explorar la pelvis ni resecar el colon enfermo."
+      },
+      "correctAnswer": "A",
+      "pivot_concept": "Procedimiento_Hartmann_Hinchey_IV",
+      "gpc_algorithm_step": "La GPC CENETEC y las guías de la WSES establecen de forma categórica que en pacientes con diverticulitis perforada con peritonitis fecaloidea generalizada (Hinchey IV) o peritonitis purulenta grave que cursan con inestabilidad hemodinámica, acidosis metabólica severa y choque séptico dependiente de vasopresores, el procedimiento de elección salvador es el Procedimiento de Hartmann (resección del sigmoides enfermo perforado, colostomía terminal en fosa ilíaca izquierda y cierre o exteriorización del muñón rectal distal). Realizar una anastomosis primaria en presencia de choque séptico, hipoperfusión tisular, heces difusas en el peritoneo y soporte vasopresor condiciona una tasa catastrófica de dehiscencia anastomótica (>40%) y muerte. El lavado peritoneal sin resección fracasa invariablemente en Hinchey IV.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar resección con anastomosis primaria en un paciente en choque séptico con lactato de 5.2 y norepinefrina; la anastomosis colónica está contraindicada por fallo de microcirculación y dehiscencia fatal."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la cirugía de elección en diverticulitis Hinchey IV con peritonitis fecaloidea y choque séptico?",
+        "back": "Procedimiento de Hartmann (sigmoidectomía con colostomía terminal y cierre del muñón rectal). Anastomosis primaria contraindicada.",
+        "tags": "D17 Cirugia Diverticulitis Hinchey IV Hartmann Choque Septico GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q19",
+      "index": 19,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Diverticulitis Aguda Complicada con Absceso y Peritonitis Séptica",
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Durante la misma guardia, se presenta a quirófano un varón de 49 años con diverticulitis perforada Hinchey III (peritonitis purulenta generalizada sin heces libres en cavidad). El paciente se encuentra hemodinámicamente ESTABLE (TA 120/75 mmHg, FC 82 lpm, lactato sérico 1.2 mmol/L, sin acidosis y sin requerimiento de fármacos vasopresores), con tejidos intraperitoneales viables y sin comorbilidades. El cirujano adscrito discute con el residente las tendencias quirúrgicas actuales contempladas en la literatura especializada y en la GPC para este grupo selecto de bajo riesgo.",
+      "question_text": "En un paciente con peritonitis purulenta (Hinchey III) hemodinámicamente ESTABLE, ¿cuál es la alternativa quirúrgica validada al procedimiento de Hartmann que permite restaurar el tránsito en el mismo tiempo evitando una colostomía terminal?",
+      "options": {
+        "A": "Sutura primaria simple del orificio perforado con catgut crómico sin resección colónica.",
+        "B": "Resección del segmento sigmoideo afectado con anastomosis primaria (con o sin ileostomía de protección en asa).",
+        "C": "Colocación de parche de epiplón tipo Graham sin resección ni lavado de cavidad.",
+        "D": "Lavado peritoneal simple por laparotomía dejando el colon perforado abierto a cavidad."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Hinchey_III_Estable_Anastomosis_Primaria",
+      "gpc_algorithm_step": "En contraste con el Hinchey IV o el paciente en choque séptico, la GPC y consensos quirúrgicos señalan que en pacientes altamente seleccionados con peritonitis purulenta (Hinchey III) que se encuentren hemodinámicamente estables, jóvenes, normotensos, sin acidosis ni vasopresores, la resección del colon sigmoides con anastomosis primaria (con o sin ileostomía de protección temporal en asa) es una alternativa segura al procedimiento de Hartmann. Esta técnica evita la necesidad de una segunda cirugía mayor de alta complejidad para reconexión de Hartmann, la cual se asocia con hasta un 30-40% de estomas permanentes de por vida. El parche de Graham es exclusivo para úlcera péptica y la sutura simple colónica fracasa por dehiscencia.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Asumir que TODO Hinchey III requiere Hartmann; en pacientes estables sin heces ni choque, la resección con anastomosis primaria protegida es una opción terapéutica bien respaldada."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la alternativa al procedimiento de Hartmann en diverticulitis Hinchey III en paciente hemodinámicamente estable?",
+        "back": "Resección sigmoidea con anastomosis primaria (con o sin ileostomía de derivación temporal en asa).",
+        "tags": "D17 Cirugia Diverticulitis Hinchey III Anastomosis Primaria GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q20",
+      "index": 20,
+      "case_id": "SERIADO-5",
+      "case_title": "Caso Seriado 5: Diverticulitis Aguda Complicada con Absceso y Peritonitis Séptica",
+      "is_english": false,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Masculino de 60 años con antecedente de tres episodios previos de diverticulitis sigmoidea en los últimos 3 años manejados con esquemas antimicrobianos ambulatorios. Consulta por un cuadro de 6 semanas de evolución caracterizado por disuria recurrente y sensación repetida de 'burbujeo' y expulsión de gas por la uretra al terminar de orinar (neumaturia), asociado a orina turbia con olor fétido y ocasional salida de grumos oscuros con aspecto de materia fecal (fecaluria). Ha recibido tres esquemas de antibióticos por supuesta cistitis bacteriana no complicada sin mejoría. Los urocultivos han reportado desarrollo polimicrobiano persistente de Escherichia coli y Bacteroides fragilis.",
+      "question_text": "Con base en la fisiopatología de las complicaciones crónicas de la enfermedad diverticular y la GPC CENETEC, ¿cuál es el diagnóstico clínico, cuál es la variedad más frecuente de fístula diverticular y cuál es el estudio de imagen de elección para su confirmación?",
+      "options": {
+        "A": "Fístula colocutánea espontánea; ultrasonido vesical simple.",
+        "B": "Fístula colovesical secundaria a enfermedad diverticular (la fístula colónica más frecuente, 65%); el estudio de imagen de elección es la Tomografía Computarizada abdominopélvica contrastada oral/rectal y sin contraste IV que demuestra gas en la vejiga sin manipulación previa y engrosamiento mural contiguo.",
+        "C": "Cistitis enfisematosa por Clostridium perfringens; cistoscopia obligatoria como estudio inicial antes de cualquier imagen.",
+        "D": "Fístula enterocólica primaria; radiografía simple de tórax en dos posiciones."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Fistula_Colovesical_Neumaturia_TAC",
+      "gpc_algorithm_step": "La fístula colovesical es la complicación fistulosa más frecuente de la enfermedad diverticular (representa más del 65% de todas las fístulas colónicas), siendo más común en varones (en mujeres el útero actúa como barrera protectora anatómica interpuesto entre el colon y la vejiga, salvo antecedente de histerectomía). La tríada clínica característica o hallazgos patognomónicos son la neumaturia (expulsión de gas por la uretra), la fecaluria (heces en orina) e infecciones urinarias recurrentes polimicrobianas (gramnegativos + anaerobios). La GPC CENETEC define que el estudio de imagen de elección es la TAC abdominopélvica (preferentemente con contraste rectal/oral y sin contraste IV vesical precoz) que evidencia aire intravesical en ausencia de sondaje vesical reciente, engrosamiento contiguo de la pared sigmoidea y de la cúpula vesical y trayecto fistuloso.",
+      "distractor_trap": {
+        "trap_type": "Ruido de Laboratorio",
+        "explanation": "Catalogar el cuadro como infección de vías urinarias recurrente o prostatitis crónica y seguir administrando antibióticos orales sin investigar la fístula colovesical ante los datos cardinales de neumaturia y fecaluria."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuáles son los signos patognomónicos de la fístula colovesical diverticular y cuál es el estudio de elección?",
+        "back": "Neumaturia, fecaluria e ITUs polimicrobianas recurrentes. Estudio de elección: TAC abdominopélvica (muestra gas intravesical y engrosamiento mural).",
+        "tags": "D17 Cirugia Diverticulitis Fistula Colovesical Neumaturia TAC GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q21",
+      "index": 21,
+      "case_id": null,
+      "case_title": null,
+      "is_english": false,
+      "cognitive_order": "3er_Orden",
+      "vignette": "Masculino de 54 años con antecedentes de cirrosis hepática descompensada de etiología etílica (Child-Pugh B, 8 puntos; MELD-Na 15), acude a consulta externa de cirugía general por presentar una hernia umbilical de 4 cm de diámetro que ha aumentado progresivamente de tamaño en los últimos 4 meses. A la exploración física el paciente se encuentra ictérico, con abdomen globoso a expensas de ascitis moderada a tensión con onda ascítica positiva. La masa umbilical es reductible con suavidad pero la piel que cubre el saco está sumamente adelgazada, tensa, brillante y muestra una pequeña escara ulcerosa central de 3 mm con riesgo inminente de ruptura espontánea y fuga de líquido ascítico (signo de Flood inminente).",
+      "question_text": "Con base en la GPC para el manejo de hernias de la pared abdominal y las recomendaciones en pacientes cirróticos con ascitis, ¿cuál es la conducta preoperatoria prioritaria antes de realizar la reparación herniaria electiva para prevenir fístula ascítica, peritonitis bacteriana espontánea y falla hepatorrenal?",
+      "options": {
+        "A": "Intervención quirúrgica inmediata de urgencia sin optimización de la ascitis ni reposición de albúmina.",
+        "B": "Control y optimización médica rigurosa de la ascitis mediante restricción estricta de sodio, terapia diurética combinada (espironolactona + furosemida) y paracentesis evacuadora total con infusión de albúmina intravenosa previa a la plastia electiva con colocación prudente de material protésico.",
+        "C": "Colocación de catéter de drenaje peritoneal rígido permanente a gravedad en el domicilio y contraindicación absoluta permanente de cirugía.",
+        "D": "Escleroterapia percutánea del saco herniario con alcohol absoluto para cerrar el anillo por fibrosis química."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Hernia_Umbilical_Cirrotico_Ascitis",
+      "gpc_algorithm_step": "La GPC IMSS-238-09 y los lineamientos de la Asociación Mexicana de Hernia y AASLD establecen que en pacientes cirróticos con hernia umbilical y ascitis no complicada, la cirugía electiva NUNCA debe realizarse sin antes optimizar médicamente la presión intraabdominal y la ascitis. El manejo prioritario consiste en dieta hiposódica, ajuste de diuréticos (espironolactona 100 mg/día + furosemida 40 mg/día en relación 100:40) y paracentesis evacuadoras de gran volumen con reposición de albúmina (8 g por cada litro extraído por arriba de 5 L) en los días previos a la cirugía. Operar a un cirrótico con ascitis a tensión descompensada condiciona fuga masiva de líquido ascítico a través de la herida quirúrgica (fístula ascítica), peritonitis bacteriana espontánea, dehiscencia, evisceración y una mortalidad perioperatoria superior al 30%.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Indicar cirugía de urgencia directa sin descomprimir ni optimizar la ascitis; la falta de control preoperatorio de la ascitis es el factor predictor más importante de dehiscencia y muerte en cirróticos."
+      },
+      "anki_flashcard": {
+        "front": "¿Cuál es la conducta preoperatoria mandatoria en un paciente cirrótico con hernia umbilical y ascitis?",
+        "back": "Optimización estricta de ascitis (restricción sódica, diuréticos y paracentesis con albúmina) antes de la plastia electiva para evitar fístula y muerte.",
+        "tags": "D17 Cirugia Hernia Umbilical Cirrosis Ascitis Albúmina GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q22",
+      "index": 22,
+      "case_id": "SERIADO-6",
+      "case_title": "Case Seriado 6: Acute Incarcerated Groin Hernia with Intestinal Ischemia and Sepsis",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "A 73-year-old male with a longstanding, previously easily reducible right groin bulge presents to the emergency department complaining of 10 hours of sudden, excruciating, constant pain in the right groin and scrotum (VAS 9/10). The patient reports obstipation (failure to pass flatus or feces for 8 hours) and three episodes of bilious vomiting. Vital signs: blood pressure 132/82 mmHg, heart rate 106 bpm, respiratory rate 22 breaths/min, temperature 38.3 °C. Abdominal examination reveals mild distension with high-pitched, metallic bowel sounds. In the right groin, an exquisitely tender, irreducible 6 x 4 cm mass is palpated protruding through the external inguinal ring into the upper scrotum. The overlying skin is tense, warm, and displays marked erythematous and violaceous discoloration. Laboratory findings: Hb 14.2 g/dL, leukocytes 18,200/mcL with 87% neutrophils and 8% band forms, serum creatinine 1.2 mg/dL, and serum lactate 3.2 mmol/L (reference < 2.0 mmol/L).",
+      "question_text": "According to Mexican clinical practice guidelines (GPC IMSS-065-08) and emergency surgical standards, what is the most accurate clinical diagnosis and why is forceful manual reduction (taxis) strictly contraindicated?",
+      "options": {
+        "A": "Uncomplicated direct inguinal hernia; manual reduction under intravenous fentanyl sedation is the first-line treatment before hospital discharge.",
+        "B": "Strangulated inguinal hernia with bowel ischemia; forceful manual taxis is strictly contraindicated because reducing a necrotic bowel loop into the peritoneal cavity causes reduction 'en masse' or frank perforation with feculent peritonitis and septic shock; urgent surgical exploration is mandatory.",
+        "C": "Acute testicular torsion; urgent bedside 360-degree manual external detorsion should be completed immediately without surgical scheduling.",
+        "D": "Right acute inguinal lymphadenitis; outpatient treatment with oral amoxicillin and warm local compresses."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Diagnostico_Estrangulacion_Contraindicacion_Taxis",
+      "gpc_algorithm_step": "According to the GPC IMSS-065-08, the presence of an irreducible groin mass accompanied by acute severe pain lasting >6 hours, systemic inflammatory signs (tachycardia, fever, leukocytosis with bandemia), elevated serum lactate, and cutaneous inflammatory changes (erythema, violaceous discoloration) establishes the definitive diagnosis of a strangulated hernia with visceral compromise. Forceful manual taxis is absolutely contraindicated in this scenario. Forcing non-viable, ischemic intestine back into the abdominal cavity can cause either reduction 'en masse' (reducing the bowel sac while the constricting neck remains intact) or direct bowel perforation, spilling bacteria and feces into the sterile peritoneal cavity and unleashing generalized peritonitis and refractory septic shock. Emergent surgical intervention is mandatory.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Attempting manual taxis in an incarcerated hernia with cutaneous violaceous changes, elevated lactate, and >6 hours of symptoms precipitates lethal peritoneal contamination."
+      },
+      "anki_flashcard": {
+        "front": "Why is forceful manual taxis strictly contraindicated in a strangulated groin hernia (GPC IMSS-065-08)?",
+        "back": "Risk of reduction 'en masse' or intraperitoneal bowel perforation of a necrotic loop, causing generalized peritonitis and fatal septic shock.",
+        "tags": "D17 Surgery Hernia Strangulated Taxis Contraindication GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q23",
+      "index": 23,
+      "case_id": "SERIADO-6",
+      "case_title": "Case Seriado 6: Acute Incarcerated Groin Hernia with Intestinal Ischemia and Sepsis",
+      "is_english": true,
+      "cognitive_order": "3er_Orden",
+      "vignette": "The 73-year-old patient receives rapid intravenous volume resuscitation with isotonic balanced crystalloids and broad-spectrum antimicrobial prophylaxis (ceftriaxone 1 g IV plus metronidazole 500 mg IV) and is immediately transferred to the operating theater. Through a right anterior inguinotomy, the hernia sac is opened, releasing 35 mL of turbid, malodorous, serosanguinous fluid. An 11-cm loop of ileum is found tightly incarcerated at the deep inguinal ring. The bowel loop appears purplish-black, aperistaltic, and pulseless. The constricting deep ring is carefully incised. The bowel segment is wrapped in warm saline packs and 100% FiO2 is delivered for 15 minutes. Re-inspection reveals persistent lack of peristalsis, lack of mesenteric pulsation, and full-thickness transmural necrosis.",
+      "question_text": "According to surgical guidelines and GPC IMSS-065-08, what is the mandatory visceral surgical management and which abdominal wall repair strategy is recommended in this contaminated surgical field?",
+      "options": {
+        "A": "Reduce the gangrenous bowel segment back into the abdomen without resection and place a heavy-weight polypropylene synthetic mesh over the floor.",
+        "B": "Perform small bowel segmental resection of the necrotic segment with primary end-to-end anastomosis, followed by an anatomical tissue repair (e.g., McVay or Shouldice technique) or judicious monofilament/biologic repair, strictly avoiding conventional synthetic permanent mesh in a grossly contaminated field.",
+        "C": "Perform immediate total proctocolectomy with permanent Brooke ileostomy and leave the inguinal canal unrepaired.",
+        "D": "Close the skin only with metallic staples, omitting bowel resection and transferring the patient to hospice care."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Reseccion_Intestinal_Hernia_Contaminada",
+      "gpc_algorithm_step": "According to GPC IMSS-065-08, when intraoperative evaluation confirms non-viable, necrotic bowel that fails to recover after release and warm laparotomy sponge application, an immediate segmental bowel resection with primary anastomosis (entero-enterostomy) must be performed. In the setting of gross bacterial contamination (malodorous fluid, gangrenous bowel, bowel resection), the placement of conventional synthetic non-absorbable mesh (e.g., standard polypropylene) is strongly discouraged or contraindicated due to the high probability of prosthetic infection, chronic fistulization, and extrusion. The standard recommendation is an anatomical, non-prosthetic tissue repair (such as the McVay or Shouldice repair) or, where feasible, a biosynthetic/biologic scaffold.",
+      "distractor_trap": {
+        "trap_type": "Tratamiento Correcto, Paciente Incorrecto",
+        "explanation": "Placing a permanent heavy-weight synthetic mesh in an openly contaminated operating field with necrotic small bowel resection results in severe mesh infection and enterocutaneous fistula."
+      },
+      "anki_flashcard": {
+        "front": "What is the recommended hernia repair technique when bowel resection for gangrene is performed in a contaminated field?",
+        "back": "Segmental bowel resection with primary anastomosis and anatomical tissue repair (McVay / Shouldice), avoiding standard synthetic mesh (GPC IMSS-065-08).",
+        "tags": "D17 Surgery Hernia Bowel Resection Contaminated McVay GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q24",
+      "index": 24,
+      "case_id": "SERIADO-6",
+      "case_title": "Case Seriado 6: Acute Incarcerated Groin Hernia with Intestinal Ischemia and Sepsis",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "Following successful small bowel resection and hand-sewn end-to-end anastomosis, the surgical team proceeds to reconstruct the inguinal floor. The attending surgeon quizzes the resident regarding neural anatomy within the inguinal canal to avoid iatrogenic nerve transection or entrapment during tissue suturing, which would lead to postoperative chronic groin neuralgia (inguinodynia).",
+      "question_text": "According to GPC IMSS-065-08 and clinical anatomy, which nerve travels along the anterior surface of the spermatic cord within the inguinal canal (ventral to the cremasteric muscle fibers) providing sensory innervation to the upper scrotum/labium majus and root of the penis, and must be meticulously identified and preserved?",
+      "options": {
+        "A": "Lateral femoral cutaneous nerve.",
+        "B": "Femoral branch of the genitofemoral nerve.",
+        "C": "Ilioinguinal nerve (and/or anterior scrotal branch).",
+        "D": "Sciatic nerve."
+      },
+      "correctAnswer": "C",
+      "pivot_concept": "Anatomia_Nerviosa_Inguinal_Preservacion",
+      "gpc_algorithm_step": "The GPC IMSS-065-08 highlights the preservation of three major neural structures in open anterior inguinal surgery: the iliohypogastric nerve, the ilioinguinal nerve, and the genital branch of the genitofemoral nerve. Specifically, the ilioinguinal nerve (L1) emerges through the internal oblique muscle, enters the inguinal canal, travels ventral to the spermatic cord beneath the external oblique aponeurosis, and exits through the superficial inguinal ring to supply sensory branches to the skin of the upper scrotum (or labia majora) and root of the penis. Accidental entrapment, suture transfixion, or excessive traction of this nerve is the leading cause of chronic debilitating neuropathic pain following open inguinal herniorrhaphy.",
+      "distractor_trap": {
+        "trap_type": "Guía Gringa",
+        "explanation": "Confusing the ilioinguinal nerve with the femoral branch of the genitofemoral nerve; the femoral branch passes underneath the inguinal ligament into the vascular lacuna, whereas the ilioinguinal nerve runs inside the inguinal canal over the spermatic cord."
+      },
+      "anki_flashcard": {
+        "front": "Which nerve travels inside the inguinal canal ventral to the spermatic cord, supplying the upper scrotum and root of the penis?",
+        "back": "The ilioinguinal nerve (L1). Its surgical injury or entrapment causes chronic neuropathic inguinodynia.",
+        "tags": "D17 Surgery Hernia Ilioinguinal Anatomy Inguinodynia GPC"
+      }
+    },
+    {
+      "id": "d17_sim_q25",
+      "index": 25,
+      "case_id": "SERIADO-6",
+      "case_title": "Case Seriado 6: Acute Incarcerated Groin Hernia with Intestinal Ischemia and Sepsis",
+      "is_english": true,
+      "cognitive_order": "2do_Orden",
+      "vignette": "The 73-year-old patient achieves full postoperative recovery, successfully tolerates an oral regular diet on postoperative day 3, passes normal flatus and bowel movements, and is discharged on postoperative day 5. Three weeks later, he attends his routine postoperative clinic appointment. The surgical incision is completely healed with no signs of infection or bulging. He inquires about the mandatory recommendations regarding physical exertion, heavy lifting, and the appropriate timeline for returning to regular non-strenuous daily activities.",
+      "question_text": "According to GPC IMSS-065-08 recommendations, what is the formal advice regarding physical activity restriction, management of intra-abdominal pressure factors, and anticipated timeline for returning to light and moderate work?",
+      "options": {
+        "A": "Strict permanent bed rest in supine position for 12 months with total lifelong restriction from standing or walking.",
+        "B": "Avoidance of heavy lifting (>10 kg) and strenuous physical exertion for at least 4 to 6 weeks, proactive treatment and prevention of chronic cough, constipation, and straining, with return to sedentary/light work recommended between 14 to 28 days postoperatively.",
+        "C": "Immediate resumption of intense heavy weightlifting and intense abdominal crunches at 1 week postoperatively to strengthen aponeurotic tissue.",
+        "D": "Indefinite total fluid restriction (<500 mL/day) and prophylactic permanent Foley catheterization to prevent bladder expansion."
+      },
+      "correctAnswer": "B",
+      "pivot_concept": "Recomendaciones_Egreso_Retorno_Laboral",
+      "gpc_algorithm_step": "The GPC IMSS-065-08 provides clear postoperative discharge recommendations to minimize recurrence and optimize tissue healing: avoidance of heavy lifting (>10 kg) and vigorous athletic exertion for at least 4 to 6 weeks. Any predisposing factors that increase intra-abdominal pressure (chronic cough due to COPD, constipation, benign prostatic hyperplasia straining) must be actively managed. For light and sedentary work, return to activity is typically authorized within 14 to 28 days depending on individual clinical recovery. Lifelong bed rest or extreme exercise at 1 week represent dangerous extremes that either harm systemic health or tear the healing fascial repair.",
+      "distractor_trap": {
+        "trap_type": "Cierre Prematuro",
+        "explanation": "Prescribing prolonged unnecessary bed rest or allowing premature heavy lifting; the GPC provides evidence-based parameters of 14-28 days for return to light work and 4-6 weeks restriction for heavy lifting."
+      },
+      "anki_flashcard": {
+        "front": "What are the formal discharge recommendations following inguinal hernia repair according to GPC IMSS-065-08?",
+        "back": "Avoid heavy lifting (>10 kg) for 4-6 weeks; treat cough/constipation; return to sedentary/light work between 14-28 days.",
+        "tags": "D17 Surgery Hernia Postoperative Discharge Return To Work GPC"
+      }
+    }
+  ]
+}

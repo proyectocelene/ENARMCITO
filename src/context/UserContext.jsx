@@ -153,27 +153,22 @@ export function UserProvider({ children }) {
   useEffect(() => {
     async function init() {
       try {
-        // Purgar una sola vez claves viejas de topics con mocks previos en el navegador
-        if (!localStorage.getItem("enarmcito_purged_mocks_v3")) {
+        // Purgar una sola vez claves viejas de topics con mocks o cachés sin reactivos
+        if (!localStorage.getItem("enarmcito_purged_topics_v4")) {
           const keysToRemove = [];
           for (let i = 0; i < localStorage.length; i++) {
             const k = localStorage.key(i);
             if (
               k && (
                 k.startsWith("enarmcito_topic_") ||
-                k.startsWith("enarmcito_anki_deck_") ||
-                k.startsWith("enarmcito_pretest_answers_") ||
-                k.startsWith("enarmcito_attempts") ||
-                k === "enarmcito_topic_d01" ||
-                k === "enarmcito_flashcards" ||
-                k === "enarmcito_users_state"
+                k === "enarmcito_topic_d01"
               )
             ) {
               keysToRemove.push(k);
             }
           }
           keysToRemove.forEach((k) => localStorage.removeItem(k));
-          localStorage.setItem("enarmcito_purged_mocks_v3", "true");
+          localStorage.setItem("enarmcito_purged_topics_v4", "true");
         }
 
         const u = await getUsersState();
@@ -288,6 +283,50 @@ export function UserProvider({ children }) {
   const partnerId = activeId === "donato" ? "sonia" : "donato";
   const partnerUser = users[partnerId] || INITIAL_USERS_STATE[partnerId];
 
+  // Obtener estado específico por día / tema (evita que un tema marque a los demás como hechos)
+  const getDayStatus = (dayCode) => {
+    const code = dayCode || activeDayCode || "D01";
+
+    // 1. Si existe progreso guardado explícito para ese día
+    if (currentUser.day_progress && currentUser.day_progress[code]) {
+      return currentUser.day_progress[code];
+    }
+
+    // 2. Si el día solicitado es HOY ("D01") y solo está en today_status
+    if (code === getTodayDayCode() && currentUser.today_status?.phase0_done) {
+      return currentUser.today_status;
+    }
+
+    // 3. Revisar si hay intento guardado en LocalStorage para ese día/tema
+    try {
+      const attempts = JSON.parse(localStorage.getItem("enarmcito_attempts") || "[]");
+      const matched = attempts.find(a => 
+        (a.topicId && a.topicId.startsWith(code)) || 
+        (a.dayCode === code)
+      );
+      if (matched) {
+        return {
+          phase0_done: true,
+          phase0_score: matched.stats?.grossScorePercent || 0,
+          phase1_done: false,
+          phase2_done: false,
+          phase3_done: false
+        };
+      }
+    } catch {}
+
+    // 4. Por defecto, el tema NO ha sido contestado
+    return {
+      phase0_done: false,
+      phase0_score: 0,
+      phase1_done: false,
+      phase2_done: false,
+      phase2_cards_reviewed: 0,
+      phase3_done: false,
+      phase3_score: 0
+    };
+  };
+
   // Marcar fase como completada y otorgar XP con confeti
   const markPhaseComplete = async (phaseNumber, extraData = {}) => {
     const fieldMap = {
@@ -300,18 +339,23 @@ export function UserProvider({ children }) {
     if (!key) return;
 
     const xpGained = phaseNumber === 0 ? 100 : phaseNumber === 3 ? 150 : 50;
-    const currentTodayStatus = currentUser.today_status || {};
-    const newStatus = {
-      ...currentTodayStatus,
+    const currentDayStatus = getDayStatus(activeDayCode);
+    const newDayStatus = {
+      ...currentDayStatus,
       [key]: true,
       ...extraData
+    };
+
+    const updatedDayProgress = {
+      ...(currentUser.day_progress || {}),
+      [activeDayCode]: newDayStatus
     };
 
     // Registrar tema completado si se completaron las 4 fases
     const updatedCompletedDays = {
       ...(currentUser.completed_days || {})
     };
-    if (newStatus.phase0_done && newStatus.phase1_done && newStatus.phase2_done && newStatus.phase3_done) {
+    if (newDayStatus.phase0_done && newDayStatus.phase1_done && newDayStatus.phase2_done && newDayStatus.phase3_done) {
       updatedCompletedDays[activeDayCode] = true;
     }
 
@@ -321,9 +365,12 @@ export function UserProvider({ children }) {
       origin: { y: 0.6 }
     });
 
+    const isToday = activeDayCode === getTodayDayCode();
+
     await updateUserData(activeId, {
       xp: (currentUser.xp || 0) + xpGained,
-      today_status: newStatus,
+      day_progress: updatedDayProgress,
+      today_status: isToday ? newDayStatus : (currentUser.today_status || {}),
       completed_days: updatedCompletedDays
     });
   };
@@ -394,6 +441,7 @@ export function UserProvider({ children }) {
         targetUserId,
         topic,
         setTopic,
+        getDayStatus,
         markPhaseComplete,
         sendCheerToPartner,
         incomingCheer,
